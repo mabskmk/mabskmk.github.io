@@ -897,6 +897,7 @@ mydiv='Catherine Palace',special='j6sxwx_VvNQ',destroyed=''
 break;
 
 
+
 case 562:
 mydiv='Usayama_Castle',special='',destroyed='I_GBpKq2u5I'
 break;
