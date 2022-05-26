@@ -893,7 +893,7 @@ case 553:
 mydiv='Shirasagi_Castle',special='cZi82HdQ3ug',destroyed=''
 break;
 case 561:
-mydiv='Catherine Palace',special='j6sxwx_VvNQ',destroyed=''
+mydiv='Catherine_Palace',special='j6sxwx_VvNQ',destroyed=''
 break;
 
 
