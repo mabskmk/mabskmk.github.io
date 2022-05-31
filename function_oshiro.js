@@ -153,7 +153,7 @@ case 72:
 mydiv='Tsuzura_Ojo',special='',destroyed=''
 break;
 case 74:
-mydiv='Tsuwano_Castle',special='',destroyed=''
+mydiv='Tsuwano_Castle',special='vtFh4_Cs0Vw',destroyed=''
 break;
 case 76:
 mydiv='Takamatsu_Castle',special='8Dhv8hLl4n8',destroyed=''
