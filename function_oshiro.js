@@ -255,7 +255,7 @@ case 123:
 mydiv='Yanagawa_Castle',special='vA2841iDPkc',destroyed=''
 break;
 case 124:
-mydiv='Ishigakiyama_Castle',special='',destroyed=''
+mydiv='Ishigakiyama_Castle',special='rjUPwSet-JI',destroyed=''
 break;
 case 125:
 mydiv='Imabari_Castle',special='i-1YIe-bVe8',destroyed=''
@@ -572,7 +572,7 @@ case 329:
 mydiv='Nakijin_Castle',special='',destroyed=''
 break;
 case 330:
-mydiv='Ryugu_Castle',special='v9bYLh_687g',destroyed=''
+mydiv='Ryugu_Castle',special='v9bYLh_687g',destroyed='ppG2QiQPOJw'
 break;
 case 334:
 mydiv='Momochi Fortress',special='7xBpNHd0EQM',destroyed=''
