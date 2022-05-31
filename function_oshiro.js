@@ -13,7 +13,7 @@ oshiro((x),1)
 }
 
 
-//DOWNLOAD-STAGE
+//CASTLES
 function oshiro(numero,cod) {
 mydiv='';special='';destroyed='';
 switch (numero) {
