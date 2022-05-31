@@ -797,7 +797,7 @@ case 456:
 mydiv='Izu_Shimoda_Castle',special='',destroyed=''
 break;
 case 458:
-mydiv='Ejiri_Castle',special='',destroyed=''
+mydiv='Ejiri_Castle',special='OOmTf3p-I9M',destroyed=''
 break;
 case 461:
 mydiv='Rasnov_Fortress',special='GgBzdeTukFg',destroyed=''
