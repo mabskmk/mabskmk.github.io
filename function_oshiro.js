@@ -309,7 +309,7 @@ case 147:
 mydiv='Anping_Old_Fort',special='smqO17RvxRY',destroyed=''
 break;
 case 148:
-mydiv='Orange_Castle',special='',destroyed=''
+mydiv='Orange_Castle',special='tCgA26Qum4M',destroyed=''
 break;
 case 149:
 mydiv='Fort_Zeelandia',special='7_v9zv1vaw4',destroyed=''
