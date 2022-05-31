@@ -665,7 +665,7 @@ case 381:
 mydiv='Heidelberg_Castle',special='V9wJy3-3v8k',destroyed=''
 break;
 case 382:
-mydiv='San_Leo_Castle',special='',destroyed=''
+mydiv='San_Leo_Castle',special='o3_cUdY9Ehs',destroyed=''
 break;
 case 384:
 mydiv='Heijo-kyo',special='T-iNmbhWVso',destroyed=''
