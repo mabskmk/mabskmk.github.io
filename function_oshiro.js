@@ -345,7 +345,7 @@ case 167:
 mydiv='Castel_Sant_Angelo',special='AQbebo3v9-A',destroyed=''
 break;
 case 168:
-mydiv='Bitchu_Matsuyama',special='',destroyed=''
+mydiv='Bitchu_Matsuyama',special='4GS0IHhp78c',destroyed=''
 break;
 case 169:
 mydiv=' Itashima_Marukushi',special='',destroyed=''
@@ -465,7 +465,7 @@ case 253:
 mydiv='Shingu_Castle',special='RHpQ-YaWals',destroyed=''
 break;
 case 255:
-mydiv='Chambord_Castle',special='',destroyed=''
+mydiv='Chambord_Castle',special='_dVv_vk_OHs',destroyed=''
 break;
 case 256:
 mydiv='Warwick_Castle',special='',destroyed=''
