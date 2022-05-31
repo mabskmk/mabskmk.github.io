@@ -426,7 +426,7 @@ case 212:
 mydiv='Iwakuni_Castle',special='',destroyed='GkTASN4SW5o'
 break;
 case 214:
-mydiv='Forbidden_City',special='Q9xIfD1DK5g',destroyed=''
+mydiv='Forbidden_City',special='Q9xIfD1DK5g',destroyed='7CPbFCP753Q'
 break;
 case 225:
 mydiv='Nagoya_Castle',special='',destroyed=''
