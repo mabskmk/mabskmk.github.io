@@ -72,7 +72,7 @@ case 33:
 mydiv='Komoro_Castle',special='tq_0fNyDBAY',destroyed=''
 break;
 case 35:
-mydiv='Sunpu_Castle',special='',destroyed=''
+mydiv='Sunpu_Castle',special='lmvqUzERGWg',destroyed=''
 break;
 case 36:
 mydiv='Komakiyama_Castle',special='jaSjcTdXpzc',destroyed=''
@@ -668,7 +668,7 @@ case 382:
 mydiv='San_Leo_Castle',special='o3_cUdY9Ehs',destroyed=''
 break;
 case 384:
-mydiv='Heijo-kyo',special='T-iNmbhWVso',destroyed=''
+mydiv='Heijo-kyo',special='T-iNmbhWVso',destroyed='VGoX8eN-1Mo'
 break;
 case 390:
 mydiv='Frankenstein_Castle',special='',destroyed=''
