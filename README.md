@@ -1,4 +1,4 @@
 # PseudoSpace
 Personal site using javascript
 
-https://mabskmk.github.io/PseudoSpace/
+https://mabskmk.github.io/
