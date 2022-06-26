@@ -100,7 +100,7 @@ case 22:
 mydiv='Transylvania',imgur='dQfLncX.png',youtube='_Xj-1a348aU',gdrv='1wwEIGabRJlyf8KqKHjVMI3nggaPNj3Id'
 break;
 case 23:
-mydiv='Sonic_stages',imgur='03DoT3G.gif',youtube='XmymnWPSTnY',gdrv='1FEY8XzsyA7umPzOncYrk67tdyHphlSBm'
+mydiv='Sonic_stages',imgur='03DoT3G.gif',youtube='XmymnWPSTnY',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9'
 break;
 case 24:
 mydiv='Wild_Side',imgur='LdboBiv.png',youtube='enFWREWvXZQ',gdrv='1REGqHLoO8CZExveyN0A6t57bCmm0257N'
