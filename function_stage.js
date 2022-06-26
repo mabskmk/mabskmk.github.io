@@ -1,6 +1,6 @@
 
 function menustage2() {
-document.getElementById('principal').innerHTML="<table border=0 width='750'><td align=center><h1><b>StageS</b></h1><a target='_blank' href='https://ln.sync.com/dl/b4dde8c10/7mr9qfnj-gnz7925k-4pkufi7w-wz99zhw9'><img src=https://i.imgur.com/QPa6H3A.png class='rbutton'></a><br><br>2021<br><b id=141></b><b id=140></b><b id=139></b><b id=138></b><b id=137></b><b id=136></b><b id=135></b><b id=134></b><br><br>2020<br><b id=133></b><b id=132></b><b id=131></b><b id=130></b><b id=129></b><b id=128></b><b id=127></b><b id=126></b><br><br>2019<br><b id=125></b><b id=124></b><b id=123></b><b id=122></b><b id=121></b><b id=120></b><br><br>2018<br><b id=119></b><b id=118></b><b id=117></b><b id=116></b><b id=115></b><b id=114></b><b id=113></b><b id=112></b><b id=111></b><b id=110></b><br><br>2017<br><b id=109></b><b id=108></b><b id=107></b><b id=106></b><b id=105></b><b id=104></b><b id=103></b><b id=102></b><b id=101></b><b id=100></b><b id=99></b><b id=98></b><b id=97></b><br><br>2016<br><b id=96></b><b id=95></b><b id=94></b><br><br>2015<br><b id=93></b><b id=92></b><b id=91></b><b id=90></b><br><br>2014<br><b id=89></b><b id=88></b><b id=87></b><b id=86></b><b id=85></b><b id=84></b><b id=83></b><b id=82></b><b id=81></b><b id=80></b><b id=79></b><b id=78></b><b id=77></b><b id=76></b><b id=75></b><br><br>2013<br><b id=74></b><b id=73></b><b id=72></b><b id=71></b><br><br>2012<br><b id=70></b><b id=69></b><b id=68></b><b id=67></b><b id=66></b><b id=65></b><b id=64></b><b id=63></b><b id=62></b><b id=61></b><b id=60></b><b id=59></b><b id=58></b><b id=57></b><b id=56></b><b id=55></b><b id=54></b><b id=53></b><b id=52></b><b id=51></b><b id=50></b><b id=49></b><b id=48></b><b id=47></b><b id=46></b><br><br>2011<br><b id=45></b><b id=44></b><b id=43></b><b id=42></b><b id=41></b><b id=40></b><b id=39></b><b id=38></b><br><br>2010<br><b id=37></b><b id=36></b><b id=35></b><b id=34></b><b id=33></b><b id=32></b><b id=31></b><b id=30></b><b id=29></b><b id=28></b><b id=27></b><b id=26></b><b id=25></b><b id=24></b><b id=23></b><b id=22></b><b id=21></b><b id=20></b><b id=19></b><b id=18></b><b id=17></b><b id=16></b><b id=15></b><b id=14></b><b id=13></b><b id=12></b><b id=11></b><b id=10></b><b id=9></b><b id=8></b><b id=7></b><b id=6></b><b id=5></b><b id=4></b><b id=3></b><b id=2></b><br><br>2008<br><b id=1></b><br><br><a target='_blank' href='https://www.mediafire.com/folder/s7zo0845d1flx/WarehouseSTG'><b>Warehouse</b></a><br><br><input type=button onClick='ppmain(1)' value='.Clean.'><br></font><tr></table>"
+document.getElementById('principal').innerHTML="<table border=0 width='750'><td align=center><h1><b>StageS</b></h1><a target='_blank' href='https://ln.sync.com/dl/b4dde8c10/7mr9qfnj-gnz7925k-4pkufi7w-wz99zhw9'><img src=https://i.imgur.com/QPa6H3A.png class='rbutton'></a><br><br>2021<br><b id=141></b><b id=140></b><b id=139></b><b id=138></b><b id=137></b><b id=136></b><b id=135></b><b id=134></b><br><br>2020<br><b id=133></b><b id=132></b><b id=131></b><b id=130></b><b id=129></b><b id=128></b><b id=127></b><b id=126></b><br><br>2019<br><b id=125></b><b id=124></b><b id=123></b><b id=122></b><b id=121></b><b id=120></b><br><br>2018<br><b id=119></b><b id=118></b><b id=117></b><b id=116></b><b id=115></b><b id=114></b><b id=113></b><b id=112></b><b id=111></b><b id=110></b><br><br>2017<br><b id=109></b><b id=108></b><b id=107></b><b id=106></b><b id=105></b><b id=104></b><b id=103></b><b id=102></b><b id=101></b><b id=100></b><b id=99></b><b id=98></b><b id=97></b><br><br>2016<br><b id=96></b><b id=95></b><b id=94></b><br><br>2015<br><b id=93></b><b id=92></b><b id=91></b><b id=90></b><br><br>2014<br><b id=89></b><b id=88></b><b id=87></b><b id=86></b><b id=85></b><b id=84></b><b id=83></b><b id=82></b><b id=81></b><b id=80></b><b id=79></b><b id=78></b><b id=77></b><b id=76></b><b id=75></b><br><br>2013<br><b id=74></b><b id=73></b><b id=72></b><b id=71></b><br><br>2012<br><b id=70></b><b id=69></b><b id=68></b><b id=67></b><b id=66></b><b id=65></b><b id=64></b><b id=63></b><b id=62></b><b id=61></b><b id=60></b><b id=59></b><b id=58></b><b id=57></b><b id=56></b><b id=55></b><b id=54></b><b id=53></b><b id=52></b><b id=51></b><b id=50></b><b id=49></b><b id=48></b><b id=47></b><br><br>2011<br><b id=46></b><b id=45></b><b id=44></b><b id=43></b><b id=42></b><b id=41></b><b id=40></b><b id=39></b><br><br>2010<br><b id=38></b><b id=37></b><b id=36></b><b id=35></b><b id=34></b><b id=33></b><b id=32></b><b id=31></b><b id=30></b><b id=29></b><b id=28></b><b id=27></b><b id=26></b><b id=25></b><b id=24></b><b id=23></b><b id=22></b><b id=21></b><b id=20></b><b id=19></b><b id=18></b><b id=17></b><b id=16></b><b id=15></b><b id=14></b><b id=13></b><b id=12></b><b id=11></b><b id=10></b><b id=9></b><b id=8></b><b id=7></b><b id=6></b><b id=5></b><b id=4></b><b id=3></b><b id=2></b><br><br>2008<br><b id=1></b><br><br><a target='_blank' href='https://www.mediafire.com/folder/s7zo0845d1flx/WarehouseSTG'><b>Warehouse</b></a><br><br><input type=button onClick='ppmain(1)' value='.Clean.'><br></font><tr></table>"
 btnnew.disabled=false;
 btnchar.disabled=false;
 btnstg.disabled=true;
@@ -100,72 +100,75 @@ case 22:
 mydiv='Transylvania',imgur='dQfLncX.png',youtube='_Xj-1a348aU',gdrv='1wwEIGabRJlyf8KqKHjVMI3nggaPNj3Id'
 break;
 case 23:
-mydiv='Sonic_stages',imgur='03DoT3G.gif',youtube='XmymnWPSTnY',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9'
+mydiv='Chemical_Plant',imgur='3Xba3Hf.gif',youtube='XmymnWPSTnY',gdrv='1FEY8XzsyA7umPzOncYrk67tdyHphlSBm'
 break;
 case 24:
 mydiv='Wild_Side',imgur='LdboBiv.png',youtube='enFWREWvXZQ',gdrv='1REGqHLoO8CZExveyN0A6t57bCmm0257N'
 break;
 case 25:
-mydiv='Moai_ruin',imgur='aen5RVb.gif',youtube='Vem04FZhZaI',gdrv='1HCbYOLepWExO6LUFPiMweydWVgAjYCvu'
+mydiv='Oil_Ocean',imgur='pcjB4Sm.png',youtube='5qwkqiCIPBk',gdrv='12yBz3N1UuTpbaSZ2ZY2r878ZeepBRtG-'
 break;
 case 26:
-mydiv='X_Granada',imgur='7VMUvKp.png',youtube='i3YqRlxk9Wo',gdrv='1Km-_WHMzm81k0ub3u1XUDZvFCJYPVOUU'
+mydiv='Moai_ruin',imgur='aen5RVb.gif',youtube='Vem04FZhZaI',gdrv='1HCbYOLepWExO6LUFPiMweydWVgAjYCvu'
 break;
 case 27:
-mydiv='Planet_Prision',imgur='1TljLfd.png',youtube='DObjw9nB4HM',gdrv='1_cOrmMLuNhR3qcR-fDmStra6O9RfckPV'
+mydiv='X_Granada',imgur='7VMUvKp.png',youtube='i3YqRlxk9Wo',gdrv='1Km-_WHMzm81k0ub3u1XUDZvFCJYPVOUU'
 break;
 case 28:
-mydiv='Mechanical_Fortress',imgur='79yVFIN.png',youtube='MCIU3F1uFCQ',gdrv='1HxpKdxRfnIm3rUVr3wXgNXduQ1XyoKs4'
+mydiv='Planet_Prision',imgur='1TljLfd.png',youtube='DObjw9nB4HM',gdrv='1_cOrmMLuNhR3qcR-fDmStra6O9RfckPV'
 break;
 case 29:
-mydiv='Haunted_Graveyard',imgur='OFjAdRB.png',youtube='12IsGm5ctK8',gdrv='1aZYNetxTPNEJH8luHvTXqoZz_p0FOlnb'
+mydiv='Mechanical_Fortress',imgur='79yVFIN.png',youtube='MCIU3F1uFCQ',gdrv='1HxpKdxRfnIm3rUVr3wXgNXduQ1XyoKs4'
 break;
 case 30:
-mydiv='NeonLight',imgur='vxBbbkP.png',youtube='H4r_22BklVg',gdrv='1ozGnlcP3dEWHJdTswV-4by2HUmX5_xdN'
+mydiv='Haunted_Graveyard',imgur='OFjAdRB.png',youtube='12IsGm5ctK8',gdrv='1aZYNetxTPNEJH8luHvTXqoZz_p0FOlnb'
 break;
 case 31:
-mydiv='Leventhan',imgur='AaXCSHe.png',youtube='mHXrgqKMSBQ',gdrv='1r2gvzl3udgMvruILrHAhReoHGzhOA34O'
+mydiv='NeonLight',imgur='vxBbbkP.png',youtube='H4r_22BklVg',gdrv='1ozGnlcP3dEWHJdTswV-4by2HUmX5_xdN'
 break;
 case 32:
-mydiv='Stage_ChunLi',imgur='SQ4IEWA.png',youtube='-xeEuxzwA8o',gdrv='1oQKJTJvKI-ftvYHG1AL_fnHZzAZtttmU'
+mydiv='Leventhan',imgur='AaXCSHe.png',youtube='mHXrgqKMSBQ',gdrv='1r2gvzl3udgMvruILrHAhReoHGzhOA34O'
 break;
 case 33:
-mydiv='Stage_Makoto',imgur='swX7scp.png',youtube='Usqeb_NjCt8',gdrv='11MffW0ZA_2AOUsepDLhEa-WkOV26ROJM'
+mydiv='Stage_ChunLi',imgur='SQ4IEWA.png',youtube='-xeEuxzwA8o',gdrv='1oQKJTJvKI-ftvYHG1AL_fnHZzAZtttmU'
 break;
 case 34:
-mydiv='Stage_Scharlachrot',imgur='Q8ZaFoF.png',youtube='KuY4lxPGbj0',gdrv='16Xcp7eARuu5zNGq4YvNAUCko_yLr1KOB'
+mydiv='Stage_Makoto',imgur='swX7scp.png',youtube='Usqeb_NjCt8',gdrv='11MffW0ZA_2AOUsepDLhEa-WkOV26ROJM'
 break;
 case 35:
-mydiv='Hispeed_Elevator',imgur='ibSCSvX.png',youtube='NImq6xAzIcA',gdrv='10gCJPWjSxVLf5fjeqQSAmB6LglkkkpDo'
+mydiv='Stage_Scharlachrot',imgur='Q8ZaFoF.png',youtube='KuY4lxPGbj0',gdrv='16Xcp7eARuu5zNGq4YvNAUCko_yLr1KOB'
 break;
 case 36:
-mydiv='Space_Rocket',imgur='dj4xnbC.png',youtube='Dwj-9UamU-0',gdrv='165DoeutvPANJlboRuYdCYcbC5HUrT9x9'
+mydiv='Hispeed_Elevator',imgur='ibSCSvX.png',youtube='NImq6xAzIcA',gdrv='10gCJPWjSxVLf5fjeqQSAmB6LglkkkpDo'
 break;
 case 37:
-mydiv='Transportrain',imgur='9rbsCG5.png',youtube='Vo4MeDuLiRI',gdrv='1e3Z3y--wv7HyB38yEBcQ3iDycS0f08wN'
+mydiv='Space_Rocket',imgur='dj4xnbC.png',youtube='Dwj-9UamU-0',gdrv='165DoeutvPANJlboRuYdCYcbC5HUrT9x9'
 break;
 case 38:
-mydiv='Random_Insanity',imgur='oVbJf9D.png',youtube='fbl8omvZ2_A',gdrv='1g93dXyyJUAa5kZyPB_EVBrBUg-Atyq-M'
+mydiv='Transportrain',imgur='9rbsCG5.png',youtube='Vo4MeDuLiRI',gdrv='1e3Z3y--wv7HyB38yEBcQ3iDycS0f08wN'
 break;
 case 39:
-mydiv='DDND',imgur='fobMeKj.gif',youtube='hfFLh2sXNxA',gdrv='1FQaEZlhwn_YN9WQIdn4YgK66p2sJGjWy'
+mydiv='Random_Insanity',imgur='oVbJf9D.png',youtube='fbl8omvZ2_A',gdrv='1g93dXyyJUAa5kZyPB_EVBrBUg-Atyq-M'
 break;
 case 40:
-mydiv='The_bronze_auditorium',imgur='tMOSb03.png',youtube='QK_QRqgsj7A',gdrv='1gv8CPS3IrukDoRIS4LgMgTLAiSp53rZT'
+mydiv='DDND',imgur='fobMeKj.gif',youtube='hfFLh2sXNxA',gdrv='1FQaEZlhwn_YN9WQIdn4YgK66p2sJGjWy'
 break;
 case 41:
-mydiv='secretvillage',imgur='qfpb7XO.gif',youtube='TmWgpamHDrs',gdrv='1x0w8xldkvUZWbuO4ixG2DlsoQaLGGTBi'
+mydiv='The_bronze_auditorium',imgur='tMOSb03.png',youtube='QK_QRqgsj7A',gdrv='1gv8CPS3IrukDoRIS4LgMgTLAiSp53rZT'
 break;
 case 42:
-mydiv='Subspace_Highway',imgur='ZU71Rq3.gif',youtube='ZmafphZZJWY',gdrv='1pBjgxNoq6zNZm0A49TKo3snT12Eh8k_r'
+mydiv='secretvillage',imgur='qfpb7XO.gif',youtube='TmWgpamHDrs',gdrv='1x0w8xldkvUZWbuO4ixG2DlsoQaLGGTBi'
 break;
 case 43:
-mydiv='Snow_Rush',imgur='MfuWeak.png',youtube='LZkr6N1zKS4',gdrv='14WRDSybw1YvKCiysDI_QAT1udMdws83W'
+mydiv='Subspace_Highway',imgur='ZU71Rq3.gif',youtube='ZmafphZZJWY',gdrv='1pBjgxNoq6zNZm0A49TKo3snT12Eh8k_r'
 break;
 case 44:
-mydiv='Arkanoid_Syn',imgur='KzmXv7S.gif',youtube='dH4I-xUtUsI',gdrv='1P1WsltWgblyGXdC_LY2bGyPtdm7cd2de'
+mydiv='Snow_Rush',imgur='MfuWeak.png',youtube='LZkr6N1zKS4',gdrv='14WRDSybw1YvKCiysDI_QAT1udMdws83W'
 break;
 case 45:
+mydiv='Arkanoid_Syn',imgur='KzmXv7S.gif',youtube='dH4I-xUtUsI',gdrv='1P1WsltWgblyGXdC_LY2bGyPtdm7cd2de'
+break;
+case 46:
 mydiv='Dr_Wily_stgs',imgur='PNYxIH7.gif',youtube='zjbR3UtGK2I',gdrv='1BajqmRlVucJYaruSyGeK_de5eYO7CsPu'
 break;
 case 47:
@@ -208,7 +211,7 @@ case 59:
 mydiv='Mutation_Nation',imgur='jKesnb5.gif',youtube='-0j61OqpjEQ',gdrv='1Rk-VZr9dZw9dLYGdvseyPE_s4_hI83-g'
 break;
 case 60:
-mydiv='Mystic_Cave',imgur='',youtube='',gdrv=''
+mydiv='Mystic_Cave',imgur='OrOgvJ9.png',youtube='8P4VjUofC_Q',gdrv='1BNGLn3ifaKa-eY4hBXlnJIDG-FqtL6us'
 break;
 case 61:
 mydiv='Monster_Party',imgur='lWi1U0G.gif',youtube='Vabz-SaEuHg',gdrv='1W8_FlaDZPFCqI2Vz3Cv_WRusRCymoQWP'
@@ -223,13 +226,13 @@ case 64:
 mydiv='Z-Leo',imgur='MbtkMgt.png',youtube='nYzWMxX54NU',gdrv='1FPcbhOr9Bo45UYFy-trWdE70Y9birRYJ'
 break;
 case 65:
-mydiv='Labyrinth_Zone',imgur='',youtube='',gdrv=''
+mydiv='Labyrinth_Zone',imgur='2wivfXy.png',youtube='PypFGdvf8zo',gdrv='185x7hZxES4HdcnaItQuCNpqN_CoGERuR'
 break;
 case 66:
-mydiv='Jungle_Zone',imgur='',youtube='',gdrv=''
+mydiv='Jungle_Zone',imgur='lHK4I0Q.png',youtube='4tg1r_cO-mc',gdrv='12TFVnxAEuxtB4YtMbWMedrSFSKz3ODX_'
 break;
 case 67:
-mydiv='ScrapBrainZone',imgur='',youtube='',gdrv=''
+mydiv='ScrapBrainZone',imgur='zCmVTXI.png',youtube='KZuNhbkBVIM',gdrv='1eq1L7OET7vL09UJzuK3X58aQsJ7qmhzg'
 break;
 case 68:
 mydiv='Phantasy_Starship',imgur='dQdjmEa.png',youtube='zcomgKmXtZA',gdrv='1eBsUwt7Q31-EgBK7tE4eU4rQJE6NjH6z'
@@ -238,7 +241,7 @@ case 69:
 mydiv='Stage_Humio',imgur='vQfR8CP.png',youtube='uG5gD17kPLk',gdrv='1Z-D3blpn4dVEivSYxgH1TvPGC6_grEWg'
 break;
 case 70:
-mydiv='sonic_Special_Stage',imgur='',youtube='',gdrv=''
+mydiv='sonic_Special_Stage',imgur='AALc2fw.png',youtube='YcIoUw9zFME',gdrv='1bF366qnWx92QIUrkldfTrscJdv0x9Rrk'
 break;
 case 71:
 mydiv='Tower_of_MORGUL',imgur='36jrd6T.png',youtube='gf2Msy4AqTY',gdrv='1-NKnO4xFHRgjm3PZRhHC-K5EF6ukcb9Q'
@@ -313,7 +316,7 @@ case 94:
 mydiv='Probertson+',imgur='gETlJMg.gif',youtube='th-4qX7UmVY',gdrv='1w9FXy4aAw_r0Wd_7g3F4I7tUrSOJZgEI'
 break;
 case 95:
-mydiv='Aquatic_Ruins',imgur='',youtube='',gdrv=''
+mydiv='Aquatic_Ruins',imgur='cBIt8OT.png',youtube='YU0WSkoJ80Y',gdrv='15kyVRDQu4SFTLT0OJXxTXERn7qy8SvhC'
 break;
 case 96:
 mydiv='Weve-got-Shadowmans',imgur='Qqql4Ve.png',youtube='ohkTUKuFQ4k',gdrv='15_kwqkbcgY4Du6s3b-9yZuaX36nTIwit'
@@ -358,7 +361,7 @@ case 109:
 mydiv='Jiii',imgur='t9ZGdu5.png',youtube='LiT5VqTFU6g',gdrv='1qQhbzMzLsLM8KEjb_Vw2yTnIOac-YJR_'
 break;
 case 110:
-mydiv='Angel_Island',imgur='',youtube='',gdrv=''
+mydiv='Angel_Island',imgur='dST8Gh8.gif',youtube='HH7W4lCcQOM',gdrv='1Rdj62IlJGyWcySs0O43l8OgoX_uKbiZO'
 break;
 case 111:
 mydiv='ChompmanSTG',imgur='5t4sMNC.gif',youtube='gyoq7dZ8-O4',gdrv='1mCSrS_ox2CPOeT0lxT31eY9rwmJsmBhE'
@@ -385,7 +388,7 @@ case 118:
 mydiv='ZookHero',imgur='qwrbijL.gif',youtube='YVo-StU24sk',gdrv='1pKvNFY7cLS7Ahyz-i9DkPagMMhShDzCE'
 break;
 case 119:
-mydiv='CollisionChaos',imgur='',youtube='',gdrv=''
+mydiv='CollisionChaos',imgur='pdxfzgM.png',youtube='-zUXhzkksBQ',gdrv='1KMophu9johPbhawub2hIRORmDVIKDYoE'
 break;
 case 120:
 mydiv='Religionchng',imgur='68AjZWE.gif',youtube='a2NobgA39Xw',gdrv='1AxvGGm16OSKQ74vrUh-DTXFYo7HZxwyC'
@@ -427,7 +430,7 @@ case 132:
 mydiv='Majyuuou',imgur='IPxOOKq.gif',youtube='69mt8hiGTok',gdrv='1OGF4O5R9EHDplwmpAb4lx58NaBC305Ag'
 break;
 case 133:
-mydiv='Tails_Adventure',imgur='',youtube='',gdrv=''
+mydiv='Tails_Adventure',imgur='dZ6dOhE.gif',youtube='D6WbidumAJw',gdrv='1OUZaQgb65KNVofBudX9B1ynWdUhyw_MB'
 break;
 case 134:
 mydiv='Trump_Castle',imgur='uuXaSYP.gif',youtube='k0pOz94lET4',gdrv='1cMAkHNBloMttCw9YAhQROHgqFx8vfzwa'
@@ -436,7 +439,7 @@ case 135:
 mydiv='Alex_Kidd_SW',imgur='Bh3ZJYA.gif',youtube='g6Kv5cj-kbo',gdrv='14tIuGNaATof4tdimK6HitxNYLBER-d5V'
 break;
 case 136:
-mydiv='Mystic_Cave:RE',imgur='',youtube='',gdrv=''
+mydiv='Mystic_Cave:RE',imgur='btOgGEX.gif',youtube='00vKl2Ywreg',gdrv='16Q-7W4OO2AGNgKyJcSQZH_y5hYNYTzy4'
 break;
 case 137:
 mydiv='KirbyMK4',imgur='VBu57Re.gif',youtube='Fx8dVwJ9pjY',gdrv='1DxyKaKxQxB6gUwM6jeF3U6HOvuBDhOxp'
