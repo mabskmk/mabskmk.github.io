@@ -106,7 +106,7 @@ case 24:
 mydiv='Wild_Side',imgur='LdboBiv.png',youtube='enFWREWvXZQ',gdrv='1REGqHLoO8CZExveyN0A6t57bCmm0257N'
 break;
 case 25:
-mydiv='Oil_Ocean',imgur='pcjB4Sm.png',youtube='5qwkqiCIPBk',gdrv='12yBz3N1UuTpbaSZ2ZY2r878ZeepBRtG-'
+mydiv='Oil_Ocean',imgur='pcjB4Sm.pngu',youtube='5qwkqiCIPBk',gdrv='12yBz3N1UuTpbaSZ2ZY2r878ZeepBRtG-'
 break;
 case 26:
 mydiv='Moai_ruin',imgur='aen5RVb.gif',youtube='Vem04FZhZaI',gdrv='1HCbYOLepWExO6LUFPiMweydWVgAjYCvu'
