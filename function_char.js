@@ -84,7 +84,7 @@ case 17:
 mydiv='Eye-of-Cthulhu',imgur='W9JHpa9',imgur9='8FOd0oL.gif',game='Terraria',ctype='Bonus',lastupdate='22/12/11',gdrv='1WQg7N9HyzrgQenmgVxuLvChK0B9O7KUx',youtube='LbYtJC3yEwc'
 break;
 case 18:
-mydiv='Eater-of-Worlds',imgur='rFItKdC',game='Terraria',ctype='Bonus',lastupdate='02/06/15',gdrv='1Kc2WpuZ8EoErZd8ztfJ8q1MkKMnDLKbp',youtube='bZ_oo__6Fac'
+mydiv='Eater-of-Worlds',imgur='rFItKdC',imgur9='entyndN.png',game='Terraria',ctype='Bonus',lastupdate='02/06/15',gdrv='1Kc2WpuZ8EoErZd8ztfJ8q1MkKMnDLKbp',youtube='bZ_oo__6Fac'
 break;
 case 19:
 mydiv='the-Destroyer',imgur='7dpm5WZ',imgur9='GtOxXsf.gif',game='Terraria',ctype='Bonus',lastupdate='02/06/15',gdrv='1yBtTASmCRApkCNeKmYbmdLX1JW_a8JlX',youtube='TMMmofbUPHw'
