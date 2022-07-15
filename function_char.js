@@ -188,7 +188,7 @@ case 52:
 mydiv='OOM-Killer',imgur='meIJuGr',game='Turrican',ctype='Bonus',lastupdate='31/10/21',gdrv='1mZm2fg8-GE29Uk61ZOPNlc7NMNy0LfJe',youtube='jqCbRdXSKpE'
 break;
 case 53:
-mydiv='Sandwitch',imgur='2APcz3X',game='Puyo_Puyo',ctype='Bonus',lastupdate='31/10/21',gdrv='1CrFqUEl2u9or1SRXbJ5GqwpZVJ1FKtMu',youtube='ii9zUSrDCCA'
+mydiv='Sandwitch',imgur='2APcz3X',imgur9='zyTExeh',game='Puyo_Puyo',ctype='Bonus',lastupdate='31/10/21',gdrv='1CrFqUEl2u9or1SRXbJ5GqwpZVJ1FKtMu',youtube='ii9zUSrDCCA'
 break;
 case 0:
 mydiv=''
