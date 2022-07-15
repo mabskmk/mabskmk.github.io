@@ -69,7 +69,7 @@ case 12:
 mydiv='Mash',imgur='AZMe0Bc',game='Megaman7',ctype='Bonus',lastupdate='20/05/12',gdrv='1Z69qGOh4MgnHqPm9grjKeJTP61GngjbE',youtube='ZHxpJXL_nYo'
 break;
 case 13:
-mydiv='Truck_Joe',imgur='c9iJZbD',game='Megaman7',ctype='Bonus',lastupdate='16/07/14',gdrv='1ODwXTdfc3YJeI-KeY35tI1-IcMioT65C',youtube='ZAajIVtXzKY'
+mydiv='Truck_Joe',imgur='c9iJZbD',imgur9='MB9i5IM.png',game='Megaman7',ctype='Bonus',lastupdate='16/07/14',gdrv='1ODwXTdfc3YJeI-KeY35tI1-IcMioT65C',youtube='ZAajIVtXzKY'
 break;
 case 14:
 mydiv='Van_Pookin',imgur='yWqb56L',imgur9='htTMeJ7.png',game='Megaman7',ctype='Bonus',lastupdate='31/10/14',gdrv='13dHiSewKjtn0zmYZRqU05LysSLPcqTNk',youtube='Bf4KLzjoNmk'
