@@ -78,7 +78,7 @@ case 15:
 mydiv='CAR3',imgur='MbcbFyn',game='Street Fighter 2',ctype='Bonus',lastupdate='23/11/12',gdrv='1ha4jP2IAT8TgAKEAqMqGbPtPtzo73HTQ',youtube='pdW7ebSh6sM'
 break;
 case 16:
-mydiv='DCar',imgur='97WL9th',game='Dong Dong Never Die',ctype='Bonus',lastupdate='24/05/13',gdrv='11XgXnbON0dn3EJoORv6svOfuG-JsByds',youtube='Vu_yVtBuZcw'
+mydiv='DCar',imgur='97WL9th',imgur9='r8nLXhT.png',game='Dong Dong Never Die',ctype='Bonus',lastupdate='24/05/13',gdrv='11XgXnbON0dn3EJoORv6svOfuG-JsByds',youtube='Vu_yVtBuZcw'
 break;
 case 17:
 mydiv='Eye-of-Cthulhu',imgur='W9JHpa9',imgur9='8FOd0oL.gif',game='Terraria',ctype='Bonus',lastupdate='22/12/11',gdrv='1WQg7N9HyzrgQenmgVxuLvChK0B9O7KUx',youtube='LbYtJC3yEwc'
