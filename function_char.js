@@ -117,7 +117,7 @@ case 28:
 mydiv='GnG-Tower',imgur='CkHRPvY',game='Makaimura',ctype='Arcade',lastupdate='30/09/11',gdrv='1s4SVGZOxGCeUxin621GOhFwMvfnIka-8',youtube='AgyJvl_cA-U'
 break;
 case 29:
-mydiv='GnG-Burning',imgur='ScexylS',game='Makaimura',ctype='SHMUP',lastupdate='29/09/11',gdrv='1rPMAP0HkLOvngIqFxxgNWjZYKKVt0IwB',youtube='oeOOCOa3QWI'
+mydiv='GnG-Burning',imgur='ScexylS',imgur9='ohZWqMw.png',game='Makaimura',ctype='SHMUP',lastupdate='29/09/11',gdrv='1rPMAP0HkLOvngIqFxxgNWjZYKKVt0IwB',youtube='oeOOCOa3QWI'
 break;
 case 30:
 mydiv='ALEX_Jankenpon',imgur='kHBUEcQ',imgur9='i2NjJtm.png',game='Alex Kidd',ctype='JokenPo',lastupdate='01/03/12',gdrv='1o4UAIynon1lyGVFLCowRKstD-7RIxp5P',youtube='sRVVgsaoYYw'
