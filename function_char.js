@@ -156,7 +156,7 @@ case 41:
 mydiv='Full-of-Spiders',imgur='hXxFrKx',imgur9='3SH8IzW.png',game='Splatterhouse',ctype='Bonus',lastupdate='28/10/16',gdrv='19f8oZl-KzlWeYGTo27vvteu9GPK_dVFi',youtube='h4nir7Y4E3o'
 break;
 case 42:
-mydiv='Evil-Eye-of-Balor',imgur='1LDxq7H',game='Terraria',ctype='Boss',lastupdate='25/03/17',gdrv='1tsQ4AS7cl8emdMOHAtVbsGJtNp1ykaw6',youtube='cYUCj_SBbS0'
+mydiv='Evil-Eye-of-Balor',imgur='1LDxq7H',imgur9='BI3xaoj.png',game='Terraria',ctype='Boss',lastupdate='25/03/17',gdrv='1tsQ4AS7cl8emdMOHAtVbsGJtNp1ykaw6',youtube='cYUCj_SBbS0'
 break;
 case 43:
 mydiv='Dress',imgur='yYVBanS',imgur9='eZnMTuE.png',game='Queen Axe',ctype='Bonus',lastupdate='13/01/18',gdrv='1gYpG62kgEQYyLI0rLRhiNX_fJe-Egvrm',youtube='aqFfIf4SZms'
