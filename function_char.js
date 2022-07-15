@@ -165,7 +165,7 @@ case 44:
 mydiv='Mermaid',imgur='YAMiPUI',game='Gaiares',ctype='Bonus',lastupdate='10/10/19',gdrv='1O5lFMuFeLyPYXAwB5SaumvtlXZzXLrRK',youtube='waAHbnYqKfg'
 break;
 case 45:
-mydiv='Boobs',imgur='yD1AWaE',game='Amazon Brawl',ctype='Boss',lastupdate='24/05/20',gdrv='15iwEE0g8Jun3eQQlYxw7uC7Jt1Vpv9ME',youtube='7mFsq-ehdUI'
+mydiv='Boobs',imgur='yD1AWaE',imgur9='YcjMbca.png',game='Amazon Brawl',ctype='Boss',lastupdate='24/05/20',gdrv='15iwEE0g8Jun3eQQlYxw7uC7Jt1Vpv9ME',youtube='7mFsq-ehdUI'
 break;
 case 46:
 mydiv='Reznor',imgur='qVYNGvN',game='Mario',ctype='Boss',lastupdate='24/05/20',gdrv='15VTihsGmygebpBvSwTPvg2BkKdUNQ8u1',youtube='yHFz7D02q7w'
