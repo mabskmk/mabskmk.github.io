@@ -141,7 +141,7 @@ case 36:
 mydiv='Captain_Kebab',imgur='TsaW1dX',game='Parodius',ctype='Boss',lastupdate='28/06/16',gdrv='1CYYAi4kM1s-dFSH1ldcDdp9BEOxwQzOj',youtube='1BxSnIkb1co'
 break;
 case 37:
-mydiv='Biker_GAL',imgur='7dP9qeT',game='Battle_Circuit',ctype='Bonus',lastupdate='29/06/16',youtube='wnNg3g0NXn0',gdrv='1kH-OrCFQMcm_gV8_sbxoSzLhySEqFrPT'
+mydiv='Biker_GAL',imgur='7dP9qeT',imgur9='uhSntpz.png',game='Battle_Circuit',ctype='Bonus',lastupdate='29/06/16',youtube='wnNg3g0NXn0',gdrv='1kH-OrCFQMcm_gV8_sbxoSzLhySEqFrPT'
 break;
 case 38:
 mydiv='Capitalism',imgur='HIynVUA',imgur9='LCZ5ymb.png',game='Real World',ctype='Boss',lastupdate='29/06/16',gdrv='1t27oAqR6ef55hUgMLvwCKMHiqOn1GtKS',youtube='P66-PjR3JgA'
