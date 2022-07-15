@@ -36,7 +36,7 @@ case 1:
 mydiv='Death-Force',imgur='ocvdalJ',imgur9='xr3A7SH.gif',game='MetalSlug',ctype='Boss',lastupdate='13/12/08',gdrv='1nCEVFvv6_MWnOewCQEwqo3wBIEi0xOzk',youtube='57Twr3DTGbk'
 break;
 case 2:
-mydiv='Bull_chan',imgur='ot8ebRi',game='Metalslug',ctype='Bonus',lastupdate='02/06/15',youtube='Dp3T1arUUmY',gdrv='15HH5HuYvK22p1AJw4_vWai6usFNw9IXt'
+mydiv='Bull_chan',imgur='ot8ebRi',imgur9='iVIdizv.png',game='Metalslug',ctype='Bonus',lastupdate='02/06/15',youtube='Dp3T1arUUmY',gdrv='15HH5HuYvK22p1AJw4_vWai6usFNw9IXt'
 break;
 case 3:
 mydiv='MetaGang',imgur='VhoTRPp',game='Kirby',ctype='Multi-char',lastupdate='15/05/08',gdrv='19CzU8t9VOizNBDikp_Q210mQ0tRRruU-',youtube='8y4p4RwhPYA'
