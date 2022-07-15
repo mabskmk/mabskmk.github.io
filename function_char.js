@@ -123,7 +123,7 @@ case 30:
 mydiv='ALEX_Jankenpon',imgur='kHBUEcQ',game='Alex Kidd',ctype='JokenPo',lastupdate='01/03/12',gdrv='1o4UAIynon1lyGVFLCowRKstD-7RIxp5P',youtube='sRVVgsaoYYw'
 break;
 case 31:
-mydiv='MSW-Subway',imgur='omSLMkl',game='Metalslug',ctype='SHMUP',lastupdate='19/01/12',gdrv='1nxtazK_0agbKe6wrJtUtYyDL21IiBIGw',youtube='Miwkebhi0lM'
+mydiv='MSW-Subway',imgur='omSLMkl',imgur9='hilSzM1.gif',game='Metalslug',ctype='SHMUP',lastupdate='19/01/12',gdrv='1nxtazK_0agbKe6wrJtUtYyDL21IiBIGw',youtube='Miwkebhi0lM'
 break;
 case 32:
 mydiv='Castle_War',imgur='Xehem37',game='Various',ctype='Tower defense',lastupdate='07/11/12',gdrv='1usRBM7HowIsEPqHnE6guEGMk3EbZO87l',youtube='U-SaQWqoM7Q'
