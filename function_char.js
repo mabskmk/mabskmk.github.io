@@ -150,7 +150,7 @@ case 39:
 mydiv='Wall_Face1-1',imgur='9uoKcu9',game='Skyblazer',ctype='Boss',lastupdate='15/08/16',gdrv='1VEBZzrcjKuZ6RXTy_E0PoMgzSEO0fv24',youtube='u2jrAqPJkjw'
 break;
 case 40:
-mydiv='Tic-Tac-Toe',imgur='PgyIqB1',game='Oldschool',ctype='Bonus',lastupdate='24/07/16',gdrv='1JiWBKuN9LdOB_zZYlsK_SfHUx5gZUDvZ',youtube='md1d_rGgpJs'
+mydiv='Tic-Tac-Toe',imgur='PgyIqB1',imgur9='8lWt8j9.png',game='Oldschool',ctype='Bonus',lastupdate='24/07/16',gdrv='1JiWBKuN9LdOB_zZYlsK_SfHUx5gZUDvZ',youtube='md1d_rGgpJs'
 break;
 case 41:
 mydiv='Full-of-Spiders',imgur='hXxFrKx',imgur9='3SH8IzW.png',game='Splatterhouse',ctype='Bonus',lastupdate='28/10/16',gdrv='19f8oZl-KzlWeYGTo27vvteu9GPK_dVFi',youtube='h4nir7Y4E3o'
