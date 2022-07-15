@@ -126,7 +126,7 @@ case 31:
 mydiv='MSW-Subway',imgur='omSLMkl',imgur9='hilSzM1.gif',game='Metalslug',ctype='SHMUP',lastupdate='19/01/12',gdrv='1nxtazK_0agbKe6wrJtUtYyDL21IiBIGw',youtube='Miwkebhi0lM'
 break;
 case 32:
-mydiv='Castle_War',imgur='Xehem37',game='Various',ctype='Tower defense',lastupdate='07/11/12',gdrv='1usRBM7HowIsEPqHnE6guEGMk3EbZO87l',youtube='U-SaQWqoM7Q'
+mydiv='Castle_War',imgur='Xehem37',imgur9='6f8ph6x.png',game='Various',ctype='Tower defense',lastupdate='07/11/12',gdrv='1usRBM7HowIsEPqHnE6guEGMk3EbZO87l',youtube='U-SaQWqoM7Q'
 break;
 case 33:
 mydiv='Yasha-Hime',imgur='p4i3ONN',game='Ganryu',ctype='Boss',lastupdate='02/11/18',gdrv='1Dr6zJ0-Ah0ExxmRk2DfJ--burI9DMGMR',youtube='6HbSkHd7SbQ'
