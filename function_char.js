@@ -39,7 +39,7 @@ case 2:
 mydiv='Bull_chan',imgur='ot8ebRi',imgur9='iVIdizv.png',game='Metalslug',ctype='Bonus',lastupdate='02/06/15',youtube='Dp3T1arUUmY',gdrv='15HH5HuYvK22p1AJw4_vWai6usFNw9IXt'
 break;
 case 3:
-mydiv='MetaGang',imgur='VhoTRPp',game='Kirby',ctype='Multi-char',lastupdate='15/05/08',gdrv='19CzU8t9VOizNBDikp_Q210mQ0tRRruU-',youtube='8y4p4RwhPYA'
+mydiv='MetaGang',imgur='VhoTRPp',imgur9='oWcbdIT.png',game='Kirby',ctype='Multi-char',lastupdate='15/05/08',gdrv='19CzU8t9VOizNBDikp_Q210mQ0tRRruU-',youtube='8y4p4RwhPYA'
 break;
 case 4:
 mydiv='FlyingTara',imgur='iEjzspe',game='Metalslug',ctype='Bonus',lastupdate='05/09/16',gdrv='1wI7dMOqTWskEBvXYxvoZLeOu4eSN-vrT',youtube='vACTOBHHlmI'
