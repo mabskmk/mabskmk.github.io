@@ -33,7 +33,7 @@ gdrv='';
 imgur9='';
 switch (numero) {
 case 1:
-mydiv='Death-Force',imgur='ocvdalJ',game='MetalSlug',ctype='Boss',lastupdate='13/12/08',gdrv='1nCEVFvv6_MWnOewCQEwqo3wBIEi0xOzk',youtube='57Twr3DTGbk'
+mydiv='Death-Force',imgur='ocvdalJ',imgur9='xr3A7SH.gif',game='MetalSlug',ctype='Boss',lastupdate='13/12/08',gdrv='1nCEVFvv6_MWnOewCQEwqo3wBIEi0xOzk',youtube='57Twr3DTGbk'
 break;
 case 2:
 mydiv='Bull_chan',imgur='ot8ebRi',game='Metalslug',ctype='Bonus',lastupdate='02/06/15',youtube='Dp3T1arUUmY',gdrv='15HH5HuYvK22p1AJw4_vWai6usFNw9IXt'
