@@ -200,7 +200,7 @@ case 2:
 document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+".png onClick='char("+numero+")' class='rbutton' width=25 height=25><b>"+mydiv+"</b> "+game+" / "+ctype+" / Last update: "+lastupdate+"<br>"
 break;
 default:
-document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+".png onClick='char("+numero+")' class='rbutton' width=25 height=25><b>"+mydiv+"</b> "+game+" / "+ctype+" / Last update: "+lastupdate+"<br><iframe src=https://www.youtube.com/embed/"+youtube+" width='430' height='240' frameborder='0'></iframe><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a>"
+document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+".png onClick='char("+numero+")' class='rbutton' width=25 height=25><b>"+mydiv+"</b> "+game+" / "+ctype+" / Last update: "+lastupdate+"<br><img src=https://i.imgur.com/"+imgur9+".png height='240'><iframe src=https://www.youtube.com/embed/"+youtube+" width='430' height='240' frameborder='0'></iframe><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a>"
 }
 }
 
