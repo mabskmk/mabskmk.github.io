@@ -45,7 +45,7 @@ case 4:
 mydiv='FlyingTara',imgur='iEjzspe',game='Metalslug',ctype='Bonus',lastupdate='05/09/16',gdrv='1wI7dMOqTWskEBvXYxvoZLeOu4eSN-vrT',youtube='vACTOBHHlmI'
 break;
 case 5:
-mydiv='Pesoguin',imgur='5NqzscO',game='<a target=_blank href=https://www.peso.nu><img src=https://i.imgur.com/qV3Q36A.gif></a>',ctype='Char',lastupdate='18/10/11',youtube='byeHdxhDGIk',gdrv='1IEHqXNhl5pdGrZVSy27sRUSJpdjFSIY_'
+mydiv='Pesoguin',imgur='5NqzscO',imgur9='0aYs6iI.png',game='<a target=_blank href=https://www.peso.nu><img src=https://i.imgur.com/qV3Q36A.gif></a>',ctype='Char',lastupdate='18/10/11',youtube='byeHdxhDGIk',gdrv='1IEHqXNhl5pdGrZVSy27sRUSJpdjFSIY_'
 break;
 case 6:
 mydiv='Slug_Wanzer_Old',imgur='FlLscmO',game='Metalslug',ctype='Char',lastupdate='20/04/08',gdrv='1DMfPTtg1jbegRXRq82pb7N11pteDhNnw',youtube='Stk5KQzVcXE'
