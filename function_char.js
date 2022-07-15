@@ -183,7 +183,7 @@ case 50:
 mydiv='Thicc-Tac-Toe',imgur='ld7q5PX',game='Metal Slut',ctype='Bonus',lastupdate='13/01/21',gdrv='1ezCyx2EDm4b2Ko1hypdfUFB4Baw5zXVa',youtube='xrUfneVBPDo'
 break;
 case 51:
-mydiv='Golem',imgur='pbrqOGU',game='Nosferatu',ctype='Bonus',lastupdate='31/10/21',gdrv='18p-BFz34xr2fklFNuJkcr-kaqTYVNODy',youtube='xuMOQ4seKrE'
+mydiv='Golem',imgur='pbrqOGU',imgur9='EpX4fu3',game='Nosferatu',ctype='Bonus',lastupdate='31/10/21',gdrv='18p-BFz34xr2fklFNuJkcr-kaqTYVNODy',youtube='xuMOQ4seKrE'
 break;
 case 52:
 mydiv='OOM-Killer',imgur='meIJuGr',imgur9='WQjDqJm',game='Turrican',ctype='Bonus',lastupdate='31/10/21',gdrv='1mZm2fg8-GE29Uk61ZOPNlc7NMNy0LfJe',youtube='jqCbRdXSKpE'
