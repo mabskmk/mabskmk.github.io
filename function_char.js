@@ -108,7 +108,7 @@ case 25:
 mydiv='Dr_Wily',imgur='jiB107a',game='Megaman',ctype='Bonus',lastupdate='21/05/13',gdrv='1i8t7TJQEw4RT7jphvoeMyTdaaT6RnKqa',youtube='BgT-H-F8Dv4'
 break;
 case 26:
-mydiv='Devil-Dumb-Drum',imgur='rMWebNH',game='Donkey Kong',ctype='Bonus',lastupdate='21/11/12',gdrv='1YSmr-m2nVO26xY05MosqTNmu5LAMZD6m',youtube='YIEZKsJMDzw'
+mydiv='Devil-Dumb-Drum',imgur='rMWebNH',imgur9='HwDbkGI.png',game='Donkey Kong',ctype='Bonus',lastupdate='21/11/12',gdrv='1YSmr-m2nVO26xY05MosqTNmu5LAMZD6m',youtube='YIEZKsJMDzw'
 break;
 case 27:
 mydiv='GnG-Graveyard',imgur='p19yaAN',game='Makaimura',ctype='Plataform',lastupdate='01/10/11',gdrv='1OlrmXy18dRVI1cL7VT8ocLGTvWbcp25h',youtube='yAXctj9pVZ4'
