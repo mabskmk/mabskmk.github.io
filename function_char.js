@@ -93,7 +93,7 @@ case 20:
 mydiv='Wall-of-Flesh',imgur='517R994',imgur9='HGEK7LB.gif',game='Terraria',ctype='Bonus',lastupdate='31/10/14',gdrv='1MgS3faH8veG9Xv2AyUuCEKp3EMwTn4_F',youtube='f1q18hAlo9U'
 break;
 case 21:
-mydiv='Sarlacc',imgur='7o6fJVg',game='Star Wars',ctype='Boss',lastupdate='03/08/12',gdrv='1zOk5tBPfYPP5a7siNJxitX4fmPmek5pg',youtube='gB3VHt2W_Y0'
+mydiv='Sarlacc',imgur='7o6fJVg',imgur9='Dl7Q5Ix.gif',game='Star Wars',ctype='Boss',lastupdate='03/08/12',gdrv='1zOk5tBPfYPP5a7siNJxitX4fmPmek5pg',youtube='gB3VHt2W_Y0'
 break;
 case 22:
 mydiv='Murder_Wall',imgur='Bs2AFdr',game='Kid Chameleon',ctype='Bonus',lastupdate='20/05/13',gdrv='17eXND0ylyX7igS8kho6jxz7avIIUvNE3',youtube='eTFu4Uu-NN4'
