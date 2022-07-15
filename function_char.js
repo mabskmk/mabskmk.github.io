@@ -186,7 +186,7 @@ case 51:
 mydiv='Golem',imgur='pbrqOGU',game='Nosferatu',ctype='Bonus',lastupdate='31/10/21',gdrv='18p-BFz34xr2fklFNuJkcr-kaqTYVNODy',youtube='xuMOQ4seKrE'
 break;
 case 52:
-mydiv='OOM-Killer',imgur='meIJuGr',game='Turrican',ctype='Bonus',lastupdate='31/10/21',gdrv='1mZm2fg8-GE29Uk61ZOPNlc7NMNy0LfJe',youtube='jqCbRdXSKpE'
+mydiv='OOM-Killer',imgur='meIJuGr',imgur9='WQjDqJm',game='Turrican',ctype='Bonus',lastupdate='31/10/21',gdrv='1mZm2fg8-GE29Uk61ZOPNlc7NMNy0LfJe',youtube='jqCbRdXSKpE'
 break;
 case 53:
 mydiv='Sandwitch',imgur='2APcz3X',imgur9='zyTExeh',game='Puyo_Puyo',ctype='Bonus',lastupdate='31/10/21',gdrv='1CrFqUEl2u9or1SRXbJ5GqwpZVJ1FKtMu',youtube='ii9zUSrDCCA'
