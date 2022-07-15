@@ -135,7 +135,7 @@ case 34:
 mydiv='HannyaNED',imgur='wObxscr',game='Megaman7',ctype='Boss',lastupdate='25/10/15',gdrv='1GZqpnaGxAyAyamsYPOEXwTrgdS5PpoNX',youtube='RsuTkkpzkmg'
 break;
 case 35:
-mydiv='Brain-of-Cthulhu',imgur='8xMmvYn',game='Terraria',ctype='Boss',lastupdate='31/10/15',youtube='LOtAUorfxgc',gdrv='1piPhPxq4fi_Eph0dKRqjbkgRkHKGlcnl'
+mydiv='Brain-of-Cthulhu',imgur='8xMmvYn',imgur9='sWf0Idm.png',game='Terraria',ctype='Boss',lastupdate='31/10/15',youtube='LOtAUorfxgc',gdrv='1piPhPxq4fi_Eph0dKRqjbkgRkHKGlcnl'
 break;
 case 36:
 mydiv='Captain_Kebab',imgur='TsaW1dX',imgur9='0cImMKw.png',game='Parodius',ctype='Boss',lastupdate='28/06/16',gdrv='1CYYAi4kM1s-dFSH1ldcDdp9BEOxwQzOj',youtube='1BxSnIkb1co'
