@@ -174,7 +174,7 @@ case 47:
 mydiv='R-Memory',imgur='RNwRj1K',game='R-Type',ctype='Bonus',lastupdate='31/10/20',gdrv='1PNzI6IssGK8BSsYcLCr2xSVrdiDblXVX',youtube='W1NexGA005g'
 break;
 case 48:
-mydiv='Head-of-Ukyo',imgur='RZ9lnLU',game='original',ctype='Boss',lastupdate='31/10/20',gdrv='1jPx1agCPmLw2Sc9ew4o8zS9j4xnajn9E',youtube='hS2SEqNnglw'
+mydiv='Head-of-Ukyo',imgur='RZ9lnLU',imgur9='Y7rsQZd.png',game='original',ctype='Boss',lastupdate='31/10/20',gdrv='1jPx1agCPmLw2Sc9ew4o8zS9j4xnajn9E',youtube='hS2SEqNnglw'
 break;
 case 49:
 mydiv='Shimeji',imgur='IDrbSZ8',imgur9='sJuKFFz.png',game='<a target=_blank href=https://kilkakon.com/shimeji><img src=https://i.imgur.com/RG52doK.png></a>',ctype='Bonus',lastupdate='24/12/20',gdrv='1nKdd3q6eaRqfTQz1I_vfykm8-u0Uq2IT',youtube='XpsEZcqlQ5I'
