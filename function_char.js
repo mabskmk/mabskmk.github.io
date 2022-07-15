@@ -30,6 +30,7 @@ tempo=setTimeout('vistg()',50000);
 function char(numero,cod) {
 youtube='';
 gdrv='';
+imgur9='';
 switch (numero) {
 case 1:
 mydiv='Death-Force',imgur='ocvdalJ',game='MetalSlug',ctype='Boss',lastupdate='13/12/08',gdrv='1nCEVFvv6_MWnOewCQEwqo3wBIEi0xOzk',youtube='57Twr3DTGbk'
