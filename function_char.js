@@ -90,7 +90,7 @@ case 19:
 mydiv='the-Destroyer',imgur='7dpm5WZ',game='Terraria',ctype='Bonus',lastupdate='02/06/15',gdrv='1yBtTASmCRApkCNeKmYbmdLX1JW_a8JlX',youtube='TMMmofbUPHw'
 break;
 case 20:
-mydiv='Wall-of-Flesh',imgur='517R994',game='Terraria',ctype='Bonus',lastupdate='31/10/14',gdrv='1MgS3faH8veG9Xv2AyUuCEKp3EMwTn4_F',youtube='f1q18hAlo9U'
+mydiv='Wall-of-Flesh',imgur='517R994',imgur9='HGEK7LB.gif',game='Terraria',ctype='Bonus',lastupdate='31/10/14',gdrv='1MgS3faH8veG9Xv2AyUuCEKp3EMwTn4_F',youtube='f1q18hAlo9U'
 break;
 case 21:
 mydiv='Sarlacc',imgur='7o6fJVg',game='Star Wars',ctype='Boss',lastupdate='03/08/12',gdrv='1zOk5tBPfYPP5a7siNJxitX4fmPmek5pg',youtube='gB3VHt2W_Y0'
