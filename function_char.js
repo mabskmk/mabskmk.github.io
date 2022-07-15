@@ -51,7 +51,7 @@ case 6:
 mydiv='Slug_Wanzer_Old',imgur='FlLscmO',game='Metalslug',ctype='Char',lastupdate='20/04/08',gdrv='1DMfPTtg1jbegRXRq82pb7N11pteDhNnw',youtube='Stk5KQzVcXE'
 break;
 case 7:
-mydiv='Slug_Wanzer',imgur='3tFzcit',game='Metalslug',ctype='Char',lastupdate='02/11/18',gdrv='1q9ZVUtQIz0pjdjtXAPG0MAi7fVdnglu-',youtube='tW_M0k_HFaY'
+mydiv='Slug_Wanzer',imgur='3tFzcit',imgur9='kwL3bIp.png',game='Metalslug',ctype='Char',lastupdate='02/11/18',gdrv='1q9ZVUtQIz0pjdjtXAPG0MAi7fVdnglu-',youtube='tW_M0k_HFaY'
 break;
 case 8:
 mydiv='Devil_Pesoguin',imgur='75lBnh5',imgur9='ESDw2hP.gif',game='Castlevania_edit',ctype='Bonus',lastupdate='02/11/18',gdrv='1n_A2vUVEDwaODoGRxMZ8t8iB1wR3-CRR',youtube='yISEi8PKipw'
