@@ -138,7 +138,7 @@ case 35:
 mydiv='Brain-of-Cthulhu',imgur='8xMmvYn',game='Terraria',ctype='Boss',lastupdate='31/10/15',youtube='LOtAUorfxgc',gdrv='1piPhPxq4fi_Eph0dKRqjbkgRkHKGlcnl'
 break;
 case 36:
-mydiv='Captain_Kebab',imgur='TsaW1dX',game='Parodius',ctype='Boss',lastupdate='28/06/16',gdrv='1CYYAi4kM1s-dFSH1ldcDdp9BEOxwQzOj',youtube='1BxSnIkb1co'
+mydiv='Captain_Kebab',imgur='TsaW1dX',imgur9='0cImMKw.png',game='Parodius',ctype='Boss',lastupdate='28/06/16',gdrv='1CYYAi4kM1s-dFSH1ldcDdp9BEOxwQzOj',youtube='1BxSnIkb1co'
 break;
 case 37:
 mydiv='Biker_GAL',imgur='7dP9qeT',imgur9='uhSntpz.png',game='Battle_Circuit',ctype='Bonus',lastupdate='29/06/16',youtube='wnNg3g0NXn0',gdrv='1kH-OrCFQMcm_gV8_sbxoSzLhySEqFrPT'
