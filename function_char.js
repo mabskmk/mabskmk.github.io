@@ -180,7 +180,7 @@ case 49:
 mydiv='Shimeji',imgur='IDrbSZ8',game='<a target=_blank href=https://kilkakon.com/shimeji><img src=https://i.imgur.com/RG52doK.png></a>',ctype='Bonus',lastupdate='24/12/20',gdrv='1nKdd3q6eaRqfTQz1I_vfykm8-u0Uq2IT',youtube='XpsEZcqlQ5I'
 break;
 case 50:
-mydiv='Thicc-Tac-Toe',imgur='ld7q5PX',game='Metal Slut',ctype='Bonus',lastupdate='13/01/21',gdrv='1ezCyx2EDm4b2Ko1hypdfUFB4Baw5zXVa',youtube='xrUfneVBPDo'
+mydiv='Thicc-Tac-Toe',imgur='ld7q5PX',imgur9='yxzkrR1',game='Metal Slut',ctype='Bonus',lastupdate='13/01/21',gdrv='1ezCyx2EDm4b2Ko1hypdfUFB4Baw5zXVa',youtube='xrUfneVBPDo'
 break;
 case 51:
 mydiv='Golem',imgur='pbrqOGU',imgur9='EpX4fu3',game='Nosferatu',ctype='Bonus',lastupdate='31/10/21',gdrv='18p-BFz34xr2fklFNuJkcr-kaqTYVNODy',youtube='xuMOQ4seKrE'
