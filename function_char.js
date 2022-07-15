@@ -105,7 +105,7 @@ case 24:
 mydiv='Heli-Master',imgur='lk7NGsI',imgur9='tmJNGkD.png',game='Alex Kidd',ctype='Boss',lastupdate='03/06/13',gdrv='1Z6E3Jqg_QEQ06Sby8mfBmrflgSgWrb6B',youtube='yxzrwJR4FBE'
 break;
 case 25:
-mydiv='Dr_Wily',imgur='jiB107a',game='Megaman',ctype='Bonus',lastupdate='21/05/13',gdrv='1i8t7TJQEw4RT7jphvoeMyTdaaT6RnKqa',youtube='BgT-H-F8Dv4'
+mydiv='Dr_Wily',imgur='jiB107a',imgur9='s745hPb.png',game='Megaman',ctype='Bonus',lastupdate='21/05/13',gdrv='1i8t7TJQEw4RT7jphvoeMyTdaaT6RnKqa',youtube='BgT-H-F8Dv4'
 break;
 case 26:
 mydiv='Devil-Dumb-Drum',imgur='rMWebNH',imgur9='HwDbkGI.png',game='Donkey Kong',ctype='Bonus',lastupdate='21/11/12',gdrv='1YSmr-m2nVO26xY05MosqTNmu5LAMZD6m',youtube='YIEZKsJMDzw'
