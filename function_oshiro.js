@@ -887,6 +887,9 @@ break;
 case 538:
 mydiv='Iinuma_Castle',special='DMhj1Kn-ZAQ',destroyed=''
 break;
+case 539:
+mydiv='Onigashima',special='jKMKyygwLaU',destroyed=''
+break;
 case 545:
 mydiv='Komaruyama_Castle',special='GaFyt6mOlqQ',destroyed=''
 break;
