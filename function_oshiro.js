@@ -177,7 +177,7 @@ case 84:
 mydiv='Wakamatsu_Castle',special='X4v67xonjqc',destroyed=''
 break;
 case 85:
-mydiv='Shimabara_Castle',special='jKMKyygwLaU',destroyed=''
+mydiv='Shimabara_Castle',special='vCeog9LL53Y',destroyed=''
 break;
 case 86:
 mydiv='Muranaka Castle',special='CRM_7exlx_4',destroyed='KP5y6TxG14o'
