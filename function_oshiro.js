@@ -10,6 +10,7 @@ btnyotu.disabled=false;
 for (x=2;x<1000;x++) {
 oshiro((x),1)
 }
+oshiro(85,3);
 }
 
 
