@@ -433,7 +433,7 @@ case 225:
 mydiv='Nagoya_Castle',special='',destroyed=''
 break;
 case 227:
-mydiv='Nitta_Kanayama',special='',destroyed=''
+mydiv='Nitta_Kanayama',special='W8kEjzdeo4U',destroyed=''
 break;
 case 231:
 mydiv='Aoba_Castle',special='',destroyed=''
