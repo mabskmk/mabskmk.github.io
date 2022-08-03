@@ -924,8 +924,14 @@ break;
 case 576:
 mydiv='Peterhof_Palace',special='0T9K54T3S-g',destroyed='DJuG7brA6vs'
 break;
+case 577:
+mydiv='',special='',destroyed=''
+break;
 case 582:
 mydiv='Chateau_dAngers',special='lWf0BxdSD_M',destroyed='osjRG7Qrr5k'
+break;
+case 593:
+mydiv='',special='',destroyed=''
 break;
 case 607:
 mydiv='Komaki_Yamashiro',special='dLLMnCROjaw',destroyed=''
