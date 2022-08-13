@@ -943,7 +943,7 @@ case 617:
 mydiv='Uwajima_Castle',special='oD10vPr-Dg4',destroyed='670E26LpWhA'
 break;
 case 674:
-mydiv='Matsukara_Castle',special='xsIDsvWJPEo',destroyed=''
+mydiv='Matsukura_Castle',special='xsIDsvWJPEo',destroyed=''
 break;
 case 998:
 mydiv='Stephan_the_Great',special='NgsVYm8QukY',destroyed=''
