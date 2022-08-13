@@ -898,7 +898,7 @@ case 546:
 mydiv='Moorish_Castle',special='',destroyed=''
 break;
 case 551:
-mydiv='Genna_Edo_Castle',special='',destroyed=''
+mydiv='Genna_Edo_Castle',special='6qKpRBIHE2A',destroyed=''
 break;
 case 552:
 mydiv='Kanei_Edo_Castle',special='ZHX9uVKf3PU',destroyed='RY4HuOIUBck'
