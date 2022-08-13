@@ -10,7 +10,7 @@ btnyotu.disabled=false;
 for (x=2;x<1000;x++) {
 oshiro((x),1)
 }
-oshiro(85,3);
+oshiro(674,3);
 }
 
 
@@ -941,6 +941,9 @@ mydiv='Vaijayanta',special='TAe0EyeoHnM',destroyed=''
 break;
 case 617:
 mydiv='Uwajima_Castle',special='oD10vPr-Dg4',destroyed='670E26LpWhA'
+break;
+case 674:
+mydiv='Matsukara_Castle',special='xsIDsvWJPEo',destroyed=''
 break;
 case 998:
 mydiv='Stephan_the_Great',special='NgsVYm8QukY',destroyed=''
