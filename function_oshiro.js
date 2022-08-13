@@ -940,7 +940,7 @@ case 613:
 mydiv='Vaijayanta',special='TAe0EyeoHnM',destroyed=''
 break;
 case 617:
-mydiv='Uwajima_Castle',special='oD10vPr-Dg4',destroyed=''
+mydiv='Uwajima_Castle',special='oD10vPr-Dg4',destroyed='670E26LpWhA'
 break;
 case 998:
 mydiv='Stephan_the_Great',special='NgsVYm8QukY',destroyed=''
