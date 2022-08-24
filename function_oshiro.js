@@ -442,7 +442,7 @@ case 233:
 mydiv='Chinon_Castle',special='4jTZnFgf1VA',destroyed='w5mSTLn6XY0'
 break;
 case 238:
-mydiv='Luxembourg',special='',destroyed=''
+mydiv='Luxembourg',special='0MQww4f_VYM',destroyed=''
 break;
 case 239:
 mydiv='Akashi_Castle',special='',destroyed='LempRNzyIqo'
