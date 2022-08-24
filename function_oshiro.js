@@ -376,7 +376,7 @@ case 182:
 mydiv='Tokushima_Castle',special='',destroyed=''
 break;
 case 184:
-mydiv='Kumamoto_Castle',special='',destroyed=''
+mydiv='Kumamoto_Castle',special='HabeGUxjiw4',destroyed=''
 break;
 case 185:
 mydiv='Kumamoto_Castle',special='',destroyed='Q9Qjt67Q830'
