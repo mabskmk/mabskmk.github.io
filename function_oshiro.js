@@ -37,7 +37,7 @@ case 10:
 mydiv='Aizuwakamatsu_Castle',special='',destroyed=''
 break;
 case 11:
-mydiv='Yamagata_Castle',special='',destroyed='8nTPwvEUoM0'
+mydiv='Yamagata_Castle',special='Fi0M_9tp_fw',destroyed='8nTPwvEUoM0'
 break;
 case 17:
 mydiv='Baba_Castle',special='',destroyed=''
