@@ -636,7 +636,7 @@ case 363:
 mydiv='Dazaifu',special='uNuOfhLiJFg',destroyed=''
 break;
 case 364:
-mydiv='Uwajima_Castle',special='XBHogThJFWA',destroyed=''
+mydiv='Uwajima_Castle',special='XBHogThJFWA',destroyed='vdXBswlnyss'
 break;
 case 365:
 mydiv='Kurumi_Tokisaki',special='BK8CpTG2OyQ',destroyed=''
