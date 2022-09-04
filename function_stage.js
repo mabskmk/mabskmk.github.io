@@ -27,6 +27,7 @@ tempo=setTimeout('vichar()',50000);
 
 //DOWNLOAD-STAGE
 function stage(numero,cod) {
+var nght = new Date();
 youtube='';
 nghtube='';
 //rng
