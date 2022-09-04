@@ -467,7 +467,13 @@ case 2:
 document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+" onClick='stage("+numero+")' title="+mydiv+" class='button' width='200'>"
 break;
 default:
+if (nghtube!=''||(nght>5&&nght<18){
 document.getElementById(numero).innerHTML="<br><iframe src=https://www.youtube.com/embed/"+youtube+" width='430' height='240' frameborder='0'></iframe><br><b>"+mydiv+"</b><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a><br>"
+}
+if (nghtube==''&&(nght<6&&nght>17){
+document.getElementById(numero).innerHTML="<br><iframe src=https://www.youtube.com/embed/"+nghtube+" width='430' height='240' frameborder='0'></iframe><br><b>"+mydiv+"</b><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a><br>"
+}
+
 break;
 }
 }
