@@ -28,6 +28,7 @@ tempo=setTimeout('vichar()',50000);
 //DOWNLOAD-STAGE
 function stage(numero,cod) {
 youtube='';
+nghtube='';
 //rng
 //if (numero<134 && cod==2){
 //cod=cod-(Math.floor(Math.random() * 2));
