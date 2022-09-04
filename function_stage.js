@@ -17,19 +17,17 @@ rand=Math.floor(Math.random() * 142);
 //rand=Math.floor((Math.random() * 10) + 132);
 stage(rand,1);
 if (youtube!='dQw4w9WgXcQ'){
-document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>STAGE ("+rand+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=STG_"+mydiv+"></a>"
+document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay='0'&mute='0' width='500' height='300' frameborder='0'></iframe><br>STAGE ("+rand+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=STG_"+mydiv+"></a>"
 }
 else{
-document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/HZxpB5C-iuA?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Full-Game: <b>Alex Kidd In Trouble</b> <a target='_blank' href='https://www.dropbox.com/s/wueu530ny6iowdi/AlexKiddinTrouble.zip?dl=1'><img src=https://i.imgur.com/pJFCm25.png title='Alex'></a>"
+document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/HZxpB5C-iuA?autoplay=0&mute=0 width='500' height='300' frameborder='0'></iframe><br>Full-Game: <b>Alex Kidd In Trouble</b> <a target='_blank' href='https://www.dropbox.com/s/wueu530ny6iowdi/AlexKiddinTrouble.zip?dl=1'><img src=https://i.imgur.com/pJFCm25.png title='Alex'></a>"
 }
 tempo=setTimeout('vichar()',50000);
 }
 
 //DOWNLOAD-STAGE
 function stage(numero,cod) {
-var nght = new Date();
 youtube='';
-nghtube='';
 //rng
 //if (numero<134 && cod==2){
 //cod=cod-(Math.floor(Math.random() * 2));
@@ -456,7 +454,7 @@ case 140:
 mydiv='Ghost-Sweeper',imgur='btWjmQ7.gif',youtube='jIciRjH4vMw',gdrv='1IirAgUWUbBQWSPDMhavvFgDL-mbxZXoc'
 break;
 case 141:
-mydiv='Final_Assault',imgur='2sTDDfe.gif',youtube='F2eoszGN52U',nghtube='tUHgV2ySH7U',gdrv='1X7OQdQam4igFRTeWV09pbH9iZIXPi2g5'
+mydiv='Final_Assault',imgur='2sTDDfe.gif',youtube='tUHgV2ySH7U',gdrv='1X7OQdQam4igFRTeWV09pbH9iZIXPi2g5'
 break;
 case 0:
 mydiv=''
@@ -468,13 +466,7 @@ case 2:
 document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+" onClick='stage("+numero+")' title="+mydiv+" class='button' width='200'>"
 break;
 default:
-if (nghtube!=''||(nght>5&&nght<18){
 document.getElementById(numero).innerHTML="<br><iframe src=https://www.youtube.com/embed/"+youtube+" width='430' height='240' frameborder='0'></iframe><br><b>"+mydiv+"</b><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a><br>"
-}
-if (nghtube==''&&(nght<6&&nght>17){
-document.getElementById(numero).innerHTML="<br><iframe src=https://www.youtube.com/embed/"+nghtube+" width='430' height='240' frameborder='0'></iframe><br><b>"+mydiv+"</b><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a><br>"
-}
-
 break;
 }
 }
