@@ -406,7 +406,7 @@ case 199:
 mydiv='Murao_Castle',special='',destroyed=''
 break;
 case 200:
-mydiv='Hamada_Castle',special='gU6AU6A6Rf4',destroyed=''
+mydiv='Hamada_Castle',special='gU6AU6A6Rf4',destroyed='Rkf76zI2aPU'
 break;
 case 204:
 mydiv='Tanba_Kameyama',special='J4RSMqOUTKY',destroyed=''
@@ -639,7 +639,7 @@ case 364:
 mydiv='Uwajima_Castle',special='XBHogThJFWA',destroyed='vdXBswlnyss'
 break;
 case 365:
-mydiv='Kurumi_Tokisaki',special='BK8CpTG2OyQ',destroyed=''
+mydiv='Kurumi_Tokisaki',special='BK8CpTG2OyQ',destroyed='JtSq_qfP5Ew'
 break;
 case 367:
 mydiv='Yamazaki_Castle',special='',destroyed='4jhxsNPvT7Q'
@@ -871,7 +871,7 @@ case 514:
 mydiv='Chantilly_Castle',special='',destroyed=''
 break;
 case 517:
-mydiv='Kotor_Fortress',special='N2Uj_3vSvVM',destroyed=''
+mydiv='Kotor_Fortress',special='N2Uj_3vSvVM',destroyed='vL_y0wLjHK4'
 break;
 case 523:
 mydiv='Shiryokaku',special='vKHkH7tYjRk',destroyed=''
@@ -910,7 +910,7 @@ case 561:
 mydiv='Catherine_Palace',special='j6sxwx_VvNQ',destroyed=''
 break;
 case 562:
-mydiv='Usayama_Castle',special='',destroyed='I_GBpKq2u5I'
+mydiv='Usayama_Castle',special='Y-V5bGb5TFc',destroyed='I_GBpKq2u5I'
 break;
 case 567:
 mydiv='Tsuyama_Castle',special='',destroyed=''
@@ -934,7 +934,7 @@ case 593:
 mydiv='Kii_Castle',special='YCw_henRtTk',destroyed=''
 break;
 case 607:
-mydiv='Komaki_Yamashiro',special='dLLMnCROjaw',destroyed=''
+mydiv='Komaki_Yamashiro',special='dLLMnCROjaw',destroyed='xjTwTF1PmKQ'
 break;
 case 613:
 mydiv='Vaijayanta',special='TAe0EyeoHnM',destroyed=''
