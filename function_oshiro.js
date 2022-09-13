@@ -406,7 +406,7 @@ case 199:
 mydiv='Murao_Castle',special='',destroyed=''
 break;
 case 200:
-mydiv='Hamada_Castle',special='gU6AU6A6Rf4',destroyed='Rkf76zI2aPU'
+mydiv='Hamada_Castle',special='gU6AU6A6Rf4',destroyed='DBg1BoKqlEg'
 break;
 case 204:
 mydiv='Tanba_Kameyama',special='J4RSMqOUTKY',destroyed=''
