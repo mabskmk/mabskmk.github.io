@@ -22,6 +22,7 @@ document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.yout
 else{
 document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/HZxpB5C-iuA?autoplay=0&mute=0 width='500' height='300' frameborder='0'></iframe><br>Full-Game: <b>Alex Kidd In Trouble</b> <a target='_blank' href='https://www.dropbox.com/s/wueu530ny6iowdi/AlexKiddinTrouble.zip?dl=1'><img src=https://i.imgur.com/pJFCm25.png title='Alex'></a>"
 }
+document.getElementById('BPt').src="https://signavatar.com/2425_v.gif"
 tempo=setTimeout('vichar()',50000);
 }
 
