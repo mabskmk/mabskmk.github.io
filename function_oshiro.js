@@ -385,7 +385,7 @@ case 188:
 mydiv='Conwy_Castle',special='',destroyed=''
 break;
 case 189:
-mydiv='Caernarfon_Castle',special='U1E7U6nxjC',destroyed=''
+mydiv='Caernarfon_Castle',special='U1E7U6nxjC8',destroyed=''
 break;
 case 190:
 mydiv='Yodo_Castle',special='',destroyed=''
