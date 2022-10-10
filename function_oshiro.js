@@ -801,7 +801,7 @@ case 455:
 mydiv='Gassan Castle',special='ap_iVplTe3Q',destroyed='dvjD0fy1E5M'
 break;
 case 456:
-mydiv='Izu_Shimoda_Castle',special='',destroyed=''
+mydiv='Izu_Shimoda_Castle',special='M-2fpYF3b20',destroyed=''
 break;
 case 458:
 mydiv='Ejiri_Castle',special='OOmTf3p-I9M',destroyed=''
