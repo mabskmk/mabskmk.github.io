@@ -994,6 +994,7 @@ document.getElementById(numero).innerHTML="<br><br><b><font color=yellow>"+mydiv
 }
 break;
 }
+}
 
 // LINK GDRV DROPBOX YOUTUBE (img  width='140')
 // <br><a target='_blank' href=><img onClick='stage("+numero+",2)' src=https://i.imgur.com/pJFCm25.png></a>
