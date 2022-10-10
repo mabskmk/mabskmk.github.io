@@ -478,7 +478,7 @@ case 258:
 mydiv='Minato_Castle',special='Ks_wdV5a6ZQ',destroyed=''
 break;
 case 260:
-mydiv='Shigisan_Castle',special='',destroyed='zdIN2rat-_I'
+mydiv='Shigisan_Castle',special='riHE4E87stM',destroyed='zdIN2rat-_I'
 break;
 case 261:
 mydiv='Chateau_de_Fontainebleau',special='mYAcbsVX08U',destroyed=''
