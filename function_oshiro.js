@@ -982,18 +982,18 @@ if (mydiv!=''&&special==''&&destroyed==''){
 document.getElementById(numero).innerHTML=""
 }
 break;
-case 2:
-if (mydiv!=''&&special!=''&&destroyed!=''){
-document.getElementById(numero).innerHTML="<br><br><b>"+mydiv+"</b><br><iframe src=https://www.youtube.com/embed/"+special+" width='430' height='240' frameborder='0'></iframe><iframe src=https://www.youtube.com/embed/"+destroyed+" width='430' height='240' frameborder='0'></iframe><br><br>"
-}
-if (mydiv!=''&&special!=''&&destroyed=''){
-document.getElementById(numero).innerHTML="<br><br><b><font color=blue>"+mydiv+"</font></b><br><iframe src=https://www.youtube.com/embed/"+special+" width='430' height='240' frameborder='0'></iframe><br><br>"
-}
-if (mydiv!=''&&special=''&&destroyed!=''){
-document.getElementById(numero).innerHTML="<br><br><b><font color=yellow>"+mydiv+"</font></b><br><iframe src=https://www.youtube.com/embed/"+destroyed+" width='430' height='240' frameborder='0'></iframe><br><br>"
-}
-break;
-}
+//case 2:
+//if (mydiv!=''&&special!=''&&destroyed!=''){
+//document.getElementById(numero).innerHTML="<br><br><b>"+mydiv+"</b><br><iframe src=https://www.youtube.com/embed/"+special+" width='430' height='240' frameborder='0'></iframe><iframe src=https://www.youtube.com/embed/"+destroyed+" width='430' height='240' frameborder='0'></iframe><br><br>"
+//}
+//if (mydiv!=''&&special!=''&&destroyed=''){
+//document.getElementById(numero).innerHTML="<br><br><b><font color=blue>"+mydiv+"</font></b><br><iframe src=https://www.youtube.com/embed/"+special+" width='430' height='240' frameborder='0'></iframe><br><br>"
+//}
+//if (mydiv!=''&&special=''&&destroyed!=''){
+//document.getElementById(numero).innerHTML="<br><br><b><font color=yellow>"+mydiv+"</font></b><br><iframe src=https://www.youtube.com/embed/"+destroyed+" width='430' height='240' frameborder='0'></iframe><br><br>"
+//}
+//break;
+//}
 }
 
 // LINK GDRV DROPBOX YOUTUBE (img  width='140')
