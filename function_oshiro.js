@@ -973,10 +973,10 @@ if (mydiv!=''&&special!=''&&destroyed!=''){
 document.getElementById(numero).innerHTML="<font color=green onClick='oshiro("+numero+",2)'>["+mydiv+"]</font>"
 }
 if (mydiv!=''&&special!=''&&destroyed==''){
-document.getElementById(numero).innerHTML="<font color=blue onClick='oshiro("+numero+",3)'>["+mydiv+"]</font>"
+document.getElementById(numero).innerHTML="<font color=blue onClick='oshiro("+numero+",2)'>["+mydiv+"]</font>"
 }
 if (mydiv!=''&&special==''&&destroyed!=''){
-document.getElementById(numero).innerHTML="<font color=yellow onClick='oshiro("+numero+",4)'>["+mydiv+"]</font>"
+document.getElementById(numero).innerHTML="<font color=yellow onClick='oshiro("+numero+",2)'>["+mydiv+"]</font>"
 }
 if (mydiv!=''&&special==''&&destroyed==''){
 document.getElementById(numero).innerHTML=""
