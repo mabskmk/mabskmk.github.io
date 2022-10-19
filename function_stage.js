@@ -19,9 +19,9 @@ btnstg.disabled=true;
 btnfullg.disabled=false;
 btntuto.disabled=false;
 btnyotu.disabled=false;
-for (x=141;x>0;x--) {
-stage((x),2)
-}
+//for (x=141;x>0;x--) {
+//stage((x),2)
+//}
 }
 
 
