@@ -774,7 +774,7 @@ case 441:
 mydiv='Shiwa_Castle',special='qclSXd4k3Z0',destroyed=''
 break;
 case 442:
-mydiv='Athens_Acropolis',special='gYwIft5mr2k',destroyed=''
+mydiv='Athens_Acropolis',special='',destroyed='gYwIft5mr2k'
 break;
 case 444:
 mydiv='Minowa_Castle',special='',destroyed=''
