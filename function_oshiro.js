@@ -819,7 +819,7 @@ case 470:
 mydiv='Yamagata_Castle',special='reSlYRzPxOo',destroyed=''
 break;
 case 474:
-mydiv='Eilean_Donan_Castle',special='',destroyed=''
+mydiv='Eilean_Donan_Castle',special='k7DfNCj-lgY',destroyed=''
 break;
 case 475:
 mydiv='Shuri_Castle',special='',destroyed=''
