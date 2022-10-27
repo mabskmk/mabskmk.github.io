@@ -64,7 +64,7 @@ case 29:
 mydiv='Odawara_Castle',special='jNQQhHBcNuU',destroyed=''
 break;
 case 31:
-mydiv='Shinpu_Castle',special='',destroyed=''
+mydiv='Shinpu_Castle',special='w2VZzw8jvec',destroyed=''
 break;
 case 32:
 mydiv='Nabe-Lid_Castle',special='',destroyed=''
@@ -268,7 +268,7 @@ case 127:
 mydiv='Kannonji_Castle',special='hGwoyGwUQpk',destroyed=''
 break;
 case 128:
-mydiv='Bran_Castle',special='w2VZzw8jvec',destroyed=''
+mydiv='Bran_Castle',special='QlSLssyMobk',destroyed=''
 break;
 case 130:
 mydiv='Oko_Castle',special='',destroyed=''
