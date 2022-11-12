@@ -126,6 +126,9 @@ break;
 case 59:
 mydiv='Ishiyama_Gobo',special='eZpvTpmdoWk',destroyed=''
 break;
+case 60:
+mydiv='Osaka_Castle',special='OD3-GDk09dw',destroyed=''
+break;
 case 61:
 mydiv='Iimoriyama_Castle',special='mnXy1KQct20',destroyed=''
 break;
@@ -950,6 +953,12 @@ mydiv='Uwajima_Castle',special='oD10vPr-Dg4',destroyed='670E26LpWhA'
 break;
 case 638:
 mydiv='Chillingham_Castle',special='biWkdDUrUHU',destroyed=''
+break;
+case 650:
+mydiv='Mt.Kongo_Castle',special='S_uLUkNeUoE',destroyed=''
+break;
+case 671:
+mydiv='Inframuros',special='Xjt79zZqG8k',destroyed=''
 break;
 case 674:
 mydiv='Matsukura_Castle',special='xsIDsvWJPEo',destroyed=''
