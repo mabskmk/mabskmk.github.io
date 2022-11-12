@@ -979,7 +979,7 @@ case 688:
 mydiv='Hohenzollern_Castle',special='0KdT27Pl8qM',destroyed=''
 break;
 case 689:
-mydiv='Buyo_Dance_Academy',special='12vutdiG1A',destroyed=''
+mydiv='Buyo_Dance_Academy',special='m12vutdiG1A',destroyed=''
 break;
 case 997:
 mydiv='Mitsunari_Ishida',special='hQMnerfeW5c',destroyed=''
