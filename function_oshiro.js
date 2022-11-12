@@ -566,6 +566,9 @@ break;
 case 319:
 mydiv='Amagasaki_Castle',special='',destroyed=''
 break;
+case 321:
+mydiv='Zeze_Castle',special='nPJj8DlB-do',destroyed=''
+break;
 case 322:
 mydiv='Matsusaka_Castle',special='M80o5erRXXg',destroyed=''
 break;
@@ -648,7 +651,7 @@ case 365:
 mydiv='Kurumi_Tokisaki',special='BK8CpTG2OyQ',destroyed='JtSq_qfP5Ew'
 break;
 case 367:
-mydiv='Yamazaki_Castle',special='',destroyed='4jhxsNPvT7Q'
+mydiv='Yamazaki_Castle',special='6nJdY_3EjS4',destroyed='4jhxsNPvT7Q'
 break;
 case 369:
 mydiv='Fukiage_Castle',special='GaRIDR_3qMs',destroyed=''
@@ -939,8 +942,14 @@ break;
 case 582:
 mydiv='Chateau_dAngers',special='lWf0BxdSD_M',destroyed='osjRG7Qrr5k'
 break;
+case 590:
+mydiv='Nottingham_Castle',special='O7Kzuq1hvW4',destroyed=''
+break;
 case 593:
 mydiv='Kii_Castle',special='YCw_henRtTk',destroyed=''
+break;
+case 606:
+mydiv='LasVegas_Castle-Hotel',special='JYswuyVjtyg',destroyed=''
 break;
 case 607:
 mydiv='Komaki_Yamashiro',special='dLLMnCROjaw',destroyed='xjTwTF1PmKQ'
@@ -968,6 +977,9 @@ mydiv='Aragonese_Castle',special='',destroyed='yt3xxG0q1yA'
 break;
 case 688:
 mydiv='Hohenzollern_Castle',special='0KdT27Pl8qM',destroyed=''
+break;
+case 689:
+mydiv='Buyo_Dance_Academy',special='12vutdiG1A',destroyed=''
 break;
 case 997:
 mydiv='Mitsunari_Ishida',special='hQMnerfeW5c',destroyed=''
