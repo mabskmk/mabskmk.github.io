@@ -18,10 +18,10 @@ rand=Math.floor(Math.random() * 999);
 //rand=Math.floor((Math.random() * 10) + 999);
 oshiro(rand,3);
 if (special!=''){
-document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+special+"?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br><b><font color=blue>"+mydiv+"</font></b>"
+document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+special+"?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Castle "+rand+": <b><font color=blue>"+mydiv+"</font></b>"
 }
 else {
-vichar();
+vioshiro();
 }
 tempo=setTimeout('vichar()',50000);
 }
