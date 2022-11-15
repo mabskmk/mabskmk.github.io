@@ -16,7 +16,7 @@ oshiro(689,2);
 function vioshiro() {
 while (special=='') {
 rand=Math.floor(Math.random() * 999);
-oshiro(rand);
+oshiro(rand,3);
 }
 document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+special+"?autoplay=0&mute=0 width='500' height='300' frameborder='0'></iframe><br>CASTLE ("+rand+"): <b>"+mydiv+"</b>"
 //
