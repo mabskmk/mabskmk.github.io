@@ -14,6 +14,8 @@ oshiro(689,2);
 }
 
 function vioshiro() {
+//
+document.getElementById('videoshowcase').innerHTML="test"
 while (special=='') {
 rand=Math.floor(Math.random() * 999)
 oshiro(rand,3)
