@@ -16,10 +16,10 @@ oshiro(689,2);
 function vioshiro() {
 //
 document.getElementById('videoshowcase').innerHTML="test"
-//while (mydiv=='') {
+while (mydiv='') {
 rand=Math.floor(Math.random() * 999);
 oshiro(rand);
-//}
+}
 document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+special+"?autoplay=0&mute=0 width='500' height='300' frameborder='0'></iframe><br>CASTLE ("+rand+"): <b>"+mydiv+"</b>";
 //
 tempo=setTimeout('vichar()',50000);
