@@ -14,14 +14,15 @@ oshiro(689,2);
 }
 
 function vioshiro() {
-//
-document.getElementById('videoshowcase').innerHTML="test"
-while (special=='') {
-//rand=Math.floor(Math.random() * 999);
-oshiro(3,3);
+rand=Math.floor(Math.random() * 999);
+//rand=Math.floor((Math.random() * 10) + 999);
+oshiro(rand,3);
+if (special!=''){
+document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+special+"?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>CASTLE ("+rand+"): <b>"+mydiv+"</b>"
 }
-document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+special+"?autoplay=0&mute=0 width='500' height='300' frameborder='0'></iframe><br>CASTLE ("+rand+"): <b>"+mydiv+"</b>";
-//
+else {
+vioshiro();//while
+}
 tempo=setTimeout('vichar()',50000);
 }
 
