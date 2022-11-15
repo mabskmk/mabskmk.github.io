@@ -23,7 +23,7 @@ document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.yout
 else{
 document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/OyQa9DowOrQ?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Full-Game: <b>Steel Warriors</b> <a target='_blank' href=https://www.dropbox.com/s/hp2b158fiqff6he/MSW-Steel%20Warriors1.1.rar?dl=1><img src=https://i.imgur.com/pJFCm25.png title='Steel Warriors'></a>"
 }
-tempo=setTimeout('vioshiro()',50000);
+tempo=setTimeout('vistg()',50000);
 }
 
 //DOWNLOAD-CHAR
