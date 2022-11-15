@@ -14,7 +14,7 @@ oshiro(689,2);
 }
 
 function vioshiro() {
-while (special=="") {
+while (special=='') {
 rand=Math.floor(Math.random() * 999);
 oshiro(rand);
 }
