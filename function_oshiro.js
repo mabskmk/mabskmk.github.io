@@ -979,7 +979,7 @@ case 617:
 mydiv='Uwajima_Castle',special='oD10vPr-Dg4',destroyed='670E26LpWhA'
 break;
 case 625:
-mydiv='(Ishida)',special='hQMnerfeW5c',destroyed=''
+mydiv='(Helmet_Ishida)',special='hQMnerfeW5c',destroyed=''
 break;
 case 638:
 mydiv='Chillingham_Castle',special='biWkdDUrUHU',destroyed=''
@@ -988,7 +988,7 @@ case 650:
 mydiv='Mt.Kongo_Castle',special='S_uLUkNeUoE',destroyed=''
 break;
 case 655:
-mydiv='(Fukushima)',special='8dIgeeaqLP4',destroyed=''
+mydiv='(Helmet_Fukushima)',special='8dIgeeaqLP4',destroyed=''
 break;
 case 671:
 mydiv='Inframuros',special='Xjt79zZqG8k',destroyed=''
