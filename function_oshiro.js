@@ -642,7 +642,7 @@ case 353:
 mydiv='Xuchang_Castle',special='qAkna2sJM0U',destroyed='lfXzzQ4qxgs'
 break;
 case 354:
-mydiv='Okazaki_Castle',special='5UunQENrlIU',destroyed=''
+mydiv='Okazaki_Castle',special='5UunQENrlIU',destroyed='Z0WG3EXU1rk'
 break;
 case 356:
 mydiv='Chihaya_Castle',special='PlkOU2B5H0U',destroyed=''
