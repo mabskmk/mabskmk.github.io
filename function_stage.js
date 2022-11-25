@@ -478,7 +478,7 @@ switch (cod) {
 case 1:
 break;
 case 2:
-document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+" onClick='stage("+numero+")' title="+mydiv+" class='button' width='10%' height='100%'>"
+document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+" onClick='stage("+numero+")' title="+mydiv+" class='button' width='10%' height='240'>"
 break;
 default:
 document.getElementById(numero).innerHTML="<br><iframe src=https://www.youtube.com/embed/"+youtube+" width='430' height='240' frameborder='0'></iframe><br><b>"+mydiv+"</b><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a><br>"
