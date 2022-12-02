@@ -10,7 +10,7 @@ btnyotu.disabled=false;
 for (x=2;x<1000;x++) {
 oshiro((x),1)
 }
-oshiro(655,2);
+oshiro(70,2);
 }
 
 function vioshiro() {
@@ -160,7 +160,7 @@ case 67:
 mydiv='Takamatsu_Castle',special='',destroyed=''
 break;
 case 70:
-mydiv='Shikano_Castle',special='',destroyed=''
+mydiv='Shikano_Castle',special='O-JeWyhtW9A',destroyed=''
 break;
 case 71:
 mydiv='Tottori_Castle',special='',destroyed=''
@@ -340,7 +340,7 @@ case 155:
 mydiv='Yoshida-Koriyama_Castle',special='AOgJuD8D8uk',destroyed=''
 break;
 case 157:
-mydiv='Kaerikumo_Castle',special='',destroyed=''
+mydiv='Kaerikumo_Castle',special='xVvUmrD-N2c',destroyed=''
 break;
 case 158:
 mydiv='Neuschwanstein_Castle',special='KszNez-80p0',destroyed='H1MbVZHXS-M'
@@ -705,7 +705,7 @@ case 394:
 mydiv='Hirai_Castle',special='JRYXOMihsPQ',destroyed=''
 break;
 case 395:
-mydiv='Dover_Castle',special='',destroyed=''
+mydiv='Dover_Castle',special='ZRDgNV1v6cc',destroyed=''
 break;
 case 396:
 mydiv='Conciergerie',special='yJC2yoyx8o0',destroyed='pxEq5c5fxlk'
