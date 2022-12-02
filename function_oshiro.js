@@ -367,7 +367,7 @@ case 169:
 mydiv=' Itashima_Marukushi',special='',destroyed=''
 break;
 case 170:
-mydiv='Hirosaki_Castle',special='',destroyed='-42DSz9xXDc'
+mydiv='Hirosaki_Castle',special='mHkZ4oSUqu0',destroyed='-42DSz9xXDc'
 break;
 case 172:
 mydiv='Jurakudai',special='CE6dttTDGk0',destroyed=''
@@ -1006,7 +1006,7 @@ case 674:
 mydiv='Matsukura_Castle',special='xsIDsvWJPEo',destroyed=''
 break;
 case 675:
-mydiv='Aragonese_Castle',special='',destroyed='yt3xxG0q1yA'
+mydiv='Aragonese_Castle',special='xg40_jqWsUY',destroyed='yt3xxG0q1yA'
 break;
 case 688:
 mydiv='Hohenzollern_Castle',special='0KdT27Pl8qM',destroyed=''
