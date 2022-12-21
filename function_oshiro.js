@@ -397,7 +397,7 @@ case 184:
 mydiv='Kumamoto_Castle',special='H5kbg_Tm2EE',destroyed=''
 break;
 case 185:
-mydiv='Kumamoto_Castle',special='',destroyed='Q9Qjt67Q830'
+mydiv='Kumamoto_Castle',special='D3VhQv297bM',destroyed='Q9Qjt67Q830'
 break;
 case 188:
 mydiv='Conwy_Castle',special='',destroyed=''
@@ -648,7 +648,7 @@ case 354:
 mydiv='Okazaki_Castle',special='5UunQENrlIU',destroyed='Z0WG3EXU1rk'
 break;
 case 356:
-mydiv='Chihaya_Castle',special='PlkOU2B5H0U',destroyed=''
+mydiv='Chihaya_Castle',special='PlkOU2B5H0U',destroyed='Q21nfdxVfR8'
 break;
 case 358:
 mydiv='Nobeoka_Castle',special='UOU6GK-4NpI',destroyed=''
@@ -925,7 +925,7 @@ case 538:
 mydiv='Iinuma_Castle',special='DMhj1Kn-ZAQ',destroyed=''
 break;
 case 539:
-mydiv='Onigashima',special='jKMKyygwLaU',destroyed=''
+mydiv='Onigashima',special='jKMKyygwLaU',destroyed='Qt2VXZXqar0'
 break;
 case 540:
 mydiv='(Helmet_Nagamasa)',special='5-TpStMuHB4',destroyed='-cLc8-rO8sM'
