@@ -819,7 +819,7 @@ case 450:
 mydiv='Sunomata_Ichiya_Castle',special='JweSnLo2H4M',destroyed=''
 break;
 case 451:
-mydiv='Karasawayama_Castle',special='',destroyed=''
+mydiv='Karasawa_Castle',special='uyNE_kJp218',destroyed=''
 break;
 case 452:
 mydiv='Wakasa_Oniga_Castle',special='5JYsV2GZPDA',destroyed=''
