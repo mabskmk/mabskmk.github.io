@@ -633,7 +633,7 @@ case 347:
 mydiv='Hohenzollern_Castle',special='pozvLYbe37A',destroyed=''
 break;
 case 349:
-mydiv='Komine_Castle',special='-SIWjTMLvTQ',destroyed=''
+mydiv='Komine_Castle',special='-SIWjTMLvTQ',destroyed='CAqLc6BjC3U'
 break;
 case 351:
 mydiv='Tatsuoka_Castle',special='WhAXQPQVodQ',destroyed=''
