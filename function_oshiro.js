@@ -928,7 +928,7 @@ case 538:
 mydiv='Iinuma_Castle',special='DMhj1Kn-ZAQ',destroyed=''
 break;
 case 539:
-mydiv='Onigashima',special='jKMKyygwLaU',destroyed='Qt2VXZXqar0'
+mydiv='🔨Onigashima',special='jKMKyygwLaU',destroyed='Qt2VXZXqar0'
 break;
 case 540:
 mydiv='(Helmet_Nagamasa)',special='5-TpStMuHB4',destroyed='-cLc8-rO8sM'
