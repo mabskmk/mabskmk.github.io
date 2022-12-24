@@ -690,7 +690,7 @@ case 381:
 mydiv='Heidelberg_Castle',special='V9wJy3-3v8k',destroyed=''
 break;
 case 382:
-mydiv='💣San_Leo_Castle',special='o3_cUdY9Ehs',destroyed=''
+mydiv='San_Leo_Castle',special='o3_cUdY9Ehs',destroyed=''
 break;
 case 384:
 mydiv='Heijo-kyo',special='T-iNmbhWVso',destroyed='VGoX8eN-1Mo'
@@ -837,7 +837,7 @@ case 461:
 mydiv='Rasnov_Fortress',special='GgBzdeTukFg',destroyed=''
 break;
 case 462:
-mydiv='💣Dubrovnik_Fortress',special='',destroyed='lKS8zWFMqlQ'
+mydiv='Dubrovnik_Fortress',special='',destroyed='lKS8zWFMqlQ'
 break;
 case 464:
 mydiv='Yuzuki_Castle',special='',destroyed=''
@@ -928,7 +928,7 @@ case 538:
 mydiv='Iinuma_Castle',special='DMhj1Kn-ZAQ',destroyed=''
 break;
 case 539:
-mydiv='🔨Onigashima',special='jKMKyygwLaU',destroyed='Qt2VXZXqar0'
+mydiv='Onigashima',special='jKMKyygwLaU',destroyed='Qt2VXZXqar0'
 break;
 case 540:
 mydiv='(Helmet_Nagamasa)',special='5-TpStMuHB4',destroyed='-cLc8-rO8sM'
@@ -991,7 +991,7 @@ case 613:
 mydiv='Vaijayanta',special='TAe0EyeoHnM',destroyed=''
 break;
 case 617:
-mydiv='💣Uwajima_Castle',special='oD10vPr-Dg4',destroyed='670E26LpWhA'
+mydiv='Uwajima_Castle',special='oD10vPr-Dg4',destroyed='670E26LpWhA'
 break;
 case 625:
 mydiv='(Helmet_Ishida)',special='hQMnerfeW5c',destroyed=''
