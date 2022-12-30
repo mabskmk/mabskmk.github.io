@@ -566,6 +566,7 @@ mydiv='Toledo_Fortress',special='fEq5J9Hu2oo',destroyed='yRXvRxLbK80'
 break;
 case 310:
 mydiv='Sadowara_Castle',special='',destroyed=''
+break;
 case 312:
 mydiv='Rocca_Maggiore',special='v-S9LqQ5a7g',destroyed=''
 break;
