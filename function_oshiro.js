@@ -478,7 +478,7 @@ case 248:
 mydiv='Kokura_Castle',special='',destroyed=''
 break;
 case 250:
-mydiv='Tsujo',special='',destroyed=''
+mydiv='Tsu_Castle',special='INHz0QV3G9I',destroyed=''
 break;
 case 253:
 mydiv='Shingu_Castle',special='RHpQ-YaWals',destroyed=''
@@ -874,7 +874,7 @@ case 490:
 mydiv='Miki_Castle',special='oi8XxrXCLsY',destroyed=''
 break;
 case 495:
-mydiv='Omi_Mochizuki_Castle',special='',destroyed=''
+mydiv='Omi_Mochizuki_Castle',special='HIkt4OYPH0U',destroyed=''
 break;
 case 496:
 mydiv='Pfalz_Castle',special='',destroyed=''
