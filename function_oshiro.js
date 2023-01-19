@@ -10,7 +10,7 @@ btnyotu.disabled=false;
 for (x=2;x<1000;x++) {
 oshiro((x),1)
 }
-oshiro(356,2);
+oshiro(250,2);
 }
 
 function vioshiro() {
