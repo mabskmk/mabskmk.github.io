@@ -922,6 +922,9 @@ break;
 case 531:
 mydiv='Fukuyama_Castle',special='',destroyed=''
 break;
+case 536:
+mydiv='Machu_Picchu',special='MsoUeyDL86c',destroyed=''
+break;
 case 537:
 mydiv='Nanae_Daiba',special='WWSdFJvxSTk',destroyed=''
 break;
