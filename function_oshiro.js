@@ -10,7 +10,7 @@ btnyotu.disabled=false;
 for (x=2;x<1000;x++) {
 oshiro((x),1)
 }
-oshiro(539,2);
+oshiro(356,2);
 }
 
 function vioshiro() {
@@ -1023,6 +1023,9 @@ mydiv='Hohenzollern_Castle',special='0KdT27Pl8qM',destroyed=''
 break;
 case 689:
 mydiv='Buyo_Dance_Academy',special='m12vutdiG1A',destroyed=''
+break;
+case 696:
+mydiv='(Helmet_Garuda)',special='',destroyed='cHH2Msbq0ks'
 break;
 case 997:
 mydiv='',special='',destroyed=''
