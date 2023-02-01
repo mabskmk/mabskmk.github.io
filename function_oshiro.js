@@ -10,7 +10,7 @@ btnyotu.disabled=false;
 for (x=2;x<1000;x++) {
 oshiro((x),1)
 }
-oshiro(250,2);
+oshiro(290,2);
 }
 
 function vioshiro() {
@@ -232,7 +232,7 @@ case 104:
 mydiv='Fukuyama_Castle',special='FVMV6s38lgU',destroyed=''
 break;
 case 106:
-mydiv='Harajo',special='',destroyed=''
+mydiv='Hara_Castle',special='hjR0VQu-vBU',destroyed=''
 break;
 case 107:
 mydiv='Negoro_Castle',special='',destroyed=''
@@ -538,7 +538,7 @@ case 289:
 mydiv='Omihachiman_Castle',special='',destroyed=''
 break;
 case 290:
-mydiv='Hyogo_Castle',special='sPVifQ3svqk',destroyed=''
+mydiv='Hyogo_Castle',special='sPVifQ3svqk',destroyed='QSXVJPWyuIU'
 break;
 case 291:
 mydiv='Jinhua_Mountain_Castle',special='',destroyed=''
