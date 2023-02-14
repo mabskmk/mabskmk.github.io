@@ -10,7 +10,7 @@ btnyotu.disabled=false;
 for (x=2;x<1000;x++) {
 oshiro((x),1)
 }
-oshiro(290,2);
+oshiro(605,2);
 }
 
 function vioshiro() {
@@ -843,6 +843,9 @@ break;
 case 464:
 mydiv='Yuzuki_Castle',special='',destroyed=''
 break;
+case 465:
+mydiv='Takanabe_Castle',special='UNSfQC0OHD0',destroyed=''
+break;
 case 467:
 mydiv='Veste_Coburg',special='rWrUVH4yI0c',destroyed=''
 break;
@@ -952,6 +955,9 @@ break;
 case 553:
 mydiv='Shirasagi_Castle',special='cZi82HdQ3ug',destroyed=''
 break;
+case 560:
+mydiv='Cachtice_Castle',special='Uwc7f0ZuCw',destroyed=''
+break;
 case 561:
 mydiv='Catherine_Palace',special='j6sxwx_VvNQ',destroyed=''
 break;
@@ -984,6 +990,9 @@ mydiv='Nottingham_Castle',special='O7Kzuq1hvW4',destroyed=''
 break;
 case 593:
 mydiv='Kii_Castle',special='YCw_henRtTk',destroyed=''
+break;
+case 605:
+mydiv='City_of_Dis',special='DlN7ZU2aP2k',destroyed=''
 break;
 case 606:
 mydiv='LasVegas_Castle-Hotel',special='JYswuyVjtyg',destroyed=''
