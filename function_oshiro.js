@@ -408,6 +408,9 @@ break;
 case 190:
 mydiv='Yodo_Castle',special='',destroyed=''
 break;
+case 191:
+mydiv='Uchi_Castle',special='cIhfFBxxDZ0',destroyed=''
+break;
 case 193:
 mydiv='Iinoya_Castle',special='',destroyed=''
 break;
@@ -985,6 +988,9 @@ break;
 case 583:
 mydiv='(Helmet_Stephan)',special='NgsVYm8QukY',destroyed=''
 break;
+case 584:
+mydiv='Dazaifuuu',special='d6KQ6E68bcY',destroyed=''
+break;
 case 590:
 mydiv='Nottingham_Castle',special='O7Kzuq1hvW4',destroyed=''
 break;
@@ -999,6 +1005,9 @@ mydiv='LasVegas_Castle-Hotel',special='JYswuyVjtyg',destroyed=''
 break;
 case 607:
 mydiv='Komaki_Yamashiro',special='dLLMnCROjaw',destroyed='xjTwTF1PmKQ'
+break;
+case 608:
+mydiv='Riegersburg_',special='ngCP22TnNwU',destroyed=''
 break;
 case 613:
 mydiv='Vaijayanta',special='TAe0EyeoHnM',destroyed=''
