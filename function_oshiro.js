@@ -947,7 +947,7 @@ case 545:
 mydiv='Komaruyama_Castle',special='GaFyt6mOlqQ',destroyed=''
 break;
 case 546:
-mydiv='Moorish_Castle',special='',destroyed=''
+mydiv='Moorish_Castle',special='DZHKgj1vq50',destroyed=''
 break;
 case 548:
 mydiv='Yushima_Seido',special='5oANaGZJi-E',destroyed=''
