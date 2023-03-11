@@ -962,7 +962,7 @@ case 553:
 mydiv='Shirasagi_Castle',special='cZi82HdQ3ug',destroyed=''
 break;
 case 560:
-mydiv='Cachtice_Castle',special='Uwc7f0ZuCw',destroyed=''
+mydiv='Cachtice_Castle',special='oUwc7f0ZuCw',destroyed=''
 break;
 case 561:
 mydiv='Catherine_Palace',special='j6sxwx_VvNQ',destroyed=''
