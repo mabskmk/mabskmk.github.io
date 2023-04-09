@@ -870,6 +870,9 @@ break;
 case 476:
 mydiv='Amazaki_Castle',special='R1oFqHwH4Pk',destroyed=''
 break;
+case 477:
+mydiv='Anping_Castle',special='HJHQD40WjJY',destroyed=''
+break;
 case 481:
 mydiv='Yanagawa_Castle',special='FOWmcrupmsc',destroyed=''
 break;
@@ -954,6 +957,9 @@ mydiv='Moorish_Castle',special='DZHKgj1vq50',destroyed=''
 break;
 case 548:
 mydiv='Yushima_Seido',special='5oANaGZJi-E',destroyed=''
+break;
+case 549:
+mydiv='Taka-jo',special='73fXcQCaKyk',destroyed=''
 break;
 case 551:
 mydiv='Genna_Edo_Castle',special='6qKpRBIHE2A',destroyed=''
