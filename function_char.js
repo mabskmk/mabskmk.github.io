@@ -28,7 +28,7 @@ tempo=setTimeout('vistg()',50000);
 
 //DOWNLOAD-CHAR
 function char(numero,cod) {
-youtube='';
+youtube='7mFsq-ehdUI';
 gdrv='';
 imgur9='';
 switch (numero) {
