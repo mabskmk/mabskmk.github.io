@@ -42,7 +42,7 @@ tempo=setTimeout('vioshiro()',50000);
 
 //DOWNLOAD-STAGE
 function stage(numero,cod) {
-youtube='';
+youtube='dQw4w9WgXcQ';
 //rng
 //if (numero<134 && cod==2){
 //cod=cod-(Math.floor(Math.random() * 2));
