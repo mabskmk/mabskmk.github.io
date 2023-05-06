@@ -247,7 +247,7 @@ case 109:
 mydiv='Kasugayama_Castle',special='yWnKSXE4p24',destroyed=''
 break;
 case 111:
-mydiv='Fukuchiyama_Castle',special='rAxwyQeW4',destroyed=''
+mydiv='Fukuchiyama_Castle',special='ttrAxwyQeW4',destroyed=''
 break;
 case 112:
 mydiv='Imahama_Castle',special='',destroyed=''
@@ -877,7 +877,7 @@ case 476:
 mydiv='Amazaki_Castle',special='R1oFqHwH4Pk',destroyed=''
 break;
 case 477:
-mydiv='Anping_Castle',special='HJHQD40WjJY',destroyed=''
+mydiv='Anping_Castle',special='vDI4_k2SpzM',destroyed=''
 break;
 case 481:
 mydiv='Yanagawa_Castle',special='FOWmcrupmsc',destroyed=''
