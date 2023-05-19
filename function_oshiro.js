@@ -14,7 +14,7 @@ oshiro(712,2);
 }
 
 function vioshiro() {
-rand=Math.floor(Math.random() * 999);
+rand=Math.floor(Math.random() * 713);
 //rand=Math.floor((Math.random() * 10) + 999);
 oshiro(rand,3);
 if (special!=''){
