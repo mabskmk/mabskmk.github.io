@@ -18,10 +18,10 @@ rand=Math.floor(Math.random() * 999);
 //rand=Math.floor((Math.random() * 10) + 999);
 oshiro(rand,3);
 if (special!=''){
-document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+special+"?autoplay=0&mute=0 width='500' height='300' frameborder='0'></iframe><br>Shiro Project RE episode "+rand+": <b>"+mydiv+"</b>"
+document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+special+"?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Shiro Project RE episode "+rand+": <b>"+mydiv+"</b>"
 }
 else if (destroyed!=''){
-document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+destroyed+"?autoplay=0&mute=0 width='500' height='300' frameborder='0'></iframe><br>Shiro Project RE episode "+rand+": <b>"+mydiv+"</b>"
+document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+destroyed+"?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Shiro Project RE episode "+rand+": <b>"+mydiv+"</b>"
 }
 else {
 document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/b7vz7krharY?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br><b>Just a normal day</b>"
