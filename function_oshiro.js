@@ -24,6 +24,7 @@ else if (destroyed!=''){
 document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+destroyed+"?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Shiro Project RE episode "+rand+": <b>"+mydiv+"</b>"
 }
 else {
+vioshiro();
 document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/b7vz7krharY?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br><b>Just a normal day</b>"
 }
 tempo=setTimeout('vichar()',50000);
