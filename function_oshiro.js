@@ -10,7 +10,7 @@ btnyotu.disabled=false;
 for (x=2;x<1000;x++) {
 oshiro((x),1)
 }
-oshiro(712,2);
+oshiro(466,2);
 }
 
 function vioshiro() {
@@ -856,7 +856,7 @@ case 465:
 mydiv='Takanabe_Castle',special='UNSfQC0OHD0',destroyed=''
 break;
 case 466:
-mydiv='Strahov_Monastery',special='sQIu9aL0clY',destroyed=''
+mydiv='Strahov_Monastery',special='sQIu9aL0clY',destroyed='PLl2Gfo6vs0'
 break;
 case 467:
 mydiv='Veste_Coburg',special='rWrUVH4yI0c',destroyed=''
@@ -932,7 +932,7 @@ case 523:
 mydiv='Shiryokaku',special='vKHkH7tYjRk',destroyed=''
 break;
 case 529:
-mydiv='Odani_Castle',special='',destroyed='pEh8-UlNPls'
+mydiv='Odani_Castle',special='wpzYbhLMURc',destroyed='pEh8-UlNPls'
 break;
 case 530:
 mydiv='Mrs_Orange',special='',destroyed=''
