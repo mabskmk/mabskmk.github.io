@@ -157,7 +157,7 @@ case 64:
 mydiv='Miki_Castle',special='',destroyed=''
 break;
 case 66:
-mydiv='Okayama_Castle',special='5b2qJoWXh04',destroyed=''
+mydiv='Okayama_Castle',special='5b2qJoWXh04',destroyed='M220O5W5uqc'
 break;
 case 67:
 mydiv='Takamatsu_Castle',special='',destroyed=''
@@ -478,7 +478,7 @@ case 240:
 mydiv='Yanagi_no_Gosho',special='',destroyed=''
 break;
 case 243:
-mydiv='Pingyao_Ancient_City',special='',destroyed=''
+mydiv='Pingyao_Ancient_City',special='4wDgtPi1DiA',destroyed=''
 break;
 case 244:
 mydiv='Schonbrunn_Palace',special='luRHnULqdTE',destroyed=''
