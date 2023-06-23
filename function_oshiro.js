@@ -10,7 +10,7 @@ btnyotu.disabled=false;
 for (x=2;x<1000;x++) {
 oshiro((x),1)
 }
-oshiro(466,2);
+oshiro(590,2);
 }
 
 function vioshiro() {
@@ -100,7 +100,7 @@ case 39:
 mydiv='Nagoya_Castle',special='1rmBMOSJRs0',destroyed=''
 break;
 case 40:
-mydiv='Inabayama_Castle',special='',destroyed=''
+mydiv='Inabayama_Castle',special='HL7lU6qtXtI',destroyed=''
 break;
 case 41:
 mydiv='Gifu_Castle',special='K-UxTpHJTpk',destroyed=''
@@ -298,7 +298,7 @@ case 131:
 mydiv='Oyama_Gobo',special='',destroyed=''
 break;
 case 132:
-mydiv='Sakuma_Kanazawa_Castle',special='',destroyed=''
+mydiv='Sakuma_Kanazawa_Castle',special='-JCdbrMHCVs',destroyed=''
 break;
 case 133:
 mydiv='Bodhiyama_Castle',special='lhYRNy8qCW8',destroyed='cifjmbBq2c0'
@@ -598,7 +598,7 @@ case 322:
 mydiv='Matsusaka_Castle',special='M80o5erRXXg',destroyed=''
 break;
 case 323:
-mydiv='Ryukyu_Castle',special='',destroyed=''
+mydiv='Ryukyu_Castle',special='5szZBG9gd5M',destroyed=''
 break;
 case 328:
 mydiv='Himeji Castle',special='-aH-wkD-aH8',destroyed='ijPTN_6RM5c'
@@ -625,7 +625,7 @@ case 341:
 mydiv='Edo_Castle',special='Rde56huiZVk',destroyed=''
 break;
 case 342:
-mydiv='Kindai_Castle',special='068TJQPm2qw',destroyed=''
+mydiv='Kindai_Castle',special='068TJQPm2qw',destroyed='fs3MNf5dJsk'
 break;
 case 343:
 mydiv='Chiyoda_Castle',special='dJqtsB8Zib8',destroyed=''
@@ -907,7 +907,7 @@ case 501:
 mydiv='Kuwana_Castle',special='',destroyed=''
 break;
 case 502:
-mydiv='Bichu_Takamatsu',special='',destroyed=''
+mydiv='Bichu_Takamatsu',special='qwsCi-9FHH0',destroyed=''
 break;
 case 503:
 mydiv='City_of_the_Moon',special='egJiiSX7n9s',destroyed='QhjUxW7OEV0'
@@ -1013,7 +1013,7 @@ case 584:
 mydiv='Dazaifuuu',special='d6KQ6E68bcY',destroyed=''
 break;
 case 590:
-mydiv='Nottingham_Castle',special='O7Kzuq1hvW4',destroyed=''
+mydiv='Nottingham_Castle',special='O7Kzuq1hvW4',destroyed='C_wJhvg41wg'
 break;
 case 591:
 mydiv='Buda_Castle',special='CkJa-k_Jp4E',destroyed=''
@@ -1069,14 +1069,14 @@ break;
 case 696:
 mydiv='(Helmet_Garuda)',special='ZXOK42_8Ono',destroyed='cHH2Msbq0ks'
 break;
+case 709:
+mydiv='Tamagusuku_Castle',special='shBI9jUCDCU',destroyed=''
+break;
 case 712:
 mydiv='Japan_Mint_head_office',special='uzctO7j_1Sg',destroyed=''
 break;
-case 998:
-mydiv='',special='',destroyed=''
-break;
-case 999:
-mydiv='',special='',destroyed=''
+case 722:
+mydiv='Somayama_Castle',special='gvMEsDswWqk',destroyed=''
 break;
 default:
 mydiv=''
