@@ -7,7 +7,7 @@ btnstg.disabled=false;
 btnfullg.disabled=false;
 btntuto.disabled=false;
 btnyotu.disabled=false;
-for (x=2;x<1000;x++) {
+for (x=2;x<723;x++) {
 oshiro((x),1)
 }
 oshiro(590,2);
