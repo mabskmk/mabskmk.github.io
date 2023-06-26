@@ -7,14 +7,14 @@ btnstg.disabled=false;
 btnfullg.disabled=false;
 btntuto.disabled=false;
 btnyotu.disabled=false;
-for (x=2;x<723;x++) {
+for (x=2;x<1000;x++) {
 oshiro((x),1)
 }
 oshiro(590,2);
 }
 
 function vioshiro() {
-rand=Math.floor(Math.random() * 713);
+rand=Math.floor(Math.random() * 723);
 //rand=Math.floor((Math.random() * 10) + 999);
 oshiro(rand,3);
 if (special!=''){
