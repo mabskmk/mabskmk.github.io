@@ -10,7 +10,7 @@ btnyotu.disabled=false;
 for (x=2;x<1000;x++) {
 oshiro((x),1)
 }
-oshiro(369,2);
+oshiro(605,2);
 }
 
 function vioshiro() {
@@ -1022,7 +1022,7 @@ case 593:
 mydiv='Kii_Castle',special='YCw_henRtTk',destroyed=''
 break;
 case 605:
-mydiv='City_of_Dis',special='DlN7ZU2aP2k',destroyed=''
+mydiv='City_of_Dis',special='DlN7ZU2aP2k',destroyed='pJwRbpoWfUs'
 break;
 case 606:
 mydiv='LasVegas_Castle-Hotel',special='JYswuyVjtyg',destroyed=''
