@@ -1,6 +1,6 @@
 //MENU
 function ppmain(numero) {
-document.getElementById('cabec').innerHTML="<b><a href='https://en.wikipedia.org/wiki/M.U.G.E.N' target='_blank' id='toppage'>M.U.G.E.N</a></b><br>A 2D fighting game engine that is enables you to create fighting games.<br>Almost everything can be customized, from individual characters to stages, as well as the look and feel of the game.</b><br>I hope you enjoy my 'work'</font><br><br><input type=button onClick='menuchar()' value='Characters' id='btnchar'><input type=button onClick='menustage2()' value='Stages' id='btnstg'><input type=button onClick='menu(3)' value='Fullgames' id='btnfullg'><input type=button onClick='menushiro()' value='OSHIRO' id='btntuto'><input type=button onClick='menu(5)' value='Mytube' id='btnyotu'><input type=button onClick='ppmain(2)' value='Showcase' id='btnnew'><br><input type=button onClick='menu(6)' value='wip' id='btnw'>"
+document.getElementById('cabec').innerHTML="<b><a href='https://en.wikipedia.org/wiki/M.U.G.E.N' target='_blank' id='toppage'>M.U.G.E.N</a></b><br>A 2D fighting game engine that is enables you to create fighting games.<br>Almost everything can be customized, from individual characters to stages, as well as the look and feel of the game.</b><br>I hope you enjoy my 'work'</font><br><br><input type=button onClick='menuchar()' value='Characters' id='btnchar'><input type=button onClick='menustage2()' value='Stages' id='btnstg'><input type=button onClick='menu(3)' value='Fullgames' id='btnfullg'><input type=button onClick='menushiro()' value='OSHIRO' id='btntuto'><input type=button onClick='menu(5)' value='Mytube' id='btnyotu'><input type=button onClick='ppmain(2)' value='Showcase' id='btnnew'><br>"
 switch (numero) {
 case 1:
 document.getElementById('principal').innerHTML=""
@@ -51,7 +51,7 @@ btntuto.disabled=false;
 btnyotu.disabled=true;
 break;
 case 6:
-document.getElementById('principal').innerHTML="<center><h1 id=nomeprinc><b>W.I.P.</h1><img src='https://i.imgur.com/RakduKl.png' width=25% height=25%><img src='https://i.imgur.com/RakduKl.png' width=25% height=25%><img src='https://i.imgur.com/RakduKl.png' width=25% height=25%><br><img src='https://i.imgur.com/E1IwRRY.png' width=25% height=25%><img src='https://i.imgur.com/E1IwRRY.png' width=25% height=25%><img src='https://i.imgur.com/E1IwRRY.png' width=25% height=25%><br><img src='https://i.imgur.com/RakduKl.png' width=25% height=25%><img src='https://i.imgur.com/RakduKl.png' width=25% height=25%><img src='https://i.imgur.com/RakduKl.png' width=25% height=25%><br><br></center>"
+document.getElementById('principal').innerHTML="<center><h1 id=nomeprinc><b>W.I.P.</h1><img src='https://i.imgur.com/RakduKl.png' width=12.5% height=12.5%><img src='https://i.imgur.com/RakduKl.png' width=12.5% height=12.5%><img src='https://i.imgur.com/RakduKl.png' width=12.5% height=12.5%><br><img src='https://i.imgur.com/E1IwRRY.png' width=12.5% height=12.5%><img src='https://i.imgur.com/E1IwRRY.png' width=12.5% height=12.5%><img src='https://i.imgur.com/E1IwRRY.png' width=12.5% height=25%><br><img src='https://i.imgur.com/RakduKl.png' width=25% height=12.5%><img src='https://i.imgur.com/RakduKl.png' width=12.5% height=12.5%><img src='https://i.imgur.com/RakduKl.png' width=12.5% height=12.5%><br><br></center>"
 btnnew.disabled=false;
 btnchar.disabled=false;
 btnstg.disabled=false;
