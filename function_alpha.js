@@ -1,6 +1,6 @@
 //MENU
 function ppmain(numero) {
-document.getElementById('cabec').innerHTML="<b><a href='https://en.wikipedia.org/wiki/M.U.G.E.N' target='_blank' id='toppage'>M.U.G.E.N</a></b><br>A 2D fighting game engine that is enables you to create fighting games.<br>Almost everything can be customized, from individual characters to stages, as well as the look and feel of the game.</b><br>I hope you enjoy my 'work'</font><br><br><input type=button onClick='menuchar()' value='Characters' id='btnchar'><input type=button onClick='menustage2()' value='Stages' id='btnstg'><input type=button onClick='menu(3)' value='Fullgames' id='btnfullg'><input type=button onClick='menushiro()' value='OSHIRO' id='btntuto'><input type=button onClick='menu(5)' value='Mytube' id='btnyotu'><input type=button onClick='ppmain(2)' value='Showcase' id='btnnew'><br>"
+document.getElementById('cabec').innerHTML="<b><a href='https://en.wikipedia.org/wiki/M.U.G.E.N' target='_blank' id='toppage'>M.U.G.E.N</a></b><br>A 2D fighting game engine that is enables you to create fighting games.<br>Almost everything can be customized, from individual characters to stages, as well as the look and feel of the game.</b><br>I hope you enjoy my 'work'</font><br><br><input type=button onClick='menuchar()' value='Characters' id='btnchar'><input type=button onClick='menustage2()' value='Stages' id='btnstg'><input type=button onClick='menu(3)' value='Fullgames' id='btnfullg'><input type=button onClick='menushiro()' value='OSHIRO' id='btntuto'><input type=button onClick='menu(5)' value='Mytube' id='btnyotu'><input type=button onClick='ppmain(2)' value='Showcase' id='btnnew'><br><input type=button onClick='menu(6)' value='wip' id='btnw'>"
 switch (numero) {
 case 1:
 document.getElementById('principal').innerHTML=""
@@ -56,7 +56,7 @@ btnnew.disabled=false;
 btnchar.disabled=false;
 btnstg.disabled=false;
 btnfullg.disabled=false;
-btntuto.disabled=true;
+btntuto.disabled=false;
 btnyotu.disabled=false;
 break;
 }
