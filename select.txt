@@ -211,6 +211,7 @@ stages/CKebabStg.def
 stages/ClubMFG.def
 stages/CocoronSKULL1.def
 stages/CocoronSKULL2.def
+stages/CollisionChaos.def
 stages/correria.def
 stages/CosmoPG1.def
 stages/CosmoPG2.def
