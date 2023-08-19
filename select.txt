@@ -272,6 +272,7 @@ stages/Gourmet_Foot.def
 stages/Gourmet_Street1.def
 stages/Gourmet_Street2.def
 stages/Graveyard.def
+stages/Greenbase.def
 stages/HazardBank.def
 stages/hazardbankC.def
 stages/HazardTank.def
