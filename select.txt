@@ -161,6 +161,12 @@ zeroko_w
 stages/Abadox.def
 stages/Analyzer.def
 stages/AncientShadows_M1.def
+stages/androdunos-moon.def
+stages/AngelIslandzone1.def
+stages/AngelIslandzone2.def
+stages/AngelIslandzone3.def
+stages/AngelIslandzone4.def
+stages/AngelIslandzone5.def
 stages/Anhui.def
 stages/AquaticRuins.def
 stages/ARENA.def
@@ -170,6 +176,7 @@ stages/ArkanoidSyn3.def
 stages/ArkanoidSyn4.def
 stages/ArkanoidSyn5.def
 stages/Axel_city.def
+stages/BayRoute.def
 stages/bc_ARGHBAR.def
 stages/bc_COLLAVA.def
 stages/bc_CYCSTAGE1.def
@@ -177,6 +184,15 @@ stages/bc_CYCSTAGE2.def
 stages/bc_KITSUNOH.def
 stages/BronzeAuditorium.def
 stages/BurningArena.def
+stages/BusterSTG1.def
+stages/BusterSTG2.def
+stages/BusterSTG3.def
+stages/BusterSTG4.def
+stages/BusterSTG5.def
+stages/BusterSTG6.def
+stages/BusterSTG7.def
+stages/BusterSTG8.def
+stages/Cat_RaceOTR.def
 stages/CDB1.def
 stages/CDB2.def
 stages/ChemicalPlant1.def
@@ -226,6 +242,10 @@ stages/GHBlackBase1.def
 stages/GHBlackBase2.def
 stages/GHBlackBase3.def
 stages/GHforcemine.def
+stages/GHTheFinalAssault1A.def
+stages/GHTheFinalAssault1B.def
+stages/GHTheFinalAssault2A.def
+stages/GHTheFinalAssault2B.def
 stages/GoingThroughHell.def
 stages/GORN.def
 stages/Gourmet_Factory1.def
