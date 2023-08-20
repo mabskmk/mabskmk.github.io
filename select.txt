@@ -159,6 +159,10 @@ zeroko_w
 
 [ExtraStages]
 stages/Abadox.def
+stages/AlexKiddInSW_Bossr1.def
+stages/AlexKiddInSW_Bossr3-1.def
+stages/AlexKiddInSW_Bossr4.def
+stages/AlexKiddInSW_Bossr9.def
 stages/Analyzer.def
 stages/AncientShadows_M1.def
 stages/androdunos-moon.def
@@ -339,13 +343,19 @@ stages/NWcorridor2.def
 stages/NWcorridor3.def
 stages/NWcorridor4.def
 stages/NWcorridorX.def
+stages/NWparty.def
 stages/OilOcean.def
 stages/PhantasyStarShip.def
 stages/PlanetPrision.def
 stages/Pok3dCave.def
 stages/Pok3dValley.def
+stages/PsychoWasp.def
 stages/RadioMaze.def
 stages/RandomSpace.def
+stages/RanmaruSTG1.def ;thewat
+stages/RanmaruSTG2.def :thewat
+stages/Religionchng1.def
+stages/Religionchng2.def
 stages/RescueGeisha.def
 stages/RInsanity.def
 stages/Rtype_Junkyard.def
@@ -386,8 +396,6 @@ stages/TerrariC.def
 stages/TerrorVision.def
 stages/The_Fire_Prominence.def
 stages/TheRuinsofMetro.def
-stages/THEwAT1.def
-stages/THEwAT2.def
 stages/TitanForest.def
 stages/To-See-The-Light-of-Day.def
 stages/TowerofMorgul.def
