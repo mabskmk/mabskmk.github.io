@@ -6,7 +6,6 @@ randomselect
 akira_h
 AL
 AmyRose
-Aner_Rolange
 annie
 anny
 anuvi
@@ -197,7 +196,7 @@ stages/chompman4.def
 stages/CiliaMonster.def
 stages/CKebabStg.def
 felicia ,stages/ClubMFG.def
-stages/CocoronSKULL1.def
+Aner_Rolange ,stages/CocoronSKULL1.def
 another_blood ,stages/CocoronSKULL2.def
 lilica ,stages/CollisionChaos.def
 stages/correria.def
