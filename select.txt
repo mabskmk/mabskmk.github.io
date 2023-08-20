@@ -9,7 +9,6 @@ AmyRose
 Aner_Rolange
 annie
 anny
-another_blood
 anuvi
 AOBA
 aok_kanae
@@ -18,7 +17,6 @@ Arabianmoon
 arina
 Sexy_Arina
 A-Shi
-aska-e
 cvs_athena
 Athena-Police
 Ayane_WP
@@ -28,7 +26,6 @@ baiken_SLASH
 benten
 Blair
 BloodRayne_MVC
-Cammy
 catwoman
 Chloe
 Ath-Chunli
@@ -39,7 +36,6 @@ Double-A
 dragon
 Elektra
 Eliza
-EmmaFrost
 erim
 felicia
 femina
@@ -214,7 +210,7 @@ stages/CiliaMonster.def
 stages/CKebabStg.def
 stages/ClubMFG.def
 stages/CocoronSKULL1.def
-stages/CocoronSKULL2.def
+another_blood ,stages/CocoronSKULL2.def
 stages/CollisionChaos.def
 stages/correria.def
 stages/CosmoPG1.def
@@ -374,12 +370,12 @@ stages/ShaqFulab5.def
 stages/ShockGalko.def
 stages/ShockTrain.def
 stages/SlimSubwaySmash.def
-stages/SnowRush.def
+EmmaFrost ,stages/SnowRush.def
 stages/SonicBlastJet.def
 stages/SonicSpecialStage.def
 stages/SpaceRocket.def
 stages/Stage005.def
-stages/stageCammy.def
+Cammy ,stages/stageCammy.def
 stages/stageChunli.def
 stages/stageDraco.def
 stages/stageEtna.def
@@ -417,7 +413,7 @@ stages/Viotoxica3.def
 stages/Viotoxica4.def
 stages/Viotoxica5.def
 stages/WallFacestg.def ;(1.1)
-stages/We've-got-Shadowmans.def
+aska-e ,stages/We've-got-Shadowmans.def
 stages/WhisperForest1.def
 stages/WhisperForest2.def
 stages/WildSide.def
