@@ -16,7 +16,6 @@ aoko-ex
 Arabianmoon
 arina
 Sexy_Arina
-A-Shi
 cvs_athena
 Athena-Police
 Ayane_WP
@@ -37,8 +36,6 @@ dragon
 Elektra
 Eliza
 erim
-felicia
-femina
 fubuki
 goeniko
 gracy
@@ -75,7 +72,6 @@ lihua
 lilica
 Lilica_Felchenerow
 lucia
-xi_lucy
 Cvs_mai
 Makendo
 maki_mx
@@ -94,12 +90,9 @@ nanashi
 !nayu
 nbc_kisarah
 neovalkyrie
-nyakko
-ORCHID
 Panty_SB
 poison
 Poison_Ivy
-Powergirl
 Priest
 Psy
 RacingMiku2014_EV
@@ -130,15 +123,12 @@ Storm3
 tia
 Tifa_L
 tifa_z
-toushi
 tsunade
 Uino
 vanessa
 VFKarin
 cvs_vice
-viuda_negra
 Walkyrie
-Wonder
 xi_elisabeth
 xi_jenet
 yagumo
@@ -177,7 +167,7 @@ stages/ArkanoidSyn4.def
 stages/ArkanoidSyn5.def
 stages/Axel_city.def
 stages/BayRoute.def
-stages/BayYard1.def
+Wonder ,stages/BayYard1.def
 stages/BayYard2.def
 stages/BayYard3.def
 stages/bc_ARGHBAR.def
@@ -195,20 +185,20 @@ stages/BusterSTG5.def
 stages/BusterSTG6.def
 stages/BusterSTG7.def
 stages/BusterSTG8.def
-stages/Cat_RaceOTR.def
+nyakko ,stages/Cat_RaceOTR.def
 stages/CDB1.def
 stages/CDB2.def
-stages/ChemicalPlant1.def
+xi_lucy ,stages/ChemicalPlant1.def
 stages/ChemicalPlant2.def
 stages/ChemicalPlant3.def
 stages/ChemicalPlant4.def
-stages/chompman1.def
+toushi ,stages/chompman1.def
 stages/chompman2.def
 stages/chompman3.def
 stages/chompman4.def
 stages/CiliaMonster.def
 stages/CKebabStg.def
-stages/ClubMFG.def
+felicia ,stages/ClubMFG.def
 stages/CocoronSKULL1.def
 another_blood ,stages/CocoronSKULL2.def
 stages/CollisionChaos.def
@@ -268,7 +258,7 @@ stages/GoingThroughHell.def
 stages/Golemstg.def
 stages/GORN.def
 stages/Gourmet_Factory1.def
-stages/Gourmet_Factory2.def
+Powergirl ,stages/Gourmet_Factory2.def
 stages/Gourmet_Foot.def
 stages/Gourmet_Street1.def
 stages/Gourmet_Street2.def
@@ -350,7 +340,7 @@ stages/Pok3dValley.def
 stages/PsychoWasp.def
 stages/RadioMaze.def
 stages/RandomSpace.def
-stages/RanmaruSTG1.def ;thewat
+A-Shi ,stages/RanmaruSTG1.def ;thewat
 stages/RanmaruSTG2.def :thewat
 stages/Religionchng1.def
 stages/Religionchng2.def
@@ -367,7 +357,7 @@ stages/ShaqFulab2.def
 stages/ShaqFulab3.def
 stages/ShaqFulab4.def
 stages/ShaqFulab5.def
-stages/ShockGalko.def
+femina ,stages/ShockGalko.def
 stages/ShockTrain.def
 stages/SlimSubwaySmash.def
 EmmaFrost ,stages/SnowRush.def
@@ -379,7 +369,7 @@ Cammy ,stages/stageCammy.def
 stages/stageChunli.def
 stages/stageDraco.def
 stages/stageEtna.def
-stages/stageHumio.def
+ORCHID ,stages/stageHumio.def
 stages/stageMakoto.def
 stages/stageScharlachrot.def
 stages/streetcombat_tyrone.def
@@ -392,7 +382,7 @@ stages/SubSpace5.def
 stages/TailsAdventure1.def
 stages/TailsAdventure2.def
 stages/TerrariA.def
-stages/TerrariB.def
+viuda_negra ,stages/TerrariB.def
 stages/TerrariC.def
 stages/TerrorVision.def
 stages/The_Fire_Prominence.def
