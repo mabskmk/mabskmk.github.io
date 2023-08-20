@@ -15,8 +15,6 @@ aoko-ex
 Arabianmoon
 arina
 Sexy_Arina
-cvs_athena
-Athena-Police
 Ayane_WP
 raiya
 B_Raiya
@@ -41,8 +39,6 @@ gracy
 Grizela
 Harmir
 haruhi
-HattoriHanzo
-Hiryuko
 Iari
 inma_z
 Irriana
@@ -68,7 +64,6 @@ LeonaHeidernXIII
 Lesserdemon
 Lien
 lihua
-lucia
 Cvs_mai
 Makendo
 maki_mx
@@ -119,7 +114,6 @@ sonia
 Storm3
 tia
 Tifa_L
-tifa_z
 tsunade
 Uino
 vanessa
@@ -143,8 +137,8 @@ zeroko_w
 [ExtraStages]
 stages/Abadox.def
 stages/AlexKiddInSW_Bossr1.def
-stages/AlexKiddInSW_Bossr3-1.def
-stages/AlexKiddInSW_Bossr4.def
+Gigi ,stages/AlexKiddInSW_Bossr3-1.def
+HattoriHanzo ,stages/AlexKiddInSW_Bossr4.def
 stages/AlexKiddInSW_Bossr9.def
 stages/Analyzer.def
 stages/AncientShadows_M1.def
@@ -155,7 +149,7 @@ stages/AngelIslandzone3.def
 stages/AngelIslandzone4.def
 stages/AngelIslandzone5.def
 stages/Anhui.def
-stages/AquaticRuins.def
+cvs_athena ,stages/AquaticRuins.def
 stages/ARENA.def
 stages/ArkanoidSyn1.def
 stages/ArkanoidSyn2.def
@@ -163,7 +157,7 @@ stages/ArkanoidSyn3.def
 stages/ArkanoidSyn4.def
 stages/ArkanoidSyn5.def
 stages/Axel_city.def
-stages/BayRoute.def
+JAGI ,stages/BayRoute.def
 Wonder ,stages/BayYard1.def
 stages/BayYard2.def
 stages/BayYard3.def
@@ -174,6 +168,7 @@ stages/bc_CYCSTAGE2.def
 stages/bc_KITSUNOH.def
 stages/BronzeAuditorium.def
 stages/BurningArena.def
+Warakia ,stages/Burning_Village.def
 stages/BusterSTG1.def
 stages/BusterSTG2.def
 stages/BusterSTG3.def
@@ -212,24 +207,24 @@ stages/Crude-Buster4.def
 stages/Crude-Buster5.def
 stages/Crude-Buster6.def
 stages/Cry-of-the-Spirits.def
-stages/CrystalForest.def
-stages/Cybernoid.def
+Alice (by Nyo) ,stages/CrystalForest.def
+Seoritsuhime ,stages/Cybernoid.def
 stages/DarkForestKnytt.def
 stages/DeathStar3.def
 stages/Draglade_Ruins.def
 stages/DragladeDarth_Valley.def
 stages/DragladeUMA.def
 stages/DrWilyStg1.def
-stages/DrWilyStg2.def
+Metool ,stages/DrWilyStg2.def
 stages/DrWilyStg3.def
 stages/DrWilyStg4.def
-stages/DrWilyStg5.def
+Brokken ,stages/DrWilyStg5.def
 stages/EightmanStreet1.def
 stages/EightmanStreet2.def
 stages/EquinoX_blue.def
 stages/EquinoX_green.def
 stages/EquinoX_red.def
-stages/EscapeinaForest.def
+Naruto ,stages/EscapeinaForest.def
 stages/FFstage.def
 stages/FlappyBirdStg1.def
 stages/FlappyBirdStg2.def
@@ -254,16 +249,16 @@ stages/GHTheFinalAssault2B.def
 stages/GoingThroughHell.def
 stages/Golemstg.def
 stages/GORN.def
-stages/Gourmet_Factory1.def
+tifa_z ,stages/Gourmet_Factory1.def
 Powergirl ,stages/Gourmet_Factory2.def
-stages/Gourmet_Foot.def
-stages/Gourmet_Street1.def
+Inma ,stages/Gourmet_Foot.def
+lucia ,stages/Gourmet_Street1.def
 stages/Gourmet_Street2.def
 stages/Graveyard.def
 stages/Greenbase.def
 stages/HazardBank.def
 stages/hazardbankC.def
-stages/HazardTank.def
+CATHERINE-MVC ,stages/HazardTank.def
 stages/HellGateB1.def
 stages/HellGateB50.def
 stages/HellGateB100.def
@@ -273,30 +268,30 @@ stages/HomieYoshiStory1.def
 stages/HomieYoshiStory2.def
 stages/HomieYoshiStory3.def
 stages/Hubei.def
-stages/HuoChaiRen.def
+Tamika ,stages/HuoChaiRen.def
 stages/IsamuGame5.def
 stages/IsamuGame7.def
-stages/Jiangxi2.def
+Jackie_DrunkenFist ,stages/Jiangxi2.def
 stages/Jiii.def
 stages/JungleZone.def
-stages/Jurassic_jungle.def
+Rapterrometh ,stages/Jurassic_jungle.def
 stages/KirbyCourtyard.def
 stages/KirbyGoro.def
 stages/KirbyPit.def
 stages/KirbyPitsychedelic.def
-stages/LabyrinthZone.def
-stages/LastDungeon1.def
-stages/LastDungeon2.def
+Taros ,stages/LabyrinthZone.def
+Irriana ,stages/LastDungeon1.def
+Jurane ,stages/LastDungeon2.def
 stages/Leventhan.def
 stages/MajorRelease.def
-stages/Majyuuou1.def
+Riz ,stages/Majyuuou1.def
 stages/Majyuuou2.def
 stages/MechanicalFt.def
-stages/Menace.def
-stages/mETALgUN1.def
+ZAZEL ,stages/Menace.def
+Ignis ,stages/mETALgUN1.def
 stages/mETALgUN2.def
-stages/MightyCity1.def
-stages/MightyCity2.def
+Athena-Police ,stages/MightyCity1.def
+BerthaHippo ,stages/MightyCity2.def
 stages/MiniCity.def
 stages/MM7_Graveyard.def
 stages/MNbridge.def
@@ -311,13 +306,13 @@ stages/MojoStronghold.def
 stages/MonsterParty.def
 stages/MurderWallStg.def
 stages/Musya.def
-stages/MysticCave.def
-stages/MysticCaveRE1.def
+HIRO ,stages/MysticCave.def
+Hikkoshi ,stages/MysticCaveRE1.def
 stages/MysticCaveRE2.def
 stages/MysticCaveRE3.def
 stages/Naga_Valley.def
 stages/NamelessCity.def
-stages/NeonLight.def
+Neon ,stages/NeonLight.def
 stages/NitD1.def
 stages/NitD2.def
 stages/NitD3.def
@@ -334,20 +329,20 @@ stages/PhantasyStarShip.def
 stages/PlanetPrision.def
 stages/Pok3dCave.def
 stages/Pok3dValley.def
-stages/PsychoWasp.def
+Kyndle ,stages/PsychoWasp.def
 stages/RadioMaze.def
 stages/RandomSpace.def
 A-Shi ,stages/RanmaruSTG1.def ;thewat
 stages/RanmaruSTG2.def :thewat
 stages/Religionchng1.def
 stages/Religionchng2.def
-stages/RescueGeisha.def
+Zantetsu ,stages/RescueGeisha.def
 stages/ReznorSTG1.def
 stages/ReznorSTG2.def
 stages/RInsanity.def
 stages/Rtype_Junkyard.def
 stages/R-MemorySTG.def
-stages/ScrapBrainZone.def
+Silversam ,stages/ScrapBrainZone.def
 stages/SecretVillage.def
 stages/ShaqFulab1.def
 stages/ShaqFulab2.def
@@ -356,7 +351,7 @@ stages/ShaqFulab4.def
 stages/ShaqFulab5.def
 femina ,stages/ShockGalko.def
 stages/ShockTrain.def
-stages/SlimSubwaySmash.def
+Jack ,stages/SlimSubwaySmash.def
 EmmaFrost ,stages/SnowRush.def
 stages/SonicBlastJet.def
 stages/SonicSpecialStage.def
@@ -373,20 +368,20 @@ stages/streetcombat_tyrone.def
 stages/SubSpace.def
 stages/SubSpace1.def
 stages/SubSpace2.def
-stages/SubSpace3.def
+Yoma ,stages/SubSpace3.def
 stages/SubSpace4.def
 stages/SubSpace5.def
 stages/TailsAdventure1.def
 stages/TailsAdventure2.def
-stages/TerrariA.def
+Hashi ,stages/TerrariA.def
 viuda_negra ,stages/TerrariB.def
-stages/TerrariC.def
-stages/TerrorVision.def
+Peketo ,stages/TerrariC.def
+Gerdon ,stages/TerrorVision.def
 stages/The_Fire_Prominence.def
 stages/TheRuinsofMetro.def
-stages/TitanForest.def
+Predator-W ,stages/TitanForest.def
 stages/To-See-The-Light-of-Day.def
-stages/TowerofMorgul.def
+Robo-Ky ,stages/TowerofMorgul.def
 stages/TowerofSuccubus.def
 stages/Transilvania.def
 stages/TransporTrain.def
@@ -409,7 +404,7 @@ stages/WotD.def
 stages/XGranada.def
 stages/ZeroCastle1.def
 stages/ZeroCastle2.def
-stages/ZLeo_M1.def
+Hiryuko ,stages/ZLeo_M1.def
 stages/ZookHero_1.def
 stages/ZookHero_2.def
 
