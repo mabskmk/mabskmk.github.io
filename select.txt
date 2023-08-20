@@ -69,8 +69,6 @@ LeonaHeidernXIII
 Lesserdemon
 Lien
 lihua
-lilica
-Lilica_Felchenerow
 lucia
 Cvs_mai
 Makendo
@@ -201,7 +199,7 @@ stages/CKebabStg.def
 felicia ,stages/ClubMFG.def
 stages/CocoronSKULL1.def
 another_blood ,stages/CocoronSKULL2.def
-stages/CollisionChaos.def
+lilica ,stages/CollisionChaos.def
 stages/correria.def
 stages/CosmoPG1.def
 stages/CosmoPG2.def
@@ -368,7 +366,7 @@ stages/Stage005.def
 Cammy ,stages/stageCammy.def
 stages/stageChunli.def
 stages/stageDraco.def
-stages/stageEtna.def
+Lilica_Felchenerow ,stages/stageEtna.def
 ORCHID ,stages/stageHumio.def
 stages/stageMakoto.def
 stages/stageScharlachrot.def
