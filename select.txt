@@ -269,6 +269,7 @@ stages/GHTheFinalAssault1B.def
 stages/GHTheFinalAssault2A.def
 stages/GHTheFinalAssault2B.def
 stages/GoingThroughHell.def
+stages/Golemstg.def
 stages/GORN.def
 stages/Gourmet_Factory1.def
 stages/Gourmet_Factory2.def
@@ -325,6 +326,7 @@ stages/MoaiRuin1.def
 stages/MoaiRuin2.def
 stages/MojoStronghold.def
 stages/MonsterParty.def
+stages/MurderWallStg.def
 stages/Musya.def
 stages/MysticCave.def
 stages/MysticCaveRE1.def
@@ -357,8 +359,11 @@ stages/RanmaruSTG2.def :thewat
 stages/Religionchng1.def
 stages/Religionchng2.def
 stages/RescueGeisha.def
+stages/ReznorSTG1.def
+stages/ReznorSTG2.def
 stages/RInsanity.def
 stages/Rtype_Junkyard.def
+stages/R-MemorySTG.def
 stages/ScrapBrainZone.def
 stages/SecretVillage.def
 stages/ShaqFulab1.def
@@ -411,6 +416,7 @@ stages/Viotoxica2.def
 stages/Viotoxica3.def
 stages/Viotoxica4.def
 stages/Viotoxica5.def
+stages/WallFacestg.def ;(1.1)
 stages/We've-got-Shadowmans.def
 stages/WhisperForest1.def
 stages/WhisperForest2.def
