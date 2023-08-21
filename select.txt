@@ -1,7 +1,6 @@
 [Characters]
 randomselect
 
-[ExtraStages]
 stages/Abadox.def
 stages/AlexKiddInSW_Bossr1.def
 Gigi ,stages/AlexKiddInSW_Bossr3-1.def
@@ -274,6 +273,9 @@ stages/ZeroCastle2.def
 Hiryuko ,stages/ZLeo_M1.def
 stages/ZookHero_1.def
 stages/ZookHero_2.def
+
+[ExtraStages]
+stages/stage0.def
 
 [Options]
 arcade.maxmatches = 10,0,0,0,0,0,0,0,0,0
