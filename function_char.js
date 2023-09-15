@@ -5,7 +5,6 @@ btnnew.disabled=false;
 btnchar.disabled=true;
 btnstg.disabled=false;
 btnfullg.disabled=false;
-btntuto.disabled=false;
 btnyotu.disabled=false;
 for (x=53;x>0;x--) {
 char((x),2)
