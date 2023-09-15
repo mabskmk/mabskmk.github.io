@@ -35,7 +35,7 @@ document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.yout
 }
 //
 //
-tempo=setTimeout('vioshiro()',50000);
+tempo=setTimeout('viytmisc()',50000);
 }
 
 //DOWNLOAD-STAGE
