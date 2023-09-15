@@ -10,7 +10,7 @@ btnyotu.disabled=false;
 }
 
 function viytmisc() {
-rand=Math.floor(Math.random() * 5+1);
+rand=Math.floor(Math.random() * 6);
 //rand=Math.floor((Math.random() * 10) + 999);
 ytmisc(rand);
 if (youtube!=''){
