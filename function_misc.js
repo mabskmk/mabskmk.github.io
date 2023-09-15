@@ -10,9 +10,9 @@ btnyotu.disabled=false;
 }
 
 function viytmisc() {
-rand=Math.floor(Math.random() * 723);
+rand=Math.floor(Math.random() * 5+1);
 //rand=Math.floor((Math.random() * 10) + 999);
-ytmisc(rand,3);
+ytmisc(rand);
 if (youtube!=''){
 document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+"autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br><b>"+mydiv+"</b>"
 }
