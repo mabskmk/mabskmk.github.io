@@ -19,10 +19,10 @@ mydiv='MUGEN_-_Dr.Wily',special='uNyQi6YTfg8',tea='&t=18'
 break;
 }
 if (youtube!=''){
-document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1&mute=1&t=40s" width='500' height='300' frameborder='0'></iframe><br><b>"+mydiv+"</b>"
+document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1&mute=1&t=40s width='500' height='300' frameborder='0'></iframe><br><b>"+mydiv+"</b>"
 }
 else {
-document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/b7vz7krharY?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br><b>Just a normal day</b>"
+document.getElementById('videoshowcase').innerHTML="<iframe src='https://www.youtube.com/embed/b7vz7krharY?autoplay=1&mute=1' width='500' height='300' frameborder='0'></iframe><br><b>Just a normal day</b>"
 }
 tempo=setTimeout('vichar()',50000);
 }
