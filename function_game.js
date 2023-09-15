@@ -5,7 +5,6 @@ btnnew.disabled=false;
 btnchar.disabled=false;
 btnstg.disabled=false;
 btnfullg.disabled=false;
-btntuto.disabled=false;
 btnyotu.disabled=false;
 startGame()
 }
