@@ -13,7 +13,6 @@ btnnew.disabled=true;
 btnchar.disabled=false;
 btnstg.disabled=false;
 btnfullg.disabled=false;
-btntuto.disabled=false;
 btnyotu.disabled=false;
 vichar();
 break;
@@ -29,7 +28,6 @@ btnnew.disabled=false;
 btnchar.disabled=false;
 btnstg.disabled=false;
 btnfullg.disabled=true;
-btntuto.disabled=false;
 btnyotu.disabled=false;
 break;
 case 4:
@@ -38,7 +36,6 @@ btnnew.disabled=false;
 btnchar.disabled=false;
 btnstg.disabled=false;
 btnfullg.disabled=false;
-btntuto.disabled=true;
 btnyotu.disabled=false;
 break;
 case 5:
@@ -47,7 +44,6 @@ btnnew.disabled=false;
 btnchar.disabled=false;
 btnstg.disabled=false;
 btnfullg.disabled=false;
-btntuto.disabled=false;
 btnyotu.disabled=true;
 break;
 case 6:
@@ -56,7 +52,6 @@ btnnew.disabled=false;
 btnchar.disabled=false;
 btnstg.disabled=false;
 btnfullg.disabled=false;
-btntuto.disabled=false;
 btnyotu.disabled=false;
 break;
 }
