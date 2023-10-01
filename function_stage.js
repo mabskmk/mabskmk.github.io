@@ -35,7 +35,7 @@ document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.yout
 }
 //?autoplay=1&mute=1 think great Youtube! your mind is so small
 //
-tempo=setTimeout('viytmisc()',50000);
+tempo=setTimeout('vichar()',50000);
 }
 
 //DOWNLOAD-STAGE
