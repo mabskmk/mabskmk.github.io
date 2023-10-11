@@ -474,7 +474,7 @@ case 142:
 mydiv='R-Factory',imgur='EKarctF.gif',youtube='PopSM7nY0fI',gdrv='1LPCgNr6RU-4j6c5avQdTzf7lZ23F2J18'
 break;
 case 143:
-mydiv='Dense_Jungle',game='Wolfchild',console='SNES',extra='',imgur='9aKwD6M.png',youtube='0bvZa8iuog0',gdrv='1ouGRVEP7IPamjAgjYiL1xhdYYGaPfnwr'
+mydiv='Dense_Jungle',imgur='9aKwD6M.png',youtube='0bvZa8iuog0',gdrv='1ouGRVEP7IPamjAgjYiL1xhdYYGaPfnwr'
 break;
 case 0:
 mydiv=''
@@ -484,7 +484,7 @@ case 1:
 document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+" onClick='stage("+numero+",2)' title="+mydiv+" class='button' width='125'>"
 break;
 case 2:
-document.getElementById(numero).innerHTML="<table border=0><td><iframe src=https://www.youtube.com/embed/"+youtube+" width='430' height='240' frameborder='0'></iframe><td td valign='top'>Name:<br><b>"+mydiv+"</b><br><br>Game:<br><b>"+game+"</b><br>"+console+"<br><br><b>"+extra+"</b><br><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a><tr>"
+document.getElementById(numero).innerHTML="<br><iframe src=https://www.youtube.com/embed/"+youtube+" width='430' height='240' frameborder='0'></iframe><br><b>"+mydiv+"</b><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a><br>"
 break;
 }
 }
