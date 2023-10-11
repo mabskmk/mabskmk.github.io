@@ -7,15 +7,15 @@ btnstg.disabled=false;
 btnfullg.disabled=false;
 btnyotu.disabled=false;
 for (x=53;x>0;x--) {
-char((x),2)
+char((x),1)
 }
-char(53);
+char(53,2);
 }
 
 function vichar() {
 rand=Math.floor(Math.random() * 54);
 //rand=Math.floor((Math.random() * 5) + 45);
-char(rand,1);
+char(rand,3);
 if (youtube!='7mFsq-ehdUI'){
 document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+" width='500' height='300' frameborder='0'></iframe><br>CHAR ("+rand+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=CHAR_"+mydiv+"></a></marquee>"
 }
@@ -195,12 +195,13 @@ mydiv=''
 }
 switch (cod) {
 case 1:
-break;
-case 2:
 document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+".png onClick='char("+numero+")' class='rbutton' width=25 height=25><b>"+mydiv+"</b> "+game+" / "+ctype+" / Last update: "+lastupdate+"<br>"
 break;
-default:
+case 2:
 document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+".png onClick='char("+numero+")' class='rbutton' width=25 height=25><b>"+mydiv+"</b> "+game+" / "+ctype+" / Last update: "+lastupdate+"<br><img src=https://i.imgur.com/"+imgur9+" height='240' class='flip'><iframe src=https://www.youtube.com/embed/"+youtube+" width='430' height='240' frameborder='0'></iframe><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a>"
+break;
+case 3:
+break;
 }
 }
 
