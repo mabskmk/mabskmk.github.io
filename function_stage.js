@@ -7,7 +7,7 @@ btnstg.disabled=true;
 btnfullg.disabled=false;
 btnyotu.disabled=false;
 for (x=143;x>0;x--) {
-stage((x),2)
+stage((x),1)
 }
 }
 function menustage3() {
