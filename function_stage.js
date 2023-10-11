@@ -27,7 +27,7 @@ stage((x),1)
 function vistg() {
 rand=Math.floor(Math.random() * 144);
 //rand=Math.floor((Math.random() * 10) + 132);
-stage(rand,1);
+stage(rand,3);
 if (youtube!='dQw4w9WgXcQ'){
 document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+" width='500' height='300' frameborder='0'></iframe><br>STAGE ("+rand+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=STG_"+mydiv+"></a>"
 }
@@ -485,6 +485,8 @@ document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+
 break;
 case 2:
 document.getElementById(numero).innerHTML="<br><iframe src=https://www.youtube.com/embed/"+youtube+" width='430' height='240' frameborder='0'></iframe><br><b>"+mydiv+"</b><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a><br>"
+break;
+case 3:
 break;
 }
 }
