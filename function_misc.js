@@ -19,7 +19,7 @@ mydiv='MUGEN_-_Dr.Wily',special='uNyQi6YTfg8?si=XjaN7IxIJBDCC3Nk&start=18&end=16
 break;
 }
 if (youtube!=''){
-document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+"&autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br><b>"+mydiv+"</b>"
+document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+" width='500' height='300' frameborder='0' title="+mydiv+" frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe><br><b>"+mydiv+"</b>"
 }
 else {
 document.getElementById('videoshowcase').innerHTML="<iframe src='https://www.youtube.com/embed/b7vz7krharY?si=Bi_DRud39PtvqqkR&autoplay=1&mute=1' width='500' height='300' frameborder='0'></iframe><br><b>Just a normal day</b>"
