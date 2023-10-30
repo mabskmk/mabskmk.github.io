@@ -110,7 +110,7 @@ case 26:
 mydiv='Devil-Dumb-Drum',imgur='rMWebNH',imgur9='HwDbkGI.png',game='Donkey Kong',ctype='Bonus',lastupdate='21/11/12',gdrv='1YSmr-m2nVO26xY05MosqTNmu5LAMZD6m',youtube='YIEZKsJMDzw'
 break;
 case 27:
-mydiv='GnG-Graveyard',imgur='p19yaAN',imgur9='lIHIoKJ.png',game='Makaimura',ctype='Plataform',lastupdate='01/10/11',gdrv='1OlrmXy18dRVI1cL7VT8ocLGTvWbcp25h',youtube='yAXctj9pVZ4'
+mydiv='GnG-Graveyard',imgur='p19yaAN',imgur9='5pvWAIm.png',game='Makaimura',ctype='Plataform',lastupdate='01/10/11',gdrv='1OlrmXy18dRVI1cL7VT8ocLGTvWbcp25h',youtube='yAXctj9pVZ4'
 break;
 case 28:
 mydiv='GnG-Tower',imgur='CkHRPvY',imgur9='fH7y5Ge.png',game='Makaimura',ctype='Arcade',lastupdate='30/09/11',gdrv='1s4SVGZOxGCeUxin621GOhFwMvfnIka-8',youtube='AgyJvl_cA-U'
