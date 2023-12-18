@@ -6,7 +6,7 @@ btnchar.disabled=false;
 btnstg.disabled=true;
 btnfullg.disabled=false;
 btnyotu.disabled=false;
-for (x=143;x>0;x--) {
+for (x=144;x>0;x--) {
 stage((x),1)
 }
 stage(143,2);
