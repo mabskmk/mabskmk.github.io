@@ -14,6 +14,8 @@ btnchar.disabled=false;
 btnstg.disabled=false;
 btnfullg.disabled=false;
 btnyotu.disabled=false;
+var bannerHtml='';
+var bannerImg='';
 vichar();
 break;
 }
