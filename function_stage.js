@@ -1,6 +1,3 @@
-var bannerHtml = '';
-var bannerImg = '';
-
 function menustage2() {
 document.getElementById('principal').innerHTML="<table border=0><td align=right width=500><h1><b>StageS</b> by mabskmk</h1><a target='_blank' href='https://ln.sync.com/dl/b4dde8c10/7mr9qfnj-gnz7925k-4pkufi7w-wz99zhw9'><img src=https://i.imgur.com/QPa6H3A.png class='rbutton'></a><br><br>2023<br><b id=144></b><b id=145></b><b id=143></b><b id=142></b><br><br>2021<br><b id=141></b><b id=140></b><b id=139></b><b id=138></b><b id=137></b><b id=136></b><b id=135></b><b id=134></b><br><br>2020<br><b id=133></b><b id=132></b><b id=131></b><b id=130></b><b id=129></b><b id=128></b><b id=127></b><b id=126></b><br><br>2019<br><b id=125></b><b id=124></b><b id=123></b><b id=122></b><b id=121></b><b id=120></b><br><br>2018<br><b id=119></b><b id=118></b><b id=117></b><b id=116></b><b id=115></b><b id=114></b><b id=113></b><b id=112></b><b id=111></b><b id=110></b><br><br>2017<br><b id=109></b><b id=108></b><b id=107></b><b id=106></b><b id=105></b><b id=104></b><b id=103></b><b id=102></b><b id=101></b><b id=100></b><b id=99></b><b id=98></b><b id=97></b><br><br>2016<br><b id=96></b><b id=95></b><b id=94></b><br><br>2015<br><b id=93></b><b id=92></b><b id=91></b><b id=90></b><br><br>2014<br><b id=89></b><b id=88></b><b id=87></b><b id=86></b><b id=85></b><b id=84></b><b id=83></b><b id=82></b><b id=81></b><b id=80></b><b id=79></b><b id=78></b><b id=77></b><b id=76></b><b id=75></b><br><br>2013<br><b id=74></b><b id=73></b><b id=72></b><b id=71></b><br><br>2012<br><b id=70></b><b id=69></b><b id=68></b><b id=67></b><b id=66></b><b id=65></b><b id=64></b><b id=63></b><b id=62></b><b id=61></b><b id=60></b><b id=59></b><b id=58></b><b id=57></b><b id=56></b><b id=55></b><b id=54></b><b id=53></b><b id=52></b><b id=51></b><b id=50></b><b id=49></b><b id=48></b><b id=47></b><br><br>2011<br><b id=46></b><b id=45></b><b id=44></b><b id=43></b><b id=42></b><b id=41></b><b id=40></b><b id=39></b><br><br>2010<br><b id=38></b><b id=37></b><b id=36></b><b id=35></b><b id=34></b><b id=33></b><b id=32></b><b id=31></b><b id=30></b><b id=29></b><b id=28></b><b id=27></b><b id=26></b><b id=25></b><b id=24></b><b id=23></b><b id=22></b><b id=21></b><b id=20></b><b id=19></b><b id=18></b><b id=17></b><b id=16></b><b id=15></b><b id=14></b><b id=13></b><b id=12></b><b id=11></b><b id=10></b><b id=9></b><b id=8></b><b id=7></b><b id=6></b><b id=5></b><b id=4></b><b id=3></b><b id=2></b><br><br>2008<br><b id=1></b><br><br><a target='_blank' href='https://www.mediafire.com/folder/s7zo0845d1flx/WarehouseSTG'><b>Warehouse</b><br><img src=https://i.imgur.com/W67CaVW.png width='200'></a><br><br><a target='_blank' href='https://drive.google.com/drive/folders/1HjhMircWVCHD564TD-HnbVD-atSUij9A?usp=drive_link'><b>W.I.P?</b><br><img src=https://i.imgur.com/sZGCE81.png width='200'></a><br><br><input type=button onClick='menustage3()' value='by_type'><br><input type=button onClick='ppmain(1)' value='.Clean.'><br></font><tr></table>"
 btnnew.disabled=false;
@@ -36,15 +33,13 @@ document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.yout
 else{
 document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/HZxpB5C-iuA?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Full-Game: <b>Alex Kidd In Trouble</b> <a target='_blank' href='https://www.dropbox.com/s/wueu530ny6iowdi/AlexKiddinTrouble.zip?dl=1'><img src=https://i.imgur.com/pJFCm25.png title='Alex'></a>"
 }
-document.getElementById('banner').innerHTML="<a target='_blank' src=https://"+bannerhtml+"><img scr=https://"+bannerimg+"></a>";
+document.getElementById('banner').innerHTML="<a target='_blank' src=https://"+bannerHtml+"><img scr=https://"+bannerImg+"></a>";
 tempo=setTimeout('viytmisc()',50000);
 }
 
 //DOWNLOAD-STAGE
 function stage(numero,cod) {
 youtube='dQw4w9WgXcQ';
-//bannerhtml='';
-//bannerimg='';
 //rng
 //if (numero<134 && cod==2){
 //cod=cod-(Math.floor(Math.random() * 2));
@@ -369,7 +364,7 @@ case 106:
 mydiv='GanbareGoemon',imgur='dgknaTO.png',youtube='FjtbGL18Ads',gdrv='1M9p6BhCU0ZuZVeUsx914vcX8jtv5Lb-x'
 break;
 case 107:
-mydiv='Cry-of-the-Spirits',imgur='EO5HPUu.png',youtube='SOYi65MAbVc',gdrv='1JGPgw4lNqBsQUb7pXiI_oeWQNwVX8Naq',bannerhtml='sunnyworld.free.fr',bannerimg='i.imgur.com/gAsrMM0.png'
+mydiv='Cry-of-the-Spirits',imgur='EO5HPUu.png',youtube='SOYi65MAbVc',gdrv='1JGPgw4lNqBsQUb7pXiI_oeWQNwVX8Naq',bannerHtml='sunnyworld.free.fr',bannerImg='i.imgur.com/gAsrMM0.png'
 break;
 case 108:
 mydiv='Gourmet_Foot',imgur='53GMLf1.png',youtube='N7j8ndrcYlg',gdrv='10jfHtDDTNRhP6yQxroQBdHmRi6kbn5dw'
@@ -465,13 +460,13 @@ case 138:
 mydiv='Psycho_Wasp',imgur='66f1HbI.png',youtube='W6WeXD40IT8',gdrv='1O3mXmF_II1f_yuL-7yOdOCZffCMP_ipZ'
 break;
 case 139:
-mydiv='Shockman',imgur='TvKpECK.gif',youtube='WUyja03f-Es',gdrv='1M8Qb9lOi0kiJS0-i2tMwVLTrrbRD2_W3',bannerhtml='wani-shima.sakura.ne.jp',bannerimg='wani-shima.sakura.ne.jp/kyouryuubana.jpg'
+mydiv='Shockman',imgur='TvKpECK.gif',youtube='WUyja03f-Es',gdrv='1M8Qb9lOi0kiJS0-i2tMwVLTrrbRD2_W3',bannerHtml='wani-shima.sakura.ne.jp',bannerImg='wani-shima.sakura.ne.jp/kyouryuubana.jpg'
 break;
 case 140:
-mydiv='Ghost-Sweeper',imgur='btWjmQ7.gif',youtube='jIciRjH4vMw',gdrv='1IirAgUWUbBQWSPDMhavvFgDL-mbxZXoc',bannerhtml='sunnyworld.free.fr',bannerimg='i.imgur.com/gAsrMM0.png'
+mydiv='Ghost-Sweeper',imgur='btWjmQ7.gif',youtube='jIciRjH4vMw',gdrv='1IirAgUWUbBQWSPDMhavvFgDL-mbxZXoc',bannerHtml='sunnyworld.free.fr',bannerImg='i.imgur.com/gAsrMM0.png'
 break;
 case 141:
-mydiv='Final_Assault',imgur='2sTDDfe.gif',youtube='tUHgV2ySH7U',gdrv='1X7OQdQam4igFRTeWV09pbH9iZIXPi2g5',bannerhtml='ikrgmugen.web.fc2.com',bannerimg='i.imgur.com/3UeeMUT.png'
+mydiv='Final_Assault',imgur='2sTDDfe.gif',youtube='tUHgV2ySH7U',gdrv='1X7OQdQam4igFRTeWV09pbH9iZIXPi2g5',bannerHtml='ikrgmugen.web.fc2.com',bannerImg='i.imgur.com/3UeeMUT.png'
 break;
 case 142:
 mydiv='R-Factory',imgur='EKarctF.gif',youtube='PopSM7nY0fI',gdrv='1LPCgNr6RU-4j6c5avQdTzf7lZ23F2J18'
@@ -488,11 +483,9 @@ break;
 case 0:
 mydiv=''
 }
-//bannerhtml=bhtml;
-//bannerimg=bimg;
 if (bannerhtml==''){
-  bannerhtml='wani-shima.sakura.ne.jp';
-  bannerimg='wani-shima.sakura.ne.jp/kyouryuubana.jpg';
+bannerhtml='wani-shima.sakura.ne.jp';
+bannerimg='wani-shima.sakura.ne.jp/kyouryuubana.jpg';
 }
 switch (cod) {
 case 1:
