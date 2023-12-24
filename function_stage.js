@@ -486,6 +486,12 @@ break;
 case 0:
 mydiv=''
 }
+bannerhtml=bhtml;
+bannerimg=bimg;
+if (bannerhtml==''){
+  bannerhtml='wani-shima.sakura.ne.jp';
+  bannerimg='wani-shima.sakura.ne.jp/kyouryuubana.jpg';
+}
 switch (cod) {
 case 1:
 document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+" onClick='stage("+numero+",2)' title="+mydiv+" class='button' width='125'>"
