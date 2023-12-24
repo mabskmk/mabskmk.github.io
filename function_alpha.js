@@ -14,8 +14,6 @@ btnchar.disabled=false;
 btnstg.disabled=false;
 btnfullg.disabled=false;
 btnyotu.disabled=false;
-let bannerHtml='';
-let bannerImg='';
 vichar();
 break;
 }
