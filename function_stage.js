@@ -466,7 +466,7 @@ case 139:
 mydiv='Shockman',imgur='TvKpECK.gif',youtube='WUyja03f-Es',gdrv='1M8Qb9lOi0kiJS0-i2tMwVLTrrbRD2_W3',bannerhtml='wani-shima.sakura.ne.jp',bannerimg='wani-shima.sakura.ne.jp/kyouryuubana.jpg'
 break;
 case 140:
-mydiv='Ghost-Sweeper',imgur='btWjmQ7.gif',youtube='jIciRjH4vMw',gdrv='1IirAgUWUbBQWSPDMhavvFgDL-mbxZXoc'
+mydiv='Ghost-Sweeper',imgur='btWjmQ7.gif',youtube='jIciRjH4vMw',gdrv='1IirAgUWUbBQWSPDMhavvFgDL-mbxZXoc',bannerhtml='sunnyworld.free.fr',bannerimg='i.imgur.com/gAsrMM0.png'
 break;
 case 141:
 mydiv='Final_Assault',imgur='2sTDDfe.gif',youtube='tUHgV2ySH7U',gdrv='1X7OQdQam4igFRTeWV09pbH9iZIXPi2g5'
