@@ -36,6 +36,7 @@ document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.yout
 }
 //?autoplay=1&mute=1 think great Youtube! your mind is so small
 //
+document.getElementById('banner').innerHTML="<a target='_blank' src=https://"+bannerhtml+"><img scr=https://"+bannerimg+"></a>"
 tempo=setTimeout('viytmisc()',50000);
 }
 
@@ -462,7 +463,7 @@ case 138:
 mydiv='Psycho_Wasp',imgur='66f1HbI.png',youtube='W6WeXD40IT8',gdrv='1O3mXmF_II1f_yuL-7yOdOCZffCMP_ipZ'
 break;
 case 139:
-mydiv='Shockman',imgur='TvKpECK.gif',youtube='WUyja03f-Es',gdrv='1M8Qb9lOi0kiJS0-i2tMwVLTrrbRD2_W3'
+mydiv='Shockman',imgur='TvKpECK.gif',youtube='WUyja03f-Es',gdrv='1M8Qb9lOi0kiJS0-i2tMwVLTrrbRD2_W3',bannerhtml='wani-shima.sakura.ne.jp',bannerimg='wani-shima.sakura.ne.jp/kyouryuubana.jpg'
 break;
 case 140:
 mydiv='Ghost-Sweeper',imgur='btWjmQ7.gif',youtube='jIciRjH4vMw',gdrv='1IirAgUWUbBQWSPDMhavvFgDL-mbxZXoc'
