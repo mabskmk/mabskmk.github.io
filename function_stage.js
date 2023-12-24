@@ -367,7 +367,7 @@ case 106:
 mydiv='GanbareGoemon',imgur='dgknaTO.png',youtube='FjtbGL18Ads',gdrv='1M9p6BhCU0ZuZVeUsx914vcX8jtv5Lb-x'
 break;
 case 107:
-mydiv='Cry-of-the-Spirits',imgur='EO5HPUu.png',youtube='SOYi65MAbVc',gdrv='1JGPgw4lNqBsQUb7pXiI_oeWQNwVX8Naq'
+mydiv='Cry-of-the-Spirits',imgur='EO5HPUu.png',youtube='SOYi65MAbVc',gdrv='1JGPgw4lNqBsQUb7pXiI_oeWQNwVX8Naq',bannerhtml='sunnyworld.free.fr',bannerimg='i.imgur.com/gAsrMM0.png'
 break;
 case 108:
 mydiv='Gourmet_Foot',imgur='53GMLf1.png',youtube='N7j8ndrcYlg',gdrv='10jfHtDDTNRhP6yQxroQBdHmRi6kbn5dw'
@@ -469,7 +469,7 @@ case 140:
 mydiv='Ghost-Sweeper',imgur='btWjmQ7.gif',youtube='jIciRjH4vMw',gdrv='1IirAgUWUbBQWSPDMhavvFgDL-mbxZXoc',bannerhtml='sunnyworld.free.fr',bannerimg='i.imgur.com/gAsrMM0.png'
 break;
 case 141:
-mydiv='Final_Assault',imgur='2sTDDfe.gif',youtube='tUHgV2ySH7U',gdrv='1X7OQdQam4igFRTeWV09pbH9iZIXPi2g5'
+mydiv='Final_Assault',imgur='2sTDDfe.gif',youtube='tUHgV2ySH7U',gdrv='1X7OQdQam4igFRTeWV09pbH9iZIXPi2g5',bannerhtml='ikrgmugen.web.fc2.com',bannerimg='i.imgur.com/3UeeMUT.png'
 break;
 case 142:
 mydiv='R-Factory',imgur='EKarctF.gif',youtube='PopSM7nY0fI',gdrv='1LPCgNr6RU-4j6c5avQdTzf7lZ23F2J18'
