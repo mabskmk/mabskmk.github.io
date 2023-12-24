@@ -36,7 +36,7 @@ document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.yout
 }
 //?autoplay=1&mute=1 think great Youtube! your mind is so small
 //
-document.getElementById('banner').innerHTML="<a target='_blank' src=https://"+bannerhtml+"><img scr=https://"+bannerimg+"></a>"
+document.getElementById('banner').innerHTML="<a target='_blank' src=https://"+bannerhtml+"><img scr=https://"+bannerimg+"></a>";
 tempo=setTimeout('viytmisc()',50000);
 }
 
