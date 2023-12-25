@@ -124,7 +124,7 @@ case 25:
 mydiv='Oil_Ocean',imgur='pcjB4Sm.png',youtube='5qwkqiCIPBk',gdrv='12yBz3N1UuTpbaSZ2ZY2r878ZeepBRtG-'
 break;
 case 26:
-mydiv='Moai_ruin',imgur='aen5RVb.gif',youtube='Vem04FZhZaI',gdrv='1HCbYOLepWExO6LUFPiMweydWVgAjYCvu'
+mydiv='Moai_ruin',imgur='aen5RVb.gif',youtube='Vem04FZhZaI',gdrv='1HCbYOLepWExO6LUFPiMweydWVgAjYCvu',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='www.ne.jp/asahi/across/chronicle/image/banner.png'
 break;
 case 27:
 mydiv='X_Granada',imgur='7VMUvKp.png',youtube='i3YqRlxk9Wo',gdrv='1Km-_WHMzm81k0ub3u1XUDZvFCJYPVOUU'
@@ -193,7 +193,7 @@ case 48:
 mydiv='Stage_Draco',imgur='1jmQ14m.png',youtube='tvqiT8S4sbs',gdrv='1EUlp0lxtk9rVYnVcGXHuiZL4TpoEF6Hu'
 break;
 case 49:
-mydiv='Metal_Gun',imgur='ZisA65d.gif',youtube='8G-MzU_7l2A',gdrv='1PrKFYlEcoYQD1OSgOScH_J-HNdFfKnnl'
+mydiv='Metal_Gun',imgur='ZisA65d.gif',youtube='8G-MzU_7l2A',gdrv='1PrKFYlEcoYQD1OSgOScH_J-HNdFfKnnl',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='www.ne.jp/asahi/across/chronicle/image/banner.png'
 break;
 case 50:
 mydiv='TerrariA',imgur='9Vc4Kbf.png',youtube='KszTCEGOYqg',gdrv='1U9_GubErnHfBL5H9B0G9KtHGSa0HtCl7'
@@ -223,7 +223,7 @@ case 58:
 mydiv='Rescue_Geisha',imgur='hddoqUx.png',youtube='MKADzsQ_J4E',gdrv='1BxwLri5h3GNGTohFfjPde1XwaSnqMmQ9'
 break;
 case 59:
-mydiv='Mutation_Nation',imgur='jKesnb5.gif',youtube='-0j61OqpjEQ',gdrv='1Rk-VZr9dZw9dLYGdvseyPE_s4_hI83-g'
+mydiv='Mutation_Nation',imgur='jKesnb5.gif',youtube='-0j61OqpjEQ',gdrv='1Rk-VZr9dZw9dLYGdvseyPE_s4_hI83-g',bannerHtml='ngmc.retrogames.com/index.html',bannerImg='ngmc.retrogames.com/gfx/banner.gif'
 break;
 case 60:
 mydiv='Mystic_Cave',imgur='OrOgvJ9.png',youtube='8P4VjUofC_Q',gdrv='1BNGLn3ifaKa-eY4hBXlnJIDG-FqtL6us'
@@ -262,7 +262,7 @@ case 71:
 mydiv='Tower_of_MORGUL',imgur='36jrd6T.png',youtube='gf2Msy4AqTY',gdrv='1-NKnO4xFHRgjm3PZRhHC-K5EF6ukcb9Q'
 break;
 case 72:
-mydiv='Cilia_Monster',imgur='hzdVhqX.png',youtube='TgOKrZjGvWc',gdrv='1_8eDBTsGJWSOWiUwovY-fPw4lUqTN0KM'
+mydiv='Cilia_Monster',imgur='hzdVhqX.png',youtube='TgOKrZjGvWc',gdrv='1_8eDBTsGJWSOWiUwovY-fPw4lUqTN0KM',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='www.ne.jp/asahi/across/chronicle/image/banner.png'
 break;
 case 73:
 mydiv='Galatic-Night-Club',imgur='9mhQVWp.png',youtube='IiEFOz6aggU',gdrv='1AELqqkZzmBo8A8wllFSq8lxpo45GkCE7'
@@ -295,7 +295,7 @@ case 82:
 mydiv='Axel_City',imgur='Isbps72.png',youtube='J5ZZnyr_fBY',gdrv='1bX9BjW9m3ksnWKMvJ-lJCm5O-99MSdqR'
 break;
 case 83:
-mydiv='Isamu_Game',imgur='xEfYQyh.gif',youtube='GkghboF6Wrg',gdrv='1J157HfvCLumNA0-FyUW9AaWens9gtHU6'
+mydiv='Isamu_Game',imgur='xEfYQyh.gif',youtube='GkghboF6Wrg',gdrv='1J157HfvCLumNA0-FyUW9AaWens9gtHU6',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='www.ne.jp/asahi/across/chronicle/image/banner.png'
 break;
 case 84:
 mydiv='GoingThroughHell',imgur='rgY553Q.png',youtube='-7moCk_iVp8',gdrv='1B-9djPWc599QfAckvePBlZc7-juAG5FH'
@@ -442,7 +442,7 @@ case 131:
 mydiv='BusterSTG',imgur='I9XkGao.gif',youtube='1KmbMt57bR4',gdrv='1x8-qWjazOf97ZHIoZONyGJA9xQzGnBEU'
 break;
 case 132:
-mydiv='Majyuuou',imgur='IPxOOKq.gif',youtube='69mt8hiGTok',gdrv='1OGF4O5R9EHDplwmpAb4lx58NaBC305Ag'
+mydiv='Majyuuou',imgur='IPxOOKq.gif',youtube='69mt8hiGTok',gdrv='1OGF4O5R9EHDplwmpAb4lx58NaBC305Ag',bannerHtml='valgallah77.web.fc2.com/',bannerImg='i.imgur.com/q7RAxeG.png'
 break;
 case 133:
 mydiv='Tails_Adventure',imgur='dZ6dOhE.gif',youtube='D6WbidumAJw',gdrv='1OUZaQgb65KNVofBudX9B1ynWdUhyw_MB'
@@ -481,7 +481,7 @@ case 144:
 mydiv='Jiu_Xiang_Rong_Dong',imgur='mXzscPv.png',youtube='twVIILqenTM',gdrv='1e-D6IIh5lc_DO8wk4PoFM_Y88MgzvUKB'
 break;
 case 145:
-mydiv='Tietê',imgur='hVQbFCj.png',youtube='FEZyP-KRdpM',gdrv='1TdrSHbkmHnV_h6Q3W520Wihc9646KZbJ'
+mydiv='Tietê',imgur='hVQbFCj.png',youtube='FEZyP-KRdpM',gdrv='1TdrSHbkmHnV_h6Q3W520Wihc9646KZbJ',bannerHtml='kaendd.free.fr',bannerImg='i.imgur.com/8OmGYOX.png'
 break;
 case 0:
 mydiv=''
