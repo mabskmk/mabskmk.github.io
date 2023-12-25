@@ -379,7 +379,7 @@ case 110:
 mydiv='Angel_Island',imgur='dST8Gh8.gif',youtube='HH7W4lCcQOM',gdrv='1Rdj62IlJGyWcySs0O43l8OgoX_uKbiZO'
 break;
 case 111:
-mydiv='ChompmanSTG',imgur='5t4sMNC.gif',youtube='gyoq7dZ8-O4',gdrv='1mCSrS_ox2CPOeT0lxT31eY9rwmJsmBhE'
+mydiv='ChompmanSTG',imgur='5t4sMNC.gif',youtube='gyoq7dZ8-O4',gdrv='1mCSrS_ox2CPOeT0lxT31eY9rwmJsmBhE',bannerHtml='www.sprites-inc.co.uk',bannerImg='i.imgur.com/RqfqBg1.png'
 break;
 case 112:
 mydiv='Bay_Route',imgur='7irQzfU.png',youtube='pbtNXGinTPo',gdrv='1uiGes30vJVhjuQozetDWDOrK5SuYEmnm'
