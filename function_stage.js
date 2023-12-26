@@ -223,7 +223,7 @@ case 58:
 mydiv='Rescue_Geisha',imgur='hddoqUx.png',youtube='MKADzsQ_J4E',gdrv='1BxwLri5h3GNGTohFfjPde1XwaSnqMmQ9'
 break;
 case 59:
-mydiv='Mutation_Nation',imgur='jKesnb5.gif',youtube='-0j61OqpjEQ',gdrv='1Rk-VZr9dZw9dLYGdvseyPE_s4_hI83-g',bannerHtml='ngmc.retrogames.com/index.html',bannerImg='ngmc.retrogames.com/gfx/banner.gif'
+mydiv='Mutation_Nation',imgur='jKesnb5.gif',youtube='-0j61OqpjEQ',gdrv='1Rk-VZr9dZw9dLYGdvseyPE_s4_hI83-g',bannerHtml='ngmc.retrogames.com/index.html',bannerImg='i.imgur.com/X4AzHu1.gif'
 break;
 case 60:
 mydiv='Mystic_Cave',imgur='OrOgvJ9.png',youtube='8P4VjUofC_Q',gdrv='1BNGLn3ifaKa-eY4hBXlnJIDG-FqtL6us'
