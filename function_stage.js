@@ -55,7 +55,7 @@ case 2:
 mydiv='Blacks_Base',imgur='AmpFGDr.gif',youtube='YuyLAxy0cK0',gdrv='1aakxhSAz475c2XEIdiB_wHnOiG2X8_rA'
 break;
 case 3:
-mydiv='Force_Mine',imgur='QVjmOo1.png',youtube='E1pig0Bt4xs',gdrv='1uEqgqgxX3xfbouIDw74pxp96oWiq4Cld'
+mydiv='Force_Mine',imgur='QVjmOo1.png',youtube='E1pig0Bt4xs',gdrv='1uEqgqgxX3xfbouIDw74pxp96oWiq4Cld',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/JFyrVvV.png'
 break;
 case 4:
 mydiv='Vegetable_Valley',imgur='L0okcXj.gif',youtube='u1F_oNZ6NIE',gdrv='168fKeVWT3Wz8ZsiH15brYFZePJ3WvsLz'
@@ -478,7 +478,7 @@ case 143:
 mydiv='Dense_Jungle',imgur='9aKwD6M.png',youtube='0bvZa8iuog0',gdrv='1ouGRVEP7IPamjAgjYiL1xhdYYGaPfnwr'
 break;
 case 144:
-mydiv='Jiu_Xiang_Rong_Dong',imgur='mXzscPv.png',youtube='twVIILqenTM',gdrv='1e-D6IIh5lc_DO8wk4PoFM_Y88MgzvUKB'
+mydiv='Jiu_Xiang_Rong_Dong',imgur='mXzscPv.png',youtube='twVIILqenTM',gdrv='1e-D6IIh5lc_DO8wk4PoFM_Y88MgzvUKB',bannerHtml='ankokunaitou.blog.fc2.com',bannerImg='i.imgur.com/EIXSnzc.png'
 break;
 case 145:
 mydiv='Tietê',imgur='hVQbFCj.png',youtube='FEZyP-KRdpM',gdrv='1TdrSHbkmHnV_h6Q3W520Wihc9646KZbJ',bannerHtml='kaendd.free.fr',bannerImg='i.imgur.com/8OmGYOX.png'
