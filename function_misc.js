@@ -3,7 +3,7 @@ rand=Math.floor(Math.random() * 6);
 mydiv='';youtube=''
 switch (rand) {
 case 1:
-mydiv='MUGEN_-_Fantastico_Jaspion',youtube='1_7gepKMuts?si=RPYmXGIbHLL4--Kn'
+mydiv='MUGEN_-_Fantastico_Jaspion',youtube='1_7gepKMuts?si=RPYmXGIbHLL4--Kn',bannerHtml='sato.tv.br/',bannerImg='i.imgur.com/rMxn204.png'
 break;
 case 2:
 mydiv='Alex_Kidd_in_Trouble_-_The_Hand_clan',youtube='1JUxenU5Ct8?si=ZunqVfYSHzpcVaEn'
@@ -24,5 +24,6 @@ document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.yout
 else {
 document.getElementById('videoshowcase').innerHTML="<iframe src='https://www.youtube.com/embed/b7vz7krharY?si=Bi_DRud39PtvqqkR&autoplay=1&mute=1' width='500' height='300' frameborder='0' allow='autoplay; web-share' allowfullscreen></iframe><br><b>Just a normal day</b>"
 }
+document.getElementById('banner').innerHTML="<a target='_blank' href=https://"+bannerHtml+"><img src=https://"+bannerImg+"></a>";
 tempo=setTimeout('vichar()',50000);
 }
