@@ -6,7 +6,7 @@ case 1:
 mydiv='MUGEN_-_Fantastico_Jaspion',youtube='1_7gepKMuts?si=RPYmXGIbHLL4--Kn',bannerHtml='sato.tv.br/',bannerImg='i.imgur.com/rMxn204.png'
 break;
 case 2:
-mydiv='Castle_Defense',youtube='uzctO7j_1Sg&start=180&end=230'
+mydiv='Castle_Defense',youtube='uzctO7j_1Sg?si=E-_6g4JTy7pjYPV5&start=180&end=230'
 break;
 case 3:
 mydiv='MAGMML2_-_Chomp_man',youtube='0IACU-xea7o?si=Zw5JWWPj-H8A86Nc&start=737&end=787'
