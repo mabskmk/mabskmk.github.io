@@ -1,5 +1,6 @@
 var bannerHtml='';
 var bannerImg='';
+var rand=0;
 
 function menuchar() {
 document.getElementById('principal').innerHTML="<center><table border=0><td align=right><a target='_blank' href='https://ln.sync.com/dl/8130397b0/ciy6yjaq-ibypwy7w-fbra5drz-q6dp5tub'><img src=https://i.imgur.com/QPa6H3A.png class='rbutton'></a><h1 id=nomeprinc><b>Mini-games</b></h1><div id=27>gng-grave</div><div id=29>gng-burn</div><div id=28>gng-tower</div><div id=32>castlewar</div><div id=30>jokenpon</div><div id=31>msw-subway</div><br>...<br><h1><b>Characters</b></h1><div id=53>Sandwitch</div><div id=52>OOMK</div><div id=51>Golem</div><div id=50>thicc</div><div id=49>shimeji</div><div id=48>ukyo</div><div id=47>RM</div><div id=46>Reznors</div><div id=45>boobs</div><div id=44>mermaid</div><div id=8>devilpeso</div><div id=7>slugwanzer</div><div id=33>yashahime</div><div id=43>dress</div><div id=23>flappyb</div><div id=42>eyeofbalor</div><div id=41>fullspiders</div><div id=4>flyingtara</div><div id=39>Wall Face</div><div id=38>capitalism</div><div id=40>tictactoe</div><div id=37>bikergal</div><div id=36>ckebab</div><div id=35>brainoc</div><div id=34>hannyaned</div><div id=2>bullchan</div><div id=9>morgul</div><div id=19>destroyer</div><div id=18>e-o-w</div><div id=20>w-o-f</div><div id=14>vanpookin</div><div id=13>truckjoe</div><div id=24>helimaster</div><div id=16>dcar</div><div id=25>drwily</div><div id=22>murderwall</div><div id=15>car3</div><div id=26>ddd</div><div id=21>sarlacc</div><div id=11>garekky</div><div id=12>mash</div><div id=17>e-o-c</div><div id=5>pesoguin</div><div id=10>kido</div><div id=6>slugwanzerold</div><div id=1>deathforce</div><div id=3>metagang</div>...<br><br><a target='_blank' href='https://www.mediafire.com/folder/ftea2duwm6m09/WarehouseCHAR'><b>Warehouse</b></a> / <a target='_blank' href='https://drive.google.com/drive/folders/1zOzmbowxzpeFmbV_mVAeOaKhRGPFzFuQ?usp=drive_link'><b>W.I.P?</b></a><br><br><input type=rbutton onClick='ppmain(1)' value='.Clean.'><br><tr></table></center>"
@@ -15,7 +16,7 @@ char(27,2);
 }
 
 function vichar() {
-rand=Math.floor(Math.random() * 54);
+rand=Math.floor(Math.random() * (54-rand));
 //rand=Math.floor((Math.random() * 5) + 45);
 char(rand,3);
 if (youtube!='7mFsq-ehdUI'){
