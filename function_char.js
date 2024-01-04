@@ -16,8 +16,8 @@ char(27,2);
 }
 
 function vichar() {
-while (rand>54) do {
-rand=(rand-54)
+while (rand>54) {
+rand=(rand-54);
 }
 rand=Math.floor(Math.random() * (54-rand));
 //rand=Math.floor((Math.random() * 5) + 45);
