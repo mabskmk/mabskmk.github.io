@@ -12,7 +12,7 @@ btnyotu.disabled=false;
 for (x=53;x>0;x--) {
 char((x),1)
 }
-char(27,2);
+char(36,2);
 }
 
 function vichar() {
