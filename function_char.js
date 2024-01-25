@@ -3,7 +3,7 @@ var bannerImg='';
 var rand=0;
 
 function menuchar() {
-document.getElementById('principal').innerHTML="<center><table border=0><td align=right><a target='_blank' href='https://ln.sync.com/dl/8130397b0/ciy6yjaq-ibypwy7w-fbra5drz-q6dp5tub'><img src=https://i.imgur.com/QPa6H3A.png class='rbutton'></a><h1 id=nomeprinc><b>Mini-games</b></h1><div id=27>gng-grave</div><div id=29>gng-burn</div><div id=28>gng-tower</div><div id=32>castlewar</div><div id=30>jokenpon</div><div id=31>msw-subway</div><br>...<br><h1><b>Characters</b></h1><div id=53>Sandwitch</div><div id=52>OOMK</div><div id=51>Golem</div><div id=50>thicc</div><div id=49>shimeji</div><div id=48>ukyo</div><div id=47>RM</div><div id=46>Reznors</div><div id=45>boobs</div><div id=44>mermaid</div><div id=8>devilpeso</div><div id=7>slugwanzer</div><div id=33>yashahime</div><div id=43>dress</div><div id=23>flappyb</div><div id=42>eyeofbalor</div><div id=41>fullspiders</div><div id=4>flyingtara</div><div id=39>Wall Face</div><div id=38>capitalism</div><div id=40>tictactoe</div><div id=37>bikergal</div><div id=36>ckebab</div><div id=35>brainoc</div><div id=34>hannyaned</div><div id=2>bullchan</div><div id=9>morgul</div><div id=19>destroyer</div><div id=18>e-o-w</div><div id=20>w-o-f</div><div id=14>vanpookin</div><div id=13>truckjoe</div><div id=24>helimaster</div><div id=16>dcar</div><div id=25>drwily</div><div id=22>murderwall</div><div id=15>car3</div><div id=26>ddd</div><div id=21>sarlacc</div><div id=11>garekky</div><div id=12>mash</div><div id=17>e-o-c</div><div id=5>pesoguin</div><div id=10>kido</div><div id=6>slugwanzerold</div><div id=1>deathforce</div><div id=3>metagang</div>...<br><br><a target='_blank' href='https://www.mediafire.com/folder/ftea2duwm6m09/WarehouseCHAR'><b>Warehouse</b></a> / <a target='_blank' href='https://drive.google.com/drive/folders/1zOzmbowxzpeFmbV_mVAeOaKhRGPFzFuQ?usp=drive_link'><b>W.I.P?</b></a><br><br><input type=rbutton onClick='ppmain(1)' value='.Clean.'><br><tr></table></center>"
+document.getElementById('principal').innerHTML="<center><table border=0><td align=right><a target='_blank' href='https://ln.sync.com/dl/8130397b0/ciy6yjaq-ibypwy7w-fbra5drz-q6dp5tub'><img src=https://i.imgur.com/QPa6H3A.png class='rbutton'></a>...<br><h1 id=nomeprinc><b>Characters</b></h1><div id=36>ckebab</div><div id=44>mermaid</div><div id=4>flyingtara</div><div id=45>boobs</div><div id=53>Sandwitch</div><div id=52>OOMK</div><div id=51>Golem</div><div id=50>thicc</div><div id=49>shimeji</div><div id=48>ukyo</div><div id=47>RM</div><div id=46>Reznors</div><div id=8>devilpeso</div><div id=7>slugwanzer</div><div id=33>yashahime</div><div id=43>dress</div><div id=23>flappyb</div><div id=42>eyeofbalor</div><div id=41>fullspiders</div><div id=39>Wall Face</div><div id=38>capitalism</div><div id=40>tictactoe</div><div id=37>bikergal</div><div id=35>brainoc</div><div id=34>hannyaned</div><div id=2>bullchan</div><div id=9>morgul</div><div id=19>destroyer</div><div id=18>e-o-w</div><div id=20>w-o-f</div><div id=14>vanpookin</div><div id=13>truckjoe</div><div id=24>helimaster</div><div id=16>dcar</div><div id=25>drwily</div><div id=22>murderwall</div><div id=15>car3</div><div id=26>ddd</div><div id=21>sarlacc</div><div id=11>garekky</div><div id=12>mash</div><div id=17>e-o-c</div><div id=5>pesoguin</div><div id=10>kido</div><div id=6>slugwanzerold</div><div id=1>deathforce</div><div id=3>metagang</div><h1><b>Mini-games</b></h1><div id=27>gng-grave</div><div id=29>gng-burn</div><div id=28>gng-tower</div><div id=32>castlewar</div><div id=30>jokenpon</div><div id=31>msw-subway</div>...<br><br><a target='_blank' href='https://www.mediafire.com/folder/ftea2duwm6m09/WarehouseCHAR'><b>Warehouse</b></a> / <a target='_blank' href='https://drive.google.com/drive/folders/1zOzmbowxzpeFmbV_mVAeOaKhRGPFzFuQ?usp=drive_link'><b>W.I.P?</b></a><br><br><input type=rbutton onClick='ppmain(1)' value='.Clean.'><br><tr></table></center>"
 btnnew.disabled=false;
 btnchar.disabled=true;
 btnstg.disabled=false;
@@ -48,7 +48,7 @@ case 3:
 mydiv='MetaGang',imgur='VhoTRPp',imgur9='oWcbdIT.png',game='Kirby',ctype='Multi-char',lastupdate='15/05/08',gdrv='19CzU8t9VOizNBDikp_Q210mQ0tRRruU-',youtube='8y4p4RwhPYA'
 break;
 case 4:
-mydiv='FlyingTara',imgur='iEjzspe',imgur9='T1V4CAg.png',game='Metalslug',ctype='Bonus',lastupdate='05/09/16',gdrv='1wI7dMOqTWskEBvXYxvoZLeOu4eSN-vrT',youtube='vACTOBHHlmI'
+mydiv='FlyingTara',imgur='iEjzspe',imgur9='T1V4CAg.png',game='Metalslug',ctype='Bonus',lastupdate='24/01/24',gdrv='1EUY4inMqHFK3bNp0MIyC5umigB4BstgZ',youtube='vACTOBHHlmI'
 break;
 case 5:
 mydiv='Pesoguin',imgur='5NqzscO',imgur9='0aYs6iI.png',game='<a target=_blank href=https://twitter.com/Zanmyo><img src=https://i.imgur.com/qV3Q36A.gif></a>',ctype='Char',lastupdate='18/10/11',youtube='byeHdxhDGIk',gdrv='1IEHqXNhl5pdGrZVSy27sRUSJpdjFSIY_',bannerHtml='twitter.com/Zanmyo',bannerImg='i.imgur.com/qV3Q36A.gif'
@@ -144,7 +144,7 @@ case 35:
 mydiv='Brain-of-Cthulhu',imgur='8xMmvYn',imgur9='sWf0Idm.png',game='Terraria',ctype='Boss',lastupdate='31/10/15',youtube='LOtAUorfxgc',gdrv='1piPhPxq4fi_Eph0dKRqjbkgRkHKGlcnl',bannerHtml='terraria.org',bannerImg='i.imgur.com/P7CuN9r.jpg'
 break;
 case 36:
-mydiv='Captain_Kebab',imgur='TsaW1dX',imgur9='0cImMKw.png',game='Parodius',ctype='Boss',lastupdate='28/06/16',gdrv='1gGgE240lPfFJJ050h0Vk9wJlFe2c2E20',youtube='1BxSnIkb1co'
+mydiv='Captain_Kebab',imgur='TsaW1dX',imgur9='0cImMKw.png',game='Parodius',ctype='Boss',lastupdate='24/01/24',gdrv='1gGgE240lPfFJJ050h0Vk9wJlFe2c2E20',youtube='1BxSnIkb1co'
 break;
 case 37:
 mydiv='Biker_GAL',imgur='7dP9qeT',imgur9='a1EwUGO.png',game='Battle_Circuit',ctype='Bonus',lastupdate='29/06/16',youtube='wnNg3g0NXn0',gdrv='1kH-OrCFQMcm_gV8_sbxoSzLhySEqFrPT'
@@ -168,10 +168,10 @@ case 43:
 mydiv='Dress',imgur='yYVBanS',imgur9='eZnMTuE.png',game='Queen Axe',ctype='Bonus',lastupdate='13/01/18',gdrv='1gYpG62kgEQYyLI0rLRhiNX_fJe-Egvrm',youtube='aqFfIf4SZms'
 break;
 case 44:
-mydiv='Mermaid',imgur='YAMiPUI',imgur9='g4cEy24.png',game='Gaiares',ctype='Bonus',lastupdate='10/10/19',gdrv='1O5lFMuFeLyPYXAwB5SaumvtlXZzXLrRK',youtube='waAHbnYqKfg'
+mydiv='Mermaid',imgur='YAMiPUI',imgur9='g4cEy24.png',game='Gaiares',ctype='Bonus',lastupdate='24/01/24',gdrv='1O5lFMuFeLyPYXAwB5SaumvtlXZzXLrRK',youtube='waAHbnYqKfg'
 break;
 case 45:
-mydiv='Boobs',imgur='yD1AWaE',imgur9='I6DUeVu.png',game='Amazon Brawl',ctype='Boss',lastupdate='24/05/20',gdrv='15iwEE0g8Jun3eQQlYxw7uC7Jt1Vpv9ME',youtube='7mFsq-ehdUI'
+mydiv='Boobs',imgur='yD1AWaE',imgur9='I6DUeVu.png',game='Amazon Brawl',ctype='Boss',lastupdate='24/01/24',gdrv='15iwEE0g8Jun3eQQlYxw7uC7Jt1Vpv9ME',youtube='7mFsq-ehdUI'
 break;
 case 46:
 mydiv='Reznor',imgur='qVYNGvN',imgur9='7JqhABW.png',game='Mario',ctype='Boss',lastupdate='24/05/20',gdrv='15VTihsGmygebpBvSwTPvg2BkKdUNQ8u1',youtube='yHFz7D02q7w'
