@@ -231,22 +231,22 @@ break;
 case 37:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='squall.zip,stages/chompman1.def';}
-	if (rand==0) {mydiv='Slasher_Athena.zip,stages/chompman1.def';}
+	if (rand==1) {mydiv='Slasher_Athena.zip,stages/chompman1.def';}
 break;
 case 38:
 	rand=(Math.floor(Math.random()*2));
-	if (rand==1) {mydiv='?..........,stages/chompman2.def';}
+	if (rand==0) {mydiv='?..........,stages/chompman2.def';}
 	if (rand==1) {mydiv='?..........,stages/chompman2.def';}
 break;
 case 39:
 	rand=(Math.floor(Math.random()*2));
-	if (rand==2) {mydiv='Snake.zip,stages/chompman3.def';}
-	if (rand==2) {mydiv='Meld.zip,stages/chompman3.def';}
+	if (rand==0) {mydiv='Snake.zip,stages/chompman3.def';}
+	if (rand==1) {mydiv='Meld.zip,stages/chompman3.def';}
 break;
 case 40:
 	rand=(Math.floor(Math.random()*2));
-	if (rand==3) {mydiv='Meteor.zip,stages/chompman4.def';}
-	if (rand==3) {mydiv='Meteor.zip,stages/chompman4.def';}
+	if (rand==0) {mydiv='Meteor.zip,stages/chompman4.def';}
+	if (rand==1) {mydiv='Meteor.zip,stages/chompman4.def';}
 break;
 case 41:
 	rand=(Math.floor(Math.random()*2));
