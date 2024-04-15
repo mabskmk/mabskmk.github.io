@@ -28,6 +28,9 @@ stage((x),1)
 
 
 function vistg() {
+  //Disable the function exiting showcase
+  if (btnnew.disabled==false) {return;}
+
 rand=Math.floor(Math.random() * (146-rand));
 //rand=Math.floor((Math.random() * 10) + 132);
 stage(rand,3);
