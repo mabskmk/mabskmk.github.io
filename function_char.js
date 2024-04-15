@@ -16,6 +16,9 @@ char(5,2);
 }
 
 function vichar() {
+  //Disable the function exiting showcase
+  if (btnnew.disabled==false) {return;}
+  
 while (rand>54) {
 rand=(rand-54);
 }
