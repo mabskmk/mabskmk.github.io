@@ -388,12 +388,12 @@ case 67:
 break;
 case 68:
 	rand=(Math.floor(Math.random()*2));
-	if (rand==0) {mydiv='Goku.zip,stages/DrWilyStg3.def';};sky
+	if (rand==0) {mydiv='Goku.zip,stages/DrWilyStg3.def';}
 	if (rand==1) {mydiv='Goku.zip,stages/DrWilyStg3.def';}
 break;
 case 69:
 	rand=(Math.floor(Math.random()*2));
-	if (rand==0) {mydiv='GuillotineGen.zip,stages/DrWilyStg4.def';};moon
+	if (rand==0) {mydiv='GuillotineGen.zip,stages/DrWilyStg4.def';}
 	if (rand==1) {mydiv='GuillotineGen.zip,stages/DrWilyStg4.def';}
 break;
 case 70:
