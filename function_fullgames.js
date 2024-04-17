@@ -45,27 +45,27 @@ switch (numero) {
 case 1:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Yuyuko.zip,stages/Abadox.def';}
-	if (rand==1) {mydiv='Yuyuko.zip,stages/Abadox.def';}
+	if (rand==1) {mydiv='Yuyuko.zip,stages/Abadox.def';} //copy
 break;
 case 2:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Botan.zip,stages/AlexKiddInSW_Bossr1.def';}
-	if (rand==1) {mydiv='Botan.zip,stages/AlexKiddInSW_Bossr1.def';}
+	if (rand==1) {mydiv='Botan.zip,stages/AlexKiddInSW_Bossr1.def';} //copy
 break;
 case 3:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Gigi.zip,stages/AlexKiddInSW_Bossr3.def';}
-	if (rand==1) {mydiv='Gigi.zip,stages/AlexKiddInSW_Bossr3.def';}
+	if (rand==1) {mydiv='Gigi.zip,stages/AlexKiddInSW_Bossr3.def';} //copy
 break;
 case 4:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='HattoriHanzo.zip,stages/AlexKiddInSW_Bossr4.def';}
-	if (rand==1) {mydiv='HattoriHanzo.zip,stages/AlexKiddInSW_Bossr4.def';}
+	if (rand==1) {mydiv='HattoriHanzo.zip,stages/AlexKiddInSW_Bossr4.def';} //copy
 break;
 case 5:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Cheshire.zip,stages/AlexKiddInSW_Bossr9.def';}
-	if (rand==1) {mydiv='Cheshire.zip,stages/AlexKiddInSW_Bossr9.def';}
+	if (rand==1) {mydiv='Cheshire.zip,stages/AlexKiddInSW_Bossr9.def';} //copy
 break;
 case 6:
 	rand=(Math.floor(Math.random()*2));
@@ -75,12 +75,12 @@ break;
 case 7:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Benten.zip,stages/Analyzer.def';}
-	if (rand==1) {mydiv='Benten.zip,stages/Analyzer.def';}
+	if (rand==1) {mydiv='Benten.zip,stages/Analyzer.def';} //copy
 break;
 case 8:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Akaakiha.zip,stages/AncientShadows.def';}
-	if (rand==1) {mydiv='Akaakiha.zip,stages/AncientShadows.def';}
+	if (rand==1) {mydiv='Akaakiha.zip,stages/AncientShadows.def';} //copy
 break;
 case 9:
 	rand=(Math.floor(Math.random()*2));
@@ -89,11 +89,11 @@ case 9:
 break;
 case 10:
 	rand=(Math.floor(Math.random()*5));
-	if (rand==0) {mydiv='Zeldia.zip,stages/AngelIslandzone1.def';}
+	if (rand==0) {mydiv='Amingo.zip,stages/AngelIslandzone1.def';}
 	if (rand==1) {mydiv='Zeldia.zip,stages/AngelIslandzone2.def';}
 	if (rand==2) {mydiv='Zeldia.zip,stages/AngelIslandzone3.def';}
 	if (rand==3) {mydiv='Zeldia.zip,stages/AngelIslandzone4.def';}
-	if (rand==4) {mydiv='Zeldia.zip,stages/AngelIslandzone5.def';}
+	if (rand==4) {mydiv='Zeldia.zip,stages/AngelIslandzone5.def';} //copy
 break;
 case 11:
 	rand=(Math.floor(Math.random()*2));
@@ -116,12 +116,12 @@ break;
 case 14:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Gracy.zip,stages/Axel_city.def';}
-	if (rand==1) {mydiv='Gracy.zip,stages/Axel_city.def';}
+	if (rand==1) {mydiv='Gracy.zip,stages/Axel_city.def';} //copy
 break;
 case 15:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Rufuu.zip,stages/BattleZequeDen_Cave.def';}
-	if (rand==1) {mydiv='Rufuu.zip,stages/BattleZequeDen_Cave.def';}
+	if (rand==1) {mydiv='Rufuu.zip,stages/BattleZequeDen_Cave.def';} //copy
 break;
 case 16:
 	rand=(Math.floor(Math.random()*2));
@@ -152,7 +152,7 @@ break;
 case 21:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Paladin.zip,stages/bc_KITSUNOH.def';}
-	if (rand==1) {mydiv='Paladin.zip,stages/bc_KITSUNOH.def';}
+	if (rand==1) {mydiv='Paladin.zip,stages/bc_KITSUNOH.def';} //copy
 break;
 case 22:
 	rand=(Math.floor(Math.random()*2));
@@ -196,28 +196,28 @@ case 29:
 break;
 case 30:
 	rand=(Math.floor(Math.random()*2));
-	if (rand==0) {mydiv='?..........,stages/BusterSTG5.def';}
-	if (rand==1) {mydiv='?..........,stages/BusterSTG5.def';}
+	if (rand==0) {mydiv='Footee.zip,stages/BusterSTG5.def';}
+	if (rand==1) {mydiv='Ryuho.zip,stages/BusterSTG5.def';}
 break;
 case 31:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='W_Len.zip,stages/BusterSTG6.def';}
-	if (rand==1) {mydiv='W_Len.zip,stages/BusterSTG6.def';}
+	if (rand==1) {mydiv='W_Len.zip,stages/BusterSTG6.def';} //copy
 break;
 case 32:
 	rand=(Math.floor(Math.random()*2));
-	if (rand==0) {mydiv='?..........,stages/BusterSTG7.def';}
-	if (rand==1) {mydiv='?..........,stages/BusterSTG7.def';}
+	if (rand==0) {mydiv='Flamme.zip,stages/BusterSTG7.def';}
+	if (rand==1) {mydiv='Caulifla.zip,stages/BusterSTG7.def';}
 break;
 case 33:
 	rand=(Math.floor(Math.random()*2));
-	if (rand==0) {mydiv='?..........,stages/BusterSTG8.def';}
-	if (rand==1) {mydiv='?..........,stages/BusterSTG8.def';}
+	if (rand==0) {mydiv='Sandra.zip,stages/BusterSTG8.def';}
+	if (rand==1) {mydiv='Shera.zip,stages/BusterSTG8.def';}
 break;
 case 34:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Nyakko.zip,stages/Cat_RaceOTR.def';}
-	if (rand==1) {mydiv='Nyakko.zip,stages/Cat_RaceOTR.def';}
+	if (rand==1) {mydiv='Neco-arc.zip,stages/Cat_RaceOTR.def';}
 break;
 case 35:
 	rand=(Math.floor(Math.random()*2));
@@ -249,7 +249,7 @@ break;
 case 40:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Meteor.zip,stages/chompman4.def';}
-	if (rand==1) {mydiv='Meteor.zip,stages/chompman4.def';}
+	if (rand==1) {mydiv='Meteor.zip,stages/chompman4.def';} //copy
 break;
 case 41:
 	rand=(Math.floor(Math.random()*2));
@@ -259,7 +259,7 @@ break;
 case 42:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Captain_Kebab.zip,stages/CKebabStg.def';}
-	if (rand==1) {mydiv='Captain_Kebab.zip,stages/CKebabStg.def';}
+	if (rand==1) {mydiv='Captain_Kebab.zip,stages/CKebabStg.def';} //copy*
 break;
 case 43:
 	rand=(Math.floor(Math.random()*2));
@@ -275,22 +275,22 @@ break;
 case 45:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Lilica.zip,stages/CollisionChaos.def';}
-	if (rand==1) {mydiv='Lilica.zip,stages/CollisionChaos.def';}
+	if (rand==1) {mydiv='Lilica.zip,stages/CollisionChaos.def';} //copy
 break;
 case 46:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Arma.zip,stages/CosmoPG1.def';}
-	if (rand==1) {mydiv='Arma.zip,stages/CosmoPG1.def';}
+	if (rand==1) {mydiv='Arma.zip,stages/CosmoPG1.def';} //copy
 break;
 case 47:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='BloodRayne_MVC.zip,stages/CosmoPG2.def';}
-	if (rand==1) {mydiv='BloodRayne_MVC.zip,stages/CosmoPG2.def';}
+	if (rand==1) {mydiv='BloodRayne_MVC.zip,stages/CosmoPG2.def';} //copy
 break;
 case 48:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Kingpa.zip,stages/CosmoPG3.def';}
-	if (rand==1) {mydiv='Kingpa.zip,stages/CosmoPG3.def';}
+	if (rand==1) {mydiv='Kingpa.zip,stages/CosmoPG3.def';} //copy
 break;
 case 49:
 	rand=(Math.floor(Math.random()*2));
@@ -310,12 +310,12 @@ break;
 case 52:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Storm3.zip,stages/Crude-Buster2.def';}
-	if (rand==1) {mydiv='Storm3.zip,stages/Crude-Buster2.def';}
+	if (rand==1) {mydiv='Storm3.zip,stages/Crude-Buster2.def';} //copy
 break;
 case 53:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Shiratama.zip,stages/Crude-Buster3.def';}
-	if (rand==1) {mydiv='Shiratama.zip,stages/Crude-Buster3.def';}
+	if (rand==1) {mydiv='Shiratama.zip,stages/Crude-Buster3.def';} //copy
 break;
 case 54:
 	rand=(Math.floor(Math.random()*2));
@@ -325,17 +325,18 @@ break;
 case 55:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Double-A.zip,stages/Crude-Buster5.def';}
-	if (rand==1) {mydiv='Double-A.zip,stages/Crude-Buster5.def';}
+	if (rand==1) {mydiv='Double-A.zip,stages/Crude-Buster5.def';} //copy
 break;
 case 56:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Dcat_Krang.zip,stages/Crude-Buster6.def';}
-	if (rand==1) {mydiv='Dcat_Krang.zip,stages/Crude-Buster6.def';}
+	if (rand==1) {mydiv='Dcat_Krang.zip,stages/Crude-Buster6.def';} //copy
 break;
 case 57:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Shizumaru.zip,stages/Cry-of-the-Spirits.def';}
-	if (rand==1) {mydiv='Shizumaru.zip,stages/Cry-of-the-Spirits.def';}
+	if (rand==1) {mydiv='Shizumaru.zip,stages/Cry-of-the-Spirits.def';} //copy
+break;
 case 58:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Xavier.zip,stages/CrystalForest.def';}
@@ -344,12 +345,12 @@ break;
 case 59:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Seoritsuhime.zip,stages/Cybernoid.def';}
-	if (rand==1) {mydiv='Seoritsuhime.zip,stages/Cybernoid.def';}
+	if (rand==1) {mydiv='Seoritsuhime.zip,stages/Cybernoid.def';} //copy
 break;
 case 60:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Nemesis.zip,stages/DarkForestKnytt.def';}
-	if (rand==1) {mydiv='Nemesis.zip,stages/DarkForestKnytt.def';}
+	if (rand==1) {mydiv='Nemesis.zip,stages/DarkForestKnytt.def';} //copy
 break;
 case 61:
 	rand=(Math.floor(Math.random()*2));
@@ -389,17 +390,17 @@ break;
 case 68:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Goku.zip,stages/DrWilyStg3.def';}
-	if (rand==1) {mydiv='Goku.zip,stages/DrWilyStg3.def';}
+	if (rand==1) {mydiv='Goku.zip,stages/DrWilyStg3.def';} //copy
 break;
 case 69:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='GuillotineGen.zip,stages/DrWilyStg4.def';}
-	if (rand==1) {mydiv='GuillotineGen.zip,stages/DrWilyStg4.def';}
+	if (rand==1) {mydiv='GuillotineGen.zip,stages/DrWilyStg4.def';} //copy
 break;
 case 70:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Brokken.zip,stages/DrWilyStg5.def';}
-	if (rand==1) {mydiv='Brokken.zip,stages/DrWilyStg5.def';}
+	if (rand==1) {mydiv='Brokken.zip,stages/DrWilyStg5.def';} //copy
 break;
 case 71:
 	rand=(Math.floor(Math.random()*2));
@@ -422,52 +423,52 @@ break;
 case 74:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Ryu_Hoshi.zip,stages/FFstage.def';}
-	if (rand==1) {mydiv='Ryu_Hoshi.zip,stages/FFstage.def';}
+	if (rand==1) {mydiv='Ryu_Hoshi.zip,stages/FFstage.def';} //copy
 break;
 case 75:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='RinaOgata.zip,stages/FlappyBirdStg1.def';}
-	if (rand==1) {mydiv='RinaOgata.zip,stages/FlappyBirdStg2.def';}
+	if (rand==1) {mydiv='RinaOgata.zip,stages/FlappyBirdStg2.def';} //copy
 break;
 case 76:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Kracko.zip,stages/Fortress-of-Doom1.def';}
-	if (rand==1) {mydiv='Kracko.zip,stages/Fortress-of-Doom1.def';}
+	if (rand==1) {mydiv='Kracko.zip,stages/Fortress-of-Doom1.def';} //copy
 break;
 case 77:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Chloe&maumau.zip,stages/Fortress-of-Doom2.def';}
-	if (rand==1) {mydiv='Chloe&maumau.zip,stages/Fortress-of-Doom2.def';}
+	if (rand==1) {mydiv='Chloe&maumau.zip,stages/Fortress-of-Doom2.def';} //copy
 break;
 case 78:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Juri.zip,stages/Fortress-of-Doom3.def';}
-	if (rand==1) {mydiv='Juri.zip,stages/Fortress-of-Doom3.def';}
+	if (rand==1) {mydiv='Juri.zip,stages/Fortress-of-Doom3.def';} //copy
 break;
 case 79:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='RajaaSion.zip,stages/Fortress-of-Doom4.def';}
-	if (rand==1) {mydiv='RajaaSion.zip,stages/Fortress-of-Doom4.def';}
+	if (rand==1) {mydiv='RajaaSion.zip,stages/Fortress-of-Doom4.def';} //copy
 break;
 case 80:
 	rand=(Math.floor(Math.random()*2));
-	if (rand==0) {mydiv='?..........,stages/Fuck3.def';}
-	if (rand==1) {mydiv='?..........,stages/Fuck3.def';}
+	if (rand==0) {mydiv='ProfessorX.zip,stages/Fuck3.def';}
+	if (rand==1) {mydiv='ProfessorX.zip,stages/Fuck3.def';} //copy
 break;
 case 81:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Udonge_mb.zip,stages/Galactic-Night-Club.def';}
-	if (rand==1) {mydiv='Udonge_mb.zip,stages/Galactic-Night-Club.def';}
+	if (rand==1) {mydiv='Udonge_mb.zip,stages/Galactic-Night-Club.def';} //copy
 break;
 case 82:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Azumi_Hojo.zip,stages/GanbareGoemon.def';}
-	if (rand==1) {mydiv='Azumi_Hojo.zip,stages/GanbareGoemon.def';}
+	if (rand==1) {mydiv='Azumi_Hojo.zip,stages/GanbareGoemon.def';} //copy
 break;
 case 83:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Garekky.zip,stages/garekkystg.def';}
-	if (rand==1) {mydiv='Garekky.zip,stages/garekkystg.def';}
+	if (rand==1) {mydiv='Garekky.zip,stages/garekkystg.def';} //copy*
 break;
 case 84:
 	rand=(Math.floor(Math.random()*3));
@@ -484,7 +485,7 @@ break;
 case 86:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Donald.zip,stages/GHforcemine.def';}
-	if (rand==1) {mydiv='Donald.zip,stages/GHforcemine.def';}
+	if (rand==1) {mydiv='Donald.zip,stages/GHforcemine.def';} //copy
 break;
 case 87:
 	rand=(Math.floor(Math.random()*2));
@@ -499,12 +500,12 @@ break;
 case 89:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='UBU.zip,stages/GoingThroughHell.def';}
-	if (rand==1) {mydiv='UBU.zip,stages/GoingThroughHell.def';}
+	if (rand==1) {mydiv='UBU.zip,stages/GoingThroughHell.def';} //copy
 break;
 case 90:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Battle_Windows.zip,stages/GORN.def';}
-	if (rand==1) {mydiv='Battle_Windows.zip,stages/GORN.def';}
+	if (rand==1) {mydiv='Battle_Windows.zip,stages/GORN.def';} //copy
 break;
 case 91:
 	rand=(Math.floor(Math.random()*2));
@@ -514,12 +515,12 @@ break;
 case 92:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Powergirl.zip,stages/Gourmet_Factory2.def';}
-	if (rand==1) {mydiv='Powergirl.zip,stages/Gourmet_Factory2.def';}
+	if (rand==1) {mydiv='Powergirl.zip,stages/Gourmet_Factory2.def';} //copy
 break;
 case 93:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Yungmie.zip,stages/Gourmet_Foot.def';}
-	if (rand==1) {mydiv='Yungmie.zip,stages/Gourmet_Foot.def';}
+	if (rand==1) {mydiv='Yungmie.zip,stages/Gourmet_Foot.def';} //copy
 break;
 case 94:
 	rand=(Math.floor(Math.random()*2));
@@ -539,12 +540,12 @@ break;
 case 97:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Mikaa.zip,stages/HazardBank.def';}
-	if (rand==1) {mydiv='Mikaa.zip,stages/hazardbankC.def';}
+	if (rand==1) {mydiv='Mikaa.zip,stages/hazardbankC.def';} //copy
 break;
 case 98:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Catherine-MVC.zip,stages/HazardTank.def';}
-	if (rand==1) {mydiv='Catherine-MVC.zip,stages/HazardTank.def';}
+	if (rand==1) {mydiv='Catherine-MVC.zip,stages/HazardTank.def';} //copy
 break;
 case 99:
 	rand=(Math.floor(Math.random()*3));
@@ -555,22 +556,22 @@ break;
 case 100:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='SakuraW4rUGH.zip,stages/HiSpeedElevator1.def';}
-	if (rand==1) {mydiv='SakuraW4rUGH.zip,stages/HiSpeedElevator2.def';}
+	if (rand==1) {mydiv='SakuraW4rUGH.zip,stages/HiSpeedElevator2.def';} //copy
 break;
 case 101:
 	rand=(Math.floor(Math.random()*2));
-	if (rand==0) {mydiv='?..........,stages/HomieYoshiStory1.def';}
-	if (rand==1) {mydiv='?..........,stages/HomieYoshiStory1.def';}
+	if (rand==0) {mydiv='Petra.zip,stages/HomieYoshiStory1.def';}
+	if (rand==1) {mydiv='Senna.zip,stages/HomieYoshiStory1.def';}
 break;
 case 102:
 	rand=(Math.floor(Math.random()*2));
-	if (rand==0) {mydiv='?..........,stages/HomieYoshiStory2.def';}
-	if (rand==1) {mydiv='?..........,stages/HomieYoshiStory2.def';}
+	if (rand==0) {mydiv='Ryunmei.zip,stages/HomieYoshiStory2.def';}
+	if (rand==1) {mydiv='Nanase.zip,stages/HomieYoshiStory2.def';}
 break;
 case 103:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Krystal.zip,stages/HomieYoshiStory3.def';}
-	if (rand==1) {mydiv='Krystal.zip,stages/HomieYoshiStory3.def';}
+	if (rand==1) {mydiv='Krystal.zip,stages/HomieYoshiStory3.def';} //copy
 break;
 case 104:
 	rand=(Math.floor(Math.random()*2));
@@ -584,13 +585,13 @@ case 105:
 break;
 case 106:
 	rand=(Math.floor(Math.random()*2));
-	if (rand==0) {mydiv='C_mizuki.zip,stages/IsamuGame5.def';}
+	if (rand==0) {mydiv='Minis.zip,stages/IsamuGame5.def';}
 	if (rand==1) {mydiv='C_mizuki.zip,stages/IsamuGame5.def';}
 break;
 case 107:
 	rand=(Math.floor(Math.random()*2));
-	if (rand==0) {mydiv='?..........,stages/IsamuGame7.def';}
-	if (rand==1) {mydiv='?..........,stages/IsamuGame7.def';}
+	if (rand==0) {mydiv='RubyHeart.zip,stages/IsamuGame7.def';}
+	if (rand==1) {mydiv='Uozumi.zip,stages/IsamuGame7.def';}
 break;
 case 108:
 	rand=(Math.floor(Math.random()*2));
@@ -610,22 +611,22 @@ break;
 case 111:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Dino.zip,stages/Jurassic_jungle.def';}
-	if (rand==1) {mydiv='Dino.zip,stages/Jurassic_jungle.def';}
+	if (rand==1) {mydiv='Dino.zip,stages/Jurassic_jungle.def';} //copy
 break;
 case 112:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='A-Shi.zip,stages/KirbyCourtyard.def';}
-	if (rand==1) {mydiv='A-Shi.zip,stages/KirbyCourtyard.def';}
+	if (rand==1) {mydiv='A-Shi.zip,stages/KirbyCourtyard.def';} //copy
 break;
 case 113:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='ShangTsung.zip,stages/KirbyGoro.def';}
-	if (rand==1) {mydiv='ShangTsung.zip,stages/KirbyGoro.def';}
+	if (rand==1) {mydiv='ShangTsung.zip,stages/KirbyGoro.def';} //copy
 break;
 case 114:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Raiden.zip,stages/KirbyPit.def';}
-	if (rand==1) {mydiv='Raiden.zip,stages/KirbyPit.def';}
+	if (rand==1) {mydiv='Raiden.zip,stages/KirbyPit.def';} //copy
 break;
 case 115:
 	rand=(Math.floor(Math.random()*2));
@@ -660,27 +661,27 @@ break;
 case 121:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='SMG_Jenny.zip,stages/Majyuuou2.def';}
-	if (rand==1) {mydiv='SMG_Jenny.zip,stages/Majyuuou2.def';}
+	if (rand==1) {mydiv='SMG_Juni.zip,stages/Majyuuou2.def';}
 break;
 case 122:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Ran_Yakumo.zip,stages/MechanicalFt.def';}
-	if (rand==1) {mydiv='Ran_Yakumo.zip,stages/MechanicalFt.def';}
+	if (rand==1) {mydiv='Ran_Yakumo.zip,stages/MechanicalFt.def';} //copy
 break;
 case 123:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Zazel.zip,stages/Menace.def';}
-	if (rand==1) {mydiv='Zazel.zip,stages/Menace.def';}
+	if (rand==1) {mydiv='Zazel.zip,stages/Menace.def';} //copy
 break;
 case 124:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='J_ignis.zip,stages/mETALgUN1.def';}
-	if (rand==1) {mydiv='J_ignis.zip,stages/mETALgUN1.def';}
+	if (rand==1) {mydiv='J_ignis.zip,stages/mETALgUN1.def';} //copy
 break;
 case 125:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Lelouch.zip,stages/mETALgUN2.def';}
-	if (rand==1) {mydiv='Lelouch.zip,stages/mETALgUN2.def';}
+	if (rand==1) {mydiv='Lelouch.zip,stages/mETALgUN2.def';} //copy
 break;
 case 126:
 	rand=(Math.floor(Math.random()*2));
@@ -690,7 +691,7 @@ break;
 case 127:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Bertha.zip,stages/MightyCity2.def';}
-	if (rand==1) {mydiv='Bertha.zip,stages/MightyCity2.def';}
+	if (rand==1) {mydiv='Bertha.zip,stages/MightyCity2.def';} //copy
 break;
 case 128:
 	rand=(Math.floor(Math.random()*2));
@@ -700,7 +701,7 @@ break;
 case 129:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='M_Burns.zip,stages/MM7_Graveyard.def';}
-	if (rand==1) {mydiv='M_Burns.zip,stages/MM7_Graveyard.def';}
+	if (rand==1) {mydiv='M_Burns.zip,stages/MM7_Graveyard.def';} //copy
 break;
 case 130:
 	rand=(Math.floor(Math.random()*2));
@@ -720,12 +721,12 @@ break;
 case 133:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Lobo.zip,stages/MN_subway.def';}
-	if (rand==1) {mydiv='Lobo.zip,stages/MN_subway.def';}
+	if (rand==1) {mydiv='Karl.zip,stages/MN_subway.def';}
 break;
 case 134:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Ray.zip,stages/MN_truck.def';}
-	if (rand==1) {mydiv='Ray.zip,stages/MN_truck.def';}
+	if (rand==1) {mydiv='Ray.zip,stages/MN_truck.def';} //copy
 break;
 case 135:
 	rand=(Math.floor(Math.random()*2));
@@ -743,14 +744,15 @@ case 137:
 	if (rand==1) {mydiv='Yorihime.zip,stages/MoaiRuin2.def';}
 break;
 case 138:
-	rand=(Math.floor(Math.random()*2));
-	if (rand==0) {mydiv='Ikkyu.zip,stages/MojoStronghold.def';}
+	rand=(Math.floor(Math.random()*3));
+	if (rand==0) {mydiv='Dios.zip,stages/MojoStronghold.def';}
 	if (rand==1) {mydiv='Ikkyu.zip,stages/MojoStronghold.def';}
+	if (rand==2) {mydiv='Amaterasu.zip,stages/MojoStronghold.def';}
 break;
 case 139:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Shouse.zip,stages/MonsterParty.def';}
-	if (rand==1) {mydiv='Shouse.zip,stages/MonsterParty.def';}
+	if (rand==1) {mydiv='Shouse.zip,stages/MonsterParty.def';} //copy
 break;
 case 140:
 	rand=(Math.floor(Math.random()*2));
@@ -760,18 +762,21 @@ break;
 case 141:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='HIRO.zip,stages/MysticCave.def';}
-	if (rand==1) {mydiv='HIRO.zip,stages/MysticCave.def';}
+	if (rand==1) {mydiv='HIRO.zip,stages/MysticCave.def';} //copy
 break;
 case 142:
 	rand=(Math.floor(Math.random()*3));
 	if (rand==0) {mydiv='Hikkoshi.zip,stages/MysticCaveRE1.def';}
 	if (rand==1) {mydiv='Hikkoshi.zip,stages/MysticCaveRE2.def';}
-	if (rand==2) {mydiv='Hikkoshi.zip,stages/MysticCaveRE3.def';}
+	if (rand==2) {mydiv='Hikkoshi.zip,stages/MysticCaveRE3.def';} //copy
 break;
 case 143:
-	rand=(Math.floor(Math.random()*2));
-	if (rand==0) {mydiv='Janne.zip,stages/Naga_Valley.def';}
-	if (rand==1) {mydiv='Milan.zip,stages/Naga_Valley.def';}
+	rand=(Math.floor(Math.random()*5));
+	if (rand==0) {mydiv='<font color=red>Mika.zip,stages/Naga_Valley.def ;(R18)</font>';}
+	if (rand==1) {mydiv='<font color=red>ShermieB.zip,stages/Naga_Valley.def ;(R18)</font>';}
+	if (rand==2) {mydiv='<font color=red>Kasumi2.zip,stages/Naga_Valley.def ;(R18)</font>';}
+	if (rand==3) {mydiv='<font color=red>NudeMary.zip,stages/Naga_Valley.def ;(R18)</font>';}
+	if (rand==4) {mydiv='<font color=red>Xleona.zip,stages/Naga_Valley.def ;(R18)</font>';}
 break;
 case 144:
 	rand=(Math.floor(Math.random()*2));
@@ -812,8 +817,8 @@ case 151:
 	rand=(Math.floor(Math.random()*5));
 	if (rand==0) {mydiv='Gradriel_O.zip,stages/NWcorridor1.def';}
 	if (rand==1) {mydiv='Asura_[Dnf].zip,stages/NWcorridor2.def';}
-	if (rand==2) {mydiv='Gradriel_O.zip,stages/NWcorridor3.def';}
-	if (rand==3) {mydiv='Asura_[Dnf].zip,stages/NWcorridor4.def';}
+	if (rand==2) {mydiv='Gradriel_O.zip,stages/NWcorridor3.def';} //copy
+	if (rand==3) {mydiv='Asura_[Dnf].zip,stages/NWcorridor4.def';} //copy
 	if (rand==4) {mydiv='Epyon.zip,stages/NWcorridorX.def';}
 break;
 case 152:
@@ -839,12 +844,12 @@ break;
 case 156:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Wario2.zip,stages/Pok3dCave.def';}
-	if (rand==1) {mydiv='Wario2.zip,stages/Pok3dValley.def';}
+	if (rand==1) {mydiv='Wario2.zip,stages/Pok3dValley.def';} //copy
 break;
 case 157:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Kyndle.zip,stages/PsychoWasp.def';}
-	if (rand==1) {mydiv='Kyndle.zip,stages/PsychoWasp.def';}
+	if (rand==1) {mydiv='Kyndle.zip,stages/PsychoWasp.def';} //copy
 break;
 case 158:
 	rand=(Math.floor(Math.random()*2));
@@ -884,12 +889,12 @@ break;
 case 165:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Sieger.zip,stages/Rtype_Junkyard.def';}
-	if (rand==1) {mydiv='Sieger.zip,stages/Rtype_Junkyard.def';}
+	if (rand==1) {mydiv='Sieger.zip,stages/Rtype_Junkyard.def';} //copy
 break;
 case 166:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='SilverSam.zip,stages/ScrapBrainZone.def';}
-	if (rand==1) {mydiv='SilverSam.zip,stages/ScrapBrainZone.def';}
+	if (rand==1) {mydiv='SilverSam.zip,stages/ScrapBrainZone.def';} //copy
 break;
 case 167:
 	rand=(Math.floor(Math.random()*2));
@@ -898,11 +903,11 @@ case 167:
 break;
 case 168:
 	rand=(Math.floor(Math.random()*5));
-	if (rand==0) {mydiv='?..........,stages/ShaqFulab1.def';}
-	if (rand==1) {mydiv='?..........,stages/ShaqFulab2.def';}
-	if (rand==2) {mydiv='?..........,stages/ShaqFulab3.def';}
-	if (rand==3) {mydiv='?..........,stages/ShaqFulab4.def';}
-	if (rand==4) {mydiv='?..........,stages/ShaqFulab5.def';}
+	if (rand==0) {mydiv='Steven_SeagalSnes,stages/ShaqFulab1.def';}
+	if (rand==1) {mydiv='Jill.zip,stages/ShaqFulab2.def';}
+	if (rand==2) {mydiv='H-Killer.zip,stages/ShaqFulab3.def';}
+	if (rand==3) {mydiv='Rio.zip,stages/ShaqFulab4.def';}
+	if (rand==4) {mydiv='Rax.zip,stages/ShaqFulab5.def';}
 break;
 case 169:
 	rand=(Math.floor(Math.random()*2));
@@ -912,7 +917,7 @@ break;
 case 170:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Ruili.zip,stages/ShockTrain.def';}
-	if (rand==1) {mydiv='Ruili.zip,stages/ShockTrain.def';}
+	if (rand==1) {mydiv='Ruili.zip,stages/ShockTrain.def';} //copy
 break;
 case 171:
 	rand=(Math.floor(Math.random()*2));
@@ -927,7 +932,7 @@ break;
 case 173:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='EmmaFrost.zip,stages/SnowRush.def';}
-	if (rand==1) {mydiv='EmmaFrost.zip,stages/SnowRush.def';}
+	if (rand==1) {mydiv='EmmaFrost.zip,stages/SnowRush.def';} //copy
 break;
 case 174:
 	rand=(Math.floor(Math.random()*2));
@@ -937,12 +942,12 @@ break;
 case 175:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Hirezsonic.zip,stages/SonicSpecialStage.def';}
-	if (rand==1) {mydiv='Hirezsonic.zip,stages/SonicSpecialStage.def';}
+	if (rand==1) {mydiv='Hirezsonic.zip,stages/SonicSpecialStage.def';} //copy
 break;
 case 176:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Freedom.zip,stages/SpaceRocket.def';}
-	if (rand==1) {mydiv='Freedom.zip,stages/SpaceRocket.def';}
+	if (rand==1) {mydiv='Freedom.zip,stages/SpaceRocket.def';} //copy
 break;
 case 177:
 	rand=(Math.floor(Math.random()*2));
@@ -967,18 +972,18 @@ case 180:
 break;
 case 181:
 	rand=(Math.floor(Math.random()*2));
-	if (rand==0) {mydiv='NACH03_MP-Suika.zip,stages/stageEtna.def';}
+	if (rand==0) {mydiv='Lilica_Felchenerow.zip,stages/stageEtna.def';}
 	if (rand==1) {mydiv='NACH03_MP-Suika.zip,stages/stageEtna.def';}
 break;
 case 182:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Grizela.zip,stages/stageGrizela.def';}
-	if (rand==1) {mydiv='Grizela.zip,stages/stageGrizela.def';}
+	if (rand==1) {mydiv='Grizela.zip,stages/stageGrizela.def';} //copy*
 break;
 case 183:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Harmir.zip,stages/stageHarmir.def';}
-	if (rand==1) {mydiv='Harmir.zip,stages/stageHarmir.def';}
+	if (rand==1) {mydiv='Harmir.zip,stages/stageHarmir.def';} //copy*
 break;
 case 184:
 	rand=(Math.floor(Math.random()*2));
@@ -988,22 +993,22 @@ break;
 case 185:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Mako.zip,stages/stageMakoto.def';}
-	if (rand==1) {mydiv='Mako.zip,stages/stageMakoto.def';}
+	if (rand==1) {mydiv='Mako.zip,stages/stageMakoto.def';} //copy
 break;
 case 186:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Aoko-ex.zip,stages/stageScharlachrot.def';}
-	if (rand==1) {mydiv='Aoko-ex.zip,stages/stageScharlachrot.def';}
+	if (rand==1) {mydiv='Aoko-ex.zip,stages/stageScharlachrot.def';} //copy
 break;
 case 187:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Zako-Dan.zip,stages/streetcombat_tyrone.def';}
-	if (rand==1) {mydiv='Zako-Dan.zip,stages/streetcombat_tyrone.def';}
+	if (rand==1) {mydiv='Zako-Dan.zip,stages/streetcombat_tyrone.def';} //copy
 break;
 case 188:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Zinc.zip,stages/SubSpace.def';}
-	if (rand==1) {mydiv='Zinc.zip,stages/SubSpace.def';}
+	if (rand==1) {mydiv='Zinc.zip,stages/SubSpace.def';} //copy
 break;
 case 189:
 	rand=(Math.floor(Math.random()*2));
@@ -1028,12 +1033,12 @@ break;
 case 193:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Bartman.zip,stages/SubSpace5.def';}
-	if (rand==1) {mydiv='Bartman.zip,stages/SubSpace5.def';}
+	if (rand==1) {mydiv='Manuel.zip,stages/SubSpace5.def';}
 break;
 case 194:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Raine.zip,stages/TailsAdventure1.def';}
-	if (rand==1) {mydiv='Raine.zip,stages/TailsAdventure1.def';}
+	if (rand==1) {mydiv='Ranoh.zip,stages/TailsAdventure1.def';}
 break;
 case 195:
 	rand=(Math.floor(Math.random()*2));
@@ -1048,12 +1053,12 @@ break;
 case 197:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Viuda_negra.zip,stages/TerrariB.def';}
-	if (rand==1) {mydiv='Viuda_negra.zip,stages/TerrariB.def';}
+	if (rand==1) {mydiv='Viuda_negra.zip,stages/TerrariB.def';} //copy
 break;
 case 198:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Shar-makai.zip,stages/TerrariC.def';}
-	if (rand==1) {mydiv='Shar-makai.zip,stages/TerrariC.def';}
+	if (rand==1) {mydiv='Shar-makai.zip,stages/TerrariC.def';} //copy
 break;
 case 199:
 	rand=(Math.floor(Math.random()*2));
@@ -1063,7 +1068,7 @@ break;
 case 200:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Mokou.zip,stages/The_Fire_Prominence.def';}
-	if (rand==1) {mydiv='Mokou.zip,stages/The_Fire_Prominence.def';}
+	if (rand==1) {mydiv='Mokou.zip,stages/The_Fire_Prominence.def';} //copy
 break;
 case 201:
 	rand=(Math.floor(Math.random()*2));
@@ -1073,12 +1078,12 @@ break;
 case 202:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Predator_W.zip,stages/TitanForest.def';}
-	if (rand==1) {mydiv='Predator_W.zip,stages/TitanForest.def';}
+	if (rand==1) {mydiv='Predator_W.zip,stages/TitanForest.def';} //copy
 break;
 case 203:
 	rand=(Math.floor(Math.random()*2));
-	if (rand==0) {mydiv='Blockhead.zip,stages/To-See-The-Light-of-Day.def';}
-	if (rand==1) {mydiv='Biped.zip,stages/To-See-The-Light-of-Day.def';}
+	if (rand==0) {mydiv='Blockhead.zip,stages/TSTLoD.def';}
+	if (rand==1) {mydiv='Biped.zip,stages/TSTLoD.def';}
 break;
 case 204:
 	rand=(Math.floor(Math.random()*2));
@@ -1119,7 +1124,7 @@ break;
 case 211:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='RacingMiku2014_EV.zip,stages/Viotoxica1.def';}
-	if (rand==1) {mydiv='RacingMiku2014_EV.zip,stages/Viotoxica1.def';}
+	if (rand==1) {mydiv='RacingMiku2014_EV.zip,stages/Viotoxica1.def';} //copy
 break;
 case 212:
 	rand=(Math.floor(Math.random()*2));
@@ -1133,8 +1138,8 @@ case 213:
 break;
 case 214:
 	rand=(Math.floor(Math.random()*2));
-	if (rand==0) {mydiv='Dios.zip,stages/Viotoxica4.def';}
-	if (rand==1) {mydiv='Dios.zip,stages/Viotoxica4.def';}
+	if (rand==0) {mydiv='Janne.zip,stages/Viotoxica4.def';}
+	if (rand==1) {mydiv='Milan.zip,stages/Viotoxica4.def';}
 break;
 case 215:
 	rand=(Math.floor(Math.random()*2));
@@ -1159,7 +1164,7 @@ break;
 case 219:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Cell.zip,stages/Wolfchild2.def';}
-	if (rand==1) {mydiv='Cell.zip,stages/Wolfchild2.def';}
+	if (rand==1) {mydiv='Cell.zip,stages/Wolfchild2.def';} //copy
 break;
 case 220:
 	rand=(Math.floor(Math.random()*2));
@@ -1179,7 +1184,7 @@ break;
 case 223:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Kira.zip,stages/ZeroCastle1.def';}
-	if (rand==1) {mydiv='Kira.zip,stages/ZeroCastle1.def';}
+	if (rand==1) {mydiv='Kira.zip,stages/ZeroCastle1.def';} //copy
 break;
 case 224:
 	rand=(Math.floor(Math.random()*2));
@@ -1199,7 +1204,7 @@ break;
 case 227:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='BurningCirno.zip,stages/ZookHero_2.def';}
-	if (rand==1) {mydiv='BurningCirno.zip,stages/ZookHero_2.def';}
+	if (rand==1) {mydiv='BurningCirno.zip,stages/ZookHero_2.def';} //copy
 break;
 case 999:
 	rand=(Math.floor(Math.random()*2));
