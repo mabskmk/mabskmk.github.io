@@ -71,7 +71,7 @@ case 6:
 mydiv='Burning_Arena',imgur='Yfl1Ngj.png',youtube='TmpppvL-Pc0',gdrv='1LWy90J1QSC9Ljs6mNy4bpv7l-SQ7B7Sa'
 break;
 case 7:
-mydiv='Abadox',imgur='Ov5zTi6.png',youtube='WRswqM3An44',gdrv='1x_A01o9kytrk0HOIrOk5x2DypAvra1GI'
+mydiv='Abadox',imgur='Ov5zTi6.png',youtube='WRswqM3An44',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n'
 break;
 case 8:
 mydiv='Titans_forest',imgur='goFjeiV.png',youtube='-k4ycXSIsvw',gdrv='1MRECApSGzHfDQzdnfQTrymNrRqx6Cw8x'
@@ -266,10 +266,10 @@ case 71:
 mydiv='Tower_of_MORGUL',imgur='36jrd6T.png',youtube='gf2Msy4AqTY',gdrv='1-NKnO4xFHRgjm3PZRhHC-K5EF6ukcb9Q'
 break;
 case 72:
-mydiv='Cilia_Monster',imgur='hzdVhqX.png',youtube='TgOKrZjGvWc',gdrv='1_8eDBTsGJWSOWiUwovY-fPw4lUqTN0KM',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='www.ne.jp/asahi/across/chronicle/image/banner.png'
+mydiv='Cilia_Monster',imgur='hzdVhqX.png',youtube='TgOKrZjGvWc',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='www.ne.jp/asahi/across/chronicle/image/banner.png'
 break;
 case 73:
-mydiv='Galatic-Night-Club',imgur='9mhQVWp.png',youtube='IiEFOz6aggU',gdrv='1AELqqkZzmBo8A8wllFSq8lxpo45GkCE7'
+mydiv='Galatic-Night-Club',imgur='9mhQVWp.png',youtube='IiEFOz6aggU',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n'
 break;
 case 74:
 mydiv='Pokemon_3D',imgur='QUbwkVz.gif',youtube='z1HH-Jrun2Y',gdrv='1D8MGAPvC13AzWN0rboXhyPeywRmWaHte'
