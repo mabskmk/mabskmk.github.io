@@ -95,7 +95,7 @@ case 14:
 mydiv='Stage_Etna',imgur='wUfekDC.png',youtube='r5nPcz3zcyY',gdrv='13vZUJmD97XnsU5JMdwdutcUniuPr6Pd5'
 break;
 case 15:
-mydiv='Ancient_Shadows',imgur='9QvIahU.gif',youtube='XPhPzGHhvVE',gdrv='1824JR0Ramsux-9wQffdZfZg_nibH-3ze'
+mydiv='Ancient_Shadows',imgur='9QvIahU.gif',youtube='XPhPzGHhvVE',gdrv='18ucHZ1wXVEmX40FO3J5LCf1M7k_ao4ib'
 break;
 case 16:
 mydiv='Burning_Village',imgur='pSV0xV2.png',youtube='_vbjdMV4dRU',gdrv='16ppoWLcuHkYwwMAY7OtTaNgsCpihq3Oz'
