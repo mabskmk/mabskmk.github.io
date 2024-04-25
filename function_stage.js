@@ -245,7 +245,7 @@ case 64:
 mydiv='Z-Leo',imgur='MbtkMgt.png',youtube='nYzWMxX54NU',gdrv='1OkIpLS0e62aq2uG3QWvMBRhhyIOERn4L'
 break;
 case 65:
-mydiv='Labyrinth_Zone',imgur='2wivfXy.png',youtube='PypFGdvf8zo',gdrv='1zWWD2hpbTetEEOYYqxxyC2Lv9GMYKMHD'
+mydiv='Labyrinth_Zone',imgur='Rfv7CCF.png',youtube='PypFGdvf8zo',gdrv='1zWWD2hpbTetEEOYYqxxyC2Lv9GMYKMHD'
 break;
 case 66:
 mydiv='Jungle_Zone',imgur='lHK4I0Q.png',youtube='4tg1r_cO-mc',gdrv='1IgCC20_LftsIx_4IzuQ7U-8Jll2s0UQV'
@@ -362,7 +362,7 @@ case 103:
 mydiv='Fortress-of-Doom',imgur='xRRYFhO.gif',youtube='SQNEVTr855o',gdrv='1r2GzPRtojN1KiEQ4MddTR_0KdeEv6jwr'
 break;
 case 104:
-mydiv='Dead_Valley',imgur='RSpuhgX.png',youtube='qvqbx6i1b_c',gdrv='1HPuR69GGT9DrhX8yWmgUNaaecSm0tbQA'
+mydiv='Dead_Valley',imgur='Te6w5AS.png',youtube='qvqbx6i1b_c',gdrv='1HPuR69GGT9DrhX8yWmgUNaaecSm0tbQA'
 break;
 case 105:
 mydiv='Draglade',imgur='V4OdAro.gif',youtube='zH8fwZ4BZ7A',gdrv='1nZhAFkIDKwLuuQqvokYSTLGWOxEm1NhH'
