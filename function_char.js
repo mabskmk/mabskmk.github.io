@@ -54,7 +54,7 @@ case 4:
 mydiv='FlyingTara',imgur='iEjzspe',imgur9='T1V4CAg.png',game='Metalslug',ctype='Bonus',lastupdate='24/01/24',gdrv='1EUY4inMqHFK3bNp0MIyC5umigB4BstgZ',youtube='vACTOBHHlmI'
 break;
 case 5:
-mydiv='Pesoguin',imgur='5NqzscO',imgur9='0aYs6iI.png',game='<a target=_blank href=https://twitter.com/Zanmyo><img src=https://i.imgur.com/qV3Q36A.gif></a>',ctype='Char',lastupdate='01/04/24',youtube='byeHdxhDGIk',gdrv='1IPR_5llhRH9PGtWyYhJ3_-AmRI77D-xa',bannerHtml='twitter.com/pesoguin',bannerImg='i.imgur.com/qV3Q36A.gif'
+mydiv='Pesoguin',imgur='5NqzscO',imgur9='0aYs6iI.png',game='<a target=_blank href=https://twitter.com/Zanmyo><img src=https://i.imgur.com/qV3Q36A.gif></a>',ctype='Char',lastupdate='12/05/24',youtube='byeHdxhDGIk',gdrv='1IPR_5llhRH9PGtWyYhJ3_-AmRI77D-xa',bannerHtml='twitter.com/pesoguin',bannerImg='i.imgur.com/qV3Q36A.gif'
 break;
 case 6:
 mydiv='Slug_Wanzer_Old',imgur='FlLscmO',imgur9='1fgHkvT.png',game='Metalslug',ctype='Char',lastupdate='20/04/08',gdrv='1DMfPTtg1jbegRXRq82pb7N11pteDhNnw',youtube='Stk5KQzVcXE'
