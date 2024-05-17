@@ -14,7 +14,7 @@ btnchar.disabled=false;
 btnstg.disabled=false;
 btnfullg.disabled=false;
 btnyotu.disabled=false;
-vichar();
+viytmisc(); //vichar -> vistg -> viytmisc
 break;
 }
 }
