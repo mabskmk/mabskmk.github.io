@@ -21,7 +21,7 @@ case 5:
 mydiv='Just_a_normal_day',youtube='b7vz7krharY?si=Bi_DRud39PtvqqkR'
 break;
 case 6:
-mydiv='This minigame got a update after 13 years',youtube='5MRExSi44ow?si=eIOBY0OjK4nGbl1b&start=430&end=580'
+mydiv='This minigame got an update after 13 years',youtube='5MRExSi44ow?si=eIOBY0OjK4nGbl1b&start=430&end=580'
 break;
 case 7:
 mydiv='Today is the day to test your limits',youtube='pxmD8ycQgzM?si=ewnp4Eb3-y3mEy5G&start=50&end=200'
