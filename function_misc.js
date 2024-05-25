@@ -3,6 +3,7 @@ var bannerImg='';
 var rand=0;
 var checkMisc = new Array(11);
 
+//Function to play a random video
 function viytmisc() {
 mydiv='';youtube='';link='';
 
@@ -21,9 +22,9 @@ mydiv='';youtube='';link='';
   //Compares with the check list
   while (rand>0 && checkMisc[rand]=='ok') {rand=(Math.floor(Math.random()*10)+1);}
 
-  //Creates a line with randomValue index
   if (rand>0 && checkMisc[rand]!='ok') {checkMisc[rand]='ok';}
 
+//Get the info of the video [id]
 switch (rand) {
 case 0:
 mydiv=''
