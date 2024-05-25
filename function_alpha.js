@@ -31,20 +31,12 @@ btnfullg.disabled=false;
 btnyotu.disabled=false;
 break;
 case 5:
-document.getElementById('principal').innerHTML="<h1 id=nomeprinc><b></b></h1><b>Last.fm</b><br><a target='_blank' href='https://www.last.fm/user/MabsKMK'><img src='https://lastfm-recently-played.vercel.app/api?user=MabsKMK' height='auto' width='350px'/></a><br><a target='_blank' href='//blog.spacehey.com/entry?id=221954'>credits</a><br><br><b><a target='_blank' data-flickr-embed='true' data-header='true' href='https://www.flickr.com/photos/mabskmk/albums/72157607225651229' title='Relâmpago, a caçada'><b>Flickr</b><br><img src='https://live.staticflickr.com/3280/2846867795_345b192712_k.jpg' width='400' height='300' alt='Relâmpago, a caçada'/></a><script async src='//embedr.flickr.com/assets/client-code.js' charset='utf-8'></script><br><br><b><a target='_blank' href='https://www.bitchute.com/channel/LIy5FtdNRSH2/'>Bitchute</a></b><br><iframe src='https://www.bitchute.com/embed/xv0lFe8bN5uf/' frameborder='0' width='430' height='240'></iframe><br><br><b><a target='_blank' href='https://www.nicovideo.jp/user/51046619/video'>NicoNico</a></b><br><iframe src='https://embed.nicovideo.jp/watch/sm27592028' frameborder='0' width='430' height='240'></iframe><br><br><b>Youtube</b><br><iframe src='https://www.youtube.com/embed/videoseries?list=PLwmmiI53xsNTAnaBZXJfYuYRTtKgH58oV' width='430' height='240' frameborder='0'></iframe><br><input type=button onClick='menu(6)' value='wip' id='btnw'>"
+document.getElementById('principal').innerHTML="<h1 id=nomeprinc><b></b></h1><b>Last.fm</b><br><a target='_blank' href='https://www.last.fm/user/MabsKMK'><img src='https://lastfm-recently-played.vercel.app/api?user=MabsKMK' height='auto' width='350px'/></a><br><a target='_blank' href='//blog.spacehey.com/entry?id=221954'>credits</a><br><br><b><a target='_blank' data-flickr-embed='true' data-header='true' href='https://www.flickr.com/photos/mabskmk/albums/72157607225651229' title='Relâmpago, a caçada'><b>Flickr</b><br><img src='https://live.staticflickr.com/3280/2846867795_345b192712_k.jpg' width='400' height='300' alt='Relâmpago, a caçada'/></a><script async src='//embedr.flickr.com/assets/client-code.js' charset='utf-8'></script><br><br><b><a target='_blank' href='https://www.bitchute.com/channel/LIy5FtdNRSH2/'>Bitchute</a></b><br><iframe src='https://www.bitchute.com/embed/xv0lFe8bN5uf/' frameborder='0' width='430' height='240'></iframe><br><br><b><a target='_blank' href='https://www.nicovideo.jp/user/51046619/video'>NicoNico</a></b><br><iframe src='https://embed.nicovideo.jp/watch/sm27592028' frameborder='0' width='430' height='240'></iframe><br><br><b>Youtube</b><br><iframe src='https://www.youtube.com/embed/videoseries?list=PLwmmiI53xsNTAnaBZXJfYuYRTtKgH58oV' width='430' height='240' frameborder='0'></iframe><br><input type=button onClick='menugame()' value='wip' id='btnw'>"
 btnnew.disabled=false;
 btnchar.disabled=false;
 btnstg.disabled=false;
 btnfullg.disabled=false;
 btnyotu.disabled=true;
-break;
-case 6:
-document.getElementById('principal').innerHTML="<center><h1 id=nomeprinc><b>W.I.P.</h1><img style = 'border:4px dashed green;' src='https://i.imgur.com/EEQqMRF.png' width=12.5% height=12.5%><img src='https://i.imgur.com/EEQqMRF.png' width=12.5% height=12.5%><img src='https://i.imgur.com/EEQqMRF.png' width=12.5% height=12.5%><br><img src='https://i.imgur.com/E1IwRRY.png' width=12.5% height=12.5%><img src='https://i.imgur.com/E1IwRRY.png' width=12.5% height=12.5%><img src='https://i.imgur.com/E1IwRRY.png' width=12.5% height=25%><br><img src='https://i.imgur.com/EEQqMRF.png' width=12.5% height=12.5%><img src='https://i.imgur.com/EEQqMRF.png' width=12.5% height=12.5%><img src='https://i.imgur.com/EEQqMRF.png' width=12.5% height=12.5%><br><br></center>"
-btnnew.disabled=false;
-btnchar.disabled=false;
-btnstg.disabled=false;
-btnfullg.disabled=false;
-btnyotu.disabled=false;
 break;
 }
 }
