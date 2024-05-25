@@ -28,7 +28,7 @@ stage((x),1)
 }
 }
 
-
+//Function to play a random video
 function vistg() {
   //Disable the function exiting showcase
   if (btnnew.disabled==false) {return;}
@@ -45,10 +45,10 @@ function vistg() {
   //Compares with the check list
   while (rand>0 && checkStage[rand]=='ok') {rand=(Math.floor(Math.random()*146));}
 
-  //Creates a line with randomValue index
   if (rand>0 && checkStage[rand]!='ok') {checkStage[rand]='ok';}
 
-  stage(rand,3);
+//Get the values of the respective video in the 'stage database'
+stage(rand,3);
 
 if (youtube!='dQw4w9WgXcQ'){
 document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>STAGE ("+rand+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=STG_"+mydiv+"></a>"
