@@ -39,7 +39,7 @@ btnfullg.disabled=false;
 btnyotu.disabled=true;
 break;
 case 6:
-document.getElementById('principal').innerHTML="<center><h1 id=nomeprinc><b>W.I.P.</h1><img style = 'border:4px dashed green;' src='https://i.imgur.com/RakduKl.png' width=12.5% height=12.5%><img src='https://i.imgur.com/RakduKl.png' width=12.5% height=12.5%><img src='https://i.imgur.com/RakduKl.png' width=12.5% height=12.5%><br><img src='https://i.imgur.com/E1IwRRY.png' width=12.5% height=12.5%><img src='https://i.imgur.com/E1IwRRY.png' width=12.5% height=12.5%><img src='https://i.imgur.com/E1IwRRY.png' width=12.5% height=25%><br><img src='https://i.imgur.com/RakduKl.png' width=12.5% height=12.5%><img src='https://i.imgur.com/RakduKl.png' width=12.5% height=12.5%><img src='https://i.imgur.com/RakduKl.png' width=12.5% height=12.5%><br><br></center>"
+document.getElementById('principal').innerHTML="<center><h1 id=nomeprinc><b>W.I.P.</h1><img style = 'border:4px dashed green;' src='https://i.imgur.com/EEQqMRF.png' width=12.5% height=12.5%><img src='https://i.imgur.com/EEQqMRF.png' width=12.5% height=12.5%><img src='https://i.imgur.com/EEQqMRF.png' width=12.5% height=12.5%><br><img src='https://i.imgur.com/E1IwRRY.png' width=12.5% height=12.5%><img src='https://i.imgur.com/E1IwRRY.png' width=12.5% height=12.5%><img src='https://i.imgur.com/E1IwRRY.png' width=12.5% height=25%><br><img src='https://i.imgur.com/EEQqMRF.png' width=12.5% height=12.5%><img src='https://i.imgur.com/EEQqMRF.png' width=12.5% height=12.5%><img src='https://i.imgur.com/EEQqMRF.png' width=12.5% height=12.5%><br><br></center>"
 btnnew.disabled=false;
 btnchar.disabled=false;
 btnstg.disabled=false;
