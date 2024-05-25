@@ -1,14 +1,13 @@
 
 function menugame() {
-document.getElementById('principal').innerHTML="<table border=0><td align=right width=500><h1><b>G.A.M.E.</b> by mabskmk</h1><br><b id=1></b><b id=2></b><b id=3></b><br><b id=4></b><b id=5></b><b id=6></b><br><b id=7></b><b id=8></b><b id=9></b><br><br><br><b id=10></b><b id=11></b><b id=12></b><b id=13></b><b id=14></b><b id=15></b><br><br><br><input type=button onClick='ppmain(1)' value='.Clean.'><br></font><tr></table>"
+document.getElementById('principal').innerHTML="<center><h1 id=nomeprinc><b>W.I.P.</h1><table border=0><tr><td align=center><img src='https://i.imgur.com/EEQqMRF.png' height='135px'><td align=center><img src='https://i.imgur.com/EEQqMRF.png' height='135px'><td align=center><img src='https://i.imgur.com/EEQqMRF.png' height='135px'><td align=center rowspan=3 bgcolor=darkolivegreen><img src='https://i.imgur.com/y3p2oz2.png'><td align=center rowspan=3><img src='https://i.imgur.com/EEQqMRF.png' height='80px'><br><img src='https://i.imgur.com/EEQqMRF.png' height='80px'><br><img src='https://i.imgur.com/EEQqMRF.png' height='80px'><br><img src='https://i.imgur.com/EEQqMRF.png' height='80px'><br><img src='https://i.imgur.com/EEQqMRF.png' height='80px'><tr><td align=center><img src='https://i.imgur.com/E1IwRRY.png' height='135px'><td align=center><img src='https://i.imgur.com/E1IwRRY.png' height='135px'><td align=center><img src='https://i.imgur.com/E1IwRRY.png' height='135px'><tr><td align=center><img src='https://i.imgur.com/EEQqMRF.png' height='135px'><td align=center><img src='https://i.imgur.com/EEQqMRF.png' height='135px'><td align=center><img src='https://i.imgur.com/EEQqMRF.png' height='135px'><tr></table><br><br></center>"
 btnnew.disabled=false;
 btnchar.disabled=false;
 btnstg.disabled=false;
 btnfullg.disabled=false;
 btnyotu.disabled=false;
-startGame()
+// style = 'border:4px dashed green;' 
 }
-//rand=Math.floor((Math.random() * 10) + 132);
 
 //test
 function startGame() {
