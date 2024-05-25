@@ -17,6 +17,7 @@ char((x),1)
 char(5,2);
 }
 
+//Function to play a random video
 function vichar() {
   //Disable the function exiting showcase
   if (btnnew.disabled==false) {return;}
@@ -33,10 +34,10 @@ function vichar() {
   //Compares with the check list
   while (rand>0 && checkChar[rand]=='ok') {rand=(Math.floor(Math.random()*54));}
 
-  //Creates a line with randomValue index
   if (rand>0 && checkChar[rand]!='ok') {checkChar[rand]='ok';}
 
-  char(rand,3);
+//Get the values of the respective video in the 'char database'
+char(rand,3);
 
 if (youtube!='7mFsq-ehdUI'){
 document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>CHAR ("+rand+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=CHAR_"+mydiv+"></a></marquee>"
