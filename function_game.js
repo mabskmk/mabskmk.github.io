@@ -189,7 +189,7 @@ function reArrange(player) {
 	}
 
 	//GP
-	alert("GP: "+hashTag);
+	//alert("GP: "+hashTag);
 
 	playerOne[11]=drawCard(); //draws on spot 11
 	document.getElementById(11).src = getImage(playerOne[11],1);
