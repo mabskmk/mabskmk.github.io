@@ -1,0 +1,106 @@
+<!--
+b, a, a:visited, a:link {
+font-family:"papyrus";
+text-decoration:none;
+color:green;
+line-height: 1;
+}
+a:link {text-decoration: none} 
+a:visited {text-decoration: none} 
+a:hover {text-decoration: none} 
+a:link.deco {text-decoration: none} 
+a:visited.deco {text-decoration: none} 
+a:hover.deco {text-decoration: underline} 
+
+audio { width: 150px; }
+img.flip {
+-moz-transform: scaleX(-1);
+-o-transform: scaleX(-1);
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+filter: FlipH;
+-ms-filter: "FlipH";
+}
+
+input {
+background-color:white;
+border-color:white;
+font-size:10pt;
+padding:0px;
+width:125px;
+cursor:pointer;
+font-family:"arial";
+color:black;
+}
+input:disabled {
+background-color:white;
+border-color:white;
+font-size:10pt;
+padding:0px;
+width:125px;
+cursor:auto;
+font-family:"verdana";
+color:gray;
+}
+
+img.button, img.rbutton {
+padding:0px;
+cursor:pointer;
+border:0px;
+}
+
+.rbutton {
+-moz-transition: all 1.0s ease-in-out;
+-webkit-transition: all 1.0s ease-in-out;
+-o-transition: all 1.0s ease-in-out;
+-ms-transition: all 1.0s ease-in-out;
+transition: all 1.0s ease-in-out;
+}
+.rbutton:hover {
+-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+transform: rotate(360deg);
+}
+
+h4 {
+color:#A54108;
+padding:0;
+}
+.md-image img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -o-transition: all 1s ease; /* IE 9 */
+    -ms-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+        max-width: 100%;
+}
+.md-image:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+.md-image{
+  display:block;
+  overflow:hidden;
+}
+.wip{
+opacity: 0.5;
+filter: alpha(opacity=50);
+}
+
+div {
+color:white;
+background: #000000 none;
+overflow: hidden;
+}
+body {
+  background: rgba(0,0,0,0.9) url('https://signavatar.com/2425_s.gif') fixed;
+  color:white;
+}
+    
+
+-->
