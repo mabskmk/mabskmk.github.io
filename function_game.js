@@ -145,7 +145,7 @@ function playSelect(idSelect) {
 
 	//document.getElementById(idSelect).src = document.getElementById(cardIMG).src
 
-	if (cardIMG!='' && hashTag<511) {
+	if (cardIMG!='' && hashTag<511 && playerTwo[idSelect]==-1 && playerOne[idSelect]==-1) {
 	playerOne[idSelect] = playerOne[cardIMG];
 	document.getElementById(idSelect).src = getImage(playerOne[idSelect],1)
 	playerOne[cardIMG] = -1
