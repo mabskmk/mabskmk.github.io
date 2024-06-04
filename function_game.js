@@ -54,17 +54,6 @@ function startGame() {
 
 	computerTime();
 
-
-//Deck debug
-document.getElementById('v1').innerHTML=cardArray[0];
-document.getElementById('v2').innerHTML=cardArray[1];
-document.getElementById('v3').innerHTML=cardArray[2];
-document.getElementById('v4').innerHTML=cardArray[3];
-document.getElementById('v5').innerHTML=cardArray[4];
-document.getElementById('v6').innerHTML=cardArray[5];
-document.getElementById('v7').innerHTML=cardArray[6];
-document.getElementById('v8').innerHTML=cardArray[7];
-document.getElementById('v9').innerHTML=cardArray[8];
 }
 
 
@@ -97,32 +86,92 @@ return;
 
 	//Simple version only to show the cards on the table
 function computerTime() {
+cardIMG=-1;
+idSelect=-1;
+	
+	if (hashTag==511) {checkMETALhand();}
+
+	while (cardIMG==-1) {
 
 	//first random to take one card in the hand
 	rand=(Math.floor(Math.random()*5)+11);
 
-  	idSelect=playerTwo[rand];
+	//second random to choose one spot on the table
+	idSelect=(Math.floor(Math.random()*9)+1);
+
+	if (playerTwo[idSelect]==-1 && playerOne[idSelect]==-1) {
+	//alert("Place P2: "+(playerTwo[rand]+1)+" Spot: "+idSelect);
+	cardIMG=playerTwo[rand];
+	}
+
+	if (playerOne[idSelect]!=-1 && playerTwo[idSelect]==-1 && (playerTwo[rand]>playerOne[idSelect])) {
+	//alert("Battle P2: "+(playerTwo[rand]+1)+" P1: "+(playerOne[idSelect]+1)+" Spot: "+idSelect);
+	playerOne[idSelect]=-1;
+	cardIMG=playerTwo[rand];
+	}
+
+	
+	}
+
 	playerTwo[rand] = -1;
 
-	//second random to choose one spot on the table
-	rand=(Math.floor(Math.random()*9)+1);
-	while (playerTwo[rand]!=-1 || playerOne[rand]!=-1) {rand=(Math.floor(Math.random()*9)+1);}
-
 	//GP
-	hashTag = hashTag + (2**(rand-1));
+	if (hashTag% (2*(2**(idSelect-1))) < (2**(idSelect-1)) ) {
+	hashTag = hashTag + (2**(idSelect-1));
+	}
 
-	playerTwo[rand]=idSelect;
-	document.getElementById(rand).src = getImage(idSelect,2);
+	playerTwo[idSelect]=cardIMG;
+	document.getElementById(idSelect).src = getImage(cardIMG,2);
 
 	highCard();
 	reArrange(2);
 
+
+//Deck debug
+document.getElementById('v1').innerHTML=cardArray[0];
+document.getElementById('v2').innerHTML=cardArray[1];
+document.getElementById('v3').innerHTML=cardArray[2];
+document.getElementById('v4').innerHTML=cardArray[3];
+document.getElementById('v5').innerHTML=cardArray[4];
+document.getElementById('v6').innerHTML=cardArray[5];
+document.getElementById('v7').innerHTML=cardArray[6];
+document.getElementById('v8').innerHTML=cardArray[7];
+document.getElementById('v9').innerHTML=cardArray[8];
 return;
+}
+
+	//Machine checks its hand before guess 
+function checkMETALhand() {
+rand=-1;
+
+	//look the high card
+	for (x=11;x<16;x++) {
+	if (playerTwo[x]>rand) {rand=playerTwo[x];}
+	}
+
+	//compares with the table
+	for (x=1;x<10;x++) {
+	if (playerOne[x]<rand && playerTwo[x]==-1) {return;}
+	}
+
+	alert("Computer says: Ouch!");
+	startGame();
+
 }
 
 
 	//Card select
 function seLect(idSelect) {
+
+	document.getElementById(1).style = '';
+	document.getElementById(2).style = '';
+	document.getElementById(3).style = '';
+	document.getElementById(4).style = '';
+	document.getElementById(5).style = '';
+	document.getElementById(6).style = '';
+	document.getElementById(7).style = '';
+	document.getElementById(8).style = '';
+	document.getElementById(9).style = '';
 
 	document.getElementById(11).style = 'opacity: 0.5;';
 	document.getElementById(12).style = 'opacity: 0.5;';
@@ -134,6 +183,13 @@ function seLect(idSelect) {
 	if (idSelect!=0) {
 	document.getElementById(idSelect).style = ''; //magic
 	cardIMG=idSelect;
+	
+		for (x=1;x<10;x++) {
+		if (playerTwo[x]>-1 && (playerTwo[x]<playerOne[idSelect])) {
+		document.getElementById(x).style = 'filter: sepia(100%)';
+		}
+		}	
+	
 	}
 
 return;
@@ -147,12 +203,33 @@ function playSelect(idSelect) {
 
 	if (cardIMG!='' && hashTag<511 && playerTwo[idSelect]==-1 && playerOne[idSelect]==-1) {
 	playerOne[idSelect] = playerOne[cardIMG];
-	document.getElementById(idSelect).src = getImage(playerOne[idSelect],1)
-	playerOne[cardIMG] = -1
+	document.getElementById(idSelect).src = getImage(playerOne[idSelect],1);
+	playerOne[cardIMG] = -1;
 	document.getElementById(cardIMG).src = getImage();
 
 	//GP
+	if (hashTag% (2*(2**(idSelect-1))) < (2**(idSelect-1)) ) {
 	hashTag = hashTag + (2**(idSelect-1));
+	}
+
+	highCard();
+	reArrange(1);
+	cardIMG='';
+	}
+
+
+	if (cardIMG!='' && playerTwo[idSelect]!=-1 && (playerOne[cardIMG]>playerTwo[idSelect])) {
+
+	playerTwo[idSelect] = -1;
+	playerOne[idSelect] = playerOne[cardIMG];
+	document.getElementById(idSelect).src = getImage(playerOne[idSelect],1);
+	playerOne[cardIMG] = -1;
+	document.getElementById(cardIMG).src = getImage();
+
+	//GP
+	if (hashTag% (2*(2**(idSelect-1))) < (2**(idSelect-1)) ) {
+	hashTag = hashTag + (2**(idSelect-1));
+	}
 
 	highCard();
 	reArrange(1);
@@ -189,7 +266,7 @@ function reArrange(player) {
 	}
 
 	//GP
-	//alert("GP: "+hashTag);
+	//alert("GP: "+playerOne[10]);
 
 	playerOne[11]=drawCard(); //draws on spot 11
 	document.getElementById(11).src = getImage(playerOne[11],1);
@@ -201,8 +278,9 @@ return;
 
 	//Resets everything!!
 function clearTable() {
-cardSelected=-1;
-hashTag=0;
+idSelected=-1;
+cardIMG=-1;
+hashTag=-1;
 document.getElementById('1').src=getImage(); //empty image
 document.getElementById('2').src=getImage();
 document.getElementById('3').src=getImage();
