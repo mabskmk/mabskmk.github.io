@@ -19,9 +19,15 @@ var hashTag=0;			//Geometric progression (1+2+4+8+16+32+64+128+256=511)
 //----------------------------------------------------
 // menugame() - Creates the basic html
 // startGame() - Start the Game
-// clearTable() - Reset variables
 // computerTime() - Computer plays
 // antiOverload() - Anti machine overload
+// drawCard() - Draw a card
+// highCard() - Put the highest cart at the big screen
+// seLect() - Reset the style of the images
+// seLect(idSelect) - Select one card (with css styles)
+// playSelect(idSelect) - Put a selected card on the table
+// reArrange(player) - Re-arrange the cards leaving the first spot open (used before a draw)
+// getImage(card,player) - Get the actual image url
 
 
 //====================================================
@@ -148,7 +154,17 @@ if (actualPlayer==2) {
 
 		//alert("Battle P2: "+(playerTwo[rand]+1)+" P1: "+(playerOne[idSelect]+1)+" Spot: "+idSelect);
 
+		//*********************************************************************************************
+		//Gameplay: Card may return to deck if the difference is too high
+		if ( (playerTwo[rand] - playerOne[idSelect]) > 1 ) {
+		//rand=playerOne[idSelect];
+		//alert("Card "+(playerOne[idSelect]+1)+" returned to the deck");
+		cardArray[(playerOne[idSelect])]=cardArray[(playerOne[idSelect])]+1;
+		}
+		//*********************************************************************************************
+
 		playerOne[idSelect]=-1;
+
 		cardIMG=playerTwo[rand];
 		}
 	
@@ -259,6 +275,9 @@ return;
 
 function seLect(idSelect) {
 
+	if(idSelect!=0) {victoryCheck();}
+
+	if (actualPlayer!=0) {
 	document.getElementById(1).style = '';
 	document.getElementById(2).style = '';
 	document.getElementById(3).style = '';
@@ -274,6 +293,7 @@ function seLect(idSelect) {
 	document.getElementById(13).style = 'opacity: 0.5;';
 	document.getElementById(14).style = 'opacity: 0.5;';
 	document.getElementById(15).style = 'opacity: 0.5;';
+	}
 
 	//this function may be used only to reset the style ^
 	if (idSelect!=0 && actualPlayer==1) {
@@ -301,6 +321,7 @@ function playSelect(idSelect) {
 	//document.getElementById(idSelect).src = document.getElementById(cardIMG).src
 
 if (actualPlayer==1&&cardSelect!='' && hashTag<511 && playerTwo[idSelect]==-1 && playerOne[idSelect]==-1) {
+
 	playerOne[idSelect] = playerOne[cardSelect];
 	document.getElementById(idSelect).src = getImage(playerOne[idSelect],1);
 	playerOne[cardSelect] = -1;
@@ -312,16 +333,26 @@ if (actualPlayer==1&&cardSelect!='' && hashTag<511 && playerTwo[idSelect]==-1 &&
 	}
 
 	highCard();
-	reArrange(1);
 	cardSelect='';
+	reArrange(1);
 	}
 
 
 if (actualPlayer==1&&cardSelect!='' && playerTwo[idSelect]!=-1 && (playerOne[cardSelect]>playerTwo[idSelect])) {
 
+	//*********************************************************************************************
+	//Gameplay: Card may return to deck if the difference is too high
+	if ( (playerOne[cardSelect]-playerTwo[idSelect]) > 1 ) {
+	//rand=playerTwo[idSelect];
+	//alert("Card "+(playerTwo[idSelect]+1)+" returned to the deck");
+	cardArray[(playerTwo[idSelect])]=cardArray[(playerTwo[idSelect])]+1;
+	}
+	//*********************************************************************************************
+
 	playerTwo[idSelect] = -1;
 	playerOne[idSelect] = playerOne[cardSelect];
 	document.getElementById(idSelect).src = getImage(playerOne[idSelect],1);
+
 	playerOne[cardSelect] = -1;
 	document.getElementById(cardSelect).src = getImage();
 
@@ -331,8 +362,8 @@ if (actualPlayer==1&&cardSelect!='' && playerTwo[idSelect]!=-1 && (playerOne[car
 	}
 
 	highCard();
-	reArrange(1);
 	cardSelect='';
+	reArrange(1);
 	}
 return;
 }
@@ -378,6 +409,56 @@ function reArrange(player) {
 	actualPlayer=1;
 	}
 return;
+}
+
+
+//====================================================
+// [Victory check]
+//----------------------------------------------------
+
+function victoryCheck(player) {
+cardIMG=0;
+rand=0;
+
+	if (playerOne[1]!=-1 && playerOne[2]!=-1 && playerOne[3]!=-1 &&rand==0) {cardIMG=7; rand=1;}
+	if (playerOne[4]!=-1 && playerOne[5]!=-1 && playerOne[6]!=-1 &&rand==0) {cardIMG=56; rand=1;}
+	if (playerOne[7]!=-1 && playerOne[8]!=-1 && playerOne[9]!=-1 &&rand==0) {cardIMG=448; rand=1;}
+
+	if (playerOne[1]!=-1 && playerOne[4]!=-1 && playerOne[7]!=-1 &&rand==0) {cardIMG=73; rand=1;}
+	if (playerOne[2]!=-1 && playerOne[5]!=-1 && playerOne[8]!=-1 &&rand==0) {cardIMG=146; rand=1;}
+	if (playerOne[3]!=-1 && playerOne[6]!=-1 && playerOne[9]!=-1 &&rand==0) {cardIMG=292; rand=1;}
+
+	if (playerOne[1]!=-1 && playerOne[5]!=-1 && playerOne[9]!=-1 &&rand==0) {cardIMG=273; rand=1;}
+	if (playerOne[3]!=-1 && playerOne[5]!=-1 && playerOne[7]!=-1 &&rand==0) {cardIMG=84; rand=1;}
+
+	if (playerTwo[1]!=-1 && playerTwo[2]!=-1 && playerTwo[3]!=-1 &&rand==0) {cardIMG=7; rand=2;}
+	if (playerTwo[4]!=-1 && playerTwo[5]!=-1 && playerTwo[6]!=-1 &&rand==0) {cardIMG=56; rand=2;}
+	if (playerTwo[7]!=-1 && playerTwo[8]!=-1 && playerTwo[9]!=-1 &&rand==0) {cardIMG=448; rand=2;}
+
+	if (playerTwo[1]!=-1 && playerTwo[4]!=-1 && playerTwo[7]!=-1 &&rand==0) {cardIMG=73; rand=2;}
+	if (playerTwo[2]!=-1 && playerTwo[5]!=-1 && playerTwo[8]!=-1 &&rand==0) {cardIMG=146; rand=2;}
+	if (playerTwo[3]!=-1 && playerTwo[6]!=-1 && playerTwo[9]!=-1 &&rand==0) {cardIMG=292; rand=2;}
+
+	if (playerTwo[1]!=-1 && playerTwo[5]!=-1 && playerTwo[9]!=-1 &&rand==0) {cardIMG=273; rand=2;}
+	if (playerTwo[3]!=-1 && playerTwo[5]!=-1 && playerTwo[7]!=-1 &&rand==0) {cardIMG=84; rand=2;}
+
+if (rand>0) {
+
+for (x=1;x<10;x++) {
+
+	document.getElementById(x).style = 'opacity: 0.2;';
+	if (cardIMG>=(2**(x-1)) && (cardIMG% (2*(2**(x-1))) >= (2**(x-1))) ) {
+	//alert("Pos: "+x+" card: "+cardIMG+" GP: "+(2**(x-1)));
+	document.getElementById(x).style = '';
+	}
+
+}
+
+if (rand==1) {alert("Player wins!");} else if (rand==2) {alert("Machine wins!");}
+actualPlayer=0;
+setTimeout('menugame()',5000);
+}
+
 }
 
 
