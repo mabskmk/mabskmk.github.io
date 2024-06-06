@@ -242,7 +242,7 @@ rand=-1;
 
 	alert("The computer cannot overcome the player");
 
-	menugame(); //startGame is causing a bug (i'll fix soooooon)
+	victoryCheck(999); //menugame(); //startGame is causing a bug (i'll fix soooooon)
 
 }
 
@@ -295,8 +295,6 @@ return;
 //----------------------------------------------------
 
 function seLect(idSelect) {
-
-	//if(idSelect>0) {victoryCheck();}
 
 	if (actualPlayer!=0) {
 	document.getElementById(1).style = '';
@@ -427,7 +425,8 @@ return;
 
 function reArrange(player) {
 
-	if (player==2) {setTimeout('victoryCheck()',500);}
+	//if (player==2) {setTimeout('victoryCheck()',500);}
+	setTimeout('victoryCheck()',500);
 
 	if (player==1) {
 	for (x=15;x>10;x--) {
@@ -473,7 +472,7 @@ return;
 // [__8] [_16] [_32]
 // [_64] [128] [256]
 
-function victoryCheck() {
+function victoryCheck(cpu) {
 
 cardIMG=0;
 rand=0;
@@ -513,7 +512,7 @@ for (x=1;x<10;x++) {
 
 }
 
-if (rand==1) {
+if (rand==1 || cpu==999) {
 document.getElementById('w1').innerHTML="winner! ";
 document.getElementById('w2').innerHTML="........"; // ._.
 } 
