@@ -13,6 +13,8 @@ var idSelect=0;			//Spot id
 var cardIMG=0;			//Multi values
 var hashTag=0;			//Geometric progression (1+2+4+8+16+32+64+128+256=511)
 
+playerOne[0] = 0;
+playerTwo[0] = 0;
 
 //====================================================
 // Functions
@@ -23,10 +25,11 @@ var hashTag=0;			//Geometric progression (1+2+4+8+16+32+64+128+256=511)
 // antiOverload() - Anti machine overload
 // drawCard() - Draw a card
 // highCard() - Put the highest cart at the big screen
-// seLect() - Reset the style of the images
+// seLect(0) - Reset the style of the images
 // seLect(idSelect) - Select one card (with css styles)
 // playSelect(idSelect) - Put a selected card on the table
 // reArrange(player) - Re-arrange the cards leaving the first spot open (used before a draw)
+// victoryCheck() - Check victory for both players
 // getImage(card,player) - Get the actual image url
 
 
@@ -35,7 +38,7 @@ var hashTag=0;			//Geometric progression (1+2+4+8+16+32+64+128+256=511)
 //----------------------------------------------------
 
 function menugame() {
-document.getElementById('principal').innerHTML="<center><h1 id=nomeprinc><b>W.I.P.</h1><table border=0><tr><td align=center><img id=1 onClick='playSelect(1)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><td align=center><img id=2 onClick='playSelect(2)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><td align=center><img id=3 onClick='playSelect(3)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><td align=center rowspan=3 bgcolor=darkolivegreen><img id=10 src='https://i.imgur.com/y3p2oz2.png'><td align=center rowspan=3><img id=11 onClick='seLect(11)' src='https://i.imgur.com/EEQqMRF.png' height='80px'><br><img id=12 onClick='seLect(12)' src='https://i.imgur.com/EEQqMRF.png' height='80px'><br><img id=13 onClick='seLect(13)' src='https://i.imgur.com/EEQqMRF.png' height='80px'><br><img id=14 onClick='seLect(14)' src='https://i.imgur.com/EEQqMRF.png' height='80px'><br><img id=15 onClick='seLect(15)' src='https://i.imgur.com/EEQqMRF.png' height='80px'><tr><td align=center><img id=4 onClick='playSelect(4)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><td align=center><img id=5 onClick='playSelect(5)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><td align=center><img id=6 onClick='playSelect(6)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><tr><td align=center><img id=7 onClick='playSelect(7)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><td align=center><img id=8 onClick='playSelect(8)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><td align=center><img id=9 onClick='playSelect(9)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><tr></table>(<b id=v1></b>)(<b id=v2></b>)(<b id=v3></b>)(<b id=v4></b>)(<b id=v5></b>)(<b id=v6></b>)(<b id=v7></b>)(<b id=v8></b>)(<b id=v9></b>)<br><br></center>"
+document.getElementById('principal').innerHTML="<center><h1 id=nomeprinc><b>B.A.T.T.L.E!</b></h1><table border=0><tr><td align=center><img id=1 onClick='playSelect(1)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><td align=center><img id=2 onClick='playSelect(2)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><td align=center><img id=3 onClick='playSelect(3)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><td align=center rowspan=3 bgcolor=darkolivegreen><img id=10 src='https://i.imgur.com/y3p2oz2.png'><td align=center rowspan=3><img id=11 onClick='seLect(11)' src='https://i.imgur.com/EEQqMRF.png' height='80px'><br><img id=12 onClick='seLect(12)' src='https://i.imgur.com/EEQqMRF.png' height='80px'><br><img id=13 onClick='seLect(13)' src='https://i.imgur.com/EEQqMRF.png' height='80px'><br><img id=14 onClick='seLect(14)' src='https://i.imgur.com/EEQqMRF.png' height='80px'><br><img id=15 onClick='seLect(15)' src='https://i.imgur.com/EEQqMRF.png' height='80px'><tr><td align=center><img id=4 onClick='playSelect(4)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><td align=center><img id=5 onClick='playSelect(5)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><td align=center><img id=6 onClick='playSelect(6)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><tr><td align=center><img id=7 onClick='playSelect(7)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><td align=center><img id=8 onClick='playSelect(8)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><td align=center><img id=9 onClick='playSelect(9)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><tr></table><table border=0><tr><td align=left valign=top  height=50><b>Player:</b><br><span id=point1>oooooooooooo</span><br><font color=red><span id=w1></span></font><td align=center valign=top width=100><b>VS</b><td align=right valign=top height=50><b>Computer:</b><br><span id=point2>oooooooooooo</span><br><font color=red><span id=w2></span></font></table><br><b id=v1></b>-<b id=v2></b>-<b id=v3></b>-<b id=v4></b>-<b id=v5></b>-<b id=v6></b>-<b id=v7></b>-<b id=v8></b>-<b id=v9></b><br><br></center>"
 btnnew.disabled=false;
 btnchar.disabled=false;
 btnstg.disabled=false;
@@ -54,9 +57,12 @@ function startGame() {
 rand=-1;
 actualPlayer=2;
 cardSelect=-1;
-idSelected=-1;
+idSelect=-1;
 cardIMG=-1;
 hashTag=0;
+
+document.getElementById('w1').innerHTML="";
+document.getElementById('w2').innerHTML="";
 
 document.getElementById('1').src=getImage(); //empty image
 document.getElementById('2').src=getImage();
@@ -83,11 +89,10 @@ cardArray[5]=4;
 cardArray[6]=3;
 cardArray[7]=2;
 cardArray[8]=1;
-for (x=0;x<16;x++) {
+for (x=1;x<16;x++) {
 	playerOne[x] = -1
 	playerTwo[x] = -1
 }
-
 
 // Player get 5 cards
 playerOne[11]=drawCard();
@@ -104,7 +109,7 @@ document.getElementById(14).src = getImage(playerOne[14],1);
 document.getElementById(15).src = getImage(playerOne[15],1);
 
 // Reset image style
-	seLect();
+	seLect(0);
 
 // Computer get 5 cards
 playerTwo[11]=drawCard();
@@ -145,6 +150,14 @@ if (actualPlayer==2) {
 		if (playerTwo[idSelect]==-1 && playerOne[idSelect]==-1) {
 
 		//alert("Place P2: "+(playerTwo[rand]+1)+" Spot: "+idSelect);
+		
+		//*********************************************************************************************
+		//document.getElementById('w1').innerHTML="" ;
+
+		playerTwo[0]=playerTwo[0] + (100*(playerTwo[rand]+1)) ;
+		document.getElementById('point2').innerHTML=( playerTwo[0].toString().padStart(12, 'o') );
+		document.getElementById('w2').innerHTML="+ "+(100*(playerTwo[rand]+1)) ;
+		//*********************************************************************************************
 
 		cardIMG=playerTwo[rand];
 		}
@@ -155,12 +168,18 @@ if (actualPlayer==2) {
 		//alert("Battle P2: "+(playerTwo[rand]+1)+" P1: "+(playerOne[idSelect]+1)+" Spot: "+idSelect);
 
 		//*********************************************************************************************
-		//Gameplay: Card may return to deck if the difference is too high
+		//document.getElementById('w1').innerHTML="" ;
+		document.getElementById('w2').innerHTML="+ "+(100*(playerTwo[rand]+1)) ;
+
+		playerTwo[0]=playerTwo[0] + (100*(playerTwo[rand]+1)) ;
+
 		if ( (playerTwo[rand] - playerOne[idSelect]) > 1 ) {
-		//rand=playerOne[idSelect];
-		//alert("Card "+(playerOne[idSelect]+1)+" returned to the deck");
+		document.getElementById('w2').innerHTML="- "+(100*(playerTwo[rand]-playerOne[idSelect])) ;
 		cardArray[(playerOne[idSelect])]=cardArray[(playerOne[idSelect])]+1;
+		playerTwo[0]=playerTwo[0] - (100*(playerTwo[rand]-playerOne[idSelect]));
 		}
+
+		document.getElementById('point2').innerHTML=( playerTwo[0].toString().padStart(12, 'o') );
 		//*********************************************************************************************
 
 		playerOne[idSelect]=-1;
@@ -170,10 +189,10 @@ if (actualPlayer==2) {
 	
 	}
 
-	//Take the card from your hand
+	//Take the card from your hand ***
 	playerTwo[rand] = -1;
 
-	//And put it on the table
+	//And put it on the table ***
 	playerTwo[idSelect]=cardIMG;
 	document.getElementById(idSelect).src = getImage(cardIMG,2);
 
@@ -208,6 +227,7 @@ return;
 //----------------------------------------------------
 
 function antiOverload() {
+
 rand=-1;
 
 	// Find the highest card in your hand
@@ -256,6 +276,7 @@ return(rand);
 //----------------------------------------------------
 
 function highCard() {
+
 cardIMG=-1;
 idSelect=0;
 	for (x=1;x<10;x++) {
@@ -270,12 +291,12 @@ return;
 
 
 //====================================================
-// [Card select]
+// [Card select] onClick at the players hand
 //----------------------------------------------------
 
 function seLect(idSelect) {
 
-	if(idSelect!=0) {victoryCheck();}
+	//if(idSelect>0) {victoryCheck();}
 
 	if (actualPlayer!=0) {
 	document.getElementById(1).style = '';
@@ -313,17 +334,30 @@ return;
 
 
 //====================================================
-// [Play selected card]
+// [Play selected card] onClick on the table
 //----------------------------------------------------
 
 function playSelect(idSelect) {
 
-	//document.getElementById(idSelect).src = document.getElementById(cardIMG).src
+if (actualPlayer==1) {
 
-if (actualPlayer==1&&cardSelect!='' && hashTag<511 && playerTwo[idSelect]==-1 && playerOne[idSelect]==-1) {
+	//The chosen spot is empty
+	if (cardSelect!='' && hashTag<511 && playerTwo[idSelect]==-1 && playerOne[idSelect]==-1) {
 
+	//*********************************************************************************************
+	//document.getElementById('w2').innerHTML="" ;
+
+	playerOne[0]=playerOne[0] + (100*(playerOne[cardSelect]+1)) ;
+
+	document.getElementById('point1').innerHTML=( playerOne[0].toString().padStart(12, 'o') );
+	document.getElementById('w1').innerHTML="+ "+(100*(playerOne[cardSelect]+1)) ;
+	//*********************************************************************************************
+
+	//And put it on the table ***
 	playerOne[idSelect] = playerOne[cardSelect];
 	document.getElementById(idSelect).src = getImage(playerOne[idSelect],1);
+
+	//Take the card from your hand ***
 	playerOne[cardSelect] = -1;
 	document.getElementById(cardSelect).src = getImage();
 
@@ -337,22 +371,31 @@ if (actualPlayer==1&&cardSelect!='' && hashTag<511 && playerTwo[idSelect]==-1 &&
 	reArrange(1);
 	}
 
-
-if (actualPlayer==1&&cardSelect!='' && playerTwo[idSelect]!=-1 && (playerOne[cardSelect]>playerTwo[idSelect])) {
+	//The chosen spot contains the computer's card and it's smaller than your card 
+	if (cardSelect!='' && playerTwo[idSelect]!=-1 && (playerOne[cardSelect]>playerTwo[idSelect])) {
 
 	//*********************************************************************************************
-	//Gameplay: Card may return to deck if the difference is too high
+	//document.getElementById('w2').innerHTML="" ;
+	document.getElementById('w1').innerHTML="+ "+(100*(playerOne[cardSelect]+1)) ;
+
+	playerOne[0]=playerOne[0] + (100*(playerOne[cardSelect]+1)) ;
+
 	if ( (playerOne[cardSelect]-playerTwo[idSelect]) > 1 ) {
-	//rand=playerTwo[idSelect];
-	//alert("Card "+(playerTwo[idSelect]+1)+" returned to the deck");
+	document.getElementById('w1').innerHTML="- "+(100*((playerOne[cardSelect]+1)-(playerTwo[idSelect]+1))) ;
+	playerOne[0]=playerOne[0] - (100*((playerOne[cardSelect]+1)-(playerTwo[idSelect]+1))) ;
 	cardArray[(playerTwo[idSelect])]=cardArray[(playerTwo[idSelect])]+1;
 	}
+
+	document.getElementById('point1').innerHTML=( playerOne[0].toString().padStart(12, 'o') );
 	//*********************************************************************************************
 
 	playerTwo[idSelect] = -1;
+
+	//And put it on the table ***
 	playerOne[idSelect] = playerOne[cardSelect];
 	document.getElementById(idSelect).src = getImage(playerOne[idSelect],1);
 
+	//Take the card from your hand ***
 	playerOne[cardSelect] = -1;
 	document.getElementById(cardSelect).src = getImage();
 
@@ -365,15 +408,26 @@ if (actualPlayer==1&&cardSelect!='' && playerTwo[idSelect]!=-1 && (playerOne[car
 	cardSelect='';
 	reArrange(1);
 	}
+
+}
 return;
 }
 
 
 //====================================================
 // [Re-Arrange both hands to free the value '11']
+// using a Tetris concept
 //----------------------------------------------------
+//[11]|
+//[12]v
+//[13]
+//[14]|
+//[15]v
+
 
 function reArrange(player) {
+
+	if (player==2) {setTimeout('victoryCheck()',500);}
 
 	if (player==1) {
 	for (x=15;x>10;x--) {
@@ -384,13 +438,14 @@ function reArrange(player) {
 		document.getElementById(x-1).src = getImage();
 		}
 	}
+
 	seLect(0); //reset the style
-	//playerTwo[11]=drawCard(); //draws on value 11
 	if (playerTwo[11]==-1) {playerTwo[11]=drawCard();} //draws on value 11
 
-	//computerTime();
-	actualPlayer=2;
+	if(actualPlayer!=0) {actualPlayer=2;}
+
 	setTimeout('computerTime()',500);
+
 	}
 
 	if (player==2) {
@@ -401,12 +456,11 @@ function reArrange(player) {
 		}
 	}
 
-	// Geometric progression
-	//alert("GP: "+hashTag);
-
 	if (playerOne[11]==-1) {playerOne[11]=drawCard();} //draws on value 11
 	document.getElementById(11).src = getImage(playerOne[11],1);
-	actualPlayer=1;
+
+	if(actualPlayer!=0) {actualPlayer=1;}
+
 	}
 return;
 }
@@ -415,8 +469,12 @@ return;
 //====================================================
 // [Victory check]
 //----------------------------------------------------
+// [__1] [__2] [__4]
+// [__8] [_16] [_32]
+// [_64] [128] [256]
 
-function victoryCheck(player) {
+function victoryCheck() {
+
 cardIMG=0;
 rand=0;
 
@@ -447,6 +505,7 @@ if (rand>0) {
 for (x=1;x<10;x++) {
 
 	document.getElementById(x).style = 'opacity: 0.2;';
+
 	if (cardIMG>=(2**(x-1)) && (cardIMG% (2*(2**(x-1))) >= (2**(x-1))) ) {
 	//alert("Pos: "+x+" card: "+cardIMG+" GP: "+(2**(x-1)));
 	document.getElementById(x).style = '';
@@ -454,9 +513,17 @@ for (x=1;x<10;x++) {
 
 }
 
-if (rand==1) {alert("Player wins!");} else if (rand==2) {alert("Machine wins!");}
+if (rand==1) {
+document.getElementById('w1').innerHTML="winner! ";
+document.getElementById('w2').innerHTML="........"; // ._.
+} 
+else if (rand==2) {
+document.getElementById('w2').innerHTML=" winner!";
+document.getElementById('w1').innerHTML=".........."; // ._.
+}
+
 actualPlayer=0;
-setTimeout('menugame()',5000);
+setTimeout('startGame()',5000);
 }
 
 }
@@ -467,6 +534,7 @@ setTimeout('menugame()',5000);
 //----------------------------------------------------
 
 function getImage(card,player) {
+
 if (player==2) {card=card+9}
 
 switch (card) {
