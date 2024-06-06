@@ -13,8 +13,6 @@ var idSelect=0;			//Spot id
 var cardIMG=0;			//Multi values
 var hashTag=0;			//Geometric progression (1+2+4+8+16+32+64+128+256=511)
 
-playerOne[0] = 0;
-playerTwo[0] = 0;
 
 //====================================================
 // Functions
@@ -22,13 +20,13 @@ playerTwo[0] = 0;
 // menugame() - Creates the basic html
 // startGame() - Start the Game
 // computerTime() - Computer plays
-// antiOverload() - Anti machine overload
 // drawCard() - Draw a card
 // highCard() - Put the highest cart at the big screen
 // seLect(0) - Reset the style of the images
 // seLect(idSelect) - Select one card (with css styles)
 // playSelect(idSelect) - Put a selected card on the table
 // reArrange(player) - Re-arrange the cards leaving the first spot open (used before a draw)
+// walkOver(player) - Player cannot use any of his cards (W.O)
 // victoryCheck() - Check victory for both players
 // getImage(card,player) - Get the actual image url
 
@@ -44,6 +42,8 @@ btnchar.disabled=false;
 btnstg.disabled=false;
 btnfullg.disabled=false;
 btnyotu.disabled=false;
+playerOne[0] = 0;
+playerTwo[0] = 0;
 startGame();
 }
 
@@ -135,7 +135,7 @@ if (actualPlayer==2) {
 	idSelect=-1;
 
 	// Is the table is full?
-	if (hashTag==511) {antiOverload();}
+	if (hashTag==511) {walkOver(2);}
 
 	// Choosing a card
 	while (cardIMG==-1) {
@@ -221,33 +221,6 @@ return;
 
 
 //====================================================
-// [Anti machine overload] 
-// https://thespool.net/wp-content/uploads/2019/09/cropped-lawnmower-man.jpeg
-// Temporary function to stop a possible infinite loop
-//----------------------------------------------------
-
-function antiOverload() {
-
-rand=-1;
-
-	// Find the highest card in your hand
-	for (x=11;x<16;x++) {
-	if (playerTwo[x]>rand) {rand=playerTwo[x];}
-	}
-
-	// Check if you can overcome one of the player cards
-	for (x=1;x<10;x++) {
-	if (playerOne[x]<rand && playerTwo[x]==-1) {return;}
-	}
-
-	alert("The computer cannot overcome the player");
-
-	victoryCheck(999); //menugame(); //startGame is causing a bug (i'll fix soooooon)
-
-}
-
-
-//====================================================
 // [Draw a card] 45 cards
 // Going of 1_card_9 to 9_cards_1
 //----------------------------------------------------
@@ -295,6 +268,10 @@ return;
 //----------------------------------------------------
 
 function seLect(idSelect) {
+
+	// Is the table is full?
+	if (idSelect!=0 && actualPlayer!=0 && hashTag==511) {setTimeout('walkOver(1)',500);}
+
 
 	if (actualPlayer!=0) {
 	document.getElementById(1).style = '';
@@ -425,7 +402,6 @@ return;
 
 function reArrange(player) {
 
-	//if (player==2) {setTimeout('victoryCheck()',500);}
 	setTimeout('victoryCheck()',500);
 
 	if (player==1) {
@@ -466,13 +442,61 @@ return;
 
 
 //====================================================
+// [W.O!?]
+// https://thespool.net/wp-content/uploads/2019/09/cropped-lawnmower-man.jpeg
+//----------------------------------------------------
+
+function walkOver(player) {
+
+rand=-1;
+
+	if (player==1) {
+
+	// Find the highest card in your hand
+	for (x=11;x<16;x++) {
+	if (playerOne[x]>rand) {rand=playerOne[x];}
+	}
+
+	// Check if you can overcome one of the player cards
+	for (x=1;x<10;x++) {
+	if (playerTwo[x]<rand && playerOne[x]==-1) {return;}
+	}
+
+	for (x=11;x<16;x++) {
+	document.getElementById(x).style = 'opacity: 0.2;';
+	}
+
+	victoryCheck(2); //Computer wins
+	}
+
+
+	if (player==2) {
+
+	// Find the highest card in your hand
+	for (x=11;x<16;x++) {
+	if (playerTwo[x]>rand) {rand=playerTwo[x];}
+	}
+
+	// Check if you can overcome one of the player cards
+	for (x=1;x<10;x++) {
+	if (playerOne[x]<rand && playerTwo[x]==-1) {return;}
+	}
+
+	victoryCheck(1); //Player wins
+	}
+
+}
+
+
+//====================================================
 // [Victory check]
 //----------------------------------------------------
 // [__1] [__2] [__4]
 // [__8] [_16] [_32]
 // [_64] [128] [256]
 
-function victoryCheck(cpu) {
+// 'winner' used only in case of W.O ^
+function victoryCheck(winner) {
 
 cardIMG=0;
 rand=0;
@@ -512,11 +536,11 @@ for (x=1;x<10;x++) {
 
 }
 
-if (rand==1 || cpu==999) {
+if (rand==1 || winner==1) {
 document.getElementById('w1').innerHTML="winner! ";
 document.getElementById('w2').innerHTML="........"; // ._.
 } 
-else if (rand==2) {
+else if (rand==2 || winner==2) {
 document.getElementById('w2').innerHTML=" winner!";
 document.getElementById('w1').innerHTML=".........."; // ._.
 }
