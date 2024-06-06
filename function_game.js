@@ -496,7 +496,7 @@ rand=-1;
 // [_64] [128] [256]
 
 // 'winner' used only in case of W.O ^
-function victoryCheck(winner) {
+function victoryCheck(idSelect) {
 
 cardIMG=0;
 rand=0;
@@ -536,11 +536,15 @@ for (x=1;x<10;x++) {
 
 }
 
-if (rand==1 || winner==1) {
+if (rand==1 || idSelect==1) {
+playerOne[0] = (playerOne[0] + 100) ;
+document.getElementById('point1').innerHTML=( playerOne[0].toString().padStart(12, 'o') );
 document.getElementById('w1').innerHTML="winner! ";
 document.getElementById('w2').innerHTML="........"; // ._.
 } 
-else if (rand==2 || winner==2) {
+else if (rand==2 || idSelect==2) {
+playerTwo[0] = (playerTwo[0]+100) ;
+document.getElementById('point2').innerHTML=( playerOne[0].toString().padStart(12, 'o') );
 document.getElementById('w2').innerHTML=" winner!";
 document.getElementById('w1').innerHTML=".........."; // ._.
 }
