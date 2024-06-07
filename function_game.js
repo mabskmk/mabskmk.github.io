@@ -97,6 +97,8 @@ for (x=1;x<16;x++) {
 	playerOne[x] = -1;
 	playerTwo[x] = -1;
 }
+playerOne[10] = 0;
+playerTwo[10] = 0;
 
 // Player get 5 cards
 playerOne[11]=drawCard();
@@ -248,7 +250,7 @@ return;
 function seLect(botX) {
 
 	// W.O test (full table)
-	if (botY!=0 && actualPlayer!=0 && hashTag==511) {setTimeout('walkOver(1)',500);}
+	if (botX!=0 && actualPlayer!=0 && hashTag==511) {setTimeout('walkOver(1)',500);}
 
 
 	if (actualPlayer!=0) {
