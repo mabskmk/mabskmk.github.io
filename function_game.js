@@ -572,61 +572,61 @@ if (player==2) {card=card+9}
 
 switch (card) {
 case 0:
-mydiv='1',imgur='https://i.imgur.com/E1IwRRY.png',imgur2='https://i.imgur.com/EEQqMRF.png'
+mydiv='1',imgur='https://i.imgur.com/hO4cZY8.png',imgur2='https://i.imgur.com/E1IwRRY.png'
 break;
 case 1:
-mydiv='2',imgur='https://i.imgur.com/tzydlOg.png',imgur2='https://i.imgur.com/eBuux5S.png'
+mydiv='2',imgur='https://i.imgur.com/SAqhJcr.png',imgur2='https://i.imgur.com/tzydlOg.png'
 break;
 case 2:
-mydiv='3',imgur='https://i.imgur.com/inyTLQA.png',imgur2='https://i.imgur.com/FIJbtOr.png'
+mydiv='3',imgur='https://i.imgur.com/K9r6tvD.png',imgur2='https://i.imgur.com/inyTLQA.png'
 break;
 case 3:
-mydiv='4',imgur='https://i.imgur.com/lQWd4rZ.png',imgur2='https://i.imgur.com/L5VHOGX.png'
+mydiv='4',imgur='https://i.imgur.com/eus0MBv.png',imgur2='https://i.imgur.com/lQWd4rZ.png'
 break;
 case 4:
-mydiv='5',imgur='https://i.imgur.com/CdVsL8O.png',imgur2='https://i.imgur.com/bDAhMow.png'
+mydiv='5',imgur='https://i.imgur.com/kHGMB6B.png',imgur2='https://i.imgur.com/CdVsL8O.png'
 break;
 case 5:
-mydiv='6',imgur='https://i.imgur.com/y0mU6oD.png',imgur2='https://i.imgur.com/OEP7ZdZ.png'
+mydiv='6',imgur='https://i.imgur.com/ln2PCUD.png',imgur2='https://i.imgur.com/y0mU6oD.png'
 break;
 case 6:
-mydiv='7',imgur='https://i.imgur.com/JDQgKjy.png',imgur2='https://i.imgur.com/j2WCRYE.png'
+mydiv='7',imgur='https://i.imgur.com/g8BzsEe.png',imgur2='https://i.imgur.com/JDQgKjy.png'
 break;
 case 7:
-mydiv='8',imgur='https://i.imgur.com/FXWLiK9.png',imgur2='https://i.imgur.com/vH0Sn4j.png'
+mydiv='8',imgur='https://i.imgur.com/OLLD36a.png',imgur2='https://i.imgur.com/FXWLiK9.png'
 break;
 case 8:
-mydiv='9',imgur='https://i.imgur.com/fr31WcB.png',imgur2='https://i.imgur.com/hpqcDPb.png'
+mydiv='9',imgur='https://i.imgur.com/vOFiWYf.png',imgur2='https://i.imgur.com/fr31WcB.png'
 break;
 case 9:
-mydiv='1',imgur='https://i.imgur.com/y3p2oz2.png',imgur2='https://i.imgur.com/CQBU1Pr.png'
+mydiv='1',imgur='https://i.imgur.com/XZlfvM3.png',imgur2='https://i.imgur.com/y3p2oz2.png'
 break;
 case 10:
-mydiv='2',imgur='https://i.imgur.com/XbFttTH.png',imgur2='https://i.imgur.com/uV2wCH2.png'
+mydiv='2',imgur='https://i.imgur.com/BAMsIFZ.png',imgur2='https://i.imgur.com/XbFttTH.png'
 break;
 case 11:
-mydiv='3',imgur='https://i.imgur.com/5KO2zvo.png',imgur2='https://i.imgur.com/CcEko4p.png'
+mydiv='3',imgur='https://i.imgur.com/Zeuf93W.png',imgur2='https://i.imgur.com/5KO2zvo.png'
 break;
 case 12:
-mydiv='4',imgur='https://i.imgur.com/ZUNguGw.png',imgur2='https://i.imgur.com/7D3HA2Z.png'
+mydiv='4',imgur='https://i.imgur.com/aIJSdoQ.png',imgur2='https://i.imgur.com/ZUNguGw.png'
 break;
 case 13:
-mydiv='5',imgur='https://i.imgur.com/h1D5BKD.png',imgur2='https://i.imgur.com/kJwfyMs.png'
+mydiv='5',imgur='https://i.imgur.com/3pMk55C.png',imgur2='https://i.imgur.com/h1D5BKD.png'
 break;
 case 14:
-mydiv='6',imgur='https://i.imgur.com/8LZatvc.png',imgur2='https://i.imgur.com/a8JLp22.png'
+mydiv='6',imgur='https://i.imgur.com/Q6UgqNT.png',imgur2='https://i.imgur.com/8LZatvc.png'
 break;
 case 15:
-mydiv='7',imgur='https://i.imgur.com/uDTO94M.png',imgur2='https://i.imgur.com/Op1poJQ.png'
+mydiv='7',imgur='https://i.imgur.com/tgZbTKi.png',imgur2='https://i.imgur.com/uDTO94M.png'
 break;
 case 16:
-mydiv='8',imgur='https://i.imgur.com/BgUv7S1.png',imgur2='https://i.imgur.com/X71zhkp.png'
+mydiv='8',imgur='https://i.imgur.com/uAGUNlk.png',imgur2='https://i.imgur.com/BgUv7S1.png'
 break;
 case 17:
-mydiv='9',imgur='https://i.imgur.com/XvzexVW.png',imgur2='https://i.imgur.com/DcIgTOb.png'
+mydiv='9',imgur='https://i.imgur.com/2jZ3Wx7.png',imgur2='https://i.imgur.com/XvzexVW.png'
 break;
 default:
-mydiv='null',imgur='https://i.imgur.com/ezqUkPo.png' //empty image
+mydiv='null',imgur='https://i.imgur.com/9CmFbnO.png' //empty image
 break;
 }
 return(imgur);
