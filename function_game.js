@@ -26,6 +26,7 @@ var hashTag=0;			//Geometric progression (1+2+4+8+16+32+64+128+256=511)
 // seLect(0) - Reset the style of the images
 // seLect(botY) - Select one card (with css styles)
 // playSelect(botY) - Put a selected card on the table
+// calculatePoints(player,botX,botY,combo) - Honor points
 // reArrange(player) - Re-arrange the cards leaving the first spot open (used before a draw)
 // walkOver(player) - Player cannot use any of his cards (W.O)
 // victoryCheck(0) - Check victory for both players
@@ -37,17 +38,33 @@ var hashTag=0;			//Geometric progression (1+2+4+8+16+32+64+128+256=511)
 //----------------------------------------------------
 
 function menugame() {
-document.getElementById('principal').innerHTML="<center><h1 id=nomeprinc><b>B.A.T.T.L.E!</b></h1><table border=0><tr><td align=center><img id=1 onClick='playSelect(1)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><td align=center><img id=2 onClick='playSelect(2)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><td align=center><img id=3 onClick='playSelect(3)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><td align=center rowspan=3 bgcolor=darkolivegreen><img id=10 src='https://i.imgur.com/y3p2oz2.png'><td align=center rowspan=3><img id=11 onClick='seLect(11)' src='https://i.imgur.com/EEQqMRF.png' height='80px'><br><img id=12 onClick='seLect(12)' src='https://i.imgur.com/EEQqMRF.png' height='80px'><br><img id=13 onClick='seLect(13)' src='https://i.imgur.com/EEQqMRF.png' height='80px'><br><img id=14 onClick='seLect(14)' src='https://i.imgur.com/EEQqMRF.png' height='80px'><br><img id=15 onClick='seLect(15)' src='https://i.imgur.com/EEQqMRF.png' height='80px'><tr><td align=center><img id=4 onClick='playSelect(4)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><td align=center><img id=5 onClick='playSelect(5)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><td align=center><img id=6 onClick='playSelect(6)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><tr><td align=center><img id=7 onClick='playSelect(7)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><td align=center><img id=8 onClick='playSelect(8)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><td align=center><img id=9 onClick='playSelect(9)' src='https://i.imgur.com/ezqUkPo.png' height='135px'><tr></table><table border=0><tr><td align=left valign=top  height=50><b>Player:</b><br><span id=point1>oooooooooooo</span><br><font color=red><span id=w1></span></font> <font color=cyan><span id=c1></span></font><td align=center valign=top width=100><b>VS</b><td align=right valign=top height=50><b>Computer:</b><br><span id=point2>oooooooooooo</span><br><font color=red><span id=w2></span></font> <font color=cyan><span id=c2></span></font></table><br><b id=v1></b>-<b id=v2></b>-<b id=v3></b>-<b id=v4></b>-<b id=v5></b>-<b id=v6></b>-<b id=v7></b>-<b id=v8></b>-<b id=v9></b><br><br></center>"
+document.getElementById('principal').innerHTML="<center><h1 id=nomeprinc><b>B.A.T.T.L.E!</b></h1><table border=0><tr><td align=center><img id=1 onClick='playSelect(1)' src='' height='135px'><td align=center><img id=2 onClick='playSelect(2)' src='' height='135px'><td align=center><img id=3 onClick='playSelect(3)' src='' height='135px'><td align=center rowspan=3 bgcolor=darkolivegreen><img id=10 src='https://i.imgur.com/y3p2oz2.png'><td align=center rowspan=3><img id=11 onClick='seLect(11)' src='' height='80px'><br><img id=12 onClick='seLect(12)' src='' height='80px'><br><img id=13 onClick='seLect(13)' src='' height='80px'><br><img id=14 onClick='seLect(14)' src='' height='80px'><br><img id=15 onClick='seLect(15)' src='' height='80px'><tr><td align=center><img id=4 onClick='playSelect(4)' src='' height='135px'><td align=center><img id=5 onClick='playSelect(5)' src='' height='135px'><td align=center><img id=6 onClick='playSelect(6)' src='' height='135px'><tr><td align=center><img id=7 onClick='playSelect(7)' src='' height='135px'><td align=center><img id=8 onClick='playSelect(8)' src='' height='135px'><td align=center><img id=9 onClick='playSelect(9)' src='' height='135px'><tr></table><table border=0><tr><td align=left valign=top  height=50><b>Player:</b><br><span id=point1>oooooooooooo</span><br><font color=red><span id=w1></span></font> <font color=cyan><span id=c1></span></font><td align=center valign=top width=100><b>VS</b><td align=right valign=top height=50><b>Computer:</b><br><span id=point2>oooooooooooo</span><br><font color=red><span id=w2></span></font> <font color=cyan><span id=c2></span></font></table><br><b id=v1></b>-<b id=v2></b>-<b id=v3></b>-<b id=v4></b>-<b id=v5></b>-<b id=v6></b>-<b id=v7></b>-<b id=v8></b>-<b id=v9></b><br><input type=button onClick='gameManual()' value='How to' id=help1><input type=button onClick='menugame()' value='Play!' id=help2><br></center>"
 btnnew.disabled=false;
 btnchar.disabled=false;
 btnstg.disabled=false;
 btnfullg.disabled=false;
 btnyotu.disabled=false;
+help1.disabled=false;
+help2.disabled=true;
 playerOne[0] = 0;
 playerTwo[0] = 0;
 startGame();
 }
 
+function gameManual() {
+document.getElementById('principal').innerHTML="<center><h1 id=nomeprinc><b>B.A.T.T.L.E!</b></h1><table border=0 width=500><tr><td align=center><font color=red onmouseover='showEvil()'>*Each card you play on the field gives you honor points equivalent to the strength the card x100.<br><br>*Strong cards may be pulled over small ones... that's is called battle!<br><br>*Beware, if you try to defeat a weak oponent using a very strong card... You will lose the difference of points.<br><br>Defeating cards in sequence gives you an extra bonus!</font><td align=center><img id=10 src='https://i.imgur.com/vOFiWYf.png'><td align=center><font color=cyan  onmouseover='showGood()'>*The gameplay include the basic of tic-tac-toe with some improvements.<br><br>*Use the cards on the right side to play.<br><br>*After select the card, click on the field(left) to make your move.<br><br>*The first player to place three cards in a row wins.<br><br>*Winning with three cards of the same power gives you an extra bonus!</font></table><br><input type=button onClick='gameHelp()' value='How to' id=help1><input type=button onClick='menugame()' value='Play!' id=help2><br></center>"
+btnnew.disabled=false;
+btnchar.disabled=false;
+btnstg.disabled=false;
+btnfullg.disabled=false;
+btnyotu.disabled=false;
+help1.disabled=true;
+help2.disabled=false;
+startGame();
+}
+
+function showEvil() {document.getElementById('10').src=getImage(8,2);}
+function showGood() {document.getElementById('10').src=getImage(8,1);}
 
 //====================================================
 // [Start the game]
@@ -358,8 +375,8 @@ function calculatePoints(player,botX,botY,combo) {
 
 if (player==1) { botZ = playerOne[0] ;}
 if (player==2) { botZ = playerTwo[0] ;}
-document.getElementById("w"+player).innerHTML="+"+(100*(botX+1)) ; //xD
-botZ = botZ + (100*(botX+1)) ;
+document.getElementById("w"+player).innerHTML="+"+(100*(botX+1) + (hashTag==511? 100 : 0) ); //xD
+botZ = botZ + (100*(botX+1)) + (hashTag==511? 100 : 0) ;
 
 
 // Battle system: Combos
@@ -501,7 +518,7 @@ function victoryCheck(winner) {
 
 botX = winner ;
 botY=0;
-
+botZ=0;
 
 	if (playerOne[1]!=-1 && playerOne[2]!=-1 && playerOne[3]!=-1 &&botX==0) {botX=1; botY=7;}
 	if (playerOne[4]!=-1 && playerOne[5]!=-1 && playerOne[6]!=-1 &&botX==0) {botX=1; botY=56;}
@@ -525,6 +542,32 @@ botY=0;
 	if (playerTwo[1]!=-1 && playerTwo[5]!=-1 && playerTwo[9]!=-1 &&botX==0) {botX=2; botY=273;}
 	if (playerTwo[3]!=-1 && playerTwo[5]!=-1 && playerTwo[7]!=-1 &&botX==0) {botX=2; botY=84;}
 
+	//-------------------------------------------------------------------------------------------
+	// Triple combo ._.
+	
+	if (playerOne[1]==playerOne[2] && playerOne[2]==playerOne[3] &&botX==1 &&botY==7) {botZ=playerOne[1]+1;}
+	if (playerOne[4]==playerOne[5] && playerOne[5]==playerOne[6] &&botX==1 &&botY==56) {botZ=playerOne[4]+1;}
+	if (playerOne[7]==playerOne[8] && playerOne[8]==playerOne[9] &&botX==1 &&botY==448) {botZ=playerOne[7]+1;}
+
+	if (playerOne[1]==playerOne[4] && playerOne[4]==playerOne[7] &&botX==1 &&botY==73) {botZ=playerOne[1]+1;}
+	if (playerOne[2]==playerOne[5] && playerOne[5]==playerOne[8] &&botX==1 &&botY==146) {botZ=playerOne[2]+1;}
+	if (playerOne[3]==playerOne[6] && playerOne[6]==playerOne[9] &&botX==1 &&botY==292) {botZ=playerOne[3]+1;}
+
+	if (playerOne[1]==playerOne[5] && playerOne[5]==playerOne[9] &&botX==1 &&botY==273) {botZ=playerOne[1]+1;}
+	if (playerOne[3]==playerOne[5] && playerOne[5]==playerOne[7] &&botX==1 &&botY==84) {botZ=playerOne[3]+1;}
+
+	if (playerTwo[1]==playerTwo[2] && playerTwo[2]==playerTwo[3] &&botX==2 &&botY==7) {botZ=playerTwo[1]+1;}
+	if (playerTwo[4]==playerTwo[5] && playerTwo[5]==playerTwo[6] &&botX==2 &&botY==56) {botZ=playerTwo[4]+1;}
+	if (playerTwo[7]==playerTwo[8] && playerTwo[8]==playerTwo[9] &&botX==2 &&botY==448) {botZ=playerTwo[7]+1;}
+
+	if (playerTwo[1]==playerTwo[4] && playerTwo[4]==playerTwo[7] &&botX==2 &&botY==73) {botZ=playerTwo[1]+1;}
+	if (playerTwo[2]==playerTwo[5] && playerTwo[5]==playerTwo[8] &&botX==2 &&botY==146) {botZ=playerTwo[2]+1;}
+	if (playerTwo[3]==playerTwo[6] && playerTwo[6]==playerTwo[9] &&botX==2 &&botY==292) {botZ=playerTwo[3]+1;}
+
+	if (playerTwo[1]==playerTwo[5] && playerTwo[5]==playerTwo[9] &&botX==2 &&botY==273) {botZ=playerTwo[1]+1;}
+	if (playerTwo[3]==playerTwo[5] && playerTwo[5]==playerTwo[7] &&botX==2 &&botY==84) {botZ=playerTwo[3]+1;}
+
+
 if (botX>0) {
 
 for (x=1;x<10;x++) {
@@ -532,28 +575,33 @@ for (x=1;x<10;x++) {
 	document.getElementById(x).style = 'opacity: 0.2;';
 
 	if (botY >= (2**(x-1)) && (botY % (2*(2**(x-1))) >= (2**(x-1))) ) {
-
 	document.getElementById(x).style = '';
+
+	//Triple combo
+	if (botZ>0) {document.getElementById(x).style = 'filter: contrast(180%);';}
+
 	}
 
 }
 
+if (botZ==0) { botZ = 1; }
+
 if (botX==1) {
-playerOne[0] = (playerOne[0] + 100) ;
+playerOne[0] = (playerOne[0] + 100 * botZ ) ;
 document.getElementById('point1').innerHTML=( playerOne[0].toString().padStart(12, 'o') );
 document.getElementById('w1').innerHTML="winner! ";
 document.getElementById('w2').innerHTML="";
 document.getElementById('c2').innerHTML="";
 } 
 else if (botX==2) {
-playerTwo[0] = (playerTwo[0]+100) ;
+playerTwo[0] = (playerTwo[0] + 100 * botZ ) ;
 document.getElementById('point2').innerHTML=( playerOne[0].toString().padStart(12, 'o') );
 document.getElementById('w2').innerHTML=" winner!";
 document.getElementById('w1').innerHTML="";
 document.getElementById('c1').innerHTML="";
 }
 
-document.getElementById("c"+botX).innerHTML="+100" ;
+document.getElementById("c"+botX).innerHTML="+"+(100 * botZ) ;
 
 actualPlayer=0;
 setTimeout('startGame()',5000);
