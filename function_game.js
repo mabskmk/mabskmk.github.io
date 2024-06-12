@@ -595,7 +595,7 @@ document.getElementById('c2').innerHTML="";
 } 
 else if (botX==2) {
 playerTwo[0] = (playerTwo[0] + 100 * botZ ) ;
-document.getElementById('point2').innerHTML=( playerOne[0].toString().padStart(12, 'o') );
+document.getElementById('point2').innerHTML=( playerTwo[0].toString().padStart(12, 'o') );
 document.getElementById('w2').innerHTML=" winner!";
 document.getElementById('w1').innerHTML="";
 document.getElementById('c1').innerHTML="";
