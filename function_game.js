@@ -19,6 +19,9 @@ var hashTag=0;			//Geometric progression (1+2+4+8+16+32+64+128+256=511)
 // Functions
 //----------------------------------------------------
 // menugame() - Creates the basic html
+// gameManual() - Basic html showing how to play
+//   function showEvil() change card number 9
+//   function showGood() change card number 9
 // startGame() - Start the Game
 // computerTime() - Computer plays
 // drawCard() - Draw a card
@@ -52,7 +55,7 @@ startGame();
 }
 
 function gameManual() {
-document.getElementById('principal').innerHTML="<center><h1 id=nomeprinc><b>B.A.T.T.L.E!</b></h1><table border=0 width=500><tr><td align=center><font color=red onmouseover='showEvil()'>*Each card you play on the field gives you honor points equivalent to the strength of the card x100.<br><br>*Strong cards may be pulled over small ones... that's is called battle!<br><br>*Beware, if you try to defeat a weak oponent using a very strong card... You will lose the difference of points.<br><br>Defeating cards in sequence gives you an extra bonus!</font><td align=center><img id=10 src='https://i.imgur.com/vOFiWYf.png'><td align=center><font color=cyan  onmouseover='showGood()'>*The gameplay include the basic of tic-tac-toe with some improvements.<br><br>*Use the cards on the right side to play.<br><br>*After select the card, click on the field(left) to make your move.<br><br>*The first player to place three cards in a row wins.<br><br>*Winning with three cards of the same power gives you an extra bonus!</font></table><br><input type=button onClick='gameHelp()' value='How to' id=help1><input type=button onClick='menugame()' value='Play!' id=help2><br></center>"
+document.getElementById('principal').innerHTML="<center><h1 id=nomeprinc><b>B.A.T.T.L.E!</b></h1><table border=0 width=500><tr><td align=center><font color=red onmouseover='showEvil()'>*Each card you play on the field gives you honor points equivalent to the strength of the card x100.<br><br>*Strong cards may be pulled over small ones... that's is called battle!<br><br>*Beware, if you try to defeat a weak oponent using a very strong card... You will lose the difference of points.<br><br>*Defeating cards in sequence gives you an extra bonus!</font><td align=center><img id=10 src='https://i.imgur.com/vOFiWYf.png'><td align=center><font color=cyan  onmouseover='showGood()'>*The gameplay include the basic of tic-tac-toe with some improvements.<br><br>*Use the cards on the right side to play.<br><br>*After select the card, click on the field(left) to make your move.<br><br>*The first player to place three cards in a row wins.<br><br>*Winning with three cards of the same power gives you an extra bonus!</font></table><br><input type=button onClick='gameHelp()' value='How to' id=help1><input type=button onClick='menugame()' value='Play!' id=help2><br></center>"
 btnnew.disabled=false;
 btnchar.disabled=false;
 btnstg.disabled=false;
@@ -77,7 +80,7 @@ botY=-1;
 botZ=-1;
 
 hashTag=0;
-cardSelect=-1;
+cardSelect='';
 actualPlayer=2;
 
 document.getElementById('w1').innerHTML="";
