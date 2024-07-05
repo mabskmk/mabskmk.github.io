@@ -327,10 +327,10 @@ case 86:
 mydiv='mm7_Graveyard',imgur='fZpRFsG.png',youtube='2mR2aCY9NZQ',gdrv='1crKBwVmyfnbYB2mphTnw4WZswYAwE1nq'
 break;
 case 87:
-mydiv='Stage_hentai1',imgur='2ZbCCo8.png',youtube='dQw4w9WgXcQ',gdrv='1ad6huW7vqhAdZg677FmxgEmSOZ1eab9H'
+mydiv='Stage_hentai1',imgur='HqsZCtH.png',youtube='dQw4w9WgXcQ',gdrv='1ad6huW7vqhAdZg677FmxgEmSOZ1eab9H'
 break;
 case 88:
-mydiv='Stage_hentai2',imgur='NPZ6iL6.png',youtube='dQw4w9WgXcQ',gdrv='18FhvNthzjJfmz4FkfcWRe0Xxe9VhOFRL'
+mydiv='Stage_hentai2',imgur='AYGqEmn.png',youtube='dQw4w9WgXcQ',gdrv='18FhvNthzjJfmz4FkfcWRe0Xxe9VhOFRL'
 break;
 case 89:
 mydiv='Tyrone',imgur='qMVo2hp.png',youtube='DT5Jvm7clhE',gdrv='1OlD0wc2dK0fXsFA6o8kolBRguwTrzVI6'
@@ -360,7 +360,7 @@ case 97:
 mydiv='FFSTAGE',imgur='STyoeBm.png',youtube='-32GbG3IHQs',gdrv='1mG8IPSYojKo6BeRbCM_RMCOpuI1gDusA'
 break;
 case 98:
-mydiv='Naga_Valley',imgur='YJooSda.png',youtube='6Eqt_aJtzdA',gdrv='19MzXevUjD7B1OWGXagW2TejZZGzv-23W'
+mydiv='Naga_Valley',imgur='33JcF6I.png',youtube='6Eqt_aJtzdA',gdrv='19MzXevUjD7B1OWGXagW2TejZZGzv-23W'
 break;
 case 99:
 mydiv='Ranmaru_STG',imgur='mmmg1Dt.gif',youtube='88h5IN8Cv2w',gdrv='12fw-PkLLuSAAmNljz-QK99e8ieOT6w7m'
