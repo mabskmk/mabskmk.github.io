@@ -516,10 +516,9 @@ botX=-1;
 // [__8] [_16] [_32]
 // [_64] [128] [256]
 
-// 'winner' used only in case of W.O ^
-function victoryCheck(winner) {
+// 'botX' used only in case of W.O ^
+function victoryCheck(botX) {
 
-botX = winner ;
 botY=0;
 botZ=0;
 
