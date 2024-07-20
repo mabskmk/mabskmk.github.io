@@ -378,7 +378,7 @@ case 103:
 mydiv='Fortress-of-Doom',imgur='xRRYFhO.gif',youtube='SQNEVTr855o',gdrv='1r2GzPRtojN1KiEQ4MddTR_0KdeEv6jwr'
 break;
 case 104:
-mydiv='Dead_Valley',imgur='Te6w5AS.png',youtube='qvqbx6i1b_c',gdrv='1HPuR69GGT9DrhX8yWmgUNaaecSm0tbQA'
+mydiv='Dead_Valley',imgur='Te6w5AS.png',youtube='HW4RCZfH5Ac',gdrv='1HPuR69GGT9DrhX8yWmgUNaaecSm0tbQA'
 break;
 case 105:
 mydiv='Draglade',imgur='V4OdAro.gif',youtube='zH8fwZ4BZ7A',gdrv='1nZhAFkIDKwLuuQqvokYSTLGWOxEm1NhH'
