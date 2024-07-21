@@ -228,7 +228,7 @@ case 53:
 mydiv='Hell_Gate',imgur='qPSAYRK.gif',youtube='RjMXO3T-VJA',gdrv='1CHtHK7UycHiRX0w13V_16_7s4-eNchEg'
 break;
 case 54:
-mydiv='Whisper_Forest',imgur='yj3qJ8W.gif',youtube='kmu04l-mjJs',gdrv='10ISB1TYCzgLDa0nlJGtDhuAkgeET6nGy'
+mydiv='Whisper_Forest',imgur='yj3qJ8W.gif',youtube='WsnzXw-o6kA',gdrv='10ISB1TYCzgLDa0nlJGtDhuAkgeET6nGy'
 break;
 case 55:
 mydiv='Last_Dungeon',imgur='Segr9oc.gif',youtube='mjV3pDrpwNQ',gdrv='14zbO8F_tlSZvlfKBRYFMcTRmuLCpDvMR'
