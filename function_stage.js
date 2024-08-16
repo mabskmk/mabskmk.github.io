@@ -201,7 +201,7 @@ case 44:
 mydiv='Snow_Rush',imgur='MfuWeak.png',youtube='LZkr6N1zKS4',gdrv='14KoyR7xOTvSeDttPxq8h8YjPgW9frreW'
 break;
 case 45:
-mydiv='Arkanoid_Syn',imgur='KzmXv7S.gif',youtube='dTBgAiaSU0I',gdrv='15hIaPhP6DsDUjVJ-Un7rnOg5ogUIQTKx' //dH4I-xUtUsI
+mydiv='Arkanoid_Syn',imgur='KzmXv7S.gif',youtube='dH4I-xUtUsI',gdrv='15hIaPhP6DsDUjVJ-Un7rnOg5ogUIQTKx' //dH4I-xUtUsI
 break;
 case 46:
 mydiv='Dr_Wily_stgs',imgur='PNYxIH7.gif',youtube='zjbR3UtGK2I',gdrv='1BajqmRlVucJYaruSyGeK_de5eYO7CsPu'
