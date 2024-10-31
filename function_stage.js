@@ -504,13 +504,13 @@ case 145:
 mydiv='Tietê',imgur='hVQbFCj.png',youtube='FEZyP-KRdpM',gdrv='1TdrSHbkmHnV_h6Q3W520Wihc9646KZbJ',bannerHtml='kaendd.free.fr',bannerImg='i.imgur.com/8OmGYOX.png'
 break;
 case 146:
-mydiv='UluCity2',imgur='9urjRsW.png',youtube='HpL0IHeoUhg',gdrv='1KmBAayxkuuEeHgKN-gyZ-GXy_vsW2wOK'
+mydiv='Ulu_City_2',imgur='9urjRsW.png',youtube='HpL0IHeoUhg',gdrv='1KmBAayxkuuEeHgKN-gyZ-GXy_vsW2wOK'
 break;
 case 147:
 mydiv='MapleStory_Moon',imgur='lq3g3j8.png',youtube='TcftJ2bmK7w',gdrv='1CIejsSi-CPd-aK3LyyMstMP0iZCFoA3P'
 break;
 case 148:
-mydiv='Soft&Cuddly',imgur='Q5vppKs.png',youtube='nkZCvcDhy7M',gdrv='1-wtDeg3G-pKsa3jX8nriaRjqHixSDOfA'
+mydiv='Soft_&_Cuddly',imgur='Q5vppKs.png',youtube='nkZCvcDhy7M',gdrv='1-wtDeg3G-pKsa3jX8nriaRjqHixSDOfA'
 break;
 case 0:
 mydiv=''
