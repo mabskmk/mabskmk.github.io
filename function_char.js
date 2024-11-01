@@ -1,7 +1,7 @@
 var bannerHtml='';
 var bannerImg='';
 var rand=0;
-var checkChar = new Array(54);
+var checkChar = new Array(55);
 
 //creates the basic html
 function menuchar() {
@@ -11,10 +11,10 @@ btnchar.disabled=true;
 btnstg.disabled=false;
 btnfullg.disabled=false;
 btnyotu.disabled=false;
-for (x=53;x>0;x--) {
+for (x=54;x>0;x--) {
 char((x),1)
 }
-char(5,2);
+char(54,2);
 }
 
 //Function to play a random video
@@ -23,16 +23,16 @@ function vichar() {
   if (btnnew.disabled==false) {return;}
 
 	//Check if the array is full
-	for (x=53;x>0;x--) {
+	for (x=54;x>0;x--) {
 	if ( checkChar[x]!=='ok' ) {break;}
 	if (x==1 && checkChar[x]=='ok' ) {checkChar = [];} 
 	}
   
   //Set a randomValue
-  rand=(Math.floor(Math.random()*54));
+  rand=(Math.floor(Math.random()*55));
 	
   //Compares with the check list
-  while (rand>0 && checkChar[rand]=='ok') {rand=(Math.floor(Math.random()*54));}
+  while (rand>0 && checkChar[rand]=='ok') {rand=(Math.floor(Math.random()*55));}
 
   if (rand>0 && checkChar[rand]!='ok') {checkChar[rand]='ok';}
 
@@ -213,6 +213,9 @@ mydiv='OOM-Killer',imgur='meIJuGr',imgur9='WQjDqJm.png',game='Turrican',ctype='B
 break;
 case 53:
 mydiv='Sandwitch',imgur='2APcz3X',imgur9='zyTExeh.png',game='Puyo_Puyo',ctype='Bonus',lastupdate='31/10/21',gdrv='1CrFqUEl2u9or1SRXbJ5GqwpZVJ1FKtMu',youtube='ii9zUSrDCCA'
+break;
+case 54:
+mydiv='Sausage_Monks',imgur='uVVlLl7',imgur9='en1KRSZ.png',game='Makaimura',ctype='Bonus',lastupdate='31/10/24',gdrv='1c43XQfrPThdtR2g1rM8kPMyrPffJeqOH',youtube='ZS_Btj25mXc'
 break;
 case 0:
 mydiv=''
