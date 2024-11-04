@@ -1217,7 +1217,7 @@ case 224:
 	rand=(Math.floor(Math.random()*3));
 	if (rand==0) {mydiv='<font color=red>Draculina.zip,stages/MapleStoryMoon.def ;(R18)</font>';}
 	if (rand==1) {mydiv='<font color=red>LauraVamp.zip,stages/MapleStoryMoon.def ;(R18)</font>';}
-	if (rand==2) {mydiv='<font color=red>Pafio.zip,stages/MapleStoryMoon.def ;(R18)</font>';}
+	if (rand==2) {mydiv='Pafio.zip,stages/MapleStoryMoon.def';}
 break;
 case 225:
 	rand=(Math.floor(Math.random()*3));
