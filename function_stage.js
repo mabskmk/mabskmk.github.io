@@ -72,10 +72,10 @@ case 1:
 mydiv='Genostages',imgur='VTTE2gJ.gif',youtube='GsXvJzi8hXA',gdrv='1sUUQGAlS_eAuu_OMKyW-2Qk_X0io-Pf3'
 break;
 case 2:
-mydiv='Blacks_Base',imgur='AmpFGDr.gif',youtube='YuyLAxy0cK0',gdrv='1YhNUX_0osdyDKucya4xLUMGDrKt5MVO0'
+mydiv='Blacks_Base',imgur='AmpFGDr.gif',youtube='YuyLAxy0cK0',gdrv='1YhNUX_0osdyDKucya4xLUMGDrKt5MVO0',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png'
 break;
 case 3:
-mydiv='Force_Mine',imgur='QVjmOo1.png',youtube='E1pig0Bt4xs',gdrv='1YhNUX_0osdyDKucya4xLUMGDrKt5MVO0',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/JFyrVvV.png'
+mydiv='Force_Mine',imgur='QVjmOo1.png',youtube='E1pig0Bt4xs',gdrv='1YhNUX_0osdyDKucya4xLUMGDrKt5MVO0',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png'
 break;
 case 4:
 mydiv='Vegetable_Valley',imgur='L0okcXj.gif',youtube='u1F_oNZ6NIE',gdrv='168fKeVWT3Wz8ZsiH15brYFZePJ3WvsLz'
@@ -216,7 +216,7 @@ case 49:
 mydiv='Metal_Gun',imgur='ZisA65d.gif',youtube='8G-MzU_7l2A',gdrv='1PrKFYlEcoYQD1OSgOScH_J-HNdFfKnnl',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='www.ne.jp/asahi/across/chronicle/image/banner.png'
 break;
 case 50:
-mydiv='TerrariA',imgur='9Vc4Kbf.png',youtube='KszTCEGOYqg',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ'
+mydiv='TerrariA',imgur='9Vc4Kbf.png',youtube='KszTCEGOYqg',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg'
 break;
 case 51:
 mydiv='Random_Space',imgur='TN4XU4m.png',youtube='mCOttatT4TY',gdrv='14x_bwTrKjZtpERMj4mLkMXSoslv8Nzqz'
@@ -258,7 +258,7 @@ case 63:
 mydiv='Ruins_of_Metro',imgur='IGsMDvn.png',youtube='OP2u-24_CV8',gdrv='15Y7stedmBIO0x5nDSBnb8FeT2R9EVNXF'
 break;
 case 64:
-mydiv='Z-Leo',imgur='MbtkMgt.png',youtube='nYzWMxX54NU',gdrv='1OkIpLS0e62aq2uG3QWvMBRhhyIOERn4L'
+mydiv='Z-Leo',imgur='MbtkMgt.png',youtube='nYzWMxX54NU',gdrv='1OkIpLS0e62aq2uG3QWvMBRhhyIOERn4L',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png'
 break;
 case 65:
 mydiv='Labyrinth_Zone',imgur='Rfv7CCF.png',youtube='PypFGdvf8zo',gdrv='1zWWD2hpbTetEEOYYqxxyC2Lv9GMYKMHD'
@@ -306,7 +306,7 @@ case 79:
 mydiv='Dark_Forest',imgur='mGnlE5S.png',youtube='2aijF_wkQ_A',gdrv='1zq0AlCF4Z8xvoqPbzchVhTQ1Hxk0Vlig'
 break;
 case 80:
-mydiv='TerrariB',imgur='nxum0HB.png',youtube='SIU1jfmXVSU',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ'
+mydiv='TerrariB',imgur='nxum0HB.png',youtube='SIU1jfmXVSU',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg'
 break;
 case 81:
 mydiv='Battle_Capacity',imgur='ulhRFM8.gif',youtube='hs12EKYpDAQ',gdrv='1dAQDOMPQN_-9nEA8A_wZIAZW1eGZe8uR'
@@ -321,7 +321,7 @@ case 84:
 mydiv='GoingThroughHell',imgur='rgY553Q.png',youtube='-7moCk_iVp8',gdrv='1B-9djPWc599QfAckvePBlZc7-juAG5FH'
 break;
 case 85:
-mydiv='TerrariC',imgur='kgIqfzU.png',youtube='S_lShswZPm0',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ'
+mydiv='TerrariC',imgur='kgIqfzU.png',youtube='S_lShswZPm0',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg'
 break;
 case 86:
 mydiv='mm7_Graveyard',imgur='fZpRFsG.png',youtube='2mR2aCY9NZQ',gdrv='1crKBwVmyfnbYB2mphTnw4WZswYAwE1nq'
