@@ -63,7 +63,7 @@ btnfullg.disabled=false;
 btnyotu.disabled=false;
 help1.disabled=true;
 help2.disabled=false;
-startGame();
+//startGame();
 }
 
 function showEvil() {document.getElementById('10').src=getImage(8,2);}
