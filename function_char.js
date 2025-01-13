@@ -37,8 +37,7 @@ function vichar() {
   if (rand>0 && checkChar[rand]!='ok') {checkChar[rand]='ok';}
 
 //Get the values of the respective video in the 'char database'
-//char(rand,3);
-char(27,3);
+char(rand,3);
 
 if (youtube!='7mFsq-ehdUI'){
 document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+""+sufix+" width='500' height='300' frameborder='0'></iframe><br>CHAR ("+rand+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=CHAR_"+mydiv+"></a>"
