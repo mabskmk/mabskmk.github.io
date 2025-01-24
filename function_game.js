@@ -3,32 +3,32 @@
 //----------------------------------------------------
 
 var cardArray = new Array(9);	//deck
-var playerOne = new Array(16);	//Player table cards and hand
-var playerTwo = new Array(16);	//CPU table cards and hand
+var playerOne = new Array(16);	//Player table, cards and hand
+var playerTwo = new Array(16);	//CPU table, cards and hand
 var actualPlayer=0;		//Player(1) or CPU(2) just in case you are faster than the cpu...
 var cardSelect=0;		//Player's hand
 
-var botX=0; 			//worker
+var botX=0; 		//worker
 var botY=0;			//worker
 var botZ=0;			//worker
 
-var hashTag=0;			//Geometric progression (1+2+4+8+16+32+64+128+256=511)
+var hashTag=0;		//Geometric progression (1+2+4+8+16+32+64+128+256=511)
 
 
 //====================================================
 // Functions
 //----------------------------------------------------
-// menugame() - Creates the basic html
+// menugame() - Create the basic html
 // gameManual() - Basic html showing how to play
 //   function showEvil() change card number 9
 //   function showGood() change card number 9
 // startGame() - Start the Game
 // computerTime() - Computer plays
 // drawCard() - Draw a card
-// highCard() - Put the highest cart at the big screen
-// seLect(0) - Reset the style of the images
+// highCard() - Place the highest card on the big screen
+// seLect(0) - Reset image style
 // seLect(botY) - Select one card (with css styles)
-// playSelect(botY) - Put a selected card on the table
+// playSelect(botY) - Place the selected card on the table
 // calculatePoints(player,botX,botY,combo) - Honor points
 // reArrange(player) - Re-arrange the cards leaving the first spot open (used before a draw)
 // walkOver(player) - Player cannot use any of his cards (W.O)
@@ -37,7 +37,7 @@ var hashTag=0;			//Geometric progression (1+2+4+8+16+32+64+128+256=511)
 
 
 //====================================================
-// [Creates the basic html]
+// [Create the basic html]
 //----------------------------------------------------
 
 function menugame() {
@@ -120,7 +120,7 @@ for (x=1;x<16;x++) {
 playerOne[10] = 0;
 playerTwo[10] = 0;
 
-// Player get 5 cards
+// Player receives 5 cards
 playerOne[11]=drawCard();
 playerOne[12]=drawCard();
 playerOne[13]=drawCard();
@@ -137,7 +137,7 @@ document.getElementById(15).src = getImage(playerOne[15],1);
 // Reset image style
 	seLect(0);
 
-// Computer get 5 cards
+// Computer receives 5 cards
 playerTwo[11]=drawCard();
 playerTwo[12]=drawCard();
 playerTwo[13]=drawCard();
@@ -157,7 +157,7 @@ function computerTime() {
 
 if (actualPlayer==2) {
 
-	botX=-1; //Random card in the hand
+	botX=-1; //Random card in hand
 	botY=-1; //Random spot on the table
 	botZ=-1; //Perfect selection
 
@@ -179,7 +179,7 @@ if (actualPlayer==2) {
 		botZ = playerTwo[botX];
 		}
 
-		//The chosen spot contains the player's card and it's smaller than your card 
+		//The chosen spot contains the player's card and is smaller than your card 
 		if (playerOne[botY]!=-1 && playerTwo[botY]==-1 && (playerTwo[botX]>playerOne[botY])) {
 
 		calculatePoints(2,(playerTwo[botX]),(playerOne[botY]),1);
@@ -201,6 +201,32 @@ if (actualPlayer==2) {
 	hashTag = hashTag + (2**(botY-1));
 	}
 
+	highCard();
+	reArrange(2);
+
+}
+return;
+}
+
+
+//====================================================
+// [Draw a card] 45 cards
+// Going from 1_card_9 to 9_cards_1
+//----------------------------------------------------
+
+function drawCard() {
+
+	// First random among the 9 numbers in the array
+	botX = (Math.floor(Math.random()*9));
+
+	// Repeat if the card number is missing
+	while (cardArray[botX]==0) {botX=(Math.floor(Math.random()*9));}
+
+	// Decreases the value of the card number
+	if (cardArray[botX]>0) {cardArray[botX]=cardArray[botX]-1;}
+
+    //It's one deck for both players
+
 	//Deck debug
 	document.getElementById('v1').innerHTML=cardArray[0];
 	document.getElementById('v2').innerHTML=cardArray[1];
@@ -212,31 +238,6 @@ if (actualPlayer==2) {
 	document.getElementById('v8').innerHTML=cardArray[7];
 	document.getElementById('v9').innerHTML=cardArray[8];
 
-	highCard();
-	reArrange(2); //could use '(actualPlayer)'
-
-}
-return;
-}
-
-
-//====================================================
-// [Draw a card] 45 cards
-// Going of 1_card_9 to 9_cards_1
-//----------------------------------------------------
-
-function drawCard() {
-
-	// First random between the 9 numbers of the array
-	botX = (Math.floor(Math.random()*9));
-
-	// Repeats if the card number is gone
-	while (cardArray[botX]==0) {botX=(Math.floor(Math.random()*9));}
-
-	// Decreses one value of that card number
-	if (cardArray[botX]>0) {cardArray[botX]=cardArray[botX]-1;}
-
-//It's one deck for both players
 return(botX);
 
 }  
@@ -245,7 +246,7 @@ return(botX);
 //====================================================
 // [Show the highest card on the table]
 // Compares both arrays
-// botY gets the player side
+// botY receives the player's side
 //----------------------------------------------------
 
 function highCard() {
@@ -259,12 +260,13 @@ botX=-1;
 		if (playerTwo[x]>botX) {botX = playerTwo[x]; botY=2;}
 	}
 	document.getElementById(10).src = getImage(botX,botY);
+
 return;
 }
 
 
 //====================================================
-// [Card select] onClick at the player's hand
+// [Card select] onClick on player's hand
 //----------------------------------------------------
 
 function seLect(botX) {
@@ -291,7 +293,7 @@ function seLect(botX) {
 	document.getElementById(15).style = 'opacity: 0.5;';
 	}
 
-	//this function may be used only to reset the style ^
+	//this function can only be used to reset the style ^
 	if (botX!=0 && actualPlayer==1) {
 	document.getElementById(botX).style = ''; //magic
 	cardSelect=botX;
@@ -340,7 +342,7 @@ if (actualPlayer==1) {
 	reArrange(1);
 	}
 
-	//The chosen spot contains the computer's card and it's smaller than your card 
+	//The chosen spot contains the computer's card and is smaller than your card 
 	if (cardSelect!='' && playerTwo[botX]!=-1 && (playerOne[cardSelect]>playerTwo[botX])) {
 
 	calculatePoints(1,(playerOne[cardSelect]),(playerTwo[botX]),1);
@@ -434,14 +436,13 @@ function reArrange(player) {
 		document.getElementById(x-1).src = getImage();
 		}
 	}
-
-	seLect(0); //reset the style
-	if (playerTwo[11]==-1) {playerTwo[11]=drawCard();} //draws on value 11
-
+	seLect(0); //reset the style	
+	
+	if (playerTwo[11]==-1) {playerTwo[11]=drawCard();} //draws at value 11
+	
 	if(actualPlayer!=0) {actualPlayer=2;}
-
+	
 	setTimeout('computerTime()',500);
-
 	}
 
 	if (player==2) {
@@ -451,13 +452,13 @@ function reArrange(player) {
 		playerTwo[x-1] = -1;
 		}
 	}
-
-	if (playerOne[11]==-1) {playerOne[11]=drawCard();} //draws on value 11
+	if (playerOne[11]==-1) {playerOne[11]=drawCard();} //draws at value 11
+	
 	document.getElementById(11).src = getImage(playerOne[11],1);
-
+	
 	if(actualPlayer!=0) {actualPlayer=1;}
-
 	}
+	
 return;
 }
 
@@ -478,7 +479,7 @@ botX=-1;
 	if (playerOne[x]>botX) {botX=playerOne[x];}
 	}
 
-	// Check if you can overcome one of the computer cards
+	// Check if you can overcome one of the computer's cards
 	for (x=1;x<10;x++) {
 	if (playerTwo[x]<botX && playerOne[x]==-1) {return;}
 	}
@@ -498,7 +499,7 @@ botX=-1;
 	if (playerTwo[x]>botX) {botX=playerTwo[x];}
 	}
 
-	// Check if you can overcome one of the player cards
+	// Check if you can overcome one of the player's cards
 	for (x=1;x<10;x++) {
 	if (playerOne[x]<botX && playerTwo[x]==-1) {return;}
 	}
