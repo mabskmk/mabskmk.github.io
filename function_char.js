@@ -1,9 +1,10 @@
+const numChars=54; 
 var bannerHtml='';
 var bannerImg='';
 var rand=0;
-var checkChar = new Array(55);
+var checkChar = new Array((numChars)+1);
 
-//creates the basic html
+// Create the basic html
 function menuchar() {
 document.getElementById('principal').innerHTML="<center><table border=0><td align=right><a target='_blank' href='https://ln.sync.com/dl/8130397b0/ciy6yjaq-ibypwy7w-fbra5drz-q6dp5tub'><img src=https://i.imgur.com/QPa6H3A.png class='rbutton'></a><h1 id=nomeprinc><b>Characters</b></h1><div id=54>SausageMonks</div><div id=5>pesoguin</div><div id=36>ckebab</div><div id=44>mermaid</div><div id=4>flyingtara</div><div id=45>boobs</div><div id=53>Sandwitch</div><div id=52>OOMK</div><div id=51>Golem</div><div id=50>thicc</div><div id=49>shimeji</div><div id=48>ukyo</div><div id=47>RM</div><div id=46>Reznors</div><div id=8>devilpeso</div><div id=7>slugwanzer</div><div id=33>yashahime</div><div id=43>dress</div><div id=23>flappyb</div><div id=42>eyeofbalor</div><div id=41>fullspiders</div><div id=39>Wall Face</div><div id=38>capitalism</div><div id=40>tictactoe</div><div id=37>bikergal</div><div id=35>brainoc</div><div id=34>hannyaned</div><div id=2>bullchan</div><div id=9>morgul</div><div id=19>destroyer</div><div id=18>e-o-w</div><div id=20>w-o-f</div><div id=14>vanpookin</div><div id=13>truckjoe</div><div id=24>helimaster</div><div id=16>dcar</div><div id=25>drwily</div><div id=22>murderwall</div><div id=15>car3</div><div id=26>ddd</div><div id=21>sarlacc</div><div id=11>garekky</div><div id=12>mash</div><div id=17>e-o-c</div><div id=10>kido</div><div id=6>slugwanzerold</div><div id=1>deathforce</div><div id=3>metagang</div>...<br><h1><b>Mini-games</b></h1><div id=27>gng-grave</div><div id=29>gng-burn</div><div id=28>gng-tower</div><div id=32>castlewar</div><div id=30>jokenpon</div><div id=31>msw-subway</div>...<br><br><a target='_blank' href='https://www.mediafire.com/folder/ftea2duwm6m09/WarehouseCHAR'><b>Warehouse</b></a> / <a target='_blank' href='https://drive.google.com/drive/folders/1zOzmbowxzpeFmbV_mVAeOaKhRGPFzFuQ?usp=drive_link'><b>W.I.P?</b></a><br><br><input type=button onClick='ppmain(1)' value='.Clean.'><br><tr></table></center>"
 btnnew.disabled=false;
@@ -11,33 +12,36 @@ btnchar.disabled=true;
 btnstg.disabled=false;
 btnfullg.disabled=false;
 btnyotu.disabled=false;
-for (x=54;x>0;x--) {
+for (x=numChars;x>0;x--) {
 char((x),1)
 }
-char(54,2);
+char(54,2); //temp
 }
 
-//Function to play a random video
+// Function to play a random video
 function vichar() {
-  //Disable the function exiting showcase
-  if (btnnew.disabled==false) {return;}
 
-	//Check if the array is full
-	for (x=54;x>0;x--) {
-	if ( checkChar[x]!=='ok' ) {break;}
-	if (x==1 && checkChar[x]=='ok' ) {checkChar = [];} 
-	}
+	// Disable the function when leaving the showcase
+	if (btnnew.disabled==false) {return;}
+
+// Check if the array is full
+for (x=numChars;x>0;x--) {
+if ( checkChar[x]!=='ok' ) {break;}
+if (x==1 && checkChar[x]=='ok' ) {checkChar = [];} 
+}
   
-  //Set a randomValue
-  rand=(Math.floor(Math.random()*55));
-	
-  //Compares with the check list
-  while (rand>0 && checkChar[rand]=='ok') {rand=(Math.floor(Math.random()*55));}
+// Set a randomValue
+rand=(Math.floor(Math.random()*numChars)+1);
 
-  if (rand>0 && checkChar[rand]!='ok') {checkChar[rand]='ok';}
+	// Compare with checklist
+	while (rand>0 && checkChar[rand]=='ok') {rand=(Math.floor(Math.random()*numChars)+1);}
 
-//Get the values of the respective video in the 'char database'
+	if (rand>0 && checkChar[rand]!='ok') {checkChar[rand]='ok';}
+
+
+// Get the values ​​of the respective video from the 'character database'
 char(rand,3);
+
 
 if (youtube!='7mFsq-ehdUI'){
 document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+""+sufix+" width='500' height='300' frameborder='0'></iframe><br>CHAR ("+rand+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=CHAR_"+mydiv+"></a>"
@@ -45,11 +49,14 @@ document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.yout
 else{
 document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/OyQa9DowOrQ?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Full-Game: <b>Steel Warriors</b> <a target='_blank' href=https://www.dropbox.com/s/hp2b158fiqff6he/MSW-Steel%20Warriors1.1.rar?dl=1><img src=https://i.imgur.com/pJFCm25.png title='Steel Warriors'></a>"
 }
+
 document.getElementById('banner').innerHTML="<a target='_blank' href=https://"+bannerHtml+"><img src=https://"+bannerImg+"></a>";
 tempo=setTimeout('vistg()',50000); //vichar -> vistg -> viytmisc
+
 }
 
-//Char database
+
+// Character database
 function char(numero,cod) {
 youtube='7mFsq-ehdUI';
 sufix='?autoplay=1&mute=1';
@@ -60,7 +67,7 @@ case 1:
 mydiv='Death-Force',imgur='ocvdalJ',imgur9='xr3A7SH.gif',game='MetalSlug',ctype='Boss',lastupdate='13/12/08',gdrv='1nCEVFvv6_MWnOewCQEwqo3wBIEi0xOzk',youtube='57Twr3DTGbk'
 break;
 case 2:
-mydiv='Bull_chan',imgur='ot8ebRi',imgur9='iVIdizv.png',game='Metalslug',ctype='Bonus',lastupdate='02/06/15',youtube='Dp3T1arUUmY',gdrv='15HH5HuYvK22p1AJw4_vWai6usFNw9IXt'
+mydiv='Bull_chan',imgur='ot8ebRi',imgur9='iVIdizv.png',game='Metalslug',ctype='Bonus',lastupdate='02/06/15',gdrv='15HH5HuYvK22p1AJw4_vWai6usFNw9IXt',youtube='Dp3T1arUUmY'
 break;
 case 3:
 mydiv='MetaGang',imgur='VhoTRPp',imgur9='oWcbdIT.png',game='Kirby',ctype='Multi-char',lastupdate='15/05/08',gdrv='19CzU8t9VOizNBDikp_Q210mQ0tRRruU-',youtube='8y4p4RwhPYA'
@@ -159,13 +166,13 @@ case 34:
 mydiv='HannyaNED',imgur='wObxscr',imgur9='LkzukyT.png',game='Megaman7',ctype='Boss',lastupdate='25/10/15',gdrv='1GZqpnaGxAyAyamsYPOEXwTrgdS5PpoNX',youtube='RsuTkkpzkmg'
 break;
 case 35:
-mydiv='Brain-of-Cthulhu',imgur='8xMmvYn',imgur9='sWf0Idm.png',game='Terraria',ctype='Boss',lastupdate='31/10/15',youtube='LOtAUorfxgc',gdrv='1piPhPxq4fi_Eph0dKRqjbkgRkHKGlcnl',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg'
+mydiv='Brain-of-Cthulhu',imgur='8xMmvYn',imgur9='sWf0Idm.png',game='Terraria',ctype='Boss',lastupdate='31/10/15',gdrv='1piPhPxq4fi_Eph0dKRqjbkgRkHKGlcnl',youtube='LOtAUorfxgc',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg'
 break;
 case 36:
 mydiv='Captain_Kebab',imgur='TsaW1dX',imgur9='0cImMKw.png',game='Parodius',ctype='Boss',lastupdate='24/01/24',gdrv='1gGgE240lPfFJJ050h0Vk9wJlFe2c2E20',youtube='1BxSnIkb1co'
 break;
 case 37:
-mydiv='Biker_GAL',imgur='7dP9qeT',imgur9='a1EwUGO.png',game='Battle_Circuit',ctype='Bonus',lastupdate='29/06/16',youtube='wnNg3g0NXn0',gdrv='1kH-OrCFQMcm_gV8_sbxoSzLhySEqFrPT'
+mydiv='Biker_GAL',imgur='7dP9qeT',imgur9='a1EwUGO.png',game='Battle_Circuit',ctype='Bonus',lastupdate='29/06/16',gdrv='1kH-OrCFQMcm_gV8_sbxoSzLhySEqFrPT',youtube='wnNg3g0NXn0'
 break;
 case 38:
 mydiv='Capitalism',imgur='HIynVUA',imgur9='LCZ5ymb.png',game='Real World',ctype='Boss',lastupdate='29/06/16',gdrv='1t27oAqR6ef55hUgMLvwCKMHiqOn1GtKS',youtube='P66-PjR3JgA'
