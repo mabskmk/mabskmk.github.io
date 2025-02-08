@@ -64,7 +64,7 @@ case 11:
 mydiv='MUGEN_means_INFINITY',youtube='1ZUwgwQQoTU?si=PjHwcYXOizpxsn4T&start=224&end=274'
 break;
 case 12:
-mydiv='Dougar_with_super_armor_soon',youtube='PzFymxJK-70'
+mydiv='Dougar_with_super_armor_soon',youtube='PzFymxJK-70?si=ePZfsY4u5EGKpwWZ'
 break;
 case 13:
 mydiv='Arknights_ridiculous',youtube='c3IT6VnI5rw?si=o_a-I_IkEwjw5g4P&start=360&end=410'
