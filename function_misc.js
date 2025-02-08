@@ -1,30 +1,31 @@
+const numExtras=10;
 var bannerHtml='';
 var bannerImg='';
 var rand=0;
-var checkMisc = new Array(11);
+var checkMisc = new Array((numExtras)+1);
 
-//Function to play a random video
+// Function to play a random video
 function viytmisc() {
 mydiv='';youtube='';link='';
 
-  //Disable the function exiting showcase
+  // Disable the function when leaving the showcase
   if (btnnew.disabled==false) {return;}
 
-	//Check if the array is full
-	for (x=10;x>0;x--) {
+	// Check if the array is full
+	for (x=numExtras;x>0;x--) {
 	if ( checkMisc[x]!=='ok' ) {break;}
 	if (x==1 && checkMisc[x]=='ok' ) {checkMisc = [];} 
 	}
 
-  //Set a randomValue
+  // Set a randomValue
   rand=(Math.floor(Math.random()*10)+1);
 	
-  //Compares with the check list
+  // Compare with checklist
   while (rand>0 && checkMisc[rand]=='ok') {rand=(Math.floor(Math.random()*10)+1);}
 
   if (rand>0 && checkMisc[rand]!='ok') {checkMisc[rand]='ok';}
 
-//Get the info of the video [id]
+// Get the info of the video [id]
 switch (rand) {
 case 0:
 mydiv=''
@@ -59,6 +60,22 @@ break;
 case 10:
 mydiv='Fantastico_Jaspion',youtube='1_7gepKMuts?si=RPYmXGIbHLL4--Kn',bannerHtml='sato.tv.br/',bannerImg='i.imgur.com/rMxn204.png'
 break;
+case 11:
+mydiv='MUGEN_means_INFINITY',youtube='1ZUwgwQQoTU?si=PjHwcYXOizpxsn4T&start=224&end=274'
+break;
+case 12:
+mydiv='Dougar_with_super_armor_soon',youtube='PzFymxJK-70'
+break;
+case 13:
+mydiv='Arknights_ridiculous',youtube='c3IT6VnI5rw?si=o_a-I_IkEwjw5g4P&start=360&end=410'
+break;
+case 14:
+mydiv='Will_RIOS_be_a_char_or_stage?',youtube='GJ2bJH6tOew?si=liJKoc88OXzyLmdW&start=165&end=215'
+break;
+case 15:
+mydiv='Good_times',youtube='99FOYzN9U7A'
+break;
+
 }
 if (bannerHtml==''){
 bannerHtml='twitter.com/Zanmyo';
