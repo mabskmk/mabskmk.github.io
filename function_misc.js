@@ -1,4 +1,4 @@
-const numExtras=10;
+const numExtras=15;
 var bannerHtml='';
 var bannerImg='';
 var rand=0;
