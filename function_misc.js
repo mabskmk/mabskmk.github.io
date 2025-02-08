@@ -18,10 +18,10 @@ mydiv='';youtube='';link='';
 	}
 
   // Set a randomValue
-  rand=(Math.floor(Math.random()*10)+1);
+  rand=(Math.floor(Math.random()*numExtras)+1);
 	
   // Compare with checklist
-  while (rand>0 && checkMisc[rand]=='ok') {rand=(Math.floor(Math.random()*10)+1);}
+  while (rand>0 && checkMisc[rand]=='ok') {rand=(Math.floor(Math.random()*numExtras)+1);}
 
   if (rand>0 && checkMisc[rand]!='ok') {checkMisc[rand]='ok';}
 
