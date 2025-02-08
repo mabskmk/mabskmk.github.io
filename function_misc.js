@@ -73,7 +73,7 @@ case 14:
 mydiv='Will_RIOS_be_a_char_or_stage?',youtube='GJ2bJH6tOew?si=liJKoc88OXzyLmdW&start=165&end=215'
 break;
 case 15:
-mydiv='Good_times',youtube='99FOYzN9U7A'
+mydiv='Good_times',youtube='99FOYzN9U7A?si=5e2ZYNHH0WMbdX4P'
 break;
 
 }
