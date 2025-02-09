@@ -8,22 +8,22 @@ var checkMisc = new Array((numExtras)+1);
 function viytmisc() {
 mydiv='';youtube='';link='';
 
-  // Disable the function when leaving the showcase
-  if (btnnew.disabled==false) {return;}
+	// Disable the function when leaving the showcase
+	if (btnnew.disabled==false) {return;}
 
-	// Check if the array is full
-	for (x=numExtras;x>0;x--) {
-	if ( checkMisc[x]!=='ok' ) {break;}
-	if (x==1 && checkMisc[x]=='ok' ) {checkMisc = [];} 
-	}
+// Check if the array is full
+for (x=numExtras;x>0;x--) {
+if ( checkMisc[x]!=='ok' ) {break;}
+if (x==1 && checkMisc[x]=='ok' ) {checkMisc = [];} 
+}
 
-  // Set a randomValue
-  rand=(Math.floor(Math.random()*numExtras)+1);
+// Set a randomValue
+rand=(Math.floor(Math.random()*numExtras)+1);
 	
-  // Compare with checklist
-  while (rand>0 && checkMisc[rand]=='ok') {rand=(Math.floor(Math.random()*numExtras)+1);}
+	// Compare with checklist
+	while (rand>0 && checkMisc[rand]=='ok') {rand=(Math.floor(Math.random()*numExtras)+1);}
 
-  if (rand>0 && checkMisc[rand]!='ok') {checkMisc[rand]='ok';}
+	if (rand>0 && checkMisc[rand]!='ok') {checkMisc[rand]='ok';}
 
 // Get the info of the video [id]
 switch (rand) {
