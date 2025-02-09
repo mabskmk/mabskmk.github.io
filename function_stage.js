@@ -229,7 +229,7 @@ case 51:
 mydiv='Random_Space',imgur='TN4XU4m.png',youtube='mCOttatT4TY',gdrv='14x_bwTrKjZtpERMj4mLkMXSoslv8Nzqz'
 break;
 case 52:
-mydiv='Mojo_Stronghold',imgur='8x7jLDj.png',youtube='vckqNZrcVJw',gdrv='14Asrt2kJ0k4WHOKdtVGeqe9v2cds_m3m'
+mydiv='Mojo_Stronghold',imgur='8x7jLDj.png',youtube='1FZwcoKCIdY',gdrv='14Asrt2kJ0k4WHOKdtVGeqe9v2cds_m3m'
 break;
 case 53:
 mydiv='Hell_Gate',imgur='qPSAYRK.gif',youtube='RjMXO3T-VJA',gdrv='1CHtHK7UycHiRX0w13V_16_7s4-eNchEg'
@@ -457,7 +457,11 @@ case 125:
 mydiv='HomieYoshiStory',imgur='6kAf5vJ.gif',youtube='wUh7-qtQLoA',gdrv='1wR2XmLHzNnotWekpXiSZRG_EysHrGxwk'
 break;
 case 126:
-mydiv='Endless_Corridor',imgur='P3ZBwfj.png',youtube='pR7JMIy1OOc',gdrv='1TB8eS9jsDC1gKH6MUgjg9uZOZovbpj0Y'
+mydiv='Endless_Corridor',imgur='P3ZBwfj.png',gdrv='1TB8eS9jsDC1gKH6MUgjg9uZOZovbpj0Y'
+rand=(Math.floor(Math.random()*3));
+	if (rand==0) {youtube='pR7JMIy1OOc';}
+	if (rand==1) {youtube='jHw6dOG3y74';}
+	if (rand==2) {youtube='SctZbWKP6pw';}
 break;
 case 127:
 mydiv='Bay_Yard',imgur='VDiZw8h.gif',youtube='SOScws9h7Ec',gdrv='14KYviIi8D-koGCOC5V6CQGUZOzYtwHah'
