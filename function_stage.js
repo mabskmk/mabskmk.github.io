@@ -208,13 +208,13 @@ case 44:
 mydiv='Snow_Rush',imgur='MfuWeak.png',youtube='LZkr6N1zKS4',gdrv='14KoyR7xOTvSeDttPxq8h8YjPgW9frreW'
 break;
 case 45:
-mydiv='Arkanoid_Syn',imgur='KzmXv7S.gif',youtube='dH4I-xUtUsI',gdrv='15hIaPhP6DsDUjVJ-Un7rnOg5ogUIQTKx' //dH4I-xUtUsI
+mydiv='Arkanoid_Syn',imgur='KzmXv7S.gif',youtube='dH4I-xUtUsI',gdrv='15hIaPhP6DsDUjVJ-Un7rnOg5ogUIQTKx'
 break;
 case 46:
 mydiv='Dr_Wily_stgs',imgur='PNYxIH7.gif',youtube='zjbR3UtGK2I',gdrv='1BajqmRlVucJYaruSyGeK_de5eYO7CsPu'
 break;
 case 47:
-mydiv='Arena',imgur='2kXqJTC.png',youtube='Ks5OQOeheTA',gdrv='12hO-ATk2ljQrhaHB9BUrF5Vqx3C9xOHR'
+mydiv='Arena',imgur='2kXqJTC.png',youtube='Ks5OQOeheTA',gdrv='12hO-ATk2ljQrhaHB9BUrF5Vqx3C9xOHR',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='www.ne.jp/asahi/across/chronicle/image/banner.png'
 break;
 case 48:
 mydiv='Stage_Draco',imgur='1jmQ14m.png',youtube='tvqiT8S4sbs',gdrv='1EUlp0lxtk9rVYnVcGXHuiZL4TpoEF6Hu'
