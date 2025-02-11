@@ -510,7 +510,7 @@ case 140:
 mydiv='Ghost-Sweeper',imgur='btWjmQ7.gif',youtube='jIciRjH4vMw',gdrv='1IirAgUWUbBQWSPDMhavvFgDL-mbxZXoc',bannerHtml='sunnyworld.free.fr',bannerImg='i.imgur.com/gAsrMM0.png'
 break;
 case 141:
-mydiv='Final_Assault',imgur='2sTDDfe.gif',gdrv='1YhNUX_0osdyDKucya4xLUMGDrKt5MVO0',bannerHtml='ikrgmugen.web.fc2.com',bannerImg='i.imgur.com/3UeeMUT.png';
+mydiv='Final_Assault',imgur='2sTDDfe.gif',gdrv='1YhNUX_0osdyDKucya4xLUMGDrKt5MVO0',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png';
 rand=(Math.floor(Math.random()*2));
 	if (rand==0) {youtube='F2eoszGN52U';}
 	if (rand==1) {youtube='tUHgV2ySH7U';}
@@ -558,6 +558,7 @@ break;
 }
 }
 
+// bannerHtml='ikrgmugen.web.fc2.com',bannerImg='i.imgur.com/3UeeMUT.png'
 // LINK GDRV DROPBOX YOUTUBE (img  width='140')
 // <br><a target='_blank' href=><img onClick='stage("+numero+",2)' src=https://i.imgur.com/pJFCm25.png></a>
 // https://drive.google.com/uc?id="+gdrv+"
