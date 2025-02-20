@@ -491,7 +491,7 @@ case 82:
 	if (rand==1) {mydiv='Shinobu.zip,stages/GanbareGoemon.def';}
 break;
 case 83:
-	rand=(Math.floor(Math.random()*2));
+	rand=(Math.floor(Math.random()*3));
 	if (rand==0) {mydiv='BurningCirno.zip,stages/ZookHero_2.def';}
 	if (rand==1) {mydiv='Kyoko.zip,stages/ZookHero_2.def';}
 	if (rand==2) {mydiv='Kyoko_A.zip,stages/ZookHero_2.def';}
@@ -1234,6 +1234,7 @@ case 227:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Luise_Meyrink.zip,stages/Childam.def';}
 	if (rand==1) {mydiv='Luise_Meyrink.zip,stages/Childam.def';}
+break;
 case 999:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='';}
