@@ -292,7 +292,7 @@ case 72:
 mydiv='Cilia_Monster',imgur='hzdVhqX.png',youtube='TgOKrZjGvWc',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='www.ne.jp/asahi/across/chronicle/image/banner.png'
 break;
 case 73:
-mydiv='Galatic-Night-Club',imgur='9mhQVWp.png',youtube='IiEFOz6aggU',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n'
+mydiv='Galatic-Night-Club',imgur='9mhQVWp.png',youtube='OwwI5ruoW6Y',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n'
 break;
 case 74:
 mydiv='Pokemon_3D',imgur='QUbwkVz.gif',youtube='z1HH-Jrun2Y',gdrv='1D8MGAPvC13AzWN0rboXhyPeywRmWaHte'
