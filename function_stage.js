@@ -340,7 +340,7 @@ case 88:
 mydiv='Stage_hentai2',imgur='AYGqEmn.png',youtube='dQw4w9WgXcQ',gdrv='18FhvNthzjJfmz4FkfcWRe0Xxe9VhOFRL'
 break;
 case 89:
-mydiv='Tyrone',imgur='qMVo2hp.png',youtube='DT5Jvm7clhE',gdrv='1OlD0wc2dK0fXsFA6o8kolBRguwTrzVI6'
+mydiv='Tyrone',imgur='qMVo2hp.png',youtube='p8DsK-JZX-g',gdrv='1OlD0wc2dK0fXsFA6o8kolBRguwTrzVI6'
 break;
 case 90:
 mydiv='R-type_Junk',imgur='LMLAnUi.png',youtube='QJvG3Hipkyc',gdrv='1vrGpdGB43ZvJHbJpZMzPnz0JlzMR_Cv7'
