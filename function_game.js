@@ -113,7 +113,7 @@ cardArray[5]=4;
 cardArray[6]=3;
 cardArray[7]=2;
 cardArray[8]=1;
-for (x=1;x<16;x++) {
+for (let x=1;x<16;x++) {
 	playerOne[x] = -1;
 	playerTwo[x] = -1;
 }
@@ -153,7 +153,7 @@ playerTwo[15]=drawCard();
 // [Computer plays]
 //----------------------------------------------------
 
-function computerTime() {
+async function computerTime() {
 
 if (actualPlayer==2) {
 
@@ -175,14 +175,14 @@ if (actualPlayer==2) {
 		//The chosen spot is empty
 		if (playerTwo[botY]==-1 && playerOne[botY]==-1) {
 
-		calculatePoints(2,(playerTwo[botX]),-1,0);
+		await calculatePoints(2,(playerTwo[botX]),-1,0);
 		botZ = playerTwo[botX];
 		}
 
 		//The chosen spot contains the player's card and is smaller than your card 
 		if (playerOne[botY]!=-1 && playerTwo[botY]==-1 && (playerTwo[botX]>playerOne[botY])) {
 
-		calculatePoints(2,(playerTwo[botX]),(playerOne[botY]),1);
+		await calculatePoints(2,(playerTwo[botX]),(playerOne[botY]),1);
 		playerOne[botY] = -1;
 		botZ = playerTwo[botX];
 		}
@@ -202,7 +202,7 @@ if (actualPlayer==2) {
 	}
 
 	highCard();
-	reArrange(2);
+	await reArrange(2);
 
 }
 return;
@@ -253,10 +253,10 @@ function highCard() {
 
 botX=-1;
 
-	for (x=1;x<10;x++) {
+	for (let x=1;x<10;x++) {
 		if (playerOne[x]>botX) {botX = playerOne[x]; botY=1;}
 	}
-	for (x=1;x<10;x++) {
+	for (let x=1;x<10;x++) {
 		if (playerTwo[x]>botX) {botX = playerTwo[x]; botY=2;}
 	}
 	document.getElementById(10).src = getImage(botX,botY);
@@ -299,7 +299,7 @@ function seLect(botX) {
 	cardSelect=botX;
 	
 		//Sepia effect for lower cards
-		for (x=1;x<10;x++) {
+		for (let x=1;x<10;x++) {
 		if (playerTwo[x]>-1 && (playerTwo[x]<playerOne[botX])) {
 		document.getElementById(x).style = 'filter: sepia(100%)';
 		}
@@ -315,14 +315,14 @@ return;
 // [Play selected card] onClick on the table
 //----------------------------------------------------
 
-function playSelect(botX) {
+async function playSelect(botX) {
 
 if (actualPlayer==1) {
 
 	//The chosen spot is empty
 	if (cardSelect!='' && hashTag<511 && playerTwo[botX]==-1 && playerOne[botX]==-1) {
 
-	calculatePoints(1,(playerOne[cardSelect]),-1,0);
+	await calculatePoints(1,(playerOne[cardSelect]),-1,0);
 
 	//And put it on the table ***
 	playerOne[botX] = playerOne[cardSelect];
@@ -339,13 +339,13 @@ if (actualPlayer==1) {
 
 	highCard();
 	cardSelect='';
-	reArrange(1);
+	await reArrange(1);
 	}
 
 	//The chosen spot contains the computer's card and is smaller than your card 
 	if (cardSelect!='' && playerTwo[botX]!=-1 && (playerOne[cardSelect]>playerTwo[botX])) {
 
-	calculatePoints(1,(playerOne[cardSelect]),(playerTwo[botX]),1);
+	await calculatePoints(1,(playerOne[cardSelect]),(playerTwo[botX]),1);
 
 	playerTwo[botX] = -1;
 
@@ -364,7 +364,7 @@ if (actualPlayer==1) {
 
 	highCard();
 	cardSelect='';
-	reArrange(1);
+	await reArrange(1);
 	}
 
 }
@@ -428,7 +428,7 @@ function reArrange(player) {
 	setTimeout('victoryCheck(0)',500);
 
 	if (player==1) {
-	for (x=15;x>11;x--) {
+	for (let x=15;x>11;x--) {
 		if (playerOne[x]==-1 && playerOne[x-1]!=-1) {
 		playerOne[x] = playerOne[x-1];
 		document.getElementById(x).src = getImage(playerOne[x],1);
@@ -446,7 +446,7 @@ function reArrange(player) {
 	}
 
 	if (player==2) {
-	for (x=15;x>11;x--) {
+	for (let x=15;x>11;x--) {
 		if (playerTwo[x]==-1 && playerTwo[x-1]!=-1) {
 		playerTwo[x] = playerTwo[x-1];
 		playerTwo[x-1] = -1;
@@ -475,16 +475,16 @@ botX=-1;
 	if (player==1) {
 
 	// Find the highest card in your hand
-	for (x=11;x<16;x++) {
+	for (let x=11;x<16;x++) {
 	if (playerOne[x]>botX) {botX=playerOne[x];}
 	}
 
 	// Check if you can overcome one of the computer's cards
-	for (x=1;x<10;x++) {
+	for (let x=1;x<10;x++) {
 	if (playerTwo[x]<botX && playerOne[x]==-1) {return;}
 	}
 
-	for (x=11;x<16;x++) {
+	for (let x=11;x<16;x++) {
 	document.getElementById(x).style = 'opacity: 0.2;';
 	}
 
@@ -495,12 +495,12 @@ botX=-1;
 	if (player==2) {
 
 	// Find the highest card in your hand
-	for (x=11;x<16;x++) {
+	for (let x=11;x<16;x++) {
 	if (playerTwo[x]>botX) {botX=playerTwo[x];}
 	}
 
 	// Check if you can overcome one of the player's cards
-	for (x=1;x<10;x++) {
+	for (let x=1;x<10;x++) {
 	if (playerOne[x]<botX && playerTwo[x]==-1) {return;}
 	}
 
@@ -573,7 +573,7 @@ botZ=0;
 
 if (botX>0) {
 
-for (x=1;x<10;x++) {
+for (let x=1;x<10;x++) {
 
 	document.getElementById(x).style = 'opacity: 0.2;';
 
