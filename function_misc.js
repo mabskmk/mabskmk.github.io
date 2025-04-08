@@ -12,7 +12,7 @@ mydiv='';youtube='';link='';
 	if (btnnew.disabled==false) {return;}
 
 // Check if the array is full
-for (x=numExtras;x>0;x--) {
+for (let x=numExtras;x>0;x--) {
 if ( checkMisc[x]!=='ok' ) {break;}
 if (x==1 && checkMisc[x]=='ok' ) {checkMisc = [];} 
 }
