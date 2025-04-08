@@ -12,9 +12,7 @@ btnchar.disabled=false;
 btnstg.disabled=true;
 btnfullg.disabled=false;
 btnyotu.disabled=false;
-for (x=numStages;x>0;x--) {
-stage((x),1)
-}
+for (let x=numStages;x>0;x--) {stage((x),1)}
 stage(149,2); //temp
 }
 function menustage3() {
@@ -24,9 +22,7 @@ btnchar.disabled=false;
 btnstg.disabled=true;
 btnfullg.disabled=false;
 btnyotu.disabled=false;
-for (x=numStages;x>0;x--) {
-stage((x),1)
-}
+for (let x=numStages;x>0;x--) {stage((x),1)}
 }
 
 // Function to play a random video
@@ -36,7 +32,7 @@ function vistg() {
 	if (btnnew.disabled==false) {return;}
 
 // Check if the array is full
-for (x=numStages;x>0;x--) {
+for (let x=numStages;x>0;x--) {
 if ( checkStage[x]!=='ok' ) {break;}
 if (x==1 && checkStage[x]=='ok' ) {checkStage = [];} 
 }
