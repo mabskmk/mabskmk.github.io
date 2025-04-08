@@ -12,9 +12,7 @@ btnchar.disabled=true;
 btnstg.disabled=false;
 btnfullg.disabled=false;
 btnyotu.disabled=false;
-for (x=numChars;x>0;x--) {
-char((x),1)
-}
+for (let x=numChars;x>0;x--) {char((x),1)}
 char(54,2); //temp
 }
 
@@ -25,7 +23,7 @@ function vichar() {
 	if (btnnew.disabled==false) {return;}
 
 // Check if the array is full
-for (x=numChars;x>0;x--) {
+for (let x=numChars;x>0;x--) {
 if ( checkChar[x]!=='ok' ) {break;}
 if (x==1 && checkChar[x]=='ok' ) {checkChar = [];} 
 }
