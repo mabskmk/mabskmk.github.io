@@ -230,12 +230,13 @@ if (bannerHtml==''){
 bannerHtml='twitter.com/Zanmyo';
 bannerImg='i.imgur.com/qV3Q36A.gif';
 }
+const mmObj = window.matchMedia('(max-width: 600px)');
 switch (cod) {
 case 1:
 document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+".png onClick='char("+numero+",2)' class='rbutton' width=25 height=25><b>"+mydiv+"</b> "+game+" / "+ctype+" / Last update: "+lastupdate+"<br>"
 break;
 case 2:
-	if ( window.matchMedia("(max-width: 600px)").matches==true ) {
+	if ( mmObj.matches ) {
 	document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+".png width=25 height=25><b>"+mydiv+"</b> "+game+" / "+ctype+" / Last update: "+lastupdate+"<br><iframe src=https://www.youtube.com/embed/"+youtube+" width='430' height='240' frameborder='0'></iframe><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a>"
 	}
 	else {
