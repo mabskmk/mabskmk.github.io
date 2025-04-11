@@ -230,7 +230,7 @@ if (bannerHtml==''){
 bannerHtml='twitter.com/Zanmyo';
 bannerImg='i.imgur.com/qV3Q36A.gif';
 }
-const mmObj = window.matchMedia('(max-width: 600px)');
+const mmObj = window.matchMedia('(max-width: 500px)');
 switch (cod) {
 case 1:
 document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+".png onClick='char("+numero+",2)' class='rbutton' width=25 height=25><b>"+mydiv+"</b> "+game+" / "+ctype+" / Last update: "+lastupdate+"<br>"
