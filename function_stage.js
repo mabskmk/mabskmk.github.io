@@ -117,7 +117,7 @@ case 15:
 mydiv='Ancient_Shadows',imgur='9QvIahU.gif',youtube='XPhPzGHhvVE',gdrv='18ucHZ1wXVEmX40FO3J5LCf1M7k_ao4ib'
 break;
 case 16:
-mydiv='Burning_Village',imgur='pSV0xV2.png',youtube='_vbjdMV4dRU',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO'
+mydiv='Burning_Village',imgur='pSV0xV2.png',youtube='5aP8yGluMuA',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO'
 break;
 case 17:
 mydiv='Death_Star_3',imgur='tieF0Cw.png',youtube='BZD4XUBHid4',gdrv='1cy-n32Funvw1ktwXoMU5_OX3Ox6D0kfk'
