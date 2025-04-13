@@ -83,7 +83,7 @@ case 7:
 mydiv='Slug_Wanzer',imgur='3tFzcit',imgur9='kwL3bIp.png',game='Metalslug',ctype='Char',lastupdate='02/11/18',gdrv='1q9ZVUtQIz0pjdjtXAPG0MAi7fVdnglu-',youtube='tW_M0k_HFaY'
 break;
 case 8:
-mydiv='Devil_Pesoguin',imgur='75lBnh5',imgur9='ESDw2hP.gif',game='Castlevania_edit',ctype='Bonus',lastupdate='02/11/18',gdrv='1n_A2vUVEDwaODoGRxMZ8t8iB1wR3-CRR',youtube='yISEi8PKipw'
+mydiv='Devil_Pesoguin',imgur='75lBnh5',imgur9='ESDw2hP.gif',game='Castlevania?',ctype='Bonus',lastupdate='02/11/18',gdrv='1n_A2vUVEDwaODoGRxMZ8t8iB1wR3-CRR',youtube='yISEi8PKipw'
 break;
 case 9:
 mydiv='MORGUL',imgur='fPt2Off',imgur9='vk6MdFi.gif',game='Turrican',ctype='Boss',lastupdate='02/06/15',gdrv='1hHIoFEuw588ks3npH1apjGUmAUTyoRP_',youtube='8vk5g8fobnQ'
