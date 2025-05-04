@@ -157,9 +157,10 @@ mydiv='Planet_Prision',imgur='1TljLfd.png',youtube='DObjw9nB4HM',gdrv='1JhnQx-Gm
 break;
 case 29:
 mydiv='Mechanical_Fortress',imgur='pzjVrAw.gif',gdrv='1I0RUUylHjABYlAOii3XR5AZtwn4nBVPD'
-rand=(Math.floor(Math.random()*2));
+rand=(Math.floor(Math.random()*3));
 	if (rand==0) {youtube='QEBApNtN_OI';}
 	if (rand==1) {youtube='F7twFXCXiMc';}
+	if (rand==2) {youtube='jcR8gWcPjOs';}
 break;
 case 30:
 mydiv='Haunted_Graveyard',imgur='OFjAdRB.png',youtube='12IsGm5ctK8',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO'
