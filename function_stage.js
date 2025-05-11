@@ -87,7 +87,7 @@ case 5:
 mydiv='Hazard_Tank',imgur='byemFHj.gif',youtube='rpETB6b3v9Q',gdrv='17nvOuqdoREYJoPy1yhXLXxUleRFkTFCt'
 break;
 case 6:
-mydiv='Burning_Arena',imgur='Yfl1Ngj.png',youtube='TmpppvL-Pc0',gdrv='1LWy90J1QSC9Ljs6mNy4bpv7l-SQ7B7Sa'
+mydiv='Burning_Arena',imgur='Yfl1Ngj.png',youtube='24sis1Kf7Fw',gdrv='1LWy90J1QSC9Ljs6mNy4bpv7l-SQ7B7Sa'
 break;
 case 7:
 mydiv='Abadox',imgur='Ov5zTi6.png',youtube='WRswqM3An44',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n'
