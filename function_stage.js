@@ -16,7 +16,7 @@ for (let x=numStages;x>0;x--) {stage((x),1)}
 stage(29,2); //temp
 }
 function menustage3() {
-document.getElementById('principal').innerHTML="<table border=0><td align=right width=500><h1><b>StageS</b></h1><a target='_blank' href='https://ln.sync.com/dl/b4dde8c10/7mr9qfnj-gnz7925k-4pkufi7w-wz99zhw9'><img src=https://i.imgur.com/QPa6H3A.png class='rbutton'></a><br><br><input type=button onClick='menustage2()' value='by_date'><br><br>Arcades<br><b id=123></b><b id=116></b><b id=114></b><b id=112></b><b id=91></b><b id=90></b><b id=77></b><b id=63></b><b id=62></b><b id=59></b><b id=44></b><b id=38></b><b id=37></b><b id=36></b><b id=15></b><b id=9></b><br><br>Sega Genesis<br><b id=149></b><b id=96></b><b id=64></b><b id=27></b><b id=24></b><b id=22></b><b id=8></b><b id=127></b><br><br>Sonic<br><b id=136></b><b id=133></b><b id=119></b><b id=110></b><b id=95></b><b id=70></b><b id=67></b><b id=66></b><b id=65></b><b id=60></b><b id=25></b><b id=23></b><br><br>Gunstar_Heroes<br><b id=141></b><b id='3'>3</b><b id=2>2</b><br><br>MakaiMura<br><b id=30></b><b id=16></b><b id=11></b><b id=10></b><br><br>Sega Master System<br><b id=135></b><b id=58></b><b id=57></b><b id=55></b><br><br>NES<br><b id=134></b><b id=111></b><b id=73></b><b id=72></b><b id=61></b><b id=46></b><b id=7></b><b id=4></b><br><br>Super NES<br><b id=144></b><b id=143></b><b id=142></b><b id=140></b><b id=139></b><b id=138></b><b id=137></b><b id=132></b><b id=130></b><b id=128></b><b id=126></b><b id=115></b><b id=113></b><b id=108></b><b id=107></b><b id=106></b><b id=103></b><b id=102></b><b id=101></b><b id=93></b><b id=89></b><b id=86></b><b id=84></b><b id=75></b><b id=54></b><b id=53></b><b id=52></b><b id=28></b><b id=5></b><br><br>Other systems<br><b id=148></b><b id=147></b><b id=146></b><b id=145></b><b id=131></b><b id=125></b><b id=124></b><b id=122></b><b id=121></b><b id=118></b><b id=117></b><b id=105></b><b id=104></b><b id=99></b><b id=98></b><b id=97></b><b id=85></b><b id=83></b><b id=82></b><b id=81></b><b id=80></b><b id=79></b><b id=78></b><b id=76></b><b id=74></b><b id=71></b><b id=50></b><b id=49></b><b id=48></b><b id=47></b><b id=43></b><b id=42></b><b id=41></b><b id=40></b><b id=32></b><b id=29></b><b id=26></b><b id=13></b><b id=6></b><br><br>Crafted<br><b id=129></b><b id=120></b><b id=109></b><b id=100></b><b id=94></b><b id=92></b><b id=68></b><b id=56></b><b id=51></b><b id=45></b><b id=39></b><b id=31></b><b id=21></b><b id=20></b><b id=18></b><b id=17></b><b id=12></b><b id=1></b><br><br>Hentai?<br><b id=88></b><b id=87></b><b id=69></b><b id=35></b><b id=34></b><b id=33></b><b id=19></b><b id=14></b><br><br><a target='_blank' href='https://www.mediafire.com/folder/s7zo0845d1flx/WarehouseSTG'><b>Warehouse</b><br><img src=https://i.imgur.com/W67CaVW.png width='200'></a><br><br><a target='_blank' href='https://drive.google.com/drive/folders/1HjhMircWVCHD564TD-HnbVD-atSUij9A?usp=drive_link'><b>W.I.P?</b><br><img src=https://i.imgur.com/sZGCE81.png width='200'></a><br><br><input type=button onClick='ppmain(1)' value='.Clean.'><br></font><tr></table>"
+document.getElementById('principal').innerHTML="<table border=0><td align=right width=500><h1><b>StageS</b></h1><a target='_blank' href='https://ln.sync.com/dl/b4dde8c10/7mr9qfnj-gnz7925k-4pkufi7w-wz99zhw9'><img src=https://i.imgur.com/QPa6H3A.png class='rbutton'></a><br><br><input type=button onClick='menustage2()' value='by_date'><br><br>Arcades<br><b id=123></b><b id=116></b><b id=114></b><b id=112></b><b id=91></b><b id=90></b><b id=77></b><b id=63></b><b id=62></b><b id=59></b><b id=44></b><b id=38></b><b id=37></b><b id=36></b><b id=15></b><b id=9></b><br><br>Sega Genesis<br><b id=149></b><b id=96></b><b id=64></b><b id=27></b><b id=24></b><b id=22></b><b id=8></b><b id=127></b><br><br>Sonic<br><b id=136></b><b id=133></b><b id=119></b><b id=110></b><b id=95></b><b id=70></b><b id=67></b><b id=66></b><b id=65></b><b id=60></b><b id=25></b><b id=23></b><br><br>Gunstar_Heroes<br><b id=141></b><b id=3></b><b id=2></b><br><br>MakaiMura<br><b id=30></b><b id=16></b><b id=11></b><b id=10></b><br><br>Sega Master System<br><b id=135></b><b id=58></b><b id=57></b><b id=55></b><br><br>NES<br><b id=134></b><b id=111></b><b id=73></b><b id=72></b><b id=61></b><b id=46></b><b id=7></b><b id=4></b><br><br>Super NES<br><b id=144></b><b id=143></b><b id=142></b><b id=140></b><b id=139></b><b id=138></b><b id=137></b><b id=132></b><b id=130></b><b id=128></b><b id=126></b><b id=115></b><b id=113></b><b id=108></b><b id=107></b><b id=106></b><b id=103></b><b id=102></b><b id=101></b><b id=93></b><b id=89></b><b id=86></b><b id=84></b><b id=75></b><b id=54></b><b id=53></b><b id=52></b><b id=28></b><b id=5></b><br><br>Other systems<br><b id=148></b><b id=147></b><b id=146></b><b id=145></b><b id=131></b><b id=125></b><b id=124></b><b id=122></b><b id=121></b><b id=118></b><b id=117></b><b id=105></b><b id=104></b><b id=99></b><b id=98></b><b id=97></b><b id=85></b><b id=83></b><b id=82></b><b id=81></b><b id=80></b><b id=79></b><b id=78></b><b id=76></b><b id=74></b><b id=71></b><b id=50></b><b id=49></b><b id=48></b><b id=47></b><b id=43></b><b id=42></b><b id=41></b><b id=40></b><b id=32></b><b id=29></b><b id=26></b><b id=13></b><b id=6></b><br><br>Crafted<br><b id=129></b><b id=120></b><b id=109></b><b id=100></b><b id=94></b><b id=92></b><b id=68></b><b id=56></b><b id=51></b><b id=45></b><b id=39></b><b id=31></b><b id=21></b><b id=20></b><b id=18></b><b id=17></b><b id=12></b><b id=1></b><br><br>Hentai?<br><b id=88></b><b id=87></b><b id=69></b><b id=35></b><b id=34></b><b id=33></b><b id=19></b><b id=14></b><br><br><a target='_blank' href='https://www.mediafire.com/folder/s7zo0845d1flx/WarehouseSTG'><b>Warehouse</b><br><img src=https://i.imgur.com/W67CaVW.png width='200'></a><br><br><a target='_blank' href='https://drive.google.com/drive/folders/1HjhMircWVCHD564TD-HnbVD-atSUij9A?usp=drive_link'><b>W.I.P?</b><br><img src=https://i.imgur.com/sZGCE81.png width='200'></a><br><br><input type=button onClick='ppmain(1)' value='.Clean.'><br></font><tr></table>"
 btnnew.disabled=false;
 btnchar.disabled=false;
 btnstg.disabled=true;
@@ -66,6 +66,7 @@ tempo=setTimeout('viytmisc()',50000); //vichar -> vistg -> viytmisc
 // Stage database
 function stage(numero,cod) {
 youtube='dQw4w9WgXcQ';
+zpoints=0;
 //rng
 //if (numero<(numStages-10) && cod==2){
 //cod=cod-(Math.floor(Math.random() * 2));
@@ -111,7 +112,7 @@ case 13:
 mydiv='Ulu_City',imgur='RnyPbox.gif',youtube='ItObX-W-pBE',gdrv='1RdyfNVA4Dx7yAjUUewun8EhSeD6DGqhH'
 break;
 case 14:
-mydiv='Stage_Etna',imgur='wUfekDC.png',youtube='r5nPcz3zcyY',gdrv='13vZUJmD97XnsU5JMdwdutcUniuPr6Pd5'
+mydiv='Stage_Etna',imgur='wUfekDC.png',youtube='r5nPcz3zcyY',gdrv='13vZUJmD97XnsU5JMdwdutcUniuPr6Pd5',zpoints=10000
 break;
 case 15:
 mydiv='Ancient_Shadows',imgur='9QvIahU.gif',youtube='XPhPzGHhvVE',gdrv='18ucHZ1wXVEmX40FO3J5LCf1M7k_ao4ib'
@@ -334,10 +335,10 @@ case 86:
 mydiv='mm7_Graveyard',imgur='fZpRFsG.png',youtube='2mR2aCY9NZQ',gdrv='1crKBwVmyfnbYB2mphTnw4WZswYAwE1nq'
 break;
 case 87:
-mydiv='Stage_hentai1',imgur='HqsZCtH.png',youtube='dQw4w9WgXcQ',gdrv='1ad6huW7vqhAdZg677FmxgEmSOZ1eab9H'
+mydiv='Stage_hentai1',imgur='HqsZCtH.png',youtube='dQw4w9WgXcQ',gdrv='1ad6huW7vqhAdZg677FmxgEmSOZ1eab9H',zpoints=10000
 break;
 case 88:
-mydiv='Stage_hentai2',imgur='AYGqEmn.png',youtube='dQw4w9WgXcQ',gdrv='18FhvNthzjJfmz4FkfcWRe0Xxe9VhOFRL'
+mydiv='Stage_hentai2',imgur='AYGqEmn.png',youtube='dQw4w9WgXcQ',gdrv='18FhvNthzjJfmz4FkfcWRe0Xxe9VhOFRL',zpoints=10000
 break;
 case 89:
 mydiv='Tyrone',imgur='qMVo2hp.png',youtube='p8DsK-JZX-g',gdrv='1OlD0wc2dK0fXsFA6o8kolBRguwTrzVI6'
@@ -548,7 +549,9 @@ bannerImg='wani-shima.sakura.ne.jp/kyouryuubana.jpg';
 }
 switch (cod) {
 case 1:
+if ( (zpoints==0) || (playerOne[0] >= zpoints) ) {
 document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+" onClick='stage("+numero+",2)' title="+mydiv+" class='button' width='125'>" //250
+}
 break;
 case 2:
 document.getElementById(numero).innerHTML="<br><iframe src=https://www.youtube.com/embed/"+youtube+" width='430' height='240' frameborder='0'></iframe><br><b>"+mydiv+"</b><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a><br>"
