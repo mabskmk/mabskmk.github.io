@@ -263,7 +263,7 @@ case 62:
 mydiv='8_Street',imgur='WIfJ5MG.png',youtube='pFcmoRFlAo0',gdrv='1ISZE3Ao87Muw6Tzm-X354goNBesxcVJX'
 break;
 case 63:
-mydiv='Ruins_of_Metro',imgur='IGsMDvn.png',youtube='OP2u-24_CV8',gdrv='15Y7stedmBIO0x5nDSBnb8FeT2R9EVNXF'
+mydiv='Ruins_of_Metro',imgur='IGsMDvn.png',youtube='iplnwb1SrZU',gdrv='15Y7stedmBIO0x5nDSBnb8FeT2R9EVNXF'
 break;
 case 64:
 mydiv='Z-Leo',imgur='MbtkMgt.png',youtube='nYzWMxX54NU',gdrv='1OkIpLS0e62aq2uG3QWvMBRhhyIOERn4L',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png'
