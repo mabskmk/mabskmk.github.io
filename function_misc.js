@@ -7,7 +7,8 @@ var checkMisc = new Array((numExtras)+1);
 // Function to play a random video
 function viytmisc() {
 mydiv='';youtube='';link='';
-
+clearTimeout(tempo);
+	
 	// Disable the function when leaving the showcase
 	if (btnnew.disabled==false) {return;}
 
@@ -83,5 +84,5 @@ bannerImg='i.imgur.com/qV3Q36A.gif';
 }
 document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+"&autoplay=1&mute=1 width='500'   height='300' frameborder='0' title="+mydiv+"></iframe><br><a target='_blank' href=https://"+link+"><b>"+mydiv+"</b></a>"
 document.getElementById('banner').innerHTML="<a target='_blank' href=https://"+bannerHtml+"><img src=https://"+bannerImg+"></a>";
-tempo=setTimeout('vichar()',50000); //vichar -> vistg -> viytmisc
+var tempo=setTimeout('vichar()',50000); //vichar -> vistg -> viytmisc
 }
