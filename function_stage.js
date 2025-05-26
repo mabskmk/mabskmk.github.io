@@ -27,6 +27,7 @@ for (let x=numStages;x>0;x--) {stage((x),1)}
 
 // Function to play a random video
 function vistg() {
+clearTimeout(tempo);
 
 	// Disable the function when leaving the showcase
 	if (btnnew.disabled==false) {return;}
@@ -58,7 +59,7 @@ document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.yout
 }
 
 document.getElementById('banner').innerHTML="<a target='_blank' href=https://"+bannerHtml+"><img src=https://"+bannerImg+"></a>";
-tempo=setTimeout('viytmisc()',50000); //vichar -> vistg -> viytmisc 
+var tempo=setTimeout('viytmisc()',50000); //vichar -> vistg -> viytmisc 
 
 }
 
