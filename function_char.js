@@ -18,6 +18,7 @@ char(54,2); //temp
 
 // Function to play a random video
 function vichar() {
+clearTimeout(tempo);
 
 	// Disable the function when leaving the showcase
 	if (btnnew.disabled==false) {return;}
@@ -49,7 +50,7 @@ document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.yout
 }
 
 document.getElementById('banner').innerHTML="<a target='_blank' href=https://"+bannerHtml+"><img src=https://"+bannerImg+"></a>";
-tempo=setTimeout('vistg()',50000); //vichar -> vistg -> viytmisc
+var tempo=setTimeout('vistg()',50000); //vichar -> vistg -> viytmisc
 
 }
 
