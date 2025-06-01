@@ -375,7 +375,7 @@ case 84:
 mydiv='GoingThroughHell',imgur='rgY553Q.png',youtube='-7moCk_iVp8',gdrv='1B-9djPWc599QfAckvePBlZc7-juAG5FH'
 break;
 case 85:
-mydiv='TerrariC',imgur='kgIqfzU.png',youtube='S_lShswZPm0',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg'
+mydiv='TerrariC',imgur='kgIqfzU.png',youtube='0dzmW46JAQw',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg'
 break;
 case 86:
 mydiv='mm7_Graveyard',imgur='fZpRFsG.png',youtube='2mR2aCY9NZQ',gdrv='1crKBwVmyfnbYB2mphTnw4WZswYAwE1nq'
