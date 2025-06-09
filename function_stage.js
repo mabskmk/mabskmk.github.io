@@ -297,7 +297,7 @@ case 61:
 mydiv='Monster_Party',imgur='lWi1U0G.gif',youtube='Vabz-SaEuHg',gdrv='10RxGf32a_aMFNu98zO5chUkP0r89vQ_i'
 break;
 case 62:
-mydiv='8_Street',imgur='WIfJ5MG.png',youtube='pFcmoRFlAo0',gdrv='1ISZE3Ao87Muw6Tzm-X354goNBesxcVJX'
+mydiv='8_Street',imgur='WIfJ5MG.png',youtube='nn0TSPK1B3A',gdrv='1ISZE3Ao87Muw6Tzm-X354goNBesxcVJX'
 break;
 case 63:
 mydiv='Ruins_of_Metro',imgur='IGsMDvn.png',youtube='iplnwb1SrZU',gdrv='15Y7stedmBIO0x5nDSBnb8FeT2R9EVNXF'
