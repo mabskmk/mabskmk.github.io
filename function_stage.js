@@ -303,7 +303,7 @@ case 63:
 mydiv='Ruins_of_Metro',imgur='IGsMDvn.png',youtube='iplnwb1SrZU',gdrv='15Y7stedmBIO0x5nDSBnb8FeT2R9EVNXF'
 break;
 case 64:
-mydiv='Z-Leo',imgur='MbtkMgt.png',youtube='nYzWMxX54NU',gdrv='1OkIpLS0e62aq2uG3QWvMBRhhyIOERn4L',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png'
+mydiv='Z-Leo',imgur='MbtkMgt.png',youtube='CwslwMTU0DA',gdrv='1OkIpLS0e62aq2uG3QWvMBRhhyIOERn4L',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png'
 break;
 case 65:
 mydiv='Labyrinth_Zone',imgur='Rfv7CCF.png',youtube='PypFGdvf8zo',gdrv='1zWWD2hpbTetEEOYYqxxyC2Lv9GMYKMHD'
