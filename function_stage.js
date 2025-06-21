@@ -566,7 +566,7 @@ case 138:
 mydiv='Psycho_Wasp',imgur='66f1HbI.png',youtube='W6WeXD40IT8',gdrv='1O3mXmF_II1f_yuL-7yOdOCZffCMP_ipZ'
 break;
 case 139:
-mydiv='Shockman',imgur='TvKpECK.gif',gdrv='1M8Qb9lOi0kiJS0-i2tMwVLTrrbRD2_W3',bannerHtml='wani-shima.sakura.ne.jp',bannerImg='wani-shima.sakura.ne.jp/kyouryuubana.jpg'
+mydiv='Shockman',imgur='TvKpECK.gif',gdrv='1M8Qb9lOi0kiJS0-i2tMwVLTrrbRD2_W3',bannerHtml='wani-shima.sakura.ne.jp/MUGEN.html',bannerImg='wani-shima.sakura.ne.jp/kyouryuubana.jpg'
 rand=(Math.floor(Math.random()*2));
 	if (rand==0) {youtube='WUyja03f-Es';}
 	if (rand==1) {youtube='ZvaclGSnzeY';}
@@ -608,7 +608,7 @@ case 0:
 mydiv=''
 }
 if (bannerHtml==''){
-bannerHtml='wani-shima.sakura.ne.jp';
+bannerHtml='wani-shima.sakura.ne.jp/MUGEN.html';
 bannerImg='wani-shima.sakura.ne.jp/kyouryuubana.jpg';
 }
 switch (cod) {
