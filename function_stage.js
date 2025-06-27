@@ -368,7 +368,7 @@ break;
 case 83:
 mydiv='Isamu_Game',imgur='xEfYQyh.gif',gdrv='1NMp-yMb7ykkUeZdbjwRKssVn0VVHLbSY',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='https://i.imgur.com/8J4NDcA.png'
 rand=(Math.floor(Math.random()*2));
-	if (rand==0) {youtube='GkghboF6Wrg';}
+	if (rand==0) {youtube='Onvotgq97eQ';}
 	if (rand==1) {youtube='lpssRBcifAA';}
 break;
 case 84:
