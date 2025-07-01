@@ -87,7 +87,7 @@ case 3:
 mydiv='Force_Mine',imgur='QVjmOo1.png',youtube='E1pig0Bt4xs',gdrv='1YhNUX_0osdyDKucya4xLUMGDrKt5MVO0',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png'
 break;
 case 4:
-mydiv='Vegetable_Valley',imgur='L0okcXj.gif',gdrv='168fKeVWT3Wz8ZsiH15brYFZePJ3WvsLz',bannerHtml='mugen-restaurant.jp/',bannerImg='https://i.imgur.com/GXjxQXs.png'
+mydiv='Vegetable_Valley',imgur='L0okcXj.gif',gdrv='168fKeVWT3Wz8ZsiH15brYFZePJ3WvsLz',bannerHtml='mugen-restaurant.jp/',bannerImg='i.imgur.com/GXjxQXs.png'
 rand=(Math.floor(Math.random()*2));
 	if (rand==0) {youtube='u1F_oNZ6NIE';}
 	if (rand==1) {youtube='MBAFqfezeMI';}
@@ -111,19 +111,19 @@ case 10:
 mydiv='Crystal_Forest',imgur='b3DTdKy.png',youtube='8EssnxUl2EI',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO'
 break;
 case 11:
-mydiv='Tower_of_Succubus',imgur='6esytlH.png',youtube='oLHqK4ONhJc',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO',bannerHtml='https://mugedoso.web.fc2.com/nhk/index.html',bannerImg='https://i.imgur.com/mXtDvrn.png'
+mydiv='Tower_of_Succubus',imgur='6esytlH.png',youtube='oLHqK4ONhJc',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO',bannerHtml='mugedoso.web.fc2.com/nhk/index.html',bannerImg='i.imgur.com/mXtDvrn.png'
 break;
 case 12:
 mydiv='GORN',imgur='3zvtOl9.png',youtube='a-xKiNZxt_I',gdrv='1I96lvaw2ZqwwlzyCh9GiD7pmgYvaMrqs'
 break;
 case 13:
-mydiv='Ulu_City',imgur='RnyPbox.gif',gdrv='1RdyfNVA4Dx7yAjUUewun8EhSeD6DGqhH',bannerHtml='mugen-restaurant.jp/',bannerImg='https://i.imgur.com/GXjxQXs.png'
+mydiv='Ulu_City',imgur='RnyPbox.gif',gdrv='1RdyfNVA4Dx7yAjUUewun8EhSeD6DGqhH',bannerHtml='mugen-restaurant.jp/',bannerImg='i.imgur.com/GXjxQXs.png'
 rand=(Math.floor(Math.random()*2));
 	if (rand==0) {youtube='ItObX-W-pBE';}
 	if (rand==1) {youtube='9MNL2z6N7Is';}
 break;
 case 14:
-mydiv='Stage_Etna',imgur='wUfekDC.png',youtube='r5nPcz3zcyY',gdrv='13vZUJmD97XnsU5JMdwdutcUniuPr6Pd5',zpoints=10000,bannerHtml='https://mugedoso.web.fc2.com/nhk/index.html',bannerImg='https://i.imgur.com/mXtDvrn.png'
+mydiv='Stage_Etna',imgur='wUfekDC.png',youtube='r5nPcz3zcyY',gdrv='13vZUJmD97XnsU5JMdwdutcUniuPr6Pd5',zpoints=10000,bannerHtml='mugedoso.web.fc2.com/nhk/index.html',bannerImg='i.imgur.com/mXtDvrn.png'
 break;
 case 15:
 mydiv='Ancient_Shadows',imgur='9QvIahU.gif',youtube='XPhPzGHhvVE',gdrv='18ucHZ1wXVEmX40FO3J5LCf1M7k_ao4ib'
@@ -132,7 +132,7 @@ case 16:
 mydiv='Burning_Village',imgur='pSV0xV2.png',youtube='5aP8yGluMuA',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO'
 break;
 case 17:
-mydiv='Death_Star_3',imgur='tieF0Cw.png',youtube='BZD4XUBHid4',gdrv='1cy-n32Funvw1ktwXoMU5_OX3Ox6D0kfk',bannerHtml='https://mugedoso.web.fc2.com/nhk/index.html',bannerImg='https://i.imgur.com/mXtDvrn.png'
+mydiv='Death_Star_3',imgur='tieF0Cw.png',youtube='BZD4XUBHid4',gdrv='1cy-n32Funvw1ktwXoMU5_OX3Ox6D0kfk',bannerHtml='mugedoso.web.fc2.com/nhk/index.html',bannerImg='i.imgur.com/mXtDvrn.png'
 break;
 case 18:
 mydiv='CDB',imgur='AaxPzr9.gif',gdrv='193jWOMqr2J3k5F0nyUbPEQGEmFtenT-p'
@@ -162,13 +162,13 @@ case 25:
 mydiv='Oil_Ocean',imgur='pcjB4Sm.png',youtube='5qwkqiCIPBk',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa'
 break;
 case 26:
-mydiv='Moai_ruin',imgur='aen5RVb.gif',gdrv='1HCbYOLepWExO6LUFPiMweydWVgAjYCvu',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='https://i.imgur.com/8J4NDcA.png'
+mydiv='Moai_ruin',imgur='aen5RVb.gif',gdrv='1HCbYOLepWExO6LUFPiMweydWVgAjYCvu',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='i.imgur.com/8J4NDcA.png'
 rand=(Math.floor(Math.random()*2));
 	if (rand==0) {youtube='Vem04FZhZaI';}
 	if (rand==1) {youtube='TpjLgFBxD68';}
 break;
 case 27:
-mydiv='X_Granada',imgur='7VMUvKp.png',youtube='i3YqRlxk9Wo',gdrv='19DwhFwCvUL9yOyNktgjMhFB1Vx4kuxIb',bannerHtml='https://mugedoso.web.fc2.com/nhk/index.html',bannerImg='https://i.imgur.com/mXtDvrn.png'
+mydiv='X_Granada',imgur='7VMUvKp.png',youtube='i3YqRlxk9Wo',gdrv='19DwhFwCvUL9yOyNktgjMhFB1Vx4kuxIb',bannerHtml='mugedoso.web.fc2.com/nhk/index.html',bannerImg='i.imgur.com/mXtDvrn.png'
 break;
 case 28:
 mydiv='Planet_Prision',imgur='1TljLfd.png',youtube='DObjw9nB4HM',gdrv='1JhnQx-GmJzmJfnzZk7njhhjH-ouv4Aiy'
@@ -246,13 +246,13 @@ rand=(Math.floor(Math.random()*2));
 	if (rand==1) {youtube='SaM5z-hgElU';}
 break;
 case 47:
-mydiv='Arena',imgur='2kXqJTC.png',youtube='Ks5OQOeheTA',gdrv='12hO-ATk2ljQrhaHB9BUrF5Vqx3C9xOHR',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='https://i.imgur.com/8J4NDcA.png'
+mydiv='Arena',imgur='2kXqJTC.png',youtube='Ks5OQOeheTA',gdrv='12hO-ATk2ljQrhaHB9BUrF5Vqx3C9xOHR',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='i.imgur.com/8J4NDcA.png'
 break;
 case 48:
 mydiv='Stage_Draco',imgur='1jmQ14m.png',youtube='tvqiT8S4sbs',gdrv='1EUlp0lxtk9rVYnVcGXHuiZL4TpoEF6Hu'
 break;
 case 49:
-mydiv='Metal_Gun',imgur='ZisA65d.gif',gdrv='1PrKFYlEcoYQD1OSgOScH_J-HNdFfKnnl',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='https://i.imgur.com/8J4NDcA.png'
+mydiv='Metal_Gun',imgur='ZisA65d.gif',gdrv='1PrKFYlEcoYQD1OSgOScH_J-HNdFfKnnl',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='i.imgur.com/8J4NDcA.png'
 rand=(Math.floor(Math.random()*2));
 	if (rand==0) {youtube='8G-MzU_7l2A';}
 	if (rand==1) {youtube='_jZ_SDqciY0';}
@@ -327,7 +327,7 @@ case 71:
 mydiv='Tower_of_MORGUL',imgur='36jrd6T.png',youtube='gf2Msy4AqTY',gdrv='1-NKnO4xFHRgjm3PZRhHC-K5EF6ukcb9Q'
 break;
 case 72:
-mydiv='Cilia_Monster',imgur='hzdVhqX.png',youtube='TgOKrZjGvWc',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='https://i.imgur.com/8J4NDcA.png'
+mydiv='Cilia_Monster',imgur='hzdVhqX.png',youtube='TgOKrZjGvWc',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='i.imgur.com/8J4NDcA.png'
 break;
 case 73:
 mydiv='Galatic-Night-Club',imgur='9mhQVWp.png',youtube='OwwI5ruoW6Y',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n'
@@ -366,7 +366,7 @@ case 82:
 mydiv='Axel_City',imgur='Isbps72.png',youtube='J5ZZnyr_fBY',gdrv='1oRKGQfLQT6WBWq3DdKwKelUOHr1-iz7y'
 break;
 case 83:
-mydiv='Isamu_Game',imgur='xEfYQyh.gif',gdrv='1NMp-yMb7ykkUeZdbjwRKssVn0VVHLbSY',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='https://i.imgur.com/8J4NDcA.png'
+mydiv='Isamu_Game',imgur='xEfYQyh.gif',gdrv='1NMp-yMb7ykkUeZdbjwRKssVn0VVHLbSY',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='i.imgur.com/8J4NDcA.png'
 rand=(Math.floor(Math.random()*2));
 	if (rand==0) {youtube='Onvotgq97eQ';}
 	if (rand==1) {youtube='lpssRBcifAA';}
@@ -411,7 +411,7 @@ case 96:
 mydiv='Weve-got-Shadowmans',imgur='Qqql4Ve.png',youtube='ohkTUKuFQ4k',gdrv='15_kwqkbcgY4Du6s3b-9yZuaX36nTIwit'
 break;
 case 97:
-mydiv='FFSTAGE',imgur='STyoeBm.png',youtube='-32GbG3IHQs',gdrv='1mG8IPSYojKo6BeRbCM_RMCOpuI1gDusA',bannerHtml='https://mugedoso.web.fc2.com/nhk/index.html',bannerImg='https://i.imgur.com/mXtDvrn.png'
+mydiv='FFSTAGE',imgur='STyoeBm.png',youtube='-32GbG3IHQs',gdrv='1mG8IPSYojKo6BeRbCM_RMCOpuI1gDusA',bannerHtml='mugedoso.web.fc2.com/nhk/index.html',bannerImg='i.imgur.com/mXtDvrn.png'
 break;
 case 98:
 mydiv='Naga_Valley',imgur='33JcF6I.png',youtube='6Eqt_aJtzdA',gdrv='19MzXevUjD7B1OWGXagW2TejZZGzv-23W'
@@ -471,7 +471,7 @@ case 115:
 mydiv='Gourmet_Street',imgur='0a7Nif5.png',youtube='phr598M8Gbw',gdrv='1UuakIrQFtW1CO9dpSEOEgclugBfcI3TM'
 break;
 case 116:
-mydiv='ZeroCastle',imgur='tP99cjE.gif',gdrv='1B5zWBNVlpHFng28YeXLoqXhTqk41G5Gt',bannerHtml='https://mugedoso.web.fc2.com/nhk/index.html',bannerImg='https://i.imgur.com/mXtDvrn.png'
+mydiv='ZeroCastle',imgur='tP99cjE.gif',gdrv='1B5zWBNVlpHFng28YeXLoqXhTqk41G5Gt',bannerHtml='mugedoso.web.fc2.com/nhk/index.html',bannerImg='i.imgur.com/mXtDvrn.png'
 rand=(Math.floor(Math.random()*2));
 	if (rand==0) {youtube='G8PnX8z6xmk';}
 	if (rand==1) {youtube='op5zYNkXGsk';}
