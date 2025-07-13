@@ -168,7 +168,7 @@ rand=(Math.floor(Math.random()*2));
 	if (rand==1) {youtube='TpjLgFBxD68';}
 break;
 case 27:
-mydiv='X_Granada',imgur='7VMUvKp.png',youtube='i3YqRlxk9Wo',gdrv='19DwhFwCvUL9yOyNktgjMhFB1Vx4kuxIb',bannerHtml='mugedoso.web.fc2.com/nhk/index.html',bannerImg='i.imgur.com/mXtDvrn.png'
+mydiv='X_Granada',imgur='7VMUvKp.png',youtube='nC-sOsKooqs',gdrv='19DwhFwCvUL9yOyNktgjMhFB1Vx4kuxIb',bannerHtml='mugedoso.web.fc2.com/nhk/index.html',bannerImg='i.imgur.com/mXtDvrn.png'
 break;
 case 28:
 mydiv='Planet_Prision',imgur='1TljLfd.png',youtube='DObjw9nB4HM',gdrv='1JhnQx-GmJzmJfnzZk7njhhjH-ouv4Aiy'
@@ -219,7 +219,7 @@ rand=(Math.floor(Math.random()*4));
 	if (rand==3) {youtube='bOLL9cqZU9Y';}
 break;
 case 41:
-mydiv='The_bronze_auditorium',imgur='tMOSb03.png',youtube='QK_QRqgsj7A',gdrv='1Xfo5mGiR1HBudXTIPk4iPRQUpHiyEVKB'
+mydiv='The_bronze_auditorium',imgur='tMOSb03.png',youtube='-G9PJB8iy2g',gdrv='1Xfo5mGiR1HBudXTIPk4iPRQUpHiyEVKB'
 break;
 case 42:
 mydiv='secretvillage',imgur='qfpb7XO.gif',youtube='TmWgpamHDrs',gdrv='1x0w8xldkvUZWbuO4ixG2DlsoQaLGGTBi'
