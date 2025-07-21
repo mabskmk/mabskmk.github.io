@@ -363,7 +363,7 @@ case 81:
 mydiv='Battle_Capacity',imgur='ulhRFM8.gif',youtube='hs12EKYpDAQ',gdrv='1dAQDOMPQN_-9nEA8A_wZIAZW1eGZe8uR'
 break;
 case 82:
-mydiv='Axel_City',imgur='Isbps72.png',youtube='J5ZZnyr_fBY',gdrv='1oRKGQfLQT6WBWq3DdKwKelUOHr1-iz7y'
+mydiv='Axel_City',imgur='Isbps72.png',youtube='sC8500QoII0',gdrv='1oRKGQfLQT6WBWq3DdKwKelUOHr1-iz7y'
 break;
 case 83:
 mydiv='Isamu_Game',imgur='xEfYQyh.gif',gdrv='1NMp-yMb7ykkUeZdbjwRKssVn0VVHLbSY',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='i.imgur.com/8J4NDcA.png'
