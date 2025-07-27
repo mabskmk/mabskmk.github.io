@@ -246,7 +246,7 @@ rand=(Math.floor(Math.random()*2));
 	if (rand==1) {youtube='SaM5z-hgElU';}
 break;
 case 47:
-mydiv='Arena',imgur='2kXqJTC.png',youtube='Ks5OQOeheTA',gdrv='12hO-ATk2ljQrhaHB9BUrF5Vqx3C9xOHR',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='i.imgur.com/8J4NDcA.png'
+mydiv='Arena',imgur='2kXqJTC.png',youtube='gg7ou6CT5Kg',gdrv='12hO-ATk2ljQrhaHB9BUrF5Vqx3C9xOHR'
 break;
 case 48:
 mydiv='Stage_Draco',imgur='1jmQ14m.png',youtube='tvqiT8S4sbs',gdrv='1EUlp0lxtk9rVYnVcGXHuiZL4TpoEF6Hu'
