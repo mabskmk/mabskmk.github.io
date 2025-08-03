@@ -438,7 +438,7 @@ case 104:
 mydiv='Dead_Valley',imgur='Te6w5AS.png',youtube='HW4RCZfH5Ac',gdrv='1HPuR69GGT9DrhX8yWmgUNaaecSm0tbQA'
 break;
 case 105:
-mydiv='Draglade',imgur='V4OdAro.gif',youtube='zH8fwZ4BZ7A',gdrv='1nZhAFkIDKwLuuQqvokYSTLGWOxEm1NhH'
+mydiv='Draglade',imgur='V4OdAro.gif',youtube='-AwYHAyn8Ks',gdrv='1nZhAFkIDKwLuuQqvokYSTLGWOxEm1NhH'
 break;
 case 106:
 mydiv='GanbareGoemon',imgur='dgknaTO.png',youtube='FjtbGL18Ads',gdrv='17Oo7KMKs63Af0-C9e3Vj98s0T4wEOgWX'
@@ -631,3 +631,4 @@ break;
 // https://drive.google.com/uc?id="+gdrv+"
 // {window.open('https://www.dropbox.com/sh/4yvtvzi0bgvm6ky/AAD9c--Ke68LHTn2E1Nd3QVOa?dl=0','_blank')}
 // <iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1 width='430' height='240' frameborder='0'></iframe>
+
