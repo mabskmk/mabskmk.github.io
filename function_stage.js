@@ -171,7 +171,7 @@ case 27:
 mydiv='X_Granada',imgur='7VMUvKp.png',youtube='nC-sOsKooqs',gdrv='19DwhFwCvUL9yOyNktgjMhFB1Vx4kuxIb',bannerHtml='mugedoso.web.fc2.com/nhk/index.html',bannerImg='i.imgur.com/mXtDvrn.png'
 break;
 case 28:
-mydiv='Planet_Prision',imgur='1TljLfd.png',youtube='DObjw9nB4HM',gdrv='1JhnQx-GmJzmJfnzZk7njhhjH-ouv4Aiy'
+mydiv='Planet_Prision',imgur='1TljLfd.png',youtube='RIEjx8J7MQg',gdrv='1JhnQx-GmJzmJfnzZk7njhhjH-ouv4Aiy'
 break;
 case 29:
 mydiv='Mechanical_Fortress',imgur='pzjVrAw.gif',gdrv='1I0RUUylHjABYlAOii3XR5AZtwn4nBVPD'
@@ -438,7 +438,10 @@ case 104:
 mydiv='Dead_Valley',imgur='Te6w5AS.png',youtube='HW4RCZfH5Ac',gdrv='1HPuR69GGT9DrhX8yWmgUNaaecSm0tbQA'
 break;
 case 105:
-mydiv='Draglade',imgur='V4OdAro.gif',youtube='-AwYHAyn8Ks',gdrv='1nZhAFkIDKwLuuQqvokYSTLGWOxEm1NhH'
+mydiv='Draglade',imgur='V4OdAro.gif',gdrv='1nZhAFkIDKwLuuQqvokYSTLGWOxEm1NhH'
+rand=(Math.floor(Math.random()*2));
+	if (rand==0) {youtube='-AwYHAyn8Ks';}
+	if (rand==1) {youtube='kENu0ko1Rpk';}
 break;
 case 106:
 mydiv='GanbareGoemon',imgur='dgknaTO.png',youtube='FjtbGL18Ads',gdrv='17Oo7KMKs63Af0-C9e3Vj98s0T4wEOgWX'
@@ -631,5 +634,6 @@ break;
 // https://drive.google.com/uc?id="+gdrv+"
 // {window.open('https://www.dropbox.com/sh/4yvtvzi0bgvm6ky/AAD9c--Ke68LHTn2E1Nd3QVOa?dl=0','_blank')}
 // <iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1 width='430' height='240' frameborder='0'></iframe>
+
 
 
