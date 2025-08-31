@@ -108,7 +108,7 @@ case 9:
 mydiv='Slim_Subway_Smash',imgur='ZMRsPYv.png',youtube='kE7gqGSKloU',gdrv='11YnMUNCEu9_eMTGoxUSn6WWSDZPI6C4t'
 break;
 case 10:
-mydiv='Crystal_Forest',imgur='b3DTdKy.png',youtube='8EssnxUl2EI',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO'
+mydiv='Crystal_Forest',imgur='b3DTdKy.png',youtube='qual70IL254',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO'
 break;
 case 11:
 mydiv='Tower_of_Succubus',imgur='6esytlH.png',youtube='oLHqK4ONhJc',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO',bannerHtml='mugedoso.web.fc2.com/nhk/index.html',bannerImg='i.imgur.com/mXtDvrn.png'
@@ -634,6 +634,7 @@ break;
 // https://drive.google.com/uc?id="+gdrv+"
 // {window.open('https://www.dropbox.com/sh/4yvtvzi0bgvm6ky/AAD9c--Ke68LHTn2E1Nd3QVOa?dl=0','_blank')}
 // <iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1 width='430' height='240' frameborder='0'></iframe>
+
 
 
 
