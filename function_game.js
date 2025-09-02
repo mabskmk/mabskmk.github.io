@@ -220,10 +220,10 @@ function drawCard() {
 	do {
 		botX = (Math.floor(Math.random()*9));
 	// Repeat if the card number is missing
-	}	while (cardArray[botX]==0); //{botX=(Math.floor(Math.random()*9));}
+	}	while (cardArray[botX]==0);
 
 	// Decreases the value of the card number
-	if (cardArray[botX]>0) {--(cardArray[botX]);}	//{cardArray[botX]=cardArray[botX]-1;}***
+	if (cardArray[botX]>0) {--(cardArray[botX]);}
 
     //It's one deck for both players
 
@@ -682,4 +682,5 @@ break;
 }
 return(imgur);
 }
+
 
