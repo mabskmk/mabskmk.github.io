@@ -217,13 +217,13 @@ return;
 function drawCard() {
 
 	// First random among the 9 numbers in the array
-	botX = (Math.floor(Math.random()*9));
-
+	do {
+		botX = (Math.floor(Math.random()*9));
 	// Repeat if the card number is missing
-	while (cardArray[botX]==0) {botX=(Math.floor(Math.random()*9));}
+	}	while (cardArray[botX]==0); //{botX=(Math.floor(Math.random()*9));}
 
 	// Decreases the value of the card number
-	if (cardArray[botX]>0) {cardArray[botX]=cardArray[botX]-1;}
+	if (cardArray[botX]>0) {--(cardArray[botX]);}	//{cardArray[botX]=cardArray[botX]-1;}***
 
     //It's one deck for both players
 
@@ -682,3 +682,4 @@ break;
 }
 return(imgur);
 }
+
