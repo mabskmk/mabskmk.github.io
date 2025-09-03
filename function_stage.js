@@ -599,7 +599,7 @@ case 146:
 mydiv='Ulu_City_2',imgur='9urjRsW.png',youtube='pNI6x0I--g0',gdrv='1KmBAayxkuuEeHgKN-gyZ-GXy_vsW2wOK'
 break;
 case 147:
-mydiv='MapleStory_Moon',imgur='lq3g3j8.png',youtube='TcftJ2bmK7w',gdrv='1CIejsSi-CPd-aK3LyyMstMP0iZCFoA3P'
+mydiv='MapleStory_Moon',imgur='lq3g3j8.png',youtube='dwhFZtP4nbQ',gdrv='1CIejsSi-CPd-aK3LyyMstMP0iZCFoA3P'
 break;
 case 148:
 mydiv='Soft_&_Cuddly',imgur='Q5vppKs.png',youtube='nkZCvcDhy7M',gdrv='1-wtDeg3G-pKsa3jX8nriaRjqHixSDOfA'
@@ -634,6 +634,7 @@ break;
 // https://drive.google.com/uc?id="+gdrv+"
 // {window.open('https://www.dropbox.com/sh/4yvtvzi0bgvm6ky/AAD9c--Ke68LHTn2E1Nd3QVOa?dl=0','_blank')}
 // <iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1 width='430' height='240' frameborder='0'></iframe>
+
 
 
 
