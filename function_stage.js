@@ -447,7 +447,7 @@ case 106:
 mydiv='GanbareGoemon',imgur='dgknaTO.png',youtube='FjtbGL18Ads',gdrv='17Oo7KMKs63Af0-C9e3Vj98s0T4wEOgWX'
 break;
 case 107:
-mydiv='Cry-of-the-Spirits',imgur='EO5HPUu.png',youtube='SOYi65MAbVc',gdrv='1SNobOvwGogN1h-hOF9Nzy7zn-lSZdfae',bannerHtml='sunnyworld.free.fr',bannerImg='i.imgur.com/gAsrMM0.png'
+mydiv='Cry-of-the-Spirits',imgur='EO5HPUu.png',youtube='ttCmtViRmj4',gdrv='1SNobOvwGogN1h-hOF9Nzy7zn-lSZdfae',bannerHtml='sunnyworld.free.fr',bannerImg='i.imgur.com/gAsrMM0.png'
 break;
 case 108:
 mydiv='Gourmet_Foot',imgur='53GMLf1.png',youtube='N7j8ndrcYlg',gdrv='1UuakIrQFtW1CO9dpSEOEgclugBfcI3TM'
@@ -634,6 +634,7 @@ break;
 // https://drive.google.com/uc?id="+gdrv+"
 // {window.open('https://www.dropbox.com/sh/4yvtvzi0bgvm6ky/AAD9c--Ke68LHTn2E1Nd3QVOa?dl=0','_blank')}
 // <iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1 width='430' height='240' frameborder='0'></iframe>
+
 
 
 
