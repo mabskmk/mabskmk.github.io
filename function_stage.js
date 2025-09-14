@@ -540,7 +540,7 @@ break;
 case 132:
 mydiv='Majyuuou',imgur='IPxOOKq.gif',gdrv='1OGF4O5R9EHDplwmpAb4lx58NaBC305Ag',bannerHtml='valgallah77.web.fc2.com/',bannerImg='i.imgur.com/q7RAxeG.png'
 rand=(Math.floor(Math.random()*2));
-	if (rand==0) {youtube='69mt8hiGTok';}
+	if (rand==0) {youtube='cLwgcHqQHLw';}
 	if (rand==1) {youtube='WZe72fldMQs';}
 break;
 case 133:
@@ -634,6 +634,7 @@ break;
 // https://drive.google.com/uc?id="+gdrv+"
 // {window.open('https://www.dropbox.com/sh/4yvtvzi0bgvm6ky/AAD9c--Ke68LHTn2E1Nd3QVOa?dl=0','_blank')}
 // <iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1 width='430' height='240' frameborder='0'></iframe>
+
 
 
 
