@@ -26,7 +26,7 @@ var hashTag=0;		//Geometric progression (1+2+4+8+16+32+64+128+256=511)
 // computerTime() - Computer plays
 // drawCard() - Draw a card
 // highCard() - Place the highest card on the big screen
-// seLect(0) - Reset image style
+// resetStyle() - Reset image style
 // seLect(botY) - Select one card (with css styles)
 // playSelect(botY) - Place the selected card on the table
 // calculatePoints(player,botX,botY,combo) - Honor points
@@ -135,7 +135,7 @@ document.getElementById(14).src = getImage(playerOne[14],1);
 document.getElementById(15).src = getImage(playerOne[15],1);
 
 // Reset image style
-	seLect(0);
+	resetStyle();
 
 // Computer receives 5 cards
 playerTwo[11]=drawCard();
@@ -293,7 +293,6 @@ function seLect(botX) {
 	document.getElementById(15).style = 'opacity: 0.5;';
 	}
 
-	//this function can only be used to reset the style ^
 	if (botX!=0 && actualPlayer==1) {
 	document.getElementById(botX).style = ''; //magic
 	cardSelect=botX;
@@ -310,6 +309,29 @@ function seLect(botX) {
 return;
 }
 
+//====================================================
+// [Reset Style] A proper way to change the styles
+//----------------------------------------------------
+
+function resetStyle() {
+
+	document.getElementById(1).style = '';
+	document.getElementById(2).style = '';
+	document.getElementById(3).style = '';
+	document.getElementById(4).style = '';
+	document.getElementById(5).style = '';
+	document.getElementById(6).style = '';
+	document.getElementById(7).style = '';
+	document.getElementById(8).style = '';
+	document.getElementById(9).style = '';
+
+	document.getElementById(11).style = 'opacity: 0.5;';
+	document.getElementById(12).style = 'opacity: 0.5;';
+	document.getElementById(13).style = 'opacity: 0.5;';
+	document.getElementById(14).style = 'opacity: 0.5;';
+	document.getElementById(15).style = 'opacity: 0.5;';
+
+}
 
 //====================================================
 // [Play selected card] onClick on the table
@@ -436,7 +458,7 @@ function reArrange(player) {
 		document.getElementById(x-1).src = getImage();
 		}
 	}
-	seLect(0); //reset the style	
+	resetStyle(); //reset the style	
 	
 	if (playerTwo[11]==-1) {playerTwo[11]=drawCard();} //draws at value 11
 	
@@ -682,5 +704,6 @@ break;
 }
 return(imgur);
 }
+
 
 
