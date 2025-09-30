@@ -1,4 +1,4 @@
-const numExtras=15;
+const numExtras=14;
 var bannerHtml='';
 var bannerImg='';
 var rand=0;
@@ -65,7 +65,7 @@ case 11:
 mydiv='MUGEN_means_INFINITY',youtube='1ZUwgwQQoTU?si=PjHwcYXOizpxsn4T&start=224&end=274'
 break;
 case 12:
-mydiv='Dougar_with_super_armor_soon',youtube='PzFymxJK-70?si=ePZfsY4u5EGKpwWZ'
+mydiv='Good_times',youtube='99FOYzN9U7A?si=5e2ZYNHH0WMbdX4P'
 break;
 case 13:
 mydiv='Arknights_ridiculous',youtube='c3IT6VnI5rw?si=o_a-I_IkEwjw5g4P&start=360&end=410'
@@ -73,10 +73,6 @@ break;
 case 14:
 mydiv='Roulette Mugen Compilation',youtube='TAOKhz_1Y_M?feature=shared'
 break;
-case 15:
-mydiv='Good_times',youtube='99FOYzN9U7A?si=5e2ZYNHH0WMbdX4P'
-break;
-
 }
 if (bannerHtml==''){
 bannerHtml='twitter.com/Zanmyo';
