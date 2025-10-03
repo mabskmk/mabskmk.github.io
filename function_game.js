@@ -150,49 +150,127 @@ playerTwo[15]=drawCard();
 
 
 //====================================================
-// [Computer plays]
+// [Computer plays] AI ver 3.10.2025
 //----------------------------------------------------
 
 async function computerTime() {
 
+let playingOffensive = new Array(9);
+let improvedRandom   = [];
+
+const matrixObjective = [
+	[1, 2, 3],
+	[4, 5, 6],
+	[7, 8, 9],
+	[1, 4, 7],
+	[2, 5, 8],
+	[3, 6, 9],
+	[1, 5, 9],
+	[3, 5, 7],
+];	
+
 if (actualPlayer==2) {
 
+	//-------------------------------------------------
+	//Reseting values jic
+	//-------------------------------------------------
+	improvedRandom   = [];
+	improvedRandom.length=0;
+
+	for (let a=0; a<9; a++) {
+		playingOffensive[a] = 0;
+	}
+	
 	botX=-1; //Random card in hand
 	botY=-1; //Random spot on the table
 	botZ=-1; //Perfect selection
+	//-------------------------------------------------
 
 
 	// W.O test (full table)
 	if (hashTag==511) {walkOver(2);}
 
 
-	// Choosing a card
-	while (botZ==-1) {
-
-		botX=(Math.floor(Math.random()*5)+11);
-		botY=(Math.floor(Math.random()*9)+1);
-
-		//The chosen spot is empty
-		if (playerTwo[botY]==-1 && playerOne[botY]==-1) {
-
-		await calculatePoints(2,(playerTwo[botX]),-1,0);
-		botZ = playerTwo[botX];
+	//-------------------------------------------------
+	// (AI) Looking for objectives
+	//-------------------------------------------------
+	for (let lin=0;lin<8;lin++) {
+	for (let col=0;col<3;col++) {
+		if ( playerTwo[ (matrixObjective[lin][col]) ] !=-1 ) {
+			playingOffensive[lin]=playingOffensive[lin]+1;
 		}
-
-		//The chosen spot contains the player's card and is smaller than your card 
-		if (playerOne[botY]!=-1 && playerTwo[botY]==-1 && (playerTwo[botX]>playerOne[botY])) {
-
-		await calculatePoints(2,(playerTwo[botX]),(playerOne[botY]),1);
-		playerOne[botY] = -1;
-		botZ = playerTwo[botX];
-		}
-	
 	}
+	}	
+	//-------------------------------------------------
 
-	//Take the card from your hand ***
+
+	//-------------------------------------------------
+	// (AI) Choosing the best objective
+	//-------------------------------------------------
+	for (let x=0; x<8; x++) {
+		if (playingOffensive[x] > botZ) {botZ = playingOffensive[x]};
+	}
+	//-------------------------------------------------
+
+
+	//-------------------------------------------------
+	// (AI) Creating a list of possibilities
+	//-------------------------------------------------
+	while (improvedRandom.length < 1) {
+	confirmation=0;
+	for (let celula=1;celula<10;celula++) {
+		
+		if (botZ!=0) {
+			
+			for (let lin=0; lin<8; lin++) {
+			for (let col=0; col<3; col++) {
+				if ( (matrixObjective[lin][col]==celula) && (playingOffensive[lin]==botZ) ) {
+
+					if (playerTwo[celula] == -1) {
+						if (playerOne[celula] == -1) {
+							improvedRandom.push(celula);
+						}
+						else if ( canOvercome(playerOne[celula]) ) { //***
+							improvedRandom.push(celula);
+						}
+					}
+				}
+			}
+			}
+		}
+		else {improvedRandom.push(celula);}
+		
+	}
+	if (improvedRandom.length < 1) {botZ--;}
+	}
+	//-------------------------------------------------
+
+
+
+	//-------------------------------------------------
+	// Choosing a card and spot
+	botX=(Math.floor(Math.random()*5)+11);
+
+	// Choosing a spot
+	botZ=(Math.floor(Math.random()*improvedRandom.length)); //(AI) possibilities
+	botY=improvedRandom[botZ];
+
+	//If the chosen spot isn't empty ***
+	if (playerOne[botY]!=-1) {
+		while (playerTwo[botX]<playerOne[botY]) {botX=(Math.floor(Math.random()*5)+11);}
+	}
+	//-------------------------------------------------
+
+
+	await calculatePoints(2,(playerTwo[botX]),(playerOne[botY]),((playerOne[botY]!=-1? 1 : 0)));
+	playerOne[botY] = -1;
+	botZ = playerTwo[botX];
+	
+
+	//Take the card from your hand
 	playerTwo[botX] = -1;
 
-	//And put it on the table ***
+	//And put it on the table
 	playerTwo[botY] = botZ;
 	document.getElementById(botY).src = getImage(botZ,2);
 
@@ -208,6 +286,20 @@ if (actualPlayer==2) {
 return;
 }
 
+//====================================================
+// [Can Overcome?] (AI)
+//----------------------------------------------------
+
+function canOvercome(card) {
+botX = -1;
+
+for (let x=11; x<16; x++) {
+if (playerTwo[x]>botX) {botX=playerTwo[x];}
+}
+
+if (botX > card) {return true;} else {return false;}
+
+}
 
 //====================================================
 // [Draw a card] 45 cards
@@ -704,6 +796,7 @@ break;
 }
 return(imgur);
 }
+
 
 
 
