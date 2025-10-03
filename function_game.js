@@ -256,7 +256,7 @@ if (actualPlayer==2) {
 
 	//If the chosen spot isn't empty ***
 	if (playerOne[botY]!=-1) {
-		while (playerTwo[botX]<playerOne[botY]) {botX=(Math.floor(Math.random()*5)+11);}
+		while (playerTwo[botX]<=playerOne[botY]) {botX=(Math.floor(Math.random()*5)+11);}
 	}
 	//-------------------------------------------------
 
@@ -795,6 +795,7 @@ break;
 }
 return(imgur);
 }
+
 
 
 
