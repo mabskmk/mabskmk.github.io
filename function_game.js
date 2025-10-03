@@ -217,7 +217,6 @@ if (actualPlayer==2) {
 	// (AI) Creating a list of possibilities
 	//-------------------------------------------------
 	while (improvedRandom.length < 1) {
-	confirmation=0;
 	for (let celula=1;celula<10;celula++) {
 		
 		if (botZ!=0) {
@@ -796,6 +795,7 @@ break;
 }
 return(imgur);
 }
+
 
 
 
