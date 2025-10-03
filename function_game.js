@@ -219,8 +219,8 @@ if (actualPlayer==2) {
 	while (improvedRandom.length < 1) {
 	for (let celula=1;celula<10;celula++) {
 		
-		if (botZ!=0) {
-			
+		//if (botZ!=0) {
+			matrix:
 			for (let lin=0; lin<8; lin++) {
 			for (let col=0; col<3; col++) {
 				if ( (matrixObjective[lin][col]==celula) && (playingOffensive[lin]==botZ) ) {
@@ -228,16 +228,18 @@ if (actualPlayer==2) {
 					if (playerTwo[celula] == -1) {
 						if (playerOne[celula] == -1) {
 							improvedRandom.push(celula);
+							break matrix;
 						}
 						else if ( canOvercome(playerOne[celula]) ) { //***
 							improvedRandom.push(celula);
+							break matrix;
 						}
 					}
 				}
 			}
 			}
-		}
-		else {improvedRandom.push(celula);}
+		//}
+		//else {improvedRandom.push(celula);}
 		
 	}
 	if (improvedRandom.length < 1) {botZ--;}
@@ -795,6 +797,7 @@ break;
 }
 return(imgur);
 }
+
 
 
 
