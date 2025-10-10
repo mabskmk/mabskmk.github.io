@@ -1,7 +1,7 @@
 
 b, a, a:visited, a:link {
   font-family: Papyrus, "Kingdom Elegant Serif", "Comic Sans MS";
-  color:green;
+  color:red;
   line-height: 1;
 }
 
@@ -105,3 +105,4 @@ body {
 h4 { color:#A54108; padding:0; }
 
 audio { width: 150px; }
+
