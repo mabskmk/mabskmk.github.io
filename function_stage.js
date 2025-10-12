@@ -181,7 +181,7 @@ rand=(Math.floor(Math.random()*3));
 	if (rand==2) {youtube='jcR8gWcPjOs';}
 break;
 case 30:
-mydiv='Haunted_Graveyard',imgur='OFjAdRB.png',youtube='12IsGm5ctK8',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO'
+mydiv='Haunted_Graveyard',imgur='OFjAdRB.png',youtube='YY3ipdzrKYc',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO'
 break;
 case 31:
 mydiv='NeonLight',imgur='vxBbbkP.png',youtube='H4r_22BklVg',gdrv='114xNnXpr_WCTn3IKkK9P_7SgzJu5-3z7'
@@ -634,6 +634,7 @@ break;
 // https://drive.google.com/uc?id="+gdrv+"
 // {window.open('https://www.dropbox.com/sh/4yvtvzi0bgvm6ky/AAD9c--Ke68LHTn2E1Nd3QVOa?dl=0','_blank')}
 // <iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1 width='430' height='240' frameborder='0'></iframe>
+
 
 
 
