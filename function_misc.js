@@ -35,7 +35,7 @@ case 1:
 mydiv='Check out my Bitchute channel',youtube='uzctO7j_1Sg?si=E-_6g4JTy7pjYPV5&start=180&end=230',link='www.bitchute.com/channel/LIy5FtdNRSH2';
 break;
 case 2:
-mydiv='Check out the 66th place in MAGMML2',youtube='0IACU-xea7o?si=Zw5JWWPj-H8A86Nc&start=737&end=787',link='magmmlcontest.com/wiki/index.php/Chomp_Man_(stage)'
+mydiv='Check out the 66th place in MAGMML2',youtube='0IACU-xea7o?si=Zw5JWWPj-H8A86Nc&start=737&end=787',link='magmmlcontest.com/wiki/index.php/Chomp_Man_(stage)',bannerHtml='www.sprites-inc.co.uk',bannerImg='i.imgur.com/RqfqBg1.png'
 break;
 case 3:
 mydiv='Check out this stage for Nemesis Online',youtube='vsisup-v2mk?si=3kCcOpLS6E_djvsE&start=101&end=151',link='www.remakesonline.com/nemesis/fase.php?fase=crystalforest'
