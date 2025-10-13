@@ -66,9 +66,9 @@ var tempo=setTimeout('viytmisc()',50000); //vichar -> vistg -> viytmisc
 
 // Stage database
 function stage(numero,cod) {
-let youtube='dQw4w9WgXcQ';
-let zpoints=0;
-let ytLink=0;
+youtube='dQw4w9WgXcQ';
+zpoints=0;
+ytLink=0;
 //rng
 //if (numero<(numStages-10) && cod==2){
 //cod=cod-(Math.floor(Math.random() * 2));
@@ -635,6 +635,7 @@ break;
 // https://drive.google.com/uc?id="+gdrv+"
 // {window.open('https://www.dropbox.com/sh/4yvtvzi0bgvm6ky/AAD9c--Ke68LHTn2E1Nd3QVOa?dl=0','_blank')}
 // <iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1 width='430' height='240' frameborder='0'></iframe>
+
 
 
 
