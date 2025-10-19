@@ -100,7 +100,7 @@ case 6:
 mydiv='Burning_Arena',imgur='Yfl1Ngj.png',youtube='24sis1Kf7Fw',gdrv='1LWy90J1QSC9Ljs6mNy4bpv7l-SQ7B7Sa'
 break;
 case 7:
-mydiv='Abadox',imgur='Ov5zTi6.png',youtube='WRswqM3An44',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n'
+mydiv='Abadox',imgur='Ov5zTi6.png',youtube='34sD_dPp3ds',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n'
 break;
 case 8:
 mydiv='Titans_forest',imgur='goFjeiV.png',youtube='AxGkuJ-HfO4',gdrv='1MRECApSGzHfDQzdnfQTrymNrRqx6Cw8x'
@@ -635,6 +635,7 @@ break;
 // https://drive.google.com/uc?id="+gdrv+"
 // {window.open('https://www.dropbox.com/sh/4yvtvzi0bgvm6ky/AAD9c--Ke68LHTn2E1Nd3QVOa?dl=0','_blank')}
 // <iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1 width='430' height='240' frameborder='0'></iframe>
+
 
 
 
