@@ -10,8 +10,8 @@ btnchar.disabled=true;
 btnstg.disabled=false;
 btnfullg.disabled=false;
 btnyotu.disabled=false;
-for (let x=numChars;x>0;x--) {char((x),1)}
-char(54,2); //temp
+for (let x=numChars;x>0;x--) {charData((x),1)}
+charData(54,2); //temp
 }
 
 // Function to play a random video
@@ -37,13 +37,13 @@ randomValue=(Math.floor(Math.random()*numChars)+1);
 
 
 // Get the values ​​of the respective video from the 'character database'
-char(randomValue,3);
+charData(randomValue,3);
 var tempo=setTimeout('showcaseStage()',50000); //showcaseCharacter -> showcaseStage -> showcaseMisc
 }
 
 
 // Character database
-function char(numero,code) {
+function charData(numero,code) {
 let bannerHtml	='';
 let bannerImg	='';
 let youtube		='7mFsq-ehdUI';
@@ -226,7 +226,7 @@ bannerImg='i.imgur.com/qV3Q36A.gif';
 //const mmObj = window.matchMedia('(max-width: 500px)');
 switch (code) {
 case 1:
-document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+".png onClick='char("+numero+",2)' class='rbutton' width=25 height=25><b>"+mydiv+"</b> "+game+" / "+ctype+" / Last update: "+lastupdate+"<br>"
+document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+".png onClick='charData("+numero+",2)' class='rbutton' width=25 height=25><b>"+mydiv+"</b> "+game+" / "+ctype+" / Last update: "+lastupdate+"<br>"
 break;
 case 2:
 	//if ( mmObj.matches ) {
@@ -259,6 +259,7 @@ elementos.forEach(elemento => {
 // https://drive.google.com/uc?id="+gdrv+"
 // {window.open('https://www.dropbox.com/sh/gqnzgea8ec80pvx/AACYMGQkTpC7rg6FcazaK-rPa?dl=0','_blank')}
 //<iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1 width='430' height='240' frameborder='0'></iframe>
+
 
 
 
