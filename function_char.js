@@ -1,7 +1,5 @@
 const numChars=54; 
-var bannerHtml='';
-var bannerImg='';
-var rand=0;
+var randomValue=0;
 var checkChar = new Array((numChars)+1);
 
 // Create the basic html
@@ -17,7 +15,7 @@ char(54,2); //temp
 }
 
 // Function to play a random video
-function vichar() {
+function showcaseCharacter() {
 clearTimeout(tempo);
 
 	// Disable the function when leaving the showcase
@@ -30,37 +28,29 @@ if (x==1 && checkChar[x]=='ok' ) {checkChar = [];}
 }
   
 // Set a randomValue
-rand=(Math.floor(Math.random()*numChars)+1);
+randomValue=(Math.floor(Math.random()*numChars)+1);
 
 	// Compare with checklist
-	while (rand>0 && checkChar[rand]=='ok') {rand=(Math.floor(Math.random()*numChars)+1);}
+	while (randomValue>0 && checkChar[randomValue]=='ok') {randomValue=(Math.floor(Math.random()*numChars)+1);}
 
-	if (rand>0 && checkChar[rand]!='ok') {checkChar[rand]='ok';}
+	if (randomValue>0 && checkChar[randomValue]!='ok') {checkChar[randomValue]='ok';}
 
 
 // Get the values ​​of the respective video from the 'character database'
-char(rand,3);
-
-
-if (youtube!='7mFsq-ehdUI'){
-document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+""+sufix+" width='500' height='300' frameborder='0'></iframe><br>CHAR ("+rand+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=CHAR_"+mydiv+"></a>"
-}
-else{
-document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/OyQa9DowOrQ?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Full-Game: <b>Steel Warriors</b> <a target='_blank' href=https://www.dropbox.com/s/hp2b158fiqff6he/MSW-Steel%20Warriors1.1.rar?dl=1><img src=https://i.imgur.com/pJFCm25.png title='Steel Warriors'></a>"
-}
-
-document.getElementById('banner').innerHTML="<a target='_blank' href=https://"+bannerHtml+"><img src=https://"+bannerImg+"></a>";
-var tempo=setTimeout('vistg()',50000); //vichar -> vistg -> viytmisc
-
+char(randomValue,3);
+var tempo=setTimeout('showcaseStage()',50000); //showcaseCharacter -> showcaseStage -> showcaseMisc
 }
 
 
 // Character database
-function char(numero,cod) {
-youtube='7mFsq-ehdUI';
-sufix='?autoplay=1&mute=1';
-gdrv='';
-imgur9='';
+function char(numero,code) {
+let bannerHtml	='';
+let bannerImg	='';
+let youtube		='7mFsq-ehdUI';
+let sufix		='?autoplay=1&mute=1';
+let gdrv		='';
+let imgur9		='';
+
 switch (numero) {
 case 1:
 mydiv='Death-Force',imgur='ocvdalJ',imgur9='xr3A7SH.gif',game='MetalSlug',ctype='Boss',lastupdate='13/12/08',gdrv='1nCEVFvv6_MWnOewCQEwqo3wBIEi0xOzk',youtube='57Twr3DTGbk'
@@ -227,12 +217,14 @@ break;
 case 0:
 mydiv=''
 }
+
 if (bannerHtml==''){
 bannerHtml='twitter.com/Zanmyo';
 bannerImg='i.imgur.com/qV3Q36A.gif';
 }
+
 //const mmObj = window.matchMedia('(max-width: 500px)');
-switch (cod) {
+switch (code) {
 case 1:
 document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+".png onClick='char("+numero+",2)' class='rbutton' width=25 height=25><b>"+mydiv+"</b> "+game+" / "+ctype+" / Last update: "+lastupdate+"<br>"
 break;
@@ -245,8 +237,21 @@ case 2:
 	//}
 break;
 case 3:
+if (youtube!='7mFsq-ehdUI'){
+document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+""+sufix+" width='500' height='300' frameborder='0'></iframe><br>CHAR ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=CHAR_"+mydiv+"></a>"
+}
+else{
+document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/OyQa9DowOrQ?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Full-Game: <b>Steel Warriors</b> <a target='_blank' href=https://www.dropbox.com/s/hp2b158fiqff6he/MSW-Steel%20Warriors1.1.rar?dl=1><img src=https://i.imgur.com/pJFCm25.png title='Steel Warriors'></a>"
+}
+document.getElementById('banner').innerHTML="<a target='_blank' href=https://"+bannerHtml+"><img src=https://"+bannerImg+"></a>";
 break;
 }
+
+const elementos = document.querySelectorAll('b, a');
+elementos.forEach(elemento => {
+  if (isHalloween) {elemento.style.color = 'red';}
+});
+
 }
 
 // LINK GDRV DROPBOX YOUTUBE
