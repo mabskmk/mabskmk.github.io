@@ -81,4 +81,9 @@ bannerImg='i.imgur.com/qV3Q36A.gif';
 document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+"&autoplay=1&mute=1 width='500'   height='300' frameborder='0' title="+mydiv+"></iframe><br><a target='_blank' href=https://"+link+"><b>"+mydiv+"</b></a>"
 document.getElementById('banner').innerHTML="<a target='_blank' href=https://"+bannerHtml+"><img src=https://"+bannerImg+"></a>";
 var tempo=setTimeout('vichar()',50000); //vichar -> vistg -> viytmisc
+
+const elementos = document.querySelectorAll('b, a');
+elementos.forEach(elemento => {
+  if (isHalloween) {elemento.style.color = 'red';}
+});
 }
