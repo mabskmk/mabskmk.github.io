@@ -1,4 +1,6 @@
 var playerOne = new Array(16);	//Player table, cards and hand
+const hoje = new Date();
+const isHalloween = (hoje.getDate()>=13 && hoje.getDate()<=31 && hoje.getMonth()==9 ? 1: 0);
 
 //MENU
 function ppmain(numero) {
@@ -44,6 +46,7 @@ btnyotu.disabled=true;
 break;
 }
 }
+
 
 
 
