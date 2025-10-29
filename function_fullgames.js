@@ -12,6 +12,10 @@ btnstg.disabled=false;
 btnfullg.disabled=true;
 btnyotu.disabled=false;
 btndown.disabled=true;
+const elementos = document.querySelectorAll('b, a');
+elementos.forEach(elemento => {
+  if (isHalloween) {elemento.style.color = 'red';}
+});
 }
 
 function createSelect() {
@@ -59,6 +63,10 @@ document.getElementById(2).innerHTML=""+previousValue+"<br>[ExtraStages]<br><br>
 previousValue = document.getElementById(2).innerText;
 btndown.disabled=false;
 
+const elementos = document.querySelectorAll('b, a');
+elementos.forEach(elemento => {
+  if (isHalloween) {elemento.style.color = 'red';}
+});
 }
 
 //Database of normal characters
@@ -1342,3 +1350,4 @@ function downloadFile() {
  link.click();
  URL.revokeObjectURL(link.href);
 };
+
