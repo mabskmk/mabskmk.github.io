@@ -792,8 +792,13 @@ default:
 mydiv='null',imgur='https://i.imgur.com/9CmFbnO.png' //empty image
 break;
 }
+const elementos = document.querySelectorAll('b, a');
+elementos.forEach(elemento => {
+  if (isHalloween) {elemento.style.color = 'red';}
+});
 return(imgur);
 }
+
 
 
 
