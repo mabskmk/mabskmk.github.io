@@ -118,7 +118,7 @@ case 14:
 mydiv='Stage_Etna',imgur='wUfekDC.png',youtube='r5nPcz3zcyY',gdrv='13vZUJmD97XnsU5JMdwdutcUniuPr6Pd5',zpoints=10000,bannerHtml='mugedoso.web.fc2.com/nhk/index.html',bannerImg='i.imgur.com/mXtDvrn.png'
 break;
 case 15:
-mydiv='Ancient_Shadows',imgur='9QvIahU.gif',youtube='XPhPzGHhvVE',gdrv='18ucHZ1wXVEmX40FO3J5LCf1M7k_ao4ib'
+mydiv='Ancient_Shadows',imgur='9QvIahU.gif',youtube='jpVxd0iKeWs',gdrv='18ucHZ1wXVEmX40FO3J5LCf1M7k_ao4ib'
 break;
 case 16:
 mydiv='Burning_Village',imgur='pSV0xV2.png',youtube='5aP8yGluMuA',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO'
@@ -639,6 +639,7 @@ elementos.forEach(elemento => {
 // https://drive.google.com/uc?id="+gdrv+"
 // {window.open('https://www.dropbox.com/sh/4yvtvzi0bgvm6ky/AAD9c--Ke68LHTn2E1Nd3QVOa?dl=0','_blank')}
 // <iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1 width='430' height='240' frameborder='0'></iframe>
+
 
 
 
