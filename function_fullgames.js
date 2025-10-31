@@ -124,8 +124,8 @@ case 10:
 	if (rand==0) {mydiv='Amingo.zip,stages/AngelIslandzone1.def,music=sound/Amingo.mp3';}
 	if (rand==1) {mydiv='Zeldia.zip,stages/AngelIslandzone2.def';}
 	if (rand==2) {mydiv='Mattrex.zip,stages/AngelIslandzone3.def';}
-	if (rand==3) {mydiv='Maxime.zip,stages/AngelIslandzone4.def';}
-	if (rand==4) {mydiv='Rila.zip,stages/AngelIslandzone5.def';}
+	if (rand==3) {mydiv='Rila.zip,stages/AngelIslandzone4.def';}
+	if (rand==4) {mydiv='Maxime.zip,stages/AngelIslandzone5.def';}
 break;
 case 11:
 	rand=(Math.floor(Math.random()*2));
@@ -163,7 +163,7 @@ break;
 case 17:
 	rand=(Math.floor(Math.random()*3));
 	if (rand==0) {mydiv='Wonder.zip,stages/BayYard1.def';}
-	if (rand==1) {mydiv='Michelle_heart.zip,stages/BayYard2.def';}
+	if (rand==1) {mydiv='Michelle_heart.zip,stages/BayYard2.def,music=sound/BayYard2.mp3';}
 	if (rand==2) {mydiv='RogueSp.zip,stages/BayYard3.def';}
 break;
 case 18:
@@ -204,7 +204,7 @@ break;
 case 25:
 	rand=(Math.floor(Math.random()*2));
 	if (rand==0) {mydiv='Charlotte.zip,stages/BurningVillage.def';}
-	if (rand==1) {mydiv='Warakia.zip,stages/BurningVillage.def';}
+	if (rand==1) {mydiv='Warakia.zip,stages/BurningVillage.def,music=sound/BurningVillage2.mp3';}
 break;
 case 26:
 	rand=(Math.floor(Math.random()*2));
@@ -1350,4 +1350,5 @@ function downloadFile() {
  link.click();
  URL.revokeObjectURL(link.href);
 };
+
 
