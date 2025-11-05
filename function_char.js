@@ -137,7 +137,7 @@ case 28:
 mydiv='GnG-Tower',imgur='CkHRPvY',imgur9='fH7y5Ge.png',game='Makaimura',ctype='Arcade',lastupdate='31/10/23',gdrv='1UxTvsauekqFbxAh7SIFjDYTUdJuvlCtP',youtube='5MRExSi44ow?si=eIOBY0OjK4nGbl1b&start=0&end=59',sufix='&autoplay=1&mute=1'
 break;
 case 29:
-mydiv='GnG-Burning',imgur='ScexylS',imgur9='ohZWqMw.png',game='Makaimura',ctype='SHMUP',lastupdate='31/10/23',gdrv='1GeSVB_GbPiB8PHPk5sw7HAUuJKVRAH3W',youtube='5MRExSi44ow?si=eIOBY0OjK4nGbl1b&start=60&end=158',sufix='&autoplay=1&mute=1'
+mydiv='GnG-Burning',imgur='ScexylS',imgur9='ohZWqMw.png',game='Makaimura',ctype='SHMUP',lastupdate='31/10/23',gdrv='1GeSVB_GbPiB8PHPk5sw7HAUuJKVRAH3W',youtube='5MRExSi44ow?si=eIOBY0OjK4nGbl1b&start=61&end=159',sufix='&autoplay=1&mute=1'
 break;
 case 30:
 mydiv='ALEX_Jankenpon',imgur='kHBUEcQ',imgur9='i2NjJtm.png',game='Alex Kidd',ctype='JokenPo',lastupdate='01/03/12',gdrv='1o4UAIynon1lyGVFLCowRKstD-7RIxp5P',youtube='sRVVgsaoYYw'
@@ -259,6 +259,7 @@ elementos.forEach(elemento => {
 // https://drive.google.com/uc?id="+gdrv+"
 // {window.open('https://www.dropbox.com/sh/gqnzgea8ec80pvx/AACYMGQkTpC7rg6FcazaK-rPa?dl=0','_blank')}
 //<iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1 width='430' height='240' frameborder='0'></iframe>
+
 
 
 
