@@ -301,7 +301,7 @@ case 65:
 mydiv='Labyrinth_Zone',imgur='Rfv7CCF.png',youtube='PypFGdvf8zo',gdrv='1zWWD2hpbTetEEOYYqxxyC2Lv9GMYKMHD'
 break;
 case 66:
-mydiv='Jungle_Zone',imgur='lHK4I0Q.png',youtube='4tg1r_cO-mc',gdrv='1IgCC20_LftsIx_4IzuQ7U-8Jll2s0UQV'
+mydiv='Jungle_Zone',imgur='lHK4I0Q.png',youtube='CG1gqTB6Q18',gdrv='1IgCC20_LftsIx_4IzuQ7U-8Jll2s0UQV'
 break;
 case 67:
 mydiv='ScrapBrainZone',imgur='zCmVTXI.png',youtube='Ulr3yDq0pvI',gdrv='1zWWD2hpbTetEEOYYqxxyC2Lv9GMYKMHD'
@@ -639,6 +639,7 @@ elementos.forEach(elemento => {
 // https://drive.google.com/uc?id="+gdrv+"
 // {window.open('https://www.dropbox.com/sh/4yvtvzi0bgvm6ky/AAD9c--Ke68LHTn2E1Nd3QVOa?dl=0','_blank')}
 // <iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1 width='430' height='240' frameborder='0'></iframe>
+
 
 
 
