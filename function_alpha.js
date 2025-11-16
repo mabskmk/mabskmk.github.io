@@ -20,7 +20,8 @@ btnchar.disabled=false;
 btnstg.disabled=false;
 btnfullg.disabled=false;
 btnyotu.disabled=false;
-showcaseCharacter(); //showcaseCharacter -> showcaseStage -> showcaseMisc
+//showcaseCharacter(); //showcaseCharacter -> showcaseStage -> showcaseMisc
+menustage3() //temp
 break;
 }
 }
@@ -46,6 +47,7 @@ btnyotu.disabled=true;
 break;
 }
 }
+
 
 
 
