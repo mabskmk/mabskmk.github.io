@@ -616,12 +616,7 @@ case 2:
 document.getElementById(numero).innerHTML="<br><br><center><img src=https://i.imgur.com/"+imgur+" title="+mydiv+"><br><br><b>"+mydiv+"</b><br><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a></center><br><br>"
 break;
 case 3:
-if (youtube!='dQw4w9WgXcQ' && youtube!='jpVxd0iKeWs'){
-document.getElementById('videoshowcase').innerHTML="<img src=https://i.imgur.com/"+imgur+" title="+mydiv+"><br><br>STAGE ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=STG_"+mydiv+"></a>"
-}
-else{
-document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/HZxpB5C-iuA?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Full-Game: <b>Alex Kidd in Trouble</b> <a target='_blank' href='https://www.dropbox.com/s/wueu530ny6iowdi/AlexKiddinTrouble.zip?dl=1'><img src=https://i.imgur.com/pJFCm25.png title='Alex'></a>"
-}
+document.getElementById('videoshowcase').innerHTML="<img src=https://i.imgur.com/"+imgur+" title="+mydiv+"><br><br>STAGE ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=STG_"+mydiv+"></a><br><br>"
 document.getElementById('banner').innerHTML="<a target='_blank' href=https://"+bannerHtml+"><img src=https://"+bannerImg+"></a>";
 break;
 }
