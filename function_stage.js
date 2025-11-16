@@ -47,7 +47,7 @@ randomValue=(Math.floor(Math.random()*numStages)+1);
 
 // Get the values ​​of the respective video from the 'character database'
 stageData(randomValue,3);
-var tempo=setTimeout('showcaseMisc()',50000); //showcaseCharacter -> showcaseStage -> showcaseMisc 
+var tempo=setTimeout('showcaseStage()',50000); //showcaseCharacter -> showcaseStage -> showcaseMisc 
 
 }
 
@@ -613,11 +613,11 @@ document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+
 }
 break;
 case 2:
-document.getElementById(numero).innerHTML="<br><br><img src=https://i.imgur.com/"+imgur+" title="+mydiv+"><br><b>"+mydiv+"</b><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a><br><br>"
+document.getElementById(numero).innerHTML="<br><br><center><img src=https://i.imgur.com/"+imgur+" title="+mydiv+"><br><br><b>"+mydiv+"</b><br><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a></center><br><br>"
 break;
 case 3:
 if (youtube!='dQw4w9WgXcQ' && youtube!='jpVxd0iKeWs'){
-document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>STAGE ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=STG_"+mydiv+"></a>"
+document.getElementById('videoshowcase').innerHTML="<img src=https://i.imgur.com/"+imgur+" title="+mydiv+"><br><br>STAGE ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=STG_"+mydiv+"></a>"
 }
 else{
 document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/HZxpB5C-iuA?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Full-Game: <b>Alex Kidd in Trouble</b> <a target='_blank' href='https://www.dropbox.com/s/wueu530ny6iowdi/AlexKiddinTrouble.zip?dl=1'><img src=https://i.imgur.com/pJFCm25.png title='Alex'></a>"
@@ -635,12 +635,9 @@ elementos.forEach(elemento => {
 
 // bannerHtml='ikrgmugen.web.fc2.com',bannerImg='i.imgur.com/3UeeMUT.png'
 // LINK GDRV DROPBOX YOUTUBE (img  width='140')
-// <br><a target='_blank' href=><img onClick='stageData("+numero+",2)' src=https://i.imgur.com/pJFCm25.png></a>
-// https://drive.google.com/uc?id="+gdrv+"
 // {window.open('https://www.dropbox.com/sh/4yvtvzi0bgvm6ky/AAD9c--Ke68LHTn2E1Nd3QVOa?dl=0','_blank')}
-// <iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1 width='430' height='240' frameborder='0'></iframe>
 // document.getElementById(numero).innerHTML="<br><br><iframe src=https://www.youtube.com/embed/"+youtube+" width='430' height='240' frameborder='0'></iframe><br><b>"+mydiv+"</b><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a><br><br>"
-
+// videoshowcase <iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe>
 
 
 
