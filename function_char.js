@@ -67,7 +67,7 @@ case 4:
 mydiv='FlyingTara',imgur='iEjzspe',imgur9='T1V4CAg.png',game='Metalslug',ctype='Bonus',lastupdate='24/01/24',gdrv='1EUY4inMqHFK3bNp0MIyC5umigB4BstgZ'
 break;
 case 5:
-mydiv='Pesoguin',imgur='5NqzscO',imgur9='0aYs6iI.png',game='<a target=_blank href=https://twitter.com/Zanmyo><img src=https://i.imgur.com/qV3Q36A.gif></a>',ctype='Char',lastupdate='12/05/24',gdrv='1IPR_5llhRH9PGtWyYhJ3_-AmRI77D-xa',bannerHtml='twitter.com/pesoguin',bannerImg='i.imgur.com/qV3Q36A.gif',youtube='K2KNeuaCPyU'
+mydiv='Pesoguin',imgur='5NqzscO',imgur9='0aYs6iI.png',game='<a target=_blank href=https://twitter.com/Zanmyo><img src=https://i.imgur.com/qV3Q36A.gif></a>',ctype='Char',lastupdate='12/05/24',gdrv='1IPR_5llhRH9PGtWyYhJ3_-AmRI77D-xa',bannerHtml='twitter.com/pesoguin',bannerImg='i.imgur.com/qV3Q36A.gif',youtube='K2KNeuaCPyU?si=lDIAcYelb1086X49&t=10',sufix='&autoplay=1&mute=1'
 break;
 case 6:
 mydiv='Slug_Wanzer_Old',imgur='FlLscmO',imgur9='1fgHkvT.png',game='Metalslug',ctype='Char',lastupdate='20/04/08',gdrv='1DMfPTtg1jbegRXRq82pb7N11pteDhNnw'
@@ -263,6 +263,7 @@ elementos.forEach(elemento => {
 // {window.open('https://www.dropbox.com/sh/gqnzgea8ec80pvx/AACYMGQkTpC7rg6FcazaK-rPa?dl=0','_blank')}
 // document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+".png width=25 height=25><b>"+mydiv+"</b> "+game+" / "+ctype+" / Last update: "+lastupdate+"<br><iframe src=https://www.youtube.com/embed/"+youtube+" width='430' height='240' frameborder='0'></iframe><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a>"
 // videoshowcase <iframe src=https://www.youtube.com/embed/"+youtube+""+sufix+" width='500' height='300' frameborder='0'></iframe>
+
 
 
 
