@@ -72,7 +72,7 @@ mydiv='FlyingTara',imgur='iEjzspe',imgur9='T1V4CAg.png',game='Metalslug',ctype='
 break;
 case 5:
 mydiv='Pesoguin',imgur='5NqzscO',imgur9='0aYs6iI.png',game='<a target=_blank href=https://twitter.com/Zanmyo><img src=https://i.imgur.com/qV3Q36A.gif></a>',ctype='Char',lastupdate='12/05/24',gdrv='1IPR_5llhRH9PGtWyYhJ3_-AmRI77D-xa',bannerHtml='twitter.com/pesoguin',bannerImg='i.imgur.com/qV3Q36A.gif';
-youtube='K2KNeuaCPyU?si=lDIAcYelb1086X49&t=10',sufix='&autoplay=1&mute=1';
+youtube='K2KNeuaCPyU?si=lDIAcYelb1086X49&start=10&end=60',sufix='&autoplay=1&mute=1';
 break;
 case 6:
 mydiv='Slug_Wanzer_Old',imgur='FlLscmO',imgur9='1fgHkvT.png',game='Metalslug',ctype='Char',lastupdate='20/04/08',gdrv='1DMfPTtg1jbegRXRq82pb7N11pteDhNnw'
@@ -85,7 +85,7 @@ mydiv='Devil_Pesoguin',imgur='75lBnh5',imgur9='ESDw2hP.gif',game='Castlevania?',
 break;
 case 9:
 mydiv='MORGUL',imgur='fPt2Off',imgur9='vk6MdFi.gif',game='Turrican',ctype='Boss',lastupdate='02/06/15',gdrv='1hHIoFEuw588ks3npH1apjGUmAUTyoRP_';
-youtube='6i36v6v6hL4?si=Qun_jPHfpnnaNZ6D&t=12',sufix='&autoplay=1&mute=1';
+youtube='6i36v6v6hL4?si=Qun_jPHfpnnaNZ6D&start=12&end=62',sufix='&autoplay=1&mute=1';
 break;
 case 10:
 mydiv='Captain_Kido',imgur='0IaKgex',imgur9='XQkb69u.png',game='Parotte Fighters',ctype='Char',lastupdate='18/10/11',gdrv='1hjHAwkdngFnmEBSsMlllFSPHKbQJr_u8'
@@ -95,7 +95,7 @@ mydiv='Garekky',imgur='k7iIk5C',imgur9='L0fDY4q.gif',game='Makeruna Makendo 2',c
 break;
 case 12:
 mydiv='Mash',imgur='AZMe0Bc',imgur9='3DjGkZN.png',game='Megaman7',ctype='Bonus',lastupdate='20/05/12',gdrv='1Z69qGOh4MgnHqPm9grjKeJTP61GngjbE';
-youtube='ugFAYSHP8vI?si=aK7eUl08AQyFTozz&t=10',sufix='&autoplay=1&mute=1';
+youtube='ugFAYSHP8vI?si=aK7eUl08AQyFTozz&start=10&end=60',sufix='&autoplay=1&mute=1';
 break;
 case 13:
 mydiv='Truck_Joe',imgur='c9iJZbD',imgur9='MB9i5IM.png',game='Megaman7',ctype='Bonus',lastupdate='16/07/14',gdrv='1ODwXTdfc3YJeI-KeY35tI1-IcMioT65C'
@@ -108,7 +108,7 @@ mydiv='CAR3',imgur='MbcbFyn',imgur9='jIzw2Ti.png',game='Street Fighter 2',ctype=
 break;
 case 16:
 mydiv='DCar',imgur='97WL9th',imgur9='r8nLXhT.png',game='Dong Dong Never Die',ctype='Bonus',lastupdate='24/05/13',gdrv='11XgXnbON0dn3EJoORv6svOfuG-JsByds';
-youtube='iCr6ehKIAzQ?si=6aRovBO7WiGrfeiW&t=12',sufix='&autoplay=1&mute=1';
+youtube='iCr6ehKIAzQ?si=6aRovBO7WiGrfeiW&start=12&end=62',sufix='&autoplay=1&mute=1';
 break;
 case 17:
 mydiv='Eye-of-Cthulhu',imgur='W9JHpa9',imgur9='8FOd0oL.gif',game='Terraria',ctype='Bonus',lastupdate='22/12/11',gdrv='1WQg7N9HyzrgQenmgVxuLvChK0B9O7KUx',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg'
@@ -171,7 +171,7 @@ youtube='DlOerQbikn0';
 break;
 case 36:
 mydiv='Captain_Kebab',imgur='TsaW1dX',imgur9='0cImMKw.png',game='Parodius',ctype='Boss',lastupdate='24/01/24',gdrv='1gGgE240lPfFJJ050h0Vk9wJlFe2c2E20';
-youtube='z_9bj3Bv0OY?si=1v1lRBeRhYBG0s7n&t=8',sufix='&autoplay=1&mute=1';
+youtube='z_9bj3Bv0OY?si=1v1lRBeRhYBG0s7n&start=8&end=58',sufix='&autoplay=1&mute=1';
 break;
 case 37:
 mydiv='Biker_GAL',imgur='7dP9qeT',imgur9='a1EwUGO.png',game='Battle_Circuit',ctype='Bonus',lastupdate='29/06/16',gdrv='1kH-OrCFQMcm_gV8_sbxoSzLhySEqFrPT'
@@ -276,6 +276,7 @@ elementos.forEach(elemento => {
 // {window.open('https://www.dropbox.com/sh/gqnzgea8ec80pvx/AACYMGQkTpC7rg6FcazaK-rPa?dl=0','_blank')}
 // document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+".png width=25 height=25><b>"+mydiv+"</b> "+game+" / "+ctype+" / Last update: "+lastupdate+"<br><iframe src=https://www.youtube.com/embed/"+youtube+" width='430' height='240' frameborder='0'></iframe><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a>"
 // videoshowcase <iframe src=https://www.youtube.com/embed/"+youtube+""+sufix+" width='500' height='300' frameborder='0'></iframe>
+
 
 
 
