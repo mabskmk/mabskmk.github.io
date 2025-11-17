@@ -534,7 +534,7 @@ switch (code) {
 	// Video showcase
 	case 3:
 		if (youtube!=''){
-		document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+""+sufix+" width='500' height='300' frameborder='0'></iframe>STAGE ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=STG_"+mydiv+"></a><br>"
+		document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+""+sufix+" width='500' height='300' frameborder='0'></iframe><br>STAGE ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=STG_"+mydiv+"></a><br>"
 		}
 		else{
 		document.getElementById('videoshowcase').innerHTML="<img src=https://i.imgur.com/"+imgur+" title="+mydiv+" height='300'><br>STAGE ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=STG_"+mydiv+"></a><br>"
@@ -555,6 +555,7 @@ elementos.forEach(elemento => {
 // {window.open('https://www.dropbox.com/sh/4yvtvzi0bgvm6ky/AAD9c--Ke68LHTn2E1Nd3QVOa?dl=0','_blank')}
 // document.getElementById(numero).innerHTML="<br><br><iframe src=https://www.youtube.com/embed/"+youtube+" width='430' height='240' frameborder='0'></iframe><br><b>"+mydiv+"</b><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a><br><br>"
 // videoshowcase <iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe>
+
 
 
 
