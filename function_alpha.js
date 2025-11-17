@@ -19,7 +19,7 @@ btnchar.disabled=false;
 btnstg.disabled=false;
 btnfullg.disabled=false;
 btnyotu.disabled=false;
-showcaseStage(); //showcaseCharacter -> showcaseStage -> showcaseMisc
+showcaseCharacter(); //showcaseCharacter -> showcaseStage -> showcaseMisc
 break;
 }
 }
