@@ -88,7 +88,8 @@ case 7:
 mydiv='Abadox',imgur='Ov5zTi6.png',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n'
 break;
 case 8:
-mydiv='Titans_forest',imgur='goFjeiV.png',gdrv='1MRECApSGzHfDQzdnfQTrymNrRqx6Cw8x'
+mydiv='Titans_forest',imgur='goFjeiV.png',gdrv='1MRECApSGzHfDQzdnfQTrymNrRqx6Cw8x';
+youtube='IV6_G1aISBY';
 break;
 case 9:
 mydiv='Slim_Subway_Smash',imgur='ZMRsPYv.png',gdrv='11YnMUNCEu9_eMTGoxUSn6WWSDZPI6C4t'
@@ -100,7 +101,8 @@ case 11:
 mydiv='Tower_of_Succubus',imgur='6esytlH.png',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO',bannerHtml='mugedoso.web.fc2.com/nhk/index.html',bannerImg='i.imgur.com/mXtDvrn.png'
 break;
 case 12:
-mydiv='GORN',imgur='3zvtOl9.png',gdrv='1I96lvaw2ZqwwlzyCh9GiD7pmgYvaMrqs'
+mydiv='GORN',imgur='3zvtOl9.png',gdrv='1I96lvaw2ZqwwlzyCh9GiD7pmgYvaMrqs';
+youtube='bWKv7CUT5EI';
 break;
 case 13:
 mydiv='Ulu_City',imgur='RnyPbox.gif',gdrv='1RdyfNVA4Dx7yAjUUewun8EhSeD6DGqhH',bannerHtml='mugen-restaurant.jp/',bannerImg='i.imgur.com/GXjxQXs.png'
@@ -118,16 +120,19 @@ case 17:
 mydiv='Death_Star_3',imgur='tieF0Cw.png',gdrv='1cy-n32Funvw1ktwXoMU5_OX3Ox6D0kfk',bannerHtml='mugedoso.web.fc2.com/nhk/index.html',bannerImg='i.imgur.com/mXtDvrn.png'
 break;
 case 18:
-mydiv='CDB',imgur='AaxPzr9.gif',gdrv='193jWOMqr2J3k5F0nyUbPEQGEmFtenT-p'
+mydiv='CDB',imgur='AaxPzr9.gif',gdrv='193jWOMqr2J3k5F0nyUbPEQGEmFtenT-p';
+youtube='lxuzFYhnJbI?si=9TgFK-geJ60x3wd_&start=14&end=64',sufix='&autoplay=1&mute=1';
 break;
 case 19:
-mydiv='Stage_Cammy',imgur='WsinSDY.png',gdrv='1qUvUCsJ6-cTF8t-pkE57qcuP7ttEiaO9'
+mydiv='Stage_Cammy',imgur='WsinSDY.png',gdrv='1qUvUCsJ6-cTF8t-pkE57qcuP7ttEiaO9';
+youtube='ewO9Au-pz28';
 break;
 case 20:
 mydiv='Radioactive_Maze',imgur='QEIiYs1.png',gdrv='1H3lheymzSV6WWoLL9_J0RPnds7u2uF15'
 break;
 case 21:
-mydiv='Club_MFG',imgur='0edotiu.png',gdrv='1w1wVnBn-_sEr2K-wLCk9qHtDfqLWY5L6'
+mydiv='Club_MFG',imgur='0edotiu.png',gdrv='1w1wVnBn-_sEr2K-wLCk9qHtDfqLWY5L6';
+youtube='Z4xqglmBWUk';
 break;
 case 22:
 mydiv='Transylvania',imgur='dQfLncX.png',gdrv='1wwEIGabRJlyf8KqKHjVMI3nggaPNj3Id'
@@ -139,7 +144,8 @@ case 24:
 mydiv='Wild_Side',imgur='LdboBiv.png',gdrv='1koEXqyq-nh8_LSxCyvuEHyTPWoXww-ns'
 break;
 case 25:
-mydiv='Oil_Ocean',imgur='pcjB4Sm.png',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa'
+mydiv='Oil_Ocean',imgur='pcjB4Sm.png',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa';
+youtube='lGBi7D_kFoQ';
 break;
 case 26:
 mydiv='Moai_ruin',imgur='aen5RVb.gif',gdrv='1HCbYOLepWExO6LUFPiMweydWVgAjYCvu',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='i.imgur.com/8J4NDcA.png'
@@ -160,16 +166,22 @@ case 31:
 mydiv='NeonLight',imgur='vxBbbkP.png',gdrv='114xNnXpr_WCTn3IKkK9P_7SgzJu5-3z7'
 break;
 case 32:
-mydiv='Leventhan',imgur='AaXCSHe.png',gdrv='1oNKmO6lMX3P7-4QBSd2JJhLYLv0zI7rK'
+mydiv='Leventhan',imgur='AaXCSHe.png',gdrv='1oNKmO6lMX3P7-4QBSd2JJhLYLv0zI7rK';
+ytLink=(Math.floor(Math.random()*3));
+	if (ytLink==0) {youtube='93SLJSuIDQA';}
+	if (ytLink==1) {youtube='bJLUVn5rSX0';}
+	if (ytLink==2) {youtube='ySNMmK5Vepg';}
 break;
 case 33:
-mydiv='Stage_ChunLi',imgur='SQ4IEWA.png',gdrv='1oQKJTJvKI-ftvYHG1AL_fnHZzAZtttmU'
+mydiv='Stage_ChunLi',imgur='SQ4IEWA.png',gdrv='1oQKJTJvKI-ftvYHG1AL_fnHZzAZtttmU';
+youtube='ACxBVlIOxqQ';
 break;
 case 34:
 mydiv='Stage_Makoto',imgur='swX7scp.png',gdrv='11MffW0ZA_2AOUsepDLhEa-WkOV26ROJM'
 break;
 case 35:
-mydiv='Stage_Scharlachrot',imgur='Q8ZaFoF.png',gdrv='16Xcp7eARuu5zNGq4YvNAUCko_yLr1KOB'
+mydiv='Stage_Scharlachrot',imgur='Q8ZaFoF.png',gdrv='16Xcp7eARuu5zNGq4YvNAUCko_yLr1KOB';
+youtube='WzRTUFKlICw';
 break;
 case 36:
 mydiv='Hispeed_Elevator',imgur='ibSCSvX.png',gdrv='14KoyR7xOTvSeDttPxq8h8YjPgW9frreW'
@@ -184,7 +196,9 @@ case 39:
 mydiv='Random_Insanity',imgur='oVbJf9D.png',gdrv='1g93dXyyJUAa5kZyPB_EVBrBUg-Atyq-M'
 break;
 case 40:
-mydiv='DDND',imgur='fobMeKj.gif',gdrv='1FQaEZlhwn_YN9WQIdn4YgK66p2sJGjWy'
+mydiv='DDND',imgur='fobMeKj.gif',gdrv='1FQaEZlhwn_YN9WQIdn4YgK66p2sJGjWy';
+youtube='DWa-HvlBBaM?si=KsbaLCjAG3REL4rS&start=14&end=64',sufix='&autoplay=1&mute=1';
+//3JgqhyQjslk
 break;
 case 41:
 mydiv='The_bronze_auditorium',imgur='tMOSb03.png',gdrv='1Xfo5mGiR1HBudXTIPk4iPRQUpHiyEVKB'
@@ -199,7 +213,8 @@ case 44:
 mydiv='Snow_Rush',imgur='MfuWeak.png',gdrv='14KoyR7xOTvSeDttPxq8h8YjPgW9frreW'
 break;
 case 45:
-mydiv='Arkanoid_Syn',imgur='KzmXv7S.gif',gdrv='15hIaPhP6DsDUjVJ-Un7rnOg5ogUIQTKx'
+mydiv='Arkanoid_Syn',imgur='KzmXv7S.gif',gdrv='15hIaPhP6DsDUjVJ-Un7rnOg5ogUIQTKx';
+youtube='Ca9pd4IawGU';
 break;
 case 46:
 mydiv='Dr_Wily_stgs',imgur='PNYxIH7.gif',gdrv='1BajqmRlVucJYaruSyGeK_de5eYO7CsPu'
@@ -214,7 +229,7 @@ case 49:
 mydiv='Metal_Gun',imgur='ZisA65d.gif',gdrv='1PrKFYlEcoYQD1OSgOScH_J-HNdFfKnnl',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='i.imgur.com/8J4NDcA.png'
 break;
 case 50:
-mydiv='TerrariA',imgur='9Vc4Kbf.png',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg'
+mydiv='TerrariA',imgur='9Vc4Kbf.png',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',youtube='PkoYbNMsyKk',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg'
 break;
 case 51:
 mydiv='Random_Space',imgur='TN4XU4m.png',gdrv='14x_bwTrKjZtpERMj4mLkMXSoslv8Nzqz'
@@ -226,7 +241,8 @@ case 53:
 mydiv='Hell_Gate',imgur='qPSAYRK.gif',gdrv='1CHtHK7UycHiRX0w13V_16_7s4-eNchEg'
 break;
 case 54:
-mydiv='Whisper_Forest',imgur='yj3qJ8W.gif',gdrv='10ISB1TYCzgLDa0nlJGtDhuAkgeET6nGy'
+mydiv='Whisper_Forest',imgur='yj3qJ8W.gif',gdrv='10ISB1TYCzgLDa0nlJGtDhuAkgeET6nGy';
+youtube='AQPMjlSuiyU?si=oFkK3DbebikIfR4M&start=12&end=62',sufix='&autoplay=1&mute=1';
 break;
 case 55:
 mydiv='Last_Dungeon',imgur='Segr9oc.gif',gdrv='14zbO8F_tlSZvlfKBRYFMcTRmuLCpDvMR'
@@ -244,7 +260,8 @@ case 59:
 mydiv='Mutation_Nation',imgur='jKesnb5.gif',gdrv='1Rk-VZr9dZw9dLYGdvseyPE_s4_hI83-g',bannerHtml='ngmc.retrogames.com/index.html',bannerImg='i.imgur.com/X4AzHu1.gif'
 break;
 case 60:
-mydiv='Mystic_Cave',imgur='OrOgvJ9.png',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa'
+mydiv='Mystic_Cave',imgur='OrOgvJ9.png',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa';
+youtube='0xovvA9fa-A?si=mlJwU39dmUSw4S-v&start=17&end=67',sufix='&autoplay=1&mute=1';
 break;
 case 61:
 mydiv='Monster_Party',imgur='lWi1U0G.gif',gdrv='10RxGf32a_aMFNu98zO5chUkP0r89vQ_i'
@@ -292,7 +309,8 @@ case 75:
 mydiv='Shaq_Fu_Lab',imgur='qAKWhQu.gif',gdrv='14T2PRb9Wfbd8bDOzoz5i2mds6IjgY9Nn'
 break;
 case 76:
-mydiv='Flappy_Bird_stg',imgur='BRTNcNB.gif',gdrv='1WcSCX0Zzps3fHTGSZBCffnx2uZAaLNBg'
+mydiv='Flappy_Bird_stg',imgur='BRTNcNB.gif',gdrv='1WcSCX0Zzps3fHTGSZBCffnx2uZAaLNBg';
+youtube='_iHnIvB3ydU';
 break;
 case 77:
 mydiv='NightmareInTheDark',imgur='8cmYQlH.gif',gdrv='1uGf6QH7d85pPgOaj1gqVsrS6Nn6DGOia'
@@ -304,7 +322,8 @@ case 79:
 mydiv='Dark_Forest',imgur='mGnlE5S.png',gdrv='1zq0AlCF4Z8xvoqPbzchVhTQ1Hxk0Vlig'
 break;
 case 80:
-mydiv='TerrariB',imgur='nxum0HB.png',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg'
+mydiv='TerrariB',imgur='nxum0HB.png',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg';
+youtube='aU2J_5lPD94';
 break;
 case 81:
 mydiv='Battle_Capacity',imgur='ulhRFM8.gif',gdrv='1dAQDOMPQN_-9nEA8A_wZIAZW1eGZe8uR'
@@ -319,7 +338,8 @@ case 84:
 mydiv='GoingThroughHell',imgur='rgY553Q.png',gdrv='1B-9djPWc599QfAckvePBlZc7-juAG5FH'
 break;
 case 85:
-mydiv='TerrariC',imgur='kgIqfzU.png',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg'
+mydiv='TerrariC',imgur='kgIqfzU.png',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg';
+youtube='DlOerQbikn0';
 break;
 case 86:
 mydiv='mm7_Graveyard',imgur='fZpRFsG.png',gdrv='1crKBwVmyfnbYB2mphTnw4WZswYAwE1nq'
@@ -334,7 +354,8 @@ case 89:
 mydiv='Tyrone',imgur='qMVo2hp.png',gdrv='1OlD0wc2dK0fXsFA6o8kolBRguwTrzVI6'
 break;
 case 90:
-mydiv='R-type_Junk',imgur='LMLAnUi.png',gdrv='1vrGpdGB43ZvJHbJpZMzPnz0JlzMR_Cv7'
+mydiv='R-type_Junk',imgur='LMLAnUi.png',gdrv='1vrGpdGB43ZvJHbJpZMzPnz0JlzMR_Cv7';
+youtube='rHJ-mCxAUr4?si=bZszKFIZ04LhCihL&start=29&end=79',sufix='&autoplay=1&mute=1';
 break;
 case 91:
 mydiv='The_Fire_Prominence',imgur='itQi8iD.png',gdrv='1wb-01h0Ooaj4vdbE7d-UiEb29J0QyH-M'
@@ -349,7 +370,8 @@ case 94:
 mydiv='Probertson+',imgur='gETlJMg.gif',gdrv='1w9FXy4aAw_r0Wd_7g3F4I7tUrSOJZgEI'
 break;
 case 95:
-mydiv='Aquatic_Ruins',imgur='cBIt8OT.png',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa'
+mydiv='Aquatic_Ruins',imgur='cBIt8OT.png',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa';
+youtube='XRbr9pR4FGA';
 break;
 case 96:
 mydiv='Weve-got-Shadowmans',imgur='Qqql4Ve.png',gdrv='15_kwqkbcgY4Du6s3b-9yZuaX36nTIwit'
@@ -394,7 +416,7 @@ case 109:
 mydiv='Jiii',imgur='t9ZGdu5.png',gdrv='1qQhbzMzLsLM8KEjb_Vw2yTnIOac-YJR_'
 break;
 case 110:
-mydiv='Angel_Island',imgur='dST8Gh8.gif',gdrv='1IgCC20_LftsIx_4IzuQ7U-8Jll2s0UQV'
+mydiv='Angel_Island',imgur='dST8Gh8.gif',gdrv='1IgCC20_LftsIx_4IzuQ7U-8Jll2s0UQV',youtube='C36o3XdkV7U'
 break;
 case 111:
 mydiv='ChompmanSTG',imgur='5t4sMNC.gif',gdrv='1vKNjQiIpYTmdpEoqR5bhrlofcJy-6jmb',bannerHtml='www.sprites-inc.co.uk',bannerImg='i.imgur.com/RqfqBg1.png'
@@ -406,7 +428,8 @@ case 113:
 mydiv='SonicBlastJet',imgur='3vJbHkk.png',gdrv='1h860RW2yR0abY1eQy9ldPjcMK1-_1EVl'
 break;
 case 114:
-mydiv='Crude-Buster',imgur='PFipzGL.gif',gdrv='1njc5P1vZi8Z-dUWjUX-NrGNev-BEo3jF'
+mydiv='Crude-Buster',imgur='PFipzGL.gif',gdrv='1njc5P1vZi8Z-dUWjUX-NrGNev-BEo3jF';
+youtube='VbyjkxOn8Wc';
 break;
 case 115:
 mydiv='Gourmet_Street',imgur='0a7Nif5.png',gdrv='1UuakIrQFtW1CO9dpSEOEgclugBfcI3TM'
@@ -448,7 +471,8 @@ case 127:
 mydiv='Bay_Yard',imgur='VDiZw8h.gif',gdrv='14KYviIi8D-koGCOC5V6CQGUZOzYtwHah'
 break;
 case 128:
-mydiv='Ninja_Party_Again',imgur='MtiHdQn.png',gdrv='1waH3Ecc2kby0wX5Z6dbuzP3f3YY3LM3O'
+mydiv='Ninja_Party_Again',imgur='MtiHdQn.png',gdrv='1waH3Ecc2kby0wX5Z6dbuzP3f3YY3LM3O';
+youtube='fOpqMT2s9vo';
 break;
 case 129:
 mydiv='Green_base',imgur='3IeKAXd.png',gdrv='1X8Iq2sOtGJfn9wT8nKQz350zr-6sDrF_'
@@ -533,11 +557,16 @@ switch (code) {
 	break;
 	// Video showcase
 	case 3:
-		if (youtube!=''){
-		document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+""+sufix+" width='500' height='300' frameborder='0'></iframe><br>STAGE ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=STG_"+mydiv+"></a><br>"
+		if ( (zpoints==0) || (playerOne[0] >= zpoints) ) {
+			if (youtube!=''){
+			document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+""+sufix+" width='500' height='300' frameborder='0'></iframe><br>STAGE ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=STG_"+mydiv+"></a><br>"
+			}
+			else{
+			document.getElementById('videoshowcase').innerHTML="<img src=https://i.imgur.com/"+imgur+" title="+mydiv+" height='300'><br>STAGE ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=STG_"+mydiv+"></a><br>"
+			}
 		}
 		else{
-		document.getElementById('videoshowcase').innerHTML="<img src=https://i.imgur.com/"+imgur+" title="+mydiv+" height='300'><br>STAGE ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=STG_"+mydiv+"></a><br>"
+			document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/3glPmy2zyBk?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Full-Game: <b>Steel Warriors</b> <a target='_blank' href=https://www.dropbox.com/s/hp2b158fiqff6he/MSW-Steel%20Warriors1.1.rar?dl=1><img src=https://i.imgur.com/pJFCm25.png title='Steel Warriors'></a>"
 		}
 		document.getElementById('banner').innerHTML="<a target='_blank' href=https://"+bannerHtml+"><img src=https://"+bannerImg+"></a>";
 	break;
@@ -555,7 +584,6 @@ elementos.forEach(elemento => {
 // {window.open('https://www.dropbox.com/sh/4yvtvzi0bgvm6ky/AAD9c--Ke68LHTn2E1Nd3QVOa?dl=0','_blank')}
 // document.getElementById(numero).innerHTML="<br><br><iframe src=https://www.youtube.com/embed/"+youtube+" width='430' height='240' frameborder='0'></iframe><br><b>"+mydiv+"</b><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a><br><br>"
 // videoshowcase <iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe>
-
 
 
 
