@@ -73,10 +73,10 @@ case 2:
 mydiv='Blacks_Base',imgur='AmpFGDr.gif',gdrv='1YhNUX_0osdyDKucya4xLUMGDrKt5MVO0',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png'
 break;
 case 3:
-mydiv='Force_Mine',imgur='QVjmOo1.png',youtube='E1pig0Bt4xs',gdrv='1YhNUX_0osdyDKucya4xLUMGDrKt5MVO0',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png'
+mydiv='Force_Mine',imgur='QVjmOo1.png',gdrv='1YhNUX_0osdyDKucya4xLUMGDrKt5MVO0',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png'
 break;
 case 4:
-mydiv='Vegetable_Valley',imgur='L0okcXj.gif',gdrv='168fKeVWT3Wz8ZsiH15brYFZePJ3WvsLz',bannerHtml='mugen-restaurant.jp/',bannerImg='i.imgur.com/GXjxQXs.png'
+mydiv='Vegetable_Valley',imgur='L0okcXj.gif',gdrv='168fKeVWT3Wz8ZsiH15brYFZePJ3WvsLz'
 break;
 case 5:
 mydiv='Hazard_Tank',imgur='byemFHj.gif',gdrv='17nvOuqdoREYJoPy1yhXLXxUleRFkTFCt'
@@ -98,17 +98,17 @@ case 10:
 mydiv='Crystal_Forest',imgur='b3DTdKy.png',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO'
 break;
 case 11:
-mydiv='Tower_of_Succubus',imgur='6esytlH.png',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO',bannerHtml='mugedoso.web.fc2.com/nhk/index.html',bannerImg='i.imgur.com/mXtDvrn.png'
+mydiv='Tower_of_Succubus',imgur='6esytlH.png',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO'
 break;
 case 12:
 mydiv='GORN',imgur='3zvtOl9.png',gdrv='1I96lvaw2ZqwwlzyCh9GiD7pmgYvaMrqs';
 youtube='bWKv7CUT5EI';
 break;
 case 13:
-mydiv='Ulu_City',imgur='RnyPbox.gif',gdrv='1RdyfNVA4Dx7yAjUUewun8EhSeD6DGqhH',bannerHtml='mugen-restaurant.jp/',bannerImg='i.imgur.com/GXjxQXs.png'
+mydiv='Ulu_City',imgur='RnyPbox.gif',gdrv='1RdyfNVA4Dx7yAjUUewun8EhSeD6DGqhH'
 break;
 case 14:
-mydiv='Stage_Etna',imgur='wUfekDC.png',gdrv='13vZUJmD97XnsU5JMdwdutcUniuPr6Pd5',zpoints=10000,bannerHtml='mugedoso.web.fc2.com/nhk/index.html',bannerImg='i.imgur.com/mXtDvrn.png'
+mydiv='Stage_Etna',imgur='wUfekDC.png',gdrv='13vZUJmD97XnsU5JMdwdutcUniuPr6Pd5',zpoints=10000
 break;
 case 15:
 mydiv='Ancient_Shadows',imgur='9QvIahU.gif',gdrv='18ucHZ1wXVEmX40FO3J5LCf1M7k_ao4ib'
@@ -117,7 +117,7 @@ case 16:
 mydiv='Burning_Village',imgur='pSV0xV2.png',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO'
 break;
 case 17:
-mydiv='Death_Star_3',imgur='tieF0Cw.png',gdrv='1cy-n32Funvw1ktwXoMU5_OX3Ox6D0kfk',bannerHtml='mugedoso.web.fc2.com/nhk/index.html',bannerImg='i.imgur.com/mXtDvrn.png'
+mydiv='Death_Star_3',imgur='tieF0Cw.png',gdrv='1cy-n32Funvw1ktwXoMU5_OX3Ox6D0kfk'
 break;
 case 18:
 mydiv='CDB',imgur='AaxPzr9.gif',gdrv='193jWOMqr2J3k5F0nyUbPEQGEmFtenT-p';
@@ -148,10 +148,10 @@ mydiv='Oil_Ocean',imgur='pcjB4Sm.png',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa';
 youtube='lGBi7D_kFoQ';
 break;
 case 26:
-mydiv='Moai_ruin',imgur='aen5RVb.gif',gdrv='1HCbYOLepWExO6LUFPiMweydWVgAjYCvu',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='i.imgur.com/8J4NDcA.png'
+mydiv='Moai_ruin',imgur='aen5RVb.gif',gdrv='1HCbYOLepWExO6LUFPiMweydWVgAjYCvu'
 break;
 case 27:
-mydiv='X_Granada',imgur='7VMUvKp.png',gdrv='19DwhFwCvUL9yOyNktgjMhFB1Vx4kuxIb',bannerHtml='mugedoso.web.fc2.com/nhk/index.html',bannerImg='i.imgur.com/mXtDvrn.png'
+mydiv='X_Granada',imgur='7VMUvKp.png',gdrv='19DwhFwCvUL9yOyNktgjMhFB1Vx4kuxIb'
 break;
 case 28:
 mydiv='Planet_Prision',imgur='1TljLfd.png',gdrv='1JhnQx-GmJzmJfnzZk7njhhjH-ouv4Aiy'
@@ -226,10 +226,11 @@ case 48:
 mydiv='Stage_Draco',imgur='1jmQ14m.png',gdrv='1EUlp0lxtk9rVYnVcGXHuiZL4TpoEF6Hu'
 break;
 case 49:
-mydiv='Metal_Gun',imgur='ZisA65d.gif',gdrv='1PrKFYlEcoYQD1OSgOScH_J-HNdFfKnnl',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='i.imgur.com/8J4NDcA.png'
+mydiv='Metal_Gun',imgur='ZisA65d.gif',gdrv='1PrKFYlEcoYQD1OSgOScH_J-HNdFfKnnl'
 break;
 case 50:
-mydiv='TerrariA',imgur='9Vc4Kbf.png',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',youtube='PkoYbNMsyKk',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg'
+mydiv='TerrariA',imgur='9Vc4Kbf.png',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg';
+youtube='PkoYbNMsyKk';
 break;
 case 51:
 mydiv='Random_Space',imgur='TN4XU4m.png',gdrv='14x_bwTrKjZtpERMj4mLkMXSoslv8Nzqz'
@@ -257,7 +258,7 @@ case 58:
 mydiv='Rescue_Geisha',imgur='hddoqUx.png',gdrv='1mHq1Yp7rNCpRMCNM6k-5xFWJuW5h23sB'
 break;
 case 59:
-mydiv='Mutation_Nation',imgur='jKesnb5.gif',gdrv='1Rk-VZr9dZw9dLYGdvseyPE_s4_hI83-g',bannerHtml='ngmc.retrogames.com/index.html',bannerImg='i.imgur.com/X4AzHu1.gif'
+mydiv='Mutation_Nation',imgur='jKesnb5.gif',gdrv='1Rk-VZr9dZw9dLYGdvseyPE_s4_hI83-g'
 break;
 case 60:
 mydiv='Mystic_Cave',imgur='OrOgvJ9.png',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa';
@@ -297,7 +298,7 @@ case 71:
 mydiv='Tower_of_MORGUL',imgur='36jrd6T.png',gdrv='1-NKnO4xFHRgjm3PZRhHC-K5EF6ukcb9Q'
 break;
 case 72:
-mydiv='Cilia_Monster',imgur='hzdVhqX.png',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='i.imgur.com/8J4NDcA.png'
+mydiv='Cilia_Monster',imgur='hzdVhqX.png',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n'
 break;
 case 73:
 mydiv='Galatic-Night-Club',imgur='9mhQVWp.png',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n'
@@ -332,7 +333,7 @@ case 82:
 mydiv='Axel_City',imgur='Isbps72.png',gdrv='1oRKGQfLQT6WBWq3DdKwKelUOHr1-iz7y'
 break;
 case 83:
-mydiv='Isamu_Game',imgur='xEfYQyh.gif',gdrv='1NMp-yMb7ykkUeZdbjwRKssVn0VVHLbSY',bannerHtml='www.ne.jp/asahi/across/chronicle/',bannerImg='i.imgur.com/8J4NDcA.png'
+mydiv='Isamu_Game',imgur='xEfYQyh.gif',gdrv='1NMp-yMb7ykkUeZdbjwRKssVn0VVHLbSY'
 break;
 case 84:
 mydiv='GoingThroughHell',imgur='rgY553Q.png',gdrv='1B-9djPWc599QfAckvePBlZc7-juAG5FH'
@@ -377,7 +378,7 @@ case 96:
 mydiv='Weve-got-Shadowmans',imgur='Qqql4Ve.png',gdrv='15_kwqkbcgY4Du6s3b-9yZuaX36nTIwit'
 break;
 case 97:
-mydiv='FFSTAGE',imgur='STyoeBm.png',gdrv='1mG8IPSYojKo6BeRbCM_RMCOpuI1gDusA',bannerHtml='mugedoso.web.fc2.com/nhk/index.html',bannerImg='i.imgur.com/mXtDvrn.png'
+mydiv='FFSTAGE',imgur='STyoeBm.png',gdrv='1mG8IPSYojKo6BeRbCM_RMCOpuI1gDusA'
 break;
 case 98:
 mydiv='Naga_Valley',imgur='33JcF6I.png',gdrv='19MzXevUjD7B1OWGXagW2TejZZGzv-23W'
@@ -407,7 +408,7 @@ case 106:
 mydiv='GanbareGoemon',imgur='dgknaTO.png',gdrv='17Oo7KMKs63Af0-C9e3Vj98s0T4wEOgWX'
 break;
 case 107:
-mydiv='Cry-of-the-Spirits',imgur='EO5HPUu.png',gdrv='1SNobOvwGogN1h-hOF9Nzy7zn-lSZdfae',bannerHtml='sunnyworld.free.fr',bannerImg='i.imgur.com/gAsrMM0.png'
+mydiv='Cry-of-the-Spirits',imgur='EO5HPUu.png',gdrv='1SNobOvwGogN1h-hOF9Nzy7zn-lSZdfae'
 break;
 case 108:
 mydiv='Gourmet_Foot',imgur='53GMLf1.png',gdrv='1UuakIrQFtW1CO9dpSEOEgclugBfcI3TM'
@@ -416,7 +417,8 @@ case 109:
 mydiv='Jiii',imgur='t9ZGdu5.png',gdrv='1qQhbzMzLsLM8KEjb_Vw2yTnIOac-YJR_'
 break;
 case 110:
-mydiv='Angel_Island',imgur='dST8Gh8.gif',gdrv='1IgCC20_LftsIx_4IzuQ7U-8Jll2s0UQV',youtube='C36o3XdkV7U'
+mydiv='Angel_Island',imgur='dST8Gh8.gif',gdrv='1IgCC20_LftsIx_4IzuQ7U-8Jll2s0UQV';
+youtube='C36o3XdkV7U';
 break;
 case 111:
 mydiv='ChompmanSTG',imgur='5t4sMNC.gif',gdrv='1vKNjQiIpYTmdpEoqR5bhrlofcJy-6jmb',bannerHtml='www.sprites-inc.co.uk',bannerImg='i.imgur.com/RqfqBg1.png'
@@ -435,7 +437,7 @@ case 115:
 mydiv='Gourmet_Street',imgur='0a7Nif5.png',gdrv='1UuakIrQFtW1CO9dpSEOEgclugBfcI3TM'
 break;
 case 116:
-mydiv='ZeroCastle',imgur='tP99cjE.gif',gdrv='1B5zWBNVlpHFng28YeXLoqXhTqk41G5Gt',bannerHtml='mugedoso.web.fc2.com/nhk/index.html',bannerImg='i.imgur.com/mXtDvrn.png'
+mydiv='ZeroCastle',imgur='tP99cjE.gif',gdrv='1B5zWBNVlpHFng28YeXLoqXhTqk41G5Gt'
 break;
 case 117:
 mydiv='Viotoxica',imgur='4IAHHn8.gif',gdrv='1m6J6S5zjqtt9OpwMcJuajwVmBEzTVCkV'
@@ -484,7 +486,7 @@ case 131:
 mydiv='BusterSTG',imgur='I9XkGao.gif',gdrv='1x8-qWjazOf97ZHIoZONyGJA9xQzGnBEU'
 break;
 case 132:
-mydiv='Majyuuou',imgur='IPxOOKq.gif',gdrv='1OGF4O5R9EHDplwmpAb4lx58NaBC305Ag',bannerHtml='valgallah77.web.fc2.com/',bannerImg='i.imgur.com/q7RAxeG.png'
+mydiv='Majyuuou',imgur='IPxOOKq.gif',gdrv='1OGF4O5R9EHDplwmpAb4lx58NaBC305Ag'
 break;
 case 133:
 mydiv='Tails_Adventure',imgur='dZ6dOhE.gif',gdrv='1IgCC20_LftsIx_4IzuQ7U-8Jll2s0UQV'
@@ -505,10 +507,10 @@ case 138:
 mydiv='Psycho_Wasp',imgur='66f1HbI.png',gdrv='1O3mXmF_II1f_yuL-7yOdOCZffCMP_ipZ'
 break;
 case 139:
-mydiv='Shockman',imgur='TvKpECK.gif',gdrv='1M8Qb9lOi0kiJS0-i2tMwVLTrrbRD2_W3',bannerHtml='wani-shima.sakura.ne.jp/MUGEN.html',bannerImg='wani-shima.sakura.ne.jp/kyouryuubana.jpg'
+mydiv='Shockman',imgur='TvKpECK.gif',gdrv='1M8Qb9lOi0kiJS0-i2tMwVLTrrbRD2_W3'
 break;
 case 140:
-mydiv='Ghost-Sweeper',imgur='btWjmQ7.gif',gdrv='1IirAgUWUbBQWSPDMhavvFgDL-mbxZXoc',bannerHtml='sunnyworld.free.fr',bannerImg='i.imgur.com/gAsrMM0.png'
+mydiv='Ghost-Sweeper',imgur='btWjmQ7.gif',gdrv='1IirAgUWUbBQWSPDMhavvFgDL-mbxZXoc'
 break;
 case 141:
 mydiv='Final_Assault',imgur='2sTDDfe.gif',gdrv='1YhNUX_0osdyDKucya4xLUMGDrKt5MVO0',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png';
@@ -520,10 +522,10 @@ case 143:
 mydiv='Dense_Jungle',imgur='9aKwD6M.png',gdrv='1ouGRVEP7IPamjAgjYiL1xhdYYGaPfnwr'
 break;
 case 144:
-mydiv='Jiu_Xiang_Rong_Dong',imgur='mXzscPv.png',gdrv='1e-D6IIh5lc_DO8wk4PoFM_Y88MgzvUKB',bannerHtml='ankokunaitou.blog.fc2.com',bannerImg='i.imgur.com/EIXSnzc.png'
+mydiv='Jiu_Xiang_Rong_Dong',imgur='mXzscPv.png',gdrv='1e-D6IIh5lc_DO8wk4PoFM_Y88MgzvUKB'
 break;
 case 145:
-mydiv='Tietê',imgur='hVQbFCj.png',gdrv='1TdrSHbkmHnV_h6Q3W520Wihc9646KZbJ',bannerHtml='kaendd.free.fr',bannerImg='i.imgur.com/8OmGYOX.png'
+mydiv='Tietê',imgur='hVQbFCj.png',gdrv='1TdrSHbkmHnV_h6Q3W520Wihc9646KZbJ'
 break;
 case 146:
 mydiv='Ulu_City_2',imgur='9urjRsW.png',gdrv='1KmBAayxkuuEeHgKN-gyZ-GXy_vsW2wOK'
@@ -541,8 +543,16 @@ case 0:
 mydiv=''
 }
 if (bannerHtml==''){
-bannerHtml='wani-shima.sakura.ne.jp/MUGEN.html';
-bannerImg='wani-shima.sakura.ne.jp/kyouryuubana.jpg';
+ytLink=(Math.floor(Math.random()*9));
+	if (ytLink==0) {bannerHtml='wani-shima.sakura.ne.jp/MUGEN.html';bannerImg='wani-shima.sakura.ne.jp/kyouryuubana.jpg';}
+	if (ytLink==1) {bannerHtml='kaendd.free.fr';bannerImg='i.imgur.com/8OmGYOX.png';}
+	if (ytLink==2) {bannerHtml='ankokunaitou.blog.fc2.com';bannerImg='i.imgur.com/EIXSnzc.png';}
+	if (ytLink==3) {bannerHtml='sunnyworld.free.fr';bannerImg='i.imgur.com/gAsrMM0.png';}
+	if (ytLink==4) {bannerHtml='valgallah77.web.fc2.com/';bannerImg='i.imgur.com/q7RAxeG.png';}
+	if (ytLink==5) {bannerHtml='mugedoso.web.fc2.com/nhk/index.html';bannerImg='i.imgur.com/mXtDvrn.png';}
+	if (ytLink==6) {bannerHtml='www.ne.jp/asahi/across/chronicle/';bannerImg='i.imgur.com/8J4NDcA.png';}
+	if (ytLink==7) {bannerHtml='ngmc.retrogames.com/index.html';bannerImg='i.imgur.com/X4AzHu1.gif';}
+	if (ytLink==8) {bannerHtml='mugen-restaurant.jp/';bannerImg='i.imgur.com/GXjxQXs.png';}
 }
 switch (code) {
 	// Build the button
@@ -584,7 +594,6 @@ elementos.forEach(elemento => {
 // {window.open('https://www.dropbox.com/sh/4yvtvzi0bgvm6ky/AAD9c--Ke68LHTn2E1Nd3QVOa?dl=0','_blank')}
 // document.getElementById(numero).innerHTML="<br><br><iframe src=https://www.youtube.com/embed/"+youtube+" width='430' height='240' frameborder='0'></iframe><br><b>"+mydiv+"</b><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a><br><br>"
 // videoshowcase <iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe>
-
 
 
 
