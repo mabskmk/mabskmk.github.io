@@ -145,7 +145,7 @@ mydiv='Wild_Side',imgur='LdboBiv.png',gdrv='1koEXqyq-nh8_LSxCyvuEHyTPWoXww-ns'
 break;
 case 25:
 mydiv='Oil_Ocean',imgur='pcjB4Sm.png',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa';
-youtube='lGBi7D_kFoQ';
+youtube='MQrD4DVeXpI'; // lGBi7D_kFoQ
 break;
 case 26:
 mydiv='Moai_ruin',imgur='aen5RVb.gif',gdrv='1HCbYOLepWExO6LUFPiMweydWVgAjYCvu'
@@ -594,6 +594,7 @@ elementos.forEach(elemento => {
 // {window.open('https://www.dropbox.com/sh/4yvtvzi0bgvm6ky/AAD9c--Ke68LHTn2E1Nd3QVOa?dl=0','_blank')}
 // document.getElementById(numero).innerHTML="<br><br><iframe src=https://www.youtube.com/embed/"+youtube+" width='430' height='240' frameborder='0'></iframe><br><b>"+mydiv+"</b><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a><br><br>"
 // videoshowcase <iframe src=https://www.youtube.com/embed/"+youtube+"?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe>
+
 
 
 
