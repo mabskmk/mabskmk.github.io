@@ -4,7 +4,7 @@ const isHalloween = ((hoje.getDate()>=13 && hoje.getDate()<=31 && hoje.getMonth(
 
 //MENU
 function ppmain(numero) {
-playerOne[0]=0;
+if (playerOne[0] === undefined) {playerOne[0] = 0;}
 document.getElementById('cabec').innerHTML="<b><a href='https://en.wikipedia.org/wiki/M.U.G.E.N' target='_blank' id='top'><u>M.U.G.E.N</u></a></b><br>A 2D fighting game engine that enables you to create fighting games.<br>Almost everything can be customized, from individual characters to stages, as well as the look and feel of the game.</b><br>I hope you enjoy my 'work'<br><br><input type=button onClick='menuchar()' value='Characters' id='btnchar'><input type=button onClick='menustage3()' value='Stages' id='btnstg'><input type=button onClick='menufullgame()' value='Fullgames' id='btnfullg'><input type=button onClick='menugame()' value='Battle!' id='btnyotu'><input type=button onClick='ppmain(2)' value='Showcase' id='btnnew'><br>"
 switch (numero) {
 case 1:
@@ -45,6 +45,7 @@ btnyotu.disabled=true;
 break;
 }
 }
+
 
 
 
