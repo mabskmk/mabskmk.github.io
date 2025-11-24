@@ -49,8 +49,8 @@ btnfullg.disabled=false;
 btnyotu.disabled=false;
 help1.disabled=false;
 help2.disabled=true;
-playerOne[0] = 0;
-playerTwo[0] = 0;
+if (playerOne[0] === undefined) {playerOne[0] = 0;}
+if (playerTwo[0] === undefined) {playerTwo[0] = 0;}
 startGame();
 }
 
@@ -798,6 +798,7 @@ elementos.forEach(elemento => {
 });
 return(imgur);
 }
+
 
 
 
