@@ -145,7 +145,7 @@ playerTwo[14]=drawCard();
 playerTwo[15]=drawCard();
 
 // Returning player
-if (playerOne[0] > 0) {document.getElementById(point1).innerHTML=( playerOne[0].toString().padStart(12, 'o') );}
+if (playerOne[0] > 0) {document.getElementById(point1).innerHTML=( (playerOne[0]).toString().padStart(12, 'o') );}
 	
 //Start the battle
 	computerTime();
@@ -801,6 +801,7 @@ elementos.forEach(elemento => {
 });
 return(imgur);
 }
+
 
 
 
