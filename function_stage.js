@@ -92,10 +92,12 @@ mydiv='Titans_forest',imgur='goFjeiV.png',gdrv='1MRECApSGzHfDQzdnfQTrymNrRqx6Cw8
 youtube='IV6_G1aISBY'; //@MUGENGaming-j3d
 break;
 case 9:
-mydiv='Slim_Subway_Smash',imgur='ZMRsPYv.png',gdrv='11YnMUNCEu9_eMTGoxUSn6WWSDZPI6C4t'
+mydiv='Slim_Subway_Smash',imgur='ZMRsPYv.png',gdrv='11YnMUNCEu9_eMTGoxUSn6WWSDZPI6C4t';
+youtube='CZ3BineK6TY'; //@PerryMason123
 break;
 case 10:
-mydiv='Crystal_Forest',imgur='b3DTdKy.png',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO'
+mydiv='Crystal_Forest',imgur='b3DTdKy.png',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO';
+youtube='EYIMYXpiilQ'; //@PerryMason123
 break;
 case 11:
 mydiv='Tower_of_Succubus',imgur='6esytlH.png',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO'
@@ -111,7 +113,8 @@ case 14:
 mydiv='Stage_Etna',imgur='wUfekDC.png',gdrv='13vZUJmD97XnsU5JMdwdutcUniuPr6Pd5',zpoints=10000
 break;
 case 15:
-mydiv='Ancient_Shadows',imgur='9QvIahU.gif',gdrv='18ucHZ1wXVEmX40FO3J5LCf1M7k_ao4ib'
+mydiv='Ancient_Shadows',imgur='9QvIahU.gif',gdrv='18ucHZ1wXVEmX40FO3J5LCf1M7k_ao4ib';
+youtube='QYOQ9QdDdTo'; //@PerryMason123
 break;
 case 16:
 mydiv='Burning_Village',imgur='pSV0xV2.png',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO';
@@ -139,7 +142,12 @@ case 22:
 mydiv='Transylvania',imgur='dQfLncX.png',gdrv='1wwEIGabRJlyf8KqKHjVMI3nggaPNj3Id'
 break;
 case 23:
-mydiv='Chemical_Plant',imgur='3Xba3Hf.gif',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa'
+mydiv='Chemical_Plant',imgur='3Xba3Hf.gif',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa';
+ytLink=(Math.floor(Math.random()*3));
+	if (ytLink==0) {youtube='Qlv2KUWhHrE';} //@MugenLord
+	if (ytLink==1) {youtube='uTdxHzFzCIw';} //@Seenik09
+	if (ytLink==2) {youtube='MPWSFrFM6DM?si=MFP1rb4wnrkZEeuN&start=732&end=782';sufix='&autoplay=1&mute=1';} //@EXFalchion
+	if (ytLink==1) {youtube='5UeQ5Mb0Ed4';} //@PerryMason123
 break;
 case 24:
 mydiv='Wild_Side',imgur='LdboBiv.png',gdrv='1koEXqyq-nh8_LSxCyvuEHyTPWoXww-ns'
@@ -168,10 +176,11 @@ mydiv='NeonLight',imgur='vxBbbkP.png',gdrv='114xNnXpr_WCTn3IKkK9P_7SgzJu5-3z7'
 break;
 case 32:
 mydiv='Leventhan',imgur='AaXCSHe.png',gdrv='1oNKmO6lMX3P7-4QBSd2JJhLYLv0zI7rK';
-ytLink=(Math.floor(Math.random()*3));
+ytLink=(Math.floor(Math.random()*4));
 	if (ytLink==0) {youtube='93SLJSuIDQA';} //@Macaulyn_97
 	if (ytLink==1) {youtube='bJLUVn5rSX0';} //@xWagnerPlaguesx
 	if (ytLink==2) {youtube='ySNMmK5Vepg';} //@Macaulyn_97
+	if (ytLink==3) {youtube='Zl8srF00-9M';} //@PerryMason123
 break;
 case 33:
 mydiv='Stage_ChunLi',imgur='SQ4IEWA.png',gdrv='1oQKJTJvKI-ftvYHG1AL_fnHZzAZtttmU';
@@ -250,7 +259,8 @@ case 55:
 mydiv='Last_Dungeon',imgur='Segr9oc.gif',gdrv='14zbO8F_tlSZvlfKBRYFMcTRmuLCpDvMR'
 break;
 case 56:
-mydiv='TerrorVision',imgur='avje3sN.png',gdrv='1nYIwOYfc3V0gf8pAeItuqAShZLzDsLEj'
+mydiv='TerrorVision',imgur='avje3sN.png',gdrv='1nYIwOYfc3V0gf8pAeItuqAShZLzDsLEj';
+youtube='T9nVVukKXbw?si=0Pk3ezTI00v8OIT-&start=12&end=62',sufix='&autoplay=1&mute=1'; //@jewelmen10mugen87
 break;
 case 57:
 mydiv='Escape_in_a_Forest',imgur='DTzvZ6p.png',gdrv='1mHq1Yp7rNCpRMCNM6k-5xFWJuW5h23sB'
@@ -328,7 +338,8 @@ mydiv='TerrariB',imgur='nxum0HB.png',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',ba
 youtube='aU2J_5lPD94'; //@DemonDragonify
 break;
 case 81:
-mydiv='Battle_Capacity',imgur='ulhRFM8.gif',gdrv='1dAQDOMPQN_-9nEA8A_wZIAZW1eGZe8uR'
+mydiv='Battle_Capacity',imgur='ulhRFM8.gif',gdrv='1dAQDOMPQN_-9nEA8A_wZIAZW1eGZe8uR';
+youtube='xxAfpCaQbgM'; //@tokaiteiopok
 break;
 case 82:
 mydiv='Axel_City',imgur='Isbps72.png',gdrv='1oRKGQfLQT6WBWq3DdKwKelUOHr1-iz7y'
@@ -500,7 +511,8 @@ case 133:
 mydiv='Tails_Adventure',imgur='dZ6dOhE.gif',gdrv='1IgCC20_LftsIx_4IzuQ7U-8Jll2s0UQV'
 break;
 case 134:
-mydiv='Trump_Castle',imgur='uuXaSYP.gif',gdrv='1cMAkHNBloMttCw9YAhQROHgqFx8vfzwa'
+mydiv='Trump_Castle',imgur='uuXaSYP.gif',gdrv='1cMAkHNBloMttCw9YAhQROHgqFx8vfzwa';
+youtube='TBCiWBeykzA'; //@I_yeet_deez_nuts_in_your_mouth
 break;
 case 135:
 mydiv='Alex_Kidd_SW',imgur='Bh3ZJYA.gif',gdrv='14tIuGNaATof4tdimK6HitxNYLBER-d5V'
@@ -576,7 +588,7 @@ switch (code) {
 	break;
 	// Video showcase
 	case 3:
-		if ( (zpoints==0) || (playerOne[0] >= zpoints) ) {
+		if ( (zpoints==0) || (playerOne[0] >= zpoints) || isHalloween ) {
 			if (youtube!=''){
 			document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+""+sufix+" width='500' height='300' frameborder='0'></iframe><br>STAGE ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=STG_"+mydiv+"></a><br>"
 			}
