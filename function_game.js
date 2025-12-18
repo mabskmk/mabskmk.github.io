@@ -14,6 +14,16 @@ var botZ=0;			//worker
 
 var hashTag=0;		//Geometric progression (1+2+4+8+16+32+64+128+256=511)
 
+const matrixObjective = [
+	[1, 2, 3],
+	[4, 5, 6],
+	[7, 8, 9],
+	[1, 4, 7],
+	[2, 5, 8],
+	[3, 6, 9],
+	[1, 5, 9],
+	[3, 5, 7],
+];
 
 //====================================================
 // Functions
@@ -159,18 +169,7 @@ if (playerOne[0] > 0) {document.getElementById('point1').innerHTML=( playerOne[0
 async function computerTime() {
 
 let playingOffensive = new Array(9);
-let improvedRandom   = [];
-
-const matrixObjective = [
-	[1, 2, 3],
-	[4, 5, 6],
-	[7, 8, 9],
-	[1, 4, 7],
-	[2, 5, 8],
-	[3, 6, 9],
-	[1, 5, 9],
-	[3, 5, 7],
-];	
+let improvedRandom   = [];	
 
 if (actualPlayer==2) {
 
@@ -634,57 +633,41 @@ botX=-1;
 
 // 'botX' used only in case of W.O ^
 function victoryCheck(botX) {
-
+let counterV = 0;
 botY=0;
 botZ=0;
 
-	if (playerOne[1]!=-1 && playerOne[2]!=-1 && playerOne[3]!=-1 &&botX==0) {botX=1; botY=7;}
-	if (playerOne[4]!=-1 && playerOne[5]!=-1 && playerOne[6]!=-1 &&botX==0) {botX=1; botY=56;}
-	if (playerOne[7]!=-1 && playerOne[8]!=-1 && playerOne[9]!=-1 &&botX==0) {botX=1; botY=448;}
+//----------------------------------------------------
+loop:
+for (let player=1;player<3;player++) {
 
-	if (playerOne[1]!=-1 && playerOne[4]!=-1 && playerOne[7]!=-1 &&botX==0) {botX=1; botY=73;}
-	if (playerOne[2]!=-1 && playerOne[5]!=-1 && playerOne[8]!=-1 &&botX==0) {botX=1; botY=146;}
-	if (playerOne[3]!=-1 && playerOne[6]!=-1 && playerOne[9]!=-1 &&botX==0) {botX=1; botY=292;}
-
-	if (playerOne[1]!=-1 && playerOne[5]!=-1 && playerOne[9]!=-1 &&botX==0) {botX=1; botY=273;}
-	if (playerOne[3]!=-1 && playerOne[5]!=-1 && playerOne[7]!=-1 &&botX==0) {botX=1; botY=84;}
-
-	if (playerTwo[1]!=-1 && playerTwo[2]!=-1 && playerTwo[3]!=-1 &&botX==0) {botX=2; botY=7;}
-	if (playerTwo[4]!=-1 && playerTwo[5]!=-1 && playerTwo[6]!=-1 &&botX==0) {botX=2; botY=56;}
-	if (playerTwo[7]!=-1 && playerTwo[8]!=-1 && playerTwo[9]!=-1 &&botX==0) {botX=2; botY=448;}
-
-	if (playerTwo[1]!=-1 && playerTwo[4]!=-1 && playerTwo[7]!=-1 &&botX==0) {botX=2; botY=73;}
-	if (playerTwo[2]!=-1 && playerTwo[5]!=-1 && playerTwo[8]!=-1 &&botX==0) {botX=2; botY=146;}
-	if (playerTwo[3]!=-1 && playerTwo[6]!=-1 && playerTwo[9]!=-1 &&botX==0) {botX=2; botY=292;}
-
-	if (playerTwo[1]!=-1 && playerTwo[5]!=-1 && playerTwo[9]!=-1 &&botX==0) {botX=2; botY=273;}
-	if (playerTwo[3]!=-1 && playerTwo[5]!=-1 && playerTwo[7]!=-1 &&botX==0) {botX=2; botY=84;}
-
-	//-------------------------------------------------------------------------------------------
-	// Triple combo ._.
+for (let lin=0;lin<8;lin++) {
 	
-	if (playerOne[1]==playerOne[2] && playerOne[2]==playerOne[3] &&botX==1 &&botY==7) {botZ=playerOne[1]+1;}
-	if (playerOne[4]==playerOne[5] && playerOne[5]==playerOne[6] &&botX==1 &&botY==56) {botZ=playerOne[4]+1;}
-	if (playerOne[7]==playerOne[8] && playerOne[8]==playerOne[9] &&botX==1 &&botY==448) {botZ=playerOne[7]+1;}
+	counterV=0;
+	
+for (let col=0;col<3;col++) {
 
-	if (playerOne[1]==playerOne[4] && playerOne[4]==playerOne[7] &&botX==1 &&botY==73) {botZ=playerOne[1]+1;}
-	if (playerOne[2]==playerOne[5] && playerOne[5]==playerOne[8] &&botX==1 &&botY==146) {botZ=playerOne[2]+1;}
-	if (playerOne[3]==playerOne[6] && playerOne[6]==playerOne[9] &&botX==1 &&botY==292) {botZ=playerOne[3]+1;}
+	if (playerOne[(matrixObjective[lin][col])] != -1 && player==1 ) {counterV++;}
+	if (playerTwo[(matrixObjective[lin][col])] != -1 && player==2 ) {counterV++;}
 
-	if (playerOne[1]==playerOne[5] && playerOne[5]==playerOne[9] &&botX==1 &&botY==273) {botZ=playerOne[1]+1;}
-	if (playerOne[3]==playerOne[5] && playerOne[5]==playerOne[7] &&botX==1 &&botY==84) {botZ=playerOne[3]+1;}
+	if (counterV==3) {
 
-	if (playerTwo[1]==playerTwo[2] && playerTwo[2]==playerTwo[3] &&botX==2 &&botY==7) {botZ=playerTwo[1]+1;}
-	if (playerTwo[4]==playerTwo[5] && playerTwo[5]==playerTwo[6] &&botX==2 &&botY==56) {botZ=playerTwo[4]+1;}
-	if (playerTwo[7]==playerTwo[8] && playerTwo[8]==playerTwo[9] &&botX==2 &&botY==448) {botZ=playerTwo[7]+1;}
+		botX = player;
+		botY = (2**(matrixObjective[lin][0]-1)) + (2**(matrixObjective[lin][1]-1)) + (2**(matrixObjective[lin][2]-1));
 
-	if (playerTwo[1]==playerTwo[4] && playerTwo[4]==playerTwo[7] &&botX==2 &&botY==73) {botZ=playerTwo[1]+1;}
-	if (playerTwo[2]==playerTwo[5] && playerTwo[5]==playerTwo[8] &&botX==2 &&botY==146) {botZ=playerTwo[2]+1;}
-	if (playerTwo[3]==playerTwo[6] && playerTwo[6]==playerTwo[9] &&botX==2 &&botY==292) {botZ=playerTwo[3]+1;}
-
-	if (playerTwo[1]==playerTwo[5] && playerTwo[5]==playerTwo[9] &&botX==2 &&botY==273) {botZ=playerTwo[1]+1;}
-	if (playerTwo[3]==playerTwo[5] && playerTwo[5]==playerTwo[7] &&botX==2 &&botY==84) {botZ=playerTwo[3]+1;}
-
+		// Triple combo ._.
+		if (player==1&&(playerOne[(matrixObjective[lin][0])]==playerOne[(matrixObjective[lin][1])])&&(playerOne[(matrixObjective[lin][1])]==playerOne[(matrixObjective[lin][2])])) {
+		botZ = playerOne[(matrixObjective[lin][0])]+1;
+		}
+		if (player==2&&(playerTwo[(matrixObjective[lin][0])]==playerTwo[(matrixObjective[lin][1])])&&(playerTwo[(matrixObjective[lin][1])]==playerTwo[(matrixObjective[lin][2])])) {
+		botZ = playerOne[(matrixObjective[lin][0])]+1;
+		}
+	break loop;
+	}
+}
+}
+}
+//----------------------------------------------------
 
 if (botX>0) {
 
