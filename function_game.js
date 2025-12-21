@@ -5,6 +5,12 @@
 var cardArray = new Array(9);	//deck
 var playerOne = new Array(16);	//Player table, cards and hand
 var playerTwo = new Array(16);	//CPU table, cards and hand
+								/**
+								(0)     points
+								(1-9)   field
+								(10)    combo
+								(11-15) hand
+								**/
 var actualPlayer=0;		//Player(1) or CPU(2) just in case you are faster than the cpu...
 var cardSelect=0;		//Player's hand
 
@@ -433,34 +439,12 @@ async function playSelect(botX) {
 
 if (actualPlayer==1) {
 
-	//The chosen spot is empty
-	if (cardSelect!='' && hashTag<511 && playerTwo[botX]==-1 && playerOne[botX]==-1) {
+	//The chosen spot is empty or contains the computer's card with a smaller value
+	if (cardSelect!='' && playerOne[botX]==-1 && ( playerOne[cardSelect] > playerTwo[botX] ) ) {
 
-	await calculatePoints(1,(playerOne[cardSelect]),-1,0);
-
-	//And put it on the table ***
-	playerOne[botX] = playerOne[cardSelect];
-	document.getElementById(botX).src = getImage(playerOne[botX],1);
-
-	//Take the card from your hand ***
-	playerOne[cardSelect] = -1;
-	document.getElementById(cardSelect).src = getImage();
-
-	// Geometric progression
-	if (hashTag% (2*(2**(botX-1))) < (2**(botX-1)) ) {
-	hashTag = hashTag + (2**(botX-1));
-	}
-
-	highCard();
-	cardSelect='';
-	await reArrange(1);
-	}
-
-	//The chosen spot contains the computer's card and is smaller than your card 
-	if (cardSelect!='' && playerTwo[botX]!=-1 && (playerOne[cardSelect]>playerTwo[botX])) {
-
-	await calculatePoints(1,(playerOne[cardSelect]),(playerTwo[botX]),1);
-
+	await calculatePoints(1,(playerOne[cardSelect]),(playerTwo[botX]),(playerTwo[botX]!=-1? 1 : 0));
+	
+	//Clear the cpu's spot anyways
 	playerTwo[botX] = -1;
 
 	//And put it on the table ***
