@@ -644,7 +644,7 @@ for (let col=0;col<3;col++) {
 		botZ = playerOne[(matrixObjective[lin][0])]+1;
 		}
 		if (player==2&&(playerTwo[(matrixObjective[lin][0])]==playerTwo[(matrixObjective[lin][1])])&&(playerTwo[(matrixObjective[lin][1])]==playerTwo[(matrixObjective[lin][2])])) {
-		botZ = playerOne[(matrixObjective[lin][0])]+1;
+		botZ = playerTwo[(matrixObjective[lin][0])]+1;
 		}
 	break loop;
 	}
@@ -768,6 +768,7 @@ elementos.forEach(elemento => {
 });
 return(imgur);
 }
+
 
 
 
