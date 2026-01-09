@@ -90,10 +90,11 @@ function showGood() {document.getElementById('10').src=getImage(8,1);}
 //----------------------------------------------------
 
 function startGame() {
+console.log("====/startGame/====");
 
-botX=-1;
-botY=-1;
-botZ=-1;
+botX=0;
+botY=0;
+botZ=0;
 
 hashTag=0;
 cardSelect='';
@@ -130,21 +131,19 @@ cardArray[6]=3;
 cardArray[7]=2;
 cardArray[8]=1;
 for (let x=1;x<16;x++) {
-	playerOne[x] = -1;
-	playerTwo[x] = -1;
+	playerOne[x] = 0;
+	playerTwo[x] = 0;
 }
-playerOne[10] = 0;
-playerTwo[10] = 0;
 
 // Player receives 5 cards
-playerOne[11]=drawCard();
+//playerOne[11]=drawCard(); console.log.coolness
 playerOne[12]=drawCard();
 playerOne[13]=drawCard();
 playerOne[14]=drawCard();
 playerOne[15]=drawCard();
 
 // Player's cards
-document.getElementById(11).src = getImage(playerOne[11],1);
+//document.getElementById(11).src = getImage(playerOne[11],1); console.log.coolness
 document.getElementById(12).src = getImage(playerOne[12],1);
 document.getElementById(13).src = getImage(playerOne[13],1);
 document.getElementById(14).src = getImage(playerOne[14],1);
@@ -169,112 +168,102 @@ if (playerOne[0] > 0) {document.getElementById('point1').innerHTML=( playerOne[0
 
 
 //====================================================
-// [Computer plays] AI ver 3.10.2025
+// [Computer plays] AI ver 9.01.2026
 //----------------------------------------------------
 
 async function computerTime() {
 
-let playingOffensive = new Array(9);
-let improvedRandom   = [];	
-
 if (actualPlayer==2) {
-
-	//-------------------------------------------------
-	//Reseting values jic
-	//-------------------------------------------------
-	improvedRandom   = [];
-	improvedRandom.length=0;
-
-	for (let a=0; a<9; a++) {
-		playingOffensive[a] = 0;
-	}
-	
-	botX=-1; //Random card in hand
-	botY=-1; //Random spot on the table
-	botZ=-1; //Perfect selection
-	//-------------------------------------------------
-
+	console.log("computerTime");
 
 	// W.O test (full table)
-	if (hashTag==511) {walkOver(2);}
+	if (hashTag==511) { await walkOver(2);}
 
 
+	let {indexNine, indexTwins, indexBigger} = await computerVerifyHand();
+
+	let improvedRandom = await computerVerifyField();
+
+	botX=0;
+	botY=0;
+	botZ=0;
+
 	//-------------------------------------------------
-	// (AI) Looking for objectives
+	//	Card 9 in the middle
 	//-------------------------------------------------
-	for (let lin=0;lin<8;lin++) {
-	for (let col=0;col<3;col++) {
-		if ( playerTwo[ (matrixObjective[lin][col]) ] !=-1 ) {
-			playingOffensive[lin]=playingOffensive[lin]+1;
+	if (botX==0 && indexNine>0 && playerTwo[5]==0 && (playerOne[5]==0||playerOne[5]==8) && (playerOne[0]>playerTwo[0]) ) {
+	
+		console.log("	played card 9");
+		botX = indexNine;
+		botY = 5;
+	
+	}
+
+	//-------------------------------------------------
+	//	Trying combos
+	//-------------------------------------------------
+	if (botX==0 && indexBigger.length > 0) {
+		for (let i=0; i<improvedRandom.length; i++) {
+		for (let b=0; b<indexBigger.length; b++) {
+
+			if (improvedRandom[i] == indexBigger[b][1]) {
+				console.log("	played combo");
+				botX = indexBigger[b][0];
+				botY = indexBigger[b][1];
+			}
+
+		}
 		}
 	}
-	}	
-	//-------------------------------------------------
-
 
 	//-------------------------------------------------
-	// (AI) Choosing the best objective
+	//	High card
 	//-------------------------------------------------
-	for (let x=0; x<8; x++) {
-		if (playingOffensive[x] > botZ) {botZ = playingOffensive[x]};
-	}
-	//-------------------------------------------------
-
-
-	//-------------------------------------------------
-	// (AI) Creating a list of possibilities
-	//-------------------------------------------------
-	while (improvedRandom.length < 1) {
-	for (let celula=1;celula<10;celula++) {
+	if (botX==0 && improvedRandom.length==1) {
 		
-			matrix:
-			for (let lin=0; lin<8; lin++) {
-			for (let col=0; col<3; col++) {
-				if ( (matrixObjective[lin][col]==celula) && (playingOffensive[lin]==botZ) ) {
+		console.log("	played bigger");
 
-					if (playerTwo[celula] == -1) {
-						if (playerOne[celula] == -1) {
-							improvedRandom.push(celula);
-							break matrix;
-						}
-						else if ( canOvercome(playerOne[celula]) ) { //***
-							improvedRandom.push(celula);
-							break matrix;
-						}
-					}
+		for (let x=11; x<16; x++) {
+			if (playerTwo[x] > botZ) {
+				botX = x;
+				botZ = playerTwo[x];
 				}
-			}
-			}
-		
+		}
+
+	botY = improvedRandom[0];
 	}
-	if (improvedRandom.length < 1) {botZ--;}
+
+	//-------------------------------------------------
+	// 	Random
+	//-------------------------------------------------
+	if (botX==0) {
+
+		console.log("	played random");
+
+		// Choosing a card
+		botX=(Math.floor(Math.random()*5)+11);
+
+		// Choosing a spot
+		botZ=(Math.floor(Math.random()*improvedRandom.length)); //(AI) possibilities
+		botY=improvedRandom[botZ];
+
+		//If the chosen spot isn't empty ***
+		if (playerOne[botY]!=0) {
+			while (playerTwo[botX]<=playerOne[botY]) {botX=(Math.floor(Math.random()*5)+11);}
+		}
 	}
+	//-------------------------------------------------
+	console.log("		hand:"+playerTwo[botX]+" field:"+botY+" P1:"+(playerOne[botY]));
 	//-------------------------------------------------
 
 
-
-	//-------------------------------------------------
-	// Choosing a card and spot
-	botX=(Math.floor(Math.random()*5)+11);
-
-	// Choosing a spot
-	botZ=(Math.floor(Math.random()*improvedRandom.length)); //(AI) possibilities
-	botY=improvedRandom[botZ];
-
-	//If the chosen spot isn't empty ***
-	if (playerOne[botY]!=-1) {
-		while (playerTwo[botX]<=playerOne[botY]) {botX=(Math.floor(Math.random()*5)+11);}
-	}
-	//-------------------------------------------------
-
-
-	await calculatePoints(2,(playerTwo[botX]),(playerOne[botY]),((playerOne[botY]!=-1? 1 : 0)));
-	playerOne[botY] = -1;
+	await calculatePoints(2,(playerTwo[botX]),(playerOne[botY]),((playerOne[botY]!=0? 1 : 0)));
+	playerOne[botY] = 0;
 	botZ = playerTwo[botX];
 	
 
 	//Take the card from your hand
-	playerTwo[botX] = -1;
+	playerTwo[botX] = 0;
 
 	//And put it on the table
 	playerTwo[botY] = botZ;
@@ -286,25 +275,215 @@ if (actualPlayer==2) {
 	}
 
 	highCard();
-	await reArrange(2);
+	await victoryCheck(0); //reArrange(2);
 
 }
 return;
 }
 
 //====================================================
-// [Can Overcome?] (AI)
+// [Computer verify Field]
 //----------------------------------------------------
+function computerVerifyField() {
+
+if (actualPlayer==2) {
+console.log("computerVerifyField");
+
+let playingOffensive = new Array(8);
+let playingDefensive = new Array(8);
+let improvedOffensive = [];
+let improvedDefensive = [];
+	
+	//-------------------------------------------------
+	//Reseting values jic
+	//-------------------------------------------------
+	improvedOffensive   = [];
+	improvedDefensive   = [];
+	improvedOffensive.length=0;
+	improvedDefensive.length=0;
+
+	for (let a=0; a<8; a++) {
+		playingOffensive[a] = 0;
+		playingDefensive[a] = 0;
+	}
+	
+	botZ=0; //High Offensive
+	botX=0; //High Defensive
+	//-------------------------------------------------
+
+
+	//-------------------------------------------------
+	// (AI) Looking for objectives
+	//-------------------------------------------------
+	for (let lin=0;lin<8;lin++) {
+	for (let col=0;col<3;col++) {
+
+		if ( playerOne[ (matrixObjective[lin][col]) ] !=0 ) {
+			playingDefensive[lin]=playingDefensive[lin]+1;
+		}
+
+		if ( playerTwo[ (matrixObjective[lin][col]) ] !=0 ) {
+			playingOffensive[lin]=playingOffensive[lin]+1;
+		}
+	}
+	}	
+	//-------------------------------------------------
+
+
+	//-------------------------------------------------
+	// (AI) Choosing the best objective
+	//-------------------------------------------------
+	for (let x=0; x<8; x++) {
+
+		if (playingDefensive[x] > botX) {botX = playingDefensive[x]};
+		if (playingOffensive[x] > botZ) {botZ = playingOffensive[x]};
+
+	}
+	//-------------------------------------------------
+
+
+	//-------------------------------------------------
+	// (AI) Defensive mode
+	//-------------------------------------------------
+	if (botX == 2) {
+	for (let celula=1;celula<10;celula++) {
+		
+			matrix:
+			for (let lin=0; lin<8; lin++) {
+			for (let col=0; col<3; col++) {
+				if ( (matrixObjective[lin][col]==celula) && (playingDefensive[lin]==2) ) {
+
+					if (playerTwo[celula] == 0) {
+						if (playerOne[celula] == 0) {
+							improvedDefensive.push(celula);
+							break matrix;
+						}
+						else if ( canOvercome(playerOne[celula]) ) { //***
+							improvedDefensive.push(celula);
+							break matrix;
+						}
+					}
+				}
+			}
+			}
+		
+	}
+	}
+	//-------------------------------------------------
+
+	//-------------------------------------------------
+	// (AI) Offensive mode
+	//-------------------------------------------------
+	while (improvedOffensive.length < 1) {
+	for (let celula=1;celula<10;celula++) {
+		
+			matrix:
+			for (let lin=0; lin<8; lin++) {
+			for (let col=0; col<3; col++) {
+				if ( (matrixObjective[lin][col]==celula) && (playingOffensive[lin]==botZ) ) {
+
+					if (playerTwo[celula] == 0) {
+						if (playerOne[celula] == 0) {
+							improvedOffensive.push(celula);
+							break matrix;
+						}
+						else if ( canOvercome(playerOne[celula]) ) { //***
+							improvedOffensive.push(celula);
+							break matrix;
+						}
+					}
+				}
+			}
+			}
+		
+	}
+	if (improvedOffensive.length < 1) {botZ--;}
+	}
+	//-------------------------------------------------
+
+console.log("	Play_off "+playingOffensive);
+if (improvedDefensive.length>0) {console.log("	Play_def "+playingDefensive);}
+console.log("	IR_off "+improvedOffensive);
+if (improvedDefensive.length>0) {console.log("	IR_def "+improvedDefensive);}
+
+
+if (improvedDefensive.length>0 && (improvedDefensive.length<improvedOffensive.length)) {
+
+	console.log("	Defensive mode");
+	return(improvedDefensive);
+
+} else {
+
+	console.log("	Offensive mode");
+	return(improvedOffensive);
+}
+
+}
+}
+
+//====================================================
+// [Computer verify Hand]
+//----------------------------------------------------
+function computerVerifyHand() {
+	
+if (actualPlayer==2) {
+console.log("computerVerifyHand");
+
+let indexTwins = new Array(5);
+let indexNine = 0;
+let indexBigger = [
+	[0, 0],
+]; 
+
+	indexTwins = [0,0,0,0,0];
+	indexBigger   = [];
+	indexBigger.length=0;
+
+
+	for (let x=11; x<16; x++) {
+
+		//Number_9
+		if (playerTwo[x] == 9) {indexNine = x;}
+
+		for (let y=11; y<16; y++) {
+			//Twins
+			if ( (playerTwo[x] == playerTwo[y]) && (y!=x) ) {indexTwins[x-11] = indexTwins[x-11] + 1 ;}
+		}
+
+		for (let z=1; z<10; z++) {
+			//Bigger than
+			if ((playerTwo[x]==(playerOne[z]+1)) && playerOne[z]>0) {indexBigger.push([x, z]);}
+		}
+
+	}
+
+console.log("	indexNine "+indexNine);
+console.log("	indexTwins "+indexTwins[0],indexTwins[1],indexTwins[2],indexTwins[3],indexTwins[4]);
+console.log("	indexBigger "+indexBigger);
+
+return {indexNine, indexTwins, indexBigger};
+}
+}
+
+
 
 function canOvercome(card) {
-botX = -1;
+console.log("	canOvercome("+card+")");
+
+botX = 0;
 
 for (let x=11; x<16; x++) {
 if (playerTwo[x]>botX) {botX=playerTwo[x];}
 }
 
-if (botX > card) {return true;} else {return false;}
-
+if (botX > card) {
+	console.log("		Yes");
+	return true;
+	} 
+	else {
+	console.log("		No");
+	return false;
+	}
 }
 
 //====================================================
@@ -336,7 +515,8 @@ function drawCard() {
 	document.getElementById('v8').innerHTML=cardArray[7];
 	document.getElementById('v9').innerHTML=cardArray[8];
 
-return(botX);
+console.log("P"+actualPlayer+" drawCard("+(botX+1)+")");
+return(botX+1);
 
 }  
 
@@ -348,8 +528,9 @@ return(botX);
 //----------------------------------------------------
 
 function highCard() {
+console.log("highCard");
 
-botX=-1;
+botX=0;
 
 	for (let x=1;x<10;x++) {
 		if (playerOne[x]>botX) {botX = playerOne[x]; botY=1;}
@@ -368,6 +549,7 @@ return;
 //----------------------------------------------------
 
 function seLect(botX) {
+console.log("seLect("+playerOne[botX]+")");
 
 	// W.O test (full table)
 	if (botX!=0 && actualPlayer!=0 && hashTag==511) {setTimeout('walkOver(1)',500);}
@@ -397,7 +579,7 @@ function seLect(botX) {
 	
 		//Sepia effect for lower cards
 		for (let x=1;x<10;x++) {
-		if (playerTwo[x]>-1 && (playerTwo[x]<playerOne[botX])) {
+		if (playerTwo[x]>0 && (playerTwo[x]<playerOne[botX])) {
 		document.getElementById(x).style = 'filter: sepia(100%)';
 		}
 		}	
@@ -412,6 +594,7 @@ return;
 //----------------------------------------------------
 
 function resetStyle() {
+console.log("resetStyle()");
 
 	document.getElementById(1).style = '';
 	document.getElementById(2).style = '';
@@ -436,23 +619,24 @@ function resetStyle() {
 //----------------------------------------------------
 
 async function playSelect(botX) {
+console.log("playSelect(hand:"+playerOne[cardSelect]+" field:"+botX+" cpu:"+playerTwo[botX]+")");
 
 if (actualPlayer==1) {
 
 	//The chosen spot is empty or contains the computer's card with a smaller value
-	if (cardSelect!='' && playerOne[botX]==-1 && ( playerOne[cardSelect] > playerTwo[botX] ) ) {
+	if (cardSelect!='' && playerOne[botX]==0 && ( playerOne[cardSelect] > playerTwo[botX] ) ) {
 
-	await calculatePoints(1,(playerOne[cardSelect]),(playerTwo[botX]),(playerTwo[botX]!=-1? 1 : 0));
+	await calculatePoints(1,(playerOne[cardSelect]),(playerTwo[botX]),(playerTwo[botX]!=0? 1 : 0));
 	
 	//Clear the cpu's spot anyways
-	playerTwo[botX] = -1;
+	playerTwo[botX] = 0;
 
 	//And put it on the table ***
 	playerOne[botX] = playerOne[cardSelect];
 	document.getElementById(botX).src = getImage(playerOne[botX],1);
 
 	//Take the card from your hand ***
-	playerOne[cardSelect] = -1;
+	playerOne[cardSelect] = 0;
 	document.getElementById(cardSelect).src = getImage();
 
 	// Geometric progression
@@ -462,7 +646,7 @@ if (actualPlayer==1) {
 
 	highCard();
 	cardSelect='';
-	await reArrange(1);
+	await victoryCheck(0); //reArrange(1);
 	}
 
 }
@@ -475,11 +659,13 @@ return;
 //----------------------------------------------------
 
 function calculatePoints(player,botX,botY,combo) {
+console.log("calculatePoints("+player+","+botX+","+botY+","+combo+")");
 
 if (player==1) { botZ = playerOne[0] ;}
 if (player==2) { botZ = playerTwo[0] ;}
-document.getElementById("w"+player).innerHTML="+"+(100*(botX+1) + (hashTag==511? 100 : 0) ); //xD
-botZ = botZ + (100*(botX+1)) + (hashTag==511? 100 : 0) ;
+document.getElementById("w"+player).innerHTML="+"+(100*(botX) + (hashTag==511? 100 : 0) ); //xD
+console.log("	+"+(100*(botX) + (hashTag==511? 100 : 0) ));
+botZ = botZ + (100*(botX)) + (hashTag==511? 100 : 0) ;
 
 
 // Battle system: Combos
@@ -490,17 +676,19 @@ if (player==2 && combo==1) {playerTwo[10]=playerTwo[10]+1 ;}
 
 if (combo==0) {document.getElementById("c"+player).innerHTML="" ;}
 
-if (botY > -1 && ( (player==1&&playerOne[10]>1) || (player==2&&playerTwo[10]>1) )) {
-	botZ = botZ + (100*(botX+1)) ;
-	document.getElementById("c"+player).innerHTML="+"+(100*(botX+1))+"C" ; //xD
+if (botY > 0 && ( (player==1&&playerOne[10]>1) || (player==2&&playerTwo[10]>1) )) {
+	botZ = botZ + (100*(botX)) ;
+	document.getElementById("c"+player).innerHTML="+"+(100*(botX))+"C" ; //xD
+	console.log("	+"+(100*(botX))+"C");
 }
 
 
 // Battle system: Losing points
-if (botY > -1 && ( (botX-botY) > 1 ) ) {		
-	document.getElementById("c"+player).innerHTML="-"+( 100* ((botX+1)-(botY+1)) ) ;
+if (botY > 0 && ( (botX-botY) > 1 ) ) {		
+	document.getElementById("c"+player).innerHTML="-"+( 100* ((botX)-(botY)) ) ;
+	console.log("	-"+( 100* ((botX)-(botY)) ));
 	cardArray[botY]=cardArray[botY]+1;
-	botZ = botZ - ( 100* ((botX+1)-(botY+1)) ) ;
+	botZ = botZ - ( 100* ((botX)-(botY)) ) ;
 }
 
 
@@ -522,41 +710,47 @@ return;
 
 
 function reArrange(player) {
+console.log("reArrange("+player+")");
 
-	setTimeout('victoryCheck(0)',500);
+	//victoryCheck(0);
+	//setTimeout('victoryCheck(0)',500);
 
 	if (player==1) {
 	for (let x=15;x>11;x--) {
-		if (playerOne[x]==-1 && playerOne[x-1]!=-1) {
+		if (playerOne[x]==0 && playerOne[x-1]!=0) {
 		playerOne[x] = playerOne[x-1];
 		document.getElementById(x).src = getImage(playerOne[x],1);
-		playerOne[x-1] = -1;
+		playerOne[x-1] = 0;
 		document.getElementById(x-1).src = getImage();
 		}
 	}
 	resetStyle(); //reset the style	
-	
-	if (playerTwo[11]==-1) {playerTwo[11]=drawCard();} //draws at value 11
-	
-	if(actualPlayer!=0) {actualPlayer=2;}
-	
+
+	console.log("");
+	if (actualPlayer!=0) {actualPlayer=2;}
+	if (playerTwo[11]==0) {playerTwo[11]=drawCard();} //draws at value 11
+		
 	setTimeout('computerTime()',500);
 	}
 
 	if (player==2) {
 	for (let x=15;x>11;x--) {
-		if (playerTwo[x]==-1 && playerTwo[x-1]!=-1) {
+		if (playerTwo[x]==0 && playerTwo[x-1]!=0) {
 		playerTwo[x] = playerTwo[x-1];
-		playerTwo[x-1] = -1;
+		playerTwo[x-1] = 0;
 		}
 	}
-	if (playerOne[11]==-1) {playerOne[11]=drawCard();} //draws at value 11
-	
+
+	console.log("");
+	if (actualPlayer!=0) {actualPlayer=1;}
+	if (playerOne[11]==0) {playerOne[11]=drawCard();} //draws at value 11
 	document.getElementById(11).src = getImage(playerOne[11],1);
 	
-	if(actualPlayer!=0) {actualPlayer=1;}
 	}
 	
+console.log("	P1 "+playerOne[11],playerOne[12],playerOne[13],playerOne[14],playerOne[15]);
+console.log("	P2 "+playerTwo[11],playerTwo[12],playerTwo[13],playerTwo[14],playerTwo[15]);
+
 return;
 }
 
@@ -567,8 +761,9 @@ return;
 //----------------------------------------------------
 
 function walkOver(player) {
+console.log("walkOver("+player+")");
 
-botX=-1;
+botX=0;
 
 	if (player==1) {
 
@@ -579,7 +774,7 @@ botX=-1;
 
 	// Check if you can overcome one of the computer's cards
 	for (let x=1;x<10;x++) {
-	if (playerTwo[x]<botX && playerOne[x]==-1) {return;}
+	if (playerTwo[x]<botX && playerOne[x]==0) {return;}
 	}
 
 	for (let x=11;x<16;x++) {
@@ -599,7 +794,7 @@ botX=-1;
 
 	// Check if you can overcome one of the player's cards
 	for (let x=1;x<10;x++) {
-	if (playerOne[x]<botX && playerTwo[x]==-1) {return;}
+	if (playerOne[x]<botX && playerTwo[x]==0) {return;}
 	}
 
 	victoryCheck(1); //Player wins
@@ -617,11 +812,15 @@ botX=-1;
 
 // 'botX' used only in case of W.O ^
 function victoryCheck(botX) {
+console.log("victoryCheck("+botX+")");
+
 let counterV = 0;
 botY=0;
 botZ=0;
 
 //----------------------------------------------------
+if (botX==0) {
+
 loop:
 for (let player=1;player<3;player++) {
 
@@ -631,8 +830,8 @@ for (let lin=0;lin<8;lin++) {
 	
 for (let col=0;col<3;col++) {
 
-	if (playerOne[(matrixObjective[lin][col])] != -1 && player==1 ) {counterV++;}
-	if (playerTwo[(matrixObjective[lin][col])] != -1 && player==2 ) {counterV++;}
+	if (playerOne[(matrixObjective[lin][col])] != 0 && player==1 ) {counterV++;}
+	if (playerTwo[(matrixObjective[lin][col])] != 0 && player==2 ) {counterV++;}
 
 	if (counterV==3) {
 
@@ -641,13 +840,14 @@ for (let col=0;col<3;col++) {
 
 		// Triple combo ._.
 		if (player==1&&(playerOne[(matrixObjective[lin][0])]==playerOne[(matrixObjective[lin][1])])&&(playerOne[(matrixObjective[lin][1])]==playerOne[(matrixObjective[lin][2])])) {
-		botZ = playerOne[(matrixObjective[lin][0])]+1;
+		botZ = playerOne[(matrixObjective[lin][0])];
 		}
 		if (player==2&&(playerTwo[(matrixObjective[lin][0])]==playerTwo[(matrixObjective[lin][1])])&&(playerTwo[(matrixObjective[lin][1])]==playerTwo[(matrixObjective[lin][2])])) {
-		botZ = playerTwo[(matrixObjective[lin][0])]+1;
+		botZ = playerTwo[(matrixObjective[lin][0])];
 		}
 	break loop;
 	}
+}
 }
 }
 }
@@ -677,6 +877,8 @@ document.getElementById('point1').innerHTML=( playerOne[0].toString().padStart(1
 document.getElementById('w1').innerHTML="winner! ";
 document.getElementById('w2').innerHTML="";
 document.getElementById('c2').innerHTML="";
+console.log("PLAYER WINS");
+console.log("");
 } 
 else if (botX==2) {
 playerTwo[0] = (playerTwo[0] + 100 * botZ ) ;
@@ -684,12 +886,16 @@ document.getElementById('point2').innerHTML=( playerTwo[0].toString().padStart(1
 document.getElementById('w2').innerHTML=" winner!";
 document.getElementById('w1').innerHTML="";
 document.getElementById('c1').innerHTML="";
+console.log("CPU WINS");
+console.log("");
 }
 
 document.getElementById("c"+botX).innerHTML="+"+(100 * botZ) ;
 
 actualPlayer=0;
 setTimeout('startGame()',5000);
+} else {
+reArrange(actualPlayer);
 }
 
 }
@@ -701,65 +907,65 @@ setTimeout('startGame()',5000);
 
 function getImage(card,player) {
 
-if (player==2) {card=card+9}
+if (player==2) {card=card+10}
 
 switch (card) {
-case 0:
-mydiv='1',imgur='https://i.imgur.com/hO4cZY8.png',imgur2='https://i.imgur.com/E1IwRRY.png'
-break;
 case 1:
-mydiv='2',imgur='https://i.imgur.com/SAqhJcr.png',imgur2='https://i.imgur.com/tzydlOg.png'
+mydiv='1',imgur='https://i.imgur.com/hO4cZY8.png',imgur2='nwn/p1n1c.png'
 break;
 case 2:
-mydiv='3',imgur='https://i.imgur.com/K9r6tvD.png',imgur2='https://i.imgur.com/inyTLQA.png'
+mydiv='2',imgur='https://i.imgur.com/SAqhJcr.png',imgur2='nwn/p1n2c.png'
 break;
 case 3:
-mydiv='4',imgur='https://i.imgur.com/eus0MBv.png',imgur2='https://i.imgur.com/lQWd4rZ.png'
+mydiv='3',imgur='https://i.imgur.com/K9r6tvD.png',imgur2='nwn/p1n3c.png'
 break;
 case 4:
-mydiv='5',imgur='https://i.imgur.com/kHGMB6B.png',imgur2='https://i.imgur.com/CdVsL8O.png'
+mydiv='4',imgur='https://i.imgur.com/eus0MBv.png',imgur2='nwn/p1n4c.png'
 break;
 case 5:
-mydiv='6',imgur='https://i.imgur.com/ln2PCUD.png',imgur2='https://i.imgur.com/y0mU6oD.png'
+mydiv='5',imgur='https://i.imgur.com/kHGMB6B.png',imgur2='nwn/p1n5c.png'
 break;
 case 6:
-mydiv='7',imgur='https://i.imgur.com/g8BzsEe.png',imgur2='https://i.imgur.com/JDQgKjy.png'
+mydiv='6',imgur='https://i.imgur.com/ln2PCUD.png',imgur2='nwn/p1n6c.png'
 break;
 case 7:
-mydiv='8',imgur='https://i.imgur.com/OLLD36a.png',imgur2='https://i.imgur.com/FXWLiK9.png'
+mydiv='7',imgur='https://i.imgur.com/g8BzsEe.png',imgur2='nwn/p1n7c.png'
 break;
 case 8:
-mydiv='9',imgur='https://i.imgur.com/vOFiWYf.png',imgur2='https://i.imgur.com/fr31WcB.png'
+mydiv='8',imgur='https://i.imgur.com/OLLD36a.png',imgur2='nwn/p1n8c.png'
 break;
 case 9:
-mydiv='1',imgur='https://i.imgur.com/XZlfvM3.png',imgur2='https://i.imgur.com/y3p2oz2.png'
-break;
-case 10:
-mydiv='2',imgur='https://i.imgur.com/BAMsIFZ.png',imgur2='https://i.imgur.com/XbFttTH.png'
+mydiv='9',imgur='https://i.imgur.com/vOFiWYf.png',imgur2='nwn/p1n9c.png'
 break;
 case 11:
-mydiv='3',imgur='https://i.imgur.com/Zeuf93W.png',imgur2='https://i.imgur.com/5KO2zvo.png'
+mydiv='1',imgur='https://i.imgur.com/XZlfvM3.png',imgur2='nwn/p2n1c.png'
 break;
 case 12:
-mydiv='4',imgur='https://i.imgur.com/aIJSdoQ.png',imgur2='https://i.imgur.com/ZUNguGw.png'
+mydiv='2',imgur='https://i.imgur.com/BAMsIFZ.png',imgur2='nwn/p2n2c.png'
 break;
 case 13:
-mydiv='5',imgur='https://i.imgur.com/3pMk55C.png',imgur2='https://i.imgur.com/h1D5BKD.png'
+mydiv='3',imgur='https://i.imgur.com/Zeuf93W.png',imgur2='nwn/p2n3c.png'
 break;
 case 14:
-mydiv='6',imgur='https://i.imgur.com/Q6UgqNT.png',imgur2='https://i.imgur.com/8LZatvc.png'
+mydiv='4',imgur='https://i.imgur.com/aIJSdoQ.png',imgur2='nwn/p2n4c.png'
 break;
 case 15:
-mydiv='7',imgur='https://i.imgur.com/tgZbTKi.png',imgur2='https://i.imgur.com/uDTO94M.png'
+mydiv='5',imgur='https://i.imgur.com/3pMk55C.png',imgur2='nwn/p2n5c.png'
 break;
 case 16:
-mydiv='8',imgur='https://i.imgur.com/uAGUNlk.png',imgur2='https://i.imgur.com/BgUv7S1.png'
+mydiv='6',imgur='https://i.imgur.com/Q6UgqNT.png',imgur2='nwn/p2n6c.png'
 break;
 case 17:
-mydiv='9',imgur='https://i.imgur.com/2jZ3Wx7.png',imgur2='https://i.imgur.com/XvzexVW.png'
+mydiv='7',imgur='https://i.imgur.com/tgZbTKi.png',imgur2='nwn/p2n7c.png'
+break;
+case 18:
+mydiv='8',imgur='https://i.imgur.com/uAGUNlk.png',imgur2='nwn/p2n8c.png'
+break;
+case 19:
+mydiv='9',imgur='https://i.imgur.com/2jZ3Wx7.png',imgur2='nwn/p2n9c.png'
 break;
 default:
-mydiv='null',imgur='https://i.imgur.com/9CmFbnO.png' //empty image
+mydiv='null',imgur='https://i.imgur.com/9CmFbnO.png', imgur2='nwn/p0n0.png' //empty image
 break;
 }
 const elementos = document.querySelectorAll('b, a');
@@ -768,7 +974,6 @@ elementos.forEach(elemento => {
 });
 return(imgur);
 }
-
 
 
 
