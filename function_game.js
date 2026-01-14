@@ -1,18 +1,13 @@
 //====================================================
-// [Variables]
+// [Global variables]
 //----------------------------------------------------
 
 var cardArray = new Array(9);	//deck
-var playerOne = new Array(16);	//Player table, cards and hand
-var playerTwo = new Array(16);	//CPU table, cards and hand
-								/**
-								(0)     points
-								(1-9)   field
-								(10)    combo
-								(11-15) hand
-								**/
+var playerOne = new Array(16);	//Player/Cpu's variables
+var playerTwo = new Array(16);	//0_points, 1-9 field, 10 combo, 11-15 hand 
+
 var actualPlayer=0;		//Player(1) or CPU(2) just in case you are faster than the cpu...
-var cardSelect=0;		//Player's hand
+var cardSelect=0;		//Player's hand selection
 
 var botX=0; 		//worker
 var botY=0;			//worker
@@ -20,7 +15,7 @@ var botZ=0;			//worker
 
 var hashTag=0;		//Geometric progression (1+2+4+8+16+32+64+128+256=511)
 
-const matrixObjective = [
+const matrixObjective = [	// All winning combinations
 	[1, 2, 3],
 	[4, 5, 6],
 	[7, 8, 9],
@@ -34,12 +29,15 @@ const matrixObjective = [
 //====================================================
 // Functions
 //----------------------------------------------------
-// menugame() - Create the basic html
+// menugame() - Creates the basic html
 // gameManual() - Basic html showing how to play
 //   function showEvil() change card number 9
 //   function showGood() change card number 9
-// startGame() - Start the Game
+// startGame() - Start the Game ._.
 // computerTime() - Computer plays
+//   computerVerifyField() - read the field and decides for an offensive or defensive approach
+//   computerVerifyHand() - read the hand and choose the best combination of cards
+//   canOvercome(card) - check the player's cards
 // drawCard() - Draw a card
 // highCard() - Place the highest card on the big screen
 // resetStyle() - Reset image style
@@ -53,7 +51,7 @@ const matrixObjective = [
 
 
 //====================================================
-// [Create the basic html]
+// [Creates the basic html]
 //----------------------------------------------------
 
 function menugame() {
@@ -150,7 +148,7 @@ document.getElementById(14).src = getImage(playerOne[14],1);
 document.getElementById(15).src = getImage(playerOne[15],1);
 
 // Reset image style
-	resetStyle();
+resetStyle();
 
 // Computer receives 5 cards
 playerTwo[11]=drawCard();
@@ -765,7 +763,7 @@ console.log("walkOver("+player+")");
 
 botX=0;
 
-	if (player==1) {
+if (player==1) {
 
 	// Find the highest card in your hand
 	for (let x=11;x<16;x++) {
@@ -782,10 +780,10 @@ botX=0;
 	}
 
 	victoryCheck(2); //Computer wins
-	}
+}
 
 
-	if (player==2) {
+if (player==2) {
 
 	// Find the highest card in your hand
 	for (let x=11;x<16;x++) {
@@ -798,7 +796,7 @@ botX=0;
 	}
 
 	victoryCheck(1); //Player wins
-	}
+}
 
 }
 
@@ -818,86 +816,86 @@ let counterV = 0;
 botY=0;
 botZ=0;
 
-//----------------------------------------------------
 if (botX==0) {
 
-loop:
-for (let player=1;player<3;player++) {
+	loop:
+	for (let player=1;player<3;player++) {
 
-for (let lin=0;lin<8;lin++) {
+		for (let lin=0;lin<8;lin++) {
 	
-	counterV=0;
+		counterV=0;
 	
-for (let col=0;col<3;col++) {
+		for (let col=0;col<3;col++) {
 
-	if (playerOne[(matrixObjective[lin][col])] != 0 && player==1 ) {counterV++;}
-	if (playerTwo[(matrixObjective[lin][col])] != 0 && player==2 ) {counterV++;}
+			if (playerOne[(matrixObjective[lin][col])] != 0 && player==1 ) {counterV++;}
+			if (playerTwo[(matrixObjective[lin][col])] != 0 && player==2 ) {counterV++;}
 
-	if (counterV==3) {
+			if (counterV==3) {
 
-		botX = player;
-		botY = (2**(matrixObjective[lin][0]-1)) + (2**(matrixObjective[lin][1]-1)) + (2**(matrixObjective[lin][2]-1));
+				botX = player;
+				botY = (2**(matrixObjective[lin][0]-1)) + (2**(matrixObjective[lin][1]-1)) + (2**(matrixObjective[lin][2]-1));
 
-		// Triple combo ._.
-		if (player==1&&(playerOne[(matrixObjective[lin][0])]==playerOne[(matrixObjective[lin][1])])&&(playerOne[(matrixObjective[lin][1])]==playerOne[(matrixObjective[lin][2])])) {
-		botZ = playerOne[(matrixObjective[lin][0])];
+				// Triple combo ._.
+				if (player==1&&(playerOne[(matrixObjective[lin][0])]==playerOne[(matrixObjective[lin][1])])&&(playerOne[(matrixObjective[lin][1])]==playerOne[(matrixObjective[lin][2])])) {
+				botZ = playerOne[(matrixObjective[lin][0])];
+				}
+				if (player==2&&(playerTwo[(matrixObjective[lin][0])]==playerTwo[(matrixObjective[lin][1])])&&(playerTwo[(matrixObjective[lin][1])]==playerTwo[(matrixObjective[lin][2])])) {
+				botZ = playerTwo[(matrixObjective[lin][0])];
+				}
+				break loop;
+			}
 		}
-		if (player==2&&(playerTwo[(matrixObjective[lin][0])]==playerTwo[(matrixObjective[lin][1])])&&(playerTwo[(matrixObjective[lin][1])]==playerTwo[(matrixObjective[lin][2])])) {
-		botZ = playerTwo[(matrixObjective[lin][0])];
 		}
-	break loop;
 	}
-}
-}
-}
 }
 //----------------------------------------------------
 
 if (botX>0) {
 
-for (let x=1;x<10;x++) {
+	for (let x=1;x<10;x++) {
 
-	document.getElementById(x).style = 'opacity: 0.2;';
+		document.getElementById(x).style = 'opacity: 0.2;';
 
-	if (botY >= (2**(x-1)) && (botY % (2*(2**(x-1))) >= (2**(x-1))) ) {
-	document.getElementById(x).style = '';
+		if (botY >= (2**(x-1)) && (botY % (2*(2**(x-1))) >= (2**(x-1))) ) {
+			document.getElementById(x).style = '';
 
-	//Triple combo
-	if (botZ>0) {document.getElementById(x).style = 'filter: contrast(180%);';}
-
+			//Triple combo
+			if (botZ>0) {document.getElementById(x).style = 'filter: contrast(180%);';}
+		}
 	}
 
-}
+	if (botZ==0) { botZ = 1; }
 
-if (botZ==0) { botZ = 1; }
+	if (botX==1) {
+		playerOne[0] = (playerOne[0] + 100 * botZ ) ;
+		document.getElementById('point1').innerHTML=( playerOne[0].toString().padStart(12, 'o') );
+		document.getElementById('w1').innerHTML="winner! ";
+		document.getElementById('w2').innerHTML="";
+		document.getElementById('c2').innerHTML="";
+		console.log("PLAYER WINS");
+		console.log("");
+	}
+	else if (botX==2) {
+		playerTwo[0] = (playerTwo[0] + 100 * botZ ) ;
+		document.getElementById('point2').innerHTML=( playerTwo[0].toString().padStart(12, 'o') );
+		document.getElementById('w2').innerHTML=" winner!";
+		document.getElementById('w1').innerHTML="";
+		document.getElementById('c1').innerHTML="";
+		console.log("CPU WINS");
+		console.log("");
+	}
 
-if (botX==1) {
-playerOne[0] = (playerOne[0] + 100 * botZ ) ;
-document.getElementById('point1').innerHTML=( playerOne[0].toString().padStart(12, 'o') );
-document.getElementById('w1').innerHTML="winner! ";
-document.getElementById('w2').innerHTML="";
-document.getElementById('c2').innerHTML="";
-console.log("PLAYER WINS");
-console.log("");
-} 
-else if (botX==2) {
-playerTwo[0] = (playerTwo[0] + 100 * botZ ) ;
-document.getElementById('point2').innerHTML=( playerTwo[0].toString().padStart(12, 'o') );
-document.getElementById('w2').innerHTML=" winner!";
-document.getElementById('w1').innerHTML="";
-document.getElementById('c1').innerHTML="";
-console.log("CPU WINS");
-console.log("");
-}
+	document.getElementById("c"+botX).innerHTML="+"+(100 * botZ) ;
 
-document.getElementById("c"+botX).innerHTML="+"+(100 * botZ) ;
+	actualPlayer=0;
+	setTimeout('startGame()',5000);
 
-actualPlayer=0;
-setTimeout('startGame()',5000);
+
 } else {
-reArrange(actualPlayer);
-}
 
+	reArrange(actualPlayer);
+
+}
 }
 
 
