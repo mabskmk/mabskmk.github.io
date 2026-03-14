@@ -249,9 +249,7 @@ mydiv='Head-of-Ukyo',imgur='RZ9lnLU',imgur9='Y7rsQZd.png',game='original',ctype=
 break;
 case 49:
 mydiv='Shimeji',imgur='IDrbSZ8',imgur9='sJuKFFz.png',game='<a target=_blank href=https://kilkakon.com/shimeji><img src=https://i.imgur.com/RG52doK.png></a>',ctype='Bonus',lastupdate='24/12/20',gdrv='1nKdd3q6eaRqfTQz1I_vfykm8-u0Uq2IT'
-ytLink=(Math.floor(Math.random()*2));
-	if (ytLink==0) {youtube='yFMPaE_h-_w';} //@TheAnimeFan2019
-	if (ytLink==1) {youtube='4H0KAYfci_M';} //@TearSnow
+youtube='4H0KAYfci_M'; //@TearSnow
 break;
 case 50:
 mydiv='Thicc-Tac-Toe',imgur='ld7q5PX',imgur9='yxzkrR1.png',game='Metal Slut',ctype='Bonus',lastupdate='13/01/21',gdrv='1ezCyx2EDm4b2Ko1hypdfUFB4Baw5zXVa'
