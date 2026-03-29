@@ -143,11 +143,11 @@ mydiv='Transylvania',imgur='dQfLncX.png',gdrv='1wwEIGabRJlyf8KqKHjVMI3nggaPNj3Id
 break;
 case 23:
 mydiv='Chemical_Plant',imgur='3Xba3Hf.gif',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa';
-ytLink=(Math.floor(Math.random()*3));
+ytLink=(Math.floor(Math.random()*4));
 	if (ytLink==0) {youtube='Qlv2KUWhHrE';} //@MugenLord
 	if (ytLink==1) {youtube='uTdxHzFzCIw';} //@Seenik09
 	if (ytLink==2) {youtube='MPWSFrFM6DM?si=MFP1rb4wnrkZEeuN&start=732&end=782';sufix='&autoplay=1&mute=1';} //@EXFalchion
-	if (ytLink==1) {youtube='5UeQ5Mb0Ed4';} //@PerryMason123
+	if (ytLink==3) {youtube='5UeQ5Mb0Ed4';} //@PerryMason123
 break;
 case 24:
 mydiv='Wild_Side',imgur='LdboBiv.png',gdrv='1koEXqyq-nh8_LSxCyvuEHyTPWoXww-ns'
@@ -171,6 +171,7 @@ youtube='Ca9pd4IawGU'; //@mugen7973
 break;
 case 30:
 mydiv='Haunted_Graveyard',imgur='OFjAdRB.png',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO'
+youtube='_jUBgX1b7rg'; //@Macaulyn_97
 break;
 case 31:
 mydiv='NeonLight',imgur='vxBbbkP.png',gdrv='114xNnXpr_WCTn3IKkK9P_7SgzJu5-3z7'
@@ -199,6 +200,7 @@ mydiv='Hispeed_Elevator',imgur='ibSCSvX.png',gdrv='14KoyR7xOTvSeDttPxq8h8YjPgW9f
 break;
 case 37:
 mydiv='Space_Rocket',imgur='dj4xnbC.png',gdrv='14KoyR7xOTvSeDttPxq8h8YjPgW9frreW'
+youtube='flFicLMe8ZI'; //@charmanmugen
 break;
 case 38:
 mydiv='Transportrain',imgur='9rbsCG5.png',gdrv='14KoyR7xOTvSeDttPxq8h8YjPgW9frreW'
@@ -225,6 +227,7 @@ mydiv='Snow_Rush',imgur='MfuWeak.png',gdrv='14KoyR7xOTvSeDttPxq8h8YjPgW9frreW'
 break;
 case 45:
 mydiv='Arkanoid_Syn',imgur='KzmXv7S.gif',gdrv='15hIaPhP6DsDUjVJ-Un7rnOg5ogUIQTKx'
+youtube='q1u5p7AcnWw?si=SJVKqe9XUpvngaN8&start=911&end=961'; //@gregcarmell8222
 break;
 case 46:
 mydiv='Dr_Wily_stgs',imgur='PNYxIH7.gif',gdrv='1BajqmRlVucJYaruSyGeK_de5eYO7CsPu'
@@ -484,6 +487,10 @@ mydiv='Mighty_City',imgur='OnrOsvd.gif',gdrv='1jrgVkcxso0oOCv5Zfhs7U71aM9N2IrLB'
 break;
 case 125:
 mydiv='HomieYoshiStory',imgur='6kAf5vJ.gif',gdrv='1wR2XmLHzNnotWekpXiSZRG_EysHrGxwk'
+ytLink=(Math.floor(Math.random()*3));
+	if (ytLink==0) {youtube='HGTvf7wxTtQ';} //@SDK123_MUGEN
+	if (ytLink==1) {youtube='HGTvf7wxTtQ';} //@SDK123_MUGEN
+	if (ytLink==2) {youtube='HGTvf7wxTtQ';} //@SDK123_MUGEN (snow)
 break;
 case 126:
 mydiv='Endless_Corridor',imgur='P3ZBwfj.png',gdrv='1TB8eS9jsDC1gKH6MUgjg9uZOZovbpj0Y'
