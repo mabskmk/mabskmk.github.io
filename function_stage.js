@@ -80,6 +80,7 @@ mydiv='Vegetable_Valley',imgur='L0okcXj.gif',gdrv='168fKeVWT3Wz8ZsiH15brYFZePJ3W
 break;
 case 5:
 mydiv='Hazard_Tank',imgur='byemFHj.gif',gdrv='17nvOuqdoREYJoPy1yhXLXxUleRFkTFCt'
+youtube='BAVli371mPo?si=Dy_VJW0YO5wH_O44&start=14&end=64',sufix='&autoplay=1&mute=1'; //@trackiesthead1563
 break;
 case 6:
 mydiv='Burning_Arena',imgur='Yfl1Ngj.png',gdrv='1LWy90J1QSC9Ljs6mNy4bpv7l-SQ7B7Sa'
@@ -118,10 +119,15 @@ youtube='QYOQ9QdDdTo'; //@PerryMason123
 break;
 case 16:
 mydiv='Burning_Village',imgur='pSV0xV2.png',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO';
-youtube='Rqar3-aHPfA?si=zPAW1J5sJKqMQCxD&start=12&end=62',sufix='&autoplay=1&mute=1'; //@jewelmen10mugen87
+ytLink=(Math.floor(Math.random()*2));
+	if (ytLink==0) {youtube='Rqar3-aHPfA?si=zPAW1J5sJKqMQCxD&start=12&end=62',sufix='&autoplay=1&mute=1';} //@jewelmen10mugen87
+	if (ytLink==1) {youtube='QKn1N0qrtvQ';} //@DemonkaiMugen
 break;
 case 17:
 mydiv='Death_Star_3',imgur='tieF0Cw.png',gdrv='1cy-n32Funvw1ktwXoMU5_OX3Ox6D0kfk'
+ytLink=(Math.floor(Math.random()*2));
+	if (ytLink==0) {youtube='L8Cul4QmPJs';} //@Macaulyn_97
+	if (ytLink==1) {youtube='HgYddw8PxdY';} //@Macaulyn_97
 break;
 case 18:
 mydiv='CDB',imgur='AaxPzr9.gif',gdrv='193jWOMqr2J3k5F0nyUbPEQGEmFtenT-p';
@@ -167,11 +173,15 @@ mydiv='Planet_Prision',imgur='1TljLfd.png',gdrv='1JhnQx-GmJzmJfnzZk7njhhjH-ouv4A
 break;
 case 29:
 mydiv='Mechanical_Fortress',imgur='pzjVrAw.gif',gdrv='1I0RUUylHjABYlAOii3XR5AZtwn4nBVPD';
-youtube='Ca9pd4IawGU'; //@mugen7973
+ytLink=(Math.floor(Math.random()*2));
+	if (ytLink==0) {youtube='Ca9pd4IawGU';} ///@mugen7973
+	if (ytLink==1) {youtube='b2u-HhPh00U';} //@MaycolGamer026
 break;
 case 30:
 mydiv='Haunted_Graveyard',imgur='OFjAdRB.png',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO'
-youtube='_jUBgX1b7rg'; //@Macaulyn_97
+ytLink=(Math.floor(Math.random()*2));
+	if (ytLink==0) {youtube='_jUBgX1b7rg';} //@Macaulyn_97
+	if (ytLink==1) {youtube='bZmofq-mkBc';} //@zerozuchibr1841
 break;
 case 31:
 mydiv='NeonLight',imgur='vxBbbkP.png',gdrv='114xNnXpr_WCTn3IKkK9P_7SgzJu5-3z7'
@@ -227,7 +237,7 @@ mydiv='Snow_Rush',imgur='MfuWeak.png',gdrv='14KoyR7xOTvSeDttPxq8h8YjPgW9frreW'
 break;
 case 45:
 mydiv='Arkanoid_Syn',imgur='KzmXv7S.gif',gdrv='15hIaPhP6DsDUjVJ-Un7rnOg5ogUIQTKx'
-youtube='q1u5p7AcnWw?si=SJVKqe9XUpvngaN8&start=911&end=961'; //@gregcarmell8222
+youtube='q1u5p7AcnWw?si=SJVKqe9XUpvngaN8&start=911&end=961',sufix='&autoplay=1&mute=1'; //@gregcarmell8222
 break;
 case 46:
 mydiv='Dr_Wily_stgs',imgur='PNYxIH7.gif',gdrv='1BajqmRlVucJYaruSyGeK_de5eYO7CsPu'
@@ -274,6 +284,7 @@ mydiv='Rescue_Geisha',imgur='hddoqUx.png',gdrv='1mHq1Yp7rNCpRMCNM6k-5xFWJuW5h23s
 break;
 case 59:
 mydiv='Mutation_Nation',imgur='jKesnb5.gif',gdrv='1Rk-VZr9dZw9dLYGdvseyPE_s4_hI83-g'
+youtube='2TjKZ53Dro8?si=SBHIzMRWXz7HUCDY&start=12&end=62',sufix='&autoplay=1&mute=1'; //@jewelmen10mugen87
 break;
 case 60:
 mydiv='Mystic_Cave',imgur='OrOgvJ9.png',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa';
@@ -389,7 +400,9 @@ mydiv='Probertson+',imgur='gETlJMg.gif',gdrv='1w9FXy4aAw_r0Wd_7g3F4I7tUrSOJZgEI'
 break;
 case 95:
 mydiv='Aquatic_Ruins',imgur='cBIt8OT.png',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa';
-youtube='XRbr9pR4FGA'; //@trackiesthead1563
+ytLink=(Math.floor(Math.random()*2));
+	if (ytLink==0) {youtube='XRbr9pR4FGA';} //@trackiesthead1563
+	if (ytLink==1) {youtube='9-a-dJ152ao';} //@NICK54222
 break;
 case 96:
 mydiv='Weve-got-Shadowmans',imgur='Qqql4Ve.png',gdrv='15_kwqkbcgY4Du6s3b-9yZuaX36nTIwit'
@@ -411,6 +424,9 @@ mydiv='Gourmet_Factory',imgur='Gsk4nxa.gif',gdrv='1UuakIrQFtW1CO9dpSEOEgclugBfcI
 break;
 case 102:
 mydiv='Jurassic_Jungle',imgur='JHgeyPi.png',gdrv='1xNNLPNwTJ2342HyzHVDP3ntvJe4QTVuW'
+ytLink=(Math.floor(Math.random()*2));
+	if (ytLink==0) {youtube='u4gLeSc4Rek';} //@ZhamzillaTheKing2025
+	if (ytLink==1) {youtube='a8wkuEhNcOE';} //@teppyprimechannel8737
 break;
 case 103:
 mydiv='Fortress-of-Doom',imgur='xRRYFhO.gif',gdrv='1r2GzPRtojN1KiEQ4MddTR_0KdeEv6jwr'
@@ -543,6 +559,7 @@ mydiv='Ghost-Sweeper',imgur='btWjmQ7.gif',gdrv='1IirAgUWUbBQWSPDMhavvFgDL-mbxZXo
 break;
 case 141:
 mydiv='Final_Assault',imgur='2sTDDfe.gif',gdrv='1YhNUX_0osdyDKucya4xLUMGDrKt5MVO0',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png';
+youtube='qIpXfV1SuSw?si=wUsn7mAXNPAIKKXo&start=11&end=61',sufix='&autoplay=1&mute=1'; //@trackiesthead1563
 break;
 case 142:
 mydiv='R-Factory',imgur='EKarctF.gif',gdrv='1LPCgNr6RU-4j6c5avQdTzf7lZ23F2J18'
