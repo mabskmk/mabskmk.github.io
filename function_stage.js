@@ -241,7 +241,9 @@ youtube='fTvzQ4yrL_I'; //@charmanmugen
 break;
 case 44:
 mydiv='Snow_Rush',imgur='MfuWeak.png',gdrv='14KoyR7xOTvSeDttPxq8h8YjPgW9frreW'
-youtube='UHwzJxMSvhs'; //@Macaulyn_97
+ytLink=(Math.floor(Math.random()*2));
+	if (ytLink==0) {youtube='UHwzJxMSvhs';} //@Macaulyn_97
+	if (ytLink==1) {youtube='qJeuBBA9UKM';} //@Macaulyn_97
 break;
 case 45:
 mydiv='Arkanoid_Syn',imgur='KzmXv7S.gif',gdrv='15hIaPhP6DsDUjVJ-Un7rnOg5ogUIQTKx'
