@@ -87,6 +87,7 @@ youtube='BAVli371mPo?si=Dy_VJW0YO5wH_O44&start=14&end=64',sufix='&autoplay=1&mut
 break;
 case 6:
 mydiv='Burning_Arena',imgur='Yfl1Ngj.png',gdrv='1LWy90J1QSC9Ljs6mNy4bpv7l-SQ7B7Sa'
+youtube='c5IEhFxgLLs'; //@DemonkaiMugen
 break;
 case 7:
 mydiv='Abadox',imgur='Ov5zTi6.png',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n'
