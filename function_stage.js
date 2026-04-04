@@ -77,6 +77,9 @@ mydiv='Force_Mine',imgur='QVjmOo1.png',gdrv='1YhNUX_0osdyDKucya4xLUMGDrKt5MVO0',
 break;
 case 4:
 mydiv='Vegetable_Valley',imgur='L0okcXj.gif',gdrv='168fKeVWT3Wz8ZsiH15brYFZePJ3WvsLz'
+ytLink=(Math.floor(Math.random()*2));
+	if (ytLink==0) {youtube='TWjBeXqD8dA';} //@Poyomousy
+	if (ytLink==1) {youtube='FBIktQkXfyg';} //@Thekronick900
 break;
 case 5:
 mydiv='Hazard_Tank',imgur='byemFHj.gif',gdrv='17nvOuqdoREYJoPy1yhXLXxUleRFkTFCt'
@@ -102,6 +105,7 @@ youtube='EYIMYXpiilQ'; //@PerryMason123
 break;
 case 11:
 mydiv='Tower_of_Succubus',imgur='6esytlH.png',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO'
+youtube='vJZuoBaZY3g?si=6XCvjicasBtjRM1_&start=12&end=62',sufix='&autoplay=1&mute=1'; //@jewelmen10mugen87
 break;
 case 12:
 mydiv='GORN',imgur='3zvtOl9.png',gdrv='1I96lvaw2ZqwwlzyCh9GiD7pmgYvaMrqs';
@@ -160,7 +164,9 @@ mydiv='Wild_Side',imgur='LdboBiv.png',gdrv='1koEXqyq-nh8_LSxCyvuEHyTPWoXww-ns'
 break;
 case 25:
 mydiv='Oil_Ocean',imgur='pcjB4Sm.png',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa';
-youtube='MQrD4DVeXpI'; // lGBi7D_kFoQ
+ytLink=(Math.floor(Math.random()*2));
+	if (ytLink==0) {youtube='MQrD4DVeXpI';} //lGBi7D_kFoQ
+	if (ytLink==1) {youtube='CWPJgpGHC70';} //@Seenik09
 break;
 case 26:
 mydiv='Moai_ruin',imgur='aen5RVb.gif',gdrv='1HCbYOLepWExO6LUFPiMweydWVgAjYCvu'
@@ -231,9 +237,11 @@ mydiv='secretvillage',imgur='qfpb7XO.gif',gdrv='1x0w8xldkvUZWbuO4ixG2DlsoQaLGGTB
 break;
 case 43:
 mydiv='Subspace_Highway',imgur='ZU71Rq3.gif',gdrv='1pBjgxNoq6zNZm0A49TKo3snT12Eh8k_r'
+youtube='fTvzQ4yrL_I'; //@charmanmugen
 break;
 case 44:
 mydiv='Snow_Rush',imgur='MfuWeak.png',gdrv='14KoyR7xOTvSeDttPxq8h8YjPgW9frreW'
+youtube='UHwzJxMSvhs'; //@Macaulyn_97
 break;
 case 45:
 mydiv='Arkanoid_Syn',imgur='KzmXv7S.gif',gdrv='15hIaPhP6DsDUjVJ-Un7rnOg5ogUIQTKx'
@@ -241,6 +249,7 @@ youtube='q1u5p7AcnWw?si=SJVKqe9XUpvngaN8&start=911&end=961',sufix='&autoplay=1&m
 break;
 case 46:
 mydiv='Dr_Wily_stgs',imgur='PNYxIH7.gif',gdrv='1BajqmRlVucJYaruSyGeK_de5eYO7CsPu'
+youtube='HQ1-2jLndFY'; //@SDK123_MUGEN
 break;
 case 47:
 mydiv='Arena',imgur='2kXqJTC.png',gdrv='12hO-ATk2ljQrhaHB9BUrF5Vqx3C9xOHR'
@@ -505,7 +514,7 @@ case 125:
 mydiv='HomieYoshiStory',imgur='6kAf5vJ.gif',gdrv='1wR2XmLHzNnotWekpXiSZRG_EysHrGxwk'
 ytLink=(Math.floor(Math.random()*3));
 	if (ytLink==0) {youtube='HGTvf7wxTtQ';} //@SDK123_MUGEN
-	if (ytLink==1) {youtube='HGTvf7wxTtQ';} //@SDK123_MUGEN
+	if (ytLink==1) {youtube='Zo_YI7lDKYA';} //@SDK123_MUGEN (snow)
 	if (ytLink==2) {youtube='HGTvf7wxTtQ';} //@SDK123_MUGEN (snow)
 break;
 case 126:
