@@ -645,8 +645,6 @@ elementos.forEach(elemento => {
   if (isHalloween) {elemento.style.color = 'red';}
 });
 
-	//Edge
-document.body.style.backgroundImage = "url('https://signavatar.com/2425_s.gif')";
 }
 
 // bannerHtml='ikrgmugen.web.fc2.com',bannerImg='i.imgur.com/3UeeMUT.png'
