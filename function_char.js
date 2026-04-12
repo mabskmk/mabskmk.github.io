@@ -320,6 +320,8 @@ elementos.forEach(elemento => {
   if (isHalloween) {elemento.style.color = 'red';}
 });
 
+	//Edge
+document.body.style.backgroundImage = "url('https://i.imgur.com/"+imgur+".png')";
 }
 
 // LINK GDRV DROPBOX YOUTUBE
