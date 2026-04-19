@@ -480,6 +480,7 @@ youtube='VbyjkxOn8Wc'; //@MUGENGaming-j3d
 break;
 case 115:
 mydiv='Gourmet_Street',imgur='0a7Nif5.png',gdrv='1UuakIrQFtW1CO9dpSEOEgclugBfcI3TM'
+youtube='tc0L_x1UKXY'; //@zerozuchibr1841
 break;
 case 116:
 mydiv='ZeroCastle',imgur='tP99cjE.gif',gdrv='1B5zWBNVlpHFng28YeXLoqXhTqk41G5Gt'
