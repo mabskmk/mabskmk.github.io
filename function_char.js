@@ -271,7 +271,7 @@ mydiv='Sausage_Monks',imgur='uVVlLl7',imgur9='en1KRSZ.png',game='Makaimura',ctyp
 break;
 case 55:
 mydiv='Rede_Globo',imgur='cQtHlPU',imgur9='T9e4Il1.png',game='???',ctype='Joke',lastupdate='30/10/19',gdrv='1jjLIScUv8tqO6-w6QAfe7XpccP6ENzFX',zpoints=10000
-ytLink=(Math.floor(Math.random()*3));
+ytLink=(Math.floor(Math.random()*2));
 	if (ytLink==0) {youtube='W9bSU1d2wME';} //@TheRatCooler
 	if (ytLink==1) {youtube='Y7FZjAm7wWw';} //@TheRatCooler
 break;
