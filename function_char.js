@@ -142,7 +142,7 @@ ytLink=(Math.floor(Math.random()*2));
 break;
 case 13:
 mydiv='Truck_Joe',imgur='c9iJZbD',imgur9='MB9i5IM.png',game='Megaman7',ctype='Bonus',lastupdate='16/07/14',gdrv='1ODwXTdfc3YJeI-KeY35tI1-IcMioT65C'
-	youtube='aI5AZGga-e0?si=q2JY2y4hbu-lJAjS&start=24&end=74'; //@foursword4
+	//ytLink=(Math.floor(Math.random()*2));	if (ytLink==0) {youtube='';} //@
 break;
 case 14:
 mydiv='Van_Pookin',imgur='yWqb56L',imgur9='htTMeJ7.png',game='Megaman7',ctype='Bonus',lastupdate='31/10/14',gdrv='13dHiSewKjtn0zmYZRqU05LysSLPcqTNk';
