@@ -38,7 +38,7 @@ randomValue=(Math.floor(Math.random()*numChars)+1);
 
 // Get the values ​​of the respective video from the 'character database'
 charData(randomValue,3);
-var tempo=setTimeout('showcaseStage()',50000); //showcaseCharacter -> showcaseStage -> showcaseMisc
+intervalTime=setTimeout('showcaseStage()',50000); //showcaseCharacter -> showcaseStage -> showcaseMisc
 }
 
 
