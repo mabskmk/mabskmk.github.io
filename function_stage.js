@@ -25,7 +25,6 @@ for (let x=numStages;x>0;x--) {stageData((x),1)}
 
 // Function to play a random video
 function showcaseStage() {
-clearTimeout(tempo);
 
 	// Disable the function when leaving the showcase
 	if (btnnew.disabled==false) {return;}
@@ -47,8 +46,7 @@ randomValue=(Math.floor(Math.random()*numStages)+1);
 
 // Get the values ​​of the respective video from the 'character database'
 stageData(randomValue,3);
-var tempo=setTimeout('showcaseCharacter()',50000); //showcaseCharacter -> showcaseStage -> showcaseMisc 
-
+intervalTime=setTimeout('showcaseCharacter()',50000); //showcaseCharacter -> showcaseStage -> showcaseMisc 
 }
 
 
