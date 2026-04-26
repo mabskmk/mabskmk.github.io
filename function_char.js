@@ -16,7 +16,6 @@ for (let x=numChars;x>0;x--) {charData((x),1)}
 
 // Function to play a random video
 function showcaseCharacter() {
-clearTimeout(tempo);
 
 	// Disable the function when leaving the showcase
 	if (btnnew.disabled==false) {return;}
