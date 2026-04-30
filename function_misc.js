@@ -315,7 +315,7 @@ case 65:
 linkTitle='lurid-land',linkHref='classicreload.com/lurid-land.html',linkImage='classicreload.com';
 break;
 case 66:
-linkTitle='ohmsby-mugen',linkHref='sites.google.com/view/ohmsby-mugen',linkImage='sites.google.com/view/ohmsby-mugen';
+linkTitle='ohmsby-mugen',linkHref='sites.google.com/view/ohmsby-mugen',linkImgur='nMgFh1V.png';
 break;
 case 67:
 linkTitle='ddrcreations',linkHref='ddrcreations.com/index.html',linkImage='ddrcreations.com';
