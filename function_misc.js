@@ -1,5 +1,5 @@
 const numExtras=14;
-const numLinks=53;
+const numLinks=67;
 var bannerHtml='';
 var bannerImg='';
 var randomValue=0;
@@ -99,18 +99,17 @@ for (let x=numLinks;x>0;x--) {
 	if (x==1 && checkLinks[x]=='ok' ) {checkLinks = [];} 
 }
 
-for (let l=1;l<54;l++) {
+for (let l=1;l<63;l++) {
 
-	// Set a randomValue
-	do {
-		randomValue = (Math.floor(Math.random()*numLinks)+1);
-	}	while (randomValue>0 && checkLinks[randomValue]=='ok');
+// Set a randomValue
+do {
+	randomValue = (Math.floor(Math.random()*numLinks)+1);
+}	while (randomValue>0 && checkLinks[randomValue]=='ok');
 
-	if (randomValue>0 && checkLinks[randomValue]!='ok') {checkLinks[randomValue]='ok';}
+if (randomValue>0 && checkLinks[randomValue]!='ok') {checkLinks[randomValue]='ok';}
 
-	addLink(randomValue);
+addLink(randomValue);
 }
-
 }
 
 function addLink(numero) {
@@ -154,10 +153,10 @@ case 11:
 linkTitle='animemusicvideos',linkHref='www.animemusicvideos.org',linkImage='www.animemusicvideos.org';
 break;
 case 12:
-linkTitle='scp foundation',linkHref='scp-wiki.wikidot.com',linkImage='www.scp-wiki.wikidot.com';
+linkTitle='scp_foundation',linkHref='scp-wiki.wikidot.com',linkImage='www.scp-wiki.wikidot.com';
 break;
 case 13:
-linkTitle='hong kong movie database',linkHref='hkmdb.com',linkImgur='rFQXScR.jpg';
+linkTitle='hong_kong_movie_database',linkHref='hkmdb.com',linkImgur='rFQXScR.jpg';
 break;
 case 14:
 linkTitle='w3schools',linkHref='www.w3schools.com',linkImage='www.w3schools.com';
@@ -181,7 +180,7 @@ case 20:
 linkTitle='neuronball',linkHref='www.neuronball.com/en/team/53482',linkImage='www.neuronball.com';
 break;
 case 21:
-linkTitle='pci concursos',linkHref='www.pciconcursos.com.br/concursos',linkImage='www.pciconcursos.com.br';
+linkTitle='pci_concursos',linkHref='www.pciconcursos.com.br/concursos',linkImage='www.pciconcursos.com.br';
 break;
 case 22:
 linkTitle='tumblr',linkHref='mabskmk.tumblr.com',linkImage='www.tumblr.com';
@@ -214,7 +213,7 @@ case 31:
 linkTitle='olhardigital',linkHref='olhardigital.com.br',linkImage='olhardigital.com.br';
 break;
 case 32:
-linkTitle='game of bombs',linkHref='gameofbombs.com',linkImage='gameofbombs.com';
+linkTitle='game_of_bombs',linkHref='gameofbombs.com',linkImage='gameofbombs.com';
 break;
 case 33:
 linkTitle='reddit',linkHref='www.reddit.com/user/mabskmk',linkImage='www.reddit.com';
@@ -278,6 +277,48 @@ linkTitle='uptodown',linkHref='www.uptodown.com',linkImage='www.uptodown.com';
 break;
 case 53:
 linkTitle='raindrop',linkHref='app.raindrop.io',linkImage='app.raindrop.io';
+break;
+case 54:
+linkTitle='suno',linkHref='suno.com/song/3ebaae88-d18d-4155-ab10-8d32c5ecafd7',linkImage='suno.com';
+break;
+case 55:
+linkTitle='models',linkHref='models.com/models/Gisele-Bundchen',linkImage='models.com';
+break;
+case 56:
+linkTitle='winampskins',linkHref='skins.webamp.org',linkImage='skins.webamp.org';
+break;
+case 57:
+linkTitle='comparetext',linkHref='www.comparetextonline.com',linkImage='www.comparetextonline.com';
+break;
+case 58:
+linkTitle='streamdatabase',linkHref='www.streamdatabase.com/twitch/global-badges',linkImage='www.streamdatabase.com';
+break;
+case 59:
+linkTitle='catfight',linkHref='www.myabandonware.com/game/catfight-the-ultimate-female-fighting-game-dqa',linkImage='www.myabandonware.com';
+break;
+case 60:
+linkTitle='heavyharmonies',linkHref='heavyharmonies.com/cgi-bin/band.cgi?BandNum=3652',linkImage='heavyharmonies.com';
+break;
+case 61:
+linkTitle='shazam',linkHref='www.shazam.com',linkImage='www.shazam.com';
+break;
+case 62:
+linkTitle='kungfutea',linkHref='x.com/TaichiZhe/status/1855437567505649691',linkImage='x.com';
+break;
+case 63:
+linkTitle='playnite',linkHref='playnite.link',linkImage='playnite.link';
+break;
+case 64:
+linkTitle='templolohan',linkHref='templolohan.com',linkImage='templolohan.com';
+break;
+case 65:
+linkTitle='lurid-land',linkHref='classicreload.com/lurid-land.html',linkImage='classicreload.com';
+break;
+case 66:
+linkTitle='ohmsby-mugen',linkHref='sites.google.com/view/ohmsby-mugen',linkImage='sites.google.com/view/ohmsby-mugen';
+break;
+case 67:
+linkTitle='ddrcreations',linkHref='ddrcreations.com/index.html',linkImage='ddrcreations.com';
 break;
 }
 
