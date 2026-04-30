@@ -1,33 +1,31 @@
 const numExtras=14;
+const numLinks=53;
 var bannerHtml='';
 var bannerImg='';
-var rand=0;
+var randomValue=0;
 var checkMisc = new Array((numExtras)+1);
+var checkLinks = new Array((numLinks)+1);
 
 // Function to play a random video
 function showcaseMisc() {
 mydiv='';youtube='';link='';
-clearTimeout(tempo);
 	
-	// Disable the function when leaving the showcase
-	if (btnnew.disabled==false) {return;}
+if (btnnew.disabled==false) {return;} // Disable the function when leaving the showcase
 
 // Check if the array is full
 for (let x=numExtras;x>0;x--) {
-if ( checkMisc[x]!=='ok' ) {break;}
-if (x==1 && checkMisc[x]=='ok' ) {checkMisc = [];} 
+	if ( checkMisc[x]!=='ok' ) {break;}
+	if (x==1 && checkMisc[x]=='ok' ) {checkMisc = [];} 
 }
 
 // Set a randomValue
-rand=(Math.floor(Math.random()*numExtras)+1);
-	
-	// Compare with checklist
-	while (rand>0 && checkMisc[rand]=='ok') {rand=(Math.floor(Math.random()*numExtras)+1);}
+randomValue=(Math.floor(Math.random()*numExtras)+1);	
+while (randomValue>0 && checkMisc[randomValue]=='ok') {randomValue=(Math.floor(Math.random()*numExtras)+1);}
+if (randomValue>0 && checkMisc[randomValue]!='ok') {checkMisc[randomValue]='ok';}
 
-	if (rand>0 && checkMisc[rand]!='ok') {checkMisc[rand]='ok';}
 
 // Get the info of the video [id]
-switch (rand) {
+switch (randomValue) {
 case 0:
 mydiv=''
 break;
@@ -59,7 +57,7 @@ case 9:
 mydiv='Check out this crazy compilation',youtube='h5k5G6Dt6ho?si=26jFNX_e327bRdwd&start=703&end=853',link='drive.google.com/drive/folders/1a5la0Q-hWKLvAitgPxGrr6br_0lJ7kZb?usp=drive_link'
 break;
 case 10:
-mydiv='Fantastico_Jaspion',youtube='1_7gepKMuts?si=RPYmXGIbHLL4--Kn',bannerHtml='sato.tv.br/',bannerImg='i.imgur.com/rMxn204.png'
+mydiv='Fantastico_Jaspion',youtube='1_7gepKMuts?si=RPYmXGIbHLL4--Kn',bannerHtml='sato.tv.br',bannerImg='i.imgur.com/rMxn204.png'
 break;
 case 11:
 mydiv='MUGEN_means_INFINITY',youtube='1ZUwgwQQoTU?si=PjHwcYXOizpxsn4T&start=224&end=274'
@@ -74,16 +72,220 @@ case 14:
 mydiv='Roulette Mugen Compilation',youtube='TAOKhz_1Y_M?feature=shared'
 break;
 }
+
 if (bannerHtml==''){
-bannerHtml='twitter.com/Zanmyo';
-bannerImg='i.imgur.com/qV3Q36A.gif';
+	bannerHtml='twitter.com/Zanmyo';
+	bannerImg='i.imgur.com/qV3Q36A.gif';
 }
+
 document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+"&autoplay=1&mute=1 width='500'   height='300' frameborder='0' title="+mydiv+"></iframe><br><a target='_blank' href=https://"+link+"><b>"+mydiv+"</b></a>"
 document.getElementById('banner').innerHTML="<a target='_blank' href=https://"+bannerHtml+"><img src=https://"+bannerImg+"></a>";
-var tempo=setTimeout('showcaseCharacter()',50000); //showcaseCharacter -> showcaseStage -> showcaseMisc
+intervalTime=setTimeout('showcaseCharacter()',50000); //showcaseCharacter -> showcaseStage -> showcaseMisc
 
 const elementos = document.querySelectorAll('b, a');
 elementos.forEach(elemento => {
   if (isHalloween) {elemento.style.color = 'red';}
 });
+
+}
+
+function showLinks() {
+
+document.getElementById('linkiss').innerHTML="<a title='github' target='_blank' href='https://github.com/mabskmk/mabskmk.github.io'><img src='https://www.google.com/s2/favicons?domain=github.com'/></a>"
+
+// Check if the array is full
+for (let x=numLinks;x>0;x--) {
+	if ( checkLinks[x]!=='ok' ) {break;}
+	if (x==1 && checkLinks[x]=='ok' ) {checkLinks = [];} 
+}
+
+for (let l=1;l<54;l++) {
+
+	// Set a randomValue
+	do {
+		randomValue = (Math.floor(Math.random()*numLinks)+1);
+	}	while (randomValue>0 && checkLinks[randomValue]=='ok');
+
+	if (randomValue>0 && checkLinks[randomValue]!='ok') {checkLinks[randomValue]='ok';}
+
+	addLink(randomValue);
+}
+
+}
+
+function addLink(numero) {
+let linkTitle = '';
+let linkHref  = '';
+let linkImage = '';
+let linkImgur = '';
+
+switch (numero) {
+case 1:
+linkTitle='csdb',linkHref='csdb.dk/scener/?id=4616',linkImage='www.csdb.dk';
+break;
+case 2:
+linkTitle='pcloud',linkHref='my.pcloud.com/#page=register&invite=QyVhZug5dQk',linkImage='www.pcloud.com';
+break;
+case 3:
+linkTitle='alison',linkHref='www.alison.com',linkImage='www.alison.com';
+break;
+case 4:
+linkTitle='modules.pl',linkHref='www.modules.pl',linkImage='www.modules.pl';
+break;
+case 5:
+linkTitle='mirsoft',linkHref='www.mirsoft.info/index.php',linkImage='www.mirsoft.info';
+break;
+case 6:
+linkTitle='amp',linkHref='amp.dascene.net',linkImage='amp.dascene.net';
+break;
+case 7:
+linkTitle='remakes online',linkHref='www.remakesonline.com',linkImage='www.remakesonline.com';
+break;
+case 8:
+linkTitle='filen.io',linkHref='filen.io/r/956f3f985e56e07f010548018a56c44c',linkImage='filen.io';
+break;
+case 9:
+linkTitle='wheelies',linkHref='www.wheelies.net',linkImgur='jup2WPq.png';
+break;
+case 10:
+linkTitle='washu.org',linkHref='www.washu.org',linkImage='www.washu.org';
+break;
+case 11:
+linkTitle='animemusicvideos',linkHref='www.animemusicvideos.org',linkImage='www.animemusicvideos.org';
+break;
+case 12:
+linkTitle='scp foundation',linkHref='scp-wiki.wikidot.com',linkImage='www.scp-wiki.wikidot.com';
+break;
+case 13:
+linkTitle='hong kong movie database',linkHref='hkmdb.com',linkImgur='rFQXScR.jpg';
+break;
+case 14:
+linkTitle='w3schools',linkHref='www.w3schools.com',linkImage='www.w3schools.com';
+break;
+case 15:
+linkTitle='mega.nz',linkHref='mega.nz/aff=hW1Fp-SLZoY',linkImage='mega.co.nz';
+break;
+case 16:
+linkTitle='mediafire',linkHref='www.mediafire.com',linkImage='www.mediafire.com';
+break;
+case 17:
+linkTitle='dropbox',linkHref='db.tt/u9VvAFSd',linkImage='db.tt';
+break;
+case 18:
+linkTitle='tvtropes',linkHref='tvtropes.org',linkImage='tvtropes.org';
+break;
+case 19:
+linkTitle='senbei',linkHref='www.santaluzia.com.br/biscoito-de-arroz-want-want-senbei-96g-1024159/p',linkImage='istripper.com';
+break;
+case 20:
+linkTitle='neuronball',linkHref='www.neuronball.com/en/team/53482',linkImage='www.neuronball.com';
+break;
+case 21:
+linkTitle='pci concursos',linkHref='www.pciconcursos.com.br/concursos',linkImage='www.pciconcursos.com.br';
+break;
+case 22:
+linkTitle='tumblr',linkHref='mabskmk.tumblr.com',linkImage='www.tumblr.com';
+break;
+case 23:
+linkTitle='myanimelist',linkHref='myanimelist.net/profile/MabsKMK',linkImage='myanimelist.net';
+break;
+case 24:
+linkTitle='lastfm',linkHref='www.last.fm/pt/user/MabsKMK',linkImage='www.last.fm';
+break;
+case 25:
+linkTitle='flickr',linkHref='www.flickr.com/photos/mabskmk/albums',linkImage='www.flickr.com';
+break;
+case 26:
+linkTitle='box',linkHref='app.box.com',linkImage='app.box.com';
+break;
+case 27:
+linkTitle='tribalwars',linkHref='br.twstats.com/brp1/index.php?page=player&amp;id=918631277',linkImage='www.tribalwars.us';
+break;
+case 28:
+linkTitle='metal-archives',linkHref='www.metal-archives.com',linkImage='www.metal-archives.com';
+break;
+case 29:
+linkTitle='GradiusHW',linkHref='www.gamestone.co.uk/gradiushomeworld',linkImage='gamestone.co.uk/gradiushomeworld';
+break;
+case 30:
+linkTitle='spotify',linkHref='open.spotify.com/user/12160780201',linkImage='play.spotify.com';
+break;
+case 31:
+linkTitle='olhardigital',linkHref='olhardigital.com.br',linkImage='olhardigital.com.br';
+break;
+case 32:
+linkTitle='game of bombs',linkHref='gameofbombs.com',linkImage='gameofbombs.com';
+break;
+case 33:
+linkTitle='reddit',linkHref='www.reddit.com/user/mabskmk',linkImage='www.reddit.com';
+break;
+case 34:
+linkTitle='Электа',linkHref='www.bitchute.com/channel/LIy5FtdNRSH2',linkImage='www.bitchute.com';
+break;
+case 35:
+linkTitle='Chomp-Man',linkHref='www.deviantart.com/karakatodzo/art/Chomp-Man-MaGMML2-788466027',linkImage='www.deviantart.com';
+break;
+case 36:
+linkTitle='laribug',linkHref='www.twitch.tv/laribug',linkImage='www.twitch.tv';
+break;
+case 37:
+linkTitle='betterttv',linkHref='betterttv.com/users/58915d7ef267f1704334835c',linkImage='betterttv.com';
+break;
+case 38:
+linkTitle='cloudconvert',linkHref='cloudconvert.com',linkImage='cloudconvert.com';
+break;
+case 39:
+linkTitle='signavatar',linkHref='signavatar.com',linkImgur='2hOzGrX.png';
+break;
+case 40:
+linkTitle='Proton',linkHref='proton.me',linkImage='proton.me';
+break;
+case 41:
+linkTitle='vgm',linkHref='downloads.khinsider.com/?u=1048884',linkImage='downloads.khinsider.com';
+break;
+case 42:
+linkTitle='2062',linkHref='2062.jp',linkImage='2062.jp';
+break;
+case 43:
+linkTitle='SBT',linkHref='www.sbt.com.br/aovivo',linkImage='www.sbt.com.br';
+break;
+case 44:
+linkTitle='Jumpshare',linkHref='jumpshare.com',linkImage='jumpshare.com';
+break;
+case 45:
+linkTitle='Sync',linkHref='www.sync.com',linkImage='www.sync.com';
+break;
+case 46:
+linkTitle='playlistFinder',linkHref='www.chosic.com/spotify-playlist-search-tool-by-song-or-artist',linkImage='chosic.com';
+break;
+case 47:
+linkTitle='modarchive',linkHref='modarchive.org/index.php?request=view_by_moduleid&query=38887',linkImage='modarchive.org';
+break;
+case 48:
+linkTitle='ocremix',linkHref='ocremix.org',linkImage='ocremix.org';
+break;
+case 49:
+linkTitle='4shared',linkHref='www.4shared.com',linkImage='4shared.com';
+break;
+case 50:
+linkTitle='chomikuj',linkHref='chomikuj.pl',linkImage='chomikuj.pl';
+break;
+case 51:
+linkTitle='cling',linkHref='cling.com/c/Bookmarks-b2DI9fiwpjI75GAEvRmvezb',linkImage='cling.com';
+break;
+case 52:
+linkTitle='uptodown',linkHref='www.uptodown.com',linkImage='www.uptodown.com';
+break;
+case 53:
+linkTitle='raindrop',linkHref='app.raindrop.io',linkImage='app.raindrop.io';
+break;
+}
+
+if (linkImage != '') {
+	document.getElementById('linkiss').innerHTML+="<a title="+linkTitle+" target='_blank' href=https://"+linkHref+"><img src=https://www.google.com/s2/favicons?domain="+linkImage+"/></a>"
+}
+else {
+	document.getElementById('linkiss').innerHTML+="<a title="+linkTitle+" target='_blank' href=https://"+linkHref+"><img src=https://i.imgur.com/"+linkImgur+" width=16 height=16></a>"
+}
+
 }
