@@ -36,13 +36,11 @@ if (x==1 && checkStage[x]=='ok' ) {checkStage = [];}
 }
 
 // Set a randomValue
-randomValue=(Math.floor(Math.random()*numStages)+1);
-	
-	// Compares with the check list
-	while (randomValue>0 && checkStage[randomValue]=='ok') {randomValue=(Math.floor(Math.random()*numStages)+1);}
+do {
+	randomValue=(Math.floor(Math.random()*numStages)+1);	
+}	while (randomValue>0 && checkStage[randomValue]=='ok');
 
-	if (randomValue>0 && checkStage[randomValue]!='ok') {checkStage[randomValue]='ok';}
-
+if (randomValue>0 && checkStage[randomValue]!='ok') {checkStage[randomValue]='ok';}
 
 // Get the values ​​of the respective video from the 'character database'
 stageData(randomValue,3);
