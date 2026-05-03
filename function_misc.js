@@ -19,8 +19,10 @@ for (let x=numExtras;x>0;x--) {
 }
 
 // Set a randomValue
-randomValue=(Math.floor(Math.random()*numExtras)+1);	
-while (randomValue>0 && checkMisc[randomValue]=='ok') {randomValue=(Math.floor(Math.random()*numExtras)+1);}
+do {
+	randomValue=(Math.floor(Math.random()*numExtras)+1);
+}	while (randomValue>0 && checkMisc[randomValue]=='ok');
+
 if (randomValue>0 && checkMisc[randomValue]!='ok') {checkMisc[randomValue]='ok';}
 
 
