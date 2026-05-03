@@ -27,12 +27,11 @@ if (x==1 && checkChar[x]=='ok' ) {checkChar = [];}
 }
   
 // Set a randomValue
-randomValue=(Math.floor(Math.random()*numChars)+1);
+do {
+	randomValue=(Math.floor(Math.random()*numChars)+1);
+}	while (randomValue>0 && checkChar[randomValue]=='ok');
 
-	// Compare with checklist
-	while (randomValue>0 && checkChar[randomValue]=='ok') {randomValue=(Math.floor(Math.random()*numChars)+1);}
-
-	if (randomValue>0 && checkChar[randomValue]!='ok') {checkChar[randomValue]='ok';}
+if (randomValue>0 && checkChar[randomValue]!='ok') {checkChar[randomValue]='ok';}
 
 
 // Get the values ​​of the respective video from the 'character database'
