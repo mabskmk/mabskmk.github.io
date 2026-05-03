@@ -94,13 +94,7 @@ elementos.forEach(elemento => {
 function showLinks() {
 
 document.getElementById('linkiss').innerHTML="<a title='github' target='_blank' href='https://github.com/mabskmk/mabskmk.github.io'><img src='https://www.google.com/s2/favicons?domain=github.com'/></a>"
-
-// Check if the array is full
-for (let x=numLinks;x>0;x--) {
-	if ( checkLinks[x]!=='ok' ) {break;}
-	if (x==1 && checkLinks[x]=='ok' ) {checkLinks = [];} 
-}
-
+	
 for (let l=1;l<63;l++) {
 
 // Set a randomValue
