@@ -179,7 +179,7 @@ mydiv='Transylvania',imgur='dQfLncX.png',gdrv='1wwEIGabRJlyf8KqKHjVMI3nggaPNj3Id
 break;
 case 23:
 mydiv='Chemical_Plant',imgur='3Xba3Hf.gif',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa';
-ytLink=(Math.floor(Math.random()*13));
+ytLink=(Math.floor(Math.random()*12));
 	if (ytLink==0) {youtube='Qlv2KUWhHrE';} //@MugenLord
 	if (ytLink==1) {youtube='uTdxHzFzCIw';} //@Seenik09
 	if (ytLink==2) {youtube='MPWSFrFM6DM?si=MFP1rb4wnrkZEeuN&start=732&end=782';sufix='&autoplay=1&mute=1';} //@EXFalchion
@@ -188,11 +188,10 @@ ytLink=(Math.floor(Math.random()*13));
 	if (ytLink==5) {youtube='mKoiFAi0uvc?si=K2qnvEVz5LDq75Dw&start=29&end=79';} //@SpadeKaboomber
 	if (ytLink==6) {youtube='7AwWUcjlQ0M';} //@SpadeKaboomber
 	if (ytLink==7) {youtube='KOt-vTxkV8c';} //@SpadeKaboomber
-	if (ytLink==8) {youtube='F_pfX_6NRmw';} //@SuperYoshiKartGalaxy1983
+	if (ytLink==8) {youtube='KggAHUS1jEA';} //@DeluxeGamer705
 	if (ytLink==9) {youtube='2fi7Z3qP-0w';} //@AlexNico
 	if (ytLink==10) {youtube='jZEPeUQR0qE?si=17ySAOV0VH6Y1YOg&start=51&end=101';} //@NICK54222
 	if (ytLink==11) {youtube='mEt2mSz8qMU';} //@mugencombat
-	if (ytLink==12) {youtube='KggAHUS1jEA';} //@DeluxeGamer705
 break;
 case 24:
 mydiv='Wild_Side',imgur='LdboBiv.png',gdrv='1koEXqyq-nh8_LSxCyvuEHyTPWoXww-ns'
