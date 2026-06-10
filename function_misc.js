@@ -113,6 +113,7 @@ let linkTitle = '';
 let linkHref  = '';
 let linkImage = '';
 let linkImgur = '';
+let randomValue =0;
 
 switch (numero) {
 case 1:
@@ -299,7 +300,16 @@ case 61:
 linkTitle='shazam',linkHref='www.shazam.com',linkImage='www.shazam.com';
 break;
 case 62:
-linkTitle='kungfutea',linkHref='x.com/TaichiZhe/status/1855437567505649691',linkImage='x.com';
+linkTitle='kungfutea',linkImage='x.com';
+randomValue=(Math.floor(Math.random()*8));
+	if (randomValue==0) {linkHref='x.com/TaichiZhe/status/1855437567505649691';}
+	if (randomValue==1) {linkHref='https://x.com/crazyclipsonly/status/1872613558665814133';}
+	if (randomValue==2) {linkHref='https://x.com/hantersan/status/1692928929894658243';}
+	if (randomValue==3) {linkHref='https://x.com/InternetH0F/status/1767415276927172929';}
+	if (randomValue==4) {linkHref='https://x.com/Lilium725/status/1858087759946317936';}
+	if (randomValue==5) {linkHref='https://x.com/AMAZlNGNATURE/status/1866846227389616225';}
+	if (randomValue==6) {linkHref='https://x.com/hoangphuc180115/status/1878678823262437409';}
+	if (randomValue==7) {linkHref='https://x.com/sciencegirl/status/1850767476558041369';}
 break;
 case 63:
 linkTitle='playnite',linkHref='playnite.link',linkImage='playnite.link';
