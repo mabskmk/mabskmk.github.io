@@ -201,14 +201,13 @@ ytLink=(Math.floor(Math.random()*2));
 break;
 case 25:
 mydiv='Oil_Ocean',imgur='pcjB4Sm.png',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa';
-ytLink=(Math.floor(Math.random()*7));
-	if (ytLink==0) {youtube='MQrD4DVeXpI';} //lGBi7D_kFoQ
+ytLink=(Math.floor(Math.random()*6));
+	if (ytLink==0) {youtube='MQrD4DVeXpI';} //@NICK54222
 	if (ytLink==1) {youtube='CWPJgpGHC70';} //@Seenik09
 	if (ytLink==2) {youtube='XqQ99zZN_E4';} //@PerryMason123
 	if (ytLink==3) {youtube='0s56cmA_IXo';} //@NICK54222
-	if (ytLink==4) {youtube='lGBi7D_kFoQ';} //@spookykujo6538
-	if (ytLink==5) {youtube='QkpSEDxsTDY';} //@YeetofYeets
-	if (ytLink==6) {youtube='qgN0mfCPJhM?si=0fG4W1Eqkw9HgbFc&start=11&end=61';} //@MarioFan06-gh9gl
+	if (ytLink==4) {youtube='QkpSEDxsTDY';} //@YeetofYeets
+	if (ytLink==5) {youtube='qgN0mfCPJhM?si=0fG4W1Eqkw9HgbFc&start=11&end=61';} //@MarioFan06-gh9gl
 break;
 case 26:
 mydiv='Moai_ruin',imgur='aen5RVb.gif',gdrv='1HCbYOLepWExO6LUFPiMweydWVgAjYCvu'
