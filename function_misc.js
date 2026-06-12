@@ -243,7 +243,7 @@ case 42:
 linkTitle='2062',linkHref='2062.jp',linkImage='2062.jp';
 break;
 case 43:
-linkTitle='SBT',linkHref='www.sbt.com.br/aovivo',linkImage='www.sbt.com.br';
+linkTitle='SBT',linkHref='sports.sbt.com.br/futebol/copa-do-mundo/2026',linkImage='www.sbt.com.br'; //www.sbt.com.br/aovivo
 break;
 case 44:
 linkTitle='Jumpshare',linkHref='jumpshare.com',linkImage='jumpshare.com';
