@@ -404,7 +404,8 @@ switch (code) {
 			document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+youtube+""+sufix+" width='500' height='300' frameborder='0'></iframe><br><img src=https://i.imgur.com/"+imgur+".png width=20 height=20> CHAR ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=CHAR_"+mydiv+"></a>"
 			}
 			else{
-			document.getElementById('videoshowcase').innerHTML="<img src=https://i.imgur.com/"+imgur9+" height='300'><br>CHAR ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=CHAR_"+mydiv+"></a>"
+			document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/3glPmy2zyBk?si=pXZI2xQ4Ltr8MLE_&start=244&end=294&autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Full-Game: <b>Steel Warriors</b> <a target='_blank' href=https://www.dropbox.com/s/hp2b158fiqff6he/MSW-Steel%20Warriors1.1.rar?dl=1><img src=https://i.imgur.com/pJFCm25.png title='Steel Warriors'></a>"
+			//document.getElementById('videoshowcase').innerHTML="<img src=https://i.imgur.com/"+imgur9+" height='300'><br>CHAR ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=CHAR_"+mydiv+"></a>"
 			}
 		}
 		else{
