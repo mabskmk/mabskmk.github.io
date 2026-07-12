@@ -314,7 +314,7 @@ ytLink=(Math.floor(Math.random()*2));
 	if (ytLink==1) {youtube='6DuHP9Xz91Y?si=gA8MFHzossg5PbSU&start=1080&end1130';} //@worldoflongplays
 break;
 case 45:
-mydiv='Boobs',imgur='yD1AWaE',imgur9='I6DUeVu.png',game='Amazon Brawl',ctype='Boss',lastupdate='24/01/24',gdrv='15iwEE0g8Jun3eQQlYxw7uC7Jt1Vpv9ME'
+mydiv='Boobs',imgur='yD1AWaE',imgur9='I6DUeVu.png',game='Amazon Brawl',ctype='Boss',lastupdate='24/01/24',gdrv='15iwEE0g8Jun3eQQlYxw7uC7Jt1Vpv9ME',zpoints=10000
 	//ytLink=(Math.floor(Math.random()*2));	if (ytLink==1) {youtube='';} //@
 break;
 case 46:
