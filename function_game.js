@@ -794,13 +794,28 @@ botX=0;
 if (player==1) {
 
 	// Find the highest card in your hand
-	for (let x=11;x<16;x++) {
-	if (playerOne[x]>botX) {botX=playerOne[x];}
-	}
+//	for (let x=11;x<16;x++) {
+//	if (playerOne[x]>botX) {botX=playerOne[x];}
+//	}
 
 	// Check if you can overcome one of the computer's cards
+//	for (let x=1;x<10;x++) {
+//	if (playerTwo[x]<botX && playerOne[x]==0) {return;}
+//	}
+
 	for (let x=1;x<10;x++) {
-	if (playerTwo[x]<botX && playerOne[x]==0) {return;}
+
+	for (let y=11; y<16; y++) {
+		if (playerTwo[y] > playerOne[x]) {
+		
+			if (( playerTwo[y] - playerOne[x]) == 1 ) {
+				return;
+			}	
+			else if ( ( playerTwo[y] -playerOne[x] ) <= karmaPoints ) {
+				return;
+			}	
+		}
+	}
 	}
 
 	for (let x=11;x<16;x++) {
@@ -808,6 +823,7 @@ if (player==1) {
 	}
 
 	victoryCheck(2); //Computer wins
+
 }
 
 
