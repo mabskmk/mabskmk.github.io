@@ -471,19 +471,6 @@ console.log("	canOvercome("+card+")");
 
 botX = 0;
 
-//for (let x=11; x<16; x++) {
-//if (playerTwo[x]>botX) {botX=playerTwo[x];}
-//}
-
-//if (botX > card) {
-//	console.log("		Yes");
-//	return true;
-//	} 
-//	else {
-//	console.log("		No");
-//	return false;
-//	}
-
 for (let x=11; x<16; x++) {
 	if (playerTwo[x] > card) {
 		botX = playerTwo[x];
