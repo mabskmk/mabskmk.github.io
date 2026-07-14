@@ -389,7 +389,7 @@ if (youtube.length > 15) {sufix='&autoplay=1&mute=1';}
 switch (code) {
 	// Build the button
 	case 1:
-		if ( (zpoints==0) || (playerOne[0] >= zpoints) ) {
+		if ( (zpoints==0) || (playerOne[0] >= zpoints) || isHalloween ) {
 		document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+".png onClick='charData("+numero+",2)' class='rbutton' width=25 height=25><b>"+mydiv+"</b> "+game+" / "+ctype+" / Last update: "+lastupdate+"<br>"
 		}
 	break;
