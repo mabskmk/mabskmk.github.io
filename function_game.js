@@ -8,6 +8,7 @@ var playerTwo = new Array(16);	//0_points, 1-9 field, 10 combo, 11-15 hand
 
 var actualPlayer=0;		//Player(1) or CPU(2) just in case you are faster than the cpu...
 var cardSelect=0;		//Player's hand selection
+var karmaPoints=10;		//Honor controller
 
 var botX=0; 		//worker
 var botY=0;			//worker
@@ -55,7 +56,7 @@ const matrixObjective = [	// All winning combinations
 //----------------------------------------------------
 
 function menugame() {
-document.getElementById('principal').innerHTML="<center><h1 id=nomeprinc><b>B.A.T.T.L.E!</b></h1><table border=1><tr><td align=center><img id=1 onClick='playSelect(1)' src='' height='135px'><td align=center><img id=2 onClick='playSelect(2)' src='' height='135px'><td align=center><img id=3 onClick='playSelect(3)' src='' height='135px'><td align=center rowspan=3 bgcolor=darkolivegreen><img id=10 src='https://i.imgur.com/y3p2oz2.png'><td align=center rowspan=3><img id=11 onClick='seLect(11)' src='' height='80px'><br><img id=12 onClick='seLect(12)' src='' height='80px'><br><img id=13 onClick='seLect(13)' src='' height='80px'><br><img id=14 onClick='seLect(14)' src='' height='80px'><br><img id=15 onClick='seLect(15)' src='' height='80px'><tr><td align=center><img id=4 onClick='playSelect(4)' src='' height='135px'><td align=center><img id=5 onClick='playSelect(5)' src='' height='135px'><td align=center><img id=6 onClick='playSelect(6)' src='' height='135px'><tr><td align=center><img id=7 onClick='playSelect(7)' src='' height='135px'><td align=center><img id=8 onClick='playSelect(8)' src='' height='135px'><td align=center><img id=9 onClick='playSelect(9)' src='' height='135px'><tr></table><table border=0><tr><td align=left valign=top  height=50><b>Player:</b><br><span id=point1>oooooooooooo</span><br><font color=red><span id=w1></span></font> <font color=cyan><span id=c1></span></font><td align=center valign=top width=100><b>VS</b><td align=right valign=top height=50><b>Computer:</b><br><span id=point2>oooooooooooo</span><br><font color=red><span id=w2></span></font> <font color=cyan><span id=c2></span></font></table><br><b id=v1></b>-<b id=v2></b>-<b id=v3></b>-<b id=v4></b>-<b id=v5></b>-<b id=v6></b>-<b id=v7></b>-<b id=v8></b>-<b id=v9></b><br><input type=button onClick='gameManual()' value='How to' id=help1><input type=button onClick='menugame()' value='Play!' id=help2><br></center>"
+document.getElementById('principal').innerHTML="<center><h1 id=nomeprinc><b>B.A.T.T.L.E!</b></h1><table border=1><tr><td align=center><img id=1 onClick='playSelect(1)' src='' height='135px'><td align=center><img id=2 onClick='playSelect(2)' src='' height='135px'><td align=center><img id=3 onClick='playSelect(3)' src='' height='135px'><td align=center rowspan=3 bgcolor=darkolivegreen><img id=10 src='https://i.imgur.com/y3p2oz2.png'><td align=center rowspan=3><img id=11 onClick='seLect(11)' src='' height='80px'><br><img id=12 onClick='seLect(12)' src='' height='80px'><br><img id=13 onClick='seLect(13)' src='' height='80px'><br><img id=14 onClick='seLect(14)' src='' height='80px'><br><img id=15 onClick='seLect(15)' src='' height='80px'><tr><td align=center><img id=4 onClick='playSelect(4)' src='' height='135px'><td align=center><img id=5 onClick='playSelect(5)' src='' height='135px'><td align=center><img id=6 onClick='playSelect(6)' src='' height='135px'><tr><td align=center><img id=7 onClick='playSelect(7)' src='' height='135px'><td align=center><img id=8 onClick='playSelect(8)' src='' height='135px'><td align=center><img id=9 onClick='playSelect(9)' src='' height='135px'><tr></table><table border=0><tr><td align=left valign=top  height=50><b>Player:</b><br><span id=point1>oooooooooooo</span><br><font color=red><span id=w1></span></font> <font color=cyan><span id=c1></span></font><td align=center valign=top width=100><b>VS</b><td align=right valign=top height=50><b>Computer:</b><br><span id=point2>oooooooooooo</span><br><font color=red><span id=w2></span></font> <font color=cyan><span id=c2></span></font></table><b>KARMA:</b> <span id=karmap>00</span><br><br><b id=v1></b>-<b id=v2></b>-<b id=v3></b>-<b id=v4></b>-<b id=v5></b>-<b id=v6></b>-<b id=v7></b>-<b id=v8></b>-<b id=v9></b><br><input type=button onClick='gameManual()' value='How to' id=help1><input type=button onClick='menugame()' value='Play!' id=help2><br></center>"
 btnnew.disabled=false;
 btnchar.disabled=false;
 btnstg.disabled=false;
@@ -69,7 +70,7 @@ startGame();
 }
 
 function gameManual() {
-document.getElementById('principal').innerHTML="<center><h1 id=nomeprinc><b>B.A.T.T.L.E!</b></h1><table border=0 width=550><tr><td align=center><font color=cyan  onmouseover='showGood()'>*The gameplay include the basic of tic-tac-toe with some improvements.<br><br>*Use the cards on the right side to play.<br><br>*After select the card, click on the field(left) to make your move.<br><br>*The first player to place three cards in a row wins.<br><br>*Winning with three cards of the same power gives you an extra bonus!</font><td align=center><img id=10 src='https://i.imgur.com/vOFiWYf.png'><td align=center><font color=red onmouseover='showEvil()'>*Each card you play on the field gives you honor points equivalent to the strength of the card x100.<br><br>*Strong cards may be pulled over small ones... that's called battle!<br><br>*Beware, if you try to defeat a weak opponent using a very strong card... You will lose the difference of points.<br><br>*Defeating cards in sequence gives you an extra bonus!</font></table><br><input type=button onClick='gameHelp()' value='How to' id=help1><input type=button onClick='menugame()' value='Play!' id=help2><br></center>"
+document.getElementById('principal').innerHTML="<center><h1 id=nomeprinc><b>B.A.T.T.L.E!</b></h1><table border=0 width=550><tr><td align=center><font color=cyan  onmouseover='showGood()'>*The gameplay include the basic of tic-tac-toe with some improvements.<br><br>*Use the cards on the right side to play.<br><br>*After select the card, click on the field(left) to make your move.<br><br>*The first player to place three cards in a row wins.<br><br>*Winning with three cards of the same power gives you an extra bonus!<br><br>*Positive karma represents the difference in power between cards to be played on the same space.</font><td align=center><img id=10 src='https://i.imgur.com/vOFiWYf.png'><td align=center><font color=red onmouseover='showEvil()'>*Each card you play on the field gives you honor points equivalent to the strength of the card x100.<br><br>*Strong cards may be pulled over small ones... that's called battle!<br><br>*Beware, if you try to defeat a weak opponent using a very strong card... You will lose the difference of points.<br><br>*Defeating cards in sequence gives you an extra bonus!<br><br>*Negative karma prohibits combat, and this applies to all players.</font></table><br><input type=button onClick='gameHelp()' value='How to' id=help1><input type=button onClick='menugame()' value='Play!' id=help2><br></center>"
 btnnew.disabled=false;
 btnchar.disabled=false;
 btnstg.disabled=false;
@@ -80,8 +81,8 @@ help2.disabled=false;
 //startGame();
 }
 
-function showEvil() {document.getElementById('10').src=getImage(8,2);}
-function showGood() {document.getElementById('10').src=getImage(8,1);}
+function showEvil() {document.getElementById('10').src=getImage(9,2);}
+function showGood() {document.getElementById('10').src=getImage(9,1);}
 
 //====================================================
 // [Start the game]
@@ -470,18 +471,40 @@ console.log("	canOvercome("+card+")");
 
 botX = 0;
 
+//for (let x=11; x<16; x++) {
+//if (playerTwo[x]>botX) {botX=playerTwo[x];}
+//}
+
+//if (botX > card) {
+//	console.log("		Yes");
+//	return true;
+//	} 
+//	else {
+//	console.log("		No");
+//	return false;
+//	}
+
 for (let x=11; x<16; x++) {
-if (playerTwo[x]>botX) {botX=playerTwo[x];}
+	if (playerTwo[x] > card) {
+		botX = playerTwo[x];
+		
+		if ((botX-card) == 1 ) {
+			console.log("		Yes");
+			return true;
+		}
+		else if ( (botX-card) <= karmaPoints ) {
+			console.log("		Yes");
+			return true;
+		}
+		else {
+			console.log("		No");
+			return false;
+		}
+
+	}
 }
 
-if (botX > card) {
-	console.log("		Yes");
-	return true;
-	} 
-	else {
-	console.log("		No");
-	return false;
-	}
+
 }
 
 //====================================================
@@ -512,6 +535,7 @@ function drawCard() {
 	document.getElementById('v7').innerHTML=cardArray[6];
 	document.getElementById('v8').innerHTML=cardArray[7];
 	document.getElementById('v9').innerHTML=cardArray[8];
+	
 
 console.log("P"+actualPlayer+" drawCard("+(botX+1)+")");
 return(botX+1);
@@ -577,9 +601,9 @@ console.log("seLect("+playerOne[botX]+")");
 	
 		//Sepia effect for lower cards
 		for (let x=1;x<10;x++) {
-		if (playerTwo[x]>0 && (playerTwo[x]<playerOne[botX])) {
-		document.getElementById(x).style = 'filter: sepia(100%)';
-		}
+		if ( playerTwo[x]>0 && (playerTwo[x]<playerOne[botX]) && ( ((playerOne[botX]-playerTwo[x])== 1) || ((playerOne[botX]-playerTwo[x]) <= karmaPoints )) ) {
+			document.getElementById(x).style = 'filter: sepia(100%)';
+			}
 		}	
 	
 	}
@@ -619,10 +643,12 @@ console.log("resetStyle()");
 async function playSelect(botX) {
 console.log("playSelect(hand:"+playerOne[cardSelect]+" field:"+botX+" cpu:"+playerTwo[botX]+")");
 
+
 if (actualPlayer==1) {
 
 	//The chosen spot is empty or contains the computer's card with a smaller value
-	if (cardSelect!='' && playerOne[botX]==0 && ( playerOne[cardSelect] > playerTwo[botX] ) ) {
+	if (cardSelect!='' && playerOne[botX]==0) {
+	if (playerTwo[botX]==0 ||(playerTwo[botX]>0 && (((playerOne[cardSelect]-playerTwo[botX])==1) || ((playerOne[cardSelect]-playerTwo[botX])<=karmaPoints))) ) {
 
 	await calculatePoints(1,(playerOne[cardSelect]),(playerTwo[botX]),(playerTwo[botX]!=0? 1 : 0));
 	
@@ -645,6 +671,7 @@ if (actualPlayer==1) {
 	highCard();
 	cardSelect='';
 	await victoryCheck(0); //reArrange(1);
+	}
 	}
 
 }
@@ -690,6 +717,20 @@ if (botY > 0 && ( (botX-botY) > 1 ) ) {
 }
 
 
+// Karma points: good karma
+if (botY > 0 && ( (botX-botY) == 1 ) ) {
+	karmaPoints += 1;
+	console.log("	Good karma: +1 ("+karmaPoints+")");
+}
+
+// Karma points: bad karma
+if (botY > 0 && ( (botX-botY) > 1 ) ) {
+	karmaPoints -= (botX)-(botY);
+	console.log("	Bad karma: -"+((botX)-(botY))+" ("+karmaPoints+")");
+}
+
+document.getElementById('karmap').innerHTML = karmaPoints;
+
 document.getElementById("point"+player).innerHTML=( botZ.toString().padStart(12, 'o') ); //xD
 if (player==1) { playerOne[0] = botZ ;}
 if (player==2) { playerTwo[0] = botZ ;}
@@ -724,7 +765,7 @@ console.log("reArrange("+player+")");
 	}
 	resetStyle(); //reset the style	
 
-	console.log("");
+	console.log(" ... ");
 	if (actualPlayer!=0) {actualPlayer=2;}
 	if (playerTwo[11]==0) {playerTwo[11]=drawCard();} //draws at value 11
 		
@@ -739,7 +780,7 @@ console.log("reArrange("+player+")");
 		}
 	}
 
-	console.log("");
+	console.log(" ... ");
 	if (actualPlayer!=0) {actualPlayer=1;}
 	if (playerOne[11]==0) {playerOne[11]=drawCard();} //draws at value 11
 	document.getElementById(11).src = getImage(playerOne[11],1);
@@ -873,7 +914,7 @@ if (botX>0) {
 		document.getElementById('w2').innerHTML="";
 		document.getElementById('c2').innerHTML="";
 		console.log("PLAYER WINS");
-		console.log("");
+		console.log(" ... ");
 	}
 	else if (botX==2) {
 		playerTwo[0] = (playerTwo[0] + 100 * botZ ) ;
@@ -882,7 +923,7 @@ if (botX>0) {
 		document.getElementById('w1').innerHTML="";
 		document.getElementById('c1').innerHTML="";
 		console.log("CPU WINS");
-		console.log("");
+		console.log(" ... ");
 	}
 
 	document.getElementById("c"+botX).innerHTML="+"+(100 * botZ) ;
