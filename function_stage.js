@@ -431,7 +431,9 @@ ytLink=(Math.floor(Math.random()*3));
 break;
 case 68:
 mydiv='Phantasy_Starship',imgur='dQdjmEa.png',gdrv='1eBsUwt7Q31-EgBK7tE4eU4rQJE6NjH6z'
-	youtube='26iFWRkQmog?si=JpvKyxmc5DAJvEPu&start=130&end=180'; //@WitchVelvet
+ytLink=(Math.floor(Math.random()*2));
+	if (ytLink==0) {youtube='26iFWRkQmog?si=JpvKyxmc5DAJvEPu&start=130&end=180'}; //@WitchVelvet
+	if (ytLink==1) {youtube='tZEzKRr_7aw';} //@MaycolGamer026
 break;
 case 69:
 mydiv='Stage_Humio',imgur='vQfR8CP.png',gdrv='1Z-D3blpn4dVEivSYxgH1TvPGC6_grEWg'
@@ -590,9 +592,10 @@ mydiv='Jiii',imgur='t9ZGdu5.png',gdrv='1qQhbzMzLsLM8KEjb_Vw2yTnIOac-YJR_'
 break;
 case 110:
 mydiv='Angel_Island',imgur='dST8Gh8.gif',gdrv='1IgCC20_LftsIx_4IzuQ7U-8Jll2s0UQV';
-ytLink=(Math.floor(Math.random()*2));
+ytLink=(Math.floor(Math.random()*3));
 	if (ytLink==0) {youtube='C36o3XdkV7U';} //@DiogoCell-Sama
 	if (ytLink==1) {youtube='F7jB__I8Xsw?si=avlV8u3qaYO21RNs&start=12&end=62';} //@jewelmen10mugen87
+	if (ytLink==2) {youtube='zVLxqArgHYI';} //@MarioFan06-gh9gl
 break;
 case 111:
 mydiv='ChompmanSTG',imgur='5t4sMNC.gif',gdrv='1vKNjQiIpYTmdpEoqR5bhrlofcJy-6jmb',bannerHtml='www.sprites-inc.co.uk',bannerImg='i.imgur.com/RqfqBg1.png'
