@@ -340,7 +340,7 @@ mydiv='Head-of-Ukyo',imgur='RZ9lnLU',imgur9='Y7rsQZd.png',game='original',ctype=
 	//ytLink=(Math.floor(Math.random()*2));	if (ytLink==1) {youtube='';} //@
 break;
 case 49:
-mydiv='Shimeji',imgur='IDrbSZ8',imgur9='sJuKFFz.png',game='<a target=_blank href=https://kilkakon.com/shimeji><img src=https://i.imgur.com/RG52doK.png></a>',ctype='Bonus',lastupdate='24/12/20',gdrv='1nKdd3q6eaRqfTQz1I_vfykm8-u0Uq2IT'
+mydiv='Shimeji',imgur='IDrbSZ8',imgur9='sJuKFFz.png',game='<a target=_blank href=https://kilkakon.com/shimeji><img src=https://i.imgur.com/RG52doK.png width=25 height=25></a>',ctype='Bonus',lastupdate='24/12/20',gdrv='1nKdd3q6eaRqfTQz1I_vfykm8-u0Uq2IT'
 	youtube='4H0KAYfci_M'; //@TearSnow
 break;
 case 50:
