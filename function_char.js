@@ -314,7 +314,7 @@ ytLink=(Math.floor(Math.random()*2));
 	if (ytLink==1) {youtube='6DuHP9Xz91Y?si=gA8MFHzossg5PbSU&start=1080&end1130';} //@worldoflongplays
 break;
 case 45:
-mydiv='Boobs',imgur='yD1AWaE',imgur9='I6DUeVu.png',game='Amazon Brawl',ctype='Boss',lastupdate='24/01/24',gdrv='15iwEE0g8Jun3eQQlYxw7uC7Jt1Vpv9ME',zpoints=10000
+mydiv='Boobs',imgur='yD1AWaE',imgur9='I6DUeVu.png',game='Amazon Brawl',ctype='Boss',lastupdate='<b>24/01/24</b>',gdrv='15iwEE0g8Jun3eQQlYxw7uC7Jt1Vpv9ME',zpoints=10000
 	//ytLink=(Math.floor(Math.random()*2));	if (ytLink==1) {youtube='';} //@
 break;
 case 46:
@@ -366,14 +366,14 @@ mydiv='Sausage_Monks',imgur='uVVlLl7',imgur9='en1KRSZ.png',game='Makaimura',ctyp
 	youtube='0Ylj3QyWDPo?si=NW7HsFX4g9PskmnH&start=370&end=420'; //@AL82RetrogamingLongplays
 break;
 case 55:
-mydiv='Rede_Globo',imgur='cQtHlPU',imgur9='T9e4Il1.png',game='???',ctype='Joke',lastupdate='30/10/19',gdrv='1jjLIScUv8tqO6-w6QAfe7XpccP6ENzFX',zpoints=10000
+mydiv='Rede_Globo',imgur='cQtHlPU',imgur9='T9e4Il1.png',game='???',ctype='Joke',lastupdate='<b>30/10/19</b>',gdrv='1jjLIScUv8tqO6-w6QAfe7XpccP6ENzFX',zpoints=10000
 ytLink=(Math.floor(Math.random()*3));
 	if (ytLink==0) {youtube='W9bSU1d2wME';} //@TheRatCooler
 	if (ytLink==1) {youtube='Y7FZjAm7wWw';} //@TheRatCooler
 	if (ytLink==2) {youtube='vvZEbusxgCc';} //@TheRatCooler
 break;
 case 56:
-mydiv='Yonita',imgur='3dn8Twj',imgur9='OBmGo20.png',game='Alien_X_Predator',ctype='Joke',lastupdate='20/11/21',gdrv='1wThRuRji2OB5C3zyB5MW03YOqhcleBZi',zpoints=10000
+mydiv='Yonita',imgur='3dn8Twj',imgur9='OBmGo20.png',game='Alien_X_Predator',ctype='Joke',lastupdate='<b>20/11/21</b>',gdrv='1wThRuRji2OB5C3zyB5MW03YOqhcleBZi',zpoints=10000
 	//ytLink=(Math.floor(Math.random()*2));	if (ytLink==1) {youtube='';} //@
 break;
 case 0:
