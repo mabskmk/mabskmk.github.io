@@ -6,7 +6,7 @@ html {
 
 b, a, a:visited, a:link {
   font-family: Papyrus, "Kingdom Elegant Serif", "Comic Sans MS";
-  color:green; /*-{isHalloween}*/
+  color:LimeGreen; /*-{isHalloween}*/
   line-height: 1;
 }
 
