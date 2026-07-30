@@ -178,6 +178,7 @@ https://wesbos.com/javascript/12-advanced-flow-control/70-async-await
 https://www.freecodecamp.org/news/async-await-javascript-tutorial/
 
 Minimax Algorithm
+https://x.com/i/grok/share/e6EIfzAruQepyWwmmrKBSKrtM
 https://pt.wikipedia.org/wiki/Minimax
 https://alialaa.com/blog/tic-tac-toe-js-minimax
 https://stackoverflow.com/questions/42062178/implementing-minimax-algorithm-in-javascript
