@@ -1343,13 +1343,13 @@ previousValue = document.getElementById(2).innerText + "<br>";
 
 //https://stackoverflow.com/questions/65137434/how-can-i-save-a-txt-file-from-the-value-of-a-textarea
 function downloadFile() {
- const link = document.createElement("a");
- const content = previousValue;
- const file = new Blob([content], { type: 'text/plain' });
- link.href = URL.createObjectURL(file);
- link.download = "select.def";
- link.click();
- URL.revokeObjectURL(link.href);
+  const link = document.createElement('a');
+  const content = previousValue; 
+  const file = new Blob([content], { type: 'text/plain' }); 
+  link.href = URL.createObjectURL(file);
+  link.download = "select.def";  
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  // URL.revokeObjectURL(link.href);
 };
-
-
