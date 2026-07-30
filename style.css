@@ -40,7 +40,7 @@ input {
 input:disabled {
   background-color:white;
   border-color:white;
-  font-size:10pt;
+  /* font-size:10pt; */
   padding:0px;
   width:125px;
   cursor:auto;
