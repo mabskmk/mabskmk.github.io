@@ -1341,6 +1341,7 @@ document.getElementById(2).innerText=""+previousValue+""+mydiv+""
 previousValue = document.getElementById(2).innerText + "<br>";
 };
 
+//https://stackoverflow.com/questions/65137434/how-can-i-save-a-txt-file-from-the-value-of-a-textarea
 function downloadFile() {
  const link = document.createElement("a");
  const content = previousValue;
