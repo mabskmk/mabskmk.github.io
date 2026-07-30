@@ -1,5 +1,5 @@
 const numExtras=14;
-const numLinks=67;
+const numLinks=66;
 var bannerHtml='';
 var bannerImg='';
 var randomValue=0;
@@ -138,7 +138,7 @@ case 7:
 linkTitle='remakes online',linkHref='www.remakesonline.com',linkImage='www.remakesonline.com';
 break;
 case 8:
-linkTitle='filen.io',linkHref='filen.io/r/956f3f985e56e07f010548018a56c44c',linkImage='filen.io';
+linkTitle='ddrcreations',linkHref='ddrcreations.com/index.html',linkImage='ddrcreations.com';
 break;
 case 9:
 linkTitle='wheelies',linkHref='www.wheelies.net',linkImgur='jup2WPq.png';
@@ -322,9 +322,6 @@ linkTitle='lurid-land',linkHref='classicreload.com/lurid-land.html',linkImage='c
 break;
 case 66:
 linkTitle='ohmsby-mugen',linkHref='sites.google.com/view/ohmsby-mugen',linkImgur='nMgFh1V.png';
-break;
-case 67:
-linkTitle='ddrcreations',linkHref='ddrcreations.com/index.html',linkImage='ddrcreations.com';
 break;
 }
 
