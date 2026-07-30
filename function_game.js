@@ -169,7 +169,20 @@ if (playerOne[0] > 0) {document.getElementById('point1').innerHTML=( playerOne[0
 //====================================================
 // [Computer plays] AI ver 9.01.2026
 //----------------------------------------------------
+/*
+Async Await
+https://stackoverflow.com/questions/21518381/proper-way-to-wait-for-one-function-to-finish-before-continuing
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+https://wesbos.com/javascript/12-advanced-flow-control/70-async-await
+https://www.freecodecamp.org/news/async-await-javascript-tutorial/
 
+Minimax Algorithm
+https://pt.wikipedia.org/wiki/Minimax
+https://alialaa.com/blog/tic-tac-toe-js-minimax
+https://stackoverflow.com/questions/42062178/implementing-minimax-algorithm-in-javascript
+https://gist.github.com/Pragalbha-Patil/8f09d11cf09ad249767da0df8649f459
+*/
 async function computerTime() {
 
 if (actualPlayer==2) {
