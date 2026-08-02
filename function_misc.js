@@ -113,6 +113,7 @@ let linkTitle = '';
 let linkHref  = '';
 let linkImage = '';
 let linkImgur = '';
+let linkImagee = '';
 let randomValue =0;
 
 switch (numero) {
@@ -126,7 +127,7 @@ case 3:
 linkTitle='alison',linkHref='www.alison.com',linkImage='www.alison.com';
 break;
 case 4:
-linkTitle='modules.pl',linkHref='www.modules.pl',linkImage='www.modules.pl';
+linkTitle='modules.pl',linkHref='www.modules.pl',linkImagee='www.modules.pl/gfx/favicon.ico';
 break;
 case 5:
 linkTitle='mirsoft',linkHref='www.mirsoft.info/index.php',linkImage='www.mirsoft.info';
@@ -138,7 +139,7 @@ case 7:
 linkTitle='remakes online',linkHref='www.remakesonline.com',linkImage='www.remakesonline.com';
 break;
 case 8:
-linkTitle='ddrcreations',linkHref='ddrcreations.com/index.html',linkImage='ddrcreations.com';
+linkTitle='ddrcreations',linkHref='ddrcreations.com/index.html',linkImgur='zBiOSeQ.jpg';
 break;
 case 9:
 linkTitle='wheelies',linkHref='www.wheelies.net',linkImgur='jup2WPq.png';
@@ -150,7 +151,7 @@ case 11:
 linkTitle='animemusicvideos',linkHref='www.animemusicvideos.org',linkImage='www.animemusicvideos.org';
 break;
 case 12:
-linkTitle='scp_foundation',linkHref='scp-wiki.wikidot.com',linkImage='www.scp-wiki.wikidot.com';
+linkTitle='scp_foundation',linkHref='scp-wiki.wikidot.com',linkImagee='scp-wiki.wikidot.com/local--favicon/favicon.gif';
 break;
 case 13:
 linkTitle='hong_kong_movie_database',linkHref='hkmdb.com',linkImgur='rFQXScR.jpg';
@@ -174,7 +175,7 @@ case 19:
 linkTitle='senbei',linkHref='www.santaluzia.com.br/biscoito-de-arroz-want-want-senbei-96g-1024159/p',linkImage='istripper.com';
 break;
 case 20:
-linkTitle='neuronball',linkHref='www.neuronball.com/en/team/53482',linkImage='www.neuronball.com';
+linkTitle='neuronball',linkHref='www.neuronball.com/en/team/53482',linkImagee='neuronball.data.neuronality.com/img/favicon/favicon.ico';
 break;
 case 21:
 linkTitle='pci_concursos',linkHref='www.pciconcursos.com.br/concursos',linkImage='www.pciconcursos.com.br';
@@ -325,11 +326,8 @@ linkTitle='ohmsby-mugen',linkHref='sites.google.com/view/ohmsby-mugen',linkImgur
 break;
 }
 
-if (linkImage != '') {
-	document.getElementById('linkiss').innerHTML+="<a title="+linkTitle+" target='_blank' href=https://"+linkHref+"><img src=https://www.google.com/s2/favicons?domain="+linkImage+"/></a>"
-}
-else {
-	document.getElementById('linkiss').innerHTML+="<a title="+linkTitle+" target='_blank' href=https://"+linkHref+"><img src=https://i.imgur.com/"+linkImgur+" width=16 height=16></a>"
-}
+if (linkImage != '') {document.getElementById('linkiss').innerHTML+="<a title="+linkTitle+" target='_blank' href=https://"+linkHref+"><img src=https://www.google.com/s2/favicons?domain="+linkImage+"/></a>"};
+if (linkImgur != '') {document.getElementById('linkiss').innerHTML+="<a title="+linkTitle+" target='_blank' href=https://"+linkHref+"><img src=https://i.imgur.com/"+linkImgur+" width=16 height=16></a>"};
+if (linkImagee != '') {document.getElementById('linkiss').innerHTML+="<a title="+linkTitle+" target='_blank' href=https://"+linkHref+"><img src=https://"+linkImagee+" width=16 height=16></a>"};
 
 }
