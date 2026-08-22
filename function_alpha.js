@@ -23,7 +23,7 @@ btnyotu.disabled=false;
 clearTimeout(intervalTime); //clear the setTimeout
 showcaseCharacter(); //showcaseCharacter -> showcaseStage -> showcaseMisc
 
-const element = document.getElementById("principal"); 
+const element = document.getElementById("linkiss"); 
 document.getElementById('pagesize').innerHTML="<br>" + element.offsetWidth + "px / " + element.offsetHeight + "px";
 
 break;
