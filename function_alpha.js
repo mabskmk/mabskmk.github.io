@@ -17,6 +17,7 @@ document.getElementById('sitetemplate').innerHTML="<table border=2 bgcolor='blac
 document.getElementById('cabec').innerHTML="<b><a href='https://en.wikipedia.org/wiki/M.U.G.E.N' target='_blank' id='top'><u>M.U.G.E.N</u></a></b><br>A 2D fighting game engine that enables you to create fighting games.<br>Almost everything can be customized, from individual characters to stages, as well as the look and feel of the game.</b><br>I hope you enjoy my 'work'<br><br><input type=button onClick='menuchar()' value='Characters' id='btnchar'><input type=button onClick='menustage2()' value='Stages' id='btnstg'><input type=button onClick='menufullgame()' value='Fullgames' id='btnfullg'><input type=button onClick='menugame()' value='Battle!' id='btnyotu'><input type=button onClick='ppmain(2)' value='Showcase' id='btnnew'><br>"
 document.getElementById('principal').innerHTML="<center><table border=0><td align=center><br><div id=videoshowcase><iframe src='https://www.youtube.com/embed/videoseries?list=PLwmmiI53xsNQ_RocWwXBzX05hbsZE3gh5' width='430' height='240' frameborder='0'></iframe></div><tr></table></center>"
 }
+  ppmain(2);
 }
 
 //MENU
