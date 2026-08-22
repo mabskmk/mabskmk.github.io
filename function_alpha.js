@@ -13,7 +13,7 @@ const element2 = document.getElementById("tableid");
 
 if (element1.offsetWidth == element2.offsetWidth) {
 document.getElementById('sitetemplate').innerHTML="<table border=2 bgcolor='black' id='tableid'><td align=center width='550'><img src='https://i.imgur.com/BsgTLng.png'/><h1>MABS PSEUDO SPACE</h1><img class='flip' id='BPt' src='https://signavatar.com/2425_v.gif'/><tr><td align=center valign=top><div id='cabec'></div><div id='principal'></div><img src=https://i.imgur.com/a13frey.gif><b id='banner'></b><tr><td align=center valign=top width=150 ><a target='_blank' href='https://s05.flagcounter.com/count/az53/bg_0C160D/txt_F2F2F2/border_008001/columns_2/maxflags_10/viewers_0/labels_0/pageviews_1/flags_1/'><img src='https://imgur.com/LssVM0G.png' alt='Free counters!' border='0'/></a><a target='_blank' href='https://s05.flagcounter.com/more/az53'></a><br><span id='linkiss'></span><tr></table>"
-ppmain(2);
+ppmain(3);
 }
 }
 
@@ -29,6 +29,16 @@ break;
 case 2:
 if (document.getElementById('linkiss').innerHTML=='') {showLinks();}
 document.getElementById('principal').innerHTML="<center><table border=0><td align=center><br><div id=videoshowcase><iframe src='https://www.youtube.com/embed/videoseries?list=PLwmmiI53xsNQ_RocWwXBzX05hbsZE3gh5' width='430' height='240' frameborder='0'></iframe></div><td align=center><div id=newsu></div><tr></table></center>"
+btnnew.disabled=true;
+btnchar.disabled=false;
+btnstg.disabled=false;
+btnfullg.disabled=false;
+btnyotu.disabled=false;
+clearTimeout(intervalTime); //clear the setTimeout
+showcaseCharacter(); //showcaseCharacter -> showcaseStage -> showcaseMisc
+break;
+case 3:
+document.getElementById('principal').innerHTML="<center><table border=0><td align=center><br><div id=videoshowcase><iframe src='https://www.youtube.com/embed/videoseries?list=PLwmmiI53xsNQ_RocWwXBzX05hbsZE3gh5' width='430' height='240' frameborder='0'></iframe></div><tr></table></center>"
 btnnew.disabled=true;
 btnchar.disabled=false;
 btnstg.disabled=false;
