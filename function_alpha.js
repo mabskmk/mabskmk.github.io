@@ -3,6 +3,20 @@ var intervalTime;
 const hoje = new Date();
 const isHalloween = ((hoje.getDate()>=13 && hoje.getDate()<=31 && hoje.getMonth()==9) || (hoje.getDate()<3 && hoje.getMonth()==10) || (hoje.getDay()==5 && hoje.getDate()==13) ? 1: 0);
 
+// "Gambiarra"
+function buildTemplate() {
+const element1 = document.body; 
+const element2 = document.getElementById("tableid"); 
+
+document.getElementById('sitetemplate').innerHTML="<table border=2 bgcolor='black' id='tableid'><td align=center colspan=2 ><h1>MABS PSEUDO SPACE</h1><tr><td align=center valign=top><div id='cabec'></div><div id='principal'></div><img src=https://i.imgur.com/a13frey.gif><b id='banner'></b><td align=center valign=top width=150 ><img src='https://i.imgur.com/BsgTLng.png'/><br><img class='flip' id='BPt' src='https://signavatar.com/2425_v.gif'/><br><a target='_blank' href='https://s05.flagcounter.com/count/az53/bg_0C160D/txt_F2F2F2/border_008001/columns_2/maxflags_10/viewers_0/labels_0/pageviews_1/flags_1/'><img src='https://imgur.com/LssVM0G.png' alt='Free counters!' border='0'/></a><a target='_blank' href='https://s05.flagcounter.com/more/az53'></a><br><span id='linkiss'></span><tr></table>"
+ppmain(2);
+
+if (element1.offsetWidth == element2.offsetWidth) {
+document.getElementById('sitetemplate').innerHTML="<table border=2 bgcolor='black' id='tableid'><td align=center width='550'><img src='https://i.imgur.com/BsgTLng.png'/><h1>MABS PSEUDO SPACE</h1><img class='flip' id='BPt' src='https://signavatar.com/2425_v.gif'/><tr><td align=center valign=top><div id='cabec'></div><div id='principal'></div><img src=https://i.imgur.com/a13frey.gif><b id='banner'></b><tr><td align=center valign=top width=150 ><a target='_blank' href='https://s05.flagcounter.com/count/az53/bg_0C160D/txt_F2F2F2/border_008001/columns_2/maxflags_10/viewers_0/labels_0/pageviews_1/flags_1/'><img src='https://imgur.com/LssVM0G.png' alt='Free counters!' border='0'/></a><a target='_blank' href='https://s05.flagcounter.com/more/az53'></a><br><span id='linkiss'></span><tr></table>"
+ppmain(2);
+}
+}
+
 //MENU
 function ppmain(numero) {
 if (playerOne[0] === undefined) {playerOne[0] = 0;}
