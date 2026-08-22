@@ -6,7 +6,7 @@ const isHalloween = ((hoje.getDate()>=13 && hoje.getDate()<=31 && hoje.getMonth(
 //MENU
 function ppmain(numero) {
 
-const element = document.body; 
+const element = document.getElementById("principal"); 
 document.getElementById('pagesize').innerHTML="<br>" + element.offsetWidth + "px / " + element.offsetHeight + "px";
 
 if (playerOne[0] === undefined) {playerOne[0] = 0;}
