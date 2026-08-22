@@ -106,8 +106,6 @@ if (randomValue>0 && checkLinks[randomValue]!='ok') {checkLinks[randomValue]='ok
 
 addLink(randomValue);
 }
-const element = document.getElementById("tableid"); 
-document.getElementById('pagesize').innerHTML="<br>Largura: " + element.offsetWidth + "px / Altura: " + element.offsetHeight + "px";
 }
 
 function addLink(numero) {
