@@ -355,13 +355,12 @@ mydiv='Metal_Gun',imgur='ZisA65d.gif',gdrv='1PrKFYlEcoYQD1OSgOScH_J-HNdFfKnnl'
 break;
 case 50:
 mydiv='TerrariA',imgur='9Vc4Kbf.png',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg';
-ytLink=(Math.floor(Math.random()*6));
+ytLink=(Math.floor(Math.random()*5));
 	if (ytLink==0) {youtube='PkoYbNMsyKk';} //@DemonDragonify
 	if (ytLink==1) {youtube='HHsQd6pox8I?si=Oqfan0TfqzLDQmpR&start=6&end=56';} //@MUGENGaming-j3d
 	if (ytLink==2) {youtube='JtJBrleTOaQ';} //@TylorGoldenYoshi
 	if (ytLink==3) {youtube='OgPGqCADbro';} //@TylorGoldenYoshi
 	if (ytLink==4) {youtube='NnEhSEh3uiA';} //@TheSnowmanLcver
-	if (ytLink==5) {youtube='zaNCIMZTqnw';} //@vladellf
 break;
 case 51:
 mydiv='Random_Space',imgur='TN4XU4m.png',gdrv='14x_bwTrKjZtpERMj4mLkMXSoslv8Nzqz'
@@ -601,6 +600,7 @@ mydiv='Dead_Valley',imgur='Te6w5AS.png',gdrv='1HPuR69GGT9DrhX8yWmgUNaaecSm0tbQA'
 break;
 case 105:
 mydiv='Draglade',imgur='V4OdAro.gif',gdrv='1nZhAFkIDKwLuuQqvokYSTLGWOxEm1NhH'
+	youtube='zaNCIMZTqnw'; //@vladellf
 break;
 case 106:
 mydiv='GanbareGoemon',imgur='dgknaTO.png',gdrv='17Oo7KMKs63Af0-C9e3Vj98s0T4wEOgWX'
