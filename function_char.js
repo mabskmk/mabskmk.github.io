@@ -252,7 +252,7 @@ mydiv='MSW-Subway',imgur='omSLMkl',imgur9='aJct4Y8.gif',game='Metalslug',ctype='
 break;
 case 32:
 mydiv='Castle_War',imgur='Xehem37',imgur9='aVsXFAq.png',game='Various',ctype='Tower defense',lastupdate='07/11/12',gdrv='1usRBM7HowIsEPqHnE6guEGMk3EbZO87l'
-ytLink=(Math.floor(Math.random()*2));
+//ytLink=(Math.floor(Math.random()*2));
 	youtube='STLukVJ51VM'; //@huntergamemodification56
 break;
 case 33:
