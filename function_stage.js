@@ -664,6 +664,7 @@ mydiv='Religionchng',imgur='68AjZWE.gif',gdrv='1AxvGGm16OSKQ74vrUh-DTXFYo7HZxwyC
 break;
 case 121:
 mydiv='Cybernoid',imgur='nJYbk4j.png',gdrv='1RaC8Jl26mWdw6ii5X3gFH8fn_BYC5MDg'
+	youtube='hBKaBDfku30?si=16qpObkI4iJYh9EZ&start=12&end=62'; //@jewelmen10mugen87
 break;
 case 122:
 mydiv='Menace',imgur='pNG8qhx.png',gdrv='1eEWr-zzW4wdrkccelrU7iWcT6Fa_jeEC'
