@@ -465,6 +465,7 @@ ytLink=(Math.floor(Math.random()*3));
 break;
 case 71:
 mydiv='Tower_of_MORGUL',imgur='36jrd6T.png',gdrv='1-NKnO4xFHRgjm3PZRhHC-K5EF6ukcb9Q'
+	youtube='6i36v6v6hL4?si=Qun_jPHfpnnaNZ6D&start=12&end=62'; //@trackiesthead1563
 break;
 case 72:
 mydiv='Cilia_Monster',imgur='hzdVhqX.png',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n'
