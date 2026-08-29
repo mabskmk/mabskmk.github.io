@@ -414,6 +414,7 @@ mydiv='Escape_in_a_Forest',imgur='DTzvZ6p.png',gdrv='1mHq1Yp7rNCpRMCNM6k-5xFWJuW
 break;
 case 58:
 mydiv='Rescue_Geisha',imgur='hddoqUx.png',gdrv='1mHq1Yp7rNCpRMCNM6k-5xFWJuW5h23sB'
+	youtube='hwircCiOcFs';	//@RoySquadRocks
 break;
 case 59:
 mydiv='Mutation_Nation',imgur='jKesnb5.gif',gdrv='1Rk-VZr9dZw9dLYGdvseyPE_s4_hI83-g'
