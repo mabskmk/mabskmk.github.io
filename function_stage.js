@@ -609,6 +609,7 @@ mydiv='005',imgur='KvtjwY0.png',gdrv='1YGnYorSWhsCL-TO_PgV-tpD82LOxn3kX'
 break;
 case 101:
 mydiv='Gourmet_Factory',imgur='Gsk4nxa.gif',gdrv='1UuakIrQFtW1CO9dpSEOEgclugBfcI3TM'
+	youtube='UIG0yWB5YoU'; //@Mabskmk
 break;
 case 102:
 mydiv='Jurassic_Jungle',imgur='JHgeyPi.png',gdrv='1xNNLPNwTJ2342HyzHVDP3ntvJe4QTVuW'
@@ -654,6 +655,7 @@ mydiv='ChompmanSTG',imgur='5t4sMNC.gif',gdrv='1vKNjQiIpYTmdpEoqR5bhrlofcJy-6jmb'
 break;
 case 112:
 mydiv='Bay_Route',imgur='7irQzfU.png',gdrv='1zUVbUMrHF3wEI1cCyvfsEu24NEWUnRnj'
+	youtube='h2hM62wnrF0'; //@Mabskmk
 break;
 case 113:
 mydiv='SonicBlastJet',imgur='3vJbHkk.png',gdrv='1h860RW2yR0abY1eQy9ldPjcMK1-_1EVl'
@@ -716,6 +718,9 @@ ytLink=(Math.floor(Math.random()*6));
 break;
 case 126:
 mydiv='Endless_Corridor',imgur='P3ZBwfj.png',gdrv='1TB8eS9jsDC1gKH6MUgjg9uZOZovbpj0Y'
+ytLink=(Math.floor(Math.random()*2));
+	if (ytLink==0) {youtube='3DHuQBdRWw8';} //@Mabskmk
+	if (ytLink==1) {youtube='TUUzW0lGGP4';} //@Mabskmk
 break;
 case 127:
 mydiv='Bay_Yard',imgur='VDiZw8h.gif',gdrv='14KYviIi8D-koGCOC5V6CQGUZOzYtwHah'
@@ -776,6 +781,7 @@ youtube='qIpXfV1SuSw?si=wUsn7mAXNPAIKKXo&start=11&end=61'; //@trackiesthead1563
 break;
 case 142:
 mydiv='R-Factory',imgur='EKarctF.gif',gdrv='1LPCgNr6RU-4j6c5avQdTzf7lZ23F2J18'
+	youtube='YW3vxGJmZwU'; //@Mabskmk
 break;
 case 143:
 mydiv='Dense_Jungle',imgur='9aKwD6M.png',gdrv='1ouGRVEP7IPamjAgjYiL1xhdYYGaPfnwr'
