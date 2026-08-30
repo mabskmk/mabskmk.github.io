@@ -4,8 +4,17 @@ html {
   overflow-y: scroll;
 }
 
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('papyrus.woff2') format('woff2'),
+       url('papyrus.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 b, a, a:visited, a:link {
-  font-family: Papyrus, "Kingdom Elegant Serif", "Comic Sans MS";
+  font-family: 'MyCustomFont', Papyrus, "Kingdom Elegant Serif", "Comic Sans MS";
   color:LimeGreen; /*-{isHalloween}*/
   line-height: 1;
 }
