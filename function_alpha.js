@@ -23,7 +23,7 @@ document.getElementById('principal').innerHTML="<center><table border=0><td alig
 //MENU
 function ppmain(numero) {
 if (playerOne[0] === undefined) {playerOne[0] = 0;}
-document.getElementById('cabec').innerHTML="<b><a href='https://en.wikipedia.org/wiki/M.U.G.E.N' target='_blank' id='top'><u>M.U.G.E.N</u></a></b><br>A 2D fighting game engine that enables you to create fighting games.<br>Almost everything can be customized, from individual characters to stages, as well as the look and feel of the game.</b><br>I hope you enjoy my 'work'<br><br><input type=button onClick='menuchar()' value='Characters' id='btnchar'><input type=button onClick='menustage3()' value='Stages' id='btnstg'><input type=button onClick='menufullgame()' value='Fullgames' id='btnfullg'><input type=button onClick='menugame()' value='Battle!' id='btnyotu'><input type=button onClick='ppmain(2)' value='Showcase' id='btnnew'><br>"
+document.getElementById('cabec').innerHTML="<b><a href='https://en.wikipedia.org/wiki/M.U.G.E.N' target='_blank' id='top'><u>M.U.G.E.N</u></a></b><br>A 2D fighting game engine that enables you to create fighting games.<br>Almost everything can be customized, from individual characters to stages, as well as the look and feel of the game.</b><br>I hope you enjoy my 'work'<br><br><input type=button onClick='menuchar()' value='Characters' id='btnchar'><input type=button onClick='menustage1()' value='Stages' id='btnstg'><input type=button onClick='menufullgame()' value='Fullgames' id='btnfullg'><input type=button onClick='menugame()' value='Battle!' id='btnyotu'><input type=button onClick='ppmain(2)' value='Showcase' id='btnnew'><br>"
 switch (numero) {
 case 1:
 document.getElementById('principal').innerHTML=""
