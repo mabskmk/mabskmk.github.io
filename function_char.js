@@ -78,9 +78,10 @@ ytLink=(Math.floor(Math.random()*2));
 break;
 case 3:
 mydiv='MetaGang',imgur='VhoTRPp',imgur9='oWcbdIT.png',game='Kirby',ctype='Multi-char',lastupdate='15/05/08',gdrv='19CzU8t9VOizNBDikp_Q210mQ0tRRruU-'
-ytLink=(Math.floor(Math.random()*2));
+ytLink=(Math.floor(Math.random()*3));
 	if (ytLink==0) {youtube='4IyF2Vb3vo8';} //@CrowSar
 	if (ytLink==1) {youtube='ts4fCpiju0E';} //@multiversal-battlefield8885
+	if (ytLink==2) {youtube='-tN-ia9Qt5Q';} //@Mabskmk
 break;
 case 4:
 mydiv='FlyingTara',imgur='iEjzspe',imgur9='T1V4CAg.png',game='Metalslug',ctype='Bonus',lastupdate='24/01/24',gdrv='1EUY4inMqHFK3bNp0MIyC5umigB4BstgZ';
@@ -197,12 +198,13 @@ mydiv='Murder_Wall',imgur='Bs2AFdr',imgur9='Yu4dYhl.gif',game='Kid Chameleon',ct
 break;
 case 23:
 mydiv='Flappy_Bird',imgur='cyO80Il',imgur9='qIOHfqb.png',game='Flappy Bird',ctype='Bonus',lastupdate='04/05/17',gdrv='1L3_0Rmf-QEPJ3AAWLPsquh3MJh4yTRI9';
-ytLink=(Math.floor(Math.random()*5));
+ytLink=(Math.floor(Math.random()*6));
 	if (ytLink==0) {youtube='kw6hTKReIgs';} //@I_hope_you_choke_on_em
 	if (ytLink==1) {youtube='IoxCkBt_F8g?si=jSg53mLlqCnzMIvp&start=14&end=64';} //@jewelmen10mugen87
 	if (ytLink==2) {youtube='9mi7zuM6OYQ';} //@YamiLegends
 	if (ytLink==3) {youtube='_iHnIvB3ydU';} //@DavidBurgessMechanicalMusic
 	if (ytLink==4) {youtube='HGT3hNf1bUU';} //@I_hope_you_ch0ke_on_em
+	if (ytLink==5) {youtube='V9DKiMvb71o';} //@Mabskmk
 break;
 case 24:
 mydiv='Heli-Master',imgur='lk7NGsI',imgur9='tmJNGkD.png',game='Alex Kidd',ctype='Boss',lastupdate='03/06/13',gdrv='1Z6E3Jqg_QEQ06Sby8mfBmrflgSgWrb6B'
@@ -232,15 +234,21 @@ ytLink=(Math.floor(Math.random()*5));
 break;
 case 27:
 mydiv='GnG-Graveyard',imgur='p19yaAN',imgur9='5pvWAIm.png',game='Makaimura',ctype='Plataform',lastupdate='31/10/23',gdrv='1GbhV0S9ncu4Giov0mcIPTixLDmEwl6s7'
-	youtube='gKBhhIfrdRE'; //@BlackFired
+ytLink=(Math.floor(Math.random()*2));
+	if (ytLink==0) {youtube='gKBhhIfrdRE';} //@BlackFired
+	if (ytLink==1) {youtube='abRvYTaQ47M?si=5mB9hC3_CGRlbf_w&start=355&end=405';} //@Mabskmk
 break;
 case 28:
 mydiv='GnG-Tower',imgur='CkHRPvY',imgur9='fH7y5Ge.png',game='Makaimura',ctype='Arcade',lastupdate='31/10/23',gdrv='1UxTvsauekqFbxAh7SIFjDYTUdJuvlCtP';
-	youtube='YHdwfkEHo98?si=XWmx_3VddWQ0lMbK&start=333&end=383'; //@MannyLingle
+ytLink=(Math.floor(Math.random()*2));
+	if (ytLink==0) {youtube='YHdwfkEHo98?si=XWmx_3VddWQ0lMbK&start=333&end=383';} //@MannyLingle
+	if (ytLink==1) {youtube='abRvYTaQ47M?si=EDWeUQG6sUuF--Tr&start=4&end=54';} //@Mabskmk
 break;
 case 29:
 mydiv='GnG-Burning',imgur='ScexylS',imgur9='ohZWqMw.png',game='Makaimura',ctype='SHMUP',lastupdate='31/10/23',gdrv='1GeSVB_GbPiB8PHPk5sw7HAUuJKVRAH3W';
-	youtube='omEjWq8DBZ0'; //@Warblefly41
+ytLink=(Math.floor(Math.random()*2));
+	if (ytLink==0) {youtube='omEjWq8DBZ0';} //@Warblefly41
+	if (ytLink==1) {youtube='abRvYTaQ47M?si=xQA0ItQOU-TITA-H&start=83&end=133';} //@Mabskmk
 break;
 case 30:
 mydiv='ALEX_Jankenpon',imgur='kHBUEcQ',imgur9='i2NjJtm.png',game='Alex Kidd',ctype='JokenPo',lastupdate='01/03/12',gdrv='1o4UAIynon1lyGVFLCowRKstD-7RIxp5P'
@@ -252,8 +260,9 @@ mydiv='MSW-Subway',imgur='omSLMkl',imgur9='aJct4Y8.gif',game='Metalslug',ctype='
 break;
 case 32:
 mydiv='Castle_War',imgur='Xehem37',imgur9='aVsXFAq.png',game='Various',ctype='Tower defense',lastupdate='07/11/12',gdrv='1usRBM7HowIsEPqHnE6guEGMk3EbZO87l'
-//ytLink=(Math.floor(Math.random()*2));
-	youtube='STLukVJ51VM'; //@huntergamemodification56
+ytLink=(Math.floor(Math.random()*2));
+	if (ytLink==0) {youtube='STLukVJ51VM';} //@huntergamemodification56
+	if (ytLink==1) {youtube='fB1XfLCLSWk';} //@Mabskmk
 break;
 case 33:
 mydiv='Yasha-Hime',imgur='p4i3ONN',imgur9='Yg7zSMS.png',game='Ganryu',ctype='Boss',lastupdate='02/11/18',gdrv='1Dr6zJ0-Ah0ExxmRk2DfJ--burI9DMGMR';
@@ -297,7 +306,9 @@ ytLink=(Math.floor(Math.random()*3));
 break;
 case 41:
 mydiv='Full-of-Spiders',imgur='hXxFrKx',imgur9='3SH8IzW.png',game='Splatterhouse',ctype='Bonus',lastupdate='28/10/16',gdrv='19f8oZl-KzlWeYGTo27vvteu9GPK_dVFi'
-	youtube='bCUQZNA_jdA?si=Al2Syaw7MlSGG0Lv&start=286&end=336'; //@DeceasedCrab
+ytLink=(Math.floor(Math.random()*2));
+	if (ytLink==0) {youtube='bCUQZNA_jdA?si=Al2Syaw7MlSGG0Lv&start=286&end=336';} //@DeceasedCrab
+	if (ytLink==1) {youtube='2QISU6k8cMs';} //@Mabskmk
 break;
 case 42:
 mydiv='Evil-Eye-of-Balor',imgur='1LDxq7H',imgur9='BI3xaoj.png',game='Terraria',ctype='Boss',lastupdate='25/03/17',gdrv='1tsQ4AS7cl8emdMOHAtVbsGJtNp1ykaw6',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg'
