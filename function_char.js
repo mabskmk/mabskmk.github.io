@@ -55,7 +55,7 @@ let zpoints		=0;
 switch (numero) {
 case 1:
 mydiv='Death-Force',imgur='ocvdalJ',imgur9='xr3A7SH.gif',game='MetalSlug',ctype='Boss',lastupdate='13/12/08',gdrv='1nCEVFvv6_MWnOewCQEwqo3wBIEi0xOzk';
-ytLink=(Math.floor(Math.random()*13));
+ytLink=(Math.floor(Math.random()*14));
 	if (ytLink==0) {youtube='Znxxr129qH0';} //@MSjap
 	if (ytLink==1) {youtube='MYOM64WfuZE';} //@ejanho
 	if (ytLink==2) {youtube='Dr2t-ybJ3tc';} //@Savantaneus
@@ -69,6 +69,7 @@ ytLink=(Math.floor(Math.random()*13));
 	if (ytLink==10) {youtube='79fLYfG3GT4';} //@fkrmaster
 	if (ytLink==11) {youtube='rkF_37BTbNU?si=GiZ0lwif5XjcyM0k&start=24&end=74';} //@spidermastermind100
 	if (ytLink==12) {youtube='-2fBDbDktus?si=i7w2fh8RqWBaiE9w&start=20&end=70';} //@biomajinboodh
+	if (ytLink==13) {youtube='MA3pkEFWIYQ';} //@Armunk-w1o
 break;
 case 2:
 mydiv='Bull_chan',imgur='ot8ebRi',imgur9='iVIdizv.png',game='Metalslug',ctype='Bonus',lastupdate='02/06/15',gdrv='15HH5HuYvK22p1AJw4_vWai6usFNw9IXt'
