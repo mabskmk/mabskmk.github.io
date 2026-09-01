@@ -139,7 +139,7 @@ case 7:
 linkTitle='remakes online',linkHref='www.remakesonline.com',linkImage='www.remakesonline.com';
 break;
 case 8:
-linkTitle='ddrcreations',linkHref='ddrcreations.com/index.html',linkImgur='zBiOSeQ.jpg';
+linkTitle='ddrcreations',linkHref='ddrcreations.com/index.html',linkImgur='VBLHxeZ.jpg';
 break;
 case 9:
 linkTitle='wheelies',linkHref='www.wheelies.net',linkImgur='jup2WPq.png';
