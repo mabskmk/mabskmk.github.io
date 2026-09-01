@@ -103,7 +103,6 @@ ytLink=(Math.floor(Math.random()*5));
 break;
 case 6:
 mydiv='Slug_Wanzer_Old',imgur='FlLscmO',imgur9='gRpE0k4.png',game='Metalslug',ctype='Char',lastupdate='20/04/08',gdrv='1DMfPTtg1jbegRXRq82pb7N11pteDhNnw'
-	//ytLink=(Math.floor(Math.random()*2));	if (ytLink==0) {youtube='';} //@
 break;
 case 7:
 mydiv='Slug_Wanzer',imgur='3tFzcit',imgur9='gRpE0k4.pngg',game='Metalslug',ctype='Char',lastupdate='02/11/18',gdrv='1q9ZVUtQIz0pjdjtXAPG0MAi7fVdnglu-'
@@ -115,7 +114,6 @@ ytLink=(Math.floor(Math.random()*4));
 break;
 case 8:
 mydiv='Devil_Pesoguin',imgur='75lBnh5',imgur9='Ap7IOUZ.gif',game='Castlevania?',ctype='Bonus',lastupdate='02/11/18',gdrv='1n_A2vUVEDwaODoGRxMZ8t8iB1wR3-CRR'
-	//ytLink=(Math.floor(Math.random()*2));	if (ytLink==0) {youtube='';} //@
 break;
 case 9:
 mydiv='MORGUL',imgur='fPt2Off',imgur9='vk6MdFi.gif',game='Turrican',ctype='Boss',lastupdate='02/06/15',gdrv='1hHIoFEuw588ks3npH1apjGUmAUTyoRP_';
@@ -257,7 +255,6 @@ mydiv='ALEX_Jankenpon',imgur='kHBUEcQ',imgur9='i2NjJtm.png',game='Alex Kidd',cty
 break;
 case 31:
 mydiv='MSW-Subway',imgur='omSLMkl',imgur9='aJct4Y8.gif',game='Metalslug',ctype='SHMUP',lastupdate='19/01/12',gdrv='1nxtazK_0agbKe6wrJtUtYyDL21IiBIGw'
-	//ytLink=(Math.floor(Math.random()*2));	if (ytLink==0) {youtube='';} //@
 break;
 case 32:
 mydiv='Castle_War',imgur='Xehem37',imgur9='aVsXFAq.png',game='Various',ctype='Tower defense',lastupdate='07/11/12',gdrv='1usRBM7HowIsEPqHnE6guEGMk3EbZO87l'
@@ -313,11 +310,9 @@ ytLink=(Math.floor(Math.random()*2));
 break;
 case 42:
 mydiv='Evil-Eye-of-Balor',imgur='1LDxq7H',imgur9='BI3xaoj.png',game='Terraria',ctype='Boss',lastupdate='25/03/17',gdrv='1tsQ4AS7cl8emdMOHAtVbsGJtNp1ykaw6',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg'
-	//ytLink=(Math.floor(Math.random()*2));	if (ytLink==1) {youtube='';} //@
 break;
 case 43:
 mydiv='Dress',imgur='yYVBanS',imgur9='eZnMTuE.png',game='Queen Axe',ctype='Bonus',lastupdate='13/01/18',gdrv='1gYpG62kgEQYyLI0rLRhiNX_fJe-Egvrm'
-	//ytLink=(Math.floor(Math.random()*2));	if (ytLink==1) {youtube='';} //@
 break;
 case 44:
 mydiv='Mermaid',imgur='YAMiPUI',imgur9='g4cEy24.png',game='Gaiares',ctype='Bonus',lastupdate='24/01/24',gdrv='1O5lFMuFeLyPYXAwB5SaumvtlXZzXLrRK'
@@ -327,7 +322,6 @@ ytLink=(Math.floor(Math.random()*2));
 break;
 case 45:
 mydiv='Boobs',imgur='yD1AWaE',imgur9='I6DUeVu.png',game='Amazon Brawl',ctype='Boss',lastupdate='<b>24/01/24</b>',gdrv='15iwEE0g8Jun3eQQlYxw7uC7Jt1Vpv9ME',zpoints=10000
-	//ytLink=(Math.floor(Math.random()*2));	if (ytLink==1) {youtube='';} //@
 break;
 case 46:
 mydiv='Reznor',imgur='qVYNGvN',imgur9='7JqhABW.png',game='Mario',ctype='Boss',lastupdate='24/05/20',gdrv='15VTihsGmygebpBvSwTPvg2BkKdUNQ8u1';
@@ -349,7 +343,7 @@ mydiv='R-Memory',imgur='RNwRj1K',imgur9='vj39rR3.png',game='R-Type',ctype='Bonus
 break;
 case 48:
 mydiv='Head-of-Ukyo',imgur='RZ9lnLU',imgur9='Y7rsQZd.png',game='original',ctype='Boss',lastupdate='31/10/20',gdrv='1jPx1agCPmLw2Sc9ew4o8zS9j4xnajn9E'
-	//ytLink=(Math.floor(Math.random()*2));	if (ytLink==1) {youtube='';} //@
+	youtube='jfSGYT5UEy0'; //@Mabskmk
 break;
 case 49:
 mydiv='Shimeji',imgur='IDrbSZ8',imgur9='sJuKFFz.png',game='<a target=_blank href=https://kilkakon.com/shimeji><img src=https://i.imgur.com/RG52doK.png width=25 height=25></a>',ctype='Bonus',lastupdate='24/12/20',gdrv='1nKdd3q6eaRqfTQz1I_vfykm8-u0Uq2IT'
@@ -357,7 +351,6 @@ mydiv='Shimeji',imgur='IDrbSZ8',imgur9='sJuKFFz.png',game='<a target=_blank href
 break;
 case 50:
 mydiv='Thicc-Tac-Toe',imgur='ld7q5PX',imgur9='yxzkrR1.png',game='Metal Slut',ctype='Bonus',lastupdate='13/01/21',gdrv='1ezCyx2EDm4b2Ko1hypdfUFB4Baw5zXVa'
-	//ytLink=(Math.floor(Math.random()*2));	if (ytLink==1) {youtube='';} //@
 break;
 case 51:
 mydiv='Golem',imgur='pbrqOGU',imgur9='EpX4fu3.png',game='Nosferatu',ctype='Bonus',lastupdate='31/10/21',gdrv='18p-BFz34xr2fklFNuJkcr-kaqTYVNODy';
@@ -386,7 +379,6 @@ ytLink=(Math.floor(Math.random()*3));
 break;
 case 56:
 mydiv='Yonita',imgur='3dn8Twj',imgur9='OBmGo20.png',game='Alien_X_Predator',ctype='Joke',lastupdate='<b>20/11/21</b>',gdrv='1wThRuRji2OB5C3zyB5MW03YOqhcleBZi',zpoints=10000
-	//ytLink=(Math.floor(Math.random()*2));	if (ytLink==1) {youtube='';} //@
 break;
 case 0:
 mydiv=''
