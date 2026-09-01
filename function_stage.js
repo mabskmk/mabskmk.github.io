@@ -816,7 +816,7 @@ case 0:
 mydiv=''
 }
 if (bannerHtml==''){
-ytLink=(Math.floor(Math.random()*9));
+ytLink=(Math.floor(Math.random()*10));
 	if (ytLink==0) {bannerHtml='wani-shima.sakura.ne.jp/MUGEN.html';bannerImg='wani-shima.sakura.ne.jp/kyouryuubana.jpg';}
 	if (ytLink==1) {bannerHtml='kaendd.free.fr';bannerImg='i.imgur.com/8OmGYOX.png';}
 	if (ytLink==2) {bannerHtml='ankokunaitou.blog.fc2.com';bannerImg='i.imgur.com/EIXSnzc.png';}
@@ -826,6 +826,7 @@ ytLink=(Math.floor(Math.random()*9));
 	if (ytLink==6) {bannerHtml='www.ne.jp/asahi/across/chronicle/';bannerImg='i.imgur.com/8J4NDcA.png';}
 	if (ytLink==7) {bannerHtml='ngmc.retrogames.com/index.html';bannerImg='i.imgur.com/X4AzHu1.gif';}
 	if (ytLink==8) {bannerHtml='mugen-restaurant.jp/';bannerImg='i.imgur.com/GXjxQXs.png';}
+	if (ytLink==9) {bannerHtml='network.mugenguild.com/basara/';bannerImg='i.imgur.com/ZF0Qs7E.png';}
 }
 if (youtube.length > 15) {sufix='&autoplay=1&mute=1';}
 
