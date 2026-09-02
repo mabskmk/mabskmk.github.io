@@ -816,7 +816,7 @@ case 0:
 mydiv=''
 }
 if (bannerHtml==''){
-ytLink=(Math.floor(Math.random()*14));
+ytLink=(Math.floor(Math.random()*15));
 	if (ytLink==0) {bannerHtml='wani-shima.sakura.ne.jp/MUGEN.html';bannerImg='wani-shima.sakura.ne.jp/kyouryuubana.jpg';}
 	if (ytLink==1) {bannerHtml='kaendd.free.fr';bannerImg='i.imgur.com/8OmGYOX.png';}
 	if (ytLink==2) {bannerHtml='ankokunaitou.blog.fc2.com';bannerImg='i.imgur.com/EIXSnzc.png';}
@@ -831,6 +831,7 @@ ytLink=(Math.floor(Math.random()*14));
 	if (ytLink==11) {bannerHtml='www.andersonkenya1.net/';bannerImg='media.invisioncic.com/z328913/set_resources_1/6d538d11ecfced46f459ee300b5e80ec_ak1-button_17f8a0.gif';}
 	if (ytLink==12) {bannerHtml='sites.google.com/view/ohmsby-mugen/';bannerImg='i.imgur.com/hYMIIuZ.png';}
 	if (ytLink==13) {bannerHtml='sites.google.com/view/gemeos-dos-jogos/mugen';bannerImg='i.imgur.com/SoebPHW.png';}
+	if (ytLink==14) {bannerHtml='twitter.com/Zanmyo';bannerImg='i.imgur.com/qV3Q36A.gif';}
 }
 if (youtube.length > 15) {sufix='&autoplay=1&mute=1';}
 
