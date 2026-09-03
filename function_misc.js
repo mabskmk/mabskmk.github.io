@@ -95,7 +95,7 @@ function showLinks() {
 
 document.getElementById('linkiss').innerHTML="<a title='github' target='_blank' href='https://github.com/mabskmk/mabskmk.github.io'><img src='https://www.google.com/s2/favicons?domain=github.com'/></a>"
 	
-for (let l=1;l<63;l++) {
+for (let l=1;l< (!isVertical?63:37) ;l++) {
 
 // Set a randomValue
 do {
