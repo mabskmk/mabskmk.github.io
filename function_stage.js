@@ -340,6 +340,7 @@ mydiv='The_bronze_auditorium',imgur='tMOSb03.png',gdrv='1Xfo5mGiR1HBudXTIPk4iPRQ
 break;
 case 42:
 mydiv='secretvillage',imgur='qfpb7XO.gif',gdrv='1x0w8xldkvUZWbuO4ixG2DlsoQaLGGTBi'
+	ytVid='s1W71JmfCvE?si=IyCRH5mUd82kxld1&start=392&end=442'; //@trackiesthead1563
 break;
 case 43:
 mydiv='Subspace_Highway',imgur='ZU71Rq3.gif',gdrv='1pBjgxNoq6zNZm0A49TKo3snT12Eh8k_r'
@@ -550,6 +551,9 @@ mydiv='Isamu_Game',imgur='xEfYQyh.gif',gdrv='1NMp-yMb7ykkUeZdbjwRKssVn0VVHLbSY'
 break;
 case 84:
 mydiv='GoingThroughHell',imgur='rgY553Q.png',gdrv='1B-9djPWc599QfAckvePBlZc7-juAG5FH'
+ytLink=(Math.floor(Math.random()*2));
+	if (ytLink==0) {ytVid='HXUIcn2qAUs?si=d6b-YwRHGwzEZVUk&start=150&end=200';} //@trackiesthead1563
+	if (ytLink==1) {ytVid='SyVDoPlO97c?si=DAR7DjC7g-3x7VC7&start=8&end=58';} //@trackiesthead1563
 break;
 case 85:
 mydiv='TerrariC',imgur='kgIqfzU.png',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg';
