@@ -453,6 +453,7 @@ break;
 case 64:
 mydiv='Z-Leo',imgur='MbtkMgt.png',gdrv='1OkIpLS0e62aq2uG3QWvMBRhhyIOERn4L',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png'
 	ytVid='FBT2eQAwqTs?si=PnnL_-pPX8ocwYMQ&start=90&end=140';	//@LordVergilar
+	ytPreview='HVwJ-riTasQ'; //@mabskmk
 break;
 case 65:
 mydiv='Labyrinth_Zone',imgur='Rfv7CCF.png',gdrv='1zWWD2hpbTetEEOYYqxxyC2Lv9GMYKMHD'
@@ -562,6 +563,7 @@ break;
 case 86:
 mydiv='mm7_Graveyard',imgur='fZpRFsG.png',gdrv='1crKBwVmyfnbYB2mphTnw4WZswYAwE1nq';
 	ytVid='uOaz4uctX0k?si=7ZONmZ0BuQndJC9F&start=16&end=66'; //@jewelmen10mugen87
+	ytPreview='MjlGspqb4K0'; //@mabskmk
 break;
 case 87:
 mydiv='Stage_hentai1',imgur='HqsZCtH.png',gdrv='1ad6huW7vqhAdZg677FmxgEmSOZ1eab9H',zpoints=10000
