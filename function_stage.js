@@ -262,6 +262,7 @@ rng=(Math.floor(Math.random()*3));
 	if (rng==0) {ytVid='_jUBgX1b7rg';} //@Macaulyn_97
 	if (rng==1) {ytVid='bZmofq-mkBc';} //@zerozuchibr1841
 	if (rng==2) {ytVid='6gPmhNca9Ds';} //@SebastianVazquezFerrero
+	ytPreview='MjlGspqb4K0'; //@mabskmk
 break;
 case 31:
 mydiv='NeonLight',imgur='vxBbbkP.png',gdrv='114xNnXpr_WCTn3IKkK9P_7SgzJu5-3z7'
@@ -563,7 +564,6 @@ break;
 case 86:
 mydiv='mm7_Graveyard',imgur='fZpRFsG.png',gdrv='1crKBwVmyfnbYB2mphTnw4WZswYAwE1nq';
 	ytVid='uOaz4uctX0k?si=7ZONmZ0BuQndJC9F&start=16&end=66'; //@jewelmen10mugen87
-	ytPreview='MjlGspqb4K0'; //@mabskmk
 break;
 case 87:
 mydiv='Stage_hentai1',imgur='HqsZCtH.png',gdrv='1ad6huW7vqhAdZg677FmxgEmSOZ1eab9H',zpoints=10000
