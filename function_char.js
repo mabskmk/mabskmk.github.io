@@ -204,7 +204,6 @@ rng=(Math.floor(Math.random()*5));
 	if (rng==2) {ytVid='9mi7zuM6OYQ';} //@YamiLegends
 	if (rng==3) {ytVid='_iHnIvB3ydU';} //@DavidBurgessMechanicalMusic
 	if (rng==4) {ytVid='HGT3hNf1bUU';} //@I_hope_you_ch0ke_on_em
-	ytPreview='V9DKiMvb71o'; //@mabskmk
 break;
 case 24:
 mydiv='Heli-Master',imgur='lk7NGsI',imgur9='tmJNGkD.png',game='Alex Kidd',ctype='Boss',lastupdate='03/06/13',gdrv='1Z6E3Jqg_QEQ06Sby8mfBmrflgSgWrb6B'
@@ -254,7 +253,6 @@ break;
 case 32:
 mydiv='Castle_War',imgur='Xehem37',imgur9='aVsXFAq.png',game='Various',ctype='Tower defense',lastupdate='07/11/12',gdrv='1usRBM7HowIsEPqHnE6guEGMk3EbZO87l'
 	ytVid='STLukVJ51VM'; //@huntergamemodification56
-	ytPreview='fB1XfLCLSWk'; //@mabskmk
 break;
 case 33:
 mydiv='Yasha-Hime',imgur='p4i3ONN',imgur9='Yg7zSMS.png',game='Ganryu',ctype='Boss',lastupdate='02/11/18',gdrv='1Dr6zJ0-Ah0ExxmRk2DfJ--burI9DMGMR';
@@ -299,9 +297,7 @@ break;
 case 41:
 mydiv='Full-of-Spiders',imgur='hXxFrKx',imgur9='3SH8IzW.png',game='Splatterhouse',ctype='Bonus',lastupdate='28/10/16',gdrv='19f8oZl-KzlWeYGTo27vvteu9GPK_dVFi'
 rng=(Math.floor(Math.random()*2));
-	if (rng==0) {ytVid='bCUQZNA_jdA?si=Al2Syaw7MlSGG0Lv&start=286&end=336';} //@DeceasedCrab
-	if (rng==1) {ytVid='2QISU6k8cMs';} //@Mabskmk
-	ytPreview='2QISU6k8cMs'; //@Mabskmk
+	ytVid='bCUQZNA_jdA?si=Al2Syaw7MlSGG0Lv&start=286&end=336'; //@DeceasedCrab
 break;
 case 42:
 mydiv='Evil-Eye-of-Balor',imgur='1LDxq7H',imgur9='BI3xaoj.png',game='Terraria',ctype='Boss',lastupdate='25/03/17',gdrv='1tsQ4AS7cl8emdMOHAtVbsGJtNp1ykaw6',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg'
@@ -338,8 +334,6 @@ mydiv='R-Memory',imgur='RNwRj1K',imgur9='vj39rR3.png',game='R-Type',ctype='Bonus
 break;
 case 48:
 mydiv='Head-of-Ukyo',imgur='RZ9lnLU',imgur9='Y7rsQZd.png',game='original',ctype='Boss',lastupdate='31/10/20',gdrv='1jPx1agCPmLw2Sc9ew4o8zS9j4xnajn9E'
-	ytVid='jfSGYT5UEy0'; //@Mabskmk
-	ytPreview='jfSGYT5UEy0'; //@mabskmk
 break;
 case 49:
 mydiv='Shimeji',imgur='IDrbSZ8',imgur9='sJuKFFz.png',game='<a target=_blank href=https://kilkakon.com/shimeji><img src=https://i.imgur.com/RG52doK.png width=25 height=25></a>',ctype='Bonus',lastupdate='24/12/20',gdrv='1nKdd3q6eaRqfTQz1I_vfykm8-u0Uq2IT'
