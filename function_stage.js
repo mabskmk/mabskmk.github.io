@@ -178,17 +178,17 @@ mydiv='Radioactive_Maze',imgur='QEIiYs1.png',gdrv='1H3lheymzSV6WWoLL9_J0RPnds7u2
 break;
 case 21:
 mydiv='Club_MFG',imgur='0edotiu.png',gdrv='1w1wVnBn-_sEr2K-wLCk9qHtDfqLWY5L6';
-rng=(Math.floor(Math.random()*10));
+rng=(Math.floor(Math.random()*6));
 	if (rng==0) {ytVid='Z4xqglmBWUk';} //@jewelmen10mugen87
 	if (rng==1) {ytVid='MaTlvasQLSU?si=eDSxTutsUc4Jekm4&start=20&end=70';} //@jewelmen10mugen87
 	if (rng==2) {ytVid='eD9ag0_ydT4?si=_CKwXVRt1x38k7JO&start=20&end=70';} //@jewelmen10mugen87
 	if (rng==3) {ytVid='2hC-9aUzO3g?si=haLVuRXdwBvQKCNt&start=26&end=76';} //@jewelmen10mugen87
 	if (rng==4) {ytVid='9-ypq6Rxiw4';} //@MawtwinMugen
-	if (rng==5) {ytVid='X2ivzQpSM8Y';} //@AyanoKimishima20
-	if (rng==6) {ytVid='EWnvc2DDVeo';} //@AyanoKimishima20
-	if (rng==7) {ytVid='4Wt8_Ei4DXo';} //@AyanoKimishima20
-	if (rng==8) {ytVid='S7GGNiTMNi0?si=YxEMr3NXsP_ts1in&start=15&end=65';} //@AyanoKimishima20
-	if (rng==9) {ytVid='BoDc2pPZRVc';} //@RoySquadRocks
+	if (rng==5) {ytVid='BoDc2pPZRVc';} //@RoySquadRocks
+	if (rng==6) {ytVid='X2ivzQpSM8Y';} //@AyanoKimishima20 disabled*
+	if (rng==7) {ytVid='EWnvc2DDVeo';} //@AyanoKimishima20
+	if (rng==8) {ytVid='4Wt8_Ei4DXo';} //@AyanoKimishima20
+	if (rng==9) {ytVid='S7GGNiTMNi0?si=YxEMr3NXsP_ts1in&start=15&end=65';} //@AyanoKimishima20
 break;
 case 22:
 mydiv='Transylvania',imgur='dQfLncX.png',gdrv='1wwEIGabRJlyf8KqKHjVMI3nggaPNj3Id'
