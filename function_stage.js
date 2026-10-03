@@ -44,7 +44,7 @@ if (randomValue>0 && checkStage[randomValue]!='ok') {checkStage[randomValue]='ok
 
 // Get the values ​​of the respective video from the 'character database'
 stageData(randomValue,3);
-intervalTime=setTimeout('showcaseCharacter()',50000); //showcaseCharacter -> showcaseStage -> showcaseMisc 
+intervalTime=setTimeout('showcaseMisc()',50000); //showcaseCharacter -> showcaseStage -> showcaseMisc 
 }
 
 
