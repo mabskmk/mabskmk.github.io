@@ -53,7 +53,7 @@ break;
 case 4:
 myLabel='some Jayce and the Wheeled warriors',youtube='JFBGdRH2ajk?si=phppoIuckRSw__Dj'
 rng=(Math.floor(Math.random()*280));
-	youtube=(youtube+"&start="+rng+"&end="(rng+50));
+	youtube=(youtube+"&start="+rng+"&end="+(rng+50));
 break;
 }
 
