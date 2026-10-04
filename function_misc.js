@@ -48,10 +48,12 @@ case 2:
 myLabel='Check out the 66th place in MAGMML2',youtube='zSFWH5X9K_Y?si=oPb63hYxItrSzeOP&start=737&end=787',link='magmmlcontest.com/wiki/index.php/Chomp_Man_(stage)',bannerHtml='www.sprites-inc.co.uk',bannerImg='i.imgur.com/RqfqBg1.png'
 break;
 case 3:
-myLabel='MUGEN_means_INFINITY',youtube='yfgdqUY4CSc?si=dyLvAwEU11ouWsBL&start=224&end=274'
+myLabel='MUGEN_means_INFINITY',youtube='yfgdqUY4CSc?si=dyLvAwEU11ouWsBL'
+rng=(Math.floor(Math.random()*288));
+	youtube=(youtube+"&start="+rng+"&end="+(rng+50));
 break;
 case 4:
-myLabel='some Jayce and the Wheeled warriors',youtube='JFBGdRH2ajk?si=phppoIuckRSw__Dj'
+myLabel='some Jayce and the wheeled warriors',youtube='JFBGdRH2ajk?si=phppoIuckRSw__Dj'
 rng=(Math.floor(Math.random()*280));
 	youtube=(youtube+"&start="+rng+"&end="+(rng+50));
 break;
