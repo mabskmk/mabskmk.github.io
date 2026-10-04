@@ -232,8 +232,8 @@ rng=(Math.floor(Math.random()*5));
 	if (rng==4) {ytVid='1oVW32ZkB2Y';} //@DartzPie
 break;
 case 27:
-mydiv='GnG-Graveyard',imgur='p19yaAN',imgur9='5pvWAIm.png',game='Makaimura',ctype='Plataform',lastupdate='31/10/23',gdrv='1GbhV0S9ncu4Giov0mcIPTixLDmEwl6s7';
-	ytPreview='abRvYTaQ47M?si=5mB9hC3_CGRlbf_w&start=355&end=405', ytVid='gKBhhIfrdRE'; //@BlackFired
+mydiv='GnG-Graveyard',imgur='p19yaAN',imgur9='5pvWAIm.png',game='Makaimura',ctype='Plataform',lastupdate='02/10/26',gdrv='1GbhV0S9ncu4Giov0mcIPTixLDmEwl6s7';
+	ytPreview='ftZ7ucCeHJE', ytVid='gKBhhIfrdRE'; //@BlackFired
 break;
 case 28:
 mydiv='GnG-Tower',imgur='CkHRPvY',imgur9='fH7y5Ge.png',game='Makaimura',ctype='Arcade',lastupdate='31/10/23',gdrv='1UxTvsauekqFbxAh7SIFjDYTUdJuvlCtP';
