@@ -852,7 +852,7 @@ switch (code) {
 			}
 		}
 		else{
-			document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/NCT7VU6QVLY?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Full-Game: <b>Steel Warriors</b> <a target='_blank' href=https://www.dropbox.com/s/hp2b158fiqff6he/MSW-Steel%20Warriors1.1.rar?dl=1><img src=https://i.imgur.com/pJFCm25.png title='Steel Warriors'></a>"
+			document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/qJIqX-xC9Kg?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Full-Game: <b>Alex Kidd in Trouble</b> <a target='_blank' href=https://drive.google.com/uc?id=1uFeKO9CSsbqvFkq0lcN-aU8p5ASsVcBQ><img src=https://i.imgur.com/pJFCm25.png title='Alex Kidd in Trouble'></a>"
 		}
 		document.getElementById('banner').innerHTML="<a target='_blank' href=https://"+bannerHtml+"><img src=https://"+bannerImg+"></a>";
 	break;
