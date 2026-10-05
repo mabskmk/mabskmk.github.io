@@ -36,13 +36,19 @@ if (randomValue>0 && checkMisc[randomValue]!='ok') {checkMisc[randomValue]='ok';
 switch (randomValue) {
 case 1:
 myLabel='Check out my Bitchute channel',link='www.bitchute.com/channel/LIy5FtdNRSH2';
-rng=(Math.floor(Math.random()*6));
+rng=(Math.floor(Math.random()*12));
 	if (rng==0) {bitchute='AWXqY34Vs5Wh';}
 	if (rng==1) {bitchute='VYGYEGEtVDaA';}
 	if (rng==2) {bitchute='KKMFek1pNHP5';}
 	if (rng==3) {bitchute='64sZqbTvvVpE';}
 	if (rng==4) {bitchute='TWUBbXbPIx5b';}
 	if (rng==5) {bitchute='joKEB1SowFP9';}		
+	if (rng==6) {bitchute='3FqzRKMq9fED';}
+	if (rng==7) {bitchute='0jZP9bwdgIbX';}
+	if (rng==8) {bitchute='UY5A8MgdORG0';}
+	if (rng==9) {bitchute='z39ht6GMTLc7';}
+	if (rng==10) {bitchute='L2x9MNVZhG8r';}
+	if (rng==11) {bitchute='qt7RD2Wy1AbD';}
 break;
 case 2:
 myLabel='Check out the 66th place in MAGMML2',youtube='zSFWH5X9K_Y?si=oPb63hYxItrSzeOP&start=737&end=787',link='magmmlcontest.com/wiki/index.php/Chomp_Man_(stage)',bannerHtml='www.sprites-inc.co.uk',bannerImg='i.imgur.com/RqfqBg1.png'
