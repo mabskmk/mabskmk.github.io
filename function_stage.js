@@ -20,7 +20,7 @@ btnstg.disabled=true;
 btnfullg.disabled=false;
 btnyotu.disabled=false;
 for (let x=numStages;x>0;x--) {stageData((x),1)}
-stageData(29,2); //temp
+stageData(150,2); //temp
 }
 
 // Function to play a random video
