@@ -69,7 +69,9 @@ rng=(Math.floor(Math.random()*30));
 	if (rng==29) {bitchute='GWZhrMwVr26M';}
 break;
 case 2:
-myLabel='Check out the 66th place in MAGMML2',youtube='zSFWH5X9K_Y?si=oPb63hYxItrSzeOP&start=737&end=787',link='magmmlcontest.com/wiki/index.php/Chomp_Man_(stage)',bannerHtml='www.sprites-inc.co.uk',bannerImg='i.imgur.com/RqfqBg1.png'
+myLabel='Check out the 66th place in MAGMML2',youtube='zSFWH5X9K_Y?si=oPb63hYxItrSzeOP',link='magmmlcontest.com/wiki/index.php/Chomp_Man_(stage)',bannerHtml='www.sprites-inc.co.uk',bannerImg='i.imgur.com/RqfqBg1.png'
+rng=(Math.floor(Math.random()*738));
+	youtube=(youtube+"&start="+rng+"&end="+(rng+50));
 break;
 case 3:
 myLabel='MUGEN_means_INFINITY',youtube='yfgdqUY4CSc?si=dyLvAwEU11ouWsBL'
