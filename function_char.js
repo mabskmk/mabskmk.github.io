@@ -183,7 +183,7 @@ mydiv='Wall-of-Flesh',imgur='517R994',imgur9='HGEK7LB.gif',game='Terraria',ctype
 	ytVid='pm8RTgrgW8k?si=Hv68xSbWM6W2oyaO&start=20&end=70'; //@jewelmen10mugen87
 break;
 case 21:
-mydiv='Sarlacc',imgur='7o6fJVg',imgur9='Dl7Q5Ix.gif',game='Star Wars',ctype='Boss',lastupdate='03/08/12',gdrv='1zOk5tBPfYPP5a7siNJxitX4fmPmek5pg';
+mydiv='Sarlacc',imgur='7o6fJVg',imgur9='gyRJXEY.png',game='Star Wars',ctype='Boss',lastupdate='03/08/12',gdrv='1zOk5tBPfYPP5a7siNJxitX4fmPmek5pg';
 rng=(Math.floor(Math.random()*6));
 	if (rng==0) {ytVid='PUZi6vZB_RE?si=FjfOwwo0CFaFrdVV&start=25&end=75';sufix='&autoplay=1&mute=1';} //@tenshihinanawi1643
 	if (rng==1) {ytVid='DhZE1l2KTPE';} //@JackSweg	
@@ -410,7 +410,8 @@ switch (code) {
 	case 3:
 		if ( (zpoints==0) || (playerOne[0] >= zpoints) || isHalloween ) {
 			if (ytVid!=''){
-			document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+ytVid+""+sufix+" width='500' height='300' frameborder='0'></iframe><br><img src=https://i.imgur.com/"+imgur+".png width=20 height=20> CHAR ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=CHAR_"+mydiv+"></a>"
+			document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+ytVid+""+sufix+" width='500' height='300' frameborder='0'></iframe><br><img src=https://i.imgur.com/"+imgur+".png width=20 height=20> CHAR ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=CHAR_"+mydiv+"></a>";
+			document.getElementById('BPt').src="https://i.imgur.com/"+imgur9+"";
 			}
 			else{
 			document.getElementById('videoshowcase').innerHTML="<img src=https://i.imgur.com/"+imgur9+" height='300'><br>CHAR ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=CHAR_"+mydiv+"></a>"
