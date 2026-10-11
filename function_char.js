@@ -393,6 +393,7 @@ rng=(Math.floor(Math.random()*15));
 	if (rng==14) {bannerHtml='twitter.com/Zanmyo';bannerImg='i.imgur.com/qV3Q36A.gif';}
 }
 if (ytVid.length > 15) {sufix='&autoplay=1&mute=1';}
+if (ytVid == '' && ytPreview != '') {ytVid=ytPreview;}
 
 switch (code) {
 	// Build the button
