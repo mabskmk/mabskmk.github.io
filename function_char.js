@@ -394,6 +394,7 @@ rng=(Math.floor(Math.random()*15));
 }
 if (ytVid.length > 15) {sufix='&autoplay=1&mute=1';}
 if (ytVid == '' && ytPreview != '') {ytVid=ytPreview;}
+if (ytVid.length < 15 && ytPreview == '') {ytPreview=ytVid;}
 
 switch (code) {
 	// Build the button
