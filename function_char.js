@@ -179,7 +179,7 @@ rng=(Math.floor(Math.random()*2));
 	if (rng==1) {ytVid='aCyn7Aa_Qus';} //@francis_arachea
 break;
 case 20:
-mydiv='Wall-of-Flesh',imgur='517R994',imgur9='HGEK7LB.gif',game='Terraria',ctype='Bonus',lastupdate='31/10/14',gdrv='1MgS3faH8veG9Xv2AyUuCEKp3EMwTn4_F',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg';
+mydiv='Wall-of-Flesh',imgur='517R994',imgur9='a2l5Uei.gif',game='Terraria',ctype='Bonus',lastupdate='31/10/14',gdrv='1MgS3faH8veG9Xv2AyUuCEKp3EMwTn4_F',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg';
 	ytVid='pm8RTgrgW8k?si=Hv68xSbWM6W2oyaO&start=20&end=70'; //@jewelmen10mugen87
 break;
 case 21:
