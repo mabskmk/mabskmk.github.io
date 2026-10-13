@@ -387,6 +387,7 @@ mydiv='Random_Space',imgur='TN4XU4m.png',gdrv='14x_bwTrKjZtpERMj4mLkMXSoslv8Nzqz
 break;
 case 52:
 mydiv='Mojo_Stronghold',imgur='8x7jLDj.png',gdrv='14Asrt2kJ0k4WHOKdtVGeqe9v2cds_m3m'
+	ytPreview='xM3oGnG9-RI'; //@mabskmk
 break;
 case 53:
 mydiv='Hell_Gate',imgur='qPSAYRK.gif',gdrv='1CHtHK7UycHiRX0w13V_16_7s4-eNchEg'
@@ -445,6 +446,7 @@ break;
 case 63:
 mydiv='Ruins_of_Metro',imgur='IGsMDvn.png',gdrv='15Y7stedmBIO0x5nDSBnb8FeT2R9EVNXF'
 	ytVid='vIx5EdQ0s5s'; //@RoySquadRocks
+	ytPreview='Yu5txLy3Fqc'; //@mabskmk
 break;
 case 64:
 mydiv='Z-Leo',imgur='MbtkMgt.png',gdrv='1OkIpLS0e62aq2uG3QWvMBRhhyIOERn4L',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png'
@@ -495,7 +497,7 @@ mydiv='Tower_of_MORGUL',imgur='36jrd6T.png',gdrv='1-NKnO4xFHRgjm3PZRhHC-K5EF6ukc
 break;
 case 72:
 mydiv='Cilia_Monster',imgur='hzdVhqX.png',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n'
-	ytVid='I8dFgjHwqNE?si=BxpM1zN3UmRySIEb&start=765&end=815' //@PEG
+	ytPreview='7-Hcnovv2BU'; //@mabskmk
 break;
 case 73:
 mydiv='Galatic-Night-Club',imgur='9mhQVWp.png',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n'
@@ -655,6 +657,7 @@ rng=(Math.floor(Math.random()*3));
 break;
 case 111:
 mydiv='ChompmanSTG',imgur='5t4sMNC.gif',gdrv='1vKNjQiIpYTmdpEoqR5bhrlofcJy-6jmb',bannerHtml='www.sprites-inc.co.uk',bannerImg='i.imgur.com/RqfqBg1.png'
+		ytPreview='JI4XJ5RwWyI'; //@mabskmk
 break;
 case 112:
 mydiv='Bay_Route',imgur='7irQzfU.png',gdrv='1zUVbUMrHF3wEI1cCyvfsEu24NEWUnRnj'
@@ -683,6 +686,9 @@ rng=(Math.floor(Math.random()*4));
 	if (rng==1) {ytVid='LV8Hj1cCUBk';} //@MUGENKU
 	if (rng==2) {ytVid='TJNlcRo-r20';} //@MUGENKU
 	if (rng==3) {ytVid='tDxEA9Uy0Oo';} //@MUGENKU
+rng=(Math.floor(Math.random()*2));
+	if (rng==0) {ytPreview='PkXMHx90wbY';} //@mabskmk
+	if (rng==1) {ytPreview='hO8uE9Dv5qY';} //@mabskmk
 break;
 case 118:
 mydiv='ZookHero',imgur='qwrbijL.gif',gdrv='1PrOzL00vpXmloxTMDHuOOvEzicOeByPw'
@@ -832,6 +838,7 @@ rng=(Math.floor(Math.random()*15));
 }
 if (ytVid.length > 15) {sufix='&autoplay=1&mute=1';}
 if (ytVid == '' && ytPreview != '') {ytVid=ytPreview;}
+if (ytVid.length < 15 && ytPreview == '') {ytPreview=ytVid;}
 	
 switch (code) {
 	// Build the button
