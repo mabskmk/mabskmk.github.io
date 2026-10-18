@@ -233,15 +233,18 @@ rng=(Math.floor(Math.random()*5));
 break;
 case 27:
 mydiv='GnG-Graveyard',imgur='p19yaAN',imgur9='5pvWAIm.png',game='Makaimura',ctype='Plataform',lastupdate='02/10/26',gdrv='1GbhV0S9ncu4Giov0mcIPTixLDmEwl6s7';
-	ytPreview='ftZ7ucCeHJE', ytVid='gKBhhIfrdRE'; //@BlackFired
+	ytVid='gKBhhIfrdRE'; //@BlackFired
+	ytPreview='ftZ7ucCeHJE'
 break;
 case 28:
 mydiv='GnG-Tower',imgur='CkHRPvY',imgur9='fH7y5Ge.png',game='Makaimura',ctype='Arcade',lastupdate='31/10/23',gdrv='1UxTvsauekqFbxAh7SIFjDYTUdJuvlCtP';
-	ytPreview='abRvYTaQ47M?si=EDWeUQG6sUuF--Tr&start=4&end=54', ytVid='YHdwfkEHo98?si=XWmx_3VddWQ0lMbK&start=333&end=383'; //@MannyLingle
+	ytVid='YHdwfkEHo98?si=XWmx_3VddWQ0lMbK&start=333&end=383'; //@MannyLingle
+	ytPreview='abRvYTaQ47M?si=EDWeUQG6sUuF--Tr&start=4&end=54'
 break;
 case 29:
 mydiv='GnG-Burning',imgur='ScexylS',imgur9='ohZWqMw.png',game='Makaimura',ctype='SHMUP',lastupdate='31/10/23',gdrv='1GeSVB_GbPiB8PHPk5sw7HAUuJKVRAH3W';
-	ytPreview='abRvYTaQ47M?si=xQA0ItQOU-TITA-H&start=83&end=133', ytVid='omEjWq8DBZ0'; //@Warblefly41
+	ytVid='omEjWq8DBZ0'; //@Warblefly41
+	ytPreview='oCkbXMVMYzA'
 break;
 case 30:
 mydiv='ALEX_Jankenpon',imgur='kHBUEcQ',imgur9='i2NjJtm.png',game='Alex Kidd',ctype='JokenPo',lastupdate='01/03/12',gdrv='1o4UAIynon1lyGVFLCowRKstD-7RIxp5P'
