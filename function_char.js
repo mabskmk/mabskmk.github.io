@@ -204,6 +204,7 @@ rng=(Math.floor(Math.random()*5));
 	if (rng==2) {ytVid='9mi7zuM6OYQ';} //@YamiLegends
 	if (rng==3) {ytVid='_iHnIvB3ydU';} //@DavidBurgessMechanicalMusic
 	if (rng==4) {ytVid='HGT3hNf1bUU';} //@I_hope_you_ch0ke_on_em
+	ytPreview='V9DKiMvb71o'; //@mabskmk
 break;
 case 24:
 mydiv='Heli-Master',imgur='lk7NGsI',imgur9='tmJNGkD.png',game='Alex Kidd',ctype='Boss',lastupdate='03/06/13',gdrv='1Z6E3Jqg_QEQ06Sby8mfBmrflgSgWrb6B'
@@ -234,17 +235,17 @@ break;
 case 27:
 mydiv='GnG-Graveyard',imgur='p19yaAN',imgur9='5pvWAIm.png',game='Makaimura',ctype='Plataform',lastupdate='02/10/26',gdrv='1GbhV0S9ncu4Giov0mcIPTixLDmEwl6s7';
 	ytVid='gKBhhIfrdRE'; //@BlackFired
-	ytPreview='ftZ7ucCeHJE'
+	ytPreview='ftZ7ucCeHJE'; //@mabskmk
 break;
 case 28:
 mydiv='GnG-Tower',imgur='CkHRPvY',imgur9='fH7y5Ge.png',game='Makaimura',ctype='Arcade',lastupdate='31/10/23',gdrv='1UxTvsauekqFbxAh7SIFjDYTUdJuvlCtP';
 	ytVid='YHdwfkEHo98?si=XWmx_3VddWQ0lMbK&start=333&end=383'; //@MannyLingle
-	ytPreview='abRvYTaQ47M?si=EDWeUQG6sUuF--Tr&start=4&end=54'
+	ytPreview='abRvYTaQ47M?si=EDWeUQG6sUuF--Tr&start=4&end=54'; //@mabskmk
 break;
 case 29:
 mydiv='GnG-Burning',imgur='ScexylS',imgur9='ohZWqMw.png',game='Makaimura',ctype='SHMUP',lastupdate='31/10/23',gdrv='1GeSVB_GbPiB8PHPk5sw7HAUuJKVRAH3W';
 	ytVid='omEjWq8DBZ0'; //@Warblefly41
-	ytPreview='oCkbXMVMYzA'
+	ytPreview='oCkbXMVMYzA'; //@mabskmk
 break;
 case 30:
 mydiv='ALEX_Jankenpon',imgur='kHBUEcQ',imgur9='i2NjJtm.png',game='Alex Kidd',ctype='JokenPo',lastupdate='01/03/12',gdrv='1o4UAIynon1lyGVFLCowRKstD-7RIxp5P'
@@ -256,6 +257,7 @@ break;
 case 32:
 mydiv='Castle_War',imgur='Xehem37',imgur9='aVsXFAq.png',game='Various',ctype='Tower defense',lastupdate='07/11/12',gdrv='1usRBM7HowIsEPqHnE6guEGMk3EbZO87l'
 	ytVid='STLukVJ51VM'; //@huntergamemodification56
+	ytPreview='fB1XfLCLSWk'; //@mabskmk
 break;
 case 33:
 mydiv='Yasha-Hime',imgur='p4i3ONN',imgur9='Yg7zSMS.png',game='Ganryu',ctype='Boss',lastupdate='02/11/18',gdrv='1Dr6zJ0-Ah0ExxmRk2DfJ--burI9DMGMR';
@@ -301,6 +303,7 @@ case 41:
 mydiv='Full-of-Spiders',imgur='hXxFrKx',imgur9='3SH8IzW.png',game='Splatterhouse',ctype='Bonus',lastupdate='28/10/16',gdrv='19f8oZl-KzlWeYGTo27vvteu9GPK_dVFi'
 rng=(Math.floor(Math.random()*2));
 	ytVid='bCUQZNA_jdA?si=Al2Syaw7MlSGG0Lv&start=286&end=336'; //@DeceasedCrab
+	ytPreview='2QISU6k8cMs'; //@mabskmk
 break;
 case 42:
 mydiv='Evil-Eye-of-Balor',imgur='1LDxq7H',imgur9='BI3xaoj.png',game='Terraria',ctype='Boss',lastupdate='25/03/17',gdrv='1tsQ4AS7cl8emdMOHAtVbsGJtNp1ykaw6',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg'
@@ -330,13 +333,16 @@ rng=(Math.floor(Math.random()*10));
 	if (rng==7) {ytVid='qgLOndlDzR0?si=0IqyCV94QfsjuZAW&start=23&end=73';} //@tenshihinanawi1643
 	if (rng==8) {ytVid='aUq0eaEb4Ak?si=DHeexi5KxAGRPFmy&start=5&end=55';} //@trackiesthead1563
 	if (rng==9) {ytVid='1h6h7rn9krM?si=n4_F9Fx9s4DGJYHJ&start=12&end=62';} //@jewelmen10mugen87
+	ytPreview='oNP0GnxG3xM'; //@mabskmk
 break;
 case 47:
 mydiv='R-Memory',imgur='RNwRj1K',imgur9='vj39rR3.png',game='R-Type',ctype='Bonus',lastupdate='31/10/20',gdrv='1PNzI6IssGK8BSsYcLCr2xSVrdiDblXVX';
 	ytVid='lxuzFYhnJbI?si=9TgFK-geJ60x3wd_&start=14&end=64'; //@jewelmen10mugen87
+	ytPreview='ppYTvNxhrII'; //@mabskmk
 break;
 case 48:
 mydiv='Head-of-Ukyo',imgur='RZ9lnLU',imgur9='Y7rsQZd.png',game='original',ctype='Boss',lastupdate='31/10/20',gdrv='1jPx1agCPmLw2Sc9ew4o8zS9j4xnajn9E'
+	ytPreview='jfSGYT5UEy0'; //@mabskmk
 break;
 case 49:
 mydiv='Shimeji',imgur='IDrbSZ8',imgur9='sJuKFFz.png',game='<a target=_blank href=https://kilkakon.com/shimeji><img src=https://i.imgur.com/RG52doK.png width=25 height=25></a>',ctype='Bonus',lastupdate='24/12/20',gdrv='1nKdd3q6eaRqfTQz1I_vfykm8-u0Uq2IT'
@@ -358,6 +364,7 @@ break;
 case 53:
 mydiv='Sandwitch',imgur='2APcz3X',imgur9='zyTExeh.png',game='Puyo_Puyo',ctype='Bonus',lastupdate='31/10/21',gdrv='1CrFqUEl2u9or1SRXbJ5GqwpZVJ1FKtMu'
 	ytVid='-XtG63ruDMM?si=j9EaI9cpo5XoyUcc&start=15&end=65'; //@jewelmen10mugen87
+	ytPreview='XM0Y-k8WLdY'; //@mabskmk
 break;
 case 54:
 mydiv='Sausage_Monks',imgur='uVVlLl7',imgur9='en1KRSZ.png',game='Makaimura',ctype='Bonus',lastupdate='31/10/24',gdrv='1c43XQfrPThdtR2g1rM8kPMyrPffJeqOH'
