@@ -2,6 +2,7 @@ var playerOne = new Array(16);	//Player table, cards and hand
 var intervalTime;
 const hoje = new Date();
 const isHalloween = ((hoje.getDate()>=13 && hoje.getDate()<=31 && hoje.getMonth()==9) || (hoje.getDate()<3 && hoje.getMonth()==10) || (hoje.getDay()==5 && hoje.getDate()==13) ? 1: 0);
+const weekEnd = 	  (hoje.getDay()<=5? 0 : 1); 
 var isVertical = false;
 
 // "Gambiarra"
