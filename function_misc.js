@@ -67,6 +67,25 @@ rng=(Math.floor(Math.random()*30));
 	if (rng==27) {bitchute='ruJPke7BM4e1';}
 	if (rng==28) {bitchute='go5cxZnwtMX7';}
 	if (rng==29) {bitchute='GWZhrMwVr26M';}
+	if (rng==30) {bitchute='x0BVn6OsFUgd';}
+	if (rng==31) {bitchute='sdyuiUCPffN0';}
+	if (rng==32) {bitchute='hK3qBL1Jqqjq';}
+	if (rng==33) {bitchute='igAdiRS2e56H';}
+	if (rng==34) {bitchute='6AK5p9uo46iA';}
+	if (rng==35) {bitchute='9lp8nEulEgZX';}
+	if (rng==36) {bitchute='Zi5YiuV227Fi';}
+	if (rng==37) {bitchute='JkFICLAK50FS';}
+	if (rng==38) {bitchute='CDlKHt7bpvPl';}
+	if (rng==39) {bitchute='7OGBakKdO81v';}
+	if (rng==40) {bitchute='1KRvsossOE6f';}
+	if (rng==41) {bitchute='3W4G9wPSa5zM';}
+	if (rng==42) {bitchute='kWhB5OQ8ttMP';}
+	if (rng==43) {bitchute='OqUcy8dIugxx';}
+	if (rng==44) {bitchute='iitJ114nmx0g';}
+	if (rng==45) {bitchute='HS5Y4AKcm6EJ';}
+	if (rng==45) {bitchute='HS5Y4AKcm6EJ';}
+	if (rng==46) {bitchute='1jXG46nBieUz';}
+	if (rng==47) {bitchute='jYwTyAVxAXTt';}
 break;
 case 2:
 myLabel='Check out the 66th place in MAGMML2',youtube='zSFWH5X9K_Y?si=oPb63hYxItrSzeOP',link='magmmlcontest.com/wiki/index.php/Chomp_Man_(stage)',bannerHtml='www.sprites-inc.co.uk',bannerImg='i.imgur.com/RqfqBg1.png'
