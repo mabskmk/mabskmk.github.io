@@ -31,13 +31,17 @@ function showcaseStage() {
 
 // Check if the array is full
 for (let x=numStages;x>0;x--) {
-if ( checkStage[x]!=='ok' ) {break;}
-if (x==1 && checkStage[x]=='ok' ) {checkStage = [];} 
+	if ( checkStage[x]!=='ok' ) {break;}
+
+	if (x==1 && checkStage[x]=='ok' ) {checkStage = [];} 
+	if (x==(numStages-20) && checkStage[x]=='ok' && !weekEnd) {checkStage = []; break;} 
 }
 
 // Set a randomValue
 do {
-	randomValue=(Math.floor(Math.random()*numStages)+1);	
+	if (weekEnd) {randomValue=(Math.floor(Math.random()*numStages)+1);}
+	if (!weekEnd) {randomValue=(Math.floor(Math.random()*20)+(numStages-19));}
+
 }	while (randomValue>0 && checkStage[randomValue]=='ok');
 
 if (randomValue>0 && checkStage[randomValue]!='ok') {checkStage[randomValue]='ok';}
