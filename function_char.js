@@ -23,12 +23,16 @@ function showcaseCharacter() {
 // Check if the array is full
 for (let x=numChars;x>0;x--) {
 if ( checkChar[x]!=='ok' ) {break;}
-if (x==1 && checkChar[x]=='ok' ) {checkChar = [];} 
+
+	if (x==1 && checkChar[x]=='ok' && weekEnd) {checkChar = [];} 
+	if (x==(numChars-20) && checkChar[x]=='ok' && !weekEnd) {checkChar = []; break;} 
 }
   
 // Set a randomValue
 do {
-	randomValue=(Math.floor(Math.random()*numChars)+1);
+	if (weekEnd) {randomValue=(Math.floor(Math.random()*numChars)+1);}
+	if (!weekEnd) {randomValue=(Math.floor(Math.random()*20)+(numChars-19));}
+
 }	while (randomValue>0 && checkChar[randomValue]=='ok');
 
 if (randomValue>0 && checkChar[randomValue]!='ok') {checkChar[randomValue]='ok';}
