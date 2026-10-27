@@ -22,10 +22,10 @@ function showcaseCharacter() {
 
 // Check if the array is full
 for (let x=numChars;x>0;x--) {
-if ( checkChar[x]!=='ok' ) {break;}
+	if ( checkChar[x]!=='ok' ) {break;}
 
 	if (x==1 && checkChar[x]=='ok' && weekEnd) {checkChar = [];} 
-	if (x==(numChars-20) && checkChar[x]=='ok' && !weekEnd) {checkChar = []; break;} 
+	if (x==(numChars-19) && checkChar[x]=='ok' && !weekEnd) {checkChar = []; break;} 
 }
   
 // Set a randomValue
