@@ -350,7 +350,7 @@ mydiv='Head-of-Ukyo',imgur='RZ9lnLU',imgur9='Y7rsQZd.png',game='original',ctype=
 break;
 case 49:
 mydiv='Shimeji',imgur='IDrbSZ8',imgur9='sJuKFFz.png',game='<a target=_blank href=https://kilkakon.com/shimeji><img src=https://i.imgur.com/RG52doK.png width=25 height=25></a>',ctype='Bonus',lastupdate='24/12/20',gdrv='1nKdd3q6eaRqfTQz1I_vfykm8-u0Uq2IT'
-	ytVid='4H0KAYfci_M'; //@TearSnow
+	ytVid='S7fPCGh5xxo?si=4iJGg-d7gazgba6b&start=147&end=217'; //@KonfluxGames
 break;
 case 50:
 mydiv='Thicc-Tac-Toe',imgur='ld7q5PX',imgur9='yxzkrR1.png',game='Metal Slut',ctype='Bonus',lastupdate='13/01/21',gdrv='1ezCyx2EDm4b2Ko1hypdfUFB4Baw5zXVa'
