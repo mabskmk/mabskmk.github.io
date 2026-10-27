@@ -34,7 +34,7 @@ for (let x=numStages;x>0;x--) {
 	if ( checkStage[x]!=='ok' ) {break;}
 
 	if (x==1 && checkStage[x]=='ok' ) {checkStage = [];} 
-	if (x==(numStages-20) && checkStage[x]=='ok' && !weekEnd) {checkStage = []; break;} 
+	if (x==(numStages-19) && checkStage[x]=='ok' && !weekEnd) {checkStage = []; break;} 
 }
 
 // Set a randomValue
