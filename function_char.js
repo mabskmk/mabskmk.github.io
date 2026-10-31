@@ -242,9 +242,9 @@ mydiv='GnG-Graveyard',imgur='p19yaAN',imgur9='5pvWAIm.png',game='Makaimura',ctyp
 	ytPreview='ftZ7ucCeHJE'; //@mabskmk
 break;
 case 28:
-mydiv='GnG-Tower',imgur='CkHRPvY',imgur9='fH7y5Ge.png',game='Makaimura',ctype='Arcade',lastupdate='31/10/23',gdrv='1UxTvsauekqFbxAh7SIFjDYTUdJuvlCtP';
+mydiv='GnG-Tower',imgur='CkHRPvY',imgur9='T75hr23.png',game='Makaimura',ctype='Arcade',lastupdate='31/10/26',gdrv='1UxTvsauekqFbxAh7SIFjDYTUdJuvlCtP';
 	ytVid='YHdwfkEHo98?si=XWmx_3VddWQ0lMbK&start=333&end=383'; //@MannyLingle
-	ytPreview='abRvYTaQ47M?si=EDWeUQG6sUuF--Tr&start=4&end=54'; //@mabskmk
+	ytPreview='pnKtahKsbvc'; //@mabskmk
 break;
 case 29:
 mydiv='GnG-Burning',imgur='ScexylS',imgur9='ohZWqMw.png',game='Makaimura',ctype='SHMUP',lastupdate='31/10/23',gdrv='1GeSVB_GbPiB8PHPk5sw7HAUuJKVRAH3W';
