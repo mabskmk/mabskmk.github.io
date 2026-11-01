@@ -8,7 +8,7 @@ var playerTwo = new Array(16);	//0_points, 1-9 field, 10 combo, 11-15 hand
 
 var actualPlayer=0;		//Player(1) or CPU(2) just in case you are faster than the cpu...
 var cardSelect=0;		//Player's hand selection
-var karmaPoints=10;		//Honor controller
+var karmaPoints=0;		//Honor controller
 
 var botX=0; 		//worker
 var botY=0;			//worker
