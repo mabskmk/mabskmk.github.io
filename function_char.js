@@ -287,17 +287,30 @@ rng=(Math.floor(Math.random()*5));
 break;
 case 27:
 mydiv='GnG-Graveyard',imgur='p19yaAN',imgur9='5pvWAIm.png',game='Makaimura',ctype='Plataform',lastupdate='02/10/26',gdrv='1GbhV0S9ncu4Giov0mcIPTixLDmEwl6s7';
-	ytVid='gKBhhIfrdRE'; //@BlackFired
+rng=(Math.floor(Math.random()*4));
+	if (rng==0) {ytVid='gKBhhIfrdRE';} //@BlackFired
+	if (rng==1) {ytVid='ftZ7ucCeHJE?si=tGkdcA-oL5Gd8wuS&start=535&end=585';} //@mabskmk
+	if (rng==2) {ytVid='ftZ7ucCeHJE?si=y6yq8Z2_pM5ZLGId&start=840&end=890';} //@mabskmk
+	if (rng==3) {ytVid='ftZ7ucCeHJE?si=a52O5rUhNhczcYnE&start=140&end=190';} //@mabskmk
 	ytPreview='ftZ7ucCeHJE'; //@mabskmk
 break;
 case 28:
 mydiv='GnG-Tower',imgur='CkHRPvY',imgur9='T75hr23.png',game='Makaimura',ctype='Arcade',lastupdate='31/10/26',gdrv='1UxTvsauekqFbxAh7SIFjDYTUdJuvlCtP';
-	ytVid='YHdwfkEHo98?si=XWmx_3VddWQ0lMbK&start=333&end=383'; //@MannyLingle
+rng=(Math.floor(Math.random()*6));
+	if (rng==0) {ytVid='YHdwfkEHo98?si=XWmx_3VddWQ0lMbK&start=333&end=383';} //@MannyLingle
+	if (rng==1) {ytVid='pnKtahKsbvc?si=-McBarB60-ChlixU&start=277&end=327';} //@mabskmk
+	if (rng==2) {ytVid='pnKtahKsbvc?si=JJI6VdK0F7wU5b-p&start=517&end=567';} //@mabskmk
+	if (rng==3) {ytVid='pnKtahKsbvc?si=YTV9PIOE21OkHEE4&start=773&end=827';} //@mabskmk
+	if (rng==4) {ytVid='pnKtahKsbvc?si=yPi5a9uxl5XMpcFc&start=1022&end-1072';} //@mabskmk
+	if (rng==5) {ytVid='pnKtahKsbvc?si=6bNfYS-rS8livgtF&start=1274&end=1324';} //@mabskmk
 	ytPreview='pnKtahKsbvc'; //@mabskmk
 break;
 case 29:
 mydiv='GnG-Burning',imgur='ScexylS',imgur9='ohZWqMw.png',game='Makaimura',ctype='SHMUP',lastupdate='31/10/23',gdrv='1GeSVB_GbPiB8PHPk5sw7HAUuJKVRAH3W';
-	ytVid='omEjWq8DBZ0'; //@Warblefly41
+rng=(Math.floor(Math.random()*3));
+	if (rng==0) {ytVid='oCkbXMVMYzA?si=rf8K6yK893yfZTEv&start=250&end=300';} //@mabskmk
+	if (rng==1) {ytVid='oCkbXMVMYzA?si=6-2T2Nu3XqcR3J89&start=600&end=650';} //@mabskmk
+	if (rng==2) {ytVid='omEjWq8DBZ0';} //@Warblefly41
 	ytPreview='oCkbXMVMYzA'; //@mabskmk
 break;
 case 30:
