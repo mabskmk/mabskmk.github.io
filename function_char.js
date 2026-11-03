@@ -1,6 +1,7 @@
 const numChars=56; 
 var randomValue=0;
 var checkChar = new Array((numChars)+1);
+var char20 = last20Index(1);
 
 // Create the basic html
 function menuchar() {
@@ -14,6 +15,7 @@ for (let x=numChars;x>0;x--) {charData((x),1)}
 charData(28,2);
 }
 
+
 // Function to play a random video
 function showcaseCharacter() {
 
@@ -21,26 +23,70 @@ function showcaseCharacter() {
 	if (btnnew.disabled==false) {return;}
 
 // Check if the array is full
-for (let x=numChars;x>0;x--) {
-	if ( checkChar[x]!=='ok' ) {break;}
-
-	if (x==1 && checkChar[x]=='ok' && weekEnd) {checkChar = [];} 
-	if (x==(numChars-19) && checkChar[x]=='ok' && !weekEnd) {checkChar = []; break;} 
+if (weekEnd) {
+	for (let x=numChars;x>0;x--) {
+		if ( checkChar[x]!=='ok' ) {break;}
+		if (x==1 && checkChar[x]=='ok') {checkChar = [];} 
+	}
 }
+if (!weekEnd) {
+	for (let x=0;x<20;x++) {
+		if ( checkChar[(char20[x])]!=='ok' ) {break;}
+		if (x==19 && checkChar[(char20[x])]=='ok') {checkChar = [];} 
+	}
+}  
   
 // Set a randomValue
+if (weekEnd) {
 do {
-	if (weekEnd) {randomValue=(Math.floor(Math.random()*numChars)+1);}
-	if (!weekEnd) {randomValue=(Math.floor(Math.random()*20)+(numChars-19));}
+	randomValue=(Math.floor(Math.random()*numChars)+1);
 
 }	while (randomValue>0 && checkChar[randomValue]=='ok');
 
-if (randomValue>0 && checkChar[randomValue]!='ok') {checkChar[randomValue]='ok';}
+	if (randomValue>0 && checkChar[randomValue]!='ok') {checkChar[randomValue]='ok';}
+}
 
+if (!weekEnd) {
+do {
+	randomValue=(Math.floor(Math.random()*20));
+	
+}	while (randomValue>0 && checkChar[(char20[randomValue])]=='ok');
 
-// Get the values ​​of the respective video from the 'character database'
+	if (randomValue>0 && checkChar[(char20[randomValue])]!='ok') {checkChar[(char20[randomValue])]='ok';}
+}
+
 charData(randomValue,3);
 intervalTime=setTimeout('showcaseStage()',50000); //showcaseCharacter -> showcaseStage -> showcaseMisc
+}
+
+// Get the last 20 indexes of an array (1=char 2=stage)
+function last20Index(type) {
+let myArray = new Array(20);
+let anoLoop = 26;
+let dataStr;
+let i = 0;
+
+	do {
+		for (let c=1;c<=numChars;c++) {
+
+			dataStr = charData(c,4);			
+			let partes = dataStr.split('/');
+			let ano = parseInt(partes[2], 10);
+
+			if (ano == anoLoop && i<20) {
+				//console.log(ano);
+				myArray[i] = c;
+				i++;
+				}		
+		}
+		
+		anoLoop--;
+		
+	} while ( i < 20 );
+
+console.log("teste: "+myArray);
+console.log("teste: "+myArray.length);
+return myArray;	
 }
 
 
@@ -439,6 +485,10 @@ switch (code) {
 			if (rng==1) { document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/NCT7VU6QVLY?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Full-Game: <b>Steel Warriors</b> <a target='_blank' href=https://drive.google.com/uc?id=16hXJNPKyTcNZZYhe7dZ6agLkFXNgw3Pm><img src=https://i.imgur.com/pJFCm25.png title='Steel Warriors'></a>" ;}
 		}
 		document.getElementById('banner').innerHTML="<a target='_blank' href=https://"+bannerHtml+"><img src=https://"+bannerImg+"></a>";
+	break;
+	// Last20Index
+	case 4:
+		return (lastupdate);
 	break;
 }
 
