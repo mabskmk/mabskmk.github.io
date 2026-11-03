@@ -52,7 +52,10 @@ do {
 	
 }	while (checkChar[(char20[randomValue])]=='ok');
 
-	if (checkChar[(char20[randomValue])]!='ok') {checkChar[(char20[randomValue])]='ok';}
+	if (checkChar[(char20[randomValue])]!='ok') {
+		checkChar[(char20[randomValue])]='ok';
+		randomValue=char20[randomValue];
+	}
 }
 
 charData(randomValue,3);
