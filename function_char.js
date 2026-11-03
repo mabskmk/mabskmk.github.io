@@ -50,9 +50,9 @@ if (!weekEnd) {
 do {
 	randomValue=(Math.floor(Math.random()*20));
 	
-}	while (randomValue>0 && checkChar[(char20[randomValue])]=='ok');
+}	while (checkChar[(char20[randomValue])]=='ok');
 
-	if (randomValue>0 && checkChar[(char20[randomValue])]!='ok') {checkChar[(char20[randomValue])]='ok';}
+	if (checkChar[(char20[randomValue])]!='ok') {checkChar[(char20[randomValue])]='ok';}
 }
 
 charData(randomValue,3);
