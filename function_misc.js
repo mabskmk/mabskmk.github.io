@@ -166,7 +166,7 @@ rng=(Math.floor(Math.random()*15));
 if ( youtube!=='' ) { prefix='youtube',sufix=youtube+"&autoplay=1&mute=1";}
 if ( bitchute!=='') { prefix='bitchute',sufix=bitchute;}
 
-document.getElementById('videoshowcase').innerHTML="<iframe src=https://www."+prefix+".com/embed/"+sufix+" width='500'   height='300' frameborder='0' title="+myLabel+"></iframe><br><a target='_blank' href=https://"+link+"><b>"+myLabel+"</b></a>"
+document.getElementById('videoshowcase').innerHTML="<iframe src=https://www."+prefix+".com/embed/"+sufix+" width='500'   height='300' frameborder='0' title="+myLabel+"></iframe><br><a target='_blank' href=https://"+link+"><img src='https://i.imgur.com/FZ2erTD.gif'> <b>"+myLabel+"</b></a>"
 document.getElementById('banner').innerHTML="<a target='_blank' href=https://"+bannerHtml+"><img src=https://"+bannerImg+"></a>";
 intervalTime=setTimeout('showcaseCharacter()',50000); //showcaseCharacter -> showcaseStage -> showcaseMisc
 
