@@ -127,12 +127,37 @@ rng=(Math.floor(Math.random()*280));
 	youtube=(youtube+"&start="+rng+"&end="+(rng+50));
 break;
 case 5:
+rng=(Math.floor(Math.random()*12));
+	if (rng==0) {myLabel='Misc uploads playlist',youtube='videoseries?si=QQ8yi5cHcLnFNksB&amp;list=PLwmmiI53xsNQvJP2DEdkA-Y5U6qDv_18M',link='www.youtube.com/playlist?list=PLwmmiI53xsNQvJP2DEdkA-Y5U6qDv_18M';}
+	if (rng==1) {myLabel='Mugenize playlist',youtube='videoseries?si=2ZMgE207rmPLtDGF&amp;list=PLwmmiI53xsNSYw7zpYJztCY58nKnvMh9-',link='www.youtube.com/playlist?list=PLwmmiI53xsNSYw7zpYJztCY58nKnvMh9-';}
+	if (rng==2) {myLabel='Mugen community videos',youtube='videoseries?si=oqow6my_GV8l5n-y&amp;list=PLwmmiI53xsNQsutr_aFPXdNxuCh8xuYAW',link='www.youtube.com/playlist?list=PLwmmiI53xsNQsutr_aFPXdNxuCh8xuYAW';}
+	if (rng==3) {myLabel='My [MUGEN] chars',youtube='videoseries?si=hMqOzWZrN5LCOpGO&amp;list=PLwmmiI53xsNStY5hFlQNq0_NjfQGz7Yk2',link='www.youtube.com/playlist?list=PLwmmiI53xsNStY5hFlQNq0_NjfQGz7Yk2';}
+	if (rng==4) {myLabel='My [MUGEN] stages',youtube='videoseries?si=EarCbGAwf8FfiKEr&amp;list=PLwmmiI53xsNSXfk5moo-qdsDQ2Z2HcRxG',link='www.youtube.com/playlist?list=PLwmmiI53xsNSXfk5moo-qdsDQ2Z2HcRxG';}
+	if (rng==5) {myLabel='GaMeS playlist',youtube='videoseries?si=Jq4dbVss0i5wgg1_&amp;list=PLwmmiI53xsNS2p5bVRnEMvTK7A54VZ8GA',link='www.youtube.com/playlist?list=PLwmmiI53xsNS2p5bVRnEMvTK7A54VZ8GA';}
+	if (rng==6) {myLabel='Fighting games',youtube='videoseries?si=W-mDGIvv9W9srU7j&amp;list=PLwmmiI53xsNSUs8LVMwxL6DgTXonwTskS',link='www.youtube.com/playlist?list=PLwmmiI53xsNSUs8LVMwxL6DgTXonwTskS';}
+	if (rng==7) {myLabel='Shmups',youtube='videoseries?si=tJLQs8gmhxLG7dFA&amp;list=PLwmmiI53xsNSF76ugjar7VdI-6TeyVJS5',link='www.youtube.com/playlist?list=PLwmmiI53xsNSF76ugjar7VdI-6TeyVJS5';}
+	if (rng==8) {myLabel='Racing games',youtube='videoseries?si=g6ItcJZHCiPDuZP7&amp;list=PLwmmiI53xsNRI8t2G6st_aKTeYAMvosjn',link='www.youtube.com/playlist?list=PLwmmiI53xsNRI8t2G6st_aKTeYAMvosjn';}
+	if (rng==9) {myLabel='Strategy games',youtube='videoseries?si=09H4z8hz0-hvYLSo&amp;list=PLwmmiI53xsNQSokRMytfXgZTQFXfXG02Y',link='www.youtube.com/playlist?list=PLwmmiI53xsNQSokRMytfXgZTQFXfXG02Y';}
+	if (rng==10) {myLabel='My [MUGEN] games',youtube='videoseries?si=qztPNcykHsWQX7rA&amp;list=PLwmmiI53xsNQnHLX5CudT61_b3jg4W0On',link='www.youtube.com/playlist?list=PLwmmiI53xsNQnHLX5CudT61_b3jg4W0On';}
+	if (rng==11) {myLabel='Isometric games',youtube='videoseries?si=5-xoMmKTof0ZBIRX&amp;list=PLwmmiI53xsNQjqnu6bC2ibP_Zd8jMDsIv',link='www.youtube.com/playlist?list=PLwmmiI53xsNQjqnu6bC2ibP_Zd8jMDsIv';}		
+break;
+case 6:
 rng=(Math.floor(Math.random()*5));
-	if (rng==0) {myLabel='Misc uploads playlist',youtube='videoseries?si=QQ8yi5cHcLnFNksB&amp;list=PLwmmiI53xsNQvJP2DEdkA-Y5U6qDv_18M';}
-	if (rng==1) {myLabel='Mugenize playlist',youtube='videoseries?si=2ZMgE207rmPLtDGF&amp;list=PLwmmiI53xsNSYw7zpYJztCY58nKnvMh9-';}
-	if (rng==2) {myLabel='Mugen community videos',youtube='videoseries?si=oqow6my_GV8l5n-y&amp;list=PLwmmiI53xsNQsutr_aFPXdNxuCh8xuYAW';}
-	if (rng==3) {myLabel='My [MUGEN] chars',youtube='videoseries?si=hMqOzWZrN5LCOpGO&amp;list=PLwmmiI53xsNStY5hFlQNq0_NjfQGz7Yk2';}
-	if (rng==4) {myLabel='My [MUGEN] stages',youtube='videoseries?si=EarCbGAwf8FfiKEr&amp;list=PLwmmiI53xsNSXfk5moo-qdsDQ2Z2HcRxG';}
+	if (rng==0) {myLabel='Radio📻木🌲wood',youtube='videoseries?si=nU7ba42-wXpC1fwT&amp;list=PLwmmiI53xsNTCFvx0LTeFS5GbXW0xtOfT',link='www.youtube.com/playlist?list=PLwmmiI53xsNTCFvx0LTeFS5GbXW0xtOfT';}
+	if (rng==1) {myLabel='Radio📻火🔥fire',youtube='videoseries?si=AQPkrMr20jOm2Pua&amp;list=PLwmmiI53xsNSeYMRVoexZrkGggOZmFvUN',link='www.youtube.com/playlist?list=PLwmmiI53xsNSeYMRVoexZrkGggOZmFvUN';}
+	if (rng==2) {myLabel='Radio📻土🏺earth',youtube='videoseries?si=rVUP6OBe048xm5Pu&amp;list=PLwmmiI53xsNSN4avLbDkdB9hcTeKSDW5G',link='www.youtube.com/playlist?list=PLwmmiI53xsNSN4avLbDkdB9hcTeKSDW5G';}
+	if (rng==3) {myLabel='Radio📻金🔩metal',youtube='videoseries?si=s7Yb7ZBgUQAedEG8&amp;list=PLwmmiI53xsNQND-_K00DFia0Gng3eR4qZ',link='www.youtube.com/playlist?list=PLwmmiI53xsNQND-_K00DFia0Gng3eR4qZ';}
+	if (rng==4) {myLabel='Radio📻水🌊water',youtube='videoseries?si=p3NBkdNRYX5Y49hb&amp;list=PLwmmiI53xsNQNBxqrEOY7OCfrG5atTRlw',link='www.youtube.com/playlist?list=PLwmmiI53xsNQNBxqrEOY7OCfrG5atTRlw';}
+break;
+case 7:
+	rng=(Math.floor(Math.random()*2));
+if ( (playerOne[0] >= 10000) || isHalloween ) {
+		if (rng==0) {myLabel='MMD ᓚᘏᗢ',youtube='videoseries?si=Bv2hCMFSYTuc4pIW&amp;list=PLwmmiI53xsNTRYQ6yqPGlLouxDI-yjPGn',link='www.youtube.com/playlist?list=PLwmmiI53xsNTRYQ6yqPGlLouxDI-yjPGn';}
+		if (rng==1) {myLabel='VЯ chat',youtube='videoseries?si=LiHgdefHxHi6cXor&amp;list=PLwmmiI53xsNSdOgEEmJGP0thHwTAHk3OA',link='www.youtube.com/playlist?list=PLwmmiI53xsNSdOgEEmJGP0thHwTAHk3OA';}
+	} else {
+		if (rng==0) {myLabel='Following playlist',youtube='videoseries?si=63o-JDeYPi4X4Tai&amp;list=PLwmmiI53xsNRl0wVykp6pZ5zg_6JPgY1U',link='www.youtube.com/playlist?list=PLwmmiI53xsNRl0wVykp6pZ5zg_6JPgY1U';}
+		if (rng==1) {myLabel='Wash later',youtube='videoseries?si=XVCxlF7yrSaVwhiD&amp;list=PLwmmiI53xsNShVNEev9_o7VDL0XVH5vnd',link='www.youtube.com/playlist?list=PLwmmiI53xsNShVNEev9_o7VDL0XVH5vnd';}
+	}
 break;
 }
 
