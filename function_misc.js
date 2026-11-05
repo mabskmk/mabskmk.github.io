@@ -1,4 +1,4 @@
-const numExtras=5;
+const numExtras=7;
 const numLinks=66;
 var checkMisc = new Array((numExtras)+1);
 var checkLinks = new Array((numLinks)+1);
