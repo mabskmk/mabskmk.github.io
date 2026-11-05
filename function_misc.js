@@ -36,7 +36,7 @@ if (randomValue>0 && checkMisc[randomValue]!='ok') {checkMisc[randomValue]='ok';
 switch (randomValue) {
 case 1:
 myLabel='Check out my Bitchute channel',link='www.bitchute.com/channel/LIy5FtdNRSH2';
-rng=(Math.floor(Math.random()*30));
+rng=(Math.floor(Math.random()*72));
 	if (rng==0) {bitchute='AWXqY34Vs5Wh';}
 	if (rng==1) {bitchute='VYGYEGEtVDaA';}
 	if (rng==2) {bitchute='KKMFek1pNHP5';}
@@ -86,6 +86,30 @@ rng=(Math.floor(Math.random()*30));
 	if (rng==45) {bitchute='HS5Y4AKcm6EJ';}
 	if (rng==46) {bitchute='1jXG46nBieUz';}
 	if (rng==47) {bitchute='jYwTyAVxAXTt';}
+	if (rng==48) {bitchute='eB0lZgfHKbTV';}
+	if (rng==49) {bitchute='W9udG2L5Ehaj';}
+	if (rng==50) {bitchute='8lqiCPleChnQ';}
+	if (rng==51) {bitchute='f82YfRGVBjCG';}
+	if (rng==52) {bitchute='D0VJwWpTZ8C3';}
+	if (rng==53) {bitchute='oYIDS8MOvypq';}
+	if (rng==54) {bitchute='CrLcMfyhL5CD';}
+	if (rng==55) {bitchute='qKWD1dQ6Fdi5';}
+	if (rng==56) {bitchute='UsDECwVNLqaQ';}
+	if (rng==57) {bitchute='BNMRvxdFdPZ1';}
+	if (rng==58) {bitchute='4Pcgb9g5gesS';}
+	if (rng==59) {bitchute='p0ElUxpt3eni';}
+	if (rng==60) {bitchute='ddvVnI1gOgns';}
+	if (rng==61) {bitchute='n0a1lQJGEscF';}
+	if (rng==62) {bitchute='OpHx8acGQEd3';}
+	if (rng==63) {bitchute='tfi9OHBoeDy3';}
+	if (rng==64) {bitchute='hilk8Y0Yh84t';}
+	if (rng==65) {bitchute='bW99jaLVBoXE';}
+	if (rng==66) {bitchute='WwXWO5GtpT4R';}
+	if (rng==67) {bitchute='JlgvyCFxgNRB';}
+	if (rng==68) {bitchute='Y3Ul0zYdBqrx';}
+	if (rng==69) {bitchute='NdoczpcikL8o';}
+	if (rng==70) {bitchute='Fs9EiCrdkS7Z';}
+	if (rng==71) {bitchute='buDsnpgVl118';}
 break;
 case 2:
 myLabel='Check out the 66th place in MAGMML2',youtube='zSFWH5X9K_Y?si=oPb63hYxItrSzeOP',link='magmmlcontest.com/wiki/index.php/Chomp_Man_(stage)',bannerHtml='www.sprites-inc.co.uk',bannerImg='i.imgur.com/RqfqBg1.png'
