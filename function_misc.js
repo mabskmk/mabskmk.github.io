@@ -1,4 +1,4 @@
-const numExtras=4;
+const numExtras=5;
 const numLinks=66;
 var checkMisc = new Array((numExtras)+1);
 var checkLinks = new Array((numLinks)+1);
@@ -125,6 +125,14 @@ case 4:
 myLabel='some Jayce and the wheeled warriors',youtube='JFBGdRH2ajk?si=phppoIuckRSw__Dj'
 rng=(Math.floor(Math.random()*280));
 	youtube=(youtube+"&start="+rng+"&end="+(rng+50));
+break;
+case 5:
+rng=(Math.floor(Math.random()*5));
+	if (rng==0) {myLabel='Misc uploads playlist',youtube='videoseries?si=QQ8yi5cHcLnFNksB&amp;list=PLwmmiI53xsNQvJP2DEdkA-Y5U6qDv_18M';}
+	if (rng==1) {myLabel='Mugenize playlist',youtube='videoseries?si=2ZMgE207rmPLtDGF&amp;list=PLwmmiI53xsNSYw7zpYJztCY58nKnvMh9-';}
+	if (rng==2) {myLabel='Mugen community videos',youtube='videoseries?si=oqow6my_GV8l5n-y&amp;list=PLwmmiI53xsNQsutr_aFPXdNxuCh8xuYAW';}
+	if (rng==3) {myLabel='My [MUGEN] chars',youtube='videoseries?si=hMqOzWZrN5LCOpGO&amp;list=PLwmmiI53xsNStY5hFlQNq0_NjfQGz7Yk2';}
+	if (rng==4) {myLabel='My [MUGEN] stages',youtube='videoseries?si=EarCbGAwf8FfiKEr&amp;list=PLwmmiI53xsNSXfk5moo-qdsDQ2Z2HcRxG';}
 break;
 }
 
