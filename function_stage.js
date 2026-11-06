@@ -817,7 +817,7 @@ mydiv='Dense_Jungle',imgur='9aKwD6M.png',gdrv='1ouGRVEP7IPamjAgjYiL1xhdYYGaPfnwr
 	ytVid='jQl2qvV-g7M'; //@Macaulyn_97
 break;
 case 144:
-mydiv='Jiu_Xiang_Rong_Dong',imgur='mXzscPv.png',gdrv='1e-D6IIh5lc_DO8wk4PoFM_Y88MgzvUKB'
+mydiv='Jiu_Xiang_Rong_Dong',imgur='mXzscPv.png',gdrv='1e-D6IIh5lc_DO8wk4PoFM_Y88MgzvUKB',bannerHtml='ankokunaitou.blog.fc2.com',bannerImg='i.imgur.com/EIXSnzc.png';
 	ytPreview='j2NweYcT_UM'; //@mabskmk
 break;
 case 145:
