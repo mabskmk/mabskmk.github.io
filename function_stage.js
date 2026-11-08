@@ -822,7 +822,7 @@ mydiv='Jiu_Xiang_Rong_Dong',imgur='mXzscPv.png',gdrv='1e-D6IIh5lc_DO8wk4PoFM_Y88
 break;
 case 145:
 mydiv='Tietê',imgur='hVQbFCj.png',gdrv='1TdrSHbkmHnV_h6Q3W520Wihc9646KZbJ'
-	ytPreview='5WXhWGQxMws'; //@mabskmk
+	ytPreview='f72YDbaFgno'; //@mabskmk
 break;
 case 146:
 mydiv='Ulu_City_2',imgur='9urjRsW.png',gdrv='1KmBAayxkuuEeHgKN-gyZ-GXy_vsW2wOK'
