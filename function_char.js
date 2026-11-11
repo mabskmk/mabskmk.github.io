@@ -399,7 +399,7 @@ rng=(Math.floor(Math.random()*10));
 	if (rng==7) {ytVid='qgLOndlDzR0?si=0IqyCV94QfsjuZAW&start=23&end=73';} //@tenshihinanawi1643
 	if (rng==8) {ytVid='aUq0eaEb4Ak?si=DHeexi5KxAGRPFmy&start=5&end=55';} //@trackiesthead1563
 	if (rng==9) {ytVid='1h6h7rn9krM?si=n4_F9Fx9s4DGJYHJ&start=12&end=62';} //@jewelmen10mugen87
-	ytPreview='oNP0GnxG3xM'; //@mabskmk
+	ytPreview='4Z9wn4wjxvQ'; //@mabskmk
 break;
 case 47:
 mydiv='R-Memory',imgur='RNwRj1K',imgur9='vj39rR3.png',game='R-Type',ctype='Bonus',lastupdate='31/10/20',gdrv='1PNzI6IssGK8BSsYcLCr2xSVrdiDblXVX';
