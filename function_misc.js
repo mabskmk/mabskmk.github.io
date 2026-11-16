@@ -378,7 +378,7 @@ case 50:
 linkTitle='chomikuj',linkHref='chomikuj.pl',linkImage='chomikuj.pl';
 break;
 case 51:
-linkTitle='cling',linkHref='cling.com/c/Bookmarks-b2DI9fiwpjI75GAEvRmvezb',linkImage='cling.com';
+linkTitle='cling',linkHref='cling.com/c/Bookmarks-b2DI9fiwpjI75GAEvRmvezb',linkImagee='https://cling.com/c/static/icon_512.png';
 break;
 case 52:
 linkTitle='uptodown',linkHref='www.uptodown.com',linkImage='www.uptodown.com';
