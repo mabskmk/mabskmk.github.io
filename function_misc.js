@@ -231,7 +231,7 @@ case 1:
 linkTitle='csdb',linkHref='csdb.dk/scener/?id=4616',linkImage='www.csdb.dk';
 break;
 case 2:
-linkTitle='pcloud',linkHref='my.pcloud.com/#page=register&invite=QyVhZug5dQk',linkImage='www.pcloud.com';
+linkTitle='pcloud',linkHref='my.pcloud.com/#page=register&invite=QyVhZug5dQk',linkImagee='my.pcloud.com/favicons/favicon-32x32.png';
 break;
 case 3:
 linkTitle='alison',linkHref='www.alison.com',linkImage='www.alison.com';
@@ -258,7 +258,7 @@ case 10:
 linkTitle='washu.org',linkHref='www.washu.org',linkImage='www.washu.org';
 break;
 case 11:
-linkTitle='animemusicvideos',linkHref='www.animemusicvideos.org',linkImage='www.animemusicvideos.org';
+linkTitle='animemusicvideos',linkHref='www.animemusicvideos.org',linkImagee='www.animemusicvideos.org/favicon.ico';
 break;
 case 12:
 linkTitle='scp_foundation',linkHref='scp-wiki.wikidot.com',linkImagee='scp-wiki.wikidot.com/local--favicon/favicon.gif';
@@ -378,7 +378,7 @@ case 50:
 linkTitle='chomikuj',linkHref='chomikuj.pl',linkImage='chomikuj.pl';
 break;
 case 51:
-linkTitle='cling',linkHref='cling.com/c/Bookmarks-b2DI9fiwpjI75GAEvRmvezb',linkImagee='https://cling.com/c/static/icon_512.png';
+linkTitle='cling',linkHref='cling.com/c/Bookmarks-b2DI9fiwpjI75GAEvRmvezb',linkImagee='cling.com/c/static/icon_512.png';
 break;
 case 52:
 linkTitle='uptodown',linkHref='www.uptodown.com',linkImage='www.uptodown.com';
