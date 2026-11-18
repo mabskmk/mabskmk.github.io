@@ -821,7 +821,7 @@ case 147:
 mydiv='MapleStory_Moon',imgur='lq3g3j8.png',gdrv='1CIejsSi-CPd-aK3LyyMstMP0iZCFoA3P'
 break;
 case 148:
-mydiv='Soft_&_Cuddly',imgur='Q5vppKs.png',gdrv='1-wtDeg3G-pKsa3jX8nriaRjqHixSDOfA'
+mydiv='Soft_&_Cuddly',imgur='Q5vppKs.png',gdrv='1-wtDeg3G-pKsa3jX8nriaRjqHixSDOfA',zpoints=10000
 break;
 case 149:
 mydiv='Childam',imgur='vwyHC1p.png',gdrv='1Coma7X1m3yUBEn0RVq27Vzk7Ab0Fs28J'
