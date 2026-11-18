@@ -323,7 +323,7 @@ break;
 case 32:
 mydiv='Castle_War',imgur='Xehem37',imgur9='aVsXFAq.png',game='Various',ctype='Tower defense',lastupdate='07/11/12',gdrv='1usRBM7HowIsEPqHnE6guEGMk3EbZO87l'
 	ytVid='STLukVJ51VM'; //@huntergamemodification56
-	ytPreview='fB1XfLCLSWk'; //@mabskmk
+	ytPreview='l2_VuqqoDoU'; //@mabskmk
 break;
 case 33:
 mydiv='Yasha-Hime',imgur='p4i3ONN',imgur9='Yg7zSMS.png',game='Ganryu',ctype='Boss',lastupdate='02/11/18',gdrv='1Dr6zJ0-Ah0ExxmRk2DfJ--burI9DMGMR';
