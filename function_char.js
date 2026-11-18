@@ -434,7 +434,6 @@ mydiv='Sandwitch',imgur='2APcz3X',imgur9='zyTExeh.png',game='Puyo_Puyo',ctype='B
 break;
 case 54:
 mydiv='Sausage_Monks',imgur='uVVlLl7',imgur9='en1KRSZ.png',game='Makaimura',ctype='Bonus',lastupdate='31/10/24',gdrv='1c43XQfrPThdtR2g1rM8kPMyrPffJeqOH'
-	ytVid='0Ylj3QyWDPo?si=NW7HsFX4g9PskmnH&start=370&end=420'; //@AL82RetrogamingLongplays
 break;
 case 55:
 mydiv='Rede_Globo',imgur='cQtHlPU',imgur9='T9e4Il1.png',game='???',ctype='Joke',lastupdate='<b>30/10/19</b>',gdrv='1jjLIScUv8tqO6-w6QAfe7XpccP6ENzFX',zpoints=10000
