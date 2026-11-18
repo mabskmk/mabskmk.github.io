@@ -404,7 +404,7 @@ break;
 case 47:
 mydiv='R-Memory',imgur='RNwRj1K',imgur9='vj39rR3.png',game='R-Type',ctype='Bonus',lastupdate='31/10/20',gdrv='1PNzI6IssGK8BSsYcLCr2xSVrdiDblXVX';
 	ytVid='lxuzFYhnJbI?si=9TgFK-geJ60x3wd_&start=14&end=64'; //@jewelmen10mugen87
-	ytPreview='ppYTvNxhrII'; //@mabskmk
+	ytPreview='WNj1zkk6iDA'; //@mabskmk
 break;
 case 48:
 mydiv='Head-of-Ukyo',imgur='RZ9lnLU',imgur9='Y7rsQZd.png',game='original',ctype='Boss',lastupdate='31/10/20',gdrv='1jPx1agCPmLw2Sc9ew4o8zS9j4xnajn9E'
