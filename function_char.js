@@ -425,7 +425,6 @@ rng=(Math.floor(Math.random()*2));
 break;
 case 52:
 mydiv='OOM-Killer',imgur='meIJuGr',imgur9='1iC2W4S.png',game='Turrican',ctype='Bonus',lastupdate='31/10/21',gdrv='1mZm2fg8-GE29Uk61ZOPNlc7NMNy0LfJe'
-	ytVid='kT01XXoHUps?si=1JKv5DQQhIgy3EXh&start=180&end=230'; //@crazyghost5357
 break;
 case 53:
 mydiv='Sandwitch',imgur='2APcz3X',imgur9='zyTExeh.png',game='Puyo_Puyo',ctype='Bonus',lastupdate='31/10/21',gdrv='1CrFqUEl2u9or1SRXbJ5GqwpZVJ1FKtMu'
