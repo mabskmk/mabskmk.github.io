@@ -767,7 +767,7 @@ case 133:
 mydiv='Tails_Adventure',imgur='dZ6dOhE.gif',gdrv='1IgCC20_LftsIx_4IzuQ7U-8Jll2s0UQV'
 break;
 case 134:
-mydiv='Trump_Castle',imgur='uuXaSYP.gif',gdrv='1cMAkHNBloMttCw9YAhQROHgqFx8vfzwa';
+mydiv='Trump_Castle',imgur='uuXaSYP.gif',gdrv='1cMAkHNBloMttCw9YAhQROHgqFx8vfzwa',zpoints=10000
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytVid='TBCiWBeykzA';} //@I_yeet_deez_nuts_in_your_mouth
 	if (rng==1) {ytVid='S4peLoHKecM?si=nTtTiMyr2fFmANf1&start=12&end=62';} //@jewelmen10mugen87
