@@ -1,4 +1,4 @@
-const numExtras=5;
+const numExtras=2;
 const numLinks=66;
 var checkMisc = new Array((numExtras)+1);
 var checkLinks = new Array((numLinks)+1);
@@ -136,32 +136,29 @@ rng=(Math.floor(Math.random()*96));
 	if (rng==95) {bitchute='z28P2dfeHU6l';}
 break;
 case 2:
+rng=(Math.floor(Math.random()*7));
+	if (rng==0) {myLabel='Misc uploads playlist',youtube='videoseries?si=QQ8yi5cHcLnFNksB&amp;list=PLwmmiI53xsNQvJP2DEdkA-Y5U6qDv_18M',link='www.youtube.com/playlist?list=PLwmmiI53xsNQvJP2DEdkA-Y5U6qDv_18M';}
+	if (rng==1) {myLabel='Mugenize playlist',youtube='videoseries?si=2ZMgE207rmPLtDGF&amp;list=PLwmmiI53xsNSYw7zpYJztCY58nKnvMh9-',link='www.youtube.com/playlist?list=PLwmmiI53xsNSYw7zpYJztCY58nKnvMh9-';}
+	if (rng==2) {myLabel='Mugen community videos',youtube='videoseries?si=oqow6my_GV8l5n-y&amp;list=PLwmmiI53xsNQsutr_aFPXdNxuCh8xuYAW',link='www.youtube.com/playlist?list=PLwmmiI53xsNQsutr_aFPXdNxuCh8xuYAW';}
+	if (rng==3) {myLabel='GaMeS',youtube='videoseries?si=Jq4dbVss0i5wgg1_&amp;list=PLwmmiI53xsNS2p5bVRnEMvTK7A54VZ8GA',link='www.youtube.com/playlist?list=PLwmmiI53xsNS2p5bVRnEMvTK7A54VZ8GA';}
+	if (rng==4) {myLabel='Cinema',youtube='videoseries?si=w07VQ4Vt-E0CpyFp&amp;list=PLwmmiI53xsNQlEEWr2XpDDa7Qi0TSjNxJ',link='www.youtube.com/playlist?list=PLwmmiI53xsNQlEEWr2XpDDa7Qi0TSjNxJ';}
+	if (rng==5) {myLabel='FAVs',youtube='videoseries?si=JRDXxGQiVaqONwNq&amp;list=PLwmmiI53xsNTAnaBZXJfYuYRTtKgH58oV',link='www.youtube.com/playlist?list=PLwmmiI53xsNTAnaBZXJfYuYRTtKgH58oV';}
+	if (rng==6) {myLabel='Following playlist',youtube='videoseries?si=63o-JDeYPi4X4Tai&amp;list=PLwmmiI53xsNRl0wVykp6pZ5zg_6JPgY1U',link='www.youtube.com/playlist?list=PLwmmiI53xsNRl0wVykp6pZ5zg_6JPgY1U';}
+break;
+case 3:
 myLabel='Check out the 66th place in MAGMML2',youtube='zSFWH5X9K_Y?si=oPb63hYxItrSzeOP',link='magmmlcontest.com/wiki/index.php/Chomp_Man_(stage)',bannerHtml='www.sprites-inc.co.uk',bannerImg='i.imgur.com/RqfqBg1.png'
 rng=(Math.floor(Math.random()*738));
 	youtube=(youtube+"&start="+rng+"&end="+(rng+50));
 break;
-case 3:
+case 4:
 myLabel='MUGEN_means_INFINITY',youtube='yfgdqUY4CSc?si=dyLvAwEU11ouWsBL'
 rng=(Math.floor(Math.random()*288));
 	youtube=(youtube+"&start="+rng+"&end="+(rng+50));
 break;
-case 4:
+case 5:
 myLabel='some Jayce and the wheeled warriors',youtube='JFBGdRH2ajk?si=phppoIuckRSw__Dj'
 rng=(Math.floor(Math.random()*280));
 	youtube=(youtube+"&start="+rng+"&end="+(rng+50));
-break;
-case 5:
-rng=(Math.floor(Math.random()*10));
-	if (rng==0) {myLabel='Misc uploads playlist',youtube='videoseries?si=QQ8yi5cHcLnFNksB&amp;list=PLwmmiI53xsNQvJP2DEdkA-Y5U6qDv_18M',link='www.youtube.com/playlist?list=PLwmmiI53xsNQvJP2DEdkA-Y5U6qDv_18M';}
-	if (rng==1) {myLabel='Mugenize playlist',youtube='videoseries?si=2ZMgE207rmPLtDGF&amp;list=PLwmmiI53xsNSYw7zpYJztCY58nKnvMh9-',link='www.youtube.com/playlist?list=PLwmmiI53xsNSYw7zpYJztCY58nKnvMh9-';}
-	if (rng==2) {myLabel='Mugen community videos',youtube='videoseries?si=oqow6my_GV8l5n-y&amp;list=PLwmmiI53xsNQsutr_aFPXdNxuCh8xuYAW',link='www.youtube.com/playlist?list=PLwmmiI53xsNQsutr_aFPXdNxuCh8xuYAW';}
-	if (rng==3) {myLabel='My [MUGEN] chars',youtube='videoseries?si=hMqOzWZrN5LCOpGO&amp;list=PLwmmiI53xsNStY5hFlQNq0_NjfQGz7Yk2',link='www.youtube.com/playlist?list=PLwmmiI53xsNStY5hFlQNq0_NjfQGz7Yk2';}
-	if (rng==4) {myLabel='My [MUGEN] stages',youtube='videoseries?si=EarCbGAwf8FfiKEr&amp;list=PLwmmiI53xsNSXfk5moo-qdsDQ2Z2HcRxG',link='www.youtube.com/playlist?list=PLwmmiI53xsNSXfk5moo-qdsDQ2Z2HcRxG';}
-	if (rng==5) {myLabel='GaMeS',youtube='videoseries?si=Jq4dbVss0i5wgg1_&amp;list=PLwmmiI53xsNS2p5bVRnEMvTK7A54VZ8GA',link='www.youtube.com/playlist?list=PLwmmiI53xsNS2p5bVRnEMvTK7A54VZ8GA';}
-	if (rng==6) {myLabel='Cinema',youtube='videoseries?si=w07VQ4Vt-E0CpyFp&amp;list=PLwmmiI53xsNQlEEWr2XpDDa7Qi0TSjNxJ',link='www.youtube.com/playlist?list=PLwmmiI53xsNQlEEWr2XpDDa7Qi0TSjNxJ';}
-	if (rng==7) {myLabel='FAVs',youtube='videoseries?si=JRDXxGQiVaqONwNq&amp;list=PLwmmiI53xsNTAnaBZXJfYuYRTtKgH58oV',link='www.youtube.com/playlist?list=PLwmmiI53xsNTAnaBZXJfYuYRTtKgH58oV';}
-	if (rng==8) {myLabel='My [MUGEN] games',youtube='videoseries?si=qztPNcykHsWQX7rA&amp;list=PLwmmiI53xsNQnHLX5CudT61_b3jg4W0On',link='www.youtube.com/playlist?list=PLwmmiI53xsNQnHLX5CudT61_b3jg4W0On';}
-	if (rng==9) {myLabel='Following playlist',youtube='videoseries?si=63o-JDeYPi4X4Tai&amp;list=PLwmmiI53xsNRl0wVykp6pZ5zg_6JPgY1U',link='www.youtube.com/playlist?list=PLwmmiI53xsNRl0wVykp6pZ5zg_6JPgY1U';}
 break;
 }
 
