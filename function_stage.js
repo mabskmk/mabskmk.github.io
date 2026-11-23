@@ -200,7 +200,7 @@ rng=(Math.floor(Math.random()*2));
 	if (rng==1) {ytVid='abxmIIceX3c';} //@RoySquadRocks
 break;
 case 23:
-mydiv='Chemical_Plant',imgur='3Xba3Hf.gif',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa';
+mydiv='Chemical_Plant',imgur='3Xba3Hf.gif',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9';
 rng=(Math.floor(Math.random()*16));
 	if (rng==0) {ytVid='Qlv2KUWhHrE';} //@MugenLord
 	if (rng==1) {ytVid='uTdxHzFzCIw';} //@Seenik09
@@ -227,7 +227,7 @@ rng=(Math.floor(Math.random()*3));
 	if (rng==2) {ytVid='maIWS4E4fJ4';} //@RoySquadRocks
 break;
 case 25:
-mydiv='Oil_Ocean',imgur='pcjB4Sm.png',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa';
+mydiv='Oil_Ocean',imgur='pcjB4Sm.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9';
 rng=(Math.floor(Math.random()*8));
 	if (rng==0) {ytVid='MQrD4DVeXpI';} //@NICK54222
 	if (rng==1) {ytVid='CWPJgpGHC70';} //@Seenik09
@@ -432,7 +432,7 @@ rng=(Math.floor(Math.random()*5));
 	if (rng==4) {ytVid='Od0nJmcgz8Y?si=-swdNBhSd91kc0b0&start=12&end=62';} //@jewelmen10mugen87
 break;
 case 60:
-mydiv='Mystic_Cave',imgur='OrOgvJ9.png',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa';
+mydiv='Mystic_Cave',imgur='OrOgvJ9.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9';
 rng=(Math.floor(Math.random()*5));
 	if (rng==0) {ytVid='0xovvA9fa-A?si=mlJwU39dmUSw4S-v&start=17&end=67';} //@Stargazer1331
 	if (rng==1) {ytVid='43E1MiYvBPU?si=lyI3r0ruJ53o8iZG&start=15&end=65';} //@jewelmen10mugen87
@@ -460,7 +460,7 @@ mydiv='Z-Leo',imgur='MbtkMgt.png',gdrv='1OkIpLS0e62aq2uG3QWvMBRhhyIOERn4L',banne
 	ytPreview='9CkJPL9vhLM'; //@mabskmk
 break;
 case 65:
-mydiv='Labyrinth_Zone',imgur='Rfv7CCF.png',gdrv='1zWWD2hpbTetEEOYYqxxyC2Lv9GMYKMHD'
+mydiv='Labyrinth_Zone',imgur='Rfv7CCF.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9'
 rng=(Math.floor(Math.random()*4));
 	if (rng==0) {ytVid='sxkFl97bXDg?si=yfDPxKNUcgGmlxOK&start=12&end=62';} //@jewelmen10mugen87
 	if (rng==1) {ytVid='9hyiak018M8?si=5_MKLLqjLWgxHR1x&start=51&end=101';} //@NICK54222
@@ -468,7 +468,7 @@ rng=(Math.floor(Math.random()*4));
 	if (rng==3) {ytVid='G1YQfpv7aMg';} //@ChriS7V4zq
 break;
 case 66:
-mydiv='Jungle_Zone',imgur='lHK4I0Q.png',gdrv='1IgCC20_LftsIx_4IzuQ7U-8Jll2s0UQV'
+mydiv='Jungle_Zone',imgur='lHK4I0Q.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9'
 rng=(Math.floor(Math.random()*3));
 	if (rng==0) {ytVid='TcGS-lSdts0?si=0o9phSiWMQl2JLfJ&start=12&end=62';} //@jewelmen10mugen87
 	if (rng==1) {ytVid='Mv-gKkfPlVU';} //@DewmanWasTaken
@@ -476,7 +476,7 @@ rng=(Math.floor(Math.random()*3));
 	ytPreview='xoqPRH77X-4'; //@mabskmk
 break;
 case 67:
-mydiv='ScrapBrainZone',imgur='zCmVTXI.png',gdrv='1zWWD2hpbTetEEOYYqxxyC2Lv9GMYKMHD'
+mydiv='ScrapBrainZone',imgur='zCmVTXI.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9'
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytVid='V3t-2me55EA?si=_HsKkni7gmH7tcOl&start=34&end=84';} //@NICK54222
 	if (rng==1) {ytVid='HJDnD5xAAqc?si=yKMWXThkWgs5ImGP&start=23&end=73';} //@trackiesthead1563
@@ -492,7 +492,7 @@ case 69:
 mydiv='Stage_Humio',imgur='vQfR8CP.png',gdrv='1Z-D3blpn4dVEivSYxgH1TvPGC6_grEWg'
 break;
 case 70:
-mydiv='sonic_Special_Stage',imgur='AALc2fw.png',gdrv='1zWWD2hpbTetEEOYYqxxyC2Lv9GMYKMHD'
+mydiv='sonic_Special_Stage',imgur='AALc2fw.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9'
 rng=(Math.floor(Math.random()*3));
 	if (rng==0) {ytVid='cjRo9w_z6kU?si=BiP_sSMcpoIt7eEm&start=12&end=62';} //@jewelmen10mugen87
 	if (rng==1) {ytVid='jlsZduWNCvw?si=MoFxYDDdDm0NFFCw&start=23&end=73';} //@NICK54222
@@ -597,7 +597,7 @@ case 94:
 mydiv='Probertson+',imgur='gETlJMg.gif',gdrv='1w9FXy4aAw_r0Wd_7g3F4I7tUrSOJZgEI'
 break;
 case 95:
-mydiv='Aquatic_Ruins',imgur='cBIt8OT.png',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa';
+mydiv='Aquatic_Ruins',imgur='cBIt8OT.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9';
 rng=(Math.floor(Math.random()*6));
 	if (rng==0) {ytVid='XRbr9pR4FGA';} //@trackiesthead1563
 	if (rng==1) {ytVid='9-a-dJ152ao';} //@NICK54222
@@ -659,7 +659,7 @@ case 109:
 mydiv='Jiii',imgur='t9ZGdu5.png',gdrv='1qQhbzMzLsLM8KEjb_Vw2yTnIOac-YJR_'
 break;
 case 110:
-mydiv='Angel_Island',imgur='dST8Gh8.gif',gdrv='1IgCC20_LftsIx_4IzuQ7U-8Jll2s0UQV';
+mydiv='Angel_Island',imgur='dST8Gh8.gif',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9';
 rng=(Math.floor(Math.random()*3));
 	if (rng==0) {ytVid='C36o3XdkV7U';} //@DiogoCell-Sama
 	if (rng==1) {ytVid='F7jB__I8Xsw?si=avlV8u3qaYO21RNs&start=12&end=62';} //@jewelmen10mugen87
@@ -702,7 +702,7 @@ mydiv='ZookHero',imgur='qwrbijL.gif',gdrv='1PrOzL00vpXmloxTMDHuOOvEzicOeByPw'
 	ytPreview='7CaWcleOBqM'; //@mabskmk
 break;
 case 119:
-mydiv='CollisionChaos',imgur='pdxfzgM.png',gdrv='1IgCC20_LftsIx_4IzuQ7U-8Jll2s0UQV'
+mydiv='CollisionChaos',imgur='pdxfzgM.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9'
 	ytVid='SRM6IFpAkgU?si=bicWdHi6w2iZhxLl&start=13&end=63'; //@jewelmen10mugen87
 	ytPreview='AddGPc0lyY8'; //@mabskmk
 break;
@@ -764,7 +764,7 @@ mydiv='Majyuuou',imgur='IPxOOKq.gif',gdrv='1OGF4O5R9EHDplwmpAb4lx58NaBC305Ag'
 	ytPreview='9JmM0AXnhOM'; //@mabskmk
 break;
 case 133:
-mydiv='Tails_Adventure',imgur='dZ6dOhE.gif',gdrv='1IgCC20_LftsIx_4IzuQ7U-8Jll2s0UQV'
+mydiv='Tails_Adventure',imgur='dZ6dOhE.gif',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9'
 break;
 case 134:
 mydiv='Trump_Castle',imgur='uuXaSYP.gif',gdrv='1cMAkHNBloMttCw9YAhQROHgqFx8vfzwa',zpoints=10000
@@ -776,7 +776,7 @@ case 135:
 mydiv='Alex_Kidd_SW',imgur='Bh3ZJYA.gif',gdrv='14tIuGNaATof4tdimK6HitxNYLBER-d5V'
 break;
 case 136:
-mydiv='Mystic_Cave:RE',imgur='btOgGEX.gif',gdrv='18oxoRSj3r25I99vVUW3ET9KXAhOG6oEa'
+mydiv='Mystic_Cave:RE',imgur='btOgGEX.gif',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9'
 break;
 case 137:
 mydiv='KirbyMK4',imgur='VBu57Re.gif',gdrv='10ISB1TYCzgLDa0nlJGtDhuAkgeET6nGy';
