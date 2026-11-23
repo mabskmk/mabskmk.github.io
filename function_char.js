@@ -257,7 +257,7 @@ rng=(Math.floor(Math.random()*5));
 	if (rng==2) {ytVid='9mi7zuM6OYQ';} //@YamiLegends
 	if (rng==3) {ytVid='_iHnIvB3ydU';} //@DavidBurgessMechanicalMusic
 	if (rng==4) {ytVid='HGT3hNf1bUU';} //@I_hope_you_ch0ke_on_em
-	ytPreview='V9DKiMvb71o'; //@mabskmk
+	ytPreview='4nohyhCJvFY'; //@mabskmk
 break;
 case 24:
 mydiv='Heli-Master',imgur='lk7NGsI',imgur9='tmJNGkD.png',game='Alex Kidd',ctype='Boss',lastupdate='03/06/13',gdrv='1Z6E3Jqg_QEQ06Sby8mfBmrflgSgWrb6B'
