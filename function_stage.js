@@ -504,7 +504,7 @@ mydiv='Tower_of_MORGUL',imgur='36jrd6T.png',gdrv='1-NKnO4xFHRgjm3PZRhHC-K5EF6ukc
 break;
 case 72:
 mydiv='Cilia_Monster',imgur='hzdVhqX.png',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n'
-	ytPreview='7-Hcnovv2BU'; //@mabskmk
+	ytPreview='6ghhribCWUA'; //@mabskmk
 break;
 case 73:
 mydiv='Galatic-Night-Club',imgur='9mhQVWp.png',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n'
@@ -575,7 +575,7 @@ mydiv='Stage_hentai2',imgur='AYGqEmn.png',gdrv='18FhvNthzjJfmz4FkfcWRe0Xxe9VhOFR
 break;
 case 89:
 mydiv='Tyrone',imgur='qMVo2hp.png',gdrv='1OlD0wc2dK0fXsFA6o8kolBRguwTrzVI6'
-	ytPreview='iaUlc-36wp0'; //@mabskmk
+	ytPreview='0A_3NLUrAt4'; //@mabskmk
 break;
 case 90:
 mydiv='R-type_Junk',imgur='LMLAnUi.png',gdrv='1vrGpdGB43ZvJHbJpZMzPnz0JlzMR_Cv7'
@@ -819,6 +819,7 @@ mydiv='Ulu_City_2',imgur='9urjRsW.png',gdrv='1KmBAayxkuuEeHgKN-gyZ-GXy_vsW2wOK'
 break;
 case 147:
 mydiv='MapleStory_Moon',imgur='lq3g3j8.png',gdrv='1CIejsSi-CPd-aK3LyyMstMP0iZCFoA3P'
+	ytPreview='ElHLRLCoJu0'; //@mabskmk
 break;
 case 148:
 mydiv='Soft_&_Cuddly',imgur='Q5vppKs.png',gdrv='1-wtDeg3G-pKsa3jX8nriaRjqHixSDOfA',zpoints=10000
