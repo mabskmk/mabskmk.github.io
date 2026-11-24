@@ -54,34 +54,54 @@ intervalTime=setTimeout('showcaseMisc()',50000); //showcaseCharacter -> showcase
 
 // Stage database
 function stageData(numero,code) {
+let rng			= 0;
+let mydiv		='';
+let imgur		='';
+let gdrv		='';
+let zpoints		= 0;
+let stgCat		= 0; //***
+let lastupdate	=''; //***
 let bannerHtml	='';
 let bannerImg	='';
 let ytVid		='';
 let ytPreview	='';
 let sufix		='?autoplay=1&mute=1';
-let zpoints		=0;
-let rng			=0;
 
+/*
+stgCat
+1-Arcade
+2-Sega Genesis
+3-Sonic
+4-GunstarHeroes
+5-Makaimura
+6-SegaMasterSystem
+7-NES
+8-SuperNes
+9-Other
+10-Crafted
+11-Hentai?
+*/
+	
 //rng
 //if (numero<(numStages-10) && cod==2){
 //cod=cod-(Math.floor(Math.random() * 2));
 //}
 switch (numero) {
 case 1:
-mydiv='Genostages',imgur='VTTE2gJ.gif',gdrv='1sUUQGAlS_eAuu_OMKyW-2Qk_X0io-Pf3'
+mydiv='Genostages',imgur='VTTE2gJ.gif',gdrv='1sUUQGAlS_eAuu_OMKyW-2Qk_X0io-Pf3',stgCat=10,lastupdate='14/06/2008'
 break;
 case 2:
-mydiv='Blacks_Base',imgur='AmpFGDr.gif',gdrv='1YhNUX_0osdyDKucya4xLUMGDrKt5MVO0',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png'
+mydiv='Blacks_Base',imgur='AmpFGDr.gif',gdrv='1YhNUX_0osdyDKucya4xLUMGDrKt5MVO0',stgCat=4,lastupdate='20/04/2024',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png'
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytVid='9y0G_ZKYj-A';} //@RoySquadRocks
 	if (rng==1) {ytVid='fpJ0iCElGV0';} //@RoySquadRocks
 break;
 case 3:
-mydiv='Force_Mine',imgur='QVjmOo1.png',gdrv='1YhNUX_0osdyDKucya4xLUMGDrKt5MVO0',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png'
+mydiv='Force_Mine',imgur='QVjmOo1.png',gdrv='1YhNUX_0osdyDKucya4xLUMGDrKt5MVO0',stgCat=4,lastupdate='20/04/2024',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png'
 	ytVid='iuvGv3Dfip4?si=RsMRw18e_H0i81MW&start=565&end=615'; //@AL82RetrogamingLongplays
 break;
 case 4:
-mydiv='Vegetable_Valley',imgur='L0okcXj.gif',gdrv='168fKeVWT3Wz8ZsiH15brYFZePJ3WvsLz'
+mydiv='Vegetable_Valley',imgur='L0okcXj.gif',gdrv='168fKeVWT3Wz8ZsiH15brYFZePJ3WvsLz',stgCat=7,lastupdate='11/09/2016'
 rng=(Math.floor(Math.random()*6));
 	if (rng==0) {ytVid='TWjBeXqD8dA';} //@Poyomousy
 	if (rng==1) {ytVid='FBIktQkXfyg';} //@Thekronick900
@@ -91,26 +111,26 @@ rng=(Math.floor(Math.random()*6));
 	if (rng==5) {ytVid='u2qCargw0E0';} //@RoySquadRocks
 break;
 case 5:
-mydiv='Hazard_Tank',imgur='byemFHj.gif',gdrv='17nvOuqdoREYJoPy1yhXLXxUleRFkTFCt'
+mydiv='Hazard_Tank',imgur='byemFHj.gif',gdrv='17nvOuqdoREYJoPy1yhXLXxUleRFkTFCt',stgCat=8,lastupdate='24/05/2015'
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytVid='BAVli371mPo?si=Dy_VJW0YO5wH_O44&start=14&end=64';} //@trackiesthead1563
 	if (rng==1) {ytVid='JK83Z7o8DE8';} //@RoySquadRocks
 break;
 case 6:
-mydiv='Burning_Arena',imgur='Yfl1Ngj.png',gdrv='1LWy90J1QSC9Ljs6mNy4bpv7l-SQ7B7Sa'
+mydiv='Burning_Arena',imgur='Yfl1Ngj.png',gdrv='1LWy90J1QSC9Ljs6mNy4bpv7l-SQ7B7Sa',stgCat=9,lastupdate='19/05/2015'
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytVid='c5IEhFxgLLs';} //@DemonkaiMugen
 	if (rng==1) {ytVid='QyoZvvgc8cU';} //@gregcarmell8222		
 break;
 case 7:
-mydiv='Abadox',imgur='Ov5zTi6.png',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n'
+mydiv='Abadox',imgur='Ov5zTi6.png',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n',stgCat=7,lastupdate='16/10/2023'
 	ytVid='I8dFgjHwqNE?si=-j47x-Ew_aFKYVdy&start=70&end=120'; //@PEG
 break;
 case 8:
-mydiv='Titans_forest',imgur='goFjeiV.png',gdrv='1MRECApSGzHfDQzdnfQTrymNrRqx6Cw8x';
+mydiv='Titans_forest',imgur='goFjeiV.png',gdrv='1MRECApSGzHfDQzdnfQTrymNrRqx6Cw8x',stgCat=2,lastupdate='11/06/2020'
 break;
 case 9:
-mydiv='Slim_Subway_Smash',imgur='ZMRsPYv.png',gdrv='11YnMUNCEu9_eMTGoxUSn6WWSDZPI6C4t';
+mydiv='Slim_Subway_Smash',imgur='ZMRsPYv.png',gdrv='11YnMUNCEu9_eMTGoxUSn6WWSDZPI6C4t',stgCat=1,lastupdate='27/01/2010'
 rng=(Math.floor(Math.random()*6));
 	if (rng==0) {ytVid='CZ3BineK6TY';} //@PerryMason123
 	if (rng==1) {ytVid='So03mv6tE2U?si=pIanbh_HKSoszf_2&start=12&end=62';} //@jewelmen10mugen87
@@ -120,28 +140,28 @@ rng=(Math.floor(Math.random()*6));
 	if (rng==5) {ytVid='Efcb1dG0BeQ?si=eDwtFDhtqAmFcpa6&start=1166&end1216';} //@hloader_mugen
 break;
 case 10:
-mydiv='Crystal_Forest',imgur='b3DTdKy.png',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO';
+mydiv='Crystal_Forest',imgur='b3DTdKy.png',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO',stgCat=5,lastupdate='22/04/2024'
 	ytVid='EYIMYXpiilQ'; //@PerryMason123
 break;
 case 11:
-mydiv='Tower_of_Succubus',imgur='6esytlH.png',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO'
+mydiv='Tower_of_Succubus',imgur='6esytlH.png',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO',stgCat=5,lastupdate='22/04/2024'
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytVid='vJZuoBaZY3g?si=6XCvjicasBtjRM1_&start=12&end=62';} //@jewelmen10mugen87
 	if (rng==1) {ytVid='Rluu5t-NVzE';} //@RoySquadRocks
 break;
 case 12:
-mydiv='GORN',imgur='3zvtOl9.png',gdrv='1I96lvaw2ZqwwlzyCh9GiD7pmgYvaMrqs';
+mydiv='GORN',imgur='3zvtOl9.png',gdrv='1I96lvaw2ZqwwlzyCh9GiD7pmgYvaMrqs',stgCat=10,lastupdate='25/05/2015'
 	ytVid='bWKv7CUT5EI'; //@Macaulyn_97
 break;
 case 13:
-mydiv='Ulu_City',imgur='RnyPbox.gif',gdrv='1RdyfNVA4Dx7yAjUUewun8EhSeD6DGqhH'
+mydiv='Ulu_City',imgur='RnyPbox.gif',gdrv='1RdyfNVA4Dx7yAjUUewun8EhSeD6DGqhH',stgCat=9,lastupdate='11/09/2016'
 	ytVid='OKAqd3PZAP0?si=AjQKWlenIvDe777z&start=65&end=115'; //@MrSaut96
 break;
 case 14:
-mydiv='Stage_Etna',imgur='wUfekDC.png',gdrv='13vZUJmD97XnsU5JMdwdutcUniuPr6Pd5',zpoints=10000
+mydiv='Stage_Etna',imgur='wUfekDC.png',gdrv='13vZUJmD97XnsU5JMdwdutcUniuPr6Pd5',stgCat=11,lastupdate='20/05/2015',zpoints=10000
 break;
 case 15:
-mydiv='Ancient_Shadows',imgur='9QvIahU.gif',gdrv='18ucHZ1wXVEmX40FO3J5LCf1M7k_ao4ib';
+mydiv='Ancient_Shadows',imgur='9QvIahU.gif',gdrv='18ucHZ1wXVEmX40FO3J5LCf1M7k_ao4ib',stgCat=1,lastupdate='20/04/2024'
 rng=(Math.floor(Math.random()*6));
 	if (rng==0) {ytVid='QYOQ9QdDdTo';} //@PerryMason123
 	if (rng==1) {ytVid='9q_Z4p4TOa8';} //@StavrosSkunk
@@ -151,14 +171,14 @@ rng=(Math.floor(Math.random()*6));
 	if (rng==5) {ytVid='gnrP1gUCkSo?si=uHL1U9yYKpHhpsyB&start=1622&end=1672';} //@GuiSantosMUGEN
 break;
 case 16:
-mydiv='Burning_Village',imgur='pSV0xV2.png',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO';
+mydiv='Burning_Village',imgur='pSV0xV2.png',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO',stgCat=5,lastupdate='22/04/2024'
 rng=(Math.floor(Math.random()*3));
 	if (rng==0) {ytVid='Rqar3-aHPfA?si=zPAW1J5sJKqMQCxD&start=12&end=62';} //@jewelmen10mugen87
 	if (rng==1) {ytVid='QKn1N0qrtvQ';} //@DemonkaiMugen
 	if (rng==2) {ytVid='a7YnbEw0VxE';} //@RoySquadRocks
 break;
 case 17:
-mydiv='Death_Star_3',imgur='tieF0Cw.png',gdrv='1cy-n32Funvw1ktwXoMU5_OX3Ox6D0kfk'
+mydiv='Death_Star_3',imgur='tieF0Cw.png',gdrv='1cy-n32Funvw1ktwXoMU5_OX3Ox6D0kfk',stgCat=10,lastupdate='21/05/2015'
 rng=(Math.floor(Math.random()*6));
 	if (rng==0) {ytVid='L8Cul4QmPJs';} //@Macaulyn_97
 	if (rng==1) {ytVid='HgYddw8PxdY';} //@Macaulyn_97
@@ -168,19 +188,19 @@ rng=(Math.floor(Math.random()*6));
 	if (rng==5) {ytVid='u6JCDIEMEOg';} //@Macaulyn_97		
 break;
 case 18:
-mydiv='CDB',imgur='AaxPzr9.gif',gdrv='193jWOMqr2J3k5F0nyUbPEQGEmFtenT-p';
+mydiv='CDB',imgur='AaxPzr9.gif',gdrv='193jWOMqr2J3k5F0nyUbPEQGEmFtenT-p',stgCat=10,lastupdate='18/05/2015'
 	ytVid='lxuzFYhnJbI?si=9TgFK-geJ60x3wd_&start=14&end=64'; //@jewelmen10mugen87
 break;
 case 19:
-mydiv='Stage_Cammy',imgur='WsinSDY.png',gdrv='1qUvUCsJ6-cTF8t-pkE57qcuP7ttEiaO9';
+mydiv='Stage_Cammy',imgur='WsinSDY.png',gdrv='1qUvUCsJ6-cTF8t-pkE57qcuP7ttEiaO9',stgCat=11,lastupdate='20/05/2015'
 	ytVid='ewO9Au-pz28'; //@Macaulyn_97
 break;
 case 20:
-mydiv='Radioactive_Maze',imgur='QEIiYs1.png',gdrv='1H3lheymzSV6WWoLL9_J0RPnds7u2uF15'
+mydiv='Radioactive_Maze',imgur='QEIiYs1.png',gdrv='1H3lheymzSV6WWoLL9_J0RPnds7u2uF15',stgCat=10,lastupdate='24/04/2015'
 	ytVid='n_W_9ds9kuo'; //@MaycolGamer026
 break;
 case 21:
-mydiv='Club_MFG',imgur='0edotiu.png',gdrv='1w1wVnBn-_sEr2K-wLCk9qHtDfqLWY5L6';
+mydiv='Club_MFG',imgur='0edotiu.png',gdrv='1w1wVnBn-_sEr2K-wLCk9qHtDfqLWY5L6',stgCat=10,lastupdate='16/10/2023'
 rng=(Math.floor(Math.random()*6));
 	if (rng==0) {ytVid='Z4xqglmBWUk';} //@jewelmen10mugen87
 	if (rng==1) {ytVid='MaTlvasQLSU?si=eDSxTutsUc4Jekm4&start=20&end=70';} //@jewelmen10mugen87
@@ -194,13 +214,13 @@ rng=(Math.floor(Math.random()*6));
 	if (rng==9) {ytVid='S7GGNiTMNi0?si=YxEMr3NXsP_ts1in&start=15&end=65';} //@AyanoKimishima20
 break;
 case 22:
-mydiv='Transylvania',imgur='dQfLncX.png',gdrv='1wwEIGabRJlyf8KqKHjVMI3nggaPNj3Id'
+mydiv='Transylvania',imgur='dQfLncX.png',gdrv='1wwEIGabRJlyf8KqKHjVMI3nggaPNj3Id',stgCat=2,lastupdate='16/10/2023'
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytVid='qHLnf7J0-uI';} //@RoySquadRocks
 	if (rng==1) {ytVid='abxmIIceX3c';} //@RoySquadRocks
 break;
 case 23:
-mydiv='Chemical_Plant',imgur='3Xba3Hf.gif',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9';
+mydiv='Chemical_Plant',imgur='3Xba3Hf.gif',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9',stgCat=3,lastupdate='22/04/2024'
 rng=(Math.floor(Math.random()*16));
 	if (rng==0) {ytVid='Qlv2KUWhHrE';} //@MugenLord
 	if (rng==1) {ytVid='uTdxHzFzCIw';} //@Seenik09
@@ -220,14 +240,14 @@ rng=(Math.floor(Math.random()*16));
 	if (rng==15) {ytVid='tIK7oe8c-VE';} //@RoySquadRocks
 break;
 case 24:
-mydiv='Wild_Side',imgur='LdboBiv.png',gdrv='1koEXqyq-nh8_LSxCyvuEHyTPWoXww-ns'
+mydiv='Wild_Side',imgur='LdboBiv.png',gdrv='1koEXqyq-nh8_LSxCyvuEHyTPWoXww-ns',stgCat=2,lastupdate='20/04/2024'
 rng=(Math.floor(Math.random()*3));
 	if (rng==0) {ytVid='9BnY2Fr4OHo?si=lKtkvFT7hi6r2fGo&start=12&nd=62';} //@jewelmen10mugen87
 	if (rng==1) {ytVid='R56IcQ-5AEU?si=vLm8CXZj3uWlYFlM&start=12&nd=62';} //@jewelmen10mugen87
 	if (rng==2) {ytVid='maIWS4E4fJ4';} //@RoySquadRocks
 break;
 case 25:
-mydiv='Oil_Ocean',imgur='pcjB4Sm.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9';
+mydiv='Oil_Ocean',imgur='pcjB4Sm.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9',stgCat=3,lastupdate='22/04/2024'
 rng=(Math.floor(Math.random()*8));
 	if (rng==0) {ytVid='MQrD4DVeXpI';} //@NICK54222
 	if (rng==1) {ytVid='CWPJgpGHC70';} //@Seenik09
@@ -239,17 +259,17 @@ rng=(Math.floor(Math.random()*8));
 	if (rng==7) {ytVid='lGBi7D_kFoQ';} //@spookykujo6538
 break;
 case 26:
-mydiv='Moai_ruin',imgur='aen5RVb.gif',gdrv='1HCbYOLepWExO6LUFPiMweydWVgAjYCvu'
+mydiv='Moai_ruin',imgur='aen5RVb.gif',gdrv='1HCbYOLepWExO6LUFPiMweydWVgAjYCvu',stgCat=9,lastupdate='19/05/2015'
 	ytVid='BJ_-TDOj760'; //@YeetofYeets
 break;
 case 27:
-mydiv='X_Granada',imgur='7VMUvKp.png',gdrv='19DwhFwCvUL9yOyNktgjMhFB1Vx4kuxIb'
+mydiv='X_Granada',imgur='7VMUvKp.png',gdrv='19DwhFwCvUL9yOyNktgjMhFB1Vx4kuxIb',stgCat=2,lastupdate='20/04/2024'
 break;
 case 28:
-mydiv='Planet_Prision',imgur='1TljLfd.png',gdrv='1JhnQx-GmJzmJfnzZk7njhhjH-ouv4Aiy'
+mydiv='Planet_Prision',imgur='1TljLfd.png',gdrv='1JhnQx-GmJzmJfnzZk7njhhjH-ouv4Aiy',stgCat=8,lastupdate='24/04/2015'
 break;
 case 29:
-mydiv='Mechanical_Fortress',imgur='pzjVrAw.gif',gdrv='1I0RUUylHjABYlAOii3XR5AZtwn4nBVPD';
+mydiv='Mechanical_Fortress',imgur='pzjVrAw.gif',gdrv='1I0RUUylHjABYlAOii3XR5AZtwn4nBVPD',stgCat=9,lastupdate='26/04/2025'
 rng=(Math.floor(Math.random()*3));
 	if (rng==0) {ytVid='Ca9pd4IawGU';} ///@mugen7973
 	if (rng==1) {ytVid='b2u-HhPh00U';} //@MaycolGamer026
@@ -260,7 +280,7 @@ rng=(Math.floor(Math.random()*3));
 	if (rng==2) {ytPreview='mVyfOxW2YFg';} //@mabskmk
 break;
 case 30:
-mydiv='Haunted_Graveyard',imgur='OFjAdRB.png',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO'
+mydiv='Haunted_Graveyard',imgur='OFjAdRB.png',gdrv='1alZm1osFH0AHHDydXTEmkzgAwShPHvaO',stgCat=5,lastupdate='22/04/2024'
 rng=(Math.floor(Math.random()*3));
 	if (rng==0) {ytVid='_jUBgX1b7rg';} //@Macaulyn_97
 	if (rng==1) {ytVid='bZmofq-mkBc';} //@zerozuchibr1841
@@ -268,11 +288,11 @@ rng=(Math.floor(Math.random()*3));
 	//ytPreview='EXX8xO0hBuM'; //@mabskmk
 break;
 case 31:
-mydiv='NeonLight',imgur='vxBbbkP.png',gdrv='114xNnXpr_WCTn3IKkK9P_7SgzJu5-3z7'
+mydiv='NeonLight',imgur='vxBbbkP.png',gdrv='114xNnXpr_WCTn3IKkK9P_7SgzJu5-3z7',stgCat=10,lastupdate='20/04/2024'
 	ytVid='qQjL4P9guD0'; //@Macaulyn_97
 break;
 case 32:
-mydiv='Leventhan',imgur='AaXCSHe.png',gdrv='1oNKmO6lMX3P7-4QBSd2JJhLYLv0zI7rK';
+mydiv='Leventhan',imgur='AaXCSHe.png',gdrv='1oNKmO6lMX3P7-4QBSd2JJhLYLv0zI7rK',stgCat=9,lastupdate='20/04/2024'
 rng=(Math.floor(Math.random()*14));
 	if (rng==0) {ytVid='93SLJSuIDQA';} //@Macaulyn_97
 	if (rng==1) {ytVid='bJLUVn5rSX0';} //@xWagnerPlaguesx
@@ -290,27 +310,27 @@ rng=(Math.floor(Math.random()*14));
 	if (rng==13) {ytVid='RJhRgrwRSA4?si=eSPD4G57lg1WncT-&start=16&end=66';} //@tokaiteiopok%C3%A9monoutsiders99
 break;
 case 33:
-mydiv='Stage_ChunLi',imgur='SQ4IEWA.png',gdrv='1oQKJTJvKI-ftvYHG1AL_fnHZzAZtttmU';
+mydiv='Stage_ChunLi',imgur='SQ4IEWA.png',gdrv='1oQKJTJvKI-ftvYHG1AL_fnHZzAZtttmU',stgCat=11,lastupdate='20/05/2015'
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytVid='ACxBVlIOxqQ';} //@Macaulyn_97
 	if (rng==1) {ytVid='NI5gFMNKXAc';} //@Macaulyn_97
 break;
 case 34:
-mydiv='Stage_Makoto',imgur='swX7scp.png',gdrv='11MffW0ZA_2AOUsepDLhEa-WkOV26ROJM'
+mydiv='Stage_Makoto',imgur='swX7scp.png',gdrv='11MffW0ZA_2AOUsepDLhEa-WkOV26ROJM',stgCat=11,lastupdate='20/05/2015'
 break;
 case 35:
-mydiv='Stage_Scharlachrot',imgur='Q8ZaFoF.png',gdrv='16Xcp7eARuu5zNGq4YvNAUCko_yLr1KOB';
+mydiv='Stage_Scharlachrot',imgur='Q8ZaFoF.png',gdrv='16Xcp7eARuu5zNGq4YvNAUCko_yLr1KOB',stgCat=11,lastupdate='20/05/2015'
 	ytVid='WzRTUFKlICw'; //@charmanmugen
 break;
 case 36:
-mydiv='Hispeed_Elevator',imgur='ibSCSvX.png',gdrv='14KoyR7xOTvSeDttPxq8h8YjPgW9frreW'
+mydiv='Hispeed_Elevator',imgur='ibSCSvX.png',gdrv='14KoyR7xOTvSeDttPxq8h8YjPgW9frreW',stgCat=1,lastupdate='22/04/2024'
 rng=(Math.floor(Math.random()*3));
 	if (rng==0) {ytVid='I2X1I-KQVCo?si=OCp55JbPY6KeStAp&start=45&end=95';} //@Namaguideran
 	if (rng==1) {ytVid='4-7637tQXfc';} //@Thekronick900
 	if (rng==2) {ytVid='qx9koIR4Zzo';} //@jewelmen10mugen87
 break;
 case 37:
-mydiv='Space_Rocket',imgur='dj4xnbC.png',gdrv='14KoyR7xOTvSeDttPxq8h8YjPgW9frreW'
+mydiv='Space_Rocket',imgur='dj4xnbC.png',gdrv='14KoyR7xOTvSeDttPxq8h8YjPgW9frreW',stgCat=1,lastupdate='22/04/2024'
 rng=(Math.floor(Math.random()*4));
 	if (rng==0) {ytVid='flFicLMe8ZI';} //@charmanmugen
 	if (rng==1) {ytVid='uhjjjtwl_58';} //@AlexNico
@@ -318,17 +338,17 @@ rng=(Math.floor(Math.random()*4));
 	if (rng==3) {ytVid='iILQ0oI7iaM';} //@RoySquadRocks
 break;
 case 38:
-mydiv='Transportrain',imgur='9rbsCG5.png',gdrv='14KoyR7xOTvSeDttPxq8h8YjPgW9frreW'
+mydiv='Transportrain',imgur='9rbsCG5.png',gdrv='14KoyR7xOTvSeDttPxq8h8YjPgW9frreW',stgCat=1,lastupdate='22/04/2024'
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytVid='0Jr2Wg1RGB4';} //@windowsralf389
 	if (rng==1) {ytVid='GywVTnhDQ0E';} //@RoySquadRocks
 break;
 case 39:
-mydiv='Random_Insanity',imgur='oVbJf9D.png',gdrv='1g93dXyyJUAa5kZyPB_EVBrBUg-Atyq-M'
+mydiv='Random_Insanity',imgur='oVbJf9D.png',gdrv='1g93dXyyJUAa5kZyPB_EVBrBUg-Atyq-M',stgCat=10,lastupdate='24/04/2015'
 	ytVid='c8o3yU5fG9o?si=jIrLJi7RSeehidhf&start=12&end=62'; //@jewelmen10mugen87
 break;
 case 40:
-mydiv='DDND',imgur='fobMeKj.gif',gdrv='1FQaEZlhwn_YN9WQIdn4YgK66p2sJGjWy';
+mydiv='DDND',imgur='fobMeKj.gif',gdrv='1FQaEZlhwn_YN9WQIdn4YgK66p2sJGjWy',stgCat=9,lastupdate='21/11/2026'
 rng=(Math.floor(Math.random()*6));
 	if (rng==0) {ytVid='DWa-HvlBBaM?si=KsbaLCjAG3REL4rS&start=14&end=64';} //@LeonKyve
 	if (rng==1) {ytVid='3JgqhyQjslk';} //@Macaulyn_97
@@ -338,18 +358,18 @@ rng=(Math.floor(Math.random()*6));
 	if (rng==5) {ytVid='_cyCRsb5QSw';} //@AlexNico
 break;
 case 41:
-mydiv='The_bronze_auditorium',imgur='tMOSb03.png',gdrv='1Xfo5mGiR1HBudXTIPk4iPRQUpHiyEVKB'
+mydiv='The_bronze_auditorium',imgur='tMOSb03.png',gdrv='1Xfo5mGiR1HBudXTIPk4iPRQUpHiyEVKB',stgCat=9,lastupdate='20/04/2024'
 break;
 case 42:
-mydiv='secretvillage',imgur='qfpb7XO.gif',gdrv='1x0w8xldkvUZWbuO4ixG2DlsoQaLGGTBi'
+mydiv='secretvillage',imgur='qfpb7XO.gif',gdrv='1x0w8xldkvUZWbuO4ixG2DlsoQaLGGTBi',stgCat=9,lastupdate='25/05/2015'
 	ytVid='s1W71JmfCvE?si=IyCRH5mUd82kxld1&start=392&end=442'; //@trackiesthead1563
 break;
 case 43:
-mydiv='Subspace_Highway',imgur='ZU71Rq3.gif',gdrv='1pBjgxNoq6zNZm0A49TKo3snT12Eh8k_r'
+mydiv='Subspace_Highway',imgur='ZU71Rq3.gif',gdrv='1pBjgxNoq6zNZm0A49TKo3snT12Eh8k_r',stgCat=9,lastupdate='20/05/2015'
 	ytVid='fTvzQ4yrL_I'; //@charmanmugen
 break;
 case 44:
-mydiv='Snow_Rush',imgur='MfuWeak.png',gdrv='14KoyR7xOTvSeDttPxq8h8YjPgW9frreW'
+mydiv='Snow_Rush',imgur='MfuWeak.png',gdrv='14KoyR7xOTvSeDttPxq8h8YjPgW9frreW',stgCat=1,lastupdate='22/04/2024'
 rng=(Math.floor(Math.random()*4));
 	if (rng==0) {ytVid='UHwzJxMSvhs';} //@Macaulyn_97
 	if (rng==1) {ytVid='qJeuBBA9UKM';} //@Macaulyn_97
@@ -357,7 +377,7 @@ rng=(Math.floor(Math.random()*4));
 	if (rng==3) {ytVid='GCwmR2jBVTA';} //@Macaulyn_97
 break;
 case 45:
-mydiv='Arkanoid_Syn',imgur='KzmXv7S.gif',gdrv='15hIaPhP6DsDUjVJ-Un7rnOg5ogUIQTKx'
+mydiv='Arkanoid_Syn',imgur='KzmXv7S.gif',gdrv='15hIaPhP6DsDUjVJ-Un7rnOg5ogUIQTKx',stgCat=10,lastupdate='20/04/2024'
 rng=(Math.floor(Math.random()*5));
 	if (rng==0) {ytVid='q1u5p7AcnWw?si=SJVKqe9XUpvngaN8&start=911&end=961';} //@gregcarmell8222
 	if (rng==1) {ytVid='LdL6a8YHnDw';} //@MaycolGamer026
@@ -366,23 +386,23 @@ rng=(Math.floor(Math.random()*5));
 	if (rng==4) {ytVid='XCyHKzi8XRk?si=-IJDoGp3--CFA9ML&start=12&end=62';} //@jewelmen10mugen87
 break;
 case 46:
-mydiv='Dr_Wily_stgs',imgur='PNYxIH7.gif',gdrv='1BajqmRlVucJYaruSyGeK_de5eYO7CsPu'
+mydiv='Dr_Wily_stgs',imgur='PNYxIH7.gif',gdrv='1BajqmRlVucJYaruSyGeK_de5eYO7CsPu',stgCat=7,lastupdate='20/04/2024'
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytVid='HQ1-2jLndFY';} //@SDK123_MUGEN
 	if (rng==1) {ytVid='0sqnKXadJ-c?si=tJ5xfNMFLNh0xh-G&start=10&end=60';} //@SebastianVazquezFerrero
 break;
 case 47:
-mydiv='Arena',imgur='2kXqJTC.png',gdrv='12hO-ATk2ljQrhaHB9BUrF5Vqx3C9xOHR'
+mydiv='Arena',imgur='2kXqJTC.png',gdrv='12hO-ATk2ljQrhaHB9BUrF5Vqx3C9xOHR',stgCat=9,lastupdate='04/05/2015'
 break;
 case 48:
-mydiv='Stage_Draco',imgur='1jmQ14m.png',gdrv='1EUlp0lxtk9rVYnVcGXHuiZL4TpoEF6Hu'
+mydiv='Stage_Draco',imgur='1jmQ14m.png',gdrv='1EUlp0lxtk9rVYnVcGXHuiZL4TpoEF6Hu',stgCat=11,lastupdate='28/05/2015'
 	ytVid='3rZznTwwVPU'; //@The14thDoc
 break;
 case 49:
-mydiv='Metal_Gun',imgur='ZisA65d.gif',gdrv='1PrKFYlEcoYQD1OSgOScH_J-HNdFfKnnl'
+mydiv='Metal_Gun',imgur='ZisA65d.gif',gdrv='1PrKFYlEcoYQD1OSgOScH_J-HNdFfKnnl',stgCat=9,lastupdate='28/05/2015'
 break;
 case 50:
-mydiv='TerrariA',imgur='9Vc4Kbf.png',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg';
+mydiv='TerrariA',imgur='9Vc4Kbf.png',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',stgCat=9,lastupdate='23/04/2024',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg';
 rng=(Math.floor(Math.random()*4));
 	if (rng==0) {ytVid='PkoYbNMsyKk';} //@DemonDragonify
 	if (rng==1) {ytVid='JtJBrleTOaQ';} //@TylorGoldenYoshi
@@ -390,17 +410,17 @@ rng=(Math.floor(Math.random()*4));
 	if (rng==3) {ytVid='NnEhSEh3uiA';} //@TheSnowmanLcver
 break;
 case 51:
-mydiv='Random_Space',imgur='TN4XU4m.png',gdrv='14x_bwTrKjZtpERMj4mLkMXSoslv8Nzqz'
+mydiv='Random_Space',imgur='TN4XU4m.png',gdrv='14x_bwTrKjZtpERMj4mLkMXSoslv8Nzqz',stgCat=10,lastupdate='20/05/2015'
 break;
 case 52:
-mydiv='Mojo_Stronghold',imgur='8x7jLDj.png',gdrv='14Asrt2kJ0k4WHOKdtVGeqe9v2cds_m3m'
+mydiv='Mojo_Stronghold',imgur='8x7jLDj.png',gdrv='14Asrt2kJ0k4WHOKdtVGeqe9v2cds_m3m',stgCat=8,lastupdate='19/05/2015'
 	ytPreview='xM3oGnG9-RI'; //@mabskmk
 break;
 case 53:
-mydiv='Hell_Gate',imgur='qPSAYRK.gif',gdrv='1CHtHK7UycHiRX0w13V_16_7s4-eNchEg'
+mydiv='Hell_Gate',imgur='qPSAYRK.gif',gdrv='1CHtHK7UycHiRX0w13V_16_7s4-eNchEg',stgCat=8,lastupdate='20/04/2024'
 break;
 case 54:
-mydiv='Whisper_Forest',imgur='yj3qJ8W.gif',gdrv='10ISB1TYCzgLDa0nlJGtDhuAkgeET6nGy';
+mydiv='Living_Forest',imgur='yj3qJ8W.gif',gdrv='10ISB1TYCzgLDa0nlJGtDhuAkgeET6nGy',stgCat=8,lastupdate='21/04/2024'
 rng=(Math.floor(Math.random()*5));
 	if (rng==0) {ytVid='AQPMjlSuiyU?si=oFkK3DbebikIfR4M&start=12&end=62';} //@jewelmen10mugen87
 	if (rng==1) {ytVid='u1_k4rFxr1w';} //@MrStarfan64
@@ -409,21 +429,21 @@ rng=(Math.floor(Math.random()*5));
 	if (rng==4) {ytVid='0fZYIcc5xt4';} //@MarioFan06-gh9gl
 break;
 case 55:
-mydiv='Last_Dungeon',imgur='Segr9oc.gif',gdrv='14zbO8F_tlSZvlfKBRYFMcTRmuLCpDvMR'
+mydiv='Last_Dungeon',imgur='Segr9oc.gif',gdrv='14zbO8F_tlSZvlfKBRYFMcTRmuLCpDvMR',stgCat=6,lastupdate='19/05/2015'
 break;
 case 56:
-mydiv='TerrorVision',imgur='avje3sN.png',gdrv='1nYIwOYfc3V0gf8pAeItuqAShZLzDsLEj';
+mydiv='TerrorVision',imgur='avje3sN.png',gdrv='1nYIwOYfc3V0gf8pAeItuqAShZLzDsLEj',stgCat=10,lastupdate='20/05/2015'
 	ytVid='T9nVVukKXbw?si=0Pk3ezTI00v8OIT-&start=12&end=62'; //@jewelmen10mugen87
 break;
 case 57:
-mydiv='Escape_in_a_Forest',imgur='DTzvZ6p.png',gdrv='1mHq1Yp7rNCpRMCNM6k-5xFWJuW5h23sB'
+mydiv='Escape_in_a_Forest',imgur='DTzvZ6p.png',gdrv='1mHq1Yp7rNCpRMCNM6k-5xFWJuW5h23sB',stgCat=6,lastupdate='21/04/2024'
 break;
 case 58:
-mydiv='Rescue_Geisha',imgur='hddoqUx.png',gdrv='1mHq1Yp7rNCpRMCNM6k-5xFWJuW5h23sB'
+mydiv='Rescue_Geisha',imgur='hddoqUx.png',gdrv='1mHq1Yp7rNCpRMCNM6k-5xFWJuW5h23sB',stgCat=6,lastupdate='21/04/2024'
 	ytVid='hwircCiOcFs';	//@RoySquadRocks
 break;
 case 59:
-mydiv='Mutation_Nation',imgur='jKesnb5.gif',gdrv='1Rk-VZr9dZw9dLYGdvseyPE_s4_hI83-g'
+mydiv='Mutation_Nation',imgur='jKesnb5.gif',gdrv='1Rk-VZr9dZw9dLYGdvseyPE_s4_hI83-g',stgCat=1,lastupdate='20/04/2024'
 rng=(Math.floor(Math.random()*5));
 	if (rng==0) {ytVid='2TjKZ53Dro8?si=SBHIzMRWXz7HUCDY&start=12&end=62';} //@jewelmen10mugen87
 	if (rng==1) {ytVid='1H-oRwge0OE?si=wXHBu6dQKdSYLn1h&start=12&end=62';} //@jewelmen10mugen87
@@ -432,7 +452,7 @@ rng=(Math.floor(Math.random()*5));
 	if (rng==4) {ytVid='Od0nJmcgz8Y?si=-swdNBhSd91kc0b0&start=12&end=62';} //@jewelmen10mugen87
 break;
 case 60:
-mydiv='Mystic_Cave',imgur='OrOgvJ9.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9';
+mydiv='Mystic_Cave',imgur='OrOgvJ9.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9',stgCat=3,lastupdate='22/04/2024'
 rng=(Math.floor(Math.random()*5));
 	if (rng==0) {ytVid='0xovvA9fa-A?si=mlJwU39dmUSw4S-v&start=17&end=67';} //@Stargazer1331
 	if (rng==1) {ytVid='43E1MiYvBPU?si=lyI3r0ruJ53o8iZG&start=15&end=65';} //@jewelmen10mugen87
@@ -441,26 +461,26 @@ rng=(Math.floor(Math.random()*5));
 	if (rng==4) {ytVid='1boRXjT5uVk';} //@NICK54222
 break;
 case 61:
-mydiv='Monster_Party',imgur='lWi1U0G.gif',gdrv='10RxGf32a_aMFNu98zO5chUkP0r89vQ_i'
+mydiv='Monster_Party',imgur='lWi1U0G.gif',gdrv='10RxGf32a_aMFNu98zO5chUkP0r89vQ_i',stgCat=7,lastupdate='20/04/2024'
 break;
 case 62:
-mydiv='8_Street',imgur='WIfJ5MG.png',gdrv='1ISZE3Ao87Muw6Tzm-X354goNBesxcVJX'
+mydiv='8_Street',imgur='WIfJ5MG.png',gdrv='1ISZE3Ao87Muw6Tzm-X354goNBesxcVJX',stgCat=1,lastupdate='25/05/2015'
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytVid='0L8uQ8M2a_4';} //@RoySquadRocks
 	if (rng==1) {ytVid='0dTbEQ3mzQA';} //@RoySquadRocks
 break;
 case 63:
-mydiv='Ruins_of_Metro',imgur='IGsMDvn.png',gdrv='15Y7stedmBIO0x5nDSBnb8FeT2R9EVNXF'
+mydiv='Ruins_of_Metro',imgur='IGsMDvn.png',gdrv='15Y7stedmBIO0x5nDSBnb8FeT2R9EVNXF',stgCat=1,lastupdate='27/06/2015'
 	ytVid='vIx5EdQ0s5s'; //@RoySquadRocks
 	ytPreview='jGUXNy5AJTo'; //@mabskmk
 break;
 case 64:
-mydiv='Z-Leo',imgur='MbtkMgt.png',gdrv='1OkIpLS0e62aq2uG3QWvMBRhhyIOERn4L',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png'
+mydiv='Z-Leo',imgur='MbtkMgt.png',gdrv='1OkIpLS0e62aq2uG3QWvMBRhhyIOERn4L',stgCat=2,lastupdate='20/04/2024',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png'
 	ytVid='FBT2eQAwqTs?si=PnnL_-pPX8ocwYMQ&start=90&end=140';	//@LordVergilar
 	ytPreview='9CkJPL9vhLM'; //@mabskmk
 break;
 case 65:
-mydiv='Labyrinth_Zone',imgur='Rfv7CCF.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9'
+mydiv='Labyrinth_Zone',imgur='Rfv7CCF.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9',stgCat=3,lastupdate='22/04/2024'
 rng=(Math.floor(Math.random()*4));
 	if (rng==0) {ytVid='sxkFl97bXDg?si=yfDPxKNUcgGmlxOK&start=12&end=62';} //@jewelmen10mugen87
 	if (rng==1) {ytVid='9hyiak018M8?si=5_MKLLqjLWgxHR1x&start=51&end=101';} //@NICK54222
@@ -468,7 +488,7 @@ rng=(Math.floor(Math.random()*4));
 	if (rng==3) {ytVid='G1YQfpv7aMg';} //@ChriS7V4zq
 break;
 case 66:
-mydiv='Jungle_Zone',imgur='lHK4I0Q.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9'
+mydiv='Jungle_Zone',imgur='lHK4I0Q.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9',stgCat=3,lastupdate='22/04/2024'
 rng=(Math.floor(Math.random()*3));
 	if (rng==0) {ytVid='TcGS-lSdts0?si=0o9phSiWMQl2JLfJ&start=12&end=62';} //@jewelmen10mugen87
 	if (rng==1) {ytVid='Mv-gKkfPlVU';} //@DewmanWasTaken
@@ -476,128 +496,128 @@ rng=(Math.floor(Math.random()*3));
 	ytPreview='xoqPRH77X-4'; //@mabskmk
 break;
 case 67:
-mydiv='ScrapBrainZone',imgur='zCmVTXI.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9'
+mydiv='ScrapBrainZone',imgur='zCmVTXI.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9',stgCat=3,lastupdate='22/04/2024'
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytVid='V3t-2me55EA?si=_HsKkni7gmH7tcOl&start=34&end=84';} //@NICK54222
 	if (rng==1) {ytVid='HJDnD5xAAqc?si=yKMWXThkWgs5ImGP&start=23&end=73';} //@trackiesthead1563
 	ytPreview='iFY-ppjM9d0'; //@mabskmk
 break;
 case 68:
-mydiv='Phantasy_Starship',imgur='dQdjmEa.png',gdrv='1eBsUwt7Q31-EgBK7tE4eU4rQJE6NjH6z'
+mydiv='Phantasy_Starship',imgur='dQdjmEa.png',gdrv='1eBsUwt7Q31-EgBK7tE4eU4rQJE6NjH6z',stgCat=10,lastupdate='01/06/2015'
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytVid='26iFWRkQmog?si=JpvKyxmc5DAJvEPu&start=130&end=180'}; //@WitchVelvet
 	if (rng==1) {ytVid='tZEzKRr_7aw';} //@MaycolGamer026
 break;
 case 69:
-mydiv='Stage_Humio',imgur='vQfR8CP.png',gdrv='1Z-D3blpn4dVEivSYxgH1TvPGC6_grEWg'
+mydiv='Stage_Humio',imgur='vQfR8CP.png',gdrv='1Z-D3blpn4dVEivSYxgH1TvPGC6_grEWg',stgCat=11,lastupdate='20/05/2015'
 break;
 case 70:
-mydiv='sonic_Special_Stage',imgur='AALc2fw.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9'
+mydiv='sonic_Special_Stage',imgur='AALc2fw.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9',stgCat=3,lastupdate='22/04/2024'
 rng=(Math.floor(Math.random()*3));
 	if (rng==0) {ytVid='cjRo9w_z6kU?si=BiP_sSMcpoIt7eEm&start=12&end=62';} //@jewelmen10mugen87
 	if (rng==1) {ytVid='jlsZduWNCvw?si=MoFxYDDdDm0NFFCw&start=23&end=73';} //@NICK54222
 	if (rng==2) {ytVid='lKfEm5mg8Rg';} //@NICK54222
 break;
 case 71:
-mydiv='Tower_of_MORGUL',imgur='36jrd6T.png',gdrv='1-NKnO4xFHRgjm3PZRhHC-K5EF6ukcb9Q'
+mydiv='Tower_of_MORGUL',imgur='36jrd6T.png',gdrv='1-NKnO4xFHRgjm3PZRhHC-K5EF6ukcb9Q',stgCat=9,lastupdate='27/05/2015'
 	ytVid='6i36v6v6hL4?si=Qun_jPHfpnnaNZ6D&start=12&end=62'; //@trackiesthead1563
 break;
 case 72:
-mydiv='Cilia_Monster',imgur='hzdVhqX.png',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n'
+mydiv='Cilia_Monster',imgur='hzdVhqX.png',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n',stgCat=7,lastupdate='16/10/2023'
 	ytPreview='6ghhribCWUA'; //@mabskmk
 break;
 case 73:
-mydiv='Galatic-Night-Club',imgur='9mhQVWp.png',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n'
+mydiv='Galatic-Night-Club',imgur='9mhQVWp.png',gdrv='1bmRBeV4_jMrJ7EOG6gK5JUuBauTSyA1n',stgCat=7,lastupdate='16/10/2023'
 	ytVid='I8dFgjHwqNE?si=-XxMU2G8jy35mYIU&start=437&end=487'; //@PEG
 break;
 case 74:
-mydiv='Pokemon_3D',imgur='QUbwkVz.gif',gdrv='1D8MGAPvC13AzWN0rboXhyPeywRmWaHte'
+mydiv='Pokemon_3D',imgur='QUbwkVz.gif',gdrv='1D8MGAPvC13AzWN0rboXhyPeywRmWaHte',stgCat=9,lastupdate='20/05/2015'
 	ytVid='1m9Kla9Pt7A'; //@AlexNico
 break;
 case 75:
-mydiv='Shaq_Fu_Lab',imgur='qAKWhQu.gif',gdrv='14T2PRb9Wfbd8bDOzoz5i2mds6IjgY9Nn'
+mydiv='Shaq_Fu_Lab',imgur='qAKWhQu.gif',gdrv='14T2PRb9Wfbd8bDOzoz5i2mds6IjgY9Nn',stgCat=8,lastupdate='20/05/2015'
 break;
 case 76:
-mydiv='Flappy_Bird_stg',imgur='BRTNcNB.gif',gdrv='1WcSCX0Zzps3fHTGSZBCffnx2uZAaLNBg';
+mydiv='Flappy_Bird_stg',imgur='BRTNcNB.gif',gdrv='1WcSCX0Zzps3fHTGSZBCffnx2uZAaLNBg',stgCat=9,lastupdate='19/05/2015'
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytVid='_iHnIvB3ydU';} //@DavidBurgessMechanicalMusic
 	if (rng==1) {ytVid='9mi7zuM6OYQ';} //@YamiLegends
 break;
 case 77:
-mydiv='NightmareInTheDark',imgur='8cmYQlH.gif',gdrv='1uGf6QH7d85pPgOaj1gqVsrS6Nn6DGOia'
+mydiv='NightmareInTheDark',imgur='8cmYQlH.gif',gdrv='1uGf6QH7d85pPgOaj1gqVsrS6Nn6DGOia',stgCat=1,lastupdate='13/04/2015'
 	ytVid='K-2uFeWSCug?si=IbPYx5e2yqOjr39C&start=5&end=55'; //@trackiesthead1563
 break;
 case 78:
-mydiv='Mini_city',imgur='NJ65z0S.png',gdrv='1zq0AlCF4Z8xvoqPbzchVhTQ1Hxk0Vlig'
+mydiv='Mini_city',imgur='NJ65z0S.png',gdrv='1zq0AlCF4Z8xvoqPbzchVhTQ1Hxk0Vlig',stgCat=9,lastupdate='16/10/2023'
 break;
 case 79:
-mydiv='Dark_Forest',imgur='mGnlE5S.png',gdrv='1zq0AlCF4Z8xvoqPbzchVhTQ1Hxk0Vlig'
+mydiv='Dark_Forest',imgur='mGnlE5S.png',gdrv='1zq0AlCF4Z8xvoqPbzchVhTQ1Hxk0Vlig',stgCat=9,lastupdate='16/10/2023'
 break;
 case 80:
-mydiv='TerrariB',imgur='nxum0HB.png',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg';
+mydiv='TerrariB',imgur='nxum0HB.png',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',stgCat=9,lastupdate='23/04/2024',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg'
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytVid='aU2J_5lPD94';} //@DemonDragonify
 	if (rng==1) {ytVid='M4VUamL-ZpM?si=30bUT36NgPvALs_t&start=12&end=62';} //@jewelmen10mugen87
 break;
 case 81:
-mydiv='Battle_Capacity',imgur='ulhRFM8.gif',gdrv='1dAQDOMPQN_-9nEA8A_wZIAZW1eGZe8uR';
+mydiv='Battle_Capacity',imgur='ulhRFM8.gif',gdrv='1dAQDOMPQN_-9nEA8A_wZIAZW1eGZe8uR',stgCat=9,lastupdate='20/04/2024'
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytVid='xxAfpCaQbgM';} //@tokaiteiopok
 	if (rng==1) {ytVid='9ghpA0Stugo';} //@jouaihageshi2259
 break;
 case 82:
-mydiv='Axel_City',imgur='Isbps72.png',gdrv='1oRKGQfLQT6WBWq3DdKwKelUOHr1-iz7y'
+mydiv='Axel_City',imgur='Isbps72.png',gdrv='1oRKGQfLQT6WBWq3DdKwKelUOHr1-iz7y',stgCat=9,lastupdate='20/04/2024'
 break;
 case 83:
-mydiv='Isamu_Game',imgur='xEfYQyh.gif',gdrv='1NMp-yMb7ykkUeZdbjwRKssVn0VVHLbSY'
+mydiv='Isamu_Game',imgur='xEfYQyh.gif',gdrv='1NMp-yMb7ykkUeZdbjwRKssVn0VVHLbSY',stgCat=9,lastupdate='25/05/2025'
 break;
 case 84:
-mydiv='GoingThroughHell',imgur='rgY553Q.png',gdrv='1B-9djPWc599QfAckvePBlZc7-juAG5FH'
+mydiv='GoingThroughHell',imgur='rgY553Q.png',gdrv='1B-9djPWc599QfAckvePBlZc7-juAG5FH',stgCat=8,lastupdate='25/05/2015'
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytVid='HXUIcn2qAUs?si=d6b-YwRHGwzEZVUk&start=150&end=200';} //@trackiesthead1563
 	if (rng==1) {ytVid='SyVDoPlO97c?si=DAR7DjC7g-3x7VC7&start=8&end=58';} //@trackiesthead1563
 break;
 case 85:
-mydiv='TerrariC',imgur='kgIqfzU.png',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg';
+mydiv='TerrariC',imgur='kgIqfzU.png',gdrv='1Je8oEvhKLywxauT1r82OpygpZ3-FljLJ',stgCat=9,lastupdate='23/04/2024',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg'
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytVid='DlOerQbikn0';} //@DemonDragonify
 	if (rng==1) {ytVid='0UrlUrO1YbE';} //@Scelua
 break;
 case 86:
-mydiv='mm7_Graveyard',imgur='fZpRFsG.png',gdrv='1crKBwVmyfnbYB2mphTnw4WZswYAwE1nq';
+mydiv='mm7_Graveyard',imgur='fZpRFsG.png',gdrv='1crKBwVmyfnbYB2mphTnw4WZswYAwE1nq',stgCat=8,lastupdate='19/05/2015'
 	ytVid='uOaz4uctX0k?si=7ZONmZ0BuQndJC9F&start=16&end=66'; //@jewelmen10mugen87
 break;
 case 87:
-mydiv='Stage_hentai1',imgur='HqsZCtH.png',gdrv='1ad6huW7vqhAdZg677FmxgEmSOZ1eab9H',zpoints=10000
+mydiv='Stage_hentai1',imgur='HqsZCtH.png',gdrv='1ad6huW7vqhAdZg677FmxgEmSOZ1eab9H',stgCat=11,lastupdate='20/05/2015',zpoints=10000
 break;
 case 88:
-mydiv='Stage_hentai2',imgur='AYGqEmn.png',gdrv='18FhvNthzjJfmz4FkfcWRe0Xxe9VhOFRL',zpoints=10000
+mydiv='Stage_hentai2',imgur='AYGqEmn.png',gdrv='18FhvNthzjJfmz4FkfcWRe0Xxe9VhOFRL',stgCat=11,lastupdate='20/05/2015',zpoints=10000
 break;
 case 89:
-mydiv='Tyrone',imgur='qMVo2hp.png',gdrv='1OlD0wc2dK0fXsFA6o8kolBRguwTrzVI6'
+mydiv='Tyrone',imgur='qMVo2hp.png',gdrv='1OlD0wc2dK0fXsFA6o8kolBRguwTrzVI6',stgCat=8,lastupdate='16/07/2014'
 	ytPreview='0A_3NLUrAt4'; //@mabskmk
 break;
 case 90:
-mydiv='R-type_Junk',imgur='LMLAnUi.png',gdrv='1vrGpdGB43ZvJHbJpZMzPnz0JlzMR_Cv7'
+mydiv='R-type_Junk',imgur='LMLAnUi.png',gdrv='1vrGpdGB43ZvJHbJpZMzPnz0JlzMR_Cv7',stgCat=1,lastupdate='11/06/2020'
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytVid='rHJ-mCxAUr4?si=bZszKFIZ04LhCihL&start=29&end=79';} //@jewelmen10mugen87
 	if (rng==1) {ytVid='xvcRmTGqB2E?si=SGHqDum_WoyRI9Hj&start=12&end=62';} //@jewelmen10mugen87
 	ytPreview='MWyAeolLH94'; //@mabskmk
 break;
 case 91:
-mydiv='The_Fire_Prominence',imgur='itQi8iD.png',gdrv='1wb-01h0Ooaj4vdbE7d-UiEb29J0QyH-M'
+mydiv='The_Fire_Prominence',imgur='itQi8iD.png',gdrv='1wb-01h0Ooaj4vdbE7d-UiEb29J0QyH-M',stgCat=1,lastupdate='11/06/2020'
 break;
 case 92:
-mydiv='Equinox',imgur='poyLmJ7.gif',gdrv='1M1WLF79J0c2J-g8sFOeNYpLXu6N57iUy'
+mydiv='Equinox',imgur='poyLmJ7.gif',gdrv='1M1WLF79J0c2J-g8sFOeNYpLXu6N57iUy',stgCat=10,lastupdate='16/10/2023'
 break;
 case 93:
-mydiv='Musya',imgur='dE9LGSX.png',gdrv='1AbgKz82V6NXdXISciUtY_8go80XTy-_s'
+mydiv='Musya',imgur='dE9LGSX.png',gdrv='1AbgKz82V6NXdXISciUtY_8go80XTy-_s',stgCat=8,lastupdate='12/11/2015'
 break;
 case 94:
-mydiv='Probertson+',imgur='gETlJMg.gif',gdrv='1w9FXy4aAw_r0Wd_7g3F4I7tUrSOJZgEI'
+mydiv='Probertson+',imgur='gETlJMg.gif',gdrv='1w9FXy4aAw_r0Wd_7g3F4I7tUrSOJZgEI',stgCat=10,lastupdate='20/04/2024'
 break;
 case 95:
-mydiv='Aquatic_Ruins',imgur='cBIt8OT.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9';
+mydiv='Aquatic_Ruins',imgur='cBIt8OT.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9',stgCat=3,lastupdate='22/04/2024'
 rng=(Math.floor(Math.random()*6));
 	if (rng==0) {ytVid='XRbr9pR4FGA';} //@trackiesthead1563
 	if (rng==1) {ytVid='9-a-dJ152ao';} //@NICK54222
@@ -607,26 +627,26 @@ rng=(Math.floor(Math.random()*6));
 	if (rng==5) {ytVid='F3hXUoocbTo?si=Z61PYHuHceX0WYGZ&start=13&end=63';} //@MarioFan06-gh9gl
 break;
 case 96:
-mydiv='Weve-got-Shadowmans',imgur='Qqql4Ve.png',gdrv='15_kwqkbcgY4Du6s3b-9yZuaX36nTIwit'
+mydiv='Weve-got-Shadowmans',imgur='Qqql4Ve.png',gdrv='15_kwqkbcgY4Du6s3b-9yZuaX36nTIwit',stgCat=2,lastupdate='18/10/2016'
 break;
 case 97:
-mydiv='FFSTAGE',imgur='STyoeBm.png',gdrv='1mG8IPSYojKo6BeRbCM_RMCOpuI1gDusA'
+mydiv='FFSTAGE',imgur='STyoeBm.png',gdrv='1mG8IPSYojKo6BeRbCM_RMCOpuI1gDusA',stgCat=9,lastupdate='20/04/2024'
 break;
 case 98:
-mydiv='Naga_Valley',imgur='33JcF6I.png',gdrv='19MzXevUjD7B1OWGXagW2TejZZGzv-23W'
+mydiv='Naga_Valley',imgur='33JcF6I.png',gdrv='19MzXevUjD7B1OWGXagW2TejZZGzv-23W',stgCat=9,lastupdate='22/04/2024'
 break;
 case 99:
-mydiv='Ranmaru_STG',imgur='mmmg1Dt.gif',gdrv='12fw-PkLLuSAAmNljz-QK99e8ieOT6w7m'
+mydiv='Ranmaru_STG',imgur='mmmg1Dt.gif',gdrv='12fw-PkLLuSAAmNljz-QK99e8ieOT6w7m',stgCat=9,lastupdate='20/04/2024'
 break;
 case 100:
-mydiv='005',imgur='KvtjwY0.png',gdrv='1YGnYorSWhsCL-TO_PgV-tpD82LOxn3kX'
+mydiv='005',imgur='KvtjwY0.png',gdrv='1YGnYorSWhsCL-TO_PgV-tpD82LOxn3kX',stgCat=10,lastupdate='20/04/2024'
 break;
 case 101:
-mydiv='Gourmet_Factory',imgur='Gsk4nxa.gif',gdrv='1UuakIrQFtW1CO9dpSEOEgclugBfcI3TM'
+mydiv='Gourmet_Factory',imgur='Gsk4nxa.gif',gdrv='1UuakIrQFtW1CO9dpSEOEgclugBfcI3TM',stgCat=8,lastupdate='20/04/2024'
 	ytPreview='HniNzYDkvBM'; //@mabskmk	
 break;
 case 102:
-mydiv='Jurassic_Jungle',imgur='JHgeyPi.png',gdrv='1xNNLPNwTJ2342HyzHVDP3ntvJe4QTVuW'
+mydiv='Jurassic_Jungle',imgur='JHgeyPi.png',gdrv='1xNNLPNwTJ2342HyzHVDP3ntvJe4QTVuW',stgCat=8,lastupdate='21/04/2024'
 rng=(Math.floor(Math.random()*5));
 	if (rng==0) {ytVid='u4gLeSc4Rek';} //@ZhamzillaTheKing2025
 	if (rng==1) {ytVid='a8wkuEhNcOE';} //@teppyprimechannel8737
@@ -636,58 +656,58 @@ rng=(Math.floor(Math.random()*5));
 	ytPreview='Wr1v4kvsI3w'; //@mabskmk
 break;
 case 103:
-mydiv='Fortress-of-Doom',imgur='xRRYFhO.gif',gdrv='1r2GzPRtojN1KiEQ4MddTR_0KdeEv6jwr'
+mydiv='Fortress-of-Doom',imgur='xRRYFhO.gif',gdrv='1r2GzPRtojN1KiEQ4MddTR_0KdeEv6jwr',stgCat=8,lastupdate='24/07/2024'
 	ytVid='_EUjR-4A0x8'; //@PauloRicardo-ul8zi
 break;
 case 104:
-mydiv='Dead_Valley',imgur='Te6w5AS.png',gdrv='1HPuR69GGT9DrhX8yWmgUNaaecSm0tbQA'
+mydiv='Dead_Valley',imgur='Te6w5AS.png',gdrv='1HPuR69GGT9DrhX8yWmgUNaaecSm0tbQA',stgCat=9,lastupdate='23/04/2024'
 break;
 case 105:
-mydiv='Draglade',imgur='V4OdAro.gif',gdrv='1nZhAFkIDKwLuuQqvokYSTLGWOxEm1NhH'
+mydiv='Draglade',imgur='V4OdAro.gif',gdrv='1nZhAFkIDKwLuuQqvokYSTLGWOxEm1NhH',stgCat=9,lastupdate='20/04/2024'
 	ytVid='zaNCIMZTqnw'; //@vladellf
 break;
 case 106:
-mydiv='GanbareGoemon',imgur='dgknaTO.png',gdrv='17Oo7KMKs63Af0-C9e3Vj98s0T4wEOgWX'
+mydiv='GanbareGoemon',imgur='dgknaTO.png',gdrv='17Oo7KMKs63Af0-C9e3Vj98s0T4wEOgWX',stgCat=8,lastupdate='21/04/2024'
 break;
 case 107:
-mydiv='Cry-of-the-Spirits',imgur='EO5HPUu.png',gdrv='1SNobOvwGogN1h-hOF9Nzy7zn-lSZdfae'
+mydiv='Cry-of-the-Spirits',imgur='EO5HPUu.png',gdrv='1SNobOvwGogN1h-hOF9Nzy7zn-lSZdfae',stgCat=8,lastupdate='23/04/2024'
 break;
 case 108:
-mydiv='Gourmet_Foot',imgur='53GMLf1.png',gdrv='1UuakIrQFtW1CO9dpSEOEgclugBfcI3TM'
+mydiv='Gourmet_Foot',imgur='53GMLf1.png',gdrv='1UuakIrQFtW1CO9dpSEOEgclugBfcI3TM',stgCat=8,lastupdate='20/04/2024'
 break;
 case 109:
-mydiv='Jiii',imgur='t9ZGdu5.png',gdrv='1qQhbzMzLsLM8KEjb_Vw2yTnIOac-YJR_'
+mydiv='Jiii',imgur='t9ZGdu5.png',gdrv='1qQhbzMzLsLM8KEjb_Vw2yTnIOac-YJR_',stgCat=10,lastupdate='05/10/2016'
 break;
 case 110:
-mydiv='Angel_Island',imgur='dST8Gh8.gif',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9';
+mydiv='Angel_Island',imgur='dST8Gh8.gif',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9',stgCat=3,lastupdate='22/04/2024'
 rng=(Math.floor(Math.random()*3));
 	if (rng==0) {ytVid='C36o3XdkV7U';} //@DiogoCell-Sama
 	if (rng==1) {ytVid='F7jB__I8Xsw?si=avlV8u3qaYO21RNs&start=12&end=62';} //@jewelmen10mugen87
 	if (rng==2) {ytVid='zVLxqArgHYI';} //@MarioFan06-gh9gl
 break;
 case 111:
-mydiv='ChompmanSTG',imgur='5t4sMNC.gif',gdrv='1vKNjQiIpYTmdpEoqR5bhrlofcJy-6jmb',bannerHtml='www.sprites-inc.co.uk',bannerImg='i.imgur.com/RqfqBg1.png'
+mydiv='ChompmanSTG',imgur='5t4sMNC.gif',gdrv='1vKNjQiIpYTmdpEoqR5bhrlofcJy-6jmb',stgCat=7,lastupdate='24/04/2024',bannerHtml='www.sprites-inc.co.uk',bannerImg='i.imgur.com/RqfqBg1.png'
 	ytPreview='jQ36pF_rg0k'; //@mabskmk
 break;
 case 112:
-mydiv='Bay_Route',imgur='7irQzfU.png',gdrv='1zUVbUMrHF3wEI1cCyvfsEu24NEWUnRnj'
+mydiv='Bay_Route',imgur='7irQzfU.png',gdrv='1zUVbUMrHF3wEI1cCyvfsEu24NEWUnRnj',stgCat=1,lastupdate='20/04/2024'
 	ytPreview='lSoc2HrvjeA'; //@mabskmk	
 break;
 case 113:
-mydiv='SonicBlastJet',imgur='3vJbHkk.png',gdrv='1h860RW2yR0abY1eQy9ldPjcMK1-_1EVl'
+mydiv='SonicBlastJet',imgur='3vJbHkk.png',gdrv='1h860RW2yR0abY1eQy9ldPjcMK1-_1EVl',stgCat=8,lastupdate='20/04/2024'
 break;
 case 114:
-mydiv='Crude-Buster',imgur='PFipzGL.gif',gdrv='1njc5P1vZi8Z-dUWjUX-NrGNev-BEo3jF';
+mydiv='Crude-Buster',imgur='PFipzGL.gif',gdrv='1njc5P1vZi8Z-dUWjUX-NrGNev-BEo3jF',stgCat=1,lastupdate='20/04/2024'
 break;
 case 115:
-mydiv='Gourmet_Street',imgur='0a7Nif5.png',gdrv='1UuakIrQFtW1CO9dpSEOEgclugBfcI3TM'
+mydiv='Gourmet_Street',imgur='0a7Nif5.png',gdrv='1UuakIrQFtW1CO9dpSEOEgclugBfcI3TM',stgCat=8,lastupdate='20/04/2024'
 	ytVid='tc0L_x1UKXY'; //@zerozuchibr1841
 break;
 case 116:
-mydiv='ZeroCastle',imgur='tP99cjE.gif',gdrv='1B5zWBNVlpHFng28YeXLoqXhTqk41G5Gt'
+mydiv='ZeroCastle',imgur='tP99cjE.gif',gdrv='1B5zWBNVlpHFng28YeXLoqXhTqk41G5Gt',stgCat=1,lastupdate='20/04/2024'
 break;
 case 117:
-mydiv='Viotoxica',imgur='4IAHHn8.gif',gdrv='1m6J6S5zjqtt9OpwMcJuajwVmBEzTVCkV';
+mydiv='Viotoxica',imgur='4IAHHn8.gif',gdrv='1m6J6S5zjqtt9OpwMcJuajwVmBEzTVCkV',stgCat=9,lastupdate='20/04/2024'
 rng=(Math.floor(Math.random()*4));
 	if (rng==0) {ytVid='Qa76ubO7xf0';} //@YagamiBr
 	if (rng==1) {ytVid='LV8Hj1cCUBk';} //@MUGENKU
@@ -698,33 +718,33 @@ rng=(Math.floor(Math.random()*2));
 	if (rng==1) {ytPreview='x-Nf75tfT9c';} //@mabskmk
 break;
 case 118:
-mydiv='ZookHero',imgur='qwrbijL.gif',gdrv='1PrOzL00vpXmloxTMDHuOOvEzicOeByPw'
+mydiv='ZookHero',imgur='qwrbijL.gif',gdrv='1PrOzL00vpXmloxTMDHuOOvEzicOeByPw',stgCat=9,lastupdate='20/04/2024'
 	ytPreview='7CaWcleOBqM'; //@mabskmk
 break;
 case 119:
-mydiv='CollisionChaos',imgur='pdxfzgM.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9'
+mydiv='CollisionChaos',imgur='pdxfzgM.png',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9',stgCat=3,lastupdate='22/04/2024'
 	ytVid='SRM6IFpAkgU?si=bicWdHi6w2iZhxLl&start=13&end=63'; //@jewelmen10mugen87
 	ytPreview='AddGPc0lyY8'; //@mabskmk
 break;
 case 120:
-mydiv='Religionchng',imgur='68AjZWE.gif',gdrv='1AxvGGm16OSKQ74vrUh-DTXFYo7HZxwyC'
+mydiv='Religionchng',imgur='68AjZWE.gif',gdrv='1AxvGGm16OSKQ74vrUh-DTXFYo7HZxwyC',stgCat=10,lastupdate='17/11/2023'
 break;
 case 121:
-mydiv='Cybernoid',imgur='nJYbk4j.png',gdrv='1RaC8Jl26mWdw6ii5X3gFH8fn_BYC5MDg'
+mydiv='Cybernoid',imgur='nJYbk4j.png',gdrv='1RaC8Jl26mWdw6ii5X3gFH8fn_BYC5MDg',stgCat=9,lastupdate='19/10/2019'
 	ytVid='hBKaBDfku30?si=16qpObkI4iJYh9EZ&start=12&end=62'; //@jewelmen10mugen87
 break;
 case 122:
-mydiv='Menace',imgur='pNG8qhx.png',gdrv='1eEWr-zzW4wdrkccelrU7iWcT6Fa_jeEC'
+mydiv='Menace',imgur='pNG8qhx.png',gdrv='1eEWr-zzW4wdrkccelrU7iWcT6Fa_jeEC',stgCat=9,lastupdate='19/10/2019'
 break;
 case 123:
-mydiv='Moon',imgur='8J4MFUc.png',gdrv='1F-ylCuSYN7o8IDBRZR_VrbptpsmN1CxE'
+mydiv='Moon',imgur='8J4MFUc.png',gdrv='1F-ylCuSYN7o8IDBRZR_VrbptpsmN1CxE',stgCat=9,lastupdate='18/01/2024'
 	ytVid='7tJ258dgXsM?si=rDQ5PSL_F0lYxCwa&start=93&end=143'; //@AL82RetrogamingLongplays
 break;
 case 124:
-mydiv='Mighty_City',imgur='OnrOsvd.gif',gdrv='1jrgVkcxso0oOCv5Zfhs7U71aM9N2IrLB'
+mydiv='Mighty_City',imgur='OnrOsvd.gif',gdrv='1jrgVkcxso0oOCv5Zfhs7U71aM9N2IrLB',stgCat=9,lastupdate='20/04/2024'
 break;
 case 125:
-mydiv='HomieYoshiStory',imgur='6kAf5vJ.gif',gdrv='1wR2XmLHzNnotWekpXiSZRG_EysHrGxwk'
+mydiv='HomieYoshiStory',imgur='6kAf5vJ.gif',gdrv='1wR2XmLHzNnotWekpXiSZRG_EysHrGxwk',stgCat=9,lastupdate='20/04/2024'
 rng=(Math.floor(Math.random()*6));
 	if (rng==0) {ytVid='HGTvf7wxTtQ';} //@SDK123_MUGEN
 	if (rng==1) {ytVid='Zo_YI7lDKYA';} //@SDK123_MUGEN
@@ -734,107 +754,107 @@ rng=(Math.floor(Math.random()*6));
 	if (rng==5) {ytVid='weIbgqShSHg?si=zGCIRSbDc-hE6RFP&start=82&end=132';} //@NICK54222
 break;
 case 126:
-mydiv='Endless_Corridor',imgur='P3ZBwfj.png',gdrv='1TB8eS9jsDC1gKH6MUgjg9uZOZovbpj0Y'
+mydiv='Endless_Corridor',imgur='P3ZBwfj.png',gdrv='1TB8eS9jsDC1gKH6MUgjg9uZOZovbpj0Y',stgCat=8,lastupdate='20/04/2024'
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytPreview='ZecEv1IBJSQ';} //@mabskmk
 	if (rng==1) {ytPreview='0lzKHa_Y3Kk';} //@mabskmk		
 break;
 case 127:
-mydiv='Bay_Yard',imgur='VDiZw8h.gif',gdrv='14KYviIi8D-koGCOC5V6CQGUZOzYtwHah'
+mydiv='Bay_Yard',imgur='VDiZw8h.gif',gdrv='14KYviIi8D-koGCOC5V6CQGUZOzYtwHah',stgCat=2,lastupdate='20/04/2024'
 break;
 case 128:
-mydiv='Ninja_Party_Again',imgur='MtiHdQn.png',gdrv='1waH3Ecc2kby0wX5Z6dbuzP3f3YY3LM3O';
+mydiv='Ninja_Party_Again',imgur='MtiHdQn.png',gdrv='1waH3Ecc2kby0wX5Z6dbuzP3f3YY3LM3O',stgCat=8,lastupdate='20/04/2024'
 ytVid='fOpqMT2s9vo'; //@trackiesthead1563
 break;
 case 129:
-mydiv='Green_base',imgur='3IeKAXd.png',gdrv='1X8Iq2sOtGJfn9wT8nKQz350zr-6sDrF_';
+mydiv='Green_base',imgur='3IeKAXd.png',gdrv='1X8Iq2sOtGJfn9wT8nKQz350zr-6sDrF_',stgCat=10,lastupdate='20/04/2024'
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytVid='wj1Ja3r-ksw?si=brL3j1AKoEUMw4ZY&start=10&end=60';} //@trackiesthead1563
 	if (rng==1) {ytVid='dDxD2xPvzak';} //@Duy-sensei2408
 	ytPreview='G4YkePtf5Kc'; //@mabskmk
 break;
 case 130:
-mydiv='CosmoPG',imgur='Iqg4mFl.gif',gdrv='1DKFe9WVUJmBu9ekgoOHPbymzwLImbHVu'
+mydiv='CosmoPG',imgur='Iqg4mFl.gif',gdrv='1DKFe9WVUJmBu9ekgoOHPbymzwLImbHVu',stgCat=8,lastupdate='20/04/2024'
 break;
 case 131:
-mydiv='BusterSTG',imgur='I9XkGao.gif',gdrv='1x8-qWjazOf97ZHIoZONyGJA9xQzGnBEU'
+mydiv='BusterSTG',imgur='I9XkGao.gif',gdrv='1x8-qWjazOf97ZHIoZONyGJA9xQzGnBEU',stgCat=9,lastupdate='20/04/2024'
 break;
 case 132:
-mydiv='Majyuuou',imgur='IPxOOKq.gif',gdrv='1OGF4O5R9EHDplwmpAb4lx58NaBC305Ag'
+mydiv='Majyuuou',imgur='IPxOOKq.gif',gdrv='1OGF4O5R9EHDplwmpAb4lx58NaBC305Ag',stgCat=8,lastupdate='09/10/2020'
 	ytPreview='9JmM0AXnhOM'; //@mabskmk
 break;
 case 133:
-mydiv='Tails_Adventure',imgur='dZ6dOhE.gif',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9'
+mydiv='Tails_Adventure',imgur='dZ6dOhE.gif',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9',stgCat=3,lastupdate='22/04/2024'
 break;
 case 134:
-mydiv='Trump_Castle',imgur='uuXaSYP.gif',gdrv='1cMAkHNBloMttCw9YAhQROHgqFx8vfzwa',zpoints=10000
+mydiv='Trump_Castle',imgur='uuXaSYP.gif',gdrv='1cMAkHNBloMttCw9YAhQROHgqFx8vfzwa',stgCat=7,lastupdate='16/07/2021',zpoints=10000
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytVid='TBCiWBeykzA';} //@I_yeet_deez_nuts_in_your_mouth
 	if (rng==1) {ytVid='S4peLoHKecM?si=nTtTiMyr2fFmANf1&start=12&end=62';} //@jewelmen10mugen87
 break;
 case 135:
-mydiv='Alex_Kidd_SW',imgur='Bh3ZJYA.gif',gdrv='14tIuGNaATof4tdimK6HitxNYLBER-d5V'
+mydiv='Alex_Kidd_SW',imgur='Bh3ZJYA.gif',gdrv='14tIuGNaATof4tdimK6HitxNYLBER-d5V',stgCat=6,lastupdate='31/07/2021'
 break;
 case 136:
-mydiv='Mystic_Cave:RE',imgur='btOgGEX.gif',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9'
+mydiv='Mystic_Cave:RE',imgur='btOgGEX.gif',gdrv='1GhrgKRAOwpfRqemYLWq5m24qpG2uDXV9',stgCat=3,lastupdate='22/04/2024'
 break;
 case 137:
-mydiv='KirbyMK4',imgur='VBu57Re.gif',gdrv='10ISB1TYCzgLDa0nlJGtDhuAkgeET6nGy';
+mydiv='KirbyMK4',imgur='VBu57Re.gif',gdrv='10ISB1TYCzgLDa0nlJGtDhuAkgeET6nGy',stgCat=8,lastupdate='21/04/2024'
 rng=(Math.floor(Math.random()*3));
 	if (rng==0) {ytVid='Vgl31XS6jhg';} //@MaycolGamer026
 	if (rng==1) {ytVid='wg27PBd-7YA?si=ZLxQ7TmX5-TXNZcc&start=11&end=61';} //@trackiesthead1563
 	if (rng==2) {ytVid='IYLD9xlbgO8';} //@Poyomousy
 break;
 case 138:
-mydiv='Psycho_Wasp',imgur='66f1HbI.png',gdrv='1O3mXmF_II1f_yuL-7yOdOCZffCMP_ipZ'
+mydiv='Psycho_Wasp',imgur='66f1HbI.png',gdrv='1O3mXmF_II1f_yuL-7yOdOCZffCMP_ipZ',stgCat=8,lastupdate='13/11/2021'
 break;
 case 139:
-mydiv='Shockman',imgur='TvKpECK.gif',gdrv='1M8Qb9lOi0kiJS0-i2tMwVLTrrbRD2_W3'
+mydiv='Shockman',imgur='TvKpECK.gif',gdrv='1M8Qb9lOi0kiJS0-i2tMwVLTrrbRD2_W3',stgCat=8,lastupdate='14/11/2021'
 break;
 case 140:
-mydiv='Ghost-Sweeper',imgur='btWjmQ7.gif',gdrv='1IirAgUWUbBQWSPDMhavvFgDL-mbxZXoc'
+mydiv='Ghost-Sweeper',imgur='btWjmQ7.gif',gdrv='1IirAgUWUbBQWSPDMhavvFgDL-mbxZXoc',stgCat=8,lastupdate='03/11/2024'
 break;
 case 141:
-mydiv='Final_Assault',imgur='2sTDDfe.gif',gdrv='1YhNUX_0osdyDKucya4xLUMGDrKt5MVO0',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png';
+mydiv='Final_Assault',imgur='2sTDDfe.gif',gdrv='1YhNUX_0osdyDKucya4xLUMGDrKt5MVO0',stgCat=4,lastupdate='20/04/2024',bannerHtml='www.treasure-inc.co.jp',bannerImg='i.imgur.com/cQUJEzO.png';
 ytVid='qIpXfV1SuSw?si=wUsn7mAXNPAIKKXo&start=11&end=61'; //@trackiesthead1563
 break;
 case 142:
-mydiv='R-Factory',imgur='EKarctF.gif',gdrv='1LPCgNr6RU-4j6c5avQdTzf7lZ23F2J18'
+mydiv='R-Factory',imgur='EKarctF.gif',gdrv='1LPCgNr6RU-4j6c5avQdTzf7lZ23F2J18',stgCat=8,lastupdate='20/09/2023'
 	ytPreview='UxKVh_BxtC8'; //@mabskmk	
 break;
 case 143:
-mydiv='Dense_Jungle',imgur='9aKwD6M.png',gdrv='1ouGRVEP7IPamjAgjYiL1xhdYYGaPfnwr'
+mydiv='Dense_Jungle',imgur='9aKwD6M.png',gdrv='1ouGRVEP7IPamjAgjYiL1xhdYYGaPfnwr',stgCat=8,lastupdate='23/04/2024'
 	ytVid='jQl2qvV-g7M'; //@Macaulyn_97
 break;
 case 144:
-mydiv='Jiu_Xiang_Rong_Dong',imgur='mXzscPv.png',gdrv='1e-D6IIh5lc_DO8wk4PoFM_Y88MgzvUKB',bannerHtml='ankokunaitou.blog.fc2.com',bannerImg='i.imgur.com/EIXSnzc.png';
+mydiv='Jiu_Xiang_Rong_Dong',imgur='mXzscPv.png',gdrv='1e-D6IIh5lc_DO8wk4PoFM_Y88MgzvUKB',stgCat=8,lastupdate='18/12/2023',bannerHtml='ankokunaitou.blog.fc2.com',bannerImg='i.imgur.com/EIXSnzc.png';
 	ytPreview='uCTD6YhSY-w'; //@mabskmk
 break;
 case 145:
-mydiv='Tietê',imgur='hVQbFCj.png',gdrv='1TdrSHbkmHnV_h6Q3W520Wihc9646KZbJ'
+mydiv='Tietê',imgur='hVQbFCj.png',gdrv='1TdrSHbkmHnV_h6Q3W520Wihc9646KZbJ',stgCat=9,lastupdate='18/01/2024'
 	ytPreview='f72YDbaFgno'; //@mabskmk
 break;
 case 146:
-mydiv='Ulu_City_2',imgur='9urjRsW.png',gdrv='1KmBAayxkuuEeHgKN-gyZ-GXy_vsW2wOK'
+mydiv='Ulu_City_2',imgur='9urjRsW.png',gdrv='1KmBAayxkuuEeHgKN-gyZ-GXy_vsW2wOK',stgCat=9,lastupdate='30/10/2024'
 break;
 case 147:
-mydiv='MapleStory_Moon',imgur='lq3g3j8.png',gdrv='1CIejsSi-CPd-aK3LyyMstMP0iZCFoA3P'
+mydiv='MapleStory_Moon',imgur='lq3g3j8.png',gdrv='1CIejsSi-CPd-aK3LyyMstMP0iZCFoA3P',stgCat=9,lastupdate='31/10/2024'
 	ytPreview='ElHLRLCoJu0'; //@mabskmk
 break;
 case 148:
-mydiv='Soft_&_Cuddly',imgur='Q5vppKs.png',gdrv='1-wtDeg3G-pKsa3jX8nriaRjqHixSDOfA',zpoints=10000
+mydiv='Soft_&_Cuddly',imgur='Q5vppKs.png',gdrv='1-wtDeg3G-pKsa3jX8nriaRjqHixSDOfA',stgCat=9,lastupdate='30/10/2024',zpoints=10000
 break;
 case 149:
-mydiv='Childam',imgur='vwyHC1p.png',gdrv='1Coma7X1m3yUBEn0RVq27Vzk7Ab0Fs28J'
+mydiv='Childam',imgur='vwyHC1p.png',gdrv='1Coma7X1m3yUBEn0RVq27Vzk7Ab0Fs28J',stgCat=2,lastupdate='24/12/2024'
 break;
 case 150:
-mydiv='Chemical_Mania',imgur='f5VDVWX.gif',gdrv='1W9akYo1xpzkDcBkzRuZFXGmoS5zV6mqN'
+mydiv='Chemical_Mania',imgur='f5VDVWX.gif',gdrv='1W9akYo1xpzkDcBkzRuZFXGmoS5zV6mqN',stgCat=3,lastupdate='10/10/2026'
 rng=(Math.floor(Math.random()*2));
 	if (rng==0) {ytPreview='9iBT-mc2TPM';} //@mabskmk
 	if (rng==1) {ytPreview='Ew1SopuRkAM';} //@mabskmk
 break;
 case 151:
-mydiv='Living_Forest_3&4',imgur='2jtHSCa.gif',gdrv='1ByjphH_RaJSX0U6HuSjd1jTdCNFNk4c-'
+mydiv='Living_Forest_3&4',imgur='2jtHSCa.gif',gdrv='1ByjphH_RaJSX0U6HuSjd1jTdCNFNk4c-',stgCat=9,lastupdate='21/10/2026'
 	ytPreview='MeVPqt1K6NM'; //@mabskmk
 break;
 case 0:
