@@ -4,6 +4,8 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="mabskmk,mugen,character,stage,videogame,fan made">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Fanpage of MUGEN with characters and stages to download for free">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <title>Mabs Pseudo Space</title>
 
@@ -21,24 +23,22 @@ body {
 <meta http-equiv="Refresh" content="1; url=https://mabskmk.webs.com/apps/forums/topics/show/5878084-noscript">
 </noscript>
 
-<script src="function_alpha.js">
-</script>
-<script src="function_char.js">
-</script>
-<script src="function_stage.js">
-</script>
-<script src="function_fullgames.js">
-</script>
-<script src="function_misc.js">
-</script>
-<script src="function_game.js">
-</script>
+<script src="function_alpha.js" defer></script>
+<script src="function_char.js" defer></script>
+<script src="function_stage.js" defer></script>
+<script src="function_fullgames.js" defer></script>
+<script src="function_misc.js" defer></script>
+<script src="function_game.js" defer></script>
 </head>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    buildTemplate();
+  });
+</script>
     
 <body>
-<center>
-<div id='sitetemplate'><img src=https://i.imgur.com/AH0gryO.gif onload="tempo=setTimeout('buildTemplate()',5)"></div>
-</center>
+<div id='sitetemplate'></div>
 </body>
 
 </html>
