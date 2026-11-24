@@ -1,7 +1,7 @@
 const numStages=151;
 var randomValue=0;
 var checkStage = new Array((numStages)+1);
-//var stage20 = last20Index2(2);
+var stage20 = last20Index2();
 
 // Create the basic html
 function menustage1() {
@@ -31,46 +31,63 @@ function showcaseStage() {
 	if (btnnew.disabled==false) {return;}
 
 // Check if the array is full
-for (let x=numStages;x>0;x--) {
-	if ( checkStage[x]!=='ok' ) {break;}
-
-	if (x==1 && checkStage[x]=='ok' ) {checkStage = [];} 
-	if (x==(numStages-19) && checkStage[x]=='ok' && !weekEnd) {checkStage = []; break;} 
+if (weekEnd) {
+	for (let x=numStages;x>0;x--) {
+		if ( checkStage[x]!=='ok' ) {break;}
+		if (x==1 && checkStage[x]=='ok') {checkStage = [];} 
+	}
+}
+if (!weekEnd) {
+	for (let x=0;x<20;x++) {
+		if ( checkStage[(stage20[x])]!=='ok' ) {break;}
+		if (x==19 && checkStage[(stage20[x])]=='ok') {checkStage = [];} 
+	}
 }
 
 // Set a randomValue
+if (weekEnd) {
 do {
-	if (weekEnd) {randomValue=(Math.floor(Math.random()*numStages)+1);}
-	if (!weekEnd) {randomValue=(Math.floor(Math.random()*20)+(numStages-19));}
+	randomValue=(Math.floor(Math.random()*numStages)+1);
 
 }	while (randomValue>0 && checkStage[randomValue]=='ok');
 
-if (randomValue>0 && checkStage[randomValue]!='ok') {checkStage[randomValue]='ok';}
+	if (randomValue>0 && checkStage[randomValue]!='ok') {checkStage[randomValue]='ok';}
+}
 
-// Set a randomValue
+if (!weekEnd) {
+do {
+	randomValue=(Math.floor(Math.random()*20));
+	
+}	while (checkStage[(stage20[randomValue])]=='ok');
+
+	if (checkStage[(stage20[randomValue])]!='ok') {
+		checkStage[(stage20[randomValue])]='ok';
+		randomValue=stage20[randomValue];
+	}
+}
 
 // Get the values ​​of the respective video from the 'character database'
 stageData(randomValue,3);
 intervalTime=setTimeout('showcaseMisc()',50000); //showcaseCharacter -> showcaseStage -> showcaseMisc 
 }
 
-// Get the last 20 indexes of an array (1=char 2=stage)
-function last20Index2(type) {
+// Get the last 20 indexes of an array ()
+function last20Index2() {
 let myArray = new Array(20);
-let anoLoop = 26;
+let anoLoop = 2026;
 let dataStr;
 let i = 0;
 
 	do {
-		for (let c=1;c<=numStages;c++) {
+		for (let s=1 ; s <= numStages ; s++) {
 
-			dataStr = stageData(c,4);			
+			dataStr = stageData(s,4);			
 			let partes = dataStr.split('/');
 			let ano = parseInt(partes[2], 10);
 
 			if (ano == anoLoop && i<20) {
 				//console.log(ano);
-				myArray[i] = c;
+				myArray[i] = s;
 				i++;
 				}		
 		}
@@ -79,8 +96,8 @@ let i = 0;
 		
 	} while ( i < 20 );
 
-console.log("teste: "+myArray);
-console.log("teste: "+myArray.length);
+console.log("stage: "+myArray);
+console.log("stage: "+myArray.length);
 return myArray;	
 }
 
