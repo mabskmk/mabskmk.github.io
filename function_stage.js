@@ -1,7 +1,7 @@
 const numStages=151;
 var randomValue=0;
 var checkStage = new Array((numStages)+1);
-var stage20 = last20Index2(2);
+//var stage20 = last20Index2(2);
 
 // Create the basic html
 function menustage1() {
@@ -31,56 +31,23 @@ function showcaseStage() {
 	if (btnnew.disabled==false) {return;}
 
 // Check if the array is full
-/*for (let x=numStages;x>0;x--) {
+for (let x=numStages;x>0;x--) {
 	if ( checkStage[x]!=='ok' ) {break;}
 
 	if (x==1 && checkStage[x]=='ok' ) {checkStage = [];} 
 	if (x==(numStages-19) && checkStage[x]=='ok' && !weekEnd) {checkStage = []; break;} 
 }
-*/
-if (weekEnd) {
-	for (let x=numStages;x>0;x--) {
-		if ( checkStage[x]!=='ok' ) {break;}
-		if (x==1 && checkStage[x]=='ok') {checkStage = [];} 
-	}
-}
-if (!weekEnd) {
-	for (let x=0;x<20;x++) {
-		if ( checkStage[(stage20[x])]!=='ok' ) {break;}
-		if (x==19 && checkStage[(stage20[x])]=='ok') {checkStage = [];} 
-	}
-}
 
 // Set a randomValue
-/*do {
+do {
 	if (weekEnd) {randomValue=(Math.floor(Math.random()*numStages)+1);}
 	if (!weekEnd) {randomValue=(Math.floor(Math.random()*20)+(numStages-19));}
 
 }	while (randomValue>0 && checkStage[randomValue]=='ok');
 
 if (randomValue>0 && checkStage[randomValue]!='ok') {checkStage[randomValue]='ok';}
-*/
+
 // Set a randomValue
-if (weekEnd) {
-do {
-	randomValue=(Math.floor(Math.random()*numStages)+1);
-
-}	while (randomValue>0 && checkStage[randomValue]=='ok');
-
-	if (randomValue>0 && checkStage[randomValue]!='ok') {checkStage[randomValue]='ok';}
-}
-
-if (!weekEnd) {
-do {
-	randomValue=(Math.floor(Math.random()*20));
-	
-}	while (checkStage[(stage20[randomValue])]=='ok');
-
-	if (checkStage[(stage20[randomValue])]!='ok') {
-		checkStage[(stage20[randomValue])]='ok';
-		randomValue=stage20[randomValue];
-	}
-}
 
 // Get the values ​​of the respective video from the 'character database'
 stageData(randomValue,3);
