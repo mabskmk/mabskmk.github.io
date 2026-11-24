@@ -95,16 +95,21 @@ return myArray;
 
 // Character database
 function charData(numero,code) {
+let rng		=0;
+let mydiv		='';
+let imgur		='';
+let imgur9		='';
+let game		='';
+let ctype		='';
+let ctypeID		= 0;
+let lastupdate	='';
+let gdrv		='';
+let zpoints		= 0;
 let bannerHtml	='';
 let bannerImg	='';
-let rng		=0;
 let ytVid		='';
 let ytPreview	='';
 let sufix		='?autoplay=1&mute=1';
-let gdrv		='';
-let imgur		='';
-let imgur9		='';
-let zpoints		=0;
 
 switch (numero) {
 case 1:
@@ -286,7 +291,7 @@ rng=(Math.floor(Math.random()*5));
 	if (rng==4) {ytVid='1oVW32ZkB2Y';} //@DartzPie
 break;
 case 27:
-mydiv='GnG-Graveyard',imgur='p19yaAN',imgur9='5pvWAIm.png',game='Makaimura',ctype='Plataform',lastupdate='02/10/26',gdrv='1GbhV0S9ncu4Giov0mcIPTixLDmEwl6s7';
+mydiv='GnG-Graveyard',imgur='p19yaAN',imgur9='5pvWAIm.png',game='Makaimura',ctype='Plataform',ctypeID=1,lastupdate='02/10/26',gdrv='1GbhV0S9ncu4Giov0mcIPTixLDmEwl6s7';
 rng=(Math.floor(Math.random()*4));
 	if (rng==0) {ytVid='gKBhhIfrdRE';} //@BlackFired
 	if (rng==1) {ytVid='ftZ7ucCeHJE?si=tGkdcA-oL5Gd8wuS&start=535&end=585';} //@mabskmk
@@ -295,7 +300,7 @@ rng=(Math.floor(Math.random()*4));
 	ytPreview='ftZ7ucCeHJE'; //@mabskmk
 break;
 case 28:
-mydiv='GnG-Tower',imgur='CkHRPvY',imgur9='T75hr23.png',game='Makaimura',ctype='Arcade',lastupdate='31/10/26',gdrv='1UxTvsauekqFbxAh7SIFjDYTUdJuvlCtP';
+mydiv='GnG-Tower',imgur='CkHRPvY',imgur9='T75hr23.png',game='Makaimura',ctype='Arcade',ctypeID=1,lastupdate='31/10/26',gdrv='1UxTvsauekqFbxAh7SIFjDYTUdJuvlCtP';
 rng=(Math.floor(Math.random()*6));
 	if (rng==0) {ytVid='YHdwfkEHo98?si=XWmx_3VddWQ0lMbK&start=333&end=383';} //@MannyLingle
 	if (rng==1) {ytVid='pnKtahKsbvc?si=-McBarB60-ChlixU&start=277&end=327';} //@mabskmk
@@ -306,7 +311,7 @@ rng=(Math.floor(Math.random()*6));
 	ytPreview='pnKtahKsbvc'; //@mabskmk
 break;
 case 29:
-mydiv='GnG-Burning',imgur='ScexylS',imgur9='ohZWqMw.png',game='Makaimura',ctype='SHMUP',lastupdate='31/10/23',gdrv='1GeSVB_GbPiB8PHPk5sw7HAUuJKVRAH3W';
+mydiv='GnG-Burning',imgur='ScexylS',imgur9='ohZWqMw.png',game='Makaimura',ctype='SHMUP',ctypeID=1,lastupdate='31/10/23',gdrv='1GeSVB_GbPiB8PHPk5sw7HAUuJKVRAH3W';
 rng=(Math.floor(Math.random()*3));
 	if (rng==0) {ytVid='oCkbXMVMYzA?si=rf8K6yK893yfZTEv&start=250&end=300';} //@mabskmk
 	if (rng==1) {ytVid='oCkbXMVMYzA?si=6-2T2Nu3XqcR3J89&start=600&end=650';} //@mabskmk
@@ -314,14 +319,14 @@ rng=(Math.floor(Math.random()*3));
 	ytPreview='oCkbXMVMYzA'; //@mabskmk
 break;
 case 30:
-mydiv='ALEX_Jankenpon',imgur='kHBUEcQ',imgur9='i2NjJtm.png',game='Alex Kidd',ctype='JokenPo',lastupdate='01/03/12',gdrv='1o4UAIynon1lyGVFLCowRKstD-7RIxp5P'
+mydiv='ALEX_Jankenpon',imgur='kHBUEcQ',imgur9='i2NjJtm.png',game='Alex Kidd',ctype='JokenPo',ctypeID=1,lastupdate='01/03/12',gdrv='1o4UAIynon1lyGVFLCowRKstD-7RIxp5P'
 	ytVid='3tmnr2wORuA?si=FIviXnpbOHHvdHnU&start=1178&end=1228'; //@GemeosdosJogos
 break;
 case 31:
-mydiv='MSW-Subway',imgur='omSLMkl',imgur9='aJct4Y8.gif',game='Metalslug',ctype='SHMUP',lastupdate='19/01/12',gdrv='1nxtazK_0agbKe6wrJtUtYyDL21IiBIGw'
+mydiv='MSW-Subway',imgur='omSLMkl',imgur9='aJct4Y8.gif',game='Metalslug',ctype='SHMUP',ctypeID=1,lastupdate='19/01/12',gdrv='1nxtazK_0agbKe6wrJtUtYyDL21IiBIGw'
 break;
 case 32:
-mydiv='Castle_War',imgur='Xehem37',imgur9='aVsXFAq.png',game='Various',ctype='Tower defense',lastupdate='07/11/12',gdrv='1usRBM7HowIsEPqHnE6guEGMk3EbZO87l'
+mydiv='Castle_War',imgur='Xehem37',imgur9='aVsXFAq.png',game='Various',ctype='Tower defense',ctypeID=1,lastupdate='07/11/12',gdrv='1usRBM7HowIsEPqHnE6guEGMk3EbZO87l'
 	ytVid='STLukVJ51VM'; //@huntergamemodification56
 	ytPreview='l2_VuqqoDoU'; //@mabskmk
 break;
