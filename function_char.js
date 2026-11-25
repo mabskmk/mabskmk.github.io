@@ -434,7 +434,7 @@ break;
 case 53:
 mydiv='Sandwitch',imgur='2APcz3X',imgur9='zyTExeh.png',game='Puyo_Puyo',ctype='Bonus',lastupdate='31/10/21',gdrv='1CrFqUEl2u9or1SRXbJ5GqwpZVJ1FKtMu'
 	ytVid='-XtG63ruDMM?si=j9EaI9cpo5XoyUcc&start=15&end=65'; //@jewelmen10mugen87
-	ytPreview='XM0Y-k8WLdY'; //@mabskmk
+	ytPreview='_EyYMlvczjQ'; //@mabskmk
 break;
 case 54:
 mydiv='Sausage_Monks',imgur='uVVlLl7',imgur9='en1KRSZ.png',game='Makaimura',ctype='Bonus',lastupdate='31/10/24',gdrv='1c43XQfrPThdtR2g1rM8kPMyrPffJeqOH'
