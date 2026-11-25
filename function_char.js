@@ -72,13 +72,13 @@ if ( charData(indexShow , 5) == 0 ) {
 	divOrder = "<h1><a target='_blank' href='https://ln.sync.com/dl/8130397b0/ciy6yjaq-ibypwy7w-fbra5drz-q6dp5tub'><img src=https://i.imgur.com/QPa6H3A.png class='rbutton' width=75 height=75></a><b>Mini-games</b></h1><br>"
 
 	for (let t=0 ; t < dataOrder.length ; t++) {		
-		if ( charData((dataOrder[t].indice)+1 , 5) == 0 ) { divOrder += "<div id="+((dataOrder[t].indice)+1)+"></div>" ;}
+		if ( charData((dataOrder[t].indice)+1 , 5) == 1 ) { divOrder += "<div id="+((dataOrder[t].indice)+1)+"></div>" ;}
 	}
 
 	divOrder += "...<br><h1><b>Characters</b></h1>"
 
 	for (let t=0 ; t < dataOrder.length ; t++) {		
-		if ( charData((dataOrder[t].indice)+1 , 5) == 1 ) { divOrder += "<div id="+((dataOrder[t].indice)+1)+"></div>" ;}
+		if ( charData((dataOrder[t].indice)+1 , 5) == 0 ) { divOrder += "<div id="+((dataOrder[t].indice)+1)+"></div>" ;}
 	}
 
 }
