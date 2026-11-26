@@ -1,10 +1,485 @@
-const numChars=56; 
+
+///////////////////////////////////////////////////
+// Function_Characters.javascript made by mabskmk
+///////////////////////////////////////////////////
+
+const numChars = charDataNumber();
 var randomValue=0;
 var checkChar = new Array((numChars)+1);
 var char20 = last20Index(1);
 
+///////////////////////////////////////////////////
+// Character database
+///////////////////////////////////////////////////
+
+function charData(numero,code) {
+let rng		=0;
+let mydiv		='';
+let imgur		='';
+let imgur9		='';
+let game		='';
+let ctype		='';
+let ctypeID		= 0;
+let lastupdate	='';
+let gdrv		='';
+let zpoints		= 0;
+let bannerHtml	='';
+let bannerImg	='';
+let ytVid		='';
+let ytPreview	='';
+let sufix		='?autoplay=1&mute=1';
+
+switch (numero) {
+
+///////////////////////////////////////////////////
+// Insert new values=cases here:
+///////////////////////////////////////////////////
+
+case 56:
+mydiv='Yonita',imgur='3dn8Twj',imgur9='OBmGo20.png',game='Alien_X_Predator',ctype='Joke',lastupdate='20/11/21',gdrv='1wThRuRji2OB5C3zyB5MW03YOqhcleBZi',zpoints=10000
+break;
+case 55:
+mydiv='Rede_Globo',imgur='cQtHlPU',imgur9='T9e4Il1.png',game='???',ctype='Joke',lastupdate='30/10/19',gdrv='1jjLIScUv8tqO6-w6QAfe7XpccP6ENzFX',zpoints=10000
+rng=(Math.floor(Math.random()*3));
+	if (rng==0) {ytVid='W9bSU1d2wME';} //@TheRatCooler
+	if (rng==1) {ytVid='Y7FZjAm7wWw';} //@TheRatCooler
+	if (rng==2) {ytVid='vvZEbusxgCc';} //@TheRatCooler
+break;
+case 54:
+mydiv='Sausage_Monks',imgur='uVVlLl7',imgur9='en1KRSZ.png',game='Makaimura',ctype='Bonus',lastupdate='31/10/24',gdrv='1c43XQfrPThdtR2g1rM8kPMyrPffJeqOH'
+break;
+case 53:
+mydiv='Sandwitch',imgur='2APcz3X',imgur9='zyTExeh.png',game='Puyo_Puyo',ctype='Bonus',lastupdate='31/10/21',gdrv='1CrFqUEl2u9or1SRXbJ5GqwpZVJ1FKtMu'
+	ytVid='-XtG63ruDMM?si=j9EaI9cpo5XoyUcc&start=15&end=65'; //@jewelmen10mugen87
+	ytPreview='XM0Y-k8WLdY'; //@mabskmk
+break;
+case 52:
+mydiv='OOM-Killer',imgur='meIJuGr',imgur9='1iC2W4S.png',game='Turrican',ctype='Bonus',lastupdate='31/10/21',gdrv='1mZm2fg8-GE29Uk61ZOPNlc7NMNy0LfJe'
+break;
+case 51:
+mydiv='Golem',imgur='pbrqOGU',imgur9='EpX4fu3.png',game='Nosferatu',ctype='Bonus',lastupdate='31/10/21',gdrv='18p-BFz34xr2fklFNuJkcr-kaqTYVNODy';
+rng=(Math.floor(Math.random()*2));
+	if (rng==0) {ytVid='V0haA20g4_A?si=urI-6GBu2kFI8z-u&start=1576&end=1626';} //@trackiesthead1563
+	if (rng==1) {ytVid='jFqRkTy_2hs?si=LBiWOEaVu6iqocqp&start=530&end=580';} //@LegendaryDreamerchannel
+break;
+case 50:
+mydiv='Thicc-Tac-Toe',imgur='ld7q5PX',imgur9='yxzkrR1.png',game='Metal Slut',ctype='Bonus',lastupdate='13/01/21',gdrv='1ezCyx2EDm4b2Ko1hypdfUFB4Baw5zXVa'
+break;
+case 49:
+mydiv='Shimeji',imgur='IDrbSZ8',imgur9='sJuKFFz.png',game='<a target=_blank href=https://kilkakon.com/shimeji><img src=https://i.imgur.com/RG52doK.png width=25 height=25></a>',ctype='Bonus',lastupdate='24/12/20',gdrv='1nKdd3q6eaRqfTQz1I_vfykm8-u0Uq2IT'
+	ytVid='S7fPCGh5xxo?si=4iJGg-d7gazgba6b&start=147&end=217'; //@KonfluxGames
+break;
+case 48:
+mydiv='Head-of-Ukyo',imgur='RZ9lnLU',imgur9='Y7rsQZd.png',game='original',ctype='Boss',lastupdate='31/10/20',gdrv='1jPx1agCPmLw2Sc9ew4o8zS9j4xnajn9E'
+	ytPreview='jfSGYT5UEy0'; //@mabskmk
+break;
+case 47:
+mydiv='R-Memory',imgur='RNwRj1K',imgur9='vj39rR3.png',game='R-Type',ctype='Bonus',lastupdate='21/11/26',gdrv='1PNzI6IssGK8BSsYcLCr2xSVrdiDblXVX';
+	ytVid='lxuzFYhnJbI?si=9TgFK-geJ60x3wd_&start=14&end=64'; //@jewelmen10mugen87
+	ytPreview='WNj1zkk6iDA'; //@mabskmk
+break;
+case 46:
+mydiv='Reznor',imgur='qVYNGvN',imgur9='7JqhABW.png',game='Mario',ctype='Boss',lastupdate='24/05/20',gdrv='15VTihsGmygebpBvSwTPvg2BkKdUNQ8u1';
+rng=(Math.floor(Math.random()*10));
+	if (rng==0) {ytVid='l_Hh1JuhbrM';} //@davidm69
+	if (rng==1) {ytVid='j9Lt3i-Vf8Q';} //@CV-Mugen
+	if (rng==2) {ytVid='cJvvlsVA4TE?si=2tMtptPr7R-4-I5M&start=272&end=322';} //@Silentgirl22
+	if (rng==3) {ytVid='6Ksq0gJnibE';} //@davidm69
+	if (rng==4) {ytVid='_cUM_9WVEMo';} //@CV-Mugen
+	if (rng==5) {ytVid='MK2EJID9w6g';} //@DARKSOLODONALDAS8768
+	if (rng==6) {ytVid='c6XKOAb5gHI?si=oqsduMNEVRlkZYHs&start=12&end=62';} //@jewelmen10mugen87
+	if (rng==7) {ytVid='qgLOndlDzR0?si=0IqyCV94QfsjuZAW&start=23&end=73';} //@tenshihinanawi1643
+	if (rng==8) {ytVid='aUq0eaEb4Ak?si=DHeexi5KxAGRPFmy&start=5&end=55';} //@trackiesthead1563
+	if (rng==9) {ytVid='1h6h7rn9krM?si=n4_F9Fx9s4DGJYHJ&start=12&end=62';} //@jewelmen10mugen87
+	ytPreview='4Z9wn4wjxvQ'; //@mabskmk
+break;
+case 45:
+mydiv='Boobs',imgur='yD1AWaE',imgur9='I6DUeVu.png',game='Amazon Brawl',ctype='Boss',lastupdate='24/01/24',gdrv='15iwEE0g8Jun3eQQlYxw7uC7Jt1Vpv9ME',zpoints=10000
+break;
+case 44:
+mydiv='Mermaid',imgur='YAMiPUI',imgur9='g4cEy24.png',game='Gaiares',ctype='Bonus',lastupdate='24/01/24',gdrv='1O5lFMuFeLyPYXAwB5SaumvtlXZzXLrRK'
+rng=(Math.floor(Math.random()*2));
+	if (rng==0) {ytVid='eGHHIqf90ac';} //@XanderCoffin
+	if (rng==1) {ytVid='6DuHP9Xz91Y?si=gA8MFHzossg5PbSU&start=1080&end1130';} //@worldoflongplays
+break;
+case 43:
+mydiv='Dress',imgur='yYVBanS',imgur9='eZnMTuE.png',game='Queen Axe',ctype='Bonus',lastupdate='13/01/18',gdrv='1gYpG62kgEQYyLI0rLRhiNX_fJe-Egvrm'
+break;
+case 42:
+mydiv='Evil-Eye-of-Balor',imgur='1LDxq7H',imgur9='BI3xaoj.png',game='Terraria',ctype='Boss',lastupdate='25/03/17',gdrv='1tsQ4AS7cl8emdMOHAtVbsGJtNp1ykaw6',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg'
+break;
+case 41:
+mydiv='Full-of-Spiders',imgur='hXxFrKx',imgur9='3SH8IzW.png',game='Splatterhouse',ctype='Bonus',lastupdate='28/10/16',gdrv='19f8oZl-KzlWeYGTo27vvteu9GPK_dVFi'
+rng=(Math.floor(Math.random()*2));
+	ytVid='bCUQZNA_jdA?si=Al2Syaw7MlSGG0Lv&start=286&end=336'; //@DeceasedCrab
+	ytPreview='2QISU6k8cMs'; //@mabskmk
+break;
+case 40:
+mydiv='Tic-Tac-Toe',imgur='PgyIqB1',imgur9='8lWt8j9.png',game='Oldschool',ctype='Bonus',lastupdate='24/07/16',gdrv='1JiWBKuN9LdOB_zZYlsK_SfHUx5gZUDvZ';
+rng=(Math.floor(Math.random()*3));
+	if (rng==0) {ytVid='wW_VbP0gkqI';} //@ranchsoil9387
+	if (rng==1) {ytVid='p6D_vgRD5B8';} //@TouhouSucksYouIdiots
+	if (rng==2) {ytVid='_45dSA02V-g?si=IXfd8DUa93i9KQxP&start=20&end=70';} //@ranchsoil9387
+break;
+case 39:
+mydiv='Wall_Face1-1',imgur='9uoKcu9',imgur9='T79ww2Z.png',game='Skyblazer',ctype='Boss',lastupdate='15/08/16',gdrv='1VEBZzrcjKuZ6RXTy_E0PoMgzSEO0fv24'
+	ytVid='L3iArUMq1oQ?si=KGSnT7V-Ij39bz4_&start=140&end=190'; //@samuraikarasu
+break;
+case 38:
+mydiv='Capitalism',imgur='HIynVUA',imgur9='LCZ5ymb.png',game='Real World',ctype='Boss',lastupdate='29/06/16',gdrv='1t27oAqR6ef55hUgMLvwCKMHiqOn1GtKS'
+	ytVid='bMrw8Ocl8uo'; //@WitchVelvet
+break;
+case 37:
+mydiv='Biker_GAL',imgur='7dP9qeT',imgur9='XZyANSz.png',game='Battle_Circuit',ctype='Bonus',lastupdate='29/06/16',gdrv='1kH-OrCFQMcm_gV8_sbxoSzLhySEqFrPT'
+	ytVid='NpmVTWn14Tc?si=_5_SXgRXvMJEMdtT&start=993&end=1043'; //@iconoclast575
+break;
+case 36:
+mydiv='Captain_Kebab',imgur='TsaW1dX',imgur9='0cImMKw.png',game='Parodius',ctype='Boss',lastupdate='24/01/24',gdrv='1gGgE240lPfFJJ050h0Vk9wJlFe2c2E20';
+	ytVid='z_9bj3Bv0OY?si=1v1lRBeRhYBG0s7n&start=9&end=59'; //@trackiesthead1563
+break;
+case 35:
+mydiv='Brain-of-Cthulhu',imgur='8xMmvYn',imgur9='sWf0Idm.png',game='Terraria',ctype='Boss',lastupdate='31/10/15',gdrv='1piPhPxq4fi_Eph0dKRqjbkgRkHKGlcnl',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg';
+rng=(Math.floor(Math.random()*3));
+	if (rng==0) {ytVid='DlOerQbikn0';} //@DemonDragonify
+	if (rng==1) {ytVid='EN3f7x0cL7k';} //@XanderCoffin
+	if (rng==2) {ytVid='0UrlUrO1YbE';} //@Scelua
+break;
+case 34:
+mydiv='HannyaNED',imgur='wObxscr',imgur9='LkzukyT.png',game='Megaman7',ctype='Boss',lastupdate='25/10/15',gdrv='1GZqpnaGxAyAyamsYPOEXwTrgdS5PpoNX';
+rng=(Math.floor(Math.random()*2));
+	if (rng==0) {ytVid='rgNT2Cq9cCU';} //@jewelmen10mugen87
+	if (rng==1) {ytVid='uOaz4uctX0k?si=7ZONmZ0BuQndJC9F&start=16&end=66';} //@jewelmen10mugen87
+break;
+case 33:
+mydiv='Yasha-Hime',imgur='p4i3ONN',imgur9='Yg7zSMS.png',game='Ganryu',ctype='Boss',lastupdate='02/11/18',gdrv='1Dr6zJ0-Ah0ExxmRk2DfJ--burI9DMGMR';
+	ytVid='gDOjf_yyshE?si=cdU--TfI_e9ufbmI&start=21&end=71'; //@trackiesthead1563
+break;
+case 32:
+mydiv='Castle_War',imgur='Xehem37',imgur9='aVsXFAq.png',game='Various',ctype='Tower defense',ctypeID=1,lastupdate='07/11/12',gdrv='1usRBM7HowIsEPqHnE6guEGMk3EbZO87l'
+	ytVid='STLukVJ51VM'; //@huntergamemodification56
+	ytPreview='l2_VuqqoDoU'; //@mabskmk
+break;
+case 31:
+mydiv='MSW-Subway',imgur='omSLMkl',imgur9='aJct4Y8.gif',game='Metalslug',ctype='SHMUP',ctypeID=1,lastupdate='19/01/12',gdrv='1nxtazK_0agbKe6wrJtUtYyDL21IiBIGw'
+break;
+case 30:
+mydiv='ALEX_Jankenpon',imgur='kHBUEcQ',imgur9='i2NjJtm.png',game='Alex Kidd',ctype='JokenPo',ctypeID=1,lastupdate='01/03/12',gdrv='1o4UAIynon1lyGVFLCowRKstD-7RIxp5P'
+	ytVid='3tmnr2wORuA?si=FIviXnpbOHHvdHnU&start=1178&end=1228'; //@GemeosdosJogos
+break;
+case 29:
+mydiv='GnG-Burning',imgur='ScexylS',imgur9='ohZWqMw.png',game='Makaimura',ctype='SHMUP',ctypeID=1,lastupdate='31/10/23',gdrv='1GeSVB_GbPiB8PHPk5sw7HAUuJKVRAH3W';
+rng=(Math.floor(Math.random()*3));
+	if (rng==0) {ytVid='oCkbXMVMYzA?si=rf8K6yK893yfZTEv&start=250&end=300';} //@mabskmk
+	if (rng==1) {ytVid='oCkbXMVMYzA?si=6-2T2Nu3XqcR3J89&start=600&end=650';} //@mabskmk
+	if (rng==2) {ytVid='omEjWq8DBZ0';} //@Warblefly41
+	ytPreview='oCkbXMVMYzA'; //@mabskmk
+break;
+case 28:
+mydiv='GnG-Tower',imgur='CkHRPvY',imgur9='T75hr23.png',game='Makaimura',ctype='Arcade',ctypeID=1,lastupdate='31/10/26',gdrv='1UxTvsauekqFbxAh7SIFjDYTUdJuvlCtP';
+rng=(Math.floor(Math.random()*6));
+	if (rng==0) {ytVid='YHdwfkEHo98?si=XWmx_3VddWQ0lMbK&start=333&end=383';} //@MannyLingle
+	if (rng==1) {ytVid='pnKtahKsbvc?si=-McBarB60-ChlixU&start=277&end=327';} //@mabskmk
+	if (rng==2) {ytVid='pnKtahKsbvc?si=JJI6VdK0F7wU5b-p&start=517&end=567';} //@mabskmk
+	if (rng==3) {ytVid='pnKtahKsbvc?si=YTV9PIOE21OkHEE4&start=773&end=827';} //@mabskmk
+	if (rng==4) {ytVid='pnKtahKsbvc?si=yPi5a9uxl5XMpcFc&start=1022&end-1072';} //@mabskmk
+	if (rng==5) {ytVid='pnKtahKsbvc?si=6bNfYS-rS8livgtF&start=1274&end=1324';} //@mabskmk
+	ytPreview='pnKtahKsbvc'; //@mabskmk
+break;
+case 27:
+mydiv='GnG-Graveyard',imgur='p19yaAN',imgur9='5pvWAIm.png',game='Makaimura',ctype='Plataform',ctypeID=1,lastupdate='02/10/26',gdrv='1GbhV0S9ncu4Giov0mcIPTixLDmEwl6s7';
+rng=(Math.floor(Math.random()*4));
+	if (rng==0) {ytVid='gKBhhIfrdRE';} //@BlackFired
+	if (rng==1) {ytVid='ftZ7ucCeHJE?si=tGkdcA-oL5Gd8wuS&start=535&end=585';} //@mabskmk
+	if (rng==2) {ytVid='ftZ7ucCeHJE?si=y6yq8Z2_pM5ZLGId&start=840&end=890';} //@mabskmk
+	if (rng==3) {ytVid='ftZ7ucCeHJE?si=a52O5rUhNhczcYnE&start=140&end=190';} //@mabskmk
+	ytPreview='ftZ7ucCeHJE'; //@mabskmk
+break;
+case 26:
+mydiv='Devil-Dumb-Drum',imgur='rMWebNH',imgur9='JPk0Yh9.png',game='Donkey Kong',ctype='Bonus',lastupdate='21/11/12',gdrv='1Vy_fIEHURTrAz8VaFkzfVwe7QaNIUJ-Y';
+rng=(Math.floor(Math.random()*5));
+	if (rng==0) {ytVid='23D2HygrJj4';} //@MaycolGamer026
+	if (rng==1) {ytVid='2aN1P5BFbWI';} //@DMSderProgamer
+	if (rng==2) {ytVid='YU9aIBMQdpg';} //@davidm69
+	if (rng==3) {ytVid='YIT80M2b8is';} //@davidm69
+	if (rng==4) {ytVid='1oVW32ZkB2Y';} //@DartzPie
+break;
+case 25:
+mydiv='Dr_Wily',imgur='jiB107a',imgur9='DaMQ2Lj.png',game='Megaman',ctype='Bonus',lastupdate='21/05/13',gdrv='1i8t7TJQEw4RT7jphvoeMyTdaaT6RnKqa'
+	ytVid='K0LRouSn-QE?si=1zeR4xDr1IB19cLM&start=582&end=632'; //@trackiesthead1563
+break;
+case 24:
+mydiv='Heli-Master',imgur='lk7NGsI',imgur9='tmJNGkD.png',game='Alex Kidd',ctype='Boss',lastupdate='03/06/13',gdrv='1Z6E3Jqg_QEQ06Sby8mfBmrflgSgWrb6B'
+rng=(Math.floor(Math.random()*9));
+	if (rng==0) {ytVid='6VvxqbZFlcc';} //@mrbrunaco6825
+	if (rng==1) {ytVid='LpWo9bFANwk';} //@mrbrunaco6825
+	if (rng==2) {ytVid='40XN1-YL6Rc';} //@mrbrunaco6825
+	if (rng==3) {ytVid='SP8Tfuptjk0';} //@mrbrunaco6825
+	if (rng==4) {ytVid='2hbTyq3Twmc';} //@mrbrunaco6825
+	if (rng==5) {ytVid='AlunSPki4QI';} //@mrbrunaco6825
+	if (rng==6) {ytVid='qEYWkgtS4vQ';} //@mrbrunaco6825
+	if (rng==7) {ytVid='hMx0SWNDM-s?si=JKL9Zqp35IEck9-n&start=12&end=62';} //@jewelmen10mugen87
+	if (rng==8) {ytVid='GijqYq8pihw?si=QrrkidG3DGDoGgM2&start=10&end=60';} //@jewelmen10mugen87
+break;
+case 23:
+mydiv='Flappy_Bird',imgur='cyO80Il',imgur9='qIOHfqb.png',game='Flappy Bird',ctype='Bonus',lastupdate='04/05/17',gdrv='1L3_0Rmf-QEPJ3AAWLPsquh3MJh4yTRI9'
+rng=(Math.floor(Math.random()*5));
+	if (rng==0) {ytVid='kw6hTKReIgs';} //@I_hope_you_choke_on_em
+	if (rng==1) {ytVid='IoxCkBt_F8g?si=jSg53mLlqCnzMIvp&start=14&end=64';} //@jewelmen10mugen87
+	if (rng==2) {ytVid='9mi7zuM6OYQ';} //@YamiLegends
+	if (rng==3) {ytVid='_iHnIvB3ydU';} //@DavidBurgessMechanicalMusic
+	if (rng==4) {ytVid='HGT3hNf1bUU';} //@I_hope_you_ch0ke_on_em
+	ytPreview='4nohyhCJvFY'; //@mabskmk
+break;
+case 22:
+mydiv='Murder_Wall',imgur='Bs2AFdr',imgur9='Yu4dYhl.gif',game='Kid Chameleon',ctype='Bonus',lastupdate='20/05/13',gdrv='17eXND0ylyX7igS8kho6jxz7avIIUvNE3'
+	ytVid='NjT2gyb4SXE'; //@RickDangerousdanger
+break;
+case 21:
+mydiv='Sarlacc',imgur='7o6fJVg',imgur9='gyRJXEY.png',game='Star Wars',ctype='Boss',lastupdate='03/08/12',gdrv='1zOk5tBPfYPP5a7siNJxitX4fmPmek5pg';
+rng=(Math.floor(Math.random()*6));
+	if (rng==0) {ytVid='PUZi6vZB_RE?si=FjfOwwo0CFaFrdVV&start=25&end=75';sufix='&autoplay=1&mute=1';} //@tenshihinanawi1643
+	if (rng==1) {ytVid='DhZE1l2KTPE';} //@JackSweg	
+	if (rng==2) {ytVid='qTylfMYuhsA';} //@DCKnuxSADXMUGENAndMore
+	if (rng==3) {ytVid='IyrLlm4j-50?si=GeWmbaUb_BuoCFIH&start=12&end=62';} //@jewelmen10mugen87
+	if (rng==4) {ytVid='TZOKQOF4YqY?si=J1xeUbETlpRpW1ag&start=30&end=80';} //@spidermastermind100
+	if (rng==5) {ytVid='jo8IPlcR7NA?si=aVBrKXtVzXZIpRRX&start=8&end=58';} //@SmokeChoked
+break;
+case 20:
+mydiv='Wall-of-Flesh',imgur='517R994',imgur9='a2l5Uei.gif',game='Terraria',ctype='Bonus',lastupdate='31/10/14',gdrv='1MgS3faH8veG9Xv2AyUuCEKp3EMwTn4_F',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg';
+	ytVid='pm8RTgrgW8k?si=Hv68xSbWM6W2oyaO&start=20&end=70'; //@jewelmen10mugen87
+break;
+case 19:
+mydiv='the-Destroyer',imgur='7dpm5WZ',imgur9='NFG64YW.gif',game='Terraria',ctype='Bonus',lastupdate='02/06/15',gdrv='1yBtTASmCRApkCNeKmYbmdLX1JW_a8JlX',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg';
+rng=(Math.floor(Math.random()*2));
+	if (rng==0) {ytVid='9KJGQkJ9SGE?si=tADnQnJ8bK7KWG4o&start=75&end=125';sufix='&autoplay=1&mute=1';} //@99Two3Eight12
+	if (rng==1) {ytVid='aCyn7Aa_Qus';} //@francis_arachea
+break;
+case 18:
+mydiv='Eater-of-Worlds',imgur='rFItKdC',imgur9='entyndN.png',game='Terraria',ctype='Bonus',lastupdate='02/06/15',gdrv='1Kc2WpuZ8EoErZd8ztfJ8q1MkKMnDLKbp',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg';
+	ytVid='aU2J_5lPD94'; //@DemonDragonify
+break;
+case 17:
+mydiv='Eye-of-Cthulhu',imgur='W9JHpa9',imgur9='s8vWJiI.gif',game='Terraria',ctype='Bonus',lastupdate='22/12/11',gdrv='1WQg7N9HyzrgQenmgVxuLvChK0B9O7KUx',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg';
+rng=(Math.floor(Math.random()*2));
+	if (rng==0) {ytVid='PkoYbNMsyKk';} //@DemonDragonify
+	if (rng==1) {ytVid='EMCTifHcYYQ';} //@Aerinyxprods
+break;
+case 16:
+mydiv='DCar',imgur='97WL9th',imgur9='r8nLXhT.png',game='Dong Dong Never Die',ctype='Bonus',lastupdate='24/05/13',gdrv='11XgXnbON0dn3EJoORv6svOfuG-JsByds';
+rng=(Math.floor(Math.random()*2));
+	if (rng==0) {ytVid='iCr6ehKIAzQ?si=6aRovBO7WiGrfeiW&start=12&end=62';} //@ristar87
+	if (rng==1) {ytVid='VCpAig9sO-U';} //@GuiSantosMUGEN
+break;
+case 15:
+mydiv='CAR3',imgur='MbcbFyn',imgur9='le78wFG.png',game='Street Fighter 2',ctype='Bonus',lastupdate='23/11/12',gdrv='1ha4jP2IAT8TgAKEAqMqGbPtPtzo73HTQ'
+	ytVid='R5tvpRbHSKw'; //@mio_ch
+break;
+case 14:
+mydiv='Van_Pookin',imgur='yWqb56L',imgur9='htTMeJ7.png',game='Megaman7',ctype='Bonus',lastupdate='31/10/14',gdrv='13dHiSewKjtn0zmYZRqU05LysSLPcqTNk';
+rng=(Math.floor(Math.random()*5));
+	if (rng==0) {ytVid='Vg3R9ORa-1s';} //@ssbk65
+	if (rng==1) {ytVid='mpC3b-p_fLk';} //@DARKSOLODONALDAS8768
+	if (rng==2) {ytVid='YKg5wH6T6TU';} //@trackiesthead1563
+	if (rng==3) {ytVid='kqBPKwUkaMg?si=nvAyvEC6YnYtDYZf&start=36&end=86';} //@andersonkenya1
+	if (rng==4) {ytVid='F7_dXn8FvS0?si=gvttUUMOfgWETg-T&start=12&end=62';} //@jewelmen10mugen87
+break;
+case 13:
+mydiv='Truck_Joe',imgur='c9iJZbD',imgur9='MB9i5IM.png',game='Megaman7',ctype='Bonus',lastupdate='16/07/14',gdrv='1ODwXTdfc3YJeI-KeY35tI1-IcMioT65C'
+break;
+case 12:
+mydiv='Mash',imgur='AZMe0Bc',imgur9='3DjGkZN.png',game='Megaman7',ctype='Bonus',lastupdate='20/05/12',gdrv='1Z69qGOh4MgnHqPm9grjKeJTP61GngjbE';
+rng=(Math.floor(Math.random()*2));
+	if (rng==0) {ytVid='ugFAYSHP8vI?si=aK7eUl08AQyFTozz&start=10&end=60';} //@OliverTEENAGER13
+	if (rng==1) {ytVid='qAR1V62SSz4?si=ZJC8DCjbDbiLWsYx&start=11&end=61';} //@jewelmen10mugen87
+break;
+case 11:
+mydiv='Garekky',imgur='k7iIk5C',imgur9='uY6BnSd.png',game='Makeruna Makendo 2',ctype='Bonus',lastupdate='15/07/12',gdrv='1a-d4pNJ4F3VO3LA6CzVVgD-DMJbG04AP'
+rng=(Math.floor(Math.random()*3));
+	if (rng==0) {ytVid='x3cxVQS4As0?si=vB0qzrE1IOnHU2Xe&start=20&end=70';sufix='&autoplay=1&mute=1';} //@sonicadam2
+	if (rng==1) {ytVid='lqz77X65QrQ?si=a15bJfmPyTGWAz06&start=25&end=75';sufix='&autoplay=1&mute=1';} //@spidermastermind100
+	if (rng==2) {ytVid='jfgolZIE6kM?si=I5ZZpTQlyggpIziP&start=30&end=80';sufix='&autoplay=1&mute=1';} //@spidermastermind100
+break;
+case 10:
+mydiv='Captain_Kido',imgur='0IaKgex',imgur9='XQkb69u.png',game='Parotte Fighters',ctype='Char',lastupdate='18/10/11',gdrv='1hjHAwkdngFnmEBSsMlllFSPHKbQJr_u8'
+	ytVid='LP_WPwfDsoA?si=GM25xYJw3Nhgklw4&start=185&end=235'; //@Vysethedetermined2
+break;
+case 9:
+mydiv='MORGUL',imgur='fPt2Off',imgur9='W7ksI4N.png',game='Turrican',ctype='Boss',lastupdate='02/06/15',gdrv='1hHIoFEuw588ks3npH1apjGUmAUTyoRP_';
+rng=(Math.floor(Math.random()*2));
+	if (rng==0) {ytVid='6i36v6v6hL4?si=Qun_jPHfpnnaNZ6D&start=12&end=62';} //@trackiesthead1563
+	if (rng==1) {ytVid='Z8NUjxFv9e8?si=tJ7m8DrOhTn-EReP&start=230&end=280';} //@Crowley9
+break;
+case 8:
+mydiv='Devil_Pesoguin',imgur='75lBnh5',imgur9='Ap7IOUZ.gif',game='Castlevania?',ctype='Bonus',lastupdate='02/11/18',gdrv='1n_A2vUVEDwaODoGRxMZ8t8iB1wR3-CRR'
+break;
+case 7:
+mydiv='Slug_Wanzer',imgur='3tFzcit',imgur9='gRpE0k4.png',game='Metalslug',ctype='Char',lastupdate='02/11/18',gdrv='1q9ZVUtQIz0pjdjtXAPG0MAi7fVdnglu-'
+rng=(Math.floor(Math.random()*4));
+	if (rng==0) {ytVid='dSKlSe3mKaQ';} //@multiversal-battlefield8885
+	if (rng==1) {ytVid='nw3hNS1tRiw';} //@no_namechannel5704
+	if (rng==2) {ytVid='38z5GFDJtUA?si=vxxHnO56K3G30w-E&start=10&end=60';} //@francis_arachea
+	if (rng==3) {ytVid='uF6sxHzmsv4?si=GEBoedPQLC3F9L9i&start=10&end=60';} //@mugentv7030
+break;
+case 6:
+mydiv='Slug_Wanzer_Old',imgur='FlLscmO',imgur9='gRpE0k4.png',game='Metalslug',ctype='Char',lastupdate='20/04/08',gdrv='1DMfPTtg1jbegRXRq82pb7N11pteDhNnw'
+break;
+case 5:
+mydiv='Pesoguin',imgur='5NqzscO',imgur9='Gr3X8jR.png',game='<a target=_blank href=https://twitter.com/Zanmyo><img src=https://i.imgur.com/qV3Q36A.gif></a>',ctype='Char',lastupdate='12/05/24',gdrv='1IPR_5llhRH9PGtWyYhJ3_-AmRI77D-xa',bannerHtml='twitter.com/pesoguin',bannerImg='i.imgur.com/qV3Q36A.gif';
+rng=(Math.floor(Math.random()*5));
+	if (rng==0) {ytVid='K2KNeuaCPyU?si=lDIAcYelb1086X49&start=11&end=61';} //@DavidBurgessMechanicalMusic
+	if (rng==1) {ytVid='KJA1-8Mbd2E';} //@AlexNico
+	if (rng==2) {ytVid='ZO9U2syXPEI';} //@OverbrakeballRises
+	if (rng==3) {ytVid='9bgWPUKb2-0?si=GVTZiCbX-IxxyyGZ&start=12&end=62';} //@jewelmen10mugen87
+	if (rng==4) {ytVid='drcNz_FI9lY?si=8VNj8SCJzpwecw4m&start=22&end=72';} //@Albo96_Kirbycageyt
+break;
+case 4:
+mydiv='FlyingTara',imgur='iEjzspe',imgur9='T1V4CAg.png',game='Metalslug',ctype='Bonus',lastupdate='24/01/24',gdrv='1EUY4inMqHFK3bNp0MIyC5umigB4BstgZ';
+rng=(Math.floor(Math.random()*4));
+	if (rng==0) {ytVid='oF7aAZO6LYA';} //@trackiesthead1563
+	if (rng==1) {ytVid='v27gLrZrR70';} //@HoundBlizzard
+	if (rng==2) {ytVid='33PKSVhkaHQ?si=SegyW7znAvDGprsM&start=8&end=58';} //@mdnp-grid487
+	if (rng==3) {ytVid='rUyfRBcs2x0?si=3flCKcCscoi5186u&start=10&end=60';} //@jewelmen10mugen87
+break;
+case 3:
+mydiv='MetaGang',imgur='VhoTRPp',imgur9='oWcbdIT.png',game='Kirby',ctype='Multi-char',lastupdate='15/05/08',gdrv='19CzU8t9VOizNBDikp_Q210mQ0tRRruU-'
+rng=(Math.floor(Math.random()*2));
+	if (rng==0) {ytVid='4IyF2Vb3vo8';} //@CrowSar
+	if (rng==1) {ytVid='ts4fCpiju0E';} //@multiversal-battlefield8885
+	ytPreview='-tN-ia9Qt5Q' ;//@Mabskmk
+break;
+case 2:
+mydiv='Bull_chan',imgur='ot8ebRi',imgur9='iVIdizv.png',game='Metalslug',ctype='Bonus',lastupdate='02/06/15',gdrv='15HH5HuYvK22p1AJw4_vWai6usFNw9IXt'
+rng=(Math.floor(Math.random()*2));
+	if (rng==0) {ytVid='XcmnTRMASJI';} //@classymarowak7001
+	if (rng==1) {ytVid='HKGtIIRkQQ0?si=soMUZDlbESVOPGEB&start=10&end=60';} //@francis_arachea
+break;
+case 1:
+mydiv='Death-Force',imgur='ocvdalJ',imgur9='Q42AQI3.gif',game='MetalSlug',ctype='Boss',lastupdate='13/12/08',gdrv='1nCEVFvv6_MWnOewCQEwqo3wBIEi0xOzk';
+rng=(Math.floor(Math.random()*15));
+	if (rng==0) {ytVid='Znxxr129qH0';} //@MSjap
+	if (rng==1) {ytVid='MYOM64WfuZE';} //@ejanho
+	if (rng==2) {ytVid='Dr2t-ybJ3tc';} //@Savantaneus
+	if (rng==3) {ytVid='hdIbj9OGj14';} //@RamkunMUGEN
+	if (rng==4) {ytVid='OV7sUWpTk5c';} //@RamkunMUGEN
+	if (rng==5) {ytVid='j9qAZhX6pZI';} //@RamkunMUGEN
+	if (rng==6) {ytVid='Ur4ExsuDbRs';} //@GetReal_EmerSensei
+	if (rng==7) {ytVid='Y4DPg72y34s';} //@CrowSar
+	if (rng==8) {ytVid='dWp1CJYXOs4';} //@GetReal_EmerSensei
+	if (rng==9) {ytVid='GGrkcewCa_Q';} //@AlexNico
+	if (rng==10) {ytVid='79fLYfG3GT4';} //@fkrmaster
+	if (rng==11) {ytVid='rkF_37BTbNU?si=GiZ0lwif5XjcyM0k&start=24&end=74';} //@spidermastermind100
+	if (rng==12) {ytVid='-2fBDbDktus?si=i7w2fh8RqWBaiE9w&start=20&end=70';} //@biomajinboodh
+	if (rng==13) {ytVid='MA3pkEFWIYQ';} //@Armunk-w1o
+	if (rng==14) {ytVid='QqP7UwI_rMU';} //@吳承曇
+break;
+case 0:
+mydiv=''
+}
+
+// Missing automatization bip.. bip.. bip..
+if (bannerHtml==''){
+rng=(Math.floor(Math.random()*15));
+	if (rng==0) {bannerHtml='wani-shima.sakura.ne.jp/MUGEN.html';bannerImg='wani-shima.sakura.ne.jp/kyouryuubana.jpg';}
+	if (rng==1) {bannerHtml='kaendd.free.fr';bannerImg='i.imgur.com/8OmGYOX.png';}
+	if (rng==2) {bannerHtml='ankokunaitou.blog.fc2.com';bannerImg='i.imgur.com/EIXSnzc.png';}
+	if (rng==3) {bannerHtml='sunnyworld.free.fr';bannerImg='i.imgur.com/gAsrMM0.png';}
+	if (rng==4) {bannerHtml='valgallah77.web.fc2.com/';bannerImg='i.imgur.com/q7RAxeG.png';}
+	if (rng==5) {bannerHtml='mugedoso.web.fc2.com/nhk/index.html';bannerImg='i.imgur.com/mXtDvrn.png';}
+	if (rng==6) {bannerHtml='www.ne.jp/asahi/across/chronicle/';bannerImg='i.imgur.com/8J4NDcA.png';}
+	if (rng==7) {bannerHtml='ngmc.retrogames.com/index.html';bannerImg='i.imgur.com/X4AzHu1.gif';}
+	if (rng==8) {bannerHtml='mugen-restaurant.jp/';bannerImg='i.imgur.com/GXjxQXs.png';}
+	if (rng==9) {bannerHtml='network.mugenguild.com/basara/';bannerImg='i.imgur.com/ZF0Qs7E.png';}
+	if (rng==10) {bannerHtml='mugenfreeforall.com/topic/51530-3ha-collection/';bannerImg='web.archive.org/web/20111018152538im_/http://page.freett.com/3ha/img/ba.gif';}
+	if (rng==11) {bannerHtml='www.andersonkenya1.net/';bannerImg='media.invisioncic.com/z328913/set_resources_1/6d538d11ecfced46f459ee300b5e80ec_ak1-button_17f8a0.gif';}
+	if (rng==12) {bannerHtml='sites.google.com/view/ohmsby-mugen/';bannerImg='i.imgur.com/hYMIIuZ.png';}
+	if (rng==13) {bannerHtml='sites.google.com/view/gemeos-dos-jogos/mugen';bannerImg='i.imgur.com/SoebPHW.png';}
+	if (rng==14) {bannerHtml='twitter.com/Zanmyo';bannerImg='i.imgur.com/qV3Q36A.gif';}
+}
+if (ytVid.length > 15) {sufix='&autoplay=1&mute=1';}
+if (ytVid == '' && ytPreview != '') {ytVid=ytPreview;}
+if (ytVid.length < 15 && ytPreview == '') {ytPreview=ytVid;}
+
+
+switch (code) {
+
+// Button creation
+case 1:
+if ( (zpoints==0) || (playerOne[0] >= zpoints) || isHalloween ) {
+	document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+".png onClick='charData("+numero+",2)' class='rbutton' width=25 height=25><b>"+mydiv+"</b> "+game+" / "+ctype+" / Last update: "+lastupdate+"<br>"
+}
+break;
+
+// Button activation
+case 2:
+if (ytPreview != '') {ytPreview = "<br><iframe src=https://www.youtube.com/embed/"+ytPreview+" width='500' height='300' frameborder='0'></iframe>";}
+	document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+".png width=25 height=25><b>"+mydiv+"</b> "+game+" / "+ctype+" / Last update: "+lastupdate+"<br>"+ytPreview+"<br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a>"
+break;
+
+// Video showcase
+case 3:
+if ( (zpoints==0) || (playerOne[0] >= zpoints) || isHalloween ) {
+	if (ytVid!=''){
+		document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+ytVid+""+sufix+" width='500' height='300' frameborder='0'></iframe><br><img src=https://i.imgur.com/"+imgur+".png width=20 height=20> CHAR ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=CHAR_"+mydiv+"></a>";
+		document.getElementById('BPt').src="https://i.imgur.com/"+imgur9+"";
+	} else{
+		document.getElementById('videoshowcase').innerHTML="<img src=https://i.imgur.com/"+imgur9+" height='300'><br>CHAR ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=CHAR_"+mydiv+"></a>"
+	}
+}
+else {
+	rng=(Math.floor(Math.random()*2));
+		if (rng==0) { document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/3glPmy2zyBk?si=pXZI2xQ4Ltr8MLE_&start=244&end=294&autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Full-Game: <b>Steel Warriors</b> <a target='_blank' href=https://drive.google.com/uc?id=16hXJNPKyTcNZZYhe7dZ6agLkFXNgw3Pm><img src=https://i.imgur.com/pJFCm25.png title='Steel Warriors'></a>" ;}
+		if (rng==1) { document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/NCT7VU6QVLY?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Full-Game: <b>Steel Warriors</b> <a target='_blank' href=https://drive.google.com/uc?id=16hXJNPKyTcNZZYhe7dZ6agLkFXNgw3Pm><img src=https://i.imgur.com/pJFCm25.png title='Steel Warriors'></a>" ;}
+}
+document.getElementById('banner').innerHTML="<a target='_blank' href=https://"+bannerHtml+"><img src=https://"+bannerImg+"></a>";
+break;
+
+// OrderByDate
+case 4:
+return (lastupdate);
+break;
+
+// OrderByDate - char & minigames
+case 5:
+return (ctypeID);
+break;
+}
+
+// All red
+const elementos = document.querySelectorAll('b, a');
+elementos.forEach(elemento => {
+  if (isHalloween) {elemento.style.color = 'red';}
+});
+
+}
+
+///////////////////////////////////////////////////
+// Automatized code
+///////////////////////////////////////////////////
+
+///////////////////////////////////////////////////
+// Little function to count all the cases
+///////////////////////////////////////////////////
+
+function charDataNumber() {
+let charIndex = 0;
+let someThing =''; 
+
+ do {
+
+		charIndex++;
+		someThing = charData( charIndex, 4); //code:lastupdate
+	
+	} while ( someThing != '')
+
+return charIndex-1;
+}
+
+///////////////////////////////////////////////////
 // Create the basic html
+///////////////////////////////////////////////////
+
 function menuchar() {
+console.log("char.js total of chars: "+numChars);
 let {divOrder, indexShow} =  orderBydate();
 document.getElementById('principal').innerHTML="<center><table border=0><td align=right width=500>"+divOrder+"...<br><br><a target='_blank' href='https://www.mediafire.com/folder/ftea2duwm6m09/WarehouseCHAR'><b>Warehouse</b></a> / <a target='_blank' href='https://drive.google.com/drive/folders/1zOzmbowxzpeFmbV_mVAeOaKhRGPFzFuQ?usp=drive_link'><b>W.I.P?</b></a><br><br><input type=button onClick='ppmain(1)' value='.Clean.'><br><tr></table></center>"
 /*
@@ -23,6 +498,10 @@ charData(indexShow,2);
 
 }
 
+///////////////////////////////////////////////////
+// Function to create divs in order
+///////////////////////////////////////////////////
+
 function orderBydate() {
 	
 let dataArray = [];
@@ -31,9 +510,9 @@ let divOrder = '';
 let indexShow = '';
 
 	//Creating a giant Array only to use with .sort
-	for (let o=1 ; o<=numChars ; o++) {
+	for (let o=1 ; o <= numChars ; o++) {
 		dataBR = charData (o, 4);
-		dataArray.push( dataBR.split("/").reverse().join("-") ); //convert "25/11/2026" to "2026-11-25"
+		dataArray.push( "20"+dataBR.split("/").reverse().join("-") ); //convert "25/11/26" to "2026-11-25"
 	}
 
 // Vibe coding (arrow functions are not my thing)
@@ -42,11 +521,13 @@ const dataOrder = dataArray
   .map((data, indice) => ({ data, indice }))
   .sort((a, b) => (b.data).localeCompare((a.data)));
 
-console.log(dataArray);
-console.log(dataOrder);
-console.log(dataOrder[0].indice);
-
 indexShow = ( (dataOrder[0].indice)+1 )	
+
+console.log("char.js original list: ");
+console.log(dataArray);
+console.log("char.js ordered list: ");
+console.log(dataOrder);
+console.log("char.js first index: "+indexShow);
 	
 // Check the ctypeID ( 0:Character or 1:Minigame )
 if ( charData(indexShow , 5) == 0 ) { 
@@ -82,13 +563,13 @@ if ( charData(indexShow , 5) == 0 ) {
 	}
 
 }
-
-
-
 return {divOrder, indexShow};
 }
 
+///////////////////////////////////////////////////
 // Function to play a random video
+///////////////////////////////////////////////////
+
 function showcaseCharacter() {
 
 	// Disable the function when leaving the showcase
@@ -134,10 +615,13 @@ charData(randomValue,3);
 intervalTime=setTimeout('showcaseStage()',50000); //showcaseCharacter -> showcaseStage -> showcaseMisc
 }
 
-// Get the last 20 indexes of an array (1=char 2=stage)
+///////////////////////////////////////////////////
+// Get the last 20 indexes of an array
+///////////////////////////////////////////////////
+
 function last20Index(type) {
 let myArray = new Array(20);
-let anoLoop = 2026;
+let anoLoop = 26;
 let dataStr;
 let i = 0;
 
@@ -159,446 +643,19 @@ let i = 0;
 		
 	} while ( i < 20 );
 
-console.log("teste: "+myArray);
-console.log("teste: "+myArray.length);
+console.log("char.js preview index: "+myArray);
+console.log("char.js preview number: "+myArray.length);
 return myArray;	
 }
 
-
-// Character database
-function charData(numero,code) {
-let rng		=0;
-let mydiv		='';
-let imgur		='';
-let imgur9		='';
-let game		='';
-let ctype		='';
-let ctypeID		= 0;
-let lastupdate	='';
-let gdrv		='';
-let zpoints		= 0;
-let bannerHtml	='';
-let bannerImg	='';
-let ytVid		='';
-let ytPreview	='';
-let sufix		='?autoplay=1&mute=1';
-
-switch (numero) {
-case 1:
-mydiv='Death-Force',imgur='ocvdalJ',imgur9='Q42AQI3.gif',game='MetalSlug',ctype='Boss',lastupdate='13/12/2008',gdrv='1nCEVFvv6_MWnOewCQEwqo3wBIEi0xOzk';
-rng=(Math.floor(Math.random()*15));
-	if (rng==0) {ytVid='Znxxr129qH0';} //@MSjap
-	if (rng==1) {ytVid='MYOM64WfuZE';} //@ejanho
-	if (rng==2) {ytVid='Dr2t-ybJ3tc';} //@Savantaneus
-	if (rng==3) {ytVid='hdIbj9OGj14';} //@RamkunMUGEN
-	if (rng==4) {ytVid='OV7sUWpTk5c';} //@RamkunMUGEN
-	if (rng==5) {ytVid='j9qAZhX6pZI';} //@RamkunMUGEN
-	if (rng==6) {ytVid='Ur4ExsuDbRs';} //@GetReal_EmerSensei
-	if (rng==7) {ytVid='Y4DPg72y34s';} //@CrowSar
-	if (rng==8) {ytVid='dWp1CJYXOs4';} //@GetReal_EmerSensei
-	if (rng==9) {ytVid='GGrkcewCa_Q';} //@AlexNico
-	if (rng==10) {ytVid='79fLYfG3GT4';} //@fkrmaster
-	if (rng==11) {ytVid='rkF_37BTbNU?si=GiZ0lwif5XjcyM0k&start=24&end=74';} //@spidermastermind100
-	if (rng==12) {ytVid='-2fBDbDktus?si=i7w2fh8RqWBaiE9w&start=20&end=70';} //@biomajinboodh
-	if (rng==13) {ytVid='MA3pkEFWIYQ';} //@Armunk-w1o
-	if (rng==14) {ytVid='QqP7UwI_rMU';} //@吳承曇
-break;
-case 2:
-mydiv='Bull_chan',imgur='ot8ebRi',imgur9='iVIdizv.png',game='Metalslug',ctype='Bonus',lastupdate='02/06/2015',gdrv='15HH5HuYvK22p1AJw4_vWai6usFNw9IXt'
-rng=(Math.floor(Math.random()*2));
-	if (rng==0) {ytVid='XcmnTRMASJI';} //@classymarowak7001
-	if (rng==1) {ytVid='HKGtIIRkQQ0?si=soMUZDlbESVOPGEB&start=10&end=60';} //@francis_arachea
-break;
-case 3:
-mydiv='MetaGang',imgur='VhoTRPp',imgur9='oWcbdIT.png',game='Kirby',ctype='Multi-char',lastupdate='15/05/2008',gdrv='19CzU8t9VOizNBDikp_Q210mQ0tRRruU-'
-rng=(Math.floor(Math.random()*2));
-	if (rng==0) {ytVid='4IyF2Vb3vo8';} //@CrowSar
-	if (rng==1) {ytVid='ts4fCpiju0E';} //@multiversal-battlefield8885
-	ytPreview='-tN-ia9Qt5Q' ;//@Mabskmk
-break;
-case 4:
-mydiv='FlyingTara',imgur='iEjzspe',imgur9='T1V4CAg.png',game='Metalslug',ctype='Bonus',lastupdate='24/01/2024',gdrv='1EUY4inMqHFK3bNp0MIyC5umigB4BstgZ';
-rng=(Math.floor(Math.random()*4));
-	if (rng==0) {ytVid='oF7aAZO6LYA';} //@trackiesthead1563
-	if (rng==1) {ytVid='v27gLrZrR70';} //@HoundBlizzard
-	if (rng==2) {ytVid='33PKSVhkaHQ?si=SegyW7znAvDGprsM&start=8&end=58';} //@mdnp-grid487
-	if (rng==3) {ytVid='rUyfRBcs2x0?si=3flCKcCscoi5186u&start=10&end=60';} //@jewelmen10mugen87
-break;
-case 5:
-mydiv='Pesoguin',imgur='5NqzscO',imgur9='Gr3X8jR.png',game='<a target=_blank href=https://twitter.com/Zanmyo><img src=https://i.imgur.com/qV3Q36A.gif></a>',ctype='Char',lastupdate='12/05/2024',gdrv='1IPR_5llhRH9PGtWyYhJ3_-AmRI77D-xa',bannerHtml='twitter.com/pesoguin',bannerImg='i.imgur.com/qV3Q36A.gif';
-rng=(Math.floor(Math.random()*5));
-	if (rng==0) {ytVid='K2KNeuaCPyU?si=lDIAcYelb1086X49&start=11&end=61';} //@DavidBurgessMechanicalMusic
-	if (rng==1) {ytVid='KJA1-8Mbd2E';} //@AlexNico
-	if (rng==2) {ytVid='ZO9U2syXPEI';} //@OverbrakeballRises
-	if (rng==3) {ytVid='9bgWPUKb2-0?si=GVTZiCbX-IxxyyGZ&start=12&end=62';} //@jewelmen10mugen87
-	if (rng==4) {ytVid='drcNz_FI9lY?si=8VNj8SCJzpwecw4m&start=22&end=72';} //@Albo96_Kirbycageyt
-break;
-case 6:
-mydiv='Slug_Wanzer_Old',imgur='FlLscmO',imgur9='gRpE0k4.png',game='Metalslug',ctype='Char',lastupdate='20/04/2008',gdrv='1DMfPTtg1jbegRXRq82pb7N11pteDhNnw'
-break;
-case 7:
-mydiv='Slug_Wanzer',imgur='3tFzcit',imgur9='gRpE0k4.png',game='Metalslug',ctype='Char',lastupdate='02/11/2018',gdrv='1q9ZVUtQIz0pjdjtXAPG0MAi7fVdnglu-'
-rng=(Math.floor(Math.random()*4));
-	if (rng==0) {ytVid='dSKlSe3mKaQ';} //@multiversal-battlefield8885
-	if (rng==1) {ytVid='nw3hNS1tRiw';} //@no_namechannel5704
-	if (rng==2) {ytVid='38z5GFDJtUA?si=vxxHnO56K3G30w-E&start=10&end=60';} //@francis_arachea
-	if (rng==3) {ytVid='uF6sxHzmsv4?si=GEBoedPQLC3F9L9i&start=10&end=60';} //@mugentv7030
-break;
-case 8:
-mydiv='Devil_Pesoguin',imgur='75lBnh5',imgur9='Ap7IOUZ.gif',game='Castlevania?',ctype='Bonus',lastupdate='02/11/2018',gdrv='1n_A2vUVEDwaODoGRxMZ8t8iB1wR3-CRR'
-break;
-case 9:
-mydiv='MORGUL',imgur='fPt2Off',imgur9='W7ksI4N.png',game='Turrican',ctype='Boss',lastupdate='02/06/2015',gdrv='1hHIoFEuw588ks3npH1apjGUmAUTyoRP_';
-rng=(Math.floor(Math.random()*2));
-	if (rng==0) {ytVid='6i36v6v6hL4?si=Qun_jPHfpnnaNZ6D&start=12&end=62';} //@trackiesthead1563
-	if (rng==1) {ytVid='Z8NUjxFv9e8?si=tJ7m8DrOhTn-EReP&start=230&end=280';} //@Crowley9
-break;
-case 10:
-mydiv='Captain_Kido',imgur='0IaKgex',imgur9='XQkb69u.png',game='Parotte Fighters',ctype='Char',lastupdate='18/10/2011',gdrv='1hjHAwkdngFnmEBSsMlllFSPHKbQJr_u8'
-	ytVid='LP_WPwfDsoA?si=GM25xYJw3Nhgklw4&start=185&end=235'; //@Vysethedetermined2
-break;
-case 11:
-mydiv='Garekky',imgur='k7iIk5C',imgur9='uY6BnSd.png',game='Makeruna Makendo 2',ctype='Bonus',lastupdate='15/07/2012',gdrv='1a-d4pNJ4F3VO3LA6CzVVgD-DMJbG04AP'
-rng=(Math.floor(Math.random()*3));
-	if (rng==0) {ytVid='x3cxVQS4As0?si=vB0qzrE1IOnHU2Xe&start=20&end=70';sufix='&autoplay=1&mute=1';} //@sonicadam2
-	if (rng==1) {ytVid='lqz77X65QrQ?si=a15bJfmPyTGWAz06&start=25&end=75';sufix='&autoplay=1&mute=1';} //@spidermastermind100
-	if (rng==2) {ytVid='jfgolZIE6kM?si=I5ZZpTQlyggpIziP&start=30&end=80';sufix='&autoplay=1&mute=1';} //@spidermastermind100
-break;
-case 12:
-mydiv='Mash',imgur='AZMe0Bc',imgur9='3DjGkZN.png',game='Megaman7',ctype='Bonus',lastupdate='20/05/2012',gdrv='1Z69qGOh4MgnHqPm9grjKeJTP61GngjbE';
-rng=(Math.floor(Math.random()*2));
-	if (rng==0) {ytVid='ugFAYSHP8vI?si=aK7eUl08AQyFTozz&start=10&end=60';} //@OliverTEENAGER13
-	if (rng==1) {ytVid='qAR1V62SSz4?si=ZJC8DCjbDbiLWsYx&start=11&end=61';} //@jewelmen10mugen87
-break;
-case 13:
-mydiv='Truck_Joe',imgur='c9iJZbD',imgur9='MB9i5IM.png',game='Megaman7',ctype='Bonus',lastupdate='16/07/2014',gdrv='1ODwXTdfc3YJeI-KeY35tI1-IcMioT65C'
-break;
-case 14:
-mydiv='Van_Pookin',imgur='yWqb56L',imgur9='htTMeJ7.png',game='Megaman7',ctype='Bonus',lastupdate='31/10/2014',gdrv='13dHiSewKjtn0zmYZRqU05LysSLPcqTNk';
-rng=(Math.floor(Math.random()*5));
-	if (rng==0) {ytVid='Vg3R9ORa-1s';} //@ssbk65
-	if (rng==1) {ytVid='mpC3b-p_fLk';} //@DARKSOLODONALDAS8768
-	if (rng==2) {ytVid='YKg5wH6T6TU';} //@trackiesthead1563
-	if (rng==3) {ytVid='kqBPKwUkaMg?si=nvAyvEC6YnYtDYZf&start=36&end=86';} //@andersonkenya1
-	if (rng==4) {ytVid='F7_dXn8FvS0?si=gvttUUMOfgWETg-T&start=12&end=62';} //@jewelmen10mugen87
-break;
-case 15:
-mydiv='CAR3',imgur='MbcbFyn',imgur9='le78wFG.png',game='Street Fighter 2',ctype='Bonus',lastupdate='23/11/2012',gdrv='1ha4jP2IAT8TgAKEAqMqGbPtPtzo73HTQ'
-	ytVid='R5tvpRbHSKw'; //@mio_ch
-break;
-case 16:
-mydiv='DCar',imgur='97WL9th',imgur9='r8nLXhT.png',game='Dong Dong Never Die',ctype='Bonus',lastupdate='24/05/2013',gdrv='11XgXnbON0dn3EJoORv6svOfuG-JsByds';
-rng=(Math.floor(Math.random()*2));
-	if (rng==0) {ytVid='iCr6ehKIAzQ?si=6aRovBO7WiGrfeiW&start=12&end=62';} //@ristar87
-	if (rng==1) {ytVid='VCpAig9sO-U';} //@GuiSantosMUGEN
-break;
-case 17:
-mydiv='Eye-of-Cthulhu',imgur='W9JHpa9',imgur9='s8vWJiI.gif',game='Terraria',ctype='Bonus',lastupdate='22/12/2011',gdrv='1WQg7N9HyzrgQenmgVxuLvChK0B9O7KUx',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg';
-rng=(Math.floor(Math.random()*2));
-	if (rng==0) {ytVid='PkoYbNMsyKk';} //@DemonDragonify
-	if (rng==1) {ytVid='EMCTifHcYYQ';} //@Aerinyxprods
-break;
-case 18:
-mydiv='Eater-of-Worlds',imgur='rFItKdC',imgur9='entyndN.png',game='Terraria',ctype='Bonus',lastupdate='02/06/2015',gdrv='1Kc2WpuZ8EoErZd8ztfJ8q1MkKMnDLKbp',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg';
-	ytVid='aU2J_5lPD94'; //@DemonDragonify
-break;
-case 19:
-mydiv='the-Destroyer',imgur='7dpm5WZ',imgur9='NFG64YW.gif',game='Terraria',ctype='Bonus',lastupdate='02/06/2015',gdrv='1yBtTASmCRApkCNeKmYbmdLX1JW_a8JlX',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg';
-rng=(Math.floor(Math.random()*2));
-	if (rng==0) {ytVid='9KJGQkJ9SGE?si=tADnQnJ8bK7KWG4o&start=75&end=125';sufix='&autoplay=1&mute=1';} //@99Two3Eight12
-	if (rng==1) {ytVid='aCyn7Aa_Qus';} //@francis_arachea
-break;
-case 20:
-mydiv='Wall-of-Flesh',imgur='517R994',imgur9='a2l5Uei.gif',game='Terraria',ctype='Bonus',lastupdate='31/10/2014',gdrv='1MgS3faH8veG9Xv2AyUuCEKp3EMwTn4_F',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg';
-	ytVid='pm8RTgrgW8k?si=Hv68xSbWM6W2oyaO&start=20&end=70'; //@jewelmen10mugen87
-break;
-case 21:
-mydiv='Sarlacc',imgur='7o6fJVg',imgur9='gyRJXEY.png',game='Star Wars',ctype='Boss',lastupdate='03/08/2012',gdrv='1zOk5tBPfYPP5a7siNJxitX4fmPmek5pg';
-rng=(Math.floor(Math.random()*6));
-	if (rng==0) {ytVid='PUZi6vZB_RE?si=FjfOwwo0CFaFrdVV&start=25&end=75';sufix='&autoplay=1&mute=1';} //@tenshihinanawi1643
-	if (rng==1) {ytVid='DhZE1l2KTPE';} //@JackSweg	
-	if (rng==2) {ytVid='qTylfMYuhsA';} //@DCKnuxSADXMUGENAndMore
-	if (rng==3) {ytVid='IyrLlm4j-50?si=GeWmbaUb_BuoCFIH&start=12&end=62';} //@jewelmen10mugen87
-	if (rng==4) {ytVid='TZOKQOF4YqY?si=J1xeUbETlpRpW1ag&start=30&end=80';} //@spidermastermind100
-	if (rng==5) {ytVid='jo8IPlcR7NA?si=aVBrKXtVzXZIpRRX&start=8&end=58';} //@SmokeChoked
-break;
-case 22:
-mydiv='Murder_Wall',imgur='Bs2AFdr',imgur9='Yu4dYhl.gif',game='Kid Chameleon',ctype='Bonus',lastupdate='20/05/2013',gdrv='17eXND0ylyX7igS8kho6jxz7avIIUvNE3'
-	ytVid='NjT2gyb4SXE'; //@RickDangerousdanger
-break;
-case 23:
-mydiv='Flappy_Bird',imgur='cyO80Il',imgur9='qIOHfqb.png',game='Flappy Bird',ctype='Bonus',lastupdate='04/05/2017',gdrv='1L3_0Rmf-QEPJ3AAWLPsquh3MJh4yTRI9'
-rng=(Math.floor(Math.random()*5));
-	if (rng==0) {ytVid='kw6hTKReIgs';} //@I_hope_you_choke_on_em
-	if (rng==1) {ytVid='IoxCkBt_F8g?si=jSg53mLlqCnzMIvp&start=14&end=64';} //@jewelmen10mugen87
-	if (rng==2) {ytVid='9mi7zuM6OYQ';} //@YamiLegends
-	if (rng==3) {ytVid='_iHnIvB3ydU';} //@DavidBurgessMechanicalMusic
-	if (rng==4) {ytVid='HGT3hNf1bUU';} //@I_hope_you_ch0ke_on_em
-	ytPreview='4nohyhCJvFY'; //@mabskmk
-break;
-case 24:
-mydiv='Heli-Master',imgur='lk7NGsI',imgur9='tmJNGkD.png',game='Alex Kidd',ctype='Boss',lastupdate='03/06/2013',gdrv='1Z6E3Jqg_QEQ06Sby8mfBmrflgSgWrb6B'
-rng=(Math.floor(Math.random()*9));
-	if (rng==0) {ytVid='6VvxqbZFlcc';} //@mrbrunaco6825
-	if (rng==1) {ytVid='LpWo9bFANwk';} //@mrbrunaco6825
-	if (rng==2) {ytVid='40XN1-YL6Rc';} //@mrbrunaco6825
-	if (rng==3) {ytVid='SP8Tfuptjk0';} //@mrbrunaco6825
-	if (rng==4) {ytVid='2hbTyq3Twmc';} //@mrbrunaco6825
-	if (rng==5) {ytVid='AlunSPki4QI';} //@mrbrunaco6825
-	if (rng==6) {ytVid='qEYWkgtS4vQ';} //@mrbrunaco6825
-	if (rng==7) {ytVid='hMx0SWNDM-s?si=JKL9Zqp35IEck9-n&start=12&end=62';} //@jewelmen10mugen87
-	if (rng==8) {ytVid='GijqYq8pihw?si=QrrkidG3DGDoGgM2&start=10&end=60';} //@jewelmen10mugen87
-break;
-case 25:
-mydiv='Dr_Wily',imgur='jiB107a',imgur9='DaMQ2Lj.png',game='Megaman',ctype='Bonus',lastupdate='21/05/2013',gdrv='1i8t7TJQEw4RT7jphvoeMyTdaaT6RnKqa'
-	ytVid='K0LRouSn-QE?si=1zeR4xDr1IB19cLM&start=582&end=632'; //@trackiesthead1563
-break;
-case 26:
-mydiv='Devil-Dumb-Drum',imgur='rMWebNH',imgur9='JPk0Yh9.png',game='Donkey Kong',ctype='Bonus',lastupdate='21/11/2012',gdrv='1Vy_fIEHURTrAz8VaFkzfVwe7QaNIUJ-Y';
-rng=(Math.floor(Math.random()*5));
-	if (rng==0) {ytVid='23D2HygrJj4';} //@MaycolGamer026
-	if (rng==1) {ytVid='2aN1P5BFbWI';} //@DMSderProgamer
-	if (rng==2) {ytVid='YU9aIBMQdpg';} //@davidm69
-	if (rng==3) {ytVid='YIT80M2b8is';} //@davidm69
-	if (rng==4) {ytVid='1oVW32ZkB2Y';} //@DartzPie
-break;
-case 27:
-mydiv='GnG-Graveyard',imgur='p19yaAN',imgur9='5pvWAIm.png',game='Makaimura',ctype='Plataform',ctypeID=1,lastupdate='02/10/2026',gdrv='1GbhV0S9ncu4Giov0mcIPTixLDmEwl6s7';
-rng=(Math.floor(Math.random()*4));
-	if (rng==0) {ytVid='gKBhhIfrdRE';} //@BlackFired
-	if (rng==1) {ytVid='ftZ7ucCeHJE?si=tGkdcA-oL5Gd8wuS&start=535&end=585';} //@mabskmk
-	if (rng==2) {ytVid='ftZ7ucCeHJE?si=y6yq8Z2_pM5ZLGId&start=840&end=890';} //@mabskmk
-	if (rng==3) {ytVid='ftZ7ucCeHJE?si=a52O5rUhNhczcYnE&start=140&end=190';} //@mabskmk
-	ytPreview='ftZ7ucCeHJE'; //@mabskmk
-break;
-case 28:
-mydiv='GnG-Tower',imgur='CkHRPvY',imgur9='T75hr23.png',game='Makaimura',ctype='Arcade',ctypeID=1,lastupdate='31/10/2026',gdrv='1UxTvsauekqFbxAh7SIFjDYTUdJuvlCtP';
-rng=(Math.floor(Math.random()*6));
-	if (rng==0) {ytVid='YHdwfkEHo98?si=XWmx_3VddWQ0lMbK&start=333&end=383';} //@MannyLingle
-	if (rng==1) {ytVid='pnKtahKsbvc?si=-McBarB60-ChlixU&start=277&end=327';} //@mabskmk
-	if (rng==2) {ytVid='pnKtahKsbvc?si=JJI6VdK0F7wU5b-p&start=517&end=567';} //@mabskmk
-	if (rng==3) {ytVid='pnKtahKsbvc?si=YTV9PIOE21OkHEE4&start=773&end=827';} //@mabskmk
-	if (rng==4) {ytVid='pnKtahKsbvc?si=yPi5a9uxl5XMpcFc&start=1022&end-1072';} //@mabskmk
-	if (rng==5) {ytVid='pnKtahKsbvc?si=6bNfYS-rS8livgtF&start=1274&end=1324';} //@mabskmk
-	ytPreview='pnKtahKsbvc'; //@mabskmk
-break;
-case 29:
-mydiv='GnG-Burning',imgur='ScexylS',imgur9='ohZWqMw.png',game='Makaimura',ctype='SHMUP',ctypeID=1,lastupdate='31/10/2023',gdrv='1GeSVB_GbPiB8PHPk5sw7HAUuJKVRAH3W';
-rng=(Math.floor(Math.random()*3));
-	if (rng==0) {ytVid='oCkbXMVMYzA?si=rf8K6yK893yfZTEv&start=250&end=300';} //@mabskmk
-	if (rng==1) {ytVid='oCkbXMVMYzA?si=6-2T2Nu3XqcR3J89&start=600&end=650';} //@mabskmk
-	if (rng==2) {ytVid='omEjWq8DBZ0';} //@Warblefly41
-	ytPreview='oCkbXMVMYzA'; //@mabskmk
-break;
-case 30:
-mydiv='ALEX_Jankenpon',imgur='kHBUEcQ',imgur9='i2NjJtm.png',game='Alex Kidd',ctype='JokenPo',ctypeID=1,lastupdate='01/03/2012',gdrv='1o4UAIynon1lyGVFLCowRKstD-7RIxp5P'
-	ytVid='3tmnr2wORuA?si=FIviXnpbOHHvdHnU&start=1178&end=1228'; //@GemeosdosJogos
-break;
-case 31:
-mydiv='MSW-Subway',imgur='omSLMkl',imgur9='aJct4Y8.gif',game='Metalslug',ctype='SHMUP',ctypeID=1,lastupdate='19/01/2012',gdrv='1nxtazK_0agbKe6wrJtUtYyDL21IiBIGw'
-break;
-case 32:
-mydiv='Castle_War',imgur='Xehem37',imgur9='aVsXFAq.png',game='Various',ctype='Tower defense',ctypeID=1,lastupdate='07/11/2012',gdrv='1usRBM7HowIsEPqHnE6guEGMk3EbZO87l'
-	ytVid='STLukVJ51VM'; //@huntergamemodification56
-	ytPreview='l2_VuqqoDoU'; //@mabskmk
-break;
-case 33:
-mydiv='Yasha-Hime',imgur='p4i3ONN',imgur9='Yg7zSMS.png',game='Ganryu',ctype='Boss',lastupdate='02/11/2018',gdrv='1Dr6zJ0-Ah0ExxmRk2DfJ--burI9DMGMR';
-	ytVid='gDOjf_yyshE?si=cdU--TfI_e9ufbmI&start=21&end=71'; //@trackiesthead1563
-break;
-case 34:
-mydiv='HannyaNED',imgur='wObxscr',imgur9='LkzukyT.png',game='Megaman7',ctype='Boss',lastupdate='25/10/2015',gdrv='1GZqpnaGxAyAyamsYPOEXwTrgdS5PpoNX';
-rng=(Math.floor(Math.random()*2));
-	if (rng==0) {ytVid='rgNT2Cq9cCU';} //@jewelmen10mugen87
-	if (rng==1) {ytVid='uOaz4uctX0k?si=7ZONmZ0BuQndJC9F&start=16&end=66';} //@jewelmen10mugen87
-break;
-case 35:
-mydiv='Brain-of-Cthulhu',imgur='8xMmvYn',imgur9='sWf0Idm.png',game='Terraria',ctype='Boss',lastupdate='31/10/2015',gdrv='1piPhPxq4fi_Eph0dKRqjbkgRkHKGlcnl',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg';
-rng=(Math.floor(Math.random()*3));
-	if (rng==0) {ytVid='DlOerQbikn0';} //@DemonDragonify
-	if (rng==1) {ytVid='EN3f7x0cL7k';} //@XanderCoffin
-	if (rng==2) {ytVid='0UrlUrO1YbE';} //@Scelua
-break;
-case 36:
-mydiv='Captain_Kebab',imgur='TsaW1dX',imgur9='0cImMKw.png',game='Parodius',ctype='Boss',lastupdate='24/01/2024',gdrv='1gGgE240lPfFJJ050h0Vk9wJlFe2c2E20';
-	ytVid='z_9bj3Bv0OY?si=1v1lRBeRhYBG0s7n&start=9&end=59'; //@trackiesthead1563
-break;
-case 37:
-mydiv='Biker_GAL',imgur='7dP9qeT',imgur9='XZyANSz.png',game='Battle_Circuit',ctype='Bonus',lastupdate='29/06/2016',gdrv='1kH-OrCFQMcm_gV8_sbxoSzLhySEqFrPT'
-	ytVid='NpmVTWn14Tc?si=_5_SXgRXvMJEMdtT&start=993&end=1043'; //@iconoclast575
-break;
-case 38:
-mydiv='Capitalism',imgur='HIynVUA',imgur9='LCZ5ymb.png',game='Real World',ctype='Boss',lastupdate='29/06/2016',gdrv='1t27oAqR6ef55hUgMLvwCKMHiqOn1GtKS'
-	ytVid='bMrw8Ocl8uo'; //@WitchVelvet
-break;
-case 39:
-mydiv='Wall_Face1-1',imgur='9uoKcu9',imgur9='T79ww2Z.png',game='Skyblazer',ctype='Boss',lastupdate='15/08/2016',gdrv='1VEBZzrcjKuZ6RXTy_E0PoMgzSEO0fv24'
-	ytVid='L3iArUMq1oQ?si=KGSnT7V-Ij39bz4_&start=140&end=190'; //@samuraikarasu
-break;
-case 40:
-mydiv='Tic-Tac-Toe',imgur='PgyIqB1',imgur9='8lWt8j9.png',game='Oldschool',ctype='Bonus',lastupdate='24/07/2016',gdrv='1JiWBKuN9LdOB_zZYlsK_SfHUx5gZUDvZ';
-rng=(Math.floor(Math.random()*3));
-	if (rng==0) {ytVid='wW_VbP0gkqI';} //@ranchsoil9387
-	if (rng==1) {ytVid='p6D_vgRD5B8';} //@TouhouSucksYouIdiots
-	if (rng==2) {ytVid='_45dSA02V-g?si=IXfd8DUa93i9KQxP&start=20&end=70';} //@ranchsoil9387
-break;
-case 41:
-mydiv='Full-of-Spiders',imgur='hXxFrKx',imgur9='3SH8IzW.png',game='Splatterhouse',ctype='Bonus',lastupdate='28/10/2016',gdrv='19f8oZl-KzlWeYGTo27vvteu9GPK_dVFi'
-rng=(Math.floor(Math.random()*2));
-	ytVid='bCUQZNA_jdA?si=Al2Syaw7MlSGG0Lv&start=286&end=336'; //@DeceasedCrab
-	ytPreview='2QISU6k8cMs'; //@mabskmk
-break;
-case 42:
-mydiv='Evil-Eye-of-Balor',imgur='1LDxq7H',imgur9='BI3xaoj.png',game='Terraria',ctype='Boss',lastupdate='25/03/2017',gdrv='1tsQ4AS7cl8emdMOHAtVbsGJtNp1ykaw6',bannerHtml='terraria.org',bannerImg='i.imgur.com/z4fwWXe.jpg'
-break;
-case 43:
-mydiv='Dress',imgur='yYVBanS',imgur9='eZnMTuE.png',game='Queen Axe',ctype='Bonus',lastupdate='13/01/2018',gdrv='1gYpG62kgEQYyLI0rLRhiNX_fJe-Egvrm'
-break;
-case 44:
-mydiv='Mermaid',imgur='YAMiPUI',imgur9='g4cEy24.png',game='Gaiares',ctype='Bonus',lastupdate='24/01/2024',gdrv='1O5lFMuFeLyPYXAwB5SaumvtlXZzXLrRK'
-rng=(Math.floor(Math.random()*2));
-	if (rng==0) {ytVid='eGHHIqf90ac';} //@XanderCoffin
-	if (rng==1) {ytVid='6DuHP9Xz91Y?si=gA8MFHzossg5PbSU&start=1080&end1130';} //@worldoflongplays
-break;
-case 45:
-mydiv='Boobs',imgur='yD1AWaE',imgur9='I6DUeVu.png',game='Amazon Brawl',ctype='Boss',lastupdate='24/01/2024',gdrv='15iwEE0g8Jun3eQQlYxw7uC7Jt1Vpv9ME',zpoints=10000
-break;
-case 46:
-mydiv='Reznor',imgur='qVYNGvN',imgur9='7JqhABW.png',game='Mario',ctype='Boss',lastupdate='24/05/2020',gdrv='15VTihsGmygebpBvSwTPvg2BkKdUNQ8u1';
-rng=(Math.floor(Math.random()*10));
-	if (rng==0) {ytVid='l_Hh1JuhbrM';} //@davidm69
-	if (rng==1) {ytVid='j9Lt3i-Vf8Q';} //@CV-Mugen
-	if (rng==2) {ytVid='cJvvlsVA4TE?si=2tMtptPr7R-4-I5M&start=272&end=322';} //@Silentgirl22
-	if (rng==3) {ytVid='6Ksq0gJnibE';} //@davidm69
-	if (rng==4) {ytVid='_cUM_9WVEMo';} //@CV-Mugen
-	if (rng==5) {ytVid='MK2EJID9w6g';} //@DARKSOLODONALDAS8768
-	if (rng==6) {ytVid='c6XKOAb5gHI?si=oqsduMNEVRlkZYHs&start=12&end=62';} //@jewelmen10mugen87
-	if (rng==7) {ytVid='qgLOndlDzR0?si=0IqyCV94QfsjuZAW&start=23&end=73';} //@tenshihinanawi1643
-	if (rng==8) {ytVid='aUq0eaEb4Ak?si=DHeexi5KxAGRPFmy&start=5&end=55';} //@trackiesthead1563
-	if (rng==9) {ytVid='1h6h7rn9krM?si=n4_F9Fx9s4DGJYHJ&start=12&end=62';} //@jewelmen10mugen87
-	ytPreview='4Z9wn4wjxvQ'; //@mabskmk
-break;
-case 47:
-mydiv='R-Memory',imgur='RNwRj1K',imgur9='vj39rR3.png',game='R-Type',ctype='Bonus',lastupdate='21/11/2026',gdrv='1PNzI6IssGK8BSsYcLCr2xSVrdiDblXVX';
-	ytVid='lxuzFYhnJbI?si=9TgFK-geJ60x3wd_&start=14&end=64'; //@jewelmen10mugen87
-	ytPreview='WNj1zkk6iDA'; //@mabskmk
-break;
-case 48:
-mydiv='Head-of-Ukyo',imgur='RZ9lnLU',imgur9='Y7rsQZd.png',game='original',ctype='Boss',lastupdate='31/10/2020',gdrv='1jPx1agCPmLw2Sc9ew4o8zS9j4xnajn9E'
-	ytPreview='jfSGYT5UEy0'; //@mabskmk
-break;
-case 49:
-mydiv='Shimeji',imgur='IDrbSZ8',imgur9='sJuKFFz.png',game='<a target=_blank href=https://kilkakon.com/shimeji><img src=https://i.imgur.com/RG52doK.png width=25 height=25></a>',ctype='Bonus',lastupdate='24/12/2020',gdrv='1nKdd3q6eaRqfTQz1I_vfykm8-u0Uq2IT'
-	ytVid='S7fPCGh5xxo?si=4iJGg-d7gazgba6b&start=147&end=217'; //@KonfluxGames
-break;
-case 50:
-mydiv='Thicc-Tac-Toe',imgur='ld7q5PX',imgur9='yxzkrR1.png',game='Metal Slut',ctype='Bonus',lastupdate='13/01/2021',gdrv='1ezCyx2EDm4b2Ko1hypdfUFB4Baw5zXVa'
-break;
-case 51:
-mydiv='Golem',imgur='pbrqOGU',imgur9='EpX4fu3.png',game='Nosferatu',ctype='Bonus',lastupdate='31/10/2021',gdrv='18p-BFz34xr2fklFNuJkcr-kaqTYVNODy';
-rng=(Math.floor(Math.random()*2));
-	if (rng==0) {ytVid='V0haA20g4_A?si=urI-6GBu2kFI8z-u&start=1576&end=1626';} //@trackiesthead1563
-	if (rng==1) {ytVid='jFqRkTy_2hs?si=LBiWOEaVu6iqocqp&start=530&end=580';} //@LegendaryDreamerchannel
-break;
-case 52:
-mydiv='OOM-Killer',imgur='meIJuGr',imgur9='1iC2W4S.png',game='Turrican',ctype='Bonus',lastupdate='31/10/2021',gdrv='1mZm2fg8-GE29Uk61ZOPNlc7NMNy0LfJe'
-break;
-case 53:
-mydiv='Sandwitch',imgur='2APcz3X',imgur9='zyTExeh.png',game='Puyo_Puyo',ctype='Bonus',lastupdate='31/10/2021',gdrv='1CrFqUEl2u9or1SRXbJ5GqwpZVJ1FKtMu'
-	ytVid='-XtG63ruDMM?si=j9EaI9cpo5XoyUcc&start=15&end=65'; //@jewelmen10mugen87
-	ytPreview='XM0Y-k8WLdY'; //@mabskmk
-break;
-case 54:
-mydiv='Sausage_Monks',imgur='uVVlLl7',imgur9='en1KRSZ.png',game='Makaimura',ctype='Bonus',lastupdate='31/10/2024',gdrv='1c43XQfrPThdtR2g1rM8kPMyrPffJeqOH'
-break;
-case 55:
-mydiv='Rede_Globo',imgur='cQtHlPU',imgur9='T9e4Il1.png',game='???',ctype='Joke',lastupdate='30/10/2019',gdrv='1jjLIScUv8tqO6-w6QAfe7XpccP6ENzFX',zpoints=10000
-rng=(Math.floor(Math.random()*3));
-	if (rng==0) {ytVid='W9bSU1d2wME';} //@TheRatCooler
-	if (rng==1) {ytVid='Y7FZjAm7wWw';} //@TheRatCooler
-	if (rng==2) {ytVid='vvZEbusxgCc';} //@TheRatCooler
-break;
-case 56:
-mydiv='Yonita',imgur='3dn8Twj',imgur9='OBmGo20.png',game='Alien_X_Predator',ctype='Joke',lastupdate='20/11/2021',gdrv='1wThRuRji2OB5C3zyB5MW03YOqhcleBZi',zpoints=10000
-break;
-case 0:
-mydiv=''
-}
-
-if (bannerHtml==''){
-rng=(Math.floor(Math.random()*15));
-	if (rng==0) {bannerHtml='wani-shima.sakura.ne.jp/MUGEN.html';bannerImg='wani-shima.sakura.ne.jp/kyouryuubana.jpg';}
-	if (rng==1) {bannerHtml='kaendd.free.fr';bannerImg='i.imgur.com/8OmGYOX.png';}
-	if (rng==2) {bannerHtml='ankokunaitou.blog.fc2.com';bannerImg='i.imgur.com/EIXSnzc.png';}
-	if (rng==3) {bannerHtml='sunnyworld.free.fr';bannerImg='i.imgur.com/gAsrMM0.png';}
-	if (rng==4) {bannerHtml='valgallah77.web.fc2.com/';bannerImg='i.imgur.com/q7RAxeG.png';}
-	if (rng==5) {bannerHtml='mugedoso.web.fc2.com/nhk/index.html';bannerImg='i.imgur.com/mXtDvrn.png';}
-	if (rng==6) {bannerHtml='www.ne.jp/asahi/across/chronicle/';bannerImg='i.imgur.com/8J4NDcA.png';}
-	if (rng==7) {bannerHtml='ngmc.retrogames.com/index.html';bannerImg='i.imgur.com/X4AzHu1.gif';}
-	if (rng==8) {bannerHtml='mugen-restaurant.jp/';bannerImg='i.imgur.com/GXjxQXs.png';}
-	if (rng==9) {bannerHtml='network.mugenguild.com/basara/';bannerImg='i.imgur.com/ZF0Qs7E.png';}
-	if (rng==10) {bannerHtml='mugenfreeforall.com/topic/51530-3ha-collection/';bannerImg='web.archive.org/web/20111018152538im_/http://page.freett.com/3ha/img/ba.gif';}
-	if (rng==11) {bannerHtml='www.andersonkenya1.net/';bannerImg='media.invisioncic.com/z328913/set_resources_1/6d538d11ecfced46f459ee300b5e80ec_ak1-button_17f8a0.gif';}
-	if (rng==12) {bannerHtml='sites.google.com/view/ohmsby-mugen/';bannerImg='i.imgur.com/hYMIIuZ.png';}
-	if (rng==13) {bannerHtml='sites.google.com/view/gemeos-dos-jogos/mugen';bannerImg='i.imgur.com/SoebPHW.png';}
-	if (rng==14) {bannerHtml='twitter.com/Zanmyo';bannerImg='i.imgur.com/qV3Q36A.gif';}
-}
-if (ytVid.length > 15) {sufix='&autoplay=1&mute=1';}
-if (ytVid == '' && ytPreview != '') {ytVid=ytPreview;}
-if (ytVid.length < 15 && ytPreview == '') {ytPreview=ytVid;}
-
-switch (code) {
-	// Build the button
-	case 1:
-		if ( (zpoints==0) || (playerOne[0] >= zpoints) || isHalloween ) {
-		document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+".png onClick='charData("+numero+",2)' class='rbutton' width=25 height=25><b>"+mydiv+"</b> "+game+" / "+ctype+" / Last update: "+lastupdate+"<br>"
-		}
-	break;
-	// Button action
-	case 2:
-		if (ytPreview != '') {ytPreview = "<br><iframe src=https://www.youtube.com/embed/"+ytPreview+" width='500' height='300' frameborder='0'></iframe>";}
-		document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+".png width=25 height=25><b>"+mydiv+"</b> "+game+" / "+ctype+" / Last update: "+lastupdate+"<br>"+ytPreview+"<br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a>"
-	break;
-	// Video showcase
-	case 3:
-		if ( (zpoints==0) || (playerOne[0] >= zpoints) || isHalloween ) {
-			if (ytVid!=''){
-			document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+ytVid+""+sufix+" width='500' height='300' frameborder='0'></iframe><br><img src=https://i.imgur.com/"+imgur+".png width=20 height=20> CHAR ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=CHAR_"+mydiv+"></a>";
-			document.getElementById('BPt').src="https://i.imgur.com/"+imgur9+"";
-			}
-			else{
-			document.getElementById('videoshowcase').innerHTML="<img src=https://i.imgur.com/"+imgur9+" height='300'><br>CHAR ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=CHAR_"+mydiv+"></a>"
-			}
-		}
-		else{
-			rng=(Math.floor(Math.random()*2));
-			if (rng==0) { document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/3glPmy2zyBk?si=pXZI2xQ4Ltr8MLE_&start=244&end=294&autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Full-Game: <b>Steel Warriors</b> <a target='_blank' href=https://drive.google.com/uc?id=16hXJNPKyTcNZZYhe7dZ6agLkFXNgw3Pm><img src=https://i.imgur.com/pJFCm25.png title='Steel Warriors'></a>" ;}
-			if (rng==1) { document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/NCT7VU6QVLY?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Full-Game: <b>Steel Warriors</b> <a target='_blank' href=https://drive.google.com/uc?id=16hXJNPKyTcNZZYhe7dZ6agLkFXNgw3Pm><img src=https://i.imgur.com/pJFCm25.png title='Steel Warriors'></a>" ;}
-		}
-		document.getElementById('banner').innerHTML="<a target='_blank' href=https://"+bannerHtml+"><img src=https://"+bannerImg+"></a>";
-	break;
-	// Last20Index
-	case 4:
-		return (lastupdate);
-	break;
-	// Last20Index
-	case 5:
-		return (ctypeID);
-	break;
-}
-
-const elementos = document.querySelectorAll('b, a');
-elementos.forEach(elemento => {
-  if (isHalloween) {elemento.style.color = 'red';}
-});
-
-}
+///////////////////////////////////////////////////
 
 // LINK GDRV DROPBOX YOUTUBE
 // {window.open('https://www.dropbox.com/sh/gqnzgea8ec80pvx/AACYMGQkTpC7rg6FcazaK-rPa?dl=0','_blank')}
 // document.getElementById(numero).innerHTML="<img src=https://i.imgur.com/"+imgur+".png width=25 height=25><b>"+mydiv+"</b> "+game+" / "+ctype+" / Last update: "+lastupdate+"<br><iframe src=https://www.youtube.com/embed/"+ytVid+" width='430' height='240' frameborder='0'></iframe><br><a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png></a>"
 // videoshowcase <iframe src=https://www.youtube.com/embed/"+ytVid+""+sufix+" width='500' height='300' frameborder='0'></iframe>
 
+///////////////////////////////////////////////////
 
 
 
