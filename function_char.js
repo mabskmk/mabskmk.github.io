@@ -421,11 +421,10 @@ if ( (zpoints==0) || (playerOne[0] >= zpoints) || isHalloween ) {
 	if (ytVid!=''){
 		document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/"+ytVid+""+sufix+" width='500' height='300' frameborder='0'></iframe><br><img src=https://i.imgur.com/"+imgur+".png width=20 height=20> CHAR ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=CHAR_"+mydiv+"></a>";
 		document.getElementById('BPt').src="https://i.imgur.com/"+imgur9+"";
-	} else{
+	} else {
 		document.getElementById('videoshowcase').innerHTML="<img src=https://i.imgur.com/"+imgur9+" height='300'><br>CHAR ("+numero+"): <b>"+mydiv+"</b> <a target='_blank' href=https://drive.google.com/uc?id="+gdrv+"><img src=https://i.imgur.com/pJFCm25.png title=CHAR_"+mydiv+"></a>"
 	}
-}
-else {
+} else {
 	rng=(Math.floor(Math.random()*2));
 		if (rng==0) { document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/3glPmy2zyBk?si=pXZI2xQ4Ltr8MLE_&start=244&end=294&autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Full-Game: <b>Steel Warriors</b> <a target='_blank' href=https://drive.google.com/uc?id=16hXJNPKyTcNZZYhe7dZ6agLkFXNgw3Pm><img src=https://i.imgur.com/pJFCm25.png title='Steel Warriors'></a>" ;}
 		if (rng==1) { document.getElementById('videoshowcase').innerHTML="<iframe src=https://www.youtube.com/embed/NCT7VU6QVLY?autoplay=1&mute=1 width='500' height='300' frameborder='0'></iframe><br>Full-Game: <b>Steel Warriors</b> <a target='_blank' href=https://drive.google.com/uc?id=16hXJNPKyTcNZZYhe7dZ6agLkFXNgw3Pm><img src=https://i.imgur.com/pJFCm25.png title='Steel Warriors'></a>" ;}
@@ -480,7 +479,7 @@ return charIndex-1;
 
 function menuchar() {
 console.log("char.js total of chars: "+numChars);
-let {divOrder, indexShow} =  orderBydate();
+let {divOrder, indexShow} =  orderBydate1();
 document.getElementById('principal').innerHTML="<center><table border=0><td align=right width=500>"+divOrder+"...<br><br><a target='_blank' href='https://www.mediafire.com/folder/ftea2duwm6m09/WarehouseCHAR'><b>Warehouse</b></a> / <a target='_blank' href='https://drive.google.com/drive/folders/1zOzmbowxzpeFmbV_mVAeOaKhRGPFzFuQ?usp=drive_link'><b>W.I.P?</b></a><br><br><input type=button onClick='ppmain(1)' value='.Clean.'><br><tr></table></center>"
 /*
 OLD version
@@ -502,7 +501,7 @@ charData(indexShow,2);
 // Function to create divs in order
 ///////////////////////////////////////////////////
 
-function orderBydate() {
+function orderBydate1() {
 	
 let dataArray = [];
 let dataBR = '';
@@ -523,11 +522,11 @@ const dataOrder = dataArray
 
 indexShow = ( (dataOrder[0].indice)+1 )	
 
-console.log("char.js original list: ");
+console.log("	original list: ");
 console.log(dataArray);
-console.log("char.js ordered list: ");
+console.log("	ordered list: ");
 console.log(dataOrder);
-console.log("char.js first index: "+indexShow);
+console.log("	first index: "+indexShow);
 	
 // Check the ctypeID ( 0:Character or 1:Minigame )
 if ( charData(indexShow , 5) == 0 ) { 
@@ -644,7 +643,7 @@ let i = 0;
 	} while ( i < 20 );
 
 console.log("char.js preview index: "+myArray);
-console.log("char.js preview number: "+myArray.length);
+console.log("	preview number: "+myArray.length);
 return myArray;	
 }
 
