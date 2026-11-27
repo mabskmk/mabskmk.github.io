@@ -320,13 +320,14 @@ rng=(Math.floor(Math.random()*280));
 break;
 case 2:
 rng=(Math.floor(Math.random()*7));
-	if (rng==0) {myLabel='Misc uploads playlist',youtube='videoseries?si=QQ8yi5cHcLnFNksB&amp;list=PLwmmiI53xsNQvJP2DEdkA-Y5U6qDv_18M',link='www.youtube.com/playlist?list=PLwmmiI53xsNQvJP2DEdkA-Y5U6qDv_18M';}
-	if (rng==1) {myLabel='Mugenize playlist',youtube='videoseries?si=2ZMgE207rmPLtDGF&amp;list=PLwmmiI53xsNSYw7zpYJztCY58nKnvMh9-',link='www.youtube.com/playlist?list=PLwmmiI53xsNSYw7zpYJztCY58nKnvMh9-';}
-	if (rng==2) {myLabel='Mugen community videos',youtube='videoseries?si=oqow6my_GV8l5n-y&amp;list=PLwmmiI53xsNQsutr_aFPXdNxuCh8xuYAW',link='www.youtube.com/playlist?list=PLwmmiI53xsNQsutr_aFPXdNxuCh8xuYAW';}
-	if (rng==3) {myLabel='GaMeS',youtube='videoseries?si=Jq4dbVss0i5wgg1_&amp;list=PLwmmiI53xsNS2p5bVRnEMvTK7A54VZ8GA',link='www.youtube.com/playlist?list=PLwmmiI53xsNS2p5bVRnEMvTK7A54VZ8GA';}
-	if (rng==4) {myLabel='Cinema',youtube='videoseries?si=w07VQ4Vt-E0CpyFp&amp;list=PLwmmiI53xsNQlEEWr2XpDDa7Qi0TSjNxJ',link='www.youtube.com/playlist?list=PLwmmiI53xsNQlEEWr2XpDDa7Qi0TSjNxJ';}
-	if (rng==5) {myLabel='FAVs',youtube='videoseries?si=JRDXxGQiVaqONwNq&amp;list=PLwmmiI53xsNTAnaBZXJfYuYRTtKgH58oV',link='www.youtube.com/playlist?list=PLwmmiI53xsNTAnaBZXJfYuYRTtKgH58oV';}
-	if (rng==6) {myLabel='Following playlist',youtube='videoseries?si=63o-JDeYPi4X4Tai&amp;list=PLwmmiI53xsNRl0wVykp6pZ5zg_6JPgY1U',link='www.youtube.com/playlist?list=PLwmmiI53xsNRl0wVykp6pZ5zg_6JPgY1U';}
+let anotheRNG=(Math.floor(Math.random()*10)+1)
+	if (rng==0) {myLabel='Misc uploads playlist',youtube="videoseries?si=QQ8yi5cHcLnFNksB&amp;list=PLwmmiI53xsNQvJP2DEdkA-Y5U6qDv_18M&index="+anotheRNG ,link='www.youtube.com/playlist?list=PLwmmiI53xsNQvJP2DEdkA-Y5U6qDv_18M';}
+	if (rng==1) {myLabel='Mugenize playlist',youtube="videoseries?si=2ZMgE207rmPLtDGF&amp;list=PLwmmiI53xsNSYw7zpYJztCY58nKnvMh9-&index="+anotheRNG ,link='www.youtube.com/playlist?list=PLwmmiI53xsNSYw7zpYJztCY58nKnvMh9-';}
+	if (rng==2) {myLabel='Mugen community videos',youtube="videoseries?si=oqow6my_GV8l5n-y&amp;list=PLwmmiI53xsNQsutr_aFPXdNxuCh8xuYAW&index="+anotheRNG ,link='www.youtube.com/playlist?list=PLwmmiI53xsNQsutr_aFPXdNxuCh8xuYAW';}
+	if (rng==3) {myLabel='GaMeS',youtube="videoseries?si=Jq4dbVss0i5wgg1_&amp;list=PLwmmiI53xsNS2p5bVRnEMvTK7A54VZ8GA&index="+anotheRNG ,link='www.youtube.com/playlist?list=PLwmmiI53xsNS2p5bVRnEMvTK7A54VZ8GA';}
+	if (rng==4) {myLabel='Cinema',youtube="videoseries?si=w07VQ4Vt-E0CpyFp&amp;list=PLwmmiI53xsNQlEEWr2XpDDa7Qi0TSjNxJ&index="+anotheRNG ,link='www.youtube.com/playlist?list=PLwmmiI53xsNQlEEWr2XpDDa7Qi0TSjNxJ';}
+	if (rng==5) {myLabel='FAVs',youtube="videoseries?si=JRDXxGQiVaqONwNq&amp;list=PLwmmiI53xsNTAnaBZXJfYuYRTtKgH58oV&index="+anotheRNG ,link='www.youtube.com/playlist?list=PLwmmiI53xsNTAnaBZXJfYuYRTtKgH58oV';}
+	if (rng==6) {myLabel='Following playlist',youtube="videoseries?si=63o-JDeYPi4X4Tai&amp;list=PLwmmiI53xsNRl0wVykp6pZ5zg_6JPgY1U&index="+anotheRNG ,link='www.youtube.com/playlist?list=PLwmmiI53xsNRl0wVykp6pZ5zg_6JPgY1U';}
 break;
 case 3:
 myLabel='Check out the 66th place in MAGMML2',youtube='zSFWH5X9K_Y?si=oPb63hYxItrSzeOP',link='magmmlcontest.com/wiki/index.php/Chomp_Man_(stage)',bannerHtml='www.sprites-inc.co.uk',bannerImg='i.imgur.com/RqfqBg1.png'
@@ -346,7 +347,7 @@ break;
 }
 
 if (bannerHtml==''){
-rng=(Math.floor(Math.random()*15));
+rng=(Math.floor(Math.random()*16));
 	if (rng==0) {bannerHtml='wani-shima.sakura.ne.jp/MUGEN.html';bannerImg='wani-shima.sakura.ne.jp/kyouryuubana.jpg';}
 	if (rng==1) {bannerHtml='kaendd.free.fr';bannerImg='i.imgur.com/8OmGYOX.png';}
 	if (rng==2) {bannerHtml='ankokunaitou.blog.fc2.com';bannerImg='i.imgur.com/EIXSnzc.png';}
@@ -362,6 +363,7 @@ rng=(Math.floor(Math.random()*15));
 	if (rng==12) {bannerHtml='sites.google.com/view/ohmsby-mugen/';bannerImg='i.imgur.com/hYMIIuZ.png';}
 	if (rng==13) {bannerHtml='sites.google.com/view/gemeos-dos-jogos/mugen';bannerImg='i.imgur.com/SoebPHW.png';}
 	if (rng==14) {bannerHtml='twitter.com/Zanmyo';bannerImg='i.imgur.com/qV3Q36A.gif';}
+	if (rng==15) {bannerHtml='imgur.com/vugh2if';bannerImg='i.imgur.com/vugh2if.png';}
 }
 
 if ( youtube!=='' ) { prefix='youtube',sufix=youtube+"&autoplay=1&mute=1";}
